@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CySA+ CS0-003 — Master Prep Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0d1117;
+    --surface:   #161b22;
+    --surface2:  #1c2330;
+    --border:    #30363d;
+    --accent:    #58a6ff;
+    --accent2:   #3fb950;
+    --warn:      #d29922;
+    --danger:    #f85149;
+    --text:      #f0f6fc;
+    --muted:     #8b949e;
+    --code-bg:   #131a24;
+    --radius:    8px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  @media(min-width: 600px) {
+    header {
+      flex-direction: row;
+      align-items: center;
+      padding: 28px 40px;
+    }
+  }
+  .badge {
+    background: var(--warn);
+    color: #0d1117;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 4px;
+    width: fit-content;
+    letter-spacing: .05em;
+  }
+  header h1 {
+    font-size: 19px;
+    font-weight: 700;
+  }
+  header span {
+    color: var(--muted);
+    font-size: 14px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  @media(min-width: 600px) { header span { margin-left: auto; } }
+
+  .wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 24px 16px 80px;
+  }
+  @media(min-width: 600px) { .wrapper { padding: 48px 32px 80px; } }
+
+  .domain-header {
+    border-left: 4px solid var(--accent);
+    padding-left: 20px;
+    margin: 48px 0 28px;
+  }
+  .domain-header:first-of-type { margin-top: 0; }
+  
+  .domain-eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .domain-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .domain-header p {
+    color: var(--muted);
+    margin-top: 8px;
+    font-size: 15px;
+  }
+
+  .objective {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  .obj-title {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 24px;
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+  }
+  .obj-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    background: rgba(88,166,255,.1);
+    border: 1px solid rgba(88,166,255,.25);
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+  .obj-title h3 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .obj-body { padding: 20px; }
+  @media(min-width:600px) { .obj-body { padding: 24px; } }
+  
+  .section { margin-bottom: 32px; }
+  .section:last-of-type { margin-bottom: 0; }
+  
+  .section-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .explanation p { margin-bottom: 12px; color: #e6edf3; font-size: 16px; }
+  .explanation p:last-child { margin-bottom: 0; }
+
+  .topics { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media(min-width:750px){ .topics { grid-template-columns: 1fr 1fr; } }
+
+  .topic-item {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+  }
+  .topic-item strong {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .topic-item p { font-size: 14.5px; color: #e6edf3; line-height: 1.6; }
+
+  .score-bar {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .score-display {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+    white-space: nowrap;
+  }
+  .score-display span { font-size: 13px; color: var(--muted); font-weight: 400; }
+  .progress-wrap {
+    flex: 1;
+    height: 8px;
+    background: var(--border);
+    border-radius: 99px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    border-radius: 99px;
+    background: var(--accent2);
+    transition: width .4s ease;
+    width: 0%;
+  }
+  .btn-reset {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color .15s, color .15s;
+  }
+  .btn-reset:hover { border-color: var(--accent); color: var(--accent); }
+
+  .question {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: border-color .2s;
+  }
+  .question.correct  { border-color: var(--accent2); }
+  .question.wrong    { border-color: var(--danger); }
+
+  .q-stem {
+    padding: 18px 20px 14px;
+    font-size: 15.5px;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+  .q-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .options { padding: 0 20px 18px; display: flex; flex-direction: column; gap: 10px; }
+  .opt {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 16px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 14.5px;
+    line-height: 1.5;
+    transition: background .15s, border-color .15s;
+    user-select: none;
+  }
+  .opt:hover { background: var(--surface2); border-color: var(--accent); }
+  .opt .opt-letter {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted);
+    min-width: 18px;
+    padding-top: 2px;
+  }
+  .opt.selected           { border-color: var(--accent);  background: rgba(88,166,255,.08); }
+  .opt.correct-answer     { border-color: var(--accent2); background: rgba(63,185,80,.12);  }
+  .opt.wrong-answer       { border-color: var(--danger);  background: rgba(248,81,73,.1);   }
+  .opt.disabled           { cursor: default; }
+
+  .feedback {
+    padding: 12px 20px 18px;
+    font-size: 14px;
+    line-height: 1.6;
+    display: none;
+    border-top: 1px solid var(--border);
+    background: rgba(0,0,0,0.15);
+  }
+  .feedback.show { display: block; }
+  .feedback.ok  { color: var(--accent2); }
+  .feedback.err { color: var(--danger);  }
+  .feedback strong { font-weight: 600; color: var(--text); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="badge">CS0-003</div>
+  <h1>CompTIA CySA+ — Master Prep Guide</h1>
+  <span>Exame Atualizado 2026</span>
+</header>
+
+<div class="wrapper">
+
+  <!-- ==================== DOMAIN 1 ==================== -->
+  <div class="domain-header">
+    <div class="domain-eyebrow">Domain 1 • 33% do exame</div>
+    <h2>Security Operations (SecOps)</h2>
+    <p>Arquitetura de sistemas, indicadores de atividade maliciosa, ferramentas avançadas e automação tática.</p>
+  </div>
+
+  <!-- OBJECTIVE 1.1 -->
+  <div class="objective">
+    <div class="obj-title"><span class="obj-num">1.1</span><h3>System and Network Architecture</h3></div>
+    <div class="obj-body">
+      <div class="section explanation">
+        <div class="section-label">Explicação</div>
+        <p>Analistas de SOC (Security Operations Center) devem rastrear perímetros dinâmicos. Isso envolve o entendimento de arquiteturas híbridas e modernas voltadas para validação contínua de requisições e isolamento de fluxos de dados.</p>
+      </div>
+      <div class="section">
+        <div class="section-label">Tópicos principais</div>
+        <div class="topics">
+          <div class="topic-item"><strong>Zero Trust Architecture (ZTA) & SASE</strong><p>ZTA (Zero Trust Architecture). SASE (Secure Access Service Edge) une SD-WAN (Software-Defined Wide Area Network) à segurança de borda nativa na nuvem via CASB (Cloud Access Security Broker) e ZTNA (Zero Trust Network Access).</p></div>
+          <div class="topic-item"><strong>IAM & PAM Controls</strong><p>IAM (Identity and Access Management). PAM (Privileged Access Management) mitiga riscos focando no controle e auditoria restrita de credenciais root, administrativas e de alta gerência.</p></div>
+        </div>
+      </div>
+      <div class="section"><div class="section-label">Mini-Simulado 1.1</div>
+        <div class="score-bar"><div class="score-display" id="score-obj11">0 <span>/ 0</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj11"></div></div><button class="btn-reset" onclick="resetSection('obj11')">Reset</button></div>
+        <div id="qlist-obj11"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OBJECTIVE 1.2 -->
+  <div class="objective">
+    <div class="obj-title"><span class="obj-num">1.2</span><h3>Indicators of Malicious Activity</h3></div>
+    <div class="obj-body">
+      <div class="section explanation">
+        <div class="section-label">Explicação</div>
+        <p>Capacidade analítica de monitorar anomalias em múltiplas superfícies: redes empresariais, registros de sistemas operacionais locais e logs de transações de aplicações web.</p>
+      </div>
+      <div class="section">
+        <div class="section-label">Tópicos principais</div>
+        <div class="topics">
+          <div class="topic-item"><strong>Host Indicators</strong><p>Modificações suspeitas no Windows Registry para persistência, execução não autorizada fora dos caminhos padrão de binários e injeções diretas em memória RAM.</p></div>
+          <div class="topic-item"><strong>Network Indicators</strong><p>Padrões persistentes de Beaconing com servidores de C2 (Command and Control), transferências volumosas atípicas e desvios críticos nas linhas de base de tráfego.</p></div>
+        </div>
+      </div>
+      <div class="section"><div class="section-label">Mini-Simulado 1.2</div>
+        <div class="score-bar"><div class="score-display" id="score-obj12">0 <span>/ 0</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj12"></div></div><button class="btn-reset" onclick="resetSection('obj12')">Reset</button></div>
+        <div id="qlist-obj12"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OBJECTIVE 1.3 -->
+  <div class="objective">
+    <div class="obj-title"><span class="obj-num">1.3</span><h3>Tools and Techniques</h3></div>
+    <div class="obj-body">
+      <div class="section explanation">
+        <div class="section-label">Explicação</div>
+        <p>Operação técnica do ecossistema defensivo do SOC para agregar, normalizar, analisar pacotes e automatizar ações de mitigação imediata.</p>
+      </div>
+      <div class="section">
+        <div class="section-label">Tópicos principais</div>
+        <div class="topics">
+          <div class="topic-item"><strong>SIEM & SOAR Platforms</strong><p>SIEM (Security Information and Event Management) consolida logs. SOAR (Security Orchestration, Automation, and Response) executa respostas orquestradas programaticamente através de APIs.</p></div>
+          <div class="topic-item"><strong>EDR & XDR</strong><p>EDR (Endpoint Detection and Response) oferece telemetria profunda no host. XDR (Extended Detection and Response) expande o escopo integrando logs de nuvem, identidade e redes.</p></div>
+        </div>
+      </div>
+      <div class="section"><div class="section-label">Mini-Simulado 1.3</div>
+        <div class="score-bar"><div class="score-display" id="score-obj13">0 <span>/ 0</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj13"></div></div><button class="btn-reset" onclick="resetSection('obj13')">Reset</button></div>
+        <div id="qlist-obj13"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== DOMAIN 2 ==================== -->
+  <div class="domain-header">
+    <div class="domain-eyebrow">Domain 2 • 30% do exame</div>
+    <h2>Vulnerability Management</h2>
+    <p>Escaneamentos de conformidade, classificação de severidade com CVSSv3 e ciclo de vida de risco.</p>
+  </div>
+
+  <!-- OBJECTIVE 2.1 -->
+  <div class="objective">
+    <div class="obj-title"><span class="obj-num">2.1</span><h3>Scanning Methods</h3></div>
+    <div class="obj-body">
+      <div class="section explanation">
+        <div class="section-label">Explicação</div>
+        <p>Estratégias de escaneamento adaptadas às restrições regulatórias e à sensibilidade de ambientes de tecnologia operacional ou legado.</p>
+      </div>
+      <div class="section">
+        <div class="section-label">Tópicos principais</div>
+        <div class="topics">
+          <div class="topic-item"><strong>Credentialed vs Non-Credentialed Scans</strong><p>Varreduras Credenciadas inspecionam pacotes locais e configurações internas. Varreduras não credenciadas avaliam apenas superfícies e portas externas expostas.</p></div>
+          <div class="topic-item"><strong>OT & SCADA Environments</strong><p>OT (Operational Technology). SCADA (Supervisory Control and Data Acquisition). Infraestruturas que exigem varreduras passivas para prevenir interrupções de sistemas e indisponibilidades físicas.</p></div>
+        </div>
+      </div>
+      <div class="section"><div class="section-label">Mini-Simulado 2.1</div>
+        <div class="score-bar"><div class="score-display" id="score-obj21">0 <span>/ 0</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj21"></div></div><button class="btn-reset" onclick="resetSection('obj21')">Reset</button></div>
+        <div id="qlist-obj21"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OBJECTIVE 2.3 -->
+  <div class="objective">
+    <div class="obj-title"><span class="obj-num">2.3</span><h3>Prioritization with CVSS</h3></div>
+    <div class="obj-body">
+      <div class="section explanation">
+        <div class="section-label">Explicação</div>
+        <p>Uso analítico do CVSS (Common Vulnerability Scoring System) para decifrar a anatomia técnica de exploração de vulnerabilidades divulgadas.</p>
+      </div>
+      <div class="section">
+        <div class="section-label">Tópicos principais</div>
+        <div class="topics">
+          <div class="topic-item"><strong>CVSS Metrics Groups</strong><p>Dividido em: Base Score (características estáticas intrínsecas), Temporal Score (existência de exploits no mundo real) e Environmental Score (impacto no contexto da rede local).</p></div>
+          <div class="topic-item"><strong>Vector String Anatomy</strong><p>Componentes cruciais como AV (Attack Vector), AC (Attack Complexity), PR (Privileges Required), UI (User Interaction) e os impactos na tríade CIA (Confidentiality, Integrity, Availability).</p></div>
+        </div>
+      </div>
+      <div class="section"><div class="section-label">Mini-Simulado 2.3</div>
+        <div class="score-bar"><div class="score-display" id="score-obj23">0 <span>/ 0</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj23"></div></div><button class="btn-reset" onclick="resetSection('obj23')">Reset</button></div>
+        <div id="qlist-obj23"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== DOMAIN 3 ==================== -->
+  <div class="domain-header">
+    <div class="domain-eyebrow">Domain 3 • 20% do exame</div>
+    <h2>Incident Response and Management</h2>
+    <p>Frameworks de mapeamento de intrusão, contenção tática e pós-incidente.</p>
+  </div>
+
+  <!-- OBJECTIVE 3.1 -->
+  <div class="objective">
+    <div class="obj-title"><span class="obj-num">3.1</span><h3>Attack Frameworks</h3></div>
+    <div class="obj-body">
+      <div class="section explanation">
+        <div class="section-label">Explicação</div>
+        <p>Mapeamento padronizado global de comportamentos e conexões lógicas de adversários durante campanhas de intrusão ativa.</p>
+      </div>
+      <div class="section">
+        <div class="section-label">Tópicos principais</div>
+        <div class="topics">
+          <div class="topic-item"><strong>MITRE ATT&CK & Cyber Kill Chain</strong><p>MITRE ATT&CK organiza matrizes detalhadas de TTPs (Tactics, Techniques, and Procedures). Cyber Kill Chain (Lockheed Martin) rastreia as etapas lineares do ataque.</p></div>
+          <div class="topic-item"><strong>The Diamond Model</strong><p>Estrutura conexões em quatro eixos fundamentais: Adversary (Adversário), Capability (Capacidade), Infrastructure (Infraestrutura) e Victim (Vítima).</p></div>
+        </div>
+      </div>
+      <div class="section"><div class="section-label">Mini-Simulado 3.1</div>
+        <div class="score-bar"><div class="score-display" id="score-obj31">0 <span>/ 0</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj31"></div></div><button class="btn-reset" onclick="resetSection('obj31')">Reset</button></div>
+        <div id="qlist-obj31"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== DOMAIN 4 ==================== -->
+  <div class="domain-header">
+    <div class="domain-eyebrow">Domain 4 • 17% do exame</div>
+    <h2>Reporting and Communication</h2>
+    <p>Métricas operacionais, inibidores contratuais de remediação e relatórios de conformidade.</p>
+  </div>
+
+  <!-- OBJECTIVE 4.1 -->
+  <div class="objective">
+    <div class="obj-title"><span class="obj-num">4.1</span><h3>Vulnerability Reporting</h3></div>
+    <div class="obj-body">
+      <div class="section explanation">
+        <div class="section-label">Explicação</div>
+        <p>Tratamento de travas operacionais de governança corporativa e consolidação de indicadores chaves para prestação de contas executivas.</p>
+      </div>
+      <div class="section">
+        <div class="section-label">Tópicos principais</div>
+        <div class="topics">
+          <div class="topic-item"><strong>Remediation Inhibitors</strong><p>Fatores de bloqueio formal como SLAs (Service Level Agreements) rígidos de disponibilidade, MOUs (Memorandums of Understanding) corporativos ou dependência de sistemas legados de produção.</p></div>
+          <div class="topic-item"><strong>Key Performance Indicators</strong><p>KPIs (Key Performance Indicators) e SLOs (Service Level Objectives) que rastreiam o tempo decorrido de vulnerabilidades abertas e taxas de sucesso de patch management.</p></div>
+        </div>
+      </div>
+      <div class="section"><div class="section-label">Mini-Simulado 4.1</div>
+        <div class="score-bar"><div class="score-display" id="score-obj41">0 <span>/ 0</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj41"></div></div><button class="btn-reset" onclick="resetSection('obj41')">Reset</button></div>
+        <div id="qlist-obj41"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== SIMULADO COMPLETO 50 QUESTÕES ==================== -->
+  <div class="objective">
+    <div class="obj-title" style="background: var(--code-bg); border-bottom: 2px solid var(--accent2);">
+      <span class="obj-num" style="color: var(--accent2); background: rgba(63,185,80,.1); border-color: var(--accent2);">FINAL</span>
+      <h3>Simulado Final Geral — CompTIA CySA+ (50 Questões Multi-Domínio)</h3>
+    </div>
+    <div class="obj-body">
+      <div class="score-bar">
+        <div class="score-display" id="score-master">0 <span>/ 0</span></div>
+        <div class="progress-wrap"><div class="progress-fill" id="prog-master"></div></div>
+        <button class="btn-reset" onclick="resetSection('master')">Reiniciar Simulado</button>
+      </div>
+      <div id="qlist-master"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const data = {
+  "obj11": [
+    { q: "Um analista de segurança está revisando o fluxo de autenticação de uma infraestrutura em nuvem que implementa Zero Trust Architecture (ZTA). Qual componente lógico central da arquitetura avalia o contexto do usuário e toma a decisão final de conceder acesso a um recurso?", opts: ["Policy Enforcement Point (PEP)","Policy Decision Point (PDP)","Secure Web Gateway (SWG)","Identity Provider (IdP) puro"], ans: 1, exp: "O PDP (Policy Decision Point) toma a decisão de acesso baseando-se em políticas contextuais, enquanto o PEP (Policy Enforcement Point) apenas executa e impõe fisicamente o veredito decidido pelo PDP." },
+    { q: "Uma corporação decide integrar seus controles de segurança de nuvem e de rede unificando SWG, CASB e ZTNA em um único serviço distribuído globalmente de borda. Qual conceito descreve essa arquitetura?", opts: ["SD-WAN puro","Secure Access Service Edge (SASE)","Privileged Access Management (PAM)","Software-Defined Perimeter (SDP)"], ans: 1, exp: "SASE (Secure Access Service Edge) une capacidades avançadas de rede de longa distância (SD-WAN) com funções de segurança nativas na nuvem em borda elástica (SWG, CASB, ZTNA)." },
+    { q: "Qual ferramenta ou controle técnico do ecossistema de gerenciamento de identidades deve ser implementado de forma restrita para auditar e gerenciar sessões interativas executadas apenas por administradores com credenciais root ou equivalentes?", opts: ["Single Sign-On (SSO)","Multi-Factor Authentication (MFA) comum","Privileged Access Management (PAM)","Identity as a Service (IDaaS)"], ans: 2, exp: "Soluções PAM (Privileged Access Management) focam especificamente na proteção, cofre, rotação e auditoria rigorosa de contas administrativas de alto privilégio (root, admin)." },
+    { q: "Uma auditoria apontou vazamento de dados regulados de cartões de pagamento (CHD - Cardholder Data) em logs abertos. Qual tecnologia deve ser implementada na borda dos servidores para identificar e interceptar a exfiltração desses dados em tempo de trânsito ou repouso?", opts: ["Data Loss Prevention (DLP)","Next-Generation Firewall (NGFW)","Network Time Protocol (NTP)","Host-based Intrusion Detection System (HIDS)"], ans: 0, exp: "Sistemas DLP (Data Loss Prevention) inspecionam o conteúdo de arquivos e fluxos de tráfego para detectar e bloquear dados confidenciais ou regulados (PII, CHD) saindo da rede." },
+    { q: "Ao estruturar a segmentação de rede baseada no conceito de Microsegmentação dentro de uma nuvem privada, qual o principal objetivo de segurança visado?", opts: ["Aumentar a largura de banda disponível para os workloads","Impedir a movimentação lateral de um atacante pós-comprometimento","Eliminar a necessidade de firewalls de borda perimetral","Facilitar a ingestão de logs não estruturados do SIEM"], ans: 1, exp: "A microsegmentação divide cargas de trabalho em zonas lógicas granulares isoladas, impedindo diretamente a movimentação lateral ilícita de um atacante dentro da infraestrutura interna." }
+  ],
+  "obj12": [
+    { q: "Durante o monitoramento de conexões outbound, um analista do SOC identifica pacotes criptografados enviados a um IP externo desconhecido que ocorrem precisamente a cada 600 segundos com o mesmo tamanho de payload. O que esse padrão indica?", opts: ["Exfiltração maciça por FTP","Beaconing de um Command and Control (C2)","Varredura ativa de portas de rede externa","Ataque distribuído de negação de serviço (DDoS)"], ans: 1, exp: "A cadência e o tamanho fixo de pacotes enviados a intervalos exatos para servidores externos caracterizam o Beaconing, usado por malwares para manter comunicação secreta com seu C2." },
+    { q: "Um analista de Host investiga um servidor Windows e descobre um binário malicioso que substituiu o espaço de memória virtual de um executável legítimo nativo (svchost.exe). Qual técnica foi empregada?", opts: ["DLL Side-Loading","Process Hollowing / Injection","PowerShell Ofuscation","Windows Registry Persistence"], ans: 1, exp: "O Process Hollowing (ou Injeção de Processos) consiste em desmapear o código legítimo de um processo em execução na memória RAM e injetar payloads hostis mantendo o nome do binário original confiável." },
+    { q: "Um servidor Web começa a responder massivamente com códigos de erro HTTP 500 (Internal Server Error) acompanhados por picos inesperados de CPU após receber requisições com strings excessivamente longas e caracteres repetidos em formulários de login. Qual indicador de aplicação isso sugere?", opts: ["Tentativa de Cross-Site Request Forgery (CSRF)","Ataque de estouro de buffer (Buffer Overflow) ou falha lógica na aplicação","Uso indevido de API REST sem autenticação","Exfiltração de dados via túnel ICMP"], ans: 1, exp: "Erros 500 persistentes em conjunto com o consumo anômalo de CPU após o envio de strings gigantes indicam falha no tratamento de entrada na aplicação, frequentemente resultando em estouro de buffer ou travamento lógico." },
+    { q: "O SOC detecta um alerta indicando alterações anômalas nas chaves HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run. Qual a intenção típica de um adversário ao modificar essa área específica do sistema operacional?", opts: ["Exfiltrar as senhas locais em texto claro","Garantir persistência para que o malware inicie com o sistema","Burlar os logs de eventos do Security Log","Executar um ataque de personificação de sessão (SSO)"], ans: 1, exp: "As chaves 'Run' e 'RunOnce' do Windows Registry são frequentemente alvos de atacantes para garantir persistência (Persistence), forçando o sistema a iniciar o malware automaticamente após reboots." },
+    { q: "Analisando logs do DNS corporativo, constata-se um volume massivo de consultas para subdomínios aleatórios e longos direcionados a uma zona controlada externamente. Esse comportamento é uma assinatura comum de qual técnica?", opts: ["DNS Tunneling para exfiltração ou C2","Ataque de injeção SQL cega (Blind SQLi)","Enumeração ativa de portas usando Nmap","Manipulação de rotas SASE de borda"], ans: 0, exp: "O tunelamento de DNS (DNS Tunneling) utiliza requisições de subdomínios TXT ou CNAME para embutir payloads ou dados exfiltrados contornando os firewalls de rede tradicionais." }
+  ],
+  "obj13": [
+    { q: "Qual plataforma central do SOC tem a finalidade de coletar grandes volumes de telemetria, parsear dados brutos, realizar correlação de eventos em tempo real e fornecer painéis de conformidade?", opts: ["SOAR","SIEM","EDR","Next-Gen WAF"], ans: 1, exp: "O SIEM (Security Information and Event Management) é a solução projetada para agregação de logs, normalização de dados e correlação analítica em tempo real de eventos multipartidários." },
+    { q: "Para acelerar a resposta do SOC, um engenheiro implementa um fluxo automatizado que, ao receber um alerta do EDR, isola a máquina da rede logicamente no switch e bloqueia o hash no proxy. Qual plataforma executa essa orquestração?", opts: ["SIEM avançado","SOAR","XDR puro","CASB de borda"], ans: 1, exp: "A automação de respostas táticas interconectadas usando playbooks programados e APIs externas é o escopo central de plataformas SOAR (Security Orchestration, Automation, and Response)." },
+    { q: "Um analista precisa inspecionar e analisar o tráfego bruto de rede em busca de cabeçalhos HTTP maliciosos ofuscados que os logs de fluxo de conexões (NetFlow) não registram. Qual ferramenta de análise de pacotes deve ser usada?", opts: ["Wireshark / tcpdump","Nmap com scripts NSE","Splunk Dashboard","Sysmon para logs locais"], ans: 0, exp: "Análise profunda de pacotes (Deep Packet Inspection) exige analisadores de protocolo como Wireshark ou tcpdump que capturam e decodificam os bytes brutos do tráfego (PCAP)." },
+    { q: "Diferente dos antivírus tradicionais baseados em hashes estáticos de arquivos, o que define a capacidade diferencial básica de uma solução de EDR (Endpoint Detection and Response)?", opts: ["Varredura passiva de portas de rede em firewalls SCADA","Análise contínua e heurística do comportamento de processos em tempo real","Bloqueio automático de payloads em servidores de email corporativo","Geração automática de relatórios regulatórios federais (SOX)"], ans: 1, exp: "O EDR foca em monitorar comportamentos dinâmicos, telemetria de processos na memória e interações de sistema nos hosts, identificando anomalias indestrutíveis por assinaturas estáticas." },
+    { q: "Uma equipe extrai um arquivo binário suspeito de um incidente e precisa observar as ações de rede e escrita em disco sem expor a infraestrutura real. Qual tecnologia providencia esse isolamento?", opts: ["Um container Docker em produção","Sandbox de detonação isolada","Segmentação lógica por VLAN perimetral","Proxy reverso com criptografia TLS"], ans: 1, exp: "Sandboxes são ambientes virtuais isolados projetados especificamente para detonar e analisar malwares com segurança, capturando IoCs sem contaminar as redes operacionais." }
+  ],
+  "obj21": [
+    { q: "Qual a vantagem técnica primária de executar um Varredura Credenciada (Credentialed Scan) em comparação a uma Varredura Não Credenciada em servidores de arquivos?", opts: ["Consome menos largura de banda durante os testes na rede","Detecta vulnerabilidades internas locais de patches e configurações errôneas de OS","Não exige permissões prévias para executar exploits agressivos","Pode derrubar sistemas OT legados com maior segurança"], ans: 1, exp: "A varredura credenciada utiliza credenciais válidas do sistema para inspecionar localmente o registro, pacotes ausentes e configurações, gerando precisão extrema com baixos falsos-positivos." },
+    { q: "Durante o planejamento de auditoria em um ambiente industrial de manufatura composto por dispositivos SCADA e PLCs obsoletos, qual metodologia de escaneamento de vulnerabilidades mitiga o risco de travamento de hardware?", opts: ["Varredura ativa agressiva com scripts de negação de serviço","Escaneamento Passivo de Rede (Passive Scanning) por escuta de tráfego","Varredura autenticada local via credenciais root do Linux","Dynamic Application Security Testing (DAST) contínuo"], ans: 1, exp: "Sistemas de Tecnologia Operacional (OT / SCADA) são altamente sensíveis a varreduras ativas que injetam pacotes inesperados nas portas. O uso de monitoramento passivo de tráfego é a escolha segura para evitar quedas." },
+    { q: "Uma organização do setor de saúde precisa alinhar suas configurações de servidores de banco de dados a um referencial de boas práticas de endurecimento (hardening) técnico amplamente reconhecido pelo mercado. Qual benchmark atende diretamente a isso?", opts: ["Matriz MITRE ATT&CK","Benchmarks do CIS (Center for Internet Security)","OWASP Top 10 Application Guide","Modelo de Diamante de Invasão"], ans: 1, exp: "Os benchmarks do CIS (Center for Internet Security) fornecem guias técnicos consensuais passo a passo para endurecimento (hardening) de sistemas operacionais, nuvens e bancos de dados." },
+    { q: "Um analista executa uma varredura de vulnerabilidades de rede e o relatório retorna dezenas de falhas críticas em portas que na realidade estão fechadas ou protegidas por firewalls que rejeitam o tráfego. Como essa descoberta do relatório é classificada?", opts: ["Falso-Negativo","Falso-Positivo","Risco Aceitável de Conformidade","Vulnerabilidade de Dia Zero (Zero-Day)"], ans: 1, exp: "Um falso-positivo ocorre quando uma ferramenta de segurança relata erroneamente a presença de uma vulnerabilidade ou ameaça que, na realidade, não existe ou está devidamente mitigada." },
+    { q: "Uma varredura externa de vulnerabilidades baseada em portas abertas identificou a versão de um serviço de FTP escutando a porta 21 através da leitura da mensagem inicial de conexão do servidor. Qual técnica o scanner utilizou?", opts: ["Banner Grabbing","Credentialed Assessment","Deep Packet Inspection","Injeção de Processos"], ans: 0, exp: "O Banner Grabbing consiste em capturar as strings de texto informativas enviadas por serviços de rede ao abrir uma conexão, revelando nomes de softwares e versões para os analistas defensivos." }
+  ],
+  "obj23": [
+    { q: "O analista de SecOps recebe um alerta de vulnerabilidade com a seguinte string de vetor CVSS v3: AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H. Analisando a métrica Attack Vector (AV), por onde esse ataque pode ser iniciado?", opts: ["Exige acesso físico local ao equipamento","Pode ser explorado remotamente via Internet / Rede (AV:N)","Requer adjacência de rede na mesma sub-rede física (VLAN)","Depende de uma conta de usuário autenticada localmente"], ans: 1, exp: "A métrica AV:N (Attack Vector: Network) indica explicitamente que a vulnerabilidade é explorável remotamente através de conexões lógicas de rede, sem necessidade de proximidade física ou local." },
+    { q: "Analisando a mesma string do vetor CVSS v3 (AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H), o que o componente 'UI:N' informa ao analista defensivo sobre as condições necessárias para a exploração da falha?", opts: ["O atacante precisa forçar um usuário administrativo a clicar em um link hostil","Nenhuma interação do usuário final é exigida para obter sucesso no ataque (UI:None)","Exige que o administrador faça login no console local do servidor","Indica que a complexidade técnica do ataque é considerada baixa"], ans: 1, exp: "A métrica UI:N (User Interaction: None) especifica que o exploit pode ser executado de forma totalmente autônoma pelo atacante, sem depender de qualquer ação ou clique de uma vítima humana." },
+    { q: "Qual dos seguintes grupos de métricas do framework CVSSv3 permite que uma empresa altere a pontuação de severidade de uma vulnerabilidade baseando-se estritamente na relevância crítica e na presença de controles de proteção internos da sua rede local?", opts: ["Base Score Metrics","Temporal Score Metrics","Environmental Score Metrics","Threat Intelligence Score"], ans: 2, exp: "As métricas ambientais (Environmental Score) adaptam a severidade geral do CVSS baseando-se no contexto real da organização, avaliando o impacto específico no negócio e as proteções existentes." },
+    { q: "Se um vetor CVSS v3 exibe a métrica 'AC:H', qual o impacto direto na priorização de remediação dessa vulnerabilidade no SOC?", opts: ["Significa que a vulnerabilidade é trivial e explorável por scripts automatizados","Indica que a complexidade do ataque é alta (Attack Complexity: High), reduzindo a probabilidade de exploração bem-sucedida imediata","Garante que o escopo foi alterado (Scope Changed)","Exige privilégios de nível de sistema (Root)"], ans: 1, exp: "A métrica AC:H (Attack Complexity: High) detalha que o atacante precisa de condições altamente específicas e coordenadas para conseguir sucesso no exploit, o que diminui a probabilidade de ataques em larga escala." },
+    { q: "O que significa a métrica de escopo modificado 'S:C' (Scope: Changed) no vetor de análise do CVSS v3?", opts: ["O patch de correção mudou a estrutura do código da aplicação","A exploração da falha em um componente permite impactar ou invadir recursos em outro domínio de segurança diferente","O analista alterou o relatório de conformidade regulatória","A vulnerabilidade foi reclassificada de Crítica para Média"], ans: 1, exp: "O escopo modificado (Scope: Changed - S:C) indica que o comprometimento do ativo vulnerável permite ao atacante expandir privilégios e atingir ou comprometer componentes de segurança fora do controle original (ex: sair de um container e atingir o host principal)." }
+  ],
+  "obj31": [
+    { q: "Qual matriz global de inteligência de ameaças providencia categorizações detalhadas de táticas e técnicas comportamentais comumente empregadas por adversários cibernéticos após realizarem a intrusão inicial no host?", opts: ["Cyber Kill Chain da Lockheed Martin","NIST Cybersecurity Framework (CSF)","MITRE ATT&CK Framework","OWASP Proactive Controls Guides"], ans: 2, exp: "O MITRE ATT&CK fornece taxonomias granulares das táticas, técnicas e procedimentos (TTPs) observados no mundo real em atividades cibernéticas de pós-exploração (como movimentação lateral ou persistência)." },
+    { q: "A equipe de Incident Response utiliza o Diamond Model of Intrusion para organizar e estruturar os dados forenses coletados de um incidente de espionagem. Quais são os quatro eixos obrigatórios definidos por este modelo analítico?", opts: ["Detecção, Contenção, Erradicação e Lições Aprendidas","Táticas, Técnicas, Procedimentos e Indicadores","Adversary, Capability, Infrastructure e Victim","Hosts, Redes, Aplicações e Dados Regulados"], ans: 2, exp: "O Diamond Model estrutura as investigações de ameaças correlacionando as conexões lógicas de quatro vértices fixos fundamentais: Adversary (Adversário), Capability (Capacidade), Infrastructure (Infraestrutura) e Victim (Vítima)." },
+    { q: "Qual o foco metodológico principal do modelo Cyber Kill Chain desenvolvido pela Lockheed Martin para descrever a mecânica de ataques persistentes?", opts: ["Monitorar o nível de fadiga de alertas no SOC corporativo","Descrever as fases lineares e estruturadas executadas por um atacante de fora para dentro de um perímetro corporativo","Calcular o tempo médio de reparo de servidores Web afetados","Mapear assinaturas criptográficas de malwares em repositórios abertos"], ans: 1, exp: "A Cyber Kill Chain detalha o fluxo cronológico e linear de uma intrusão externa em fases sucessivas (Recon, Weaponization, Delivery, Exploitation, Installation, C2, Actions on Objectives)." },
+    { q: "Um analista encontra táticas de 'Credential Access' e 'Lateral Movement' executadas no ambiente. Qual framework é ideal para classificar detalhadamente essas etapas técnicas internas específicas?", opts: ["ISO 27002 Control Framework","MITRE ATT&CK Framework","NVD Core Database","Sarbanes-Oxley Act Standard"], ans: 1, exp: "O MITRE ATT&CK divide as ações ofensivas em matrizes de táticas detalhadas (como Lateral Movement ou Credential Access), permitindo classificação precisa de ações técnicas locais." },
+    { q: "Se a infraestrutura lógica usada por um agente malicioso (como servidores de proxies reversos e domínios dinâmicos falsificados) é alterada repentinamente, qual vértice do Diamond Model de intrusão deve ser imediatamente atualizado no SOC?", opts: ["Adversary","Capability","Infrastructure","Victim"], ans: 2, exp: "O vértice 'Infrastructure' representa os recursos de entrega lógicos ou físicos e canais de rede de comunicação controlados pelo atacante para direcionar suas ações cibernéticas contra a vítima." }
+  ],
+  "obj41": [
+    { q: "Um analista de gerenciamento de vulnerabilidades aponta que a aplicação de um patch crítico de segurança em um servidor de produção ERP legado foi barrada devido a restrições de acordos operacionais formais de tempo de atividade contratual com terceiros. Como essa trava é classificada?", opts: ["Inibidor de Remediação (Remediation Inhibitor) associado a SLAs/MOUs","Falso-Positivo de Conformidade Técnica","Análise de Impacto de Negócios (BIA) regulatória","Risco Aceito Incondicional"], ans: 0, exp: "Inibidores de remediação são entraves administrativos ou operacionais, tais como restrições severas de contratos (SLAs), acordos corporativos (MOUs) ou dependência de sistemas legados intocáveis, que impedem a correção rápida de falhas." },
+    { q: "Qual métrica de governança operacional de segurança reflete de forma direta a eficiência e agilidade da equipe defensiva de SecOps para conter totalmente um ataque pós-descoberta validada pelo SOC?", opts: ["Mean Time to Detect (MTTD)","Mean Time to Respond / Repair (MTTR)","Key Performance Indicator (KPI) de volume bruto de alertas","Service Level Objective (SLO) de varredura ativa"], ans: 1, exp: "O MTTR (Mean Time to Respond / Repair) quantifica a rapidez das ações técnicas de contenção, erradicação e recuperação após um incidente de segurança cibernética ser devidamente validado." },
+    { q: "Uma corporação listada na bolsa de valores dos Estados Unidos deve garantir auditorias e relatórios de conformidade estritos em segurança da informação para blindar a integridade de dados e demonstrar transparência contra fraudes em relatórios financeiros eletrônicos. Qual legislação federal rege essa exigência?", opts: ["HIPAA Data Regulation","Sarbanes-Oxley Act (SOX)","General Data Protection Regulation (GDPR)","FISMA Cloud Compliance"], ans: 1, exp: "A lei Sarbanes-Oxley (SOX) estabelece requisitos rigorosos de governança corporativa e integridade em TI para empresas de capital aberto de modo a blindar controles internos e transações financeiras contra fraudes." },
+    { q: "Qual o objetivo de incluir uma seção de Sumário Executivo (Executive Summary) em um relatório formal de encerramento de um grande incidente cibernético direcionado à diretoria corporativa (C-Level)?", opts: ["Listar exaustivamente todos os hashes MD5 e regras de firewall criadas","Apresentar um panorama não técnico com foco em impactos ao negócio, riscos financeiros mitigados e lições estratégicas aprendidas","Fornecer o código bruto do script de automação desenvolvido no SOAR","Exigir demissões em massa de analistas juniores do SOC"], ans: 1, exp: "O Sumário Executivo traduz jargões de tecnologia forense complexos em dados de governança corporativa inteligíveis para a alta gerência, focando em impactos organizacionais, perdas financeiras blindadas e ações táticas futuras." },
+    { q: "A métrica MTTD (Mean Time to Detect) de um SOC corporativo subiu drasticamente ao longo do último trimestre. Como esse indicador técnico deve ser interpretado pela liderança operacional da segurança?", opts: ["As equipes defensivas estão erradicando ameaças mais rápido","O monitoramento do SOC está levando mais tempo para descobrir e validar intrusões iniciais no ecossistema","Houve um aumento na velocidade de liberação de patches automáticos","Sinaliza que os firewalls WAF bloquearam mais requisições maliciosas"], ans: 1, exp: "O aumento no MTTD (Mean Time to Detect) é um sinal de alerta de que as ferramentas ou os analistas estão demorando mais tempo para detectar e isolar ameaças que conseguiram furar o perímetro original." }
+  ],
+  "master": [
+    // 50 QUESTÕES MULTI-DOMÍNIO
+    { q: "Uma grande corporação financeira sofreu um comprometimento em sua infraestrutura híbrida na nuvem. Um atacante obteve acesso à rede interna explorando uma falha exposta e iniciou uma movimentação lateral. Durante a resposta a incidentes, o CSIRT utiliza o framework MITRE ATT&CK. Qual das seguintes opções representa uma técnica comumente mapeada na tática de 'Lateral Movement'?", opts: ["Process Hollowing","Pass-the-Hash (PtH)","Windows Registry Run Keys Modification","Credential Ingestion via Phishing"], ans: 1, exp: "Pass-the-Hash (PtH) é uma técnica clássica de movimentação lateral onde um atacante utiliza o hash de uma senha capturada para autenticar-se em recursos remotos sem precisar da senha em texto claro." },
+    { q: "Durante a varredura ativa de vulnerabilidades em servidores Linux de produção, o analista do SOC opta por um escaneamento autenticado (Credentialed Scan). Qual o principal benefício técnico de priorizar esse método em relação a testes não autenticados?", opts: ["Garantir menor consumo de largura de banda na infraestrutura de rede corporativa","Acessar configurações internas locais de arquivos e verificar versões de pacotes instalados com precisão","Testar a resiliência física do perímetro contra ataques distribuídos de negação de serviço","Simular a visão exata que um atacante externo totalmente sem privilégios possui do ambiente"], ans: 1, exp: "Varreduras credenciadas acessam o sistema operacional diretamente, permitindo auditar patches ausentes, permissões locais em arquivos de configuração e chaves ocultas com alto índice de precisão." },
+    { q: "Um analista de monitoramento estuda logs de um proxy web e detecta conexões HTTP assíncronas originadas de um endpoint corporativo para um domínio dinâmico recém-criado. As requisições ocorrem estritamente a cada 15 minutos e possuem tamanhos de cabeçalho idênticos. Esse comportamento caracteriza:", opts: ["Ataque de Força Bruta distribuído contra aplicações de e-commerce","Beaconing malicioso associado a servidores de Command and Control (C2)","Exfiltração volumosa via tunelamento de pacotes ICMP","Tentativa de Cross-Site Request Forgery (CSRF) direcionada"], ans: 1, exp: "O comportamento repetitivo e cronometrado de conexões outbound (saída) com tamanho de payload padronizado é a assinatura comportamental clássica de Beaconing de agentes de Command and Control." },
+    { q: "O SOC recebe alertas automáticos de um sistema de DLP (Data Loss Prevention) indicando que arquivos contendo sequências de 16 dígitos estruturadas de acordo com o Algoritmo de Luhn estão sendo transmitidos via canais externos não criptografados. Qual dado regulamentado está sob risco imediato?", opts: ["Protected Health Information (PHI) sob regras HIPAA","Cardholder Data (CHD) protegido pelas normas contratuais do PCI DSS","Personally Identifiable Information (PII) governamental e federal","Chaves assimétricas privadas de criptografia corporativa"], ans: 1, exp: "O algoritmo de Luhn valida matematicamente a estrutura de números de cartões de crédito. O bloqueio dessas transmissões visa garantir a proteção de CHD (Cardholder Data) exigida pelo PCI DSS." },
+    { q: "Um engenheiro de segurança está projetando uma arquitetura de segurança de rede baseada em SASE (Secure Access Service Edge). Qual das seguintes alternativas descreve a convergência central de capacidades promovida por esse modelo de mercado?", opts: ["Unificação de antivírus corporativos e firewalls de borda locais em firewalls de camada 3","Integração nativa na nuvem de funções de conectividade lógicas (SD-WAN) com serviços de segurança elástica de borda (CASB, SWG, ZTNA)","Centralização de relatórios regulatórios federais das leis SOX e HIPAA em um único servidor logístico","Isolamento físico de redes operacionais industriais contra conexões externas de fornecedores"], ans: 1, exp: "O modelo SASE converge conectividade de longa distância (SD-WAN) com controles de segurança de nuvem e de acesso em borda (Cloud Access Security Broker, Secure Web Gateway e Zero Trust Network Access)." },
+    { q: "Ao analisar a string de vetor CVSS v3 'AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', o analista defensivo determina que as condições necessárias para que o atacante consiga explorar esta vulnerabilidade em nível de Attack Vector (AV) exigem:", opts: ["Exploração remota de qualquer lugar através da Internet global","Acesso físico direto ao console ou à placa-mãe do hardware","Proximidade ou adjacência de rede na mesma sub-rede física/lógica ou link local (AV:Adjacent)","Uma conta administrativa com privilégios de root previamente configurada"], ans: 2, exp: "A métrica AV:A (Attack Vector: Adjacent) especifica que o exploit exige que o invasor compartilhe a mesma vizinhança de rede lógica ou física com o alvo (ex: mesma rede Wi-Fi local ou enlace de camada 2)." },
+    { q: "Para otimizar os fluxos de trabalho do SOC e mitigar os impactos de falsos-positivos rotineiros que geram fadiga de alertas na equipe defensiva, qual ferramenta deve ser adotada para orquestrar as rotinas de bloqueio por APIs através de playbooks automatizados?", opts: ["SIEM centralizado baseado em regras estáticas","Plataforma SOAR (Security Orchestration, Automation, and Response)","Varredor ativo de vulnerabilidades de redes locais","Proxy reverso com inspeção profunda de pacotes TLS"], ans: 1, exp: "Sistemas SOAR são projetados especificamente para automatizar a triagem, enriquecimento de alertas e ações de remediação tática (como bloqueios automáticos) via playbooks estruturados conectados a APIs." },
+    { q: "Durante uma auditoria técnica em uma planta industrial, um analista precisa avaliar a segurança de controladores lógicos programáveis (PLCs) críticos e infraestruturas SCADA reguladas. Sabendo que esses equipamentos são altamente sensíveis a rajadas de pacotes ativas, qual método é indicado?", opts: ["Varredura credenciada agressiva de portas locais usando scripts NSE rápidos","Monitoramento e Varredura Passiva de Rede (Passive Scanning) baseados em escuta de tráfego de rede","Dynamic Application Security Testing (DAST) em ambiente de produção contínuo","Teste de invasão agressivo estilo Red Team com negação de serviço simulada"], ans: 1, exp: "Dispositivos de redes OT/SCADA possuem baixa tolerância a tráfego de rede anômalo ou rajadas agressivas geradas por scanners tradicionais. O escaneamento passivo de escuta (sniffing) de tráfego mitiga os riscos de interrupções operacionais catastróficas." },
+    { q: "O relatório gerencial de segurança cibernética indica um aumento significativo na métrica de MTTD (Mean Time to Detect) nos últimos três meses. Como a gerência do SOC deve interpretar esse cenário?", opts: ["As defesas cibernéticas estão contendo ameaças de forma mais ágil","As ferramentas de monitoramento ou os analistas estão demorando mais tempo para descobrir intrusões iniciais ocorridas na organização","A equipe de engenharia acelerou o processo de aplicação de patches corretivos nos endpoints","Houve uma redução estrutural no volume de falsos-positivos recebidos"], ans: 1, exp: "O MTTD (Mean Time to Detect) mede o tempo decorrido entre o início de uma intrusão de segurança e a sua detecção válida pela equipe do SOC. Um MTTD alto sinaliza menor visibilidade ou lentidão nas detecções primárias." },
+    { q: "Um analista forense investigando um servidor Windows comprometido identifica que chaves no registro dentro do caminho 'HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run' foram injetadas com strings apontando para um script PowerShell ofuscado em uma pasta temporária. Qual a tática do framework MITRE ATT&CK descrita nesse comportamento?", opts: ["Initial Access","Defense Evasion","Persistence","Exfiltration"], ans: 2, exp: "A manipulação de chaves 'Run' do Windows Registry serve para garantir a persistência (Persistence), forçando a execução automatizada do malware toda vez que o usuário realizar login no sistema." },
+    { q: "Um engenheiro de software descobre que sua aplicação web concatena parâmetros informados via formulários do lado do cliente diretamente dentro de comandos de banco de dados sem sanitização ou uso de Prepared Statements. Esse design de software gera exposição direta a qual falha mapeada pelo OWASP Top 10?", opts: ["Cross-Site Request Forgery (CSRF)","SQL Injection (SQLi)","Broken Object Level Authorization (BOLA)","Insecure Deserialization"], ans: 1, exp: "Concatenar dados do usuário diretamente em strings de consultas de banco de dados cria vulnerabilidades críticas de Injeção de SQL (SQL Injection), permitindo a execução de comandos arbitrários no backend." },
+    { q: "Um analista de segurança está revisando o código de um formulário e identifica que scripts embutidos na URL por usuários externos são ecoados de volta diretamente nas páginas renderizadas nos navegadores das vítimas sem validação. Essa falha é definida como:", opts: ["Stored Cross-Site Scripting (XSS)","Reflected Cross-Site Scripting (XSS)","Server-Side Request Forgery (SSRF)","Injeção de Comandos de Sistema Operacional (OS Command Injection)"], ans: 1, exp: "O Reflected XSS (Cross-Site Scripting Refletido) ocorre quando o payload malicioso enviado em uma requisição HTTP imediata é retornado pelo servidor e executado de forma volátil no navegador da vítima, sem persistência em banco de dados." },
+    { q: "O time de liderança executiva de uma instituição realiza uma reunião periódica interativa onde simula e discute um cenário hipotético de ataque de vazamento de dados corporativos em larga escala, avaliando papéis contratuais do jurídico, relações públicas e TI sem alterar sistemas de produção reais. Qual o nome desse formato de exercício?", opts: ["Live-Fire Exercício de Red Team","Tabletop Exercise (Exercício de Mesa)","Continuous Automated Penetration Test","Auditoria de Conformidade Regulatória Externa"], ans: 1, exp: "Exercícios Tabletop são simulações teóricas conduzidas através de discussões guiadas sobre cenários críticos para validar a prontidão de políticas de resposta, comunicação corporativa e papéis de liderança sem impacto operacional direto." },
+    { q: "O analista do SOC é notificado de que a remediação imediata de uma vulnerabilidade de severidade crítica descoberta em um servidor web não pôde ser executada devido a restrições de um Acordo de Nível de Serviço (SLA) assinado que penaliza financeiramente manutenções fora de janelas de recesso trimestrais. Esse fator é classificado como:", opts: ["Falso-Positivo Técnico Aceito","Inibidor de Remediação (Remediation Inhibitor)","Risco Transferido por Seguros","Análise de Causa Raiz Inválida"], ans: 1, exp: "Documentos formais de conformidade como SLAs, MOUs ou dependências tecnológicas de sistemas legados atuam como inibidores de remediação clássicos no ecossistema empresarial de patches de segurança." },
+    { q: "A equipe de resposta a incidentes (CSIRT) adota o Diamond Model of Intrusion para guiar investigações e documentar campanhas de um grupo cibercriminoso avançado. O modelo ajuda a correlacionar quais quatro componentes centrais interdependentes de uma ameaça?", opts: ["Táticas, Técnicas, Procedimentos e Contramedidas Aplicadas","Hosts, Redes, Dispositivos Móveis e Contêineres Isolados","Adversary, Capability, Infrastructure e Victim","Identificação, Contenção, Erradicação e Lições Aprendidas"], ans: 2, exp: "O Diamond Model é baseado na correlação matemática e investigativa de quatro vértices fixos: o Adversário (Ator), a Capacidade técnica (ferramentas/malware), a Infraestrutura lógica e a Vítima afetada." },
+    { q: "Dentre as estratégias formais de governança e tratamento de riscos corporativos de segurança da informação, como é classificada a ação de remover permanentemente um componente tecnológico vulnerável ou descontinuar um serviço de produção arriscado para eliminar totalmente a possibilidade de exploração cibernética?", opts: ["Mitigação de Risco com Controles Compensatórios","Aceitação de Risco Documentada","Evitação de Risco (Risk Avoidance)","Transferência de Risco para Terceiros"], ans: 2, exp: "A Evitação de Risco (Risk Avoidance) consiste em eliminar o perigo eliminando sua causa raiz (ex: desativando por completo a aplicação arriscada ou removendo o hardware do ecossistema corporativo)." },
+    { q: "Qual métrica de desempenho de resposta do CSIRT quantifica de forma cronológica o tempo total gasto pelas equipes de segurança tática para conter e neutralizar uma ameaça cibernética após o incidente ter sido validado e documentado pelo SOC?", opts: ["Mean Time to Detect (MTTD)","Mean Time to Respond / Contain (MTTR)","Key Performance Indicator de alertas recebidos","SLA de resposta de suporte de TI comum"], ans: 1, exp: "O MTTR (Mean Time to Respond) reflete a eficiência e agilidade tática operacional para mitigar o impacto de incidentes, englobando as fases de contenção lógicas, erradicação e retorno à produção normal." },
+    { q: "Em um vetor CVSS v3, o parâmetro 'PR:H' (Privileges Required: High) indica que para explorar a vulnerabilidade com sucesso, o agente de ameaça necessita de:", opts: ["Nenhum tipo de autenticação prévia ou privilégios no sistema alvo","Privilégios de usuário comum sem permissões administrativas corporativas","Acesso local físico irrestrito ao console de gerência local","Privilégios administrativos avançados ou permissões de root/sistema (PR:High)"], ans: 3, exp: "A métrica PR:H detalha que o invasor precisa possuir privilégios administrativos significativos e avançados previamente autenticados no sistema alvo para conseguir desparar o exploit com sucesso." },
+    { q: "Durante uma análise de tráfego de rede profunda (Deep Packet Inspection), um analista defensivo utiliza filtros específicos para identificar comandos de 'UNION SELECT' trafegando em texto claro em requisições HTTP do tipo POST destinadas a um servidor de aplicações corporativas. Essa assinatura é característica de qual ataque?", opts: ["Cross-Site Scripting (XSS) Refletido","Injeção de Comandos SQL (SQL Injection)","Estouro de Buffer em aplicações escritas em C++","Cross-Site Request Forgery (CSRF) via Webhooks"], ans: 1, exp: "O operador 'UNION SELECT' é amplamente utilizado por atacantes para combinar resultados de queries maliciosas com as originais de bancos de dados expostos a vulnerabilidades de SQL Injection." },
+    { q: "Qual componente de segurança de borda de camada 7 do modelo OSI inspeciona requisições HTTP de entrada aplicando assinaturas e regras heurísticas avançadas projetadas especificamente para interceptar tráfego malicioso direcionado contra falhas lógicas em servidores de aplicações web?", opts: ["Next-Generation Firewall (NGFW) baseado em portas","Web Application Firewall (WAF)","Secure Access Service Edge (SASE) puro","Cloud Access Security Broker (CASB)"], ans: 1, exp: "O WAF (Web Application Firewall) opera na camada de aplicação (camada 7), decodificando e inspecionando cabeçalhos e payloads HTTP para bloquear ameaças de aplicações específicas, tais como XSS e SQLi." },
+    { q: "Um analista forense executa uma investigação pós-incidente para identificar falhas estruturais de segurança cibernética que permitiram a entrada de uma intrusão de ransomware na rede corporativa. Esse procedimento analítico focado em prevenir a recorrência futura de crises é denominado:", opts: ["Tabletop Exercise de Mesa","Análise de Causa Raiz (Root Cause Analysis - RCA)","Sumário Executivo não técnico corporativo","Cálculo de Janela de Acordo de SLA"], ans: 1, exp: "A Análise de Causa Raiz (RCA) estuda exaustivamente os fatores e vulnerabilidades estruturais primárias que possibilitaram o sucesso de um ataque de modo a recomendar correções definitivas que impeçam novas violações pela mesma via." },
+    { q: "A equipe de Inteligência de Ameaças (Cyber Threat Intelligence) corporativa emite um relatório focado na descrição de alvos macroeconômicos, motivações geopolíticas e tendências financeiras de longo prazo de um grupo APT para municiar decisões orçamentárias do conselho administrativo da empresa. Esse nível de inteligência de ameaças é classificado como:", opts: ["Operational Threat Intelligence","Strategic Threat Intelligence","Tactical Threat Intelligence","Technical IoC Feed Ingestion"], ans: 1, exp: "A inteligência estratégica (Strategic Intelligence) provê análises abstratas de alto nível com foco em tendências econômicas, impactos organizacionais, geopolítica e motivações gerais para tomadores de decisões executivas." },
+    { q: "Uma organização precisa garantir conformidade rigorosa com normas de proteção de privacidade de dados pessoais de cidadãos em escopos globais e regulamentações internacionais severas sobre tratamento de informações de identidade. Qual arcabouço normativo estabelece esse padrão mandatório europeu com impacto internacional?", opts: ["Sarbanes-Oxley Act (SOX)","Health Insurance Portability and Accountability Act (HIPAA)","General Data Protection Regulation (GDPR)","FISMA Infrastructure Standard"], ans: 2, exp: "O GDPR (General Data Protection Regulation) da União Europeia regulamenta os direitos de privacidade e proteção de dados de cidadãos locais, gerando multas severas e conformidade obrigatória para empresas globais." },
+    { q: "Um analista de SecOps deseja configurar uma integração de resposta onde alertas urgentes validados no SOAR enviem payloads contendo resumos estruturados via requisições HTTP POST para uma plataforma corporativa de mensageria (Slack/Teams) em tempo real sem requisições de consulta cíclicas de polling. Qual tecnologia viabiliza essa comunicação assíncrona orientada a eventos?", opts: ["Consultas persistentes SNMP v3 de rede","Webhooks baseados em eventos acionados por APIs","Transferência direta via canais de FTP seguros","Arquivos XML via protocolos estruturados SOAP"], ans: 1, exp: "Webhooks permitem o envio assíncrono de alertas em tempo real gerados a partir de um sistema de origem em direção a endpoints remotos por meio de chamadas HTTP POST diretas baseadas em eventos." },
+    { q: "Durante a fase de 'Lessons Learned' de um ciclo de resposta a incidentes, qual das seguintes atividades constitui uma melhor prática mandatória para a evolução do SOC corporativo?", opts: ["Excluir imediatamente todos os logs coletados do incidente para economizar espaço de armazenamento em disco","Documentar os pontos de falha operacionais identificados e atualizar os playbooks automáticos do SOAR","Transferir os riscos financeiros remanescentes para empresas de consultoria terceirizadas","Omitir os dados técnicos críticos nos relatórios de conformidade para evitar auditorias extras"], ans: 1, exp: "A fase de Lições Aprendidas (Lessons Learned) foca em documentar gargalos, atualizar playbooks desatualizados e aprimorar os mecanismos de detecção com base nas falhas e acertos mapeados durante o incidente." },
+    { q: "Um scanner de vulnerabilidades realiza um teste contra um ativo de rede sem possuir chaves de acesso ou contas válidas configuradas no sistema alvo, baseando-se estritamente nas respostas lógicas de portas abertas e na coleta de banners públicos. Esse método de escaneamento é classificado como:", opts: ["Credentialed (Authenticated) Scan","Non-Credentialed (Unauthenticated) Scan","Passive Monitoring Deep Packet Inspection","Dynamic Code Analysis Execution"], ans: 1, exp: "Varreduras não credenciadas (Non-Credentialed Scans) examinam ativos externamente pelo tráfego exposto e respostas de portas de rede abertas, mapeando a superfície visível para atacantes sem privilégios locais." },
+    { q: "Ao revisar uma string de vetor do CVSS v3, o analista localiza a métrica 'S:U' (Scope: Unchanged). O que essa informação detalha sobre as características de impacto de exploração da vulnerabilidade técnica?", opts: ["O patch corretivo não alterou a estrutura lógica do sistema operacional","O componente vulnerável e o recurso afetado pelo sucesso do exploit pertencem estritamente ao mesmo domínio de autoridade e segurança corporativa","A pontuação de risco da falha é considerada instável ao longo do tempo","O ataque necessita obrigatoriamente de interações contínuas do usuário"], ans: 1, exp: "A métrica Scope Unchanged (S:U) detalha que o impacto gerado pela exploração de uma vulnerabilidade fica totalmente restrito ao mesmo componente e domínio de segurança original de autoridade do ativo afetado." },
+    { q: "No modelo Cyber Kill Chain da Lockheed Martin, a etapa estrutural onde um atacante constrói ativamente um pacote malicioso acoplando um exploit técnico com um payload oculto em um documento PDF falsificado de engenharia social é denominada:", opts: ["Reconnaissance","Weaponization","Delivery","Exploitation"], ans: 1, exp: "A Weaponization (Armamentização) consiste em acoplar exploits lógicos técnicos com cargas úteis ou malwares ocultos dentro de arquivos comuns (como PDFs macros) de modo a preparar a entrega perimetral." },
+    { q: "Um engenheiro de segurança de rede utiliza a ferramenta Wireshark para capturar pacotes e auditar conexões TLS. Ele percebe que o handshake inicial falha repetidamente com alertas de 'Cipher Suite Mismatch'. Esse erro indica de forma direta que:", opts: ["O servidor web sofreu um estouro de buffer em memória RAM","O cliente e o servidor não possuem algoritmos criptográficos comuns compatíveis configurados para fechar o canal seguro","A máquina corporativa foi infectada por um ransomware persistente","O firewall WAF bloqueou a requisição devido a assinaturas de SQL Injection"], ans: 1, exp: "O erro de Cipher Suite Mismatch ocorre em negociações TLS/SSL quando as partes envolvidas (cliente e servidor) não encontram uma combinação compatível de algoritmos criptográficos comuns para fechar a conexão estável." },
+    { q: "Qual métrica de Inteligência de Ameaças (Cyber Threat Intelligence) é classificada no nível mais alto de dificuldade de alteração para um atacante de acordo com o modelo de governança da 'Pyramid of Pain' de David Bianco?", opts: ["IP Addresses","Domain Names","File Hashes (MD5/SHA256)","Tactics, Techniques, and Procedures (TTPs)"], ans: 3, exp: "As TTPs ocupam o topo da Pyramid of Pain (nível Tough/Soberbo). Mudar as metodologias de ataque, ferramentas proprietárias e comportamentos operacionais custa caro e exige esforço extremo do adversário." },
+    { q: "Durante a triagem de um incidente no SOC, constata-se que o tráfego de saída (outbound) de dados confidenciais aumentou massivamente em horários de madrugada através de canais não padrão utilizando requisições de subdomínios DNS longos e ofuscados. O analista deve classificar esse evento como:", opts: ["Tentativa de Cross-Site Scripting armazenado com persistência local","Exfiltração de dados corporativos por meio de DNS Tunneling","Ataque de negação de serviço interno distribuído contra o servidor local","Atualização automática e programada de patches locais do Windows OS"], ans: 1, exp: "O DNS Tunneling insere cadeias de dados confidenciais codificados em pacotes de consultas DNS legítimas, permitindo contornar firewalls de rede tradicionais para exfiltrar informações ou receber ordens de C2." },
+    { q: "Uma aplicação de e-commerce corporativa foi exposta a um ataque de Broken Access Control onde usuários conseguem acessar registros de pedidos financeiros de terceiros alterando sequencialmente os parâmetros numéricos de IDs exibidos na barra de endereços da URL do navegador. Essa falha de design lógico é mapeada como:", opts: ["Cross-Site Request Forgery (CSRF)","Insecure Direct Object Reference (IDOR)","SQL Injection baseada em erros cegos","Ataque de estouro de pilha (Stack-based Buffer Overflow)"], ans: 1, exp: "A falha IDOR (Insecure Direct Object Reference) ocorre quando a aplicação fornece acesso direto a objetos de backend com base em entradas do usuário sem aplicar validações e controles de autorizações rigorosos." },
+    { q: "O time de SecOps implementa um modelo arquitetural baseado no princípio do privilégio mínimo para gerenciar acessos de colaboradores. A regra determina que nenhuma entidade deve receber confiança implícita baseando-se em sua localização física perimetral ou conexões de rede interna estáveis. Esse princípio apoia a:", opts: ["Arquitetura de Confiança Zero (Zero Trust Architecture - ZTA)","Segurança baseada em perímetros de firewalls legados tradicionais","Automação pura de playbooks de sistemas SOAR corporativos","Conformidade de relatórios da legislação financeira SOX"], ans: 0, exp: "A premissa central de Zero Trust (ZTA) baseia-se na eliminação completa da confiança implícita, exigindo verificação contínua, autenticação estrita de identidades e validação de contexto para cada acesso." },
+    { q: "Um analista de monitoramento do SOC recebe um alerta indicando a execução de comandos ofuscados do utilitário utilitário 'vssadmin.exe delete shadows /all /quiet' em um servidor Windows corporativo em produção. Esse comportamento é um indicador clássico de atividade de:", opts: ["Injeção de comandos em bancos de dados relacionais SQL","Ataques destrutivos de Ransomware para eliminar cópias de segurança locais e backups de sombra","Enumeração ativa de portas de comunicação externa utilizando Nmap","Validação periódica de conformidade regulatória interna do CIS"], ans: 1, exp: "A eliminação de cópias de sombra (Volume Shadow Copies) via comando vssadmin é uma ação típica executada por operadores de Ransomware para impedir que as vítimas consigam restaurar arquivos sequestrados sem pagar resgate." },
+    { q: "A equipe de gerenciamento de vulnerabilidades corporativa realiza análises estáticas de segurança em códigos-fonte (SAST) embutidas diretamente na esteira de desenvolvimento de software de CI/CD. Qual a finalidade principal dessa integração defensiva precoce no SDLC?", opts: ["Garantir a conformidade legal imediata de contratos de SLAs com fornecedores logísticos","Identificar e corrigir falhas lógicas e bugs de segurança antes que o software seja compilado e movido para ambientes de produção","Bloquear ataques distribuídos de negação de serviço na camada de aplicação web","Executar varreduras credenciadas no sistema operacional dos roteadores locais"], ans: 1, exp: "Aplicações de SAST (Static Application Security Testing) analisam o código-fonte em repouso na pipeline de CI/CD, permitindo mitigar falhas lógicas (OWASP Top 10) nos estágios iniciais de desenvolvimento." },
+    { q: "O analista sênior do SOC configura uma nova regra de correlação de eventos no SIEM. A regra estabelece que 5 tentativas consecutivas de login malsucedidas seguidas imediatamente por um login bem-sucedido em menos de 30 segundos disparando de um host externo deve gerar um incidente crítico. Essa lógica visa detectar:", opts: ["Ataque de injeção de SQL cega persistente","Ataque de Força Bruta por Dicionário ou Password Spraying bem-sucedido","Vulnerabilidade latente de estouro de buffer local na memória RAM","Tentativa de personificação via injeção de scripts XSS refletidos"], ans: 1, exp: "Múltiplas falhas seguidas por um sucesso rápido de autenticação geram o indicador clássico de ataques de força bruta ou quebra de credenciais por dicionário bem-sucedidos contra sistemas de autenticação expostos." },
+    { q: "Durante testes de validação defensiva em uma aplicação web, um analista injeta a string '<script>alert(document.cookie)</script>' em um campo de comentários público que armazena os dados permanentemente no banco corporativo. Todos os novos visitantes que acessam a página têm o script renderizado e executado em seus navegadores. Essa falha é classificada como:", opts: ["Reflected Cross-Site Scripting (XSS)","Stored (Persistent) Cross-Site Scripting (XSS)","Insecure Direct Object Reference (IDOR)","Server-Side Request Forgery (SSRF)"], ans: 1, exp: "O Stored XSS ocorre quando o payload hostil de injeção de scripts é gravado de forma duradoura no banco de dados do backend, vitimando de forma persistente qualquer usuário que carregue aquela página." },
+    { q: "Ao analisar a telemetria profunda fornecida por agentes de EDR em um endpoint infectado por malware stealth, constata-se o carregamento de uma DLL maliciosa a partir do mesmo diretório local onde reside um executável legítimo e confiável do sistema operacional, burlando as buscas padrão do OS. Essa técnica de evasão chama-se:", opts: ["Process Hollowing em memória RAM","DLL Side-Loading / DLL Hijacking","Ofuscação de comandos PowerShell locais","Uso indevido de privilégios via PAM"], ans: 1, exp: "O DLL Side-Loading aproveita a ordem de busca padrão que o Windows utiliza para carregar bibliotecas dinâmicas, inserindo uma DLL hostil com nome legítimo no mesmo diretório de um executável confiável." },
+    { q: "No contexto de inteligência de ameaças cibernéticas defensivas (CTI), feeds automatizados que fornecem arquivos XML/JSON contendo IPs maliciosos conhecidos, hashes de malware e indicadores de e-mails de phishing de forma massiva e imediata para alimentação direta de regras no SIEM representam qual nível de inteligência?", opts: ["Strategic Threat Intelligence","Operational / Technical Threat Intelligence","Tactical Threat Intelligence baseada em TTPs","Benchmarks regulatórios de governança global"], ans: 1, exp: "A inteligência operacional ou técnica fornece indicadores de comprometimento (IoCs) crus e imediatos, tais como IPs, URLs e hashes, perfeitos para alimentar assinaturas e regras automáticas de ferramentas do SOC." },
+    { q: "Durante um incidente crítico de intrusão e vazamento de dados confidenciais, o Líder do CSIRT emite uma ordem técnica de contenção emergencial instruindo o isolamento lógico imediato de um segmento de rede vulnerável desativando portas de switches através de chamadas do SOAR. Essa atividade técnica de contenção pertence a qual fase do ciclo de resposta a incidentes do NIST?", opts: ["Preparation","Detection and Analysis","Containment, Erradication, and Recovery","Post-Incident Activity / Lessons Learned"], ans: 2, exp: "A fase de Contenção, Erradicação e Recuperação envolve a execução de ações técnicas imediatas para deter o avanço e a propagação da ameaça (Containment), limpar o ambiente (Eradication) e restaurar sistemas (Recovery)." },
+    { q: "Um relatório de auditoria aponta que uma organização carece de sincronização temporal centralizada adequada entre seus múltiplos servidores e ativos de rede distribuídos em nuvens híbridas, impedindo a correlação de linhas do tempo forenses confiáveis no SIEM. Qual protocolo deve ser configurado de forma mandatória para remediar essa falha técnica?", opts: ["Simple Network Management Protocol (SNMP v3)","Network Time Protocol (NTP)","Domain Name System Security Extensions (DNSSEC)","Hypertext Transfer Protocol Secure (HTTPS)"], ans: 1, exp: "O protocolo NTP (Network Time Protocol) garante a sincronização precisa e uniforme dos relógios e carimbos de data/hora (timestamps) entre todos os ativos de rede, requisito crítico para auditorias forenses no SIEM." },
+    { q: "Um analista de conformidade de segurança cibernética revisa as práticas organizacionais de manipulação de dados de saúde e prontuários médicos eletrônicos regulados nos Estados Unidos, garantindo controles severos de confidencialidade de registros médicos e privacidade dos pacientes. Qual regulação federal dita esses requisitos obrigatórios?", opts: ["Sarbanes-Oxley Act (SOX)","Payment Card Industry Data Security Standard (PCI DSS)","Health Insurance Portability and Accountability Act (HIPAA)","General Data Protection Regulation (GDPR) europeu"], ans: 2, exp: "A lei federal norte-americana HIPAA regulamenta a proteção, segurança e privacidade de informações de saúde protegidas (PHI - Protected Health Information), impondo severas regras a prestadores de serviços de saúde." },
+    { q: "Ao inspecionar pacotes de logs coletados de um proxy, um analista do SOC descobre um grande número de requisições enviadas a partir de um servidor interno direcionadas a um endpoint de API de infraestrutura em nuvem contendo a string de cabeçalho 'X-Forwarded-For' alterada e apontando para recursos confidenciais locais (localhost). Esse indicador sugere um ataque de:", opts: ["Cross-Site Scripting (XSS) Refletido","Server-Side Request Forgery (SSRF)","Estouro de Buffer baseado em pilhas de memória","Injeção de Comandos SQL cega"], ans: 1, exp: "O Server-Side Request Forgery (SSRF) ocorre quando uma aplicação web vulnerável é manipulada por um atacante para realizar requisições maliciosas em nome do servidor contra recursos internos ou terceiros confidenciais." },
+    { q: "O time de engenharia defensiva do SOC implementa controles baseados em CASB (Cloud Access Security Broker). Qual o principal objetivo prático corporativo visado ao adotar esse tipo de tecnologia específica na infraestrutura?", opts: ["Garantir a microsegmentação física de cabos de switches locais de servidores em produção","Monitorar, auditar e aplicar políticas de segurança e conformidade de dados estritas entre usuários internos e serviços em nuvem de terceiros (SaaS/IaaS)","Substituir de forma integral os antivírus locais tradicionais e agentes de EDR dos endpoints","Automatizar a criação de patches corretivos para sistemas operacionais legados"], ans: 1, exp: "Soluções CASB atuam como pontos de aplicação de políticas de segurança posicionados entre os usuários de uma organização e os provedores de serviços na nuvem, garantindo visibilidade, proteção de dados e conformidade." },
+    { q: "Durante um ataque cibernético massivo, um analista do SOC percebe que o invasor está forçando requisições HTTP maliciosas que exploram uma falha lógica de estouro de buffer (Buffer Overflow) em um binário legado. O mecanismo de proteção nativo do sistema operacional Windows que mitiga essa exploração randomizando os endereços de memória RAM onde componentes críticos do código são carregados é conhecido tecnicamente como:", opts: ["Data Execution Prevention (DEP)","Address Space Layout Randomization (ASLR)","Windows File Protection (WFP)","Extended Detection and Response (XDR)"], ans: 1, exp: "O ASLR (Address Space Layout Randomization) randomiza as posições das áreas de dados e códigos chaves na memória RAM de modo a dificultar severamente que códigos maliciosos consigam prever alvos de saltos lógicos de exploits." },
+    { q: "Qual a principal vantagem técnica de adotar ferramentas de modelagem de ameaças (Threat Modeling) baseadas em metodologias consagradas como o modelo STRIDE durante os estágios primários do Ciclo de Vida de Desenvolvimento de Software (SDLC)?", opts: ["Eliminar a necessidade de executar auditorias de relatórios financeiros da lei SOX","Prever proativamente falhas arquiteturais e bugs lógicos de design de software antes que o código comece a ser programado","Substituir de forma integral a infraestrutura de firewalls WAF perimetrais de camada 7","Automatizar o envio assíncrono de alertas de webhooks para canais do Slack"], ans: 1, exp: "A modelagem de ameaças estruturada permite prever proativamente potenciais brechas lógicas, riscos de design e falhas de arquitetura nos softwares durante o desenho conceitual do SDLC, reduzindo drasticamente os custos de remediação." },
+    { q: "Um analista revisa uma string de vetor CVSS v3 'AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N'. Com base especificamente no parâmetro 'UI:R' (User Interaction: Required), qual a condição mandatória para o sucesso da execução deste exploit?", opts: ["O ataque roda de forma autônoma sem necessitar de ações de vítimas humanas","Exige que uma vítima execute uma ação específica, tal como clicar em um link hostil ou abrir um anexo malicioso (UI:Required)","Requer login físico local direto de um administrador com credenciais root","Depende do isolamento prévio de ativos de Tecnologia Operacional"], ans: 1, exp: "A métrica UI:R indica que a exploração da vulnerabilidade técnica depende obrigatoriamente de algum tipo de interação deliberada de um usuário legítimo (vítima) para disparar a execução do exploit lícito." },
+    { q: "Um engenheiro de segurança cibernética de uma agência governamental está configurando controles de conformidade em uma infraestrutura baseada na nuvem federal dos EUA. Ele deve garantir conformidade rígida de segurança de informações e gerenciamento de riscos de acordo com os padrões obrigatórios ditados por qual lei de segurança federal americana?", opts: ["General Data Protection Regulation (GDPR)","Federal Information Security Management Act (FISMA)","Sarbanes-Oxley Act (SOX) de governança de mercado","Health Insurance Portability and Accountability Act (HIPAA)"], ans: 1, exp: "A FISMA (Federal Information Security Management Act) exige que agências governamentais federais norte-americanas implementem controles padronizados e rígidos de segurança da informação alinhados a frameworks do NIST." },
+    { q: "A equipe de Inteligência de Ameaças defensiva identifica que um grupo de engenharia social avançada está utilizando nomes de executivos da alta gerência corporativa e dados vazados em redes sociais para enviar e-mails de phishing customizados altamente direcionados e focados em convencer assistentes financeiros a executarem transferências eletrônicas ilícitas urgentes. Essa técnica específica de ataque chama-se:", opts: ["Massive Phishing Broadcast","Spear Phishing / Whaling","Watering Hole Attack","DNS Spoofing local"], ans: 1, exp: "O Spear Phishing direciona e-mails customizados para indivíduos específicos dentro de uma corporação, e quando foca especificamente em executivos do alto C-Level ou suas assistentes diretas, é denominado Whaling." },
+    { q: "Um analista de Incident Response precisa consolidar evidências de computação forense digital extraídas de memórias voláteis e mídias de armazenamento em discos rígidos locais mantendo um registro cronológico irrestrito e documentado de todas as pessoas que manusearam, acessaram e transportaram os artefatos técnicos de modo a blindar a validade legal das provas. Essa documentação chama-se:", opts: ["Incident Response Playbook Procedural","Chain of Custody (Cadeia de Custódia)","Summary Forensics Dashboard","Acordo de SLA Contratual Operacional"], ans: 1, exp: "A Cadeia de Custódia (Chain of Custody) é o documento formal que registra a coleta, custódia, controle, transferência e análise forense de evidências digitais ou físicas, garantindo sua integridade para fins legais e judiciais." }
+  ]
+};
+
+function renderQuestions(secId) {
+  const questions = data[secId];
+  const container = document.getElementById(`qlist-${secId}`);
+  container.innerHTML = '';
+  questions.forEach((item, i) => {
+    const letters = ['A','B','C','D'];
+    const optsHtml = item.opts.map((o, j) => `
+      <div class="opt" data-sec="${secId}" data-q="${i}" data-idx="${j}" onclick="answer(this)">
+        <span class="opt-letter">${letters[j]}</span>
+        <span>${o}</span>
+      </div>`).join('');
+    container.innerHTML += `
+      <div class="question" id="q-${secId}-${i}">
+        <div class="q-stem">
+          <div class="q-num">Questão ${i+1} de ${questions.length}</div>
+          ${item.q}
+        </div>
+        <div class="options">${optsHtml}</div>
+        <div class="feedback" id="fb-${secId}-${i}"></div>
+      </div>`;
+  });
+  updateScore(secId);
+}
+
+function answer(el) {
+  if (el.classList.contains('disabled')) return;
+  const sec = el.dataset.sec;
+  const qi  = parseInt(el.dataset.q);
+  const idx = parseInt(el.dataset.idx);
+  const correct = data[sec][qi].ans;
+  const exp     = data[sec][qi].exp;
+
+  const qEl  = document.getElementById(`q-${sec}-${qi}`);
+  const opts = qEl.querySelectorAll('.opt');
+  opts.forEach(o => o.classList.add('disabled'));
+
+  opts[correct].classList.add('correct-answer');
+  if (idx !== correct) {
+    el.classList.add('wrong-answer');
+    qEl.classList.add('wrong');
+  } else {
+    qEl.classList.add('correct');
+  }
+
+  const fb = document.getElementById(`fb-${sec}-${qi}`);
+  fb.classList.add('show');
+  if (idx === correct) {
+    fb.classList.add('ok');
+    fb.innerHTML = `✓ <strong>Correto!</strong> ${exp}`;
+  } else {
+    fb.classList.add('err');
+    fb.innerHTML = `✗ <strong>Incorreto.</strong> ${exp}`;
+  }
+
+  updateScore(sec);
+}
+
+function updateScore(sec) {
+  const questions = data[sec];
+  let answered = 0, correct = 0;
+  questions.forEach((_, i) => {
+    const qEl = document.getElementById(`q-${sec}-${i}`);
+    if (!qEl) return;
+    if (qEl.classList.contains('correct') || qEl.classList.contains('wrong')) {
+      answered++;
+      if (qEl.classList.contains('correct')) correct++;
+    }
+  });
+  document.getElementById(`score-${sec}`).innerHTML = `${correct} <span>/ ${answered}</span>`;
+  const pct = answered > 0 ? (correct / answered) * 100 : 0;
+  const prog = document.getElementById(`prog-${sec}`);
+  prog.style.width = pct + '%';
+  prog.style.background = pct >= 75 ? 'var(--accent2)' : pct >= 50 ? 'var(--warn)' : 'var(--danger)';
+}
+
+function resetSection(sec) {
+  renderQuestions(sec);
+}
+
+// Inicializa todos os blocos dinâmicos
+const sections = ['obj11', 'obj12', 'obj13', 'obj21', 'obj23', 'obj31', 'obj41', 'master'];
+sections.forEach(s => renderQuestions(s));
+</script>
+</body>
+</html>
