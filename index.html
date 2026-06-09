@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CySA+ CS0-003 — Comprehensive Master Prep Guide</title>
+<title>CySA+ CS0-003 — Advanced Master Prep Guide</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -224,15 +224,28 @@
     background: var(--code-bg);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     overflow: hidden;
     transition: border-color .2s;
   }
   .question.correct  { border-color: var(--accent2); }
   .question.wrong    { border-color: var(--danger); }
 
+  .q-topic-tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    background: rgba(88,166,255,0.08);
+    color: var(--accent);
+    padding: 3px 8px;
+    border-radius: 4px;
+    width: fit-content;
+    margin-bottom: 10px;
+    border: 1px solid rgba(88,166,255,0.15);
+  }
+
   .q-stem {
-    padding: 18px 20px 14px;
+    padding: 20px 20px 14px;
     font-size: 15.5px;
     line-height: 1.6;
     font-weight: 500;
@@ -240,9 +253,9 @@
   .q-num {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
-    color: var(--accent);
+    color: var(--muted);
     font-weight: 600;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
 
   .options { padding: 0 20px 18px; display: flex; flex-direction: column; gap: 10px; }
@@ -274,29 +287,66 @@
   .opt.disabled           { cursor: default; }
 
   .feedback {
-    padding: 12px 20px 18px;
-    font-size: 14px;
+    padding: 18px 20px;
+    font-size: 14.5px;
     line-height: 1.6;
     display: none;
     border-top: 1px solid var(--border);
-    background: rgba(0,0,0,0.15);
+    background: #0b0e14;
   }
   .feedback.show { display: block; }
-  .feedback.ok  { color: var(--accent2); }
-  .feedback.err { color: var(--danger);  }
-  .feedback strong { font-weight: 600; color: var(--text); }
+  
+  .feedback-status {
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .feedback.ok .feedback-status { color: var(--accent2); }
+  .feedback.err .feedback-status { color: var(--danger); }
+
+  .analysis-block {
+    margin-top: 12px;
+    border-top: 1px dashed var(--border);
+    padding-top: 12px;
+  }
+  .analysis-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--warn);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 0.05em;
+  }
+  .analysis-item {
+    margin-bottom: 8px;
+    padding-left: 14px;
+    position: relative;
+  }
+  .analysis-item::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--muted);
+  }
+  .analysis-item strong {
+    color: #ffffff;
+  }
 </style>
 </head>
 <body>
 
 <header>
   <div class="badge">CS0-003</div>
-  <h1>CompTIA CySA+ — Master Prep Guide</h1>
+  <h1>CompTIA CySA+ — Master Analytics Guide</h1>
   <span>Exame Atualizado 2026</span>
 </header>
 
 <div class="wrapper">
 
+  <!-- ==================== DOMAIN 1 ==================== -->
   <div class="domain-header">
     <div class="domain-eyebrow">Domain 1 • 33% do exame</div>
     <h2>Security Operations (SecOps)</h2>
@@ -330,6 +380,7 @@
     </div>
   </div>
 
+  <!-- ==================== DOMAIN 2 ==================== -->
   <div class="domain-header" style="border-left-color: var(--warn);">
     <div class="domain-eyebrow" style="color: var(--warn);">Domain 2 • 30% do exame</div>
     <h2>Vulnerability Management</h2>
@@ -363,6 +414,7 @@
     </div>
   </div>
 
+  <!-- ==================== DOMAIN 3 ==================== -->
   <div class="domain-header" style="border-left-color: var(--accent2);">
     <div class="domain-eyebrow" style="color: var(--accent2);">Domain 3 • 22% do exame</div>
     <h2>Incident Response and Management</h2>
@@ -383,6 +435,7 @@
     </div>
   </div>
 
+  <!-- ==================== DOMAIN 4 ==================== -->
   <div class="domain-header" style="border-left-color: #ab7fff;">
     <div class="domain-eyebrow" style="color: #ab7fff;">Domain 4 • 15% do exame</div>
     <h2>Cybersecurity Governance and Compliance</h2>
@@ -403,6 +456,7 @@
     </div>
   </div>
 
+  <!-- ==================== SIMULADO COMPLETO 50 QUESTÕES ==================== -->
   <div class="objective">
     <div class="obj-title" style="background: var(--code-bg); border-bottom: 2px solid var(--accent2);">
       <span class="obj-num" style="color: var(--accent2); background: rgba(63,185,80,.1); border-color: var(--accent2);">FINAL</span>
@@ -423,34 +477,254 @@
 <script>
 const data = {
   "obj11": [
-    { q: "Um analista de segurança está revisando o fluxo de autenticação de uma infraestrutura em nuvem que implementa os pilares da Zero Trust Architecture (ZTA). Qual componente lógico central da arquitetura avalia o contexto atual do usuário e toma a decisão final de conceder ou revogar o acesso a um recurso específico?", opts: ["Policy Enforcement Point (PEP)","Policy Decision Point (PDP)","Secure Web Gateway (SWG)","Identity Provider (IdP) puro"], ans: 1, exp: "O PDP (Policy Decision Point) atua como a entidade lógica inteligente que analisa políticas contextuais e emite a decisão de acesso, enquanto o PEP (Policy Enforcement Point) atua na ponta aplicando operacionalmente a decisão tomada." },
-    { q: "Uma corporação decide integrar completamente seus controles de segurança de nuvem e de tráfego de rede, unificando soluções de Secure Web Gateway (SWG), Cloud Access Security Broker (CASB) e Zero Trust Network Access (ZTNA) em um único serviço distribuído globalmente na borda. Qual conceito descreve essa arquitetura consolidada?", opts: ["Software-Defined Wide Area Network (SD-WAN) pura","Secure Access Service Edge (SASE)","Privileged Access Management (PAM) Enterprise","Software-Defined Perimeter (SDP)"], ans: 1, exp: "O framework SASE (Secure Access Service Edge) une de forma nativa capacidades avançadas de infraestrutura de rede elástica (como SD-WAN) com serviços de segurança em nuvem unificados diretamente na borda." },
-    { q: "Qual ferramenta ou controle técnico do ecossistema de gerenciamento de identidades deve ser implementado de forma restrita para auditar, gravar e isolar sessões interativas executadas apenas por engenheiros e administradores com credenciais root ou equivalentes?", opts: ["Single Sign-On (SSO)","Multi-Factor Authentication (MFA) baseado em push","Privileged Access Management (PAM)","Identity as a Service (IDaaS) de provisionamento corporativo"], ans: 2, exp: "Soluções de PAM (Privileged Access Management) focam especificamente no ciclo de vida, cofres de senhas, rotação de credenciais de alto privilégio e auditoria/gravação de sessões administrativas." }
+    {
+      t: "Zero Trust Architecture (ZTA) / NIST SP 800-207",
+      q: "Um analista de segurança está revisando o fluxo de autenticação de uma infraestrutura em nuvem que implementa os pilares da Zero Trust Architecture (ZTA). Qual componente lógico central da arquitetura avalia o contexto atual do usuário e toma a decisão final de conceder ou revogar o acesso a um recurso específico?",
+      opts: ["Policy Enforcement Point (PEP)", "Policy Decision Point (PDP)", "Secure Web Gateway (SWG)", "Identity Provider (IdP) puro"],
+      ans: 1,
+      exp: "O PDP (Policy Decision Point) atua como a entidade lógica inteligente que analisa as políticas contextuais e emite a decisão de acesso (permitir, negar, revogar).",
+      wrongExp: [
+        "O PEP apenas executa a ação mecânica comandada pelo PDP; ele não tem inteligência analítica para computar políticas contextuais.",
+        "O SWG atua na filtragem de tráfego web de saída para a Internet e proteção contra malwares de navegação, não sendo a central lógica de decisão ZTA.",
+        "O IdP valida apenas a identidade inicial do usuário (autenticação), mas não toma decisões contextuais complexas e contínuas sobre recursos granulares."
+      ]
+    },
+    {
+      t: "Secure Access Service Edge (SASE)",
+      q: "Uma corporação decide integrar completamente seus controles de segurança de nuvem e de tráfego de rede, unificando soluções de Secure Web Gateway (SWG), Cloud Access Security Broker (CASB) e Zero Trust Network Access (ZTNA) em um único serviço distribuído globalmente na borda. Qual conceito descreve essa arquitetura consolidada?",
+      opts: ["Software-Defined Wide Area Network (SD-WAN) pura", "Secure Access Service Edge (SASE)", "Privileged Access Management (PAM) Enterprise", "Software-Defined Perimeter (SDP)"],
+      ans: 1,
+      exp: "O SASE (Secure Access Service Edge) une as capacidades avançadas de infraestrutura de rede elástica com serviços de segurança em nuvem nativos unificados diretamente na borda.",
+      wrongExp: [
+        "A SD-WAN foca no roteamento e tráfego físico/lógico de rede, mas não engloba nativamente componentes como CASB ou filtragem avançada SWG de borda.",
+        "O PAM foca exclusivamente no gerenciamento e auditoria de credenciais administrativas de alto privilégio, sem relação com bordas de rede e tráfego geral.",
+        "O SDP oculta a infraestrutura da rede pública via gateways, criando conexões ponto a ponto, mas não unifica a suíte completa de CASB e SWG que o SASE abrange."
+      ]
+    },
+    {
+      t: "Identity and Access Management (IAM) / Privileged Access Management (PAM)",
+      q: "Qual ferramenta ou controle técnico do ecossistema de gerenciamento de identidades deve ser implementado de forma restrita para auditar, gravar e isolar sessões interativas executadas apenas por engenheiros e administradores com credenciais root ou equivalentes?",
+      opts: ["Single Sign-On (SSO)", "Multi-Factor Authentication (MFA) baseado em push", "Privileged Access Management (PAM)", "Identity as a Service (IDaaS) de provisionamento corporativo"],
+      ans: 2,
+      exp: "As soluções de PAM (Privileged Access Management) focam especificamente na rotação automática de chaves, cofres de senhas robustos e gravação em tempo real de sessões administrativas completas.",
+      wrongExp: [
+        "O SSO permite que o usuário se autentique uma única vez para acessar múltiplos sistemas, mas não monitora ou grava as ações interativas de administradores locais.",
+        "O MFA adiciona um fator de validação no momento do login (posse), mas não possui qualquer visibilidade ou controle sobre o que é executado após a sessão ser aberta.",
+        "O IDaaS gerencia o provisionamento centralizado e identidades em nuvem, mas não atua no isolamento e na auditoria em nível de comando de contas root."
+      ]
+    }
   ],
   "obj21": [
-    { q: "Durante uma varredura ativa de vulnerabilidades em servidores Linux de produção, o analista do SOC opta explicitamente por um escaneamento autenticado (Credentialed Scan). Qual o principal benefício técnico de priorizar esse método em relação a testes perimetrais não autenticados?", opts: ["Garantir o menor consumo possível de largura de banda na infraestrutura de rede corporativa","Acessar configurações internas de arquivos de sistema e verificar versões de pacotes e patches instalados com total precisão","Testar a resiliência física do perímetro contra ataques distribuídos de negação de serviço (DDoS)","Simular a visão exata e limitada que um atacante externo totalmente cego possui da organização"], ans: 1, exp: "Varreduras credenciadas acessam o sistema operacional com privilégios de leitura, permitindo auditar patches ausentes, falhas de configuração local e chaves de registro ocultas com altíssima precisão e sem gerar falsos positivos." },
-    { q: "Um analista revisa uma string de vetor CVSS v3 com parâmetro 'UI:R'. Com base especificamente neste componente, qual a condição mandatória para o sucesso do exploit?", opts: ["O ataque roda de forma autônoma sem ações humanas","Exige que uma vítima execute uma ação específica, como clicar em um link ou abrir um anexo","Requer login físico local direto de um administrador","Depende do isolamento prévio de ativos de tecnologia operacional"], ans: 1, exp: "A métrica UI:R (User Interaction: Required) indica que a exploração depende obrigatoriamente de alguma interação de um usuário legítimo para disparar o exploit." }
+    {
+      t: "Vulnerability Scanning Methodology / Assessment",
+      q: "Durante uma varredura ativa de vulnerabilidades em servidores Linux de produção, o analista do SOC opta explicitamente por um escaneamento autenticado (Credentialed Scan). Qual o principal benefício técnico de priorizar esse método em relação a testes perimetrais não autenticados?",
+      opts: ["Garantir o menor consumo possível de largura de banda na infraestrutura de rede corporativa", "Acessar configurações internas de arquivos de sistema e verificar versões de pacotes e patches instalados com total precisão", "Testar a resiliência física do perímetro contra ataques distribuídos de negação de serviço (DDoS)", "Simular a visão exata e limitada que um atacante externo totalmente cego possui da organização"],
+      ans: 1,
+      exp: "Varreduras credenciadas entram no sistema com privilégios adequados, permitindo auditar o registro interno, bibliotecas instaladas e patches em nível de software local sem gerar falsos positivos.",
+      wrongExp: [
+        "A economia de largura de banda não é o foco principal; escaneamentos autenticados podem gerar até mais requisições locais de auditoria do que varreduras cegas.",
+        "O teste de resiliência contra ataques de DDoS é papel de testes de estresse volumétricos e simulações de engenharia, não de varreduras locais de patches.",
+        "A simulação de um atacante externo sem privilégios é o objetivo do Non-Credentialed Scan (escaneamento não autenticado), que possui visão limitada."
+      ]
+    },
+    {
+      t: "CVSS v3 Metrics & Vector Strings",
+      q: "Um analista revisa uma string de vetor CVSS v3 com parâmetro 'UI:R'. Com base especificamente neste componente, qual a condição mandatória para o sucesso do exploit?",
+      opts: ["O ataque roda de forma autônoma sem ações humanas", "Exige que uma vítima execute uma ação específica, como clicar em um link ou abrir um anexo", "Requer login físico local direto de um administrador", "Depende do isolamento prévio de ativos de tecnologia operacional"],
+      ans: 1,
+      exp: "A métrica UI:R (User Interaction: Required) estabelece explicitamente que o gatilho da exploração depende de alguma ação deliberada de um usuário humano real.",
+      wrongExp: [
+        "Se o ataque rodasse sem ações humanas, o parâmetro correto do vetor seria UI:N (User Interaction: None).",
+        "A necessidade de login físico está ligada à métrica Attack Vector (AV:L - Local), e não à métrica de Interação do Usuário.",
+        "O isolamento de tecnologia operacional (OT) não tem relação estrutural com as definições de escopo ou interação humana parametrizadas no CVSS v3."
+      ]
+    }
   ],
   "obj31": [
-    { q: "Durante um incidente crítico de intrusão e vazamento de dados confidenciais, o Líder do CSIRT emite uma ordem técnica de contenção emergencial instruindo o isolamento lógico imediato de um segmento de rede vulnerável desativando portas de switches através de chamadas do SOAR. Essa atividade técnica de contenção pertence a qual fase do ciclo de resposta a incidentes do NIST?", opts: ["Preparation","Detection and Analysis","Containment, Erradication, and Recovery","Post-Incident Activity / Lessons Learned"], ans: 2, exp: "A fase de Contenção, Erradicação e Recuperação envolve a execução de ações técnicas imediatas para deter o avanço e a propagação da ameaça (Containment), limpar o ambiente (Eradication) e restaurar sistemas (Recovery)." },
-    { q: "Um analista forense precisa consolidar evidências de computação digital mantendo um registro cronológico rígido e documentado de todas as pessoas que manusearam ou acessaram os artefatos. Essa documentação chama-se:", opts: ["Incident Response Playbook Procedural","Chain of Custody (Cadeia de Custódia)","Summary Forensics Dashboard","Acordo de SLA Contratual Operacional"], ans: 1, exp: "A Cadeia de Custódia é o documento formal que garante a integridade legal e histórica das evidências coletadas para fins judiciais." }
+    {
+      t: "Incident Response Lifecycle / NIST SP 800-61 Rev. 2",
+      q: "Durante um incidente crítico de intrusão e vazamento de dados confidenciais, o Líder do CSIRT emite uma ordem técnica de contenção emergencial instruindo o isolamento lógico imediato de um segmento de rede vulnerável desativando portas de switches através de chamadas do SOAR. Essa atividade técnica de contenção pertence a qual fase do ciclo de resposta a incidentes do NIST?",
+      opts: ["Preparation", "Detection and Analysis", "Containment, Erradication, and Recovery", "Post-Incident Activity / Lessons Learned"],
+      ans: 2,
+      exp: "Isolar hosts e cortar acessos de switches para conter infecções ativas está no cerne da fase de Contenção, Erradicação e Recuperação.",
+      wrongExp: [
+        "A fase de Preparação ocorre bem antes dos incidentes, focando em treinar o time, documentar playbooks e endurecer políticas de firewalls.",
+        "A fase de Detecção e Análise envolve correlacionar alertas no SIEM, ler pacotes de rede e confirmar se o falso positivo foi descartado.",
+        "A fase Pós-Incidente (Lições Aprendidas) acontece após a ameaça ser completamente eliminada, visando documentar relatórios e corrigir falhas processuais."
+      ]
+    },
+    {
+      t: "Digital Forensics & Evidence Handling",
+      q: "Um analista forense precisa consolidar evidências de computação digital mantendo um registro cronológico rígido e documentado de todas as pessoas que manusearam ou acessaram os artefatos. Essa documentação chama-se:",
+      opts: ["Incident Response Playbook Procedural", "Chain of Custody (Cadeia de Custódia)", "Summary Forensics Dashboard", "Acordo de SLA Contratual Operacional"],
+      ans: 1,
+      exp: "A Cadeia de Custódia (Chain of Custody) rastreia a posse, custódia, controle e análise das evidências para provar que o artefato não sofreu adulterações.",
+      wrongExp: [
+        "O Playbook é um guia passo a passo focado no fluxo operacional da contenção de ameaças, e não na rastreabilidade jurídica de mídias físicas/lógicas.",
+        "Um dashboard forense serve apenas para monitoramento visual consolidado de alertas e dados gerenciais rápidos.",
+        "O SLA (Service Level Agreement) é um contrato de nível de serviço comercial que dita tempos de resposta mínimos acordados em contrato de suporte."
+      ]
+    }
   ],
   "obj41": [
-    { q: "Um analista de conformidade de segurança cibernética revisa as práticas organizacionais de manipulação de dados de saúde e prontuários médicos eletrônicos regulados nos Estados Unidos, garantindo controles severos de confidencialidade de registros médicos e privacidade dos pacientes. Qual regulação federal dita esses requisitos obrigatórios?", opts: ["Sarbanes-Oxley Act (SOX)","Payment Card Industry Data Security Standard (PCI DSS)","Health Insurance Portability and Accountability Act (HIPAA)","General Data Protection Regulation (GDPR) europeu"], ans: 2, exp: "A lei federal norte-americana HIPAA regulamenta a proteção, segurança e privacidade de informações de saúde protegidas (PHI - Protected Health Information), impondo severas regras a prestadores de serviços de saúde." },
-    { q: "Um engenheiro de segurança de uma agência governamental está configurando controles em nuvem federal dos EUA. Ele deve seguir os padrões obrigatórios ditados por qual lei americana?", opts: ["General Data Protection Regulation (GDPR)","Federal Information Security Management Act (FISMA)","Sarbanes-Oxley Act (SOX)","Health Insurance Portability and Accountability Act (HIPAA)"], ans: 1, exp: "A FISMA exige que agências governamentais federais norte-americanas implementem controles padronizados de segurança da informação alinhados ao NIST." }
+    {
+      t: "Regulatory Compliance / Healthcare Security",
+      q: "Um analista de conformidade de segurança cibernética revisa as práticas organizacionais de manipulação de dados de saúde e prontuários médicos eletrônicos regulados nos Estados Unidos, garantindo controles severos de confidencialidade de registros médicos e privacidade dos pacientes. Qual regulação federal dita esses requisitos obrigatórios?",
+      opts: ["Sarbanes-Oxley Act (SOX)", "Payment Card Industry Data Security Standard (PCI DSS)", "Health Insurance Portability and Accountability Act (HIPAA)", "General Data Protection Regulation (GDPR) europeu"],
+      ans: 2,
+      exp: "A HIPAA regulamenta rigorosamente os dados médicos confidenciais (PHI - Protected Health Information) em solo norte-americano.",
+      wrongExp: [
+        "A SOX audita relatórios de contabilidade e fraudes corporativas financeiras de empresas públicas de capital aberto.",
+        "O PCI DSS é um padrão privado da indústria de cartões de crédito para proteger dados de transações financeiras.",
+        "O GDPR é a regulação de privacidade e proteção de dados da União Europeia, não uma regulação federal focada em saúde nos EUA."
+      ]
+    },
+    {
+      t: "Federal Information Security & Risk Governance",
+      q: "Um engenheiro de segurança de uma agência governamental está configurando controles em nuvem federal dos EUA. Ele deve seguir os padrões obrigatórios ditados por qual lei americana?",
+      opts: ["General Data Protection Regulation (GDPR)", "Federal Information Security Management Act (FISMA)", "Sarbanes-Oxley Act (SOX)", "Health Insurance Portability and Accountability Act (HIPAA)"],
+      ans: 1,
+      exp: "A FISMA impõe regras rígidas de segurança da informação alinhadas aos frameworks do NIST para todas as agências e parceiros federais norte-americanos.",
+      wrongExp: [
+        "O GDPR aplica-se a dados de cidadãos europeus e não atua como a lei federal governamental para sistemas e infraestrutura do governo dos EUA.",
+        "A SOX foca no ecossistema financeiro privado de capital aberto e mercado de ações, sem relação direta com defesas técnicas governamentais.",
+        "A HIPAA é restrita a dados do setor de saúde (hospitais, seguradoras médicas), não cobrindo a infraestrutura pública federal geral."
+      ]
+    }
   ],
   "master": [
-    { q: "Durante testes de validação defensiva em uma aplicação web corporativa, um analista injeta uma string contendo comandos de script em um campo de comentários público que armazena os dados permanentemente no banco corporativo. Todos os novos visitantes que acessam a página têm o script renderizado e executado em seus navegadores. Essa falha é classificada como:", opts: ["Reflected Cross-Site Scripting (XSS)","Stored (Persistent) Cross-Site Scripting (XSS)","Insecure Direct Object Reference (IDOR)","Server-Side Request Forgery (SSRF)"], ans: 1, exp: "O Stored XSS ocorre quando o payload hostil de injeção de scripts é gravado de forma duradoura no banco de dados do backend, vitimando de forma persistente qualquer usuário legítimo que venha a carregar aquela página no futuro." },
-    { q: "Ao analisar a telemetria profunda fornecida por agentes de EDR em um endpoint infectado por malware stealth, constata-se o carregamento de uma DLL maliciosa a partir do mesmo diretório local onde reside um executável legítimo e confiável do sistema operacional, burlando as buscas padrão do OS. Essa técnica de evasão chama-se:", opts: ["Process Hollowing em memória RAM","DLL Side-Loading / DLL Hijacking","Ofuscação de comandos PowerShell locais","Uso indevido de privilégios via PAM"], ans: 1, exp: "O DLL Side-Loading aproveita a ordem de busca padrão que o Windows utiliza para carregar bibliotecas dinâmicas, inserindo uma DLL hostil com nome legítimo no mesmo diretório de um executável confiável." },
-    { q: "No contexto de inteligência de ameaças cibernéticas defensivas (CTI), feeds automatizados que fornecem arquivos XML/JSON contendo IPs maliciosos conhecidos, hashes de malware e indicadores de e-mails de phishing de forma massiva e imediata para alimentação direta de regras no SIEM representam qual nível de inteligência?", opts: ["Strategic Threat Intelligence","Operational / Technical Threat Intelligence","Tactical Threat Intelligence baseada em TTPs","Benchmarks regulatórios de governança global"], ans: 1, exp: "A inteligência operacional ou técnica fornece indicadores de comprometimento (IoCs) crus e imediatos, tais como IPs, URLs e hashes, perfeitos para alimentar assinaturas e regras automáticas de ferramentas do SOC." },
-    { q: "Um relatório de auditoria aponta que uma organização carece de sincronização temporal centralizada adequada entre seus múltiplos servidores e ativos de rede distribuídos em nuvens híbridas, impedindo a correlação de linhas do tempo forenses confiáveis no SIEM. Qual protocolo deve ser configurado de forma mandatória para remediar essa falha técnica?", opts: ["Simple Network Management Protocol (SNMP v3)","Network Time Protocol (NTP)","Domain Name System Security Extensions (DNSSEC)","Hypertext Travel Protocol Secure (HTTPS)"], ans: 1, exp: "O protocolo NTP (Network Time Protocol) garante a sincronização precisa e uniforme dos relógios e carimbos de data/hora (timestamps) entre todos os ativos de rede, requisito crítico para auditorias forenses no SIEM." },
-    { q: "Ao inspecionar pacotes de logs coletados de um proxy, um analista do SOC descobre um grande número de requisições enviadas a partir de um servidor interno direcionadas a um endpoint de API de infraestrutura em nuvem contendo a string de cabeçalho 'X-Forwarded-For' alterada e apontando para recursos confidenciais locais (localhost). Esse indicador sugere um ataque de:", opts: ["Cross-Site Scripting (XSS) Refletido","Server-Side Request Forgery (SSRF)","Estouro de Buffer baseado em pilhas de memória","Injeção de Comandos SQL cega"], ans: 1, exp: "O Server-Side Request Forgery (SSRF) ocorre quando uma aplicação web vulnerável é manipulada por um atacante para realizar requisições maliciosas em nome do servidor contra recursos internos ou terceiros confidenciais." },
-    { q: "O time de engenharia defensiva do SOC implementa controles baseados em CASB (Cloud Access Security Broker). Qual o principal objetivo prático corporativo visado ao adotar esse tipo de tecnologia específica na infraestrutura?", opts: ["Garantir a microsegmentação física de cabos de switches locais de servidores em produção","Monitorar, auditar e aplicar políticas de segurança e conformidade de dados estritas entre usuários internos e serviços em nuvem de terceiros (SaaS/IaaS)","Substituir de forma integral os antivírus locais tradicionais e agentes de EDR dos endpoints","Automatizar a criação de patches corretivos para sistemas operacionais legados"], ans: 1, exp: "Soluções CASB atuam como pontos de aplicação de políticas de segurança posicionados entre os usuários de uma organização e os provedores de serviços na nuvem, garantindo visibilidade, proteção de dados e conformidade." },
-    { q: "Durante um ataque cibernético massivo, um analista do SOC percebe que o invasor está forçando requisições HTTP maliciosas que exploram uma falha lógica de estouro de buffer (Buffer Overflow) em um binário legado. O mecanismo de proteção nativo do sistema operacional Windows que mitiga essa exploração randomizando os endereços de memória RAM onde componentes críticos do código são carregados é conhecido tecnicamente como:", opts: ["Data Execution Prevention (DEP)","Address Space Layout Randomization (ASLR)","Windows File Protection (WFP)","Extended Detection and Response (XDR)"], ans: 1, exp: "O ASLR (Address Space Layout Randomization) randomiza as posições das áreas de dados e códigos chaves na memória RAM de modo a dificultar severamente que códigos maliciosos consigam prever alvos de saltos lógicos de exploits." },
-    { q: "Qual a principal vantagem técnica de adotar ferramentas de modelagem de ameaças (Threat Modeling) baseadas em metodologias consagradas como o modelo STRIDE durante os estágios primários do Ciclo de Vida de Desenvolvimento de Software (SDLC)?", opts: ["Eliminar a necessidade de executar auditorias de relatórios financeiros da lei SOX","Prever proativamente falhas arquiteturais e bugs lógicos de design de software antes que o código comece a ser programado","Substituir de forma integral a infraestrutura de firewalls WAF locais","Automatizar o envio de webhooks para canais do Slack"], ans: 1, exp: "A modelagem de ameaças estruturada permite prever proativamente potenciais brechas lógicas, ameaças de spoofing, adulteração e riscos de design arquitetural nas fases iniciais do SDLC, reduzindo drasticamente custos de correção pós-produção." },
-    { q: "A inteligência de ameaças identifica um grupo enviando e-mails customizados altamente direcionados a assistentes seniores imitando executivos do C-Level para forçar transferências bancárias. Essa técnica chama-se:", opts: ["Massive Phishing Broadcast","Spear Phishing / Whaling","Watering Hole Attack","DNS Spoofing local"], ans: 1, exp: "O Spear Phishing direciona e-mails para alvos específicos. Quando foca estritamente em executivos do alto escalão corporativo ou suas secretárias, chama-se Whaling." },
-    { q: "Uma corporação decide integrar completamente seus controles de segurança de nuvem e de tráfego de rede, unificando soluções de Secure Web Gateway (SWG), Cloud Access Security Broker (CASB) e Zero Trust Network Access (ZTNA) em um único serviço distribuído globalmente na borda. Qual conceito descreve essa arquitetura consolidada?", opts: ["Software-Defined Wide Area Network (SD-WAN) pura","Secure Access Service Edge (SASE)","Privileged Access Management (PAM) Enterprise","Software-Defined Perimeter (SDP)"], ans: 1, exp: "O framework SASE (Secure Access Service Edge) une de forma nativa capacidades avançadas de infraestrutura de rede elástica (como SD-WAN) com serviços de segurança em nuvem unificados diretamente na borda." },
-    { q: "Qual ferramenta ou controle técnico do ecossistema de gerenciamento de identidades deve ser implementado de forma restrita para auditar, gravar e isolar sessões interativas executadas apenas por engenheiros e administradores com credenciais root ou equivalentes?", opts: ["Single Sign-On (SSO)","Multi-Factor Authentication (MFA) baseado em push","Privileged Access Management (PAM)","Identity as a Service (IDaaS) de provisionamento corporativo"], ans: 2, exp: "Soluções de PAM (Privileged Access Management) focam especificamente no ciclo de vida, cofres de senhas, rotação de credenciais de alto privilégio e auditoria/gravação de sessões administrativas." }
+    {
+      t: "Web Application Attacks / OWASP Top 10",
+      q: "Durante testes de validação defensiva em uma aplicação web corporativa, um analista injeta uma string contendo comandos de script em um campo de comentários público que armazena os dados permanentemente no banco corporativo. Todos os novos visitantes que acessam a página têm o script renderizado e executado em seus navegadores. Essa falha é classificada como:",
+      opts: ["Reflected Cross-Site Scripting (XSS)", "Stored (Persistent) Cross-Site Scripting (XSS)", "Insecure Direct Object Reference (IDOR)", "Server-Side Request Forgery (SSRF)"],
+      ans: 1,
+      exp: "O Stored XSS grava permanentemente o payload malicioso no banco de dados. Qualquer usuário posterior que carregar a página afetada executará o script.",
+      wrongExp: [
+        "O Reflected XSS não grava dados no banco; o payload trafega imediatamente na requisição HTTP (geralmente via URL) e é refletido em uma única resposta.",
+        "O IDOR ocorre quando a aplicação expõe referências a objetos internos do banco (como chaves ou IDs de arquivos) sem validação de autorização de acesso.",
+        "O SSRF induz o servidor backend vulnerável a disparar requisições para servidores internos ou externos que o atacante não conseguiria acessar diretamente."
+      ]
+    },
+    {
+      t: "Endpoint Evasion Techniques / Registry & Process Manipulation",
+      q: "Ao analisar a telemetria profunda fornecida por agentes de EDR em um endpoint infectado por malware stealth, constata-se o carregamento de uma DLL maliciosa a partir do mesmo diretório local onde reside um executável legítimo e confiável do sistema operacional, burlando as buscas padrão do OS. Essa técnica de evasão chama-se:",
+      opts: ["Process Hollowing em memória RAM", "DLL Side-Loading / DLL Hijacking", "Ofuscação de comandos PowerShell locais", "Uso indevido de privilégios via PAM"],
+      ans: 1,
+      exp: "O DLL Side-Loading explora a prioridade nativa do Windows de buscar DLLs no mesmo diretório do arquivo executável antes de varrer pastas do sistema.",
+      wrongExp: [
+        "O Process Hollowing suspende um processo legítimo na memória RAM, esvazia seu código original e injeta código hostil mantendo a assinatura visual do processo.",
+        "A ofuscação de comandos PowerShell altera a sintaxe de scripts (usando codificação Base64, por exemplo) para cegar assinaturas tradicionais de antivírus.",
+        "O PAM é uma suíte de gerenciamento de contas de alto privilégio e não uma técnica de sequestro ou carregamento de arquivos dinâmicos no sistema operacional."
+      ]
+    },
+    {
+      t: "Cyber Threat Intelligence (CTI) Levels",
+      q: "No contexto de inteligência de ameaças cibernéticas defensivas (CTI), feeds automatizados que fornecem arquivos XML/JSON contendo IPs maliciosos conhecidos, hashes de malware e indicadores de e-mails de phishing de forma massiva e imediata para alimentação direta de regras no SIEM representam qual nível de inteligência?",
+      opts: ["Strategic Threat Intelligence", "Operational / Technical Threat Intelligence", "Tactical Threat Intelligence baseada em TTPs", "Benchmarks regulatórios de governança global"],
+      ans: 1,
+      exp: "A inteligência operacional ou técnica lida com Indicadores de Comprometimento (IoCs) brutos, de curta duração e alta velocidade (hashes, IPs, domínios).",
+      wrongExp: [
+        "A Inteligência Estratégica foca em tomadores de decisão de alto nível (C-Level), analisando relatórios macro de geopolítica, tendências de mercado e impacto financeiro.",
+        "A Inteligência Tática lida com as táticas, técnicas e procedimentos (TTPs) detalhados dos atores de ameaça (ex: mapeamento do framework MITRE ATT&CK).",
+        "Os benchmarks regulatórios pertencem às disciplinas de Governança, Risco e Conformidade (GRC), e não às categorias de inteligência contra ameaças."
+      ]
+    },
+    {
+      t: "Security Infrastructure / Logging and Time Sychronization",
+      q: "Um relatório de auditoria aponta que uma organização carece de sincronização temporal centralizada adequada entre seus múltiplos servidores e ativos de rede distribuídos em nuvens híbridas, impedindo a correlação de linhas do tempo forenses confiáveis no SIEM. Qual protocolo deve ser configurado de forma mandatória para remediar essa falha técnica?",
+      opts: ["Simple Network Management Protocol (SNMP v3)", "Network Time Protocol (NTP)", "Domain Name System Security Extensions (DNSSEC)", "Hypertext Travel Protocol Secure (HTTPS)"],
+      ans: 1,
+      exp: "O protocolo NTP (Network Time Protocol) sincroniza perfeitamente os relógios internos de todos os ativos corporativos, garantindo a integridade dos timestamps nos logs.",
+      wrongExp: [
+        "O SNMP v3 é utilizado estritamente para coletar telemetria, métricas de hardware e gerenciar o status operacional de dispositivos de rede remotos.",
+        "O DNSSEC adiciona assinaturas criptográficas ao serviço de DNS para evitar ataques de falsificação de cache (DNS Cache Poisoning).",
+        "O HTTPS provê comunicações criptografadas ponta a ponta na web (camada de transporte TLS) e não atua regulando tempos e carimbos de relógio."
+      ]
+    },
+    {
+      t: "Advanced Web Exploitation / SSRF Detection",
+      q: "Ao inspecionar pacotes de logs coletados de um proxy, um analista do SOC descobre um grande número de requisições enviadas a partir de um servidor interno direcionadas a um endpoint de API de infraestrutura em nuvem contendo a string de cabeçalho 'X-Forwarded-For' alterada e apontando para recursos confidenciais locais (localhost). Esse indicador sugere um ataque de:",
+      opts: ["Cross-Site Scripting (XSS) Refletido", "Server-Side Request Forgery (SSRF)", "Estouro de Buffer baseado em pilhas de memória", "Injeção de Comandos SQL cega"],
+      ans: 1,
+      exp: "Manipular cabeçalhos HTTP para enganar servidores fazendo-os acessar recursos internos restritos (como localhost ou metadados de nuvem) é a assinatura clara de SSRF.",
+      wrongExp: [
+        "O XSS Refletido envolve a injeção de scripts no navegador do cliente (frontend) e não manipula chamadas de requisições internas de API originadas do servidor.",
+        "O estouro de buffer ataca diretamente a alocação de memória RAM em código de baixo nível, explorando funções vulneráveis como strcpy e estouros de limites.",
+        "A injeção de comandos SQL cega (Blind SQLi) submete comandos lógicos de bancos de dados para deduzir respostas binárias com base em tempo de retorno do servidor."
+      ]
+    },
+    {
+      t: "Cloud Security Architecture / Data Protection",
+      q: "O time de engenharia defensiva do SOC implementa controles baseados em CASB (Cloud Access Security Broker). Qual o principal objetivo prático corporativo visado ao adotar esse tipo de tecnologia específica na infraestrutura?",
+      opts: ["Garantir a microsegmentação física de cabos de switches locais de servidores em produção", "Monitorar, auditar e aplicar políticas de segurança e conformidade de dados estritas entre usuários internos e serviços em nuvem de terceiros (SaaS/IaaS)", "Substituir de forma integral os antivírus locais tradicionais e agentes de EDR dos endpoints", "Automatizar a criação de patches corretivos para sistemas operacionais legados"],
+      ans: 1,
+      exp: "O CASB serve como um guarda-costas posicionado entre a rede local e os serviços em nuvem, impedindo vazamentos de dados (DLP) e controlando o uso de Shadow IT.",
+      wrongExp: [
+        "A microsegmentação física de cabos locais depende de arquiteturas de hardware de redes e switches core, escapando completamente do escopo puramente lógico do CASB.",
+        "O CASB monitora fluxos direcionados a serviços em nuvem; ele não substitui a proteção profunda de endpoints contra exploits locais provida por soluções de EDR.",
+        "A correção e compilação de patches em sistemas operacionais legados é tratada por softwares específicos de Patch Management, e não por corretores de acesso à nuvem."
+      ]
+    },
+    {
+      t: "Operating System Defenses / Memory Protection Mechanisms",
+      q: "Durante um ataque cibernético massivo, um analista do SOC percebe que o invasor está forçando requisições HTTP maliciosas que exploram uma falha lógica de estouro de buffer (Buffer Overflow) em um binário legado. O mecanismo de proteção nativo do sistema operacional Windows que mitiga essa exploração randomizando os endereços de memória RAM onde componentes críticos do código são carregados é conhecido tecnicamente como:",
+      opts: ["Data Execution Prevention (DEP)", "Address Space Layout Randomization (ASLR)", "Windows File Protection (WFP)", "Extended Detection and Response (XDR)"],
+      ans: 1,
+      exp: "O ASLR (Address Space Layout Randomization) embaralha os endereços de memória RAM onde executáveis e DLLs residem, impedindo exploits de preverem ponteiros de saltos.",
+      wrongExp: [
+        "O DEP marca certas regiões da memória RAM (como a pilha/stack e heap) como não executáveis, impedindo que dados injetados executem códigos de forma hostil.",
+        "O WFP monitora modificações em arquivos de sistema críticos do Windows (.sys, .exe, .dll) impedindo que programas de terceiros substituam arquivos nativos.",
+        "O XDR é uma suíte integrada de monitoramento e detecção que unifica logs de endpoints, redes e nuvens no SOC, sem relação com compilação física de memória."
+      ]
+    },
+    {
+      t: "Threat Modeling / Application Security lifecycle",
+      q: "Qual a principal vantagem técnica de adotar ferramentas de modelagem de ameaças (Threat Modeling) baseadas em metodologias consagradas como o modelo STRIDE durante os estágios primários do Ciclo de Vida de Desenvolvimento de Software (SDLC)?",
+      opts: ["Eliminar a necessidade de executar auditorias de relatórios financeiros da lei SOX", "Prever proativamente falhas arquiteturais e bugs lógicos de design de software antes que o código comece a ser programado", "Substituir de forma integral a infraestrutura de firewalls WAF locais", "Automatizar o envio de webhooks para canais do Slack"],
+      ans: 1,
+      exp: "Mapear ameaças preventivamente com o STRIDE no início do ciclo de engenharia permite corrigir falhas estruturais de design lógico antes que o software seja codificado.",
+      wrongExp: [
+        "Auditorias financeiras corporativas demandadas pela regulação SOX dependem de revisões contábeis e fiscais, independentes do design de código de aplicações web.",
+        "A modelagem foca no ciclo conceitual de ameaças; ela reduz riscos de falhas de lógica, mas não elimina a necessidade de firewalls WAF ativos filtrando tráfego real.",
+        "Automatizar o disparo de alertas em salas do Slack é uma funcionalidade genérica de pipelines de CI/CD, distante do propósito analítico da modelagem STRIDE."
+      ]
+    },
+    {
+      t: "Social Engineering Tactics / Phishing Archetypes",
+      q: "A inteligência de ameaças identifica um grupo enviando e-mails customizados altamente direcionados a assistentes seniores imitando executivos do C-Level para forçar transferências bancárias. Essa técnica chama-se:",
+      opts: ["Massive Phishing Broadcast", "Spear Phishing / Whaling", "Watering Hole Attack", "DNS Spoofing local"],
+      ans: 1,
+      exp: "Ataques de e-mail altamente customizados e focados em alvos corporativos específicos chamam-se Spear Phishing. Quando o alvo é do alto escalão executivo, chama-se Whaling.",
+      wrongExp: [
+        "O Phishing tradicional em massa (Broadcast) dispara e-mails genéricos de forma cega para milhões de caixas postais torcendo para que alguém caia na isca.",
+        "O Watering Hole infecta sites legítimos da web que são frequentemente visitados pelo grupo alvo de interesse, aguardando que eles acessem o link infectado.",
+        "O DNS Spoofing altera registros no servidor de nomes local para redirecionar tráfego legítimo a IPs falsos, não envolvendo o envio de e-mails diretos."
+      ]
+    },
+    {
+      t: "Consolidated Network Security Infrastructure",
+      q: "Uma corporação decide integrar completamente seus controles de segurança de nuvem e de tráfego de rede, unificando soluções de Secure Web Gateway (SWG), Cloud Access Security Broker (CASB) e Zero Trust Network Access (ZTNA) em um único serviço distribuído globalmente na borda. Qual conceito descreve essa arquitetura consolidada?",
+      opts: ["Software-Defined Wide Area Network (SD-WAN) pura", "Secure Access Service Edge (SASE)", "Privileged Access Management (PAM) Enterprise", "Software-Defined Perimeter (SDP)"],
+      ans: 1,
+      exp: "O framework unificado SASE combina nativamente os recursos avançados de transporte e otimização elástica de rede com soluções de segurança consolidadas.",
+      wrongExp: [
+        "A arquitetura SD-WAN trata puramente das capacidades de conectividade dinâmica e roteamento físico, carecendo do conjunto de ferramentas avançadas CASB/ZTNA.",
+        "Soluções de PAM focam na governança e cofre de senhas de administradores legítimos, não atuando na segurança ou filtragem de tráfego de rede corporativa.",
+        "O SDP implementa perímetros definidos por software ocultando servidores, mas não agrupa o processamento nativo unificado de CASB e SWG que o SASE provê."
+      ]
+    },
+    {
+      t: "Access Control / Privileged Identity Monitoring",
+      q: "Qual ferramenta ou controle técnico do ecossistema de gerenciamento de identidades deve ser implementado de forma restrita para auditar, gravar e isolar sessões interativas executadas apenas por engenheiros e administradores com credenciais root ou equivalentes?",
+      opts: ["Single Sign-On (SSO)", "Multi-Factor Authentication (MFA) baseado em push", "Privileged Access Management (PAM)", "Identity as a Service (IDaaS) de provisionamento corporativo"],
+      ans: 2,
+      exp: "Soluções estruturadas de PAM garantem total visibilidade, isolamento em proxies internos e gravação em vídeo/texto de comandos efetuados em sessões privilegiadas.",
+      wrongExp: [
+        "O SSO unifica as credenciais de login para facilitar a usabilidade dos usuários, mas não monitora ou restringe atividades locais executadas após a autenticação.",
+        "O MFA mitiga riscos de roubo de senhas adicionando fatores extras de autenticação, porém não tem capacidade de auditar os comandos disparados na sessão.",
+        "O IDaaS automatiza o ciclo de vida de provisionamento de usuários e contas gerais em nuvem, não cobrindo o isolamento em tempo real de acessos root locais."
+      ]
+    }
   ]
 };
 
@@ -470,6 +744,7 @@ function renderQuestions(secId) {
     container.innerHTML += `
       <div class="question" id="q-${secId}-${i}">
         <div class="q-stem">
+          <div class="q-topic-tag">Tópico: ${escapeHtml(item.t)}</div>
           <div class="q-num">Questão ${i+1} de ${questions.length}</div>
           ${escapeHtml(item.q)}
         </div>
@@ -489,8 +764,8 @@ function answer(el) {
   const sec = el.dataset.sec;
   const qi  = parseInt(el.dataset.q);
   const idx = parseInt(el.dataset.idx);
-  const correct = data[sec][qi].ans;
-  const exp     = data[sec][qi].exp;
+  const qItem = data[sec][qi];
+  const correct = qItem.ans;
 
   const qEl  = document.getElementById(`q-${sec}-${qi}`);
   const opts = qEl.querySelectorAll('.opt');
@@ -506,13 +781,31 @@ function answer(el) {
 
   const fb = document.getElementById('fb-' + sec + '-' + qi);
   fb.classList.add('show');
-  if (idx === correct) {
-    fb.classList.add('ok');
-    fb.innerHTML = `✓ <strong>Correto!</strong> ${escapeHtml(exp)}`;
-  } else {
-    fb.classList.add('err');
-    fb.innerHTML = `✗ <strong>Incorreto.</strong> ${escapeHtml(exp)}`;
-  }
+  
+  let isCorrect = (idx === correct);
+  fb.className = `feedback ${isCorrect ? 'ok' : 'err'}`;
+  
+  let letters = ['A','B','C','D'];
+  
+  let wrongExplantionsHtml = qItem.opts.map((optName, index) => {
+    if (index === correct) return '';
+    
+    let wrongTextIndex = index > correct ? index - 1 : index;
+    let explanationText = qItem.wrongExp[wrongTextIndex] || "Alternativa incorreta com base nos parâmetros oficiais de design do framework.";
+    
+    return `<div class="analysis-item"><strong>Opção ${letters[index]}:</strong> ${escapeHtml(explanationText)}</div>`;
+  }).join('');
+
+  fb.innerHTML = `
+    <div class="feedback-status">
+      ${isCorrect ? '✓ Correto!' : '✗ Incorreto.'}
+    </div>
+    <div><strong>Por que a ${letters[correct]} é a Certa?</strong><br>${escapeHtml(qItem.exp)}</div>
+    <div class="analysis-block">
+      <div class="analysis-title">Análise Técnico-Defensiva das Erradas:</div>
+      ${wrongExplantionsHtml}
+    </div>
+  `;
 
   updateScore(sec);
 }
