@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CySA+ CS0-003 — Guia de Estudos</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0d1117;
+    --surface:   #161b22;
+    --surface2:  #1c2330;
+    --border:    #30363d;
+    --accent:    #58a6ff;
+    --accent2:   #3fb950;
+    --warn:      #d29922;
+    --danger:    #f85149;
+    --text:      #e6edf3;
+    --muted:     #8b949e;
+    --code-bg:   #131a24;
+    --radius:    6px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 28px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .badge {
+    background: var(--accent);
+    color: #0d1117;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 3px;
+    letter-spacing: .04em;
+  }
+  header h1 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  header span {
+    margin-left: auto;
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  /* ── LAYOUT ── */
+  .wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px 32px 80px;
+  }
+
+  /* ── DOMAIN HEADER ── */
+  .domain-header {
+    border-left: 3px solid var(--accent);
+    padding: 0 0 0 20px;
+    margin-bottom: 40px;
+  }
+  .domain-eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .domain-header h2 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .domain-header p {
+    color: var(--muted);
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  /* ── OBJECTIVE CARD ── */
+  .objective {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 48px;
+    overflow: hidden;
+  }
+  .obj-title {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 24px;
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+  }
+  .obj-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--accent);
+    background: rgba(88,166,255,.1);
+    border: 1px solid rgba(88,166,255,.25);
+    padding: 2px 8px;
+    border-radius: 3px;
+  }
+  .obj-title h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .obj-body { padding: 24px; }
+
+  /* ── SECTIONS ── */
+  .section { margin-bottom: 32px; }
+  .section-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ── EXPLANATION ── */
+  .explanation p { margin-bottom: 12px; color: var(--text); }
+  .explanation p:last-child { margin-bottom: 0; }
+
+  /* ── TOPICS ── */
+  .topics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media(max-width:600px){ .topics { grid-template-columns: 1fr; } }
+
+  .topic-item {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+  .topic-item strong {
+    display: block;
+    color: var(--accent);
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .topic-item p { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+  /* ── EXAMPLE BOX ── */
+  .example-box {
+    background: var(--code-bg);
+    border: 1px solid rgba(63,185,80,.2);
+    border-left: 3px solid var(--accent2);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+  }
+  .example-box .ex-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--accent2);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .example-box p { font-size: 13px; line-height: 1.6; }
+  .example-box code {
+    background: rgba(88,166,255,.12);
+    color: var(--accent);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+
+  /* ── QUESTIONS ── */
+  .questions-section { margin-top: 36px; }
+  .q-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .q-header .section-label { margin: 0; border: none; padding: 0; }
+  .q-count {
+    margin-left: auto;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .score-bar {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .score-display {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .score-display span { font-size: 12px; color: var(--muted); }
+  .progress-wrap {
+    flex: 1;
+    height: 6px;
+    background: var(--border);
+    border-radius: 99px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    border-radius: 99px;
+    background: var(--accent2);
+    transition: width .4s ease;
+    width: 0%;
+  }
+  .btn-reset {
+    margin-left: auto;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 12px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 5px 12px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: border-color .15s, color .15s;
+  }
+  .btn-reset:hover { border-color: var(--accent); color: var(--accent); }
+
+  .question {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 14px;
+    overflow: hidden;
+    transition: border-color .2s;
+  }
+  .question.correct  { border-color: var(--accent2); }
+  .question.wrong    { border-color: var(--danger); }
+
+  .q-stem {
+    padding: 16px 18px 12px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .q-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+
+  .options { padding: 0 18px 16px; display: flex; flex-direction: column; gap: 7px; }
+  .opt {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 1.5;
+    transition: background .15s, border-color .15s;
+    user-select: none;
+  }
+  .opt:hover { background: var(--surface2); border-color: var(--accent); }
+  .opt .opt-letter {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    min-width: 16px;
+    padding-top: 1px;
+  }
+  .opt.selected           { border-color: var(--accent);  background: rgba(88,166,255,.08); }
+  .opt.correct-answer     { border-color: var(--accent2); background: rgba(63,185,80,.1);   }
+  .opt.wrong-answer       { border-color: var(--danger);  background: rgba(248,81,73,.08);  }
+  .opt.disabled           { cursor: default; }
+
+  .feedback {
+    padding: 10px 18px 14px;
+    font-size: 12.5px;
+    line-height: 1.55;
+    display: none;
+  }
+  .feedback.show { display: block; }
+  .feedback.ok  { color: var(--accent2); }
+  .feedback.err { color: var(--danger);  }
+  .feedback strong { font-weight: 600; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="badge">CS0-003</div>
+  <h1>CompTIA CySA+ — Guia de Estudos</h1>
+  <span>Exemplo • Objetivo 1.1</span>
+</header>
+
+<div class="wrapper">
+
+  <div class="domain-header">
+    <div class="domain-eyebrow">Domain 1 • 33% do exame</div>
+    <h2>Security Operations</h2>
+    <p>Detecção, análise e resposta a ameaças no ambiente operacional de segurança.</p>
+  </div>
+
+  <!-- ───── OBJECTIVE 1.1 ───── -->
+  <div class="objective" id="obj-1-1">
+    <div class="obj-title">
+      <span class="obj-num">1.1</span>
+      <h3>System and Network Architecture Concepts in Security Operations</h3>
+    </div>
+
+    <div class="obj-body">
+
+      <!-- EXPLANATION -->
+      <div class="section explanation">
+        <div class="section-label">Explicação</div>
+        <p>Para atuar como analista de segurança, você precisa entender a arquitetura dos sistemas e redes que está protegendo. Isso inclui como os logs são gerados e coletados, como sistemas operacionais organizam dados sensíveis, e como a infraestrutura moderna (cloud, contêineres, zero trust) molda a superfície de ataque.</p>
+        <p>O objetivo 1.1 cobre os fundamentos que sustentam toda operação de segurança: sem entender onde os dados vivem, como a identidade é gerenciada e como o tráfego flui, é impossível detectar anomalias ou responder a incidentes de forma eficaz.</p>
+      </div>
+
+      <!-- TOPICS -->
+      <div class="section">
+        <div class="section-label">Tópicos principais</div>
+        <div class="topics">
+
+          <div class="topic-item">
+            <strong>Log Ingestion</strong>
+            <p>Coleta centralizada de logs de múltiplas fontes. Inclui sincronização de tempo (NTP) e níveis de logging (debug, info, warning, error, critical). Sem timestamps corretos, correlação de eventos é impossível.</p>
+          </div>
+
+          <div class="topic-item">
+            <strong>OS Concepts</strong>
+            <p>Windows Registry, hardening de sistema, estrutura de arquivos e processos. Analistas precisam saber onde malware costuma se esconder (ex: <code>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</code>).</p>
+          </div>
+
+          <div class="topic-item">
+            <strong>Infrastructure Concepts</strong>
+            <p>Serverless, virtualização e contêineres alteram como os workloads são isolados. Um contêiner comprometido pode escalar para o host se o runtime não estiver hardened.</p>
+          </div>
+
+          <div class="topic-item">
+            <strong>Network Architecture</strong>
+            <p>On-premises, cloud, hybrid, segmentação de rede, zero trust, SASE e SDN. O modelo zero trust assume que nenhum usuário ou dispositivo é confiável por padrão, mesmo dentro da rede corporativa.</p>
+          </div>
+
+          <div class="topic-item">
+            <strong>Identity & Access Management</strong>
+            <p>MFA, SSO, Federation, PAM, passwordless, CASB. SSO reduz friction mas cria single point of failure — se a conta SSO for comprometida, todos os serviços associados ficam expostos.</p>
+          </div>
+
+          <div class="topic-item">
+            <strong>Encryption</strong>
+            <p>PKI e SSL inspection. SSL inspection (TLS interception) permite que firewalls de próxima geração inspecionem tráfego criptografado, mas exige gerenciamento cuidadoso de certificados.</p>
+          </div>
+
+          <div class="topic-item">
+            <strong>Sensitive Data Protection</strong>
+            <p>DLP (Data Loss Prevention), PII (Personally Identifiable Information) e CHD (Cardholder Data). PCI DSS protege CHD; GDPR/LGPD protege PII. DLP monitora e bloqueia exfiltração.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- EXAMPLE -->
+      <div class="section">
+        <div class="section-label">Exemplo prático</div>
+        <div class="example-box">
+          <div class="ex-label">Cenário</div>
+          <p>Um analista percebe que logs do servidor web chegam ao SIEM com timestamps 3 horas adiantados em relação aos demais sistemas. Isso dificulta a correlação de eventos durante uma investigação de incidente.</p>
+          <br>
+          <p><strong>Causa:</strong> O servidor não está sincronizado com o servidor NTP da organização. O nível de logging está em <code>WARNING</code>, então eventos de nível <code>INFO</code> (como logins bem-sucedidos) não estão sendo registrados.</p>
+          <br>
+          <p><strong>Ação corretiva:</strong> Configurar NTP centralizado em todos os ativos e ajustar o logging level para <code>INFO</code> no servidor web para capturar eventos de acesso completos.</p>
+        </div>
+      </div>
+
+      <!-- QUESTIONS -->
+      <div class="questions-section" id="qs-1-1">
+        <div class="q-header">
+          <div class="section-label">Questões de fixação</div>
+          <div class="q-count">25 questões</div>
+        </div>
+
+        <div class="score-bar">
+          <div>
+            <div class="score-display" id="score-1-1">0 <span>/ 0</span></div>
+          </div>
+          <div class="progress-wrap"><div class="progress-fill" id="prog-1-1"></div></div>
+          <button class="btn-reset" onclick="resetSection('1-1')">Reiniciar</button>
+        </div>
+
+        <div id="qlist-1-1">
+        </div>
+      </div>
+
+    </div><!-- /obj-body -->
+  </div><!-- /objective -->
+
+</div><!-- /wrapper -->
+
+<script>
+const data = {
+  "1-1": [
+    {
+      q: "Um analista de SOC percebe que os timestamps dos logs de um servidor Linux diferem em 2 horas dos demais sistemas. Qual é a causa mais provável?",
+      opts: ["O servidor está usando um fuso horário diferente dos outros sistemas","O nível de logging está configurado muito alto","O SIEM está descartando eventos duplicados","O servidor não possui um agente de coleta instalado"],
+      ans: 0,
+      exp: "Diferença de timestamps entre sistemas geralmente indica dessincronização de tempo (NTP) ou configuração incorreta de fuso horário. Isso prejudica a correlação de eventos no SIEM."
+    },
+    {
+      q: "Qual protocolo é responsável por manter os relógios dos sistemas sincronizados em uma rede corporativa?",
+      opts: ["SNMP","NTP","LDAP","SFTP"],
+      ans: 1,
+      exp: "O NTP (Network Time Protocol) é o protocolo padrão para sincronização de tempo entre dispositivos de rede. Sincronização adequada é essencial para correlação de logs."
+    },
+    {
+      q: "Um administrador precisa capturar o máximo de detalhes em logs de aplicação durante um troubleshooting. Qual nível de logging deve ser configurado?",
+      opts: ["CRITICAL","WARNING","ERROR","DEBUG"],
+      ans: 3,
+      exp: "O nível DEBUG é o mais verboso, capturando todos os eventos incluindo detalhes de execução interna. Em produção, esse nível deve ser usado com cuidado pois gera grande volume de dados."
+    },
+    {
+      q: "No Windows, em qual localização do Registry um malware frequentemente persiste para executar na inicialização do sistema?",
+      opts: ["HKLM\\SYSTEM\\CurrentControlSet\\Services","HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run","HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion","HKCU\\Control Panel\\Desktop"],
+      ans: 1,
+      exp: "A chave Run em HKCU (e HKLM) é um dos locais mais comuns de persistência de malware. Qualquer valor nessa chave executa automaticamente ao login do usuário."
+    },
+    {
+      q: "Qual é o principal objetivo do hardening de sistemas operacionais?",
+      opts: ["Aumentar a velocidade de processamento do sistema","Reduzir a superfície de ataque desabilitando serviços e recursos desnecessários","Facilitar o acesso remoto de administradores","Melhorar a compatibilidade com aplicações legadas"],
+      ans: 1,
+      exp: "System hardening reduz a superfície de ataque removendo ou desabilitando funcionalidades não necessárias — serviços, portas, contas padrão, permissões excessivas."
+    },
+    {
+      q: "Uma organização migra workloads para contêineres Docker. Qual preocupação de segurança é específica desse modelo de infraestrutura?",
+      opts: ["Contêineres não suportam criptografia de dados em repouso","Um contêiner comprometido pode escalar privilégios para o host se o runtime não estiver hardened","Contêineres não podem ser monitorados por SIEMs tradicionais","Contêineres aumentam o tempo de resposta a incidentes"],
+      ans: 1,
+      exp: "Container escape é uma preocupação real: vulnerabilidades no runtime (ex: runc) podem permitir que um processo dentro do contêiner acesse o host. Hardening do runtime e uso de namespaces adequados são essenciais."
+    },
+    {
+      q: "O modelo Zero Trust assume que:",
+      opts: ["Usuários internos são sempre confiáveis","Dispositivos na rede corporativa não precisam de autenticação adicional","Nenhum usuário ou dispositivo é confiável por padrão, independente da localização","Firewalls perimetrais são suficientes para proteger a rede"],
+      ans: 2,
+      exp: "Zero Trust elimina a noção de 'confiança implícita' baseada em localização de rede. Cada acesso deve ser autenticado, autorizado e validado continuamente."
+    },
+    {
+      q: "Qual é a principal diferença entre SSO (Single Sign-On) e MFA (Multi-Factor Authentication)?",
+      opts: ["SSO elimina a necessidade de senha; MFA exige múltiplas senhas","SSO permite autenticação única para múltiplos serviços; MFA exige múltiplos fatores de verificação","SSO é usado apenas em ambientes cloud; MFA apenas em ambientes on-premises","SSO protege contra phishing; MFA protege contra credential stuffing"],
+      ans: 1,
+      exp: "SSO reduz o número de logins necessários (uma autenticação vale para vários serviços). MFA adiciona camadas de verificação (algo que você sabe + tem + é). Ambos são complementares."
+    },
+    {
+      q: "Uma organização implementa um CASB. Qual é o principal propósito dessa solução?",
+      opts: ["Bloquear todo acesso a serviços cloud não corporativos","Substituir o firewall tradicional em ambientes hybrid","Fornecer visibilidade e controle sobre o uso de serviços cloud pelos usuários","Criptografar automaticamente todos os dados em trânsito"],
+      ans: 2,
+      exp: "Cloud Access Security Broker (CASB) atua como intermediário entre usuários e serviços cloud, fornecendo visibilidade, conformidade, segurança de dados e proteção contra ameaças."
+    },
+    {
+      q: "Um funcionário envia um arquivo contendo números de cartão de crédito para seu e-mail pessoal. Qual tecnologia é especificamente projetada para detectar e bloquear essa ação?",
+      opts: ["IDS","DLP","WAF","EDR"],
+      ans: 1,
+      exp: "DLP (Data Loss Prevention) é projetado exatamente para detectar e prevenir a exfiltração de dados sensíveis, incluindo CHD (Cardholder Data) protegido pelo PCI DSS."
+    },
+    {
+      q: "Qual framework regulatório protege especificamente os dados de titulares de cartão de crédito?",
+      opts: ["HIPAA","GDPR","PCI DSS","SOX"],
+      ans: 2,
+      exp: "PCI DSS (Payment Card Industry Data Security Standard) é o framework que define requisitos para proteção de CHD (Cardholder Data). Violações podem resultar em multas severas das bandeiras de cartão."
+    },
+    {
+      q: "O que é SSL/TLS Inspection e qual o seu risco principal?",
+      opts: ["Técnica para acelerar conexões HTTPS; risco é aumento de latência","Inspeção de tráfego criptografado pelo firewall; risco é exposição de dados sensíveis se o dispositivo for comprometido","Validação de certificados SSL; risco é falsos positivos em sites legítimos","Monitoramento de certificados expirados; risco é interrupção de serviços"],
+      ans: 1,
+      exp: "SSL Inspection (TLS Interception) permite que NGFWs descriptografem, inspecionem e recriptografem o tráfego HTTPS. O risco é que o dispositivo de inspeção se torna um intermediário que vê todos os dados descriptografados."
+    },
+    {
+      q: "Em uma arquitetura SASE, qual é a característica fundamental que a diferencia de arquiteturas tradicionais?",
+      opts: ["Centraliza todo o tráfego em um datacenter on-premises","Combina networking (SD-WAN) e segurança (SSE) em um serviço cloud unificado","Elimina a necessidade de VPN para acesso remoto de usuários","Substitui firewalls físicos por soluções baseadas em software"],
+      ans: 1,
+      exp: "SASE (Secure Access Service Edge) integra capacidades de rede como SD-WAN com funções de segurança (CASB, SWG, ZTNA, FWaaS) em uma plataforma cloud única, suportando usuários e dispositivos em qualquer localização."
+    },
+    {
+      q: "O que é PAM (Privileged Access Management) e por que é crítico para segurança?",
+      opts: ["Sistema de gerenciamento de patches; crítico para manter sistemas atualizados","Gerenciamento de contas privilegiadas; crítico pois contas admin são alvos primários de atacantes","Monitoramento de acesso a arquivos; crítico para detectar exfiltração de dados","Controle de acesso a APIs; crítico para proteger integrações entre sistemas"],
+      ans: 1,
+      exp: "PAM controla, monitora e audita o acesso de contas com privilégios elevados (admins, root, service accounts). Contas privilegiadas comprometidas permitem ao atacante movimentação lateral e acesso irrestrito aos sistemas."
+    },
+    {
+      q: "Qual é a diferença entre PII e CHD no contexto de proteção de dados?",
+      opts: ["PII refere-se a dados financeiros; CHD refere-se a dados pessoais","PII é informação que identifica um indivíduo; CHD são dados de cartão de pagamento","PII é protegido pelo PCI DSS; CHD é protegido pelo GDPR","Não há diferença prática; ambos são tratados pelo DLP da mesma forma"],
+      ans: 1,
+      exp: "PII (Personally Identifiable Information) inclui nome, CPF, endereço, e-mail — qualquer dado que identifique uma pessoa. CHD (Cardholder Data) são dados de cartão de pagamento (número do cartão, validade, CVV). Cada um tem regulamentações específicas."
+    },
+    {
+      q: "Em um ambiente de virtualização, o que é um hypervisor e qual sua importância para segurança?",
+      opts: ["Software que monitora tráfego de rede entre VMs; importante para detectar ataques laterais","Camada de software que gerencia VMs; se comprometido, todas as VMs do host ficam em risco","Ferramenta de backup de máquinas virtuais; importante para recuperação após incidente","Componente que controla o acesso de VMs à internet; importante para segmentação"],
+      ans: 1,
+      exp: "O hypervisor (Type 1 como VMware ESXi, ou Type 2 como VirtualBox) gerencia todas as VMs no host. Um ataque de VM escape que compromete o hypervisor dá acesso a todas as máquinas virtuais hospedadas."
+    },
+    {
+      q: "Uma empresa usa SDN (Software-Defined Networking). Qual é o componente que representa o maior risco de segurança nessa arquitetura?",
+      opts: ["Os switches de rede físicos","O controlador SDN centralizado","Os endpoints conectados à rede","Os roteadores de borda"],
+      ans: 1,
+      exp: "Em SDN, o controlador centralizado é o cérebro da rede — ele define todas as políticas de roteamento e segmentação. Se comprometido, um atacante pode reconfigurar toda a rede, redirecionar tráfego ou eliminar segmentações de segurança."
+    },
+    {
+      q: "O que diferencia autenticação passwordless de MFA tradicional?",
+      opts: ["Passwordless usa apenas biometria; MFA tradicional usa apenas tokens físicos","Passwordless elimina o uso de senhas usando fatores como biometria ou FIDO2; MFA adiciona fatores extras à senha","Passwordless é menos seguro que MFA; é usado apenas em ambientes de baixo risco","Passwordless requer hardware dedicado; MFA pode ser implementado via software"],
+      ans: 1,
+      exp: "Autenticação passwordless remove a senha do processo de login, usando fatores como biometria, chaves FIDO2/WebAuthn ou certificados. Isso elimina riscos de phishing de credenciais e reutilização de senhas."
+    },
+    {
+      q: "Qual é o propósito da segmentação de rede em uma estratégia de segurança?",
+      opts: ["Aumentar a velocidade do tráfego entre departamentos","Limitar a movimentação lateral de um atacante caso um segmento seja comprometido","Reduzir o custo de infraestrutura de rede","Facilitar o monitoramento centralizado de todo o tráfego"],
+      ans: 1,
+      exp: "Segmentação de rede divide a rede em zonas isoladas (VLANs, subnets, DMZ). Se um segmento for comprometido, o atacante não consegue se mover livremente para outros segmentos sem cruzar controles de segurança."
+    },
+    {
+      q: "Uma organização descobre que um desenvolvedor tem acesso de leitura a um banco de dados de produção que contém dados de clientes, embora sua função não exija esse acesso. Qual princípio de segurança foi violado?",
+      opts: ["Defense in depth","Least privilege","Separation of duties","Need to know"],
+      ans: 1,
+      exp: "O princípio do least privilege (menor privilégio) determina que usuários devem ter apenas os acessos mínimos necessários para realizar suas funções. Acesso excessivo aumenta o risco de vazamento intencional ou acidental."
+    },
+    {
+      q: "Qual é a função do PKI (Public Key Infrastructure) no contexto de segurança de rede?",
+      opts: ["Gerenciar endereços IP de dispositivos na rede","Fornecer autenticação e criptografia através de certificados digitais e autoridades certificadoras","Monitorar o uso de chaves de criptografia pelos usuários","Distribuir atualizações de software de forma segura"],
+      ans: 1,
+      exp: "PKI é o framework que gerencia certificados digitais e chaves criptográficas, incluindo Autoridades Certificadoras (CA), certificados X.509 e listas de revogação (CRL/OCSP). É a base da confiança em HTTPS, VPNs e assinaturas digitais."
+    },
+    {
+      q: "Um analista está revisando logs e nota que um servidor de aplicação está registrando eventos no nível ERROR apenas, mas precisa investigar logins bem-sucedidos suspeitos. O que ele deve fazer?",
+      opts: ["Consultar o SIEM, pois ele coleta automaticamente todos os tipos de log","Ajustar o nível de logging para INFO ou DEBUG no servidor de aplicação","Instalar um agente EDR no servidor para capturar eventos de autenticação","Verificar os logs de firewall para identificar os logins"],
+      ans: 1,
+      exp: "Eventos de login bem-sucedido geralmente são registrados em nível INFO. Se o servidor está configurado apenas para ERROR, esses eventos não aparecem nos logs locais. Ajustar o logging level é necessário para capturar essa visibilidade."
+    },
+    {
+      q: "O que é federação de identidade (Identity Federation)?",
+      opts: ["Processo de sincronizar contas de usuário entre sistemas on-premises e cloud","Mecanismo que permite que usuários de uma organização acessem recursos de outra organização usando suas próprias credenciais","Técnica de centralizar o gerenciamento de senhas em um único sistema","Método de replicar políticas de acesso entre múltiplos domínios Active Directory"],
+      ans: 1,
+      exp: "Identity Federation (usando protocolos como SAML, OAuth, OIDC) permite que uma organização confie na autenticação realizada por outra organização. Exemplo: fazer login em um parceiro de negócios usando as credenciais corporativas."
+    },
+    {
+      q: "Em qual cenário o uso de um ambiente serverless aumenta o desafio de segurança para analistas?",
+      opts: ["Serverless elimina a necessidade de patches de sistema operacional, reduzindo riscos","A natureza efêmera das funções serverless dificulta a coleta e correlação de logs de segurança","Serverless não suporta criptografia de dados, expondo informações sensíveis","Ambientes serverless não podem ser protegidos por WAFs"],
+      ans: 1,
+      exp: "Funções serverless têm vida curta e efêmera — logs podem não persistir se não configurados explicitamente. Além disso, a visibilidade tradicional de SO não existe, exigindo abordagens específicas de monitoramento (ex: AWS CloudTrail, function-level logging)."
+    },
+    {
+      q: "Qual das seguintes afirmações melhor descreve a relação entre logging levels e o volume de dados gerados?",
+      opts: ["Nível CRITICAL gera o maior volume de logs; nível DEBUG gera o menor","Nível DEBUG gera o maior volume de logs; nível CRITICAL gera o menor","Todos os níveis geram o mesmo volume, mas com diferentes tipos de eventos","O volume depende exclusivamente do número de usuários no sistema"],
+      ans: 1,
+      exp: "A hierarquia de logging vai de DEBUG (mais verboso, maior volume) até CRITICAL (apenas falhas críticas, menor volume). DEBUG captura todos os eventos; CRITICAL captura apenas os mais graves. A escolha do nível impacta diretamente storage, performance e visibilidade."
+    }
+  ]
+};
+
+// ── Render questions ──
+function renderQuestions(secId) {
+  const questions = data[secId];
+  const container = document.getElementById(`qlist-${secId}`);
+  container.innerHTML = '';
+  questions.forEach((item, i) => {
+    const letters = ['A','B','C','D'];
+    const optsHtml = item.opts.map((o, j) => `
+      <div class="opt" data-sec="${secId}" data-q="${i}" data-idx="${j}" onclick="answer(this)">
+        <span class="opt-letter">${letters[j]}</span>
+        <span>${o}</span>
+      </div>`).join('');
+    container.innerHTML += `
+      <div class="question" id="q-${secId}-${i}">
+        <div class="q-stem">
+          <div class="q-num">Questão ${i+1}</div>
+          ${item.q}
+        </div>
+        <div class="options">${optsHtml}</div>
+        <div class="feedback" id="fb-${secId}-${i}"></div>
+      </div>`;
+  });
+  updateScore(secId);
+}
+
+function answer(el) {
+  if (el.classList.contains('disabled')) return;
+  const sec = el.dataset.sec;
+  const qi  = parseInt(el.dataset.q);
+  const idx = parseInt(el.dataset.idx);
+  const correct = data[sec][qi].ans;
+  const exp     = data[sec][qi].exp;
+
+  // Disable all options in this question
+  const qEl  = document.getElementById(`q-${sec}-${qi}`);
+  const opts = qEl.querySelectorAll('.opt');
+  opts.forEach(o => o.classList.add('disabled'));
+
+  // Mark correct / wrong
+  opts[correct].classList.add('correct-answer');
+  if (idx !== correct) {
+    el.classList.add('wrong-answer');
+    qEl.classList.add('wrong');
+  } else {
+    qEl.classList.add('correct');
+  }
+
+  // Feedback
+  const fb = document.getElementById(`fb-${sec}-${qi}`);
+  fb.classList.add('show');
+  if (idx === correct) {
+    fb.classList.add('ok');
+    fb.innerHTML = `✓ <strong>Correto!</strong> ${exp}`;
+  } else {
+    fb.classList.add('err');
+    fb.innerHTML = `✗ <strong>Incorreto.</strong> ${exp}`;
+  }
+
+  updateScore(sec);
+}
+
+function updateScore(sec) {
+  const questions = data[sec];
+  let answered = 0, correct = 0;
+  questions.forEach((_, i) => {
+    const qEl = document.getElementById(`q-${sec}-${i}`);
+    if (!qEl) return;
+    if (qEl.classList.contains('correct') || qEl.classList.contains('wrong')) {
+      answered++;
+      if (qEl.classList.contains('correct')) correct++;
+    }
+  });
+  document.getElementById(`score-${sec}`).innerHTML = `${correct} <span>/ ${answered}</span>`;
+  const pct = answered > 0 ? (correct / answered) * 100 : 0;
+  document.getElementById(`prog-${sec}`).style.width = pct + '%';
+  const prog = document.getElementById(`prog-${sec}`);
+  prog.style.background = pct >= 70 ? 'var(--accent2)' : pct >= 40 ? 'var(--warn)' : 'var(--danger)';
+}
+
+function resetSection(sec) {
+  renderQuestions(sec);
+}
+
+// Init
+renderQuestions('1-1');
+</script>
+</body>
+</html>
