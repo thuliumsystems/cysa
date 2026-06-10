@@ -3,573 +3,425 @@
     {
       "t": "Zero Trust Architecture (ZTA) / NIST SP 800-207",
       "q": "Um analista de segurança está revisando o fluxo de autenticação de uma infraestrutura em nuvem que implementa os pilares da Zero Trust Architecture (ZTA). Qual componente lógico central da arquitetura avalia o contexto atual do usuário e toma a decisão final de conceder ou revogar o acesso a um recurso específico?",
-      "opts": [
-        "Policy Enforcement Point (PEP)",
-        "Policy Decision Point (PDP)",
-        "Secure Web Gateway (SWG)",
-        "Identity Provider (IdP) puro"
-      ],
+      "opts": ["Policy Enforcement Point (PEP)", "Policy Decision Point (PDP)", "Secure Web Gateway (SWG)", "Identity Provider (IdP) puro"],
       "ans": 1,
       "exp": "O PDP (Policy Decision Point) atua como a entidade lógica inteligente que analisa as políticas contextuais e emite a decisão de acesso (permitir, negar, revogar).",
-      "w": [
-        "O PEP apenas executa a ação mecânica comandada pelo PDP; ele não tem inteligência analítica para computar políticas contextuais.",
-        "O SWG atua na filtragem de tráfego web de saída para a Internet e proteção contra malwares de navegação, não sendo a central lógica de decisão ZTA.",
-        "O IdP valida apenas a identidade inicial do usuário (autenticação), mas não toma decisões contextuais complexas e contínuas sobre recursos granulares."
-      ]
+      "w": ["O PEP apenas executa a ação mecânica comandada pelo PDP; ele não tem inteligência analítica para computar políticas contextuais.", "O SWG atua na filtragem de tráfego web de saída para a Internet e proteção contra malwares de navegação, não sendo a central lógica de decisão ZTA.", "O IdP valida apenas a identidade inicial do usuário (autenticação), mas não toma decisões contextuais complexas e contínuas sobre recursos granulares."]
     },
     {
       "t": "Secure Access Service Edge (SASE)",
       "q": "Uma corporação decide integrar completamente seus controles de segurança de nuvem e de tráfego de rede, unificando soluções de Secure Web Gateway (SWG), Cloud Access Security Broker (CASB) e Zero Trust Network Access (ZTNA) em um único serviço distribuído globalmente na borda. Qual conceito descreve essa arquitetura consolidada?",
-      "opts": [
-        "Software-Defined Wide Area Network (SD-WAN) pura",
-        "Secure Access Service Edge (SASE)",
-        "Privileged Access Management (PAM) Enterprise",
-        "Software-Defined Perimeter (SDP)"
-      ],
+      "opts": ["Software-Defined Wide Area Network (SD-WAN) pura", "Secure Access Service Edge (SASE)", "Privileged Access Management (PAM) Enterprise", "Software-Defined Perimeter (SDP)"],
       "ans": 1,
       "exp": "O SASE (Secure Access Service Edge) une as capacidades avançadas de infraestrutura de rede elástica com serviços de segurança em nuvem nativos unificados diretamente na borda.",
-      "w": [
-        "A SD-WAN foca no roteamento e tráfego físico/lógico de rede, mas não engloba nativamente componentes como CASB ou filtragem avançada SWG de borda.",
-        "O PAM foca exclusivamente no gerenciamento e auditoria de credenciais administrativas de alto privilégio, sem relação com bordas de rede e tráfego geral.",
-        "O SDP oculta a infraestrutura da rede pública via gateways, criando conexões ponto a ponto, mas não unifica a suíte completa de CASB e SWG que o SASE abrange."
-      ]
+      "w": ["A SD-WAN foca no roteamento e tráfego físico/lógico de rede, mas não engloba nativamente componentes como CASB ou filtragem avançada SWG de borda.", "O PAM foca exclusivamente no gerenciamento e auditoria de credenciais administrativas de alto privilégio, sem relação com bordas de rede e tráfego geral.", "O SDP oculta a infraestrutura da rede pública via gateways, criando conexões ponto a ponto, mas não unifica a suíte completa de CASB e SWG que o SASE abrange."]
     },
     {
       "t": "Identity and Access Management (IAM) / Privileged Access Management (PAM)",
       "q": "Qual ferramenta ou controle técnico do ecossistema de gerenciamento de identidades deve ser implementado de forma restrita para auditar, gravar e isolar sessões interativas executadas apenas por engenheiros e administradores com credenciais root ou equivalentes?",
-      "opts": [
-        "Single Sign-On (SSO)",
-        "Multi-Factor Authentication (MFA) baseado em push",
-        "Privileged Access Management (PAM)",
-        "Identity as a Service (IDaaS) de provisionamento corporativo"
-      ],
+      "opts": ["Single Sign-On (SSO)", "Multi-Factor Authentication (MFA) baseado em push", "Privileged Access Management (PAM)", "Identity as a Service (IDaaS) de provisionamento corporativo"],
       "ans": 2,
       "exp": "As soluções de PAM (Privileged Access Management) focam especificamente na rotação automática de chaves, cofres de senhas robustos e gravação em tempo real de sessões administrativas completas.",
-      "w": [
-        "O SSO permite que o usuário se autentique uma única vez para acessar múltiplos sistemas, mas não monitora ou grava as ações interativas de administradores locais.",
-        "O MFA adiciona um factor de validação no momento do login (posse), mas não possui qualquer visibilidade ou controle sobre o que é executado após a sessão ser aberta.",
-        "O IDaaS gerencia o provisionamento centralizado e identidades em nuvem, mas não atua no isolamento e na auditoria em nível de comando de contas root."
-      ]
+      "w": ["O SSO permite que o usuário se autentique uma única vez para acessar múltiplos sistemas, mas não monitora ou grava as ações interativas de administradores locais.", "O MFA adiciona um factor de validação no momento do login (posse), mas não possui qualquer visibilidade ou controle sobre o que é executado após a sessão ser aberta.", "O IDaaS gerencia o provisionamento centralizado e identidades em nuvem, mas não atua no isolamento e na auditoria em nível de comando de contas root."]
     },
     {
       "t": "Network Segmentation & Microsegmentation",
       "q": "Durante uma auditoria interna, um analista recomenda o isolamento de cargas de trabalho em um ambiente de nuvem privada para evitar movimentos laterais caso uma máquina virtual seja comprometida. Qual técnica aplica políticas de segurança granulares diretamente na interface de rede de cada host individual?",
-      "opts": [
-        "VLAN Tagging (802.1Q)",
-        "Microsegmentação baseada em Hypervisor / Software",
-        "Subnetting de redes clássicas",
-        "Air-gapping físico"
-      ],
+      "opts": ["VLAN Tagging (802.1Q)", "Microsegmentação baseada em Hypervisor / Software", "Subnetting de redes clássicas", "Air-gapping físico"],
       "ans": 1,
       "exp": "A microsegmentação permite isolar cargas de trabalho no nível de host ou container de forma puramente lógica através de software, impedindo o movimento lateral mesmo dentro da mesma sub-rede.",
-      "w": [
-        "O VLAN Tagging separa redes logicamente no nível de camada 2, mas não impede movimentos laterais entre hosts que compartilham a mesma VLAN.",
-        "O Subnetting tradicional divide redes no nível de camada 3, exigindo roteadores ou firewalls de borda para aplicar políticas, sem a granularidade por host.",
-        "O Air-gapping físico isola completamente os sistemas desconectando-os de qualquer rede, o que inviabiliza ambientes dinâmicos de nuvem virtualizada."
-      ]
+      "w": ["O VLAN Tagging separa redes logicamente no nível de camada 2, mas não impede movimentos laterais entre hosts que compartilham a mesma VLAN.", "O Subnetting tradicional divide redes no nível de camada 3, exigindo roteadores ou firewalls de borda para aplicar políticas, sem a granularidade por host.", "O Air-gapping físico isola completamente os sistemas desconectando-os de qualquer rede, o que inviabiliza ambientes dinâmicos de nuvem virtualizada."]
     },
     {
       "t": "Network Defense / Edge Security",
       "q": "Um analista de SecOps precisa mitigar ataques baseados em IP Spoofing na borda da rede da organização. Qual controle técnico implementado nos roteadores de borda descarta pacotes de entrada cujos IPs de origem pertencem aos blocos da rede interna corporativa?",
-      "opts": [
-        "Egress Filtering",
-        "Ingress Filtering (RFC 2827 / BCP 38)",
-        "Deep Packet Inspection (DPI)",
-        "Stateful Packet Inspection (SPI)"
-      ],
+      "opts": ["Egress Filtering", "Ingress Filtering (RFC 2827 / BCP 38)", "Deep Packet Inspection (DPI)", "Stateful Packet Inspection (SPI)"],
       "ans": 1,
       "exp": "O Ingress Filtering configurado de acordo com a RFC 2827 valida se os pacotes vindo de redes externas possuem IPs de origem legítimos, bloqueando falsificações perimetrais.",
-      "w": [
-        "O Egress Filtering monitora o tráfego de saída da rede interna para a internet, impedindo exfiltração ou conexões a servidores C2 conhecidos.",
-        "O DPI analisa o conteúdo da carga útil (payload) das camadas superiores da rede para detectar malwares, não focando em regras de roteamento IP.",
-        "O SPI monitora o estado ativo das conexões de rede para validar se os pacotes pertencem a sessões legítimas já estabelecidas."
-      ]
+      "w": ["O Egress Filtering monitora o tráfego de saída da rede interna para a internet, impedindo exfiltração ou conexões a servidores C2 conhecidos.", "O DPI analisa o conteúdo da carga útil (payload) das camadas superiores da rede para detectar malwares, não focando em regras de roteamento IP.", "O SPI monitora o estado ativo das conexões de rede para validar se os pacotes pertencem a sessões legítimas já estabelecidas."]
     },
     {
       "t": "Cloud Infrastructure Security",
-      "q": "Em um modelo de responsabilidade compartilhada na nuvem pública (IaaS), qual das seguintes configurações técnicos fica sob responsabilidade exclusiva do cliente?",
-      "opts": [
-        "Segurança física do data center",
-        "Manutenção e patch do Hypervisor",
-        "Configuração do firewall do S.O. convidado e Security Groups",
-        "Destruição física de discos rígidos obsoletos"
-      ],
+      "q": "Em um modelo de responsabilidade compartilhada na nuvem pública (IaaS), qual das seguintes configurações técnicas fica sob responsabilidade exclusiva do cliente?",
+      "opts": ["Segurança física do data center", "Manutenção e patch do Hypervisor", "Configuração do firewall do S.O. convidado e Security Groups", "Destruição física de discos rígidos obsoletos"],
       "ans": 2,
       "exp": "No modelo IaaS, o provedor cuida da infraestrutura física e virtualização, enquanto o cliente gerencia o sistema operacional, firewalls locais (Security Groups) e dados.",
-      "w": [
-        "A segurança física do data center é responsabilidade total do provedor de nuvem de grande escala.",
-        "A manutenção do Hypervisor base fica sob custódia do provedor de nuvem, ocultada do cliente final.",
-        "A destruição de mídias de armazenamento físicas descartadas é realizada rigorosamente pelo próprio provedor."
-      ]
+      "w": ["A segurança física do data center é responsabilidade total do provedor de nuvem de grande escala.", "A manutenção do Hypervisor base fica sob custódia do provedor de nuvem, ocultada do cliente final.", "A destruição de mídias de armazenamento físicas descartadas é realizada rigorosamente pelo próprio provedor."]
+    },
+    {
+      "t": "Zero Trust Architecture (ZTA) — Princípios",
+      "q": "Um arquiteto de segurança explica que a Zero Trust Architecture parte de um pressuposto fundamental diferente do modelo de segurança perimetral clássico. Qual afirmação descreve corretamente o princípio central da ZTA?",
+      "opts": ["Todos os usuários dentro da rede corporativa são automaticamente confiáveis após autenticação única", "Nenhuma entidade — interna ou externa — é confiável por padrão; toda solicitação de acesso deve ser verificada continuamente", "O firewall de borda é suficiente para proteger todos os ativos internos da organização", "Usuários com MFA habilitado têm acesso irrestrito a todos os recursos da rede"],
+      "ans": 1,
+      "exp": "O princípio 'never trust, always verify' da ZTA elimina a confiança implícita baseada em localização de rede. Todo acesso é tratado como potencialmente hostil até ser verificado por contexto, identidade e postura do dispositivo.",
+      "w": ["A confiança automática pós-autenticação única descreve exatamente o modelo perimetral clássico que a ZTA veio substituir por ser inadequado em ambientes modernos.", "O firewall de borda representa o modelo de segurança de castelo e fosso, que não protege contra ameaças internas ou movimentos laterais após comprometimento inicial.", "MFA é apenas um fator de autenticação inicial; a ZTA exige verificação contínua e granular por recurso, não acesso irrestrito."]
+    },
+    {
+      "t": "ZTNA vs VPN Tradicional",
+      "q": "Uma empresa está substituindo sua VPN corporativa por uma solução de ZTNA (Zero Trust Network Access). Qual a diferença arquitetural fundamental entre as duas abordagens?",
+      "opts": ["A VPN usa criptografia mais forte que o ZTNA para proteger o tráfego em trânsito", "A VPN concede acesso à rede inteira após autenticação, enquanto o ZTNA concede acesso apenas ao recurso específico solicitado", "O ZTNA exige hardware dedicado no data center, enquanto a VPN é puramente baseada em software", "A VPN verifica continuamente a postura do dispositivo, enquanto o ZTNA não realiza verificações após o login inicial"],
+      "ans": 1,
+      "exp": "O ZTNA aplica o princípio de least privilege ao nível de rede: após autenticação, o usuário acessa somente o recurso específico autorizado, nunca a rede corporativa completa, eliminando o risco de movimentos laterais.",
+      "w": ["A força da criptografia não é o diferencial arquitetural; ambas as soluções podem usar TLS moderno para proteção do tráfego.", "O ZTNA é tipicamente cloud-native e não requer hardware dedicado; a VPN tradicional é que frequentemente depende de appliances físicos.", "É o ZTNA que realiza verificação contínua de postura e contexto. A VPN tradicional autentica apenas no início da sessão e não reavalia o acesso dinamicamente."]
+    },
+    {
+      "t": "CASB — Cloud Access Security Broker",
+      "q": "O time de segurança detectou que funcionários estão utilizando serviços de armazenamento em nuvem pessoais (como Google Drive pessoal) para armazenar documentos corporativos confidenciais, criando Shadow IT. Qual tecnologia é mais adequada para monitorar, auditar e bloquear esse comportamento?",
+      "opts": ["Endpoint Detection and Response (EDR)", "Cloud Access Security Broker (CASB)", "Intrusion Detection System (IDS)", "Security Information and Event Management (SIEM)"],
+      "ans": 1,
+      "exp": "O CASB é posicionado entre a rede corporativa e os serviços de nuvem de terceiros, permitindo visibilidade completa sobre o uso de SaaS, aplicação de políticas de DLP e bloqueio de Shadow IT.",
+      "w": ["O EDR monitora e responde a ameaças no nível de endpoint local, mas não tem visibilidade direta sobre o tráfego direcionado a serviços de nuvem de terceiros.", "O IDS detecta padrões de ataque no tráfego de rede, mas não foi projetado para aplicar políticas de conformidade sobre uso de aplicações SaaS.", "O SIEM coleta e correlaciona logs de múltiplas fontes para detecção, mas não atua como intermediário capaz de bloquear tráfego direcionado a serviços de nuvem em tempo real."]
     }
   ],
+
   "1.2": [
     {
       "t": "Threat Intelligence Feeds & Formats",
       "q": "Um engenheiro de segurança está integrando um feed automatizado de inteligência contra ameaças (CTI) de terceiros ao SIEM da empresa. Para garantir que as táticas, técnicas e indicadores de comprometimento sejam intercambiáveis de forma padronizada em formato JSON, qual especificação de estrutura de dados deve ser priorizada?",
-      "opts": [
-        "OpenIOC (XML)",
-        "STIX (Structured Threat Information Expression)",
-        "TAXII",
-        "CybOX puro"
-      ],
+      "opts": ["OpenIOC (XML)", "STIX (Structured Threat Information Expression)", "TAXII", "CybOX puro"],
       "ans": 1,
       "exp": "O STIX é uma linguagem padronizada baseada em JSON criada para estruturar, representar e compartilhar informações detalhadas sobre ameaças cibernéticas.",
-      "w": [
-        "O OpenIOC baseia-se em esquemas XML antigos e é menos flexível e abrangente que o ecossistema STIX moderno para inteligência complexa.",
-        "O TAXII é o protocolo de transporte de camada de aplicação utilizado para encaminhar e receber os arquivos que estão estruturados em STIX.",
-        "O CybOX era focado apenas em observáveis de estado computacional, e foi completamente integrado e absorvido nas definições nativas do STIX 2.x."
-      ]
+      "w": ["O OpenIOC baseia-se em esquemas XML antigos e é menos flexível e abrangente que o ecossistema STIX moderno para inteligência complexa.", "O TAXII é o protocolo de transporte de camada de aplicação utilizado para encaminhar e receber os arquivos que estão estruturados em STIX.", "O CybOX era focado apenas em observáveis de estado computacional, e foi completamente integrado e absorvido nas definições nativas do STIX 2.x."]
     },
     {
       "t": "Threat Actor Classification",
       "q": "Um incidente cibernético é detectado envolvendo um ataque altamente direcionado que utilizou múltiplos exploits Zero-Day customizados e demonstrou persistência silenciosa por mais de 8 meses na rede de uma empresa de infraestrutura crítica. Esse perfil se alinha a qual ator?",
-      "opts": [
-        "Script Kiddie",
-        "Hacktivista baseado em motivação ideológica",
-        "Advanced Persistent Threat (APT) estatal",
-        "Insider Malicioso oportunista"
-      ],
+      "opts": ["Script Kiddie", "Hacktivista baseado em motivação ideológica", "Advanced Persistent Threat (APT) estatal", "Insider Malicioso oportunista"],
       "ans": 2,
       "exp": "APTs (Advanced Persistent Threats) patrocinadas por Estados possuem financiamento massivo, capacidade técnica avançada para criar Zero-Days e foco em espionagem persistente de longo prazo.",
-      "w": [
-        "Script Kiddies utilizam ferramentas automatizadas e exploits públicos bem conhecidos, sem capacidade de desenvolver ataques avançados persistentes.",
-        "Hacktivistas focam em causar interrupções visíveis (defacement, DDoS) para promover causas políticas ou sociais, raramente mantendo persistência avançada de meses.",
-        "Insiders maliciosos oportunistas usam acessos legítimos internos para roubar dados de forma rápida, não operando com cadeias complexas de engenharia Zero-Day."
-      ]
+      "w": ["Script Kiddies utilizam ferramentas automatizadas e exploits públicos bem conhecidos, sem capacidade de desenvolver ataques avançados persistentes.", "Hacktivistas focam em causar interrupções visíveis (defacement, DDoS) para promover causas políticas ou sociais, raramente mantendo persistência avançada de meses.", "Insiders maliciosos oportunistas usam acessos legítimos internos para roubar dados de forma rápida, não operando com cadeias complexas de engenharia Zero-Day."]
     },
     {
       "t": "Open Source Intelligence (OSINT)",
       "q": "Durante a fase de planejamento de um exercício de Red Team, os operadores realizam varreduras passivas buscando repositórios Git públicos de funcionários para coletar chaves de API expostas por engano. Qual categoria de inteligência descreve essa coleta de dados?",
-      "opts": [
-        "Signal Intelligence (SIGINT)",
-        "Open Source Intelligence (OSINT)",
-        "Human Intelligence (HUMINT)",
-        "Close Source Proprietary Intelligence"
-      ],
+      "opts": ["Signal Intelligence (SIGINT)", "Open Source Intelligence (OSINT)", "Human Intelligence (HUMINT)", "Close Source Proprietary Intelligence"],
       "ans": 1,
       "exp": "OSINT envolve a coleta, análise e decodificação de dados obtidos de fontes publicamente acessíveis na Internet, incluindo fóruns, redes sociais e repositórios de código aberto.",
-      "w": [
-        "SIGINT envolve a interceptação eletrônica avançada de sinais de rádio, satélite e comunicações criptografadas de nível militar.",
-        "HUMINT baseia-se no contato humano direto e espionagem de campo por meio de fontes físicas ou recrutamento de informantes.",
-        "Close Source refere-se a inteligências comerciais privadas e feeds proprietários pagos que exigem contratos restritos de acesso comercial."
-      ]
+      "w": ["SIGINT envolve a interceptação eletrônica avançada de sinais de rádio, satélite e comunicações criptografadas de nível militar.", "HUMINT baseia-se no contato humano direto e espionagem de campo por meio de fontes físicas ou recrutamento de informantes.", "Close Source refere-se a inteligências comerciais privadas e feeds proprietários pagos que exigem contratos restritos de acesso comercial."]
     },
     {
       "t": "Threat Intelligence Lifecycle",
       "q": "Na fase de 'Disseminação' do ciclo clássico de Inteligência de Ameaças (CTI), qual atividade técnica é executada pela equipe de analistas do SOC?",
-      "opts": [
-        "Coleta de logs brutos através de sensores e firewalls",
-        "Limpeza e deduplicação de dados falsos-positivos",
-        "Entrega de relatórios acionáveis e alertas formatados para as equipes de tomada de decisão e ferramentas de segurança",
-        "Definição dos requisitos essenciais de inteligência junto à diretoria"
-      ],
+      "opts": ["Coleta de logs brutos através de sensores e firewalls", "Limpeza e deduplicação de dados falsos-positivos", "Entrega de relatórios acionáveis e alertas formatados para as equipes de tomada de decisão e ferramentas de segurança", "Definição dos requisitos essenciais de inteligência junto à diretoria"],
       "ans": 2,
       "exp": "A Disseminação é a etapa onde o produto final de inteligência validado é distribuído nos formatos corretos para os consumidores adequados (sejam humanos ou APIs).",
-      "w": [
-        "A coleta de dados brutos pertence à fase de 'Coleta' (Collection) do ciclo.",
-        "A limpeza e deduplicação ocorrem na fase de 'Processamento' (Processing) dos dados para torná-los legíveis.",
-        "A definição de requisitos estratégicos ocorre na fase inicial de 'Direção' (Direction) ou planejamento."
-      ]
+      "w": ["A coleta de dados brutos pertence à fase de 'Coleta' (Collection) do ciclo.", "A limpeza e deduplicação ocorrem na fase de 'Processamento' (Processing) dos dados para torná-los legíveis.", "A definição de requisitos estratégicos ocorre na fase inicial de 'Direção' (Direction) ou planejamento."]
     },
     {
       "t": "Intelligence Sharing Community",
       "q": "Uma grande instituição financeira compartilha ativamente indicadores de ameaças com outras organizações do mesmo setor através de um hub centralizado focado na defesa coletiva contra crimes cibernéticos setoriais. Qual termo define essa entidade de compartilhamento?",
-      "opts": [
-        "SIEM Federation Consortium",
-        "ISAC (Information Sharing and Analysis Center)",
-        "MITRE Corporation Branch",
-        "OWASP local working group"
-      ],
+      "opts": ["SIEM Federation Consortium", "ISAC (Information Sharing and Analysis Center)", "MITRE Corporation Branch", "OWASP local working group"],
       "ans": 1,
       "exp": "Os ISACs são organizações sem fins lucrativos que reúnem membros de setores industriais específicos (como finanças, energia, saúde) para compartilhar inteligência sobre ameaças críticas.",
-      "w": [
-        "Consórcios de SIEM não existem de forma institucionalizada para compartilhamento civil de logs industriais padronizados.",
-        "A MITRE é um centro de pesquisa federal americano que gerencia bases de conhecimento públicas como o ATT&CK e o CVE, não atuando como hub privado de trocas rápidas.",
-        "O OWASP é focado estritamente na segurança de aplicações e desenvolvimento de código seguro global, sem manter redes de alerta tático comercial."
-      ]
+      "w": ["Consórcios de SIEM não existem de forma institucionalizada para compartilhamento civil de logs industriais padronizados.", "A MITRE é um centro de pesquisa federal americano que gerencia bases de conhecimento públicas como o ATT&CK e o CVE, não atuando como hub privado de trocas rápidas.", "O OWASP é focado estritamente na segurança de aplicações e desenvolvimento de código seguro global, sem manter redes de alerta tático comercial."]
+    },
+    {
+      "t": "CTI Níveis — Estratégico vs Tático vs Operacional",
+      "q": "O CISO de uma empresa solicita à equipe de CTI um relatório sobre o impacto financeiro esperado de campanhas de ransomware direcionadas ao setor farmacêutico nos próximos 12 meses, com base em tendências geopolíticas. Esse produto de inteligência pertence a qual nível?",
+      "opts": ["Inteligência Operacional/Técnica — IoCs para alimentar SIEM", "Inteligência Tática — TTPs mapeados no MITRE ATT&CK", "Inteligência Estratégica — para tomadores de decisão de alto nível", "Inteligência Forense — para análise pós-incidente"],
+      "ans": 2,
+      "exp": "Inteligência Estratégica destina-se a executivos e tomadores de decisão (C-Level), abordando tendências de longo prazo, motivações de atores, geopolítica e impacto financeiro ao negócio.",
+      "w": ["Inteligência Operacional/Técnica trata de IoCs brutos (IPs, hashes, domínios) consumidos diretamente por ferramentas de segurança automatizadas, não por executivos.", "Inteligência Tática trata dos TTPs específicos — como os adversários operam, quais ferramentas usam, mapeados no MITRE ATT&CK para apoiar as equipes de defesa.", "Inteligência Forense é um produto post-hoc de análise de incidentes específicos, não um produto prospectivo para planejamento estratégico executivo."]
+    },
+    {
+      "t": "MITRE ATT&CK Framework",
+      "q": "Um analista de ameaças mapeia o comportamento de um malware detectado e identifica que ele usa o técnica de 'Spearphishing Attachment' como vetor de acesso inicial. Em qual recurso padronizado esse mapeamento de TTP é documentado formalmente?",
+      "opts": ["CVE/NVD Database", "OWASP Top 10", "MITRE ATT&CK Framework", "NIST SP 800-61"],
+      "ans": 2,
+      "exp": "O MITRE ATT&CK é uma base de conhecimento que cataloga TTPs de adversários reais organizados por táticas (colunas) e técnicas (linhas), permitindo mapear comportamentos de ameaças e gaps defensivos.",
+      "w": ["O CVE/NVD documenta vulnerabilidades específicas de software com scores CVSS, não TTPs comportamentais de adversários.", "O OWASP Top 10 lista as principais vulnerabilidades de aplicações web, não serve como framework de mapeamento de comportamento de atores de ameaças.", "O NIST SP 800-61 é o guia de resposta a incidentes com suas 4 fases do ciclo de vida, não um catálogo de TTPs de adversários."]
+    },
+    {
+      "t": "IoC vs IoA",
+      "q": "Durante monitoramento no SIEM, um analista observa múltiplas tentativas de login com credenciais válidas, originárias de um país diferente do habitual do usuário, sem confirmação de comprometimento ainda. Esse sinal representa qual tipo de indicador de inteligência?",
+      "opts": ["IoC (Indicator of Compromise) — pois confirma comprometimento ativo", "IoA (Indicator of Attack) — pois sugere ataque em progresso antes de comprometimento confirmado", "CVE — pois indica uma vulnerabilidade explorada conhecida", "TTP — pois descreve o procedimento técnico completo do adversário"],
+      "ans": 1,
+      "exp": "IoA (Indicator of Attack) são sinais comportamentais que sugerem que um ataque está em andamento ou prestes a ocorrer, mesmo antes de existir evidência forense de comprometimento real — o que os torna mais proativos que IoCs.",
+      "w": ["Um IoC confirma que o comprometimento já ocorreu (ex: hash de malware encontrado no disco, IP de C2 em logs de conexão estabelecida). Aqui ainda não há evidência de comprometimento.", "CVE identifica vulnerabilidades de software específicas com código único, não padrões comportamentais de acesso anômalo.", "TTP descreve o conjunto completo de táticas, técnicas e procedimentos de um ator de ameaça, não um sinal de alerta individual de acesso suspeito."]
     }
   ],
+
   "2.1": [
     {
       "t": "Vulnerability Scanning Methodology / Assessment",
       "q": "Durante uma varredura ativa de vulnerabilidades em servidores Linux de produção, o analista do SOC opta explicitamente por um escaneamento autenticado (Credentialed Scan). Qual o principal benefício técnico de priorizar esse método em relação a testes perimetrais não autenticados?",
-      "opts": [
-        "Garantir o menor consumo possível de largura de banda na infraestrutura de rede corporativa",
-        "Acessar configurações internas de arquivos de sistema e verificar versões de pacotes e patches instalados com total precisão",
-        "Testar a resiliência física do perímetro contra ataques distribuídos de negação de serviço (DDoS)",
-        "Simular a visão exata e limitada que um atacante externo totalmente cego possui da organização"
-      ],
+      "opts": ["Garantir o menor consumo possível de largura de banda na infraestrutura de rede corporativa", "Acessar configurações internas de arquivos de sistema e verificar versões de pacotes e patches instalados com total precisão", "Testar a resiliência física do perímetro contra ataques distribuídos de negação de serviço (DDoS)", "Simular a visão exata e limitada que um atacante externo totalmente cego possui da organização"],
       "ans": 1,
       "exp": "Varreduras credenciadas entram no sistema com privilégios adequados, permitindo auditar o registro interno, bibliotecas instaladas e patches em nível de software local sem gerar falsos positivos.",
-      "w": [
-        "A economia de largura de banda não é o foco principal; escaneamentos autenticados podem gerar até mais requisições locais de auditoria do que varreduras cegas.",
-        "O teste de resiliência contra ataques de DDoS é papel de testes de estresse volumétricos e simulações de engenharia, não de varreduras locais de patches.",
-        "A simulação de um atacante externo sem privilégios é o objetivo do Non-Credentialed Scan (escaneamento não autenticado), que possui visão limitada."
-      ]
+      "w": ["A economia de largura de banda não é o foco principal; escaneamentos autenticados podem gerar até mais requisições locais de auditoria do que varreduras cegas.", "O teste de resiliência contra ataques de DDoS é papel de testes de estresse volumétricos e simulações de engenharia, não de varreduras locais de patches.", "A simulação de um atacante externo sem privilégios é o objetivo do Non-Credentialed Scan (escaneamento não autenticado), que possui visão limitada."]
     },
     {
       "t": "CVSS v3 Metrics & Vector Strings",
       "q": "Um analista revisa uma string de vetor CVSS v3 com parâmetro 'UI:R'. Com base especificamente neste componente, qual a condição mandatória para o sucesso do exploit?",
-      "opts": [
-        "O ataque roda de forma autônoma sem ações humanas",
-        "Exige que uma vítima execute uma ação específica, como clicar em um link ou abrir um anexo",
-        "Requer login físico local direto de um administrador",
-        "Depende do isolamento prévio de ativos de tecnologia operacional"
-      ],
+      "opts": ["O ataque roda de forma autônoma sem ações humanas", "Exige que uma vítima execute uma ação específica, como clicar em um link ou abrir um anexo", "Requer login físico local direto de um administrador", "Depende do isolamento prévio de ativos de tecnologia operacional"],
       "ans": 1,
       "exp": "A métrica UI:R (User Interaction: Required) estabelece explicitamente que o gatilho da exploração depende de alguma ação deliberada de um usuário humano real.",
-      "w": [
-        "Se o ataque rodasse sem ações humanas, o parâmetro correto do vetor seria UI:N (User Interaction: None).",
-        "A necessidade de login físico está ligada à métrica Attack Vector (AV:L - Local), e não à métrica de Interação do Usuário.",
-        "O isolamento de tecnologia operacional (OT) não tem relação estrutural com as definições de escopo ou interação humana parametrizadas no CVSS v3."
-      ]
+      "w": ["Se o ataque rodasse sem ações humanas, o parâmetro correto do vetor seria UI:N (User Interaction: None).", "A necessidade de login físico está ligada à métrica Attack Vector (AV:L - Local), e não à métrica de Interação do Usuário.", "O isolamento de tecnologia operacional (OT) não tem relação estrutural com as definições de escopo ou interação humana parametrizadas no CVSS v3."]
     },
     {
-      "t": "Vulnerability Lifecyle Management",
+      "t": "Vulnerability Lifecycle Management",
       "q": "No ciclo de gerenciamento de vulnerabilidades, a equipe técnica identifica uma falha de severidade crítica em um sistema legado que não pode receber patches imediatos devido ao risco de interrupção operacional. A equipe opta por implementar regras restritas de firewall e monitoramento no WAF para conter a exploração. Essa estratégia é classificada como:",
-      "opts": [
-        "Remediação Completa (Remediation)",
-        "Controle Compensatório / Mitigação (Mitigation)",
-        "Aceitação de Risco (Risk Acceptance)",
-        "Transferência de Risco"
-      ],
+      "opts": ["Remediação Completa (Remediation)", "Controle Compensatório / Mitigação (Mitigation)", "Aceitação de Risco (Risk Acceptance)", "Transferência de Risco"],
       "ans": 1,
-      "exp": "Mitigaçãoenvolve aplicar controles temporários ou alternativos (como regras de WAF/IPS) para reduzir a probabilidade ou o impacto da exploração quando o patch (remediação) não pode ser aplicado imediatamente.",
-      "w": [
-        "A remediação envolve eliminar permanentemente a vulnerabilidade subjacente, aplicando a correção oficial ou atualizando o sistema afetado.",
-        "A aceitação de risco ocorre quando a organização documenta formalmente o perigo e decide operar o sistema sem alterar nenhuma configuração ou adicionar controles adicionais.",
-        "A transferência de risco envolve repassar o impacto financeiro para terceiros, geralmente através da contratação de seguros cibernéticos ou terceirização da infraestrutura."
-      ]
+      "exp": "Mitigação envolve aplicar controles temporários ou alternativos (como regras de WAF/IPS) para reduzir a probabilidade ou o impacto da exploração quando o patch (remediação) não pode ser aplicado imediatamente.",
+      "w": ["A remediação envolve eliminar permanentemente a vulnerabilidade subjacente, aplicando a correção oficial ou atualizando o sistema afetado.", "A aceitação de risco ocorre quando a organização documenta formalmente o perigo e decide operar o sistema sem alterar nenhuma configuração ou adicionar controles adicionais.", "A transferência de risco envolve repassar o impacto financeiro para terceiros, geralmente através da contratação de seguros cibernéticos ou terceirização da infraestrutura."]
     },
     {
       "t": "False Positives vs False Negatives",
       "q": "Um scanner de vulnerabilidades reporta que um servidor IIS corporativo é afetado por uma falha de execução remota de código (RCE). Após uma auditoria manual detalhada, o analista descobre que o servidor está rodando na verdade uma versão corrigida e totalmente imune, indicando que o alerta emitido pelo scanner foi um:",
-      "opts": [
-        "Falso Negativo",
-        "Verdadeiro Positivo",
-        "Falso Positivo",
-        "Verdadeiro Negativo"
-      ],
+      "opts": ["Falso Negativo", "Verdadeiro Positivo", "Falso Positivo", "Verdadeiro Negativo"],
       "ans": 2,
       "exp": "Um Falso Positivo ocorre quando uma ferramenta de segurança emite um alerta sobre uma vulnerabilidade ou ameaça que na verdade não existe ou já foi corrigida no ambiente real.",
-      "w": [
-        "Um Falso Negativo ocorre quando uma vulnerabilidade perigosa existe no sistema de forma ativa, mas o scanner falha em detectá-la e aponta o sistema como seguro.",
-        "Um Verdadeiro Positivo indica que a vulnerabilidade relatada pelo alerta realmente existe e está ativa aguardando exploração no servidor testado.",
-        "Um Verdadeiro Negativo significa que o sistema está livre de falhas e o scanner corretamente não gerou nenhum alerta para aquela verificação."
-      ]
+      "w": ["Um Falso Negativo ocorre quando uma vulnerabilidade perigosa existe no sistema de forma ativa, mas o scanner falha em detectá-la e aponta o sistema como seguro.", "Um Verdadeiro Positivo indica que a vulnerabilidade relatada pelo alerta realmente existe e está ativa aguardando exploração no servidor testado.", "Um Verdadeiro Negativo significa que o sistema está livre de falhas e o scanner corretamente não gerou nenhum alerta para aquela verificação."]
     },
     {
       "t": "CVSS Temporal Metrics",
       "q": "Ao calcular o risco corporativo real de uma vulnerabilidade recém-descoberta, qual grupo de métricas do CVSS avalia fatores dinâmicos que mudam ao longo do tempo, como a disponibilidade de um exploit público estável na internet ou de um patch oficial do fornecedor?",
-      "opts": [
-        "Base Score Metrics",
-        "Temporal Score Metrics",
-        "Environmental Score Metrics",
-        "Contextual Threat Matrix"
-      ],
+      "opts": ["Base Score Metrics", "Temporal Score Metrics", "Environmental Score Metrics", "Contextual Threat Matrix"],
       "ans": 1,
       "exp": "As métricas Temporais do CVSS mensuram as características da vulnerabilidade que variam com o tempo, divididas em Exploitability (E), Remediation Level (RL) e Report Confidence (RC).",
-      "w": [
-        "As métricas de Base representam as características intrínsecas da falha que permanecem constantes independentemente do tempo e do ambiente operacional local.",
-        "As métricas Ambientais (Environmental) permitem customizar o score base com base na criticidade e nos controles defensivos específicos adotados dentro do ambiente de rede da empresa.",
-        "A matriz de ameaça contextual é um conceito genérico de gestão de riscos, não fazendo parte da arquitetura estrutural de três camadas do CVSS."
-      ]
+      "w": ["As métricas de Base representam as características intrínsecas da falha que permanecem constantes independentemente do tempo e do ambiente operacional local.", "As métricas Ambientais (Environmental) permitem customizar o score base com base na criticidade e nos controles defensivos específicos adotados dentro do ambiente de rede da empresa.", "A matriz de ameaça contextual é um conceito genérico de gestão de riscos, não fazendo parte da arquitetura estrutural de três camadas do CVSS."]
+    },
+    {
+      "t": "CVSS v3 — Attack Vector (AV)",
+      "q": "Uma vulnerabilidade de execução remota de código em um servidor web publicamente exposto recebe a métrica AV:N em seu vetor CVSS v3. O que esse parâmetro específico indica sobre o exploit?",
+      "opts": ["O atacante precisa de acesso físico direto ao hardware do servidor para explorá-la", "O ataque pode ser realizado remotamente através da rede, sem necessidade de acesso físico ou local", "O ataque exige que o invasor esteja na mesma sub-rede (Adjacent Network) que o alvo", "A exploração depende de condições de rede excepcionais e específicas"],
+      "ans": 1,
+      "exp": "AV:N (Attack Vector: Network) indica que a vulnerabilidade é explorável remotamente através de uma interface de rede — o cenário de maior risco e que resulta em scores base mais altos no CVSS v3.",
+      "w": ["Acesso físico ao hardware corresponde à métrica AV:P (Physical), onde o atacante precisa tocar fisicamente o dispositivo para explorar a falha.", "Exigir a mesma sub-rede ou segmento adjacente corresponde à métrica AV:A (Adjacent), como ataques Bluetooth ou redes Wi-Fi não segmentadas.", "Condições excepcionais de rede não são um valor isolado no parâmetro AV; a complexidade de ataque é avaliada pela métrica separada AC (Attack Complexity)."]
+    },
+    {
+      "t": "Vulnerability Prioritization — CVSS vs Contexto",
+      "q": "Um analista identifica duas vulnerabilidades: CVE-A com CVSS 9.8 em um servidor de teste isolado sem dados sensíveis, e CVE-B com CVSS 6.5 em um servidor de produção de banco de dados com acesso à internet contendo dados de clientes. Considerando as métricas ambientais e o contexto de negócio, qual deve ser priorizada?",
+      "opts": ["CVE-A, pois o score CVSS base é significativamente mais alto", "CVE-B, pois a criticidade do ativo, exposição e impacto ao negócio elevam o risco real", "Ambas devem ser tratadas simultaneamente, pois o CVSS não considera contexto", "CVE-A, pois servidores de teste frequentemente são ignorados e servem de pivô"],
+      "ans": 1,
+      "exp": "O CVSS base não considera a criticidade do ativo nem o contexto operacional. As métricas Ambientais (Environmental) e a análise de impacto ao negócio devem ajustar a priorização real — um ativo crítico com CVSS menor pode ter risco corporativo muito superior.",
+      "w": ["O score CVSS base mais alto não é suficiente para determinar prioridade absoluta sem considerar o valor do ativo afetado e sua exposição ao ambiente de produção.", "É verdade que o CVSS base não considera contexto, mas por isso mesmo a avaliação contextual deve ser aplicada — não ignorada — para priorização correta.", "Embora servidores de teste possam ser usados como pivô, sem dados sensíveis e sem conectividade ao ambiente de produção, o risco real é significativamente menor que o servidor de banco de dados de produção."]
+    },
+    {
+      "t": "Patch Management",
+      "q": "Um sistema de gerenciamento de patches corporativo detecta que 45 servidores possuem a vulnerabilidade CVE-2024-XXXX com CVSS 8.9, mas 3 desses servidores executam sistemas legados que não suportam o patch oficial. Qual abordagem é mais adequada para os 3 sistemas legados?",
+      "opts": ["Ignorar a vulnerabilidade nesses sistemas pois são legados e não podem ser atualizados", "Aplicar controles compensatórios (regras de firewall, isolamento de rede, IPS signatures) e documentar a aceitação formal do risco residual", "Desligar imediatamente todos os 3 servidores legados sem avaliar o impacto operacional", "Reinstalar o sistema operacional nos 3 servidores com uma versão mais nova sem testes"],
+      "ans": 1,
+      "exp": "Quando a remediação direta (patch) não é possível, a abordagem correta é implementar controles compensatórios que reduzam a probabilidade ou o impacto da exploração, documentando formalmente o risco residual aceito.",
+      "w": ["Ignorar sem documentação e sem controles compensatórios equivale a aceitação de risco irresponsável — viola boas práticas de GRC e pode gerar responsabilidade legal.", "Desligar sistemas legados sem avaliação de impacto pode causar interrupções operacionais críticas, especialmente se suportam processos de negócio essenciais.", "Reinstalar com nova versão sem testes adequados pode introduzir incompatibilidades e causar tempo de inatividade não planejado, o que deve ser avaliado em um ambiente de staging primeiro."]
     }
   ],
+
   "3.1": [
     {
       "t": "Incident Response Lifecycle / NIST SP 800-61 Rev. 2",
       "q": "Durante um incidente crítico de intrusão e vazamento de dados confidenciais, o Líder do CSIRT emite uma ordem técnica de contenção emergencial instruindo o isolamento lógico imediato de um segmento de rede vulnerável desativando portas de switches através de chamadas do SOAR. Essa atividade técnica de contenção pertence a qual fase do ciclo de resposta a incidentes do NIST?",
-      "opts": [
-        "Preparation",
-        "Detection and Analysis",
-        "Containment, Erradication, and Recovery",
-        "Post-Incident Activity / Lessons Learned"
-      ],
+      "opts": ["Preparation", "Detection and Analysis", "Containment, Eradication, and Recovery", "Post-Incident Activity / Lessons Learned"],
       "ans": 2,
       "exp": "Isolar hosts e cortar acessos de switches para conter infecções ativas está no cerne da fase de Contenção, Erradicação e Recuperação.",
-      "w": [
-        "A fase de Preparação ocorre bem antes dos incidentes, focando em treinar o time, documentar playbooks e endurecer políticas de firewalls.",
-        "A fase de Detecção e Análise envolve correlacionar alertas no SIEM, ler pacotes de rede e confirmar se o falso positivo foi descartado.",
-        "A fase Pós-Incidente (Lições Aprendidas) acontece após a ameaça ser completamente eliminada, visando documentar relatórios e corrigir falhas processuais."
-      ]
+      "w": ["A fase de Preparação ocorre bem antes dos incidentes, focando em treinar o time, documentar playbooks e endurecer políticas de firewalls.", "A fase de Detecção e Análise envolve correlacionar alertas no SIEM, ler pacotes de rede e confirmar se o falso positivo foi descartado.", "A fase Pós-Incidente (Lições Aprendidas) acontece após a ameaça ser completamente eliminada, visando documentar relatórios e corrigir falhas processuais."]
     },
     {
       "t": "Digital Forensics & Evidence Handling",
       "q": "Um analista forense precisa consolidar evidências de computação digital mantendo um registro cronológico rígido e documentado de todas as pessoas que manusearam ou acessaram os artefatos. Essa documentação chama-se:",
-      "opts": [
-        "Incident Response Playbook Procedural",
-        "Chain of Custody (Cadeia de Custódia)",
-        "Summary Forensics Dashboard",
-        "Acordo de SLA Contratual Operacional"
-      ],
+      "opts": ["Incident Response Playbook Procedural", "Chain of Custody (Cadeia de Custódia)", "Summary Forensics Dashboard", "Acordo de SLA Contratual Operacional"],
       "ans": 1,
       "exp": "A Cadeia de Custódia (Chain of Custody) rastreia a posse, custódia, controle e análise das evidências para provar que o artefato não sofreu adulterações.",
-      "w": [
-        "O Playbook é um guia passo a passo focado no fluxo operacional da contenção de ameaças, e não na rastreabilidade jurídica de mídias físicas/lógicas.",
-        "Um dashboard forense serve apenas para monitoramento visual consolidado de alertas e dados gerenciais rápidos.",
-        "O SLA (Service Level Agreement) é um contrato de nível de serviço comercial que dita tempos de resposta mínimos acordados em contrato de suporte."
-      ]
+      "w": ["O Playbook é um guia passo a passo focado no fluxo operacional da contenção de ameaças, e não na rastreabilidade jurídica de mídias físicas/lógicas.", "Um dashboard forense serve apenas para monitoramento visual consolidado de alertas e dados gerenciais rápidos.", "O SLA (Service Level Agreement) é um contrato de nível de serviço comercial que dita tempos de resposta mínimos acordados em contrato de suporte."]
     },
     {
       "t": "Order of Volatility",
       "q": "Ao coletar evidências digitais de um servidor que sofreu um ataque ativo, qual dos seguintes ativos informacionais deve ser capturado em primeiro lugar pelo perito forense, seguindo rigorosamente a 'Ordem de Volatilidade' definida pela RFC 3227?",
-      "opts": [
-        "Arquivos de log gravados no disco rígido (SSD)",
-        "Conteúdo armazenado na memória cache do processador e registros internos",
-        "Dados gravados na memória RAM física do sistema",
-        "Tabelas de partições e setores ocultos do disco rígido"
-      ],
+      "opts": ["Arquivos de log gravados no disco rígido (SSD)", "Conteúdo armazenado na memória cache do processador e registros internos", "Dados gravados na memória RAM física do sistema", "Tabelas de partições e setores ocultos do disco rígido"],
       "ans": 1,
       "exp": "A ordem de volatilidade dita que os dados mais efêmeros e voláteis (como caches, registradores de CPU e memória RAM) devem ser coletados antes que os dados persistidos em mídia física sejam lidos, pois perdem o estado ao desligar ou processar novas ações.",
-      "w": [
-        "Arquivos persistidos em discos de armazenamento local (HDDs/SSDs) são consideravelmente menos voláteis que o estado da memória volátil ativa.",
-        "A memória RAM é altamente volátil, mas fica em uma posição logo após a cache e registradores internos imediatos do processador na escala de tempo.",
-        "As tabelas de partições no disco rígido são dados estáticos persistentes que sobrevivem ao reinício completo do hardware."
-      ]
+      "w": ["Arquivos persistidos em discos de armazenamento local (HDDs/SSDs) são consideravelmente menos voláteis que o estado da memória volátil ativa.", "A memória RAM é altamente volátil, mas fica em uma posição logo após a cache e registradores internos imediatos do processador na escala de tempo.", "As tabelas de partições no disco rígido são dados estáticos persistentes que sobrevivem ao reinício completo do hardware."]
     },
     {
       "t": "Data Integrity in Forensics",
       "q": "Para garantir perante um tribunal de justiça que uma imagem forense bit a bit gerada a partir do drive de armazenamento de um suspeito não foi de forma alguma alterada durante a análise pericial, qual procedimento técnico o analista deve executar?",
-      "opts": [
-        "Compactar o arquivo de imagem utilizando algoritmos .RAR com senha forte",
-        "Criptografar o arquivo utilizando chaves assimétricas RSA",
-        "Calcular e documentar um hash criptográfico (como SHA-256) imediatamente após a cópia e compará-lo posteriormente",
-        "Alterar as permissões do sistema operacional para somente leitura"
-      ],
+      "opts": ["Compactar o arquivo de imagem utilizando algoritmos .RAR com senha forte", "Criptografar o arquivo utilizando chaves assimétricas RSA", "Calcular e documentar um hash criptográfico (como SHA-256) imediatamente após a cópia e compará-lo posteriormente", "Alterar as permissões do sistema operacional para somente leitura"],
       "ans": 2,
       "exp": "Os hashes criptográficos funcionam como impressões digitais matemáticas exclusivas. Se qualquer bit mudar na imagem, o hash final será completamente diferente, demonstrando adulteração.",
-      "w": [
-        "A compactação apenas reduz o tamanho do arquivo para armazenamento, sem fornecer garantias de integridade matemática verificáveis contra pequenas modificações.",
-        "A criptografia garante a confidencialidade das informações contra acessos não autorizados, mas não serve como mecanismo padrão de auditoria pública de integridade.",
-        "Permissões de somente leitura no S.O. evitam acidentes locais do software analítico, mas não geram provas matemáticas robustas para fins forenses legais."
-      ]
+      "w": ["A compactação apenas reduz o tamanho do arquivo para armazenamento, sem fornecer garantias de integridade matemática verificáveis contra pequenas modificações.", "A criptografia garante a confidencialidade das informações contra acessos não autorizados, mas não serve como mecanismo padrão de auditoria pública de integridade.", "Permissões de somente leitura no S.O. evitam acidentes locais do software analítico, mas não geram provas matemáticas robustas para fins forenses legais."]
     },
     {
       "t": "Incident Isolation Strategies",
       "q": "Um analista de incidentes do SOC detecta que uma estação de trabalho corporativa está ativamente se comunicando com um servidor malicioso na internet associado a ransomware. Qual tática de isolamento rápido mitiga a ameaça sem destruir as evidências presentes na memória RAM ativa?",
-      "opts": [
-        "Desligar o cabo de energia física (Hard Shutdown) diretamente da tomada",
-        "Desconectar o host da rede lógica isolando a porta no switch ou VLAN de quarentena",
-        "Executar uma formatação completa do sistema via console centralizado",
-        "Reiniciar o computador em Modo de Segurança"
-      ],
+      "opts": ["Desligar o cabo de energia física (Hard Shutdown) diretamente da tomada", "Desconectar o host da rede lógica isolando a porta no switch ou VLAN de quarentena", "Executar uma formatação completa do sistema via console centralizado", "Reiniciar o computador em Modo de Segurança"],
       "ans": 1,
       "exp": "Isolar a rede logicamente corta a comunicação com o servidor C2 e o movimento lateral do ransomware imediatamente, preservando o estado da memória RAM intacto para análise forense futura.",
-      "w": [
-        "Desligar a energia abruptamente elimina todas as evidências cruciais mantidas na memória RAM volátil, impedindo a recuperação de chaves de criptografia e malwares em execução.",
-        "Formatar o sistema apaga completamente os arquivos locais, binários hostis e logs operacionais, destruindo a cena do crime digital.",
-        "Reiniciar o host altera profundamente o estado dos logs de auditoria locais e apaga os processos ativos e voláteis da memória RAM."
-      ]
+      "w": ["Desligar a energia abruptamente elimina todas as evidências cruciais mantidas na memória RAM volátil, impedindo a recuperação de chaves de criptografia e malwares em execução.", "Formatar o sistema apaga completamente os arquivos locais, binários hostis e logs operacionais, destruindo a cena do crime digital.", "Reiniciar o host altera profundamente o estado dos logs de auditoria locais e apaga os processos ativos e voláteis da memória RAM."]
+    },
+    {
+      "t": "NIST SP 800-61 — Fase de Preparação",
+      "q": "A equipe de segurança está na fase de Preparação do ciclo NIST SP 800-61 para um cenário de incidente de phishing. Qual das seguintes atividades é realizada especificamente nessa fase?",
+      "opts": ["Isolar logicamente o endpoint infectado do restante da rede", "Analisar cabeçalhos de e-mail suspeito para confirmar o vetor do ataque", "Criar e testar playbooks documentados de resposta a phishing e treinar analistas", "Calcular o escopo total do vazamento de dados e notificar autoridades regulatórias"],
+      "ans": 2,
+      "exp": "A fase de Preparação é proativa e preventiva — ocorre antes de qualquer incidente. Inclui criar playbooks, definir papéis e responsabilidades, configurar ferramentas, estabelecer canais de comunicação e treinar a equipe.",
+      "w": ["Isolar o endpoint infectado é uma ação reativa que ocorre durante a fase de Contenção — pressupõe que o incidente já foi confirmado.", "Analisar cabeçalhos de e-mail para confirmar o vetor pertence à fase de Detecção e Análise, após o alerta inicial ser recebido.", "Calcular o escopo do vazamento e notificar autoridades são atividades da fase de Contenção/Erradicação ou da fase de Pós-Incidente, dependendo do momento."]
+    },
+    {
+      "t": "SOAR — Automação de Resposta",
+      "q": "Uma plataforma de SOAR (Security Orchestration, Automation and Response) é configurada para automaticamente bloquear IPs maliciosos no firewall, abrir tickets no sistema de chamados e enviar alertas ao analista plantonista quando uma regra de correlação do SIEM é ativada. Qual benefício principal o SOAR oferece ao SOC?",
+      "opts": ["Substitui completamente a necessidade de analistas humanos no SOC", "Reduz o tempo de resposta a incidentes (MTTR) ao automatizar tarefas repetitivas e orquestrar ferramentas heterogêneas", "Aumenta o número de falsos positivos para garantir cobertura máxima", "Substitui o SIEM como a principal plataforma de coleta e correlação de logs"],
+      "ans": 1,
+      "exp": "O SOAR reduz o MTTR (Mean Time to Respond/Remediate) ao executar automaticamente ações de resposta repetitivas que antes exigiam intervenção manual, liberando analistas para investigações que requerem julgamento humano.",
+      "w": ["O SOAR complementa e aumenta a capacidade dos analistas humanos; não os substitui — decisões de alto impacto e investigações complexas ainda exigem julgamento humano.", "Aumentar falsos positivos seria contraproducente; o SOAR deve contribuir para redução de ruído através de automação de triagem e enriquecimento de alertas.", "O SIEM continua sendo a plataforma central de coleta, normalização e correlação de logs; o SOAR consome os alertas do SIEM e executa workflows de resposta."]
+    },
+    {
+      "t": "Lessons Learned — Pós-Incidente",
+      "q": "Após a contenção e remediação completa de um incidente de violação de dados, a equipe de resposta realiza uma reunião formal para documentar o que funcionou, o que falhou e como melhorar os processos. Essa atividade pertence a qual fase do NIST SP 800-61?",
+      "opts": ["Preparation", "Detection and Analysis", "Containment, Eradication, and Recovery", "Post-Incident Activity (Lessons Learned)"],
+      "ans": 3,
+      "exp": "A fase de Pós-Incidente (Post-Incident Activity) inclui a reunião de Lições Aprendidas (Lessons Learned), produção do relatório final do incidente e atualização dos playbooks com base na experiência adquirida.",
+      "w": ["Preparation ocorre antes de incidentes, estabelecendo as capacidades de resposta necessárias antecipadamente.", "Detection and Analysis é a fase de identificação e confirmação do incidente, não de reflexão posterior sobre o que ocorreu.", "Containment, Eradication and Recovery é a fase ativa de combate ao incidente em curso — a reunião de lições aprendidas só ocorre depois que a ameaça foi completamente eliminada."]
     }
   ],
+
   "4.1": [
     {
       "t": "Regulatory Compliance / Healthcare Security",
       "q": "Um analista de conformidade de segurança cibernética revisa as práticas organizacionais de manipulação de dados de saúde e prontuários médicos eletrônicos regulados nos Estados Unidos, garantindo controles severos de confidencialidade de registros médicos e privacidade dos pacientes. Qual regulação federal dita esses requisitos obrigatórios?",
-      "opts": [
-        "Sarbanes-Oxley Act (SOX)",
-        "Payment Card Industry Data Security Standard (PCI DSS)",
-        "Health Insurance Portability and Accountability Act (HIPAA)",
-        "General Data Protection Regulation (GDPR) europeu"
-      ],
+      "opts": ["Sarbanes-Oxley Act (SOX)", "Payment Card Industry Data Security Standard (PCI DSS)", "Health Insurance Portability and Accountability Act (HIPAA)", "General Data Protection Regulation (GDPR) europeu"],
       "ans": 2,
       "exp": "A HIPAA regulamenta rigorosamente os dados médicos confidenciais (PHI - Protected Health Information) em solo norte-americano.",
-      "w": [
-        "A SOX audita relatórios de contabilidade e fraudes corporativas financeiras de empresas públicas de capital aberto.",
-        "O PCI DSS é um padrão privado da indústria de cartões de crédito para proteger dados de transações financeiras.",
-        "O GDPR é a regulação de privacidade e proteção de dados da União Europeia, não uma regulação federal focada em saúde nos EUA."
-      ]
+      "w": ["A SOX audita relatórios de contabilidade e fraudes corporativas financeiras de empresas públicas de capital aberto.", "O PCI DSS é um padrão privado da indústria de cartões de crédito para proteger dados de transações financeiras.", "O GDPR é a regulação de privacidade e proteção de dados da União Europeia, não uma regulação federal focada em saúde nos EUA."]
     },
     {
       "t": "Federal Information Security & Risk Governance",
       "q": "Um engenheiro de segurança de uma agência governamental está configurando controles em nuvem federal dos EUA. Ele deve seguir os padrões obrigatórios ditados por qual lei americana?",
-      "opts": [
-        "General Data Protection Regulation (GDPR)",
-        "Federal Information Security Management Act (FISMA)",
-        "Sarbanes-Oxley Act (SOX)",
-        "Health Insurance Portability and Accountability Act (HIPAA)"
-      ],
+      "opts": ["General Data Protection Regulation (GDPR)", "Federal Information Security Management Act (FISMA)", "Sarbanes-Oxley Act (SOX)", "Health Insurance Portability and Accountability Act (HIPAA)"],
       "ans": 1,
       "exp": "A FISMA impõe regras rígidas de segurança da informação alinhadas aos frameworks do NIST para todas as agências e parceiros federais norte-americanos.",
-      "w": [
-        "O GDPR aplica-se a dados de cidadãos europeus e não atua como a lei federal governamental para sistemas e infraestrutura do governo dos EUA.",
-        "A SOX foca no ecossistema financeiro privado de capital aberto e mercado de ações, sem relação direta com defesas técnicas governamentais.",
-        "A HIPAA é restrita a dados do setor de saúde (hospitais, seguradoras médicas), não cobrindo a infraestrutura pública federal geral."
-      ]
+      "w": ["O GDPR aplica-se a dados de cidadãos europeus e não atua como a lei federal governamental para sistemas e infraestrutura do governo dos EUA.", "A SOX foca no ecossistema financeiro privado de capital aberto e mercado de ações, sem relação direta com defesas técnicas governamentais.", "A HIPAA é restrita a dados do setor de saúde (hospitais, seguradoras médicas), não cobrindo a infraestrutura pública federal geral."]
     },
     {
       "t": "Payment Card Industry Controls (PCI DSS)",
       "q": "Uma plataforma de e-commerce armazena e processa o número do cartão de crédito primário (PAN) de seus clientes no banco de dados. Qual regulação de conformidade obriga essa empresa a criptografar esses dados em repouso e restringir severamente o acesso físico e lógico a esse ambiente?",
-      "opts": [
-        "GLBA (Gramm-Leach-Bliley Act)",
-        "PCI DSS",
-        "SOX Section 404",
-        "NIST SP 800-53"
-      ],
+      "opts": ["GLBA (Gramm-Leach-Bliley Act)", "PCI DSS", "SOX Section 404", "NIST SP 800-53"],
       "ans": 1,
       "exp": "O PCI DSS é o padrão de segurança global obrigatório para todas as entidades que processam, armazenam ou transmitem dados de portadores de cartões de pagamento.",
-      "w": [
-        "A GLBA regula a proteção de informações financeiras confidenciais de consumidores sob custódia de instituições bancárias e seguradoras, não focando especificamente em cartões de crédito em lojas virtuais.",
-        "A seção 404 da SOX foca nos controles internos de relatórios financeiros corporativos para evitar fraudes em empresas listadas na bolsa de valores.",
-        "O NIST SP 800-53 é um catálogo abrangente de controles de segurança e privacidade voltado para sistemas federais de segurança nacional nos EUA, e não uma norma privada do setor de pagamentos."
-      ]
+      "w": ["A GLBA regula a proteção de informações financeiras confidenciais de consumidores sob custódia de instituições bancárias e seguradoras, não focando especificamente em cartões de crédito em lojas virtuais.", "A seção 404 da SOX foca nos controles internos de relatórios financeiros corporativos para evitar fraudes em empresas listadas na bolsa de valores.", "O NIST SP 800-53 é um catálogo abrangente de controles de segurança e privacidade voltado para sistemas federais de segurança nacional nos EUA, e não uma norma privada do setor de pagamentos."]
     },
     {
       "t": "Data Privacy Regulations (GDPR)",
       "q": "Uma empresa multinacional sediada nos Estados Unidos atende e coleta dados cadastrais de usuários residentes na União Europeia através de um aplicativo móvel. Qual regulamentação impõe sanções financeiras severas de até 4% do faturamento global anual da empresa em caso de vazamento de dados?",
-      "opts": [
-        "CCPA (California Consumer Privacy Act)",
-        "GDPR (General Data Protection Regulation)",
-        "COPPA",
-        "FISMA"
-      ],
+      "opts": ["CCPA (California Consumer Privacy Act)", "GDPR (General Data Protection Regulation)", "COPPA", "FISMA"],
       "ans": 1,
       "exp": "O GDPR possui aplicação extraterritorial. Qualquer empresa global que lide com dados pessoais de residentes da União Europeia está estritamente sujeita às suas regras e pesadas penalidades.",
-      "w": [
-        "A CCPA protege os direitos de privacidade dos residentes do estado da Califórnia (EUA), contendo limites de multas baseados em valores fixos por infração individual.",
-        "A COPPA protege estritamente a privacidade online de crianças menores de 13 anos em plataformas digitais americanas.",
-        "A FISMA aplica-se apenas aos órgãos e agências públicas federais e prestadores de serviços do ecossistema governamental dos Estados Unidos."
-      ]
+      "w": ["A CCPA protege os direitos de privacidade dos residentes do estado da Califórnia (EUA), contendo limites de multas baseados em valores fixos por infração individual.", "A COPPA protege estritamente a privacidade online de crianças menores de 13 anos em plataformas digitais americanas.", "A FISMA aplica-se apenas aos órgãos e agências públicas federais e prestadores de serviços do ecossistema governamental dos Estados Unidos."]
     },
     {
       "t": "Risk Assessment Concepts (SLE, ARO, ALE)",
       "q": "No gerenciamento quantitativo de riscos, um analista precisa calcular o prejuízo financeiro anual esperado decorrente de ataques de negação de serviço (DoS) a um servidor web. Se a expectativa de perda por uma única ocorrência (SLE) é de R$ 50.000 e a taxa anual de ocorrência (ARO) estimada é de 3 vezes por ano, qual o valor do ALE?",
-      "opts": [
-        "R$ 50.000",
-        "R$ 150.000",
-        "R$ 16.666",
-        "R$ 300.000"
-      ],
+      "opts": ["R$ 50.000", "R$ 150.000", "R$ 16.666", "R$ 300.000"],
       "ans": 1,
       "exp": "A fórmula matemática padrão de risco quantitativo estabelece que a Perda Anual Esperada (ALE) é o produto do SLE pelo ARO. Portanto, ALE = R$ 50.000 x 3 = R$ 150.000.",
-      "w": [
-        "R$ 50.000 corresponde apenas ao SLE (Single Loss Expectancy), o prejuízo isolado de um único incidente.",
-        "R$ 16.666 seria o resultado incorreto de dividir o SLE pelo ARO, o que contraria as definições matemáticas de risco.",
-        "R$ 300.000 representaria o dobro do valor real esperado, incorrendo em falha de cálculo aritmético na equação de risco."
-      ]
+      "w": ["R$ 50.000 corresponde apenas ao SLE (Single Loss Expectancy), o prejuízo isolado de um único incidente.", "R$ 16.666 seria o resultado incorreto de dividir o SLE pelo ARO, o que contraria as definições matemáticas de risco.", "R$ 300.000 representaria o dobro do valor real esperado, incorrendo em falha de cálculo aritmético na equação de risco."]
+    },
+    {
+      "t": "Risk Assessment — SLE e Fator de Exposição",
+      "q": "Um ativo de TI é avaliado em $200.000. Em um cenário de incêndio no data center, estima-se que 40% do valor do ativo seria perdido (EF = 0,4). Qual é o SLE (Single Loss Expectancy) para esse cenário?",
+      "opts": ["$200.000", "$80.000", "$120.000", "$40.000"],
+      "ans": 1,
+      "exp": "SLE = Valor do Ativo × Fator de Exposição. Portanto, SLE = $200.000 × 0,4 = $80.000. Esse é o valor financeiro esperado da perda em uma única ocorrência do evento de risco.",
+      "w": ["$200.000 seria o valor total do ativo; o SLE considera apenas a fração que seria perdida conforme o Fator de Exposição, não o valor integral.", "$120.000 resultaria de subtrair o EF do valor total ($200.000 × 0,6), o que representa o valor remanescente do ativo, não a perda esperada.", "$40.000 seria 20% do ativo; o cálculo correto usa o EF de 40% (0,4), não 20%."]
+    },
+    {
+      "t": "Tipos de Controles de Segurança",
+      "q": "Uma organização instala câmeras de vigilância no data center e sensores de movimento nas salas de servidores. Essas medidas são classificadas como que tipo de controle de segurança?",
+      "opts": ["Controles Preventivos — impedem que incidentes ocorram", "Controles Detectivos — identificam eventos de segurança quando ocorrem", "Controles Corretivos — restauram sistemas após um incidente", "Controles Compensatórios — substituem controles primários indisponíveis"],
+      "ans": 1,
+      "exp": "Câmeras e sensores de movimento são controles detectivos: seu propósito é identificar e registrar eventos de segurança (intrusões, acessos não autorizados) quando ocorrem, não necessariamente impedi-los.",
+      "w": ["Controles preventivos agem antes do evento para impedi-lo, como trancas nas portas, controle de acesso biométrico e firewalls — não apenas monitoram o que ocorreu.", "Controles corretivos atuam após a ocorrência do incidente para restaurar o estado normal, como backups, patches de emergência e recuperação de desastres.", "Controles compensatórios são implementados quando o controle primário desejado não pode ser aplicado — não descrevem o propósito de monitoramento das câmeras."]
+    },
+    {
+      "t": "PII e Categorias de Dados Protegidos",
+      "q": "Durante uma auditoria de conformidade, o time jurídico pergunta ao analista de segurança qual categoria de dado exige proteção obrigatória por incluir informações que, isoladamente ou combinadas, podem identificar de forma única um indivíduo específico. Qual o termo correto?",
+      "opts": ["CHD (Cardholder Data)", "PAN (Primary Account Number)", "PII (Personally Identifiable Information)", "PHI (Protected Health Information)"],
+      "ans": 2,
+      "exp": "PII (Personally Identifiable Information) é a categoria ampla que abrange qualquer dado capaz de identificar um indivíduo diretamente ou indiretamente — inclui nome, CPF, endereço, e-mail, biometria e combinações de dados aparentemente não-identificadores.",
+      "w": ["CHD (Cardholder Data) é uma subcategoria específica que inclui dados do portador de cartão de pagamento, regulada pelo PCI DSS, não uma categoria genérica de identificação pessoal.", "PAN é o número específico do cartão de crédito/débito — um tipo de CHD e, portanto, uma subcategoria muito mais restrita do que PII.", "PHI é PII aplicada especificamente ao contexto de saúde — registros médicos identificáveis protegidos pela HIPAA nos EUA; é um subconjunto de PII, não a categoria geral."]
     }
   ],
+
   "master": [
     {
       "t": "Web Application Attacks / OWASP Top 10",
       "q": "Durante testes de validação defensiva em uma aplicação web corporativa, um analista injeta uma string contendo comandos de script em um campo de comentários público que armazena os dados permanentemente no banco corporativo. Todos os novos visitantes que acessam a página têm o script renderizado e executado em seus navegadores. Essa falha é classificada como:",
-      "opts": [
-        "Reflected Cross-Site Scripting (XSS)",
-        "Stored (Persistent) Cross-Site Scripting (XSS)",
-        "Insecure Direct Object Reference (IDOR)",
-        "Server-Side Request Forgery (SSRF)"
-      ],
+      "opts": ["Reflected Cross-Site Scripting (XSS)", "Stored (Persistent) Cross-Site Scripting (XSS)", "Insecure Direct Object Reference (IDOR)", "Server-Side Request Forgery (SSRF)"],
       "ans": 1,
       "exp": "O Stored XSS grava permanentemente o payload malicioso no banco de dados. Qualquer usuário posterior que carregar a página afetada executará o script.",
-      "w": [
-        "O Reflected XSS não grava dados no banco; o payload trafega imediatamente na requisição HTTP (geralmente via URL) e é refletido em uma única resposta.",
-        "O IDOR ocorre quando a aplicação expõe referências a objetos internos do banco (como chaves ou IDs de arquivos) sem validação de autorização de acesso.",
-        "O SSRF induz o servidor backend vulnerável a disparar requisições para servidores internos ou externos que o atacante não conseguiria acessar diretamente."
-      ]
+      "w": ["O Reflected XSS não grava dados no banco; o payload trafega imediatamente na requisição HTTP (geralmente via URL) e é refletido em uma única resposta.", "O IDOR ocorre quando a aplicação expõe referências a objetos internos do banco (como chaves ou IDs de arquivos) sem validação de autorização de acesso.", "O SSRF induz o servidor backend vulnerável a disparar requisições para servidores internos ou externos que o atacante não conseguiria acessar diretamente."]
     },
     {
-      "t": "Endpoint Evasion Techniques / Registry & Process Manipulation",
+      "t": "Endpoint Evasion Techniques / DLL Hijacking",
       "q": "Ao analisar a telemetria profunda fornecida por agentes de EDR em um endpoint infectado por malware stealth, constata-se o carregamento de uma DLL maliciosa a partir do mesmo diretório local onde reside um executável legítimo e confiável do sistema operacional, burlando as buscas padrão do OS. Essa técnica de evasão chama-se:",
-      "opts": [
-        "Process Hollowing em memória RAM",
-        "DLL Side-Loading / DLL Hijacking",
-        "Ofuscação de comandos PowerShell locais",
-        "Uso indevido de privilégios via PAM"
-      ],
+      "opts": ["Process Hollowing em memória RAM", "DLL Side-Loading / DLL Hijacking", "Ofuscação de comandos PowerShell locais", "Uso indevido de privilégios via PAM"],
       "ans": 1,
       "exp": "O DLL Side-Loading explora a prioridade nativa do Windows de buscar DLLs no mesmo diretório do arquivo executável antes de varrer pastas do sistema.",
-      "w": [
-        "O Process Hollowing suspende um processo legítimo na memória RAM, esvazia seu código original e injeta código hostil mantendo a assinatura visual do processo.",
-        "A ofuscação de comandos PowerShell altera a sintaxe de scripts (usando codificação Base64, por exemplo) para cegar assinaturas tradicionais de antivírus.",
-        "O PAM é uma suíte de gerenciamento de contas de alto privilégio e não uma técnica de sequestro ou carregamento de arquivos dinâmicos no sistema operacional."
-      ]
+      "w": ["O Process Hollowing suspende um processo legítimo na memória RAM, esvazia seu código original e injeta código hostil mantendo a assinatura visual do processo.", "A ofuscação de comandos PowerShell altera a sintaxe de scripts (usando codificação Base64, por exemplo) para cegar assinaturas tradicionais de antivírus.", "O PAM é uma suíte de gerenciamento de contas de alto privilégio e não uma técnica de sequestro ou carregamento de arquivos dinâmicos no sistema operacional."]
     },
     {
       "t": "Cyber Threat Intelligence (CTI) Levels",
       "q": "No contexto de inteligência de ameaças cibernéticas defensivas (CTI), feeds automatizados que fornecem arquivos XML/JSON contendo IPs maliciosos conhecidos, hashes de malware e indicadores de e-mails de phishing de forma massiva e imediata para alimentação direta de regras no SIEM representam qual nível de inteligência?",
-      "opts": [
-        "Strategic Threat Intelligence",
-        "Operational / Technical Threat Intelligence",
-        "Tactical Threat Intelligence baseada em TTPs",
-        "Benchmarks regulatórios de governança global"
-      ],
+      "opts": ["Strategic Threat Intelligence", "Operational / Technical Threat Intelligence", "Tactical Threat Intelligence baseada em TTPs", "Benchmarks regulatórios de governança global"],
       "ans": 1,
       "exp": "A inteligência operacional ou técnica lida com Indicadores de Comprometimento (IoCs) brutos, de curta duração e alta velocidade (hashes, IPs, domínios).",
-      "w": [
-        "A Inteligência Estratégica foca em tomadores de decisão de alto nível (C-Level), analisando relatórios macro de geopolítica, tendências de mercado e impacto financeiro.",
-        "A Inteligência Tática lida com as táticas, técnicas e procedimentos (TTPs) detalhados dos atores de ameaça (ex: mapeamento do framework MITRE ATT&CK).",
-        "Os benchmarks regulatórios pertencem às disciplinas de Governança, Risco e Conformidade (GRC), e não às categorias de inteligência contra ameaças."
-      ]
+      "w": ["A Inteligência Estratégica foca em tomadores de decisão de alto nível (C-Level), analisando relatórios macro de geopolítica, tendências de mercado e impacto financeiro.", "A Inteligência Tática lida com as táticas, técnicas e procedimentos (TTPs) detalhados dos atores de ameaça (ex: mapeamento do framework MITRE ATT&CK).", "Os benchmarks regulatórios pertencem às disciplinas de Governança, Risco e Conformidade (GRC), e não às categorias de inteligência contra ameaças."]
     },
     {
-      "t": "Security Infrastructure / Logging and Time Sychronization",
+      "t": "Security Infrastructure / Logging and Time Synchronization",
       "q": "Um relatório de auditoria aponta que uma organização carece de sincronização temporal centralizada adequada entre seus múltiplos servidores e ativos de rede distribuídos em nuvens híbridas, impedindo a correlação de linhas do tempo forenses confiáveis no SIEM. Qual protocolo deve ser configurado de forma mandatória para remediar essa falha técnica?",
-      "opts": [
-        "Simple Network Management Protocol (SNMP v3)",
-        "Network Time Protocol (NTP)",
-        "Domain Name System Security Extensions (DNSSEC)",
-        "Hypertext Travel Protocol Secure (HTTPS)"
-      ],
+      "opts": ["Simple Network Management Protocol (SNMP v3)", "Network Time Protocol (NTP)", "Domain Name System Security Extensions (DNSSEC)", "Hypertext Transfer Protocol Secure (HTTPS)"],
       "ans": 1,
       "exp": "O protocolo NTP (Network Time Protocol) sincroniza perfeitamente os relógios internos de todos os ativos corporativos, garantindo a integridade dos timestamps nos logs.",
-      "w": [
-        "O SNMP v3 é utilizado estritamente para coletar telemetria, métricas de hardware e gerenciar o status operacional de dispositivos de rede remotos.",
-        "O DNSSEC adiciona assinaturas criptográficas ao serviço de DNS para evitar ataques de falsificação de cache (DNS Cache Poisoning).",
-        "O HTTPS provê comunicações criptografadas ponta a ponta na web (camada de transporte TLS) e não atua regulando tempos e carimbos de relógio."
-      ]
+      "w": ["O SNMP v3 é utilizado estritamente para coletar telemetria, métricas de hardware e gerenciar o status operacional de dispositivos de rede remotos.", "O DNSSEC adiciona assinaturas criptográficas ao serviço de DNS para evitar ataques de falsificação de cache (DNS Cache Poisoning).", "O HTTPS provê comunicações criptografadas ponta a ponta na web (camada de transporte TLS) e não atua regulando tempos e carimbos de relógio."]
     },
     {
       "t": "Advanced Web Exploitation / SSRF Detection",
       "q": "Ao inspecionar pacotes de logs coletados de um proxy, um analista do SOC descobre um grande número de requisições enviadas a partir de um servidor interno direcionadas a um endpoint de API de infraestrutura em nuvem contendo a string de cabeçalho 'X-Forwarded-For' alterada e apontando para recursos confidenciais locais (localhost). Esse indicador sugere um ataque de:",
-      "opts": [
-        "Cross-Site Scripting (XSS) Refletido",
-        "Server-Side Request Forgery (SSRF)",
-        "Estouro de Buffer baseado em pilhas de memória",
-        "Injeção de Comandos SQL cega"
-      ],
+      "opts": ["Cross-Site Scripting (XSS) Refletido", "Server-Side Request Forgery (SSRF)", "Estouro de Buffer baseado em pilhas de memória", "Injeção de Comandos SQL cega"],
       "ans": 1,
       "exp": "Manipular cabeçalhos HTTP para enganar servidores fazendo-os acessar recursos internos restritos (como localhost ou metadados de nuvem) é a assinatura clara de SSRF.",
-      "w": [
-        "O XSS Refletido envolve a injeção de scripts no navegador do cliente (frontend) e não manipula chamadas de requisições internas de API originadas do servidor.",
-        "O estouro de buffer ataca diretamente a alocação de memória RAM em código de baixo nível, explorando funções vulneráveis como strcpy e estouros de limites.",
-        "A injeção de comandos SQL cega (Blind SQLi) submete comandos lógicos de bancos de dados para deduzir respostas binárias com base em tempo de retorno do servidor."
-      ]
+      "w": ["O XSS Refletido envolve a injeção de scripts no navegador do cliente (frontend) e não manipula chamadas de requisições internas de API originadas do servidor.", "O estouro de buffer ataca diretamente a alocação de memória RAM em código de baixo nível, explorando funções vulneráveis como strcpy e estouros de limites.", "A injeção de comandos SQL cega (Blind SQLi) submete comandos lógicos de bancos de dados para deduzir respostas binárias com base em tempo de retorno do servidor."]
     },
     {
-      "t": "Cloud Security Architecture / Data Protection",
+      "t": "Cloud Security Architecture / CASB",
       "q": "O time de engenharia defensiva do SOC implementa controles baseados em CASB (Cloud Access Security Broker). Qual o principal objetivo prático corporativo visado ao adotar esse tipo de tecnologia específica na infraestrutura?",
-      "opts": [
-        "Garantir a microsegmentação física de cabos de switches locais de servidores em produção",
-        "Monitorar, auditar e aplicar políticas de segurança e conformidade de dados estritas entre usuários internos e serviços em nuvem de terceiros (SaaS/IaaS)",
-        "Substituir de forma integral os antivírus locais tradicionais e agentes de EDR dos endpoints",
-        "Automatizar a criação de patches corretivos para sistemas operacionais legados"
-      ],
+      "opts": ["Garantir a microsegmentação física de cabos de switches locais de servidores em produção", "Monitorar, auditar e aplicar políticas de segurança e conformidade de dados estritas entre usuários internos e serviços em nuvem de terceiros (SaaS/IaaS)", "Substituir de forma integral os antivírus locais tradicionais e agentes de EDR dos endpoints", "Automatizar a criação de patches corretivos para sistemas operacionais legados"],
       "ans": 1,
       "exp": "O CASB serve como um guarda-costas posicionado entre a rede local e os serviços em nuvem, impedindo vazamentos de dados (DLP) e controlando o uso de Shadow IT.",
-      "w": [
-        "A microsegmentação física de cabos locais depende de arquiteturas de hardware de redes e switches core, escapando completamente do escopo puramente lógico do CASB.",
-        "O CASB monitora fluxos direcionados a serviços em nuvem; ele não substitui a proteção profunda de endpoints contra exploits locais provida por soluções de EDR.",
-        "A correção e compilação de patches em sistemas operacionais legados é tratada por softwares específicos de Patch Management, e não por corretores de acesso à nuvem."
-      ]
+      "w": ["A microsegmentação física de cabos locais depende de arquiteturas de hardware de redes e switches core, escapando completamente do escopo puramente lógico do CASB.", "O CASB monitora fluxos direcionados a serviços em nuvem; ele não substitui a proteção profunda de endpoints contra exploits locais provida por soluções de EDR.", "A correção e compilação de patches em sistemas operacionais legados é tratada por softwares específicos de Patch Management, e não por corretores de acesso à nuvem."]
     },
     {
-      "t": "Operating System Defenses / Memory Protection Mechanisms",
+      "t": "Operating System Defenses / Memory Protection",
       "q": "Durante um ataque cibernético massivo, um analista do SOC percebe que o invasor está forçando requisições HTTP maliciosas que exploram uma falha lógica de estouro de buffer (Buffer Overflow) em um binário legado. O mecanismo de proteção nativo do sistema operacional Windows que mitiga essa exploração randomizando os endereços de memória RAM onde componentes críticos do código são carregados é conhecido tecnicamente como:",
-      "opts": [
-        "Data Execution Prevention (DEP)",
-        "Address Space Layout Randomization (ASLR)",
-        "Windows File Protection (WFP)",
-        "Extended Detection and Response (XDR)"
-      ],
+      "opts": ["Data Execution Prevention (DEP)", "Address Space Layout Randomization (ASLR)", "Windows File Protection (WFP)", "Extended Detection and Response (XDR)"],
       "ans": 1,
       "exp": "O ASLR (Address Space Layout Randomization) embaralha os endereços de memória RAM onde executáveis e DLLs residem, impedindo exploits de preverem ponteiros de saltos.",
-      "w": [
-        "O DEP marca certas regiões da memória RAM (como a pilha/stack e heap) como não executáveis, impedindo que dados injetados executem códigos de forma hostil.",
-        "O WFP monitora modificações em arquivos de sistema críticos do Windows (.sys, .exe, .dll) impedindo que programas de terceiros substituam arquivos nativos.",
-        "O XDR é uma suíte integrada de monitoramento e detecção que unifica logs de endpoints, redes e nuvens no SOC, sem relação com compilação física de memória."
-      ]
+      "w": ["O DEP marca certas regiões da memória RAM (como a pilha/stack e heap) como não executáveis, impedindo que dados injetados executem códigos de forma hostil.", "O WFP monitora modificações em arquivos de sistema críticos do Windows (.sys, .exe, .dll) impedindo que programas de terceiros substituam arquivos nativos.", "O XDR é uma suíte integrada de monitoramento e detecção que unifica logs de endpoints, redes e nuvens no SOC, sem relação com compilação física de memória."]
+    },
+    {
+      "t": "SQL Injection / Web Application Security",
+      "q": "Um analista revisa logs de um WAF e encontra a seguinte string em uma requisição GET: `GET /users?id=1' OR '1'='1`. Qual tipo de ataque essa string caracteriza e qual o impacto esperado se bem-sucedido?",
+      "opts": ["XSS Refletido — execução de script no navegador do usuário", "SQL Injection (SQLi) — pode expor, modificar ou deletar dados do banco de dados", "SSRF — força o servidor a acessar recursos internos", "Path Traversal — acessa arquivos fora do diretório raiz da aplicação"],
+      "ans": 1,
+      "exp": "A string `' OR '1'='1` é uma assinatura clássica de SQL Injection que manipula a lógica da query SQL para retornar todos os registros, podendo expor, alterar ou destruir dados do banco de dados.",
+      "w": ["XSS Refletido injeta código JavaScript em parâmetros que são refletidos no HTML da resposta — a string `OR '1'='1` é sintaxe SQL, não JavaScript.", "SSRF manipula o servidor para fazer requisições HTTP internas; a string em questão é direcionada ao banco de dados, não a requisições de rede do servidor.", "Path Traversal usa sequências como `../../../etc/passwd` para navegar em diretórios do sistema de arquivos, não opera na camada de banco de dados SQL."]
+    },
+    {
+      "t": "Network Traffic Analysis / C2 Beaconing",
+      "q": "Um analista do SOC observa no SIEM um padrão de conexões de saída de um host interno para um IP externo desconhecido, com intervalos quase idênticos de exatamente 60 segundos, transmitindo pequenos volumes de dados cifrados. Qual técnica de ataque esse comportamento sugere?",
+      "opts": ["Varredura de portas (Port Scanning) externa para reconhecimento", "Comunicação de Comando e Controle (C2) via beaconing periódico de malware", "Exfiltração de dados em massa via FTP não cifrado", "Ataque de força bruta contra serviço SSH exposto"],
+      "ans": 1,
+      "exp": "Beaconing de C2 é a técnica onde um malware implantado realiza conexões periódicas e regulares ao servidor de comando e controle do atacante para receber ordens e exfiltrar dados, frequentemente com intervalos precisos para parecer tráfego legítimo.",
+      "w": ["Varredura de portas gera múltiplas conexões rápidas para diferentes portas/hosts em sequência — não um padrão repetitivo e regular para o mesmo destino.", "Exfiltração em massa normalmente gera volumes de dados significativos em um curto período, não os pequenos pacotes periódicos característicos do beaconing.", "Ataques de força bruta contra SSH geram múltiplas tentativas de autenticação fracassadas nos logs do serviço de destino, não conexões periódicas de saída com dados cifrados."]
+    },
+    {
+      "t": "Vulnerability Management / Zero-Day",
+      "q": "Um fabricante de software lança um comunicado de segurança urgente informando que descobriu ativamente que uma vulnerabilidade em seu produto está sendo explorada em ataques reais, mas ainda não existe patch disponível. Como essa situação é classificada tecnicamente?",
+      "opts": ["CVE com CVSS score baixo — pois não há prova de comprometimento em larga escala", "Vulnerabilidade Zero-Day — explorada ativamente antes de qualquer patch oficial disponível", "Falso Positivo — pois o fabricante ainda não confirmou tecnicamente a falha", "Vulnerabilidade de Dia 1 — pois o patch será lançado no dia seguinte ao comunicado"],
+      "ans": 1,
+      "exp": "Uma vulnerabilidade Zero-Day é explorada ativamente por atacantes antes que o fabricante tenha tido tempo de desenvolver e distribuir uma correção oficial, representando o mais alto nível de risco imediato.",
+      "w": ["O score CVSS não determina se é Zero-Day; vulnerabilidades Zero-Day frequentemente recebem scores muito altos (8-10) pela gravidade e pelo fato de não haver remediação disponível.", "Falso Positivo ocorre quando uma ferramenta alerta sobre algo inexistente; aqui o fabricante confirmou e está alertando sobre a exploração ativa — é real.", "Não existe a classificação 'Vulnerabilidade de Dia 1'; o termo Zero-Day refere-se ao fato de que o fornecedor tem 'zero dias' para responder pois já está sendo explorada."]
     }
   ]
 }
