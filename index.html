@@ -18,15 +18,26 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
 .domain-header h2 { font-size: 22px; font-weight: 700; }
 .domain-header p { color: var(--muted); font-size: 14px; margin-top: 4px; }
 .objective { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 24px; overflow: hidden; }
-.obj-title { display: flex; align-items: center; gap: 12px; padding: 14px 18px; background: var(--surface2); border-bottom: 1px solid var(--border); }
+
+/* Estilo atualizado do título do objetivo para funcionar como gatilho do Toggle */
+.obj-title { display: flex; align-items: center; gap: 12px; padding: 14px 18px; background: var(--surface2); border-bottom: 1px solid var(--border); cursor: pointer; user-select: none; transition: background 0.2s ease; }
+.obj-title:hover { background: #212c3d; }
 .obj-num { font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 600; color: var(--accent); background: rgba(88,166,255,.1); border: 1px solid rgba(88,166,255,.2); padding: 2px 8px; border-radius: 4px; }
-.obj-title h3 { font-size: 15px; font-weight: 600; }
+.obj-title h3 { font-size: 15px; font-weight: 600; flex: 1; }
+
+/* Seta indicativa de expandir/colapsar */
+.toggle-icon { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--muted); transition: transform 0.2s ease; margin-left: 10px; }
+.objective.collapsed .toggle-icon { transform: rotate(-90deg); }
+.objective.collapsed .obj-body { display: none; }
+
 .obj-body { padding: 18px; }
 .section-label { font-family: 'IBM Plex Mono', monospace; font-size: 11px; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; padding-bottom: 4px; border-bottom: 1px solid var(--border); }
 
 /* Explanation block */
 .explanation { margin-bottom: 18px; }
-.explanation p { margin-bottom: 8px; color: #e6edf3; font-size: 14.5px; }
+.explanation p { margin-bottom: 12px; color: #e6edf3; font-size: 14.5px; }
+.explanation ul { margin: 8px 0 16px 20px; color: #cbd5e1; font-size: 14px; }
+.explanation li { margin-bottom: 6px; }
 
 /* Topics list */
 .topics-covered { margin: 12px 0 18px; }
@@ -45,11 +56,11 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
 /* Key concepts */
 .key-concepts { margin-bottom: 18px; }
 .key-concepts-title { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; color: #ab7fff; letter-spacing: .05em; margin-bottom: 8px; }
-.concept-block { background: rgba(171,127,255,0.05); border-left: 2px solid rgba(171,127,255,0.3); padding: 8px 12px; margin-bottom: 6px; border-radius: 0 4px 4px 0; }
-.concept-block .concept-name { font-size: 13px; font-weight: 600; color: #c4b5fd; margin-bottom: 2px; }
-.concept-block .concept-desc { font-size: 13px; color: #94a3b8; }
+.concept-block { background: rgba(171,127,255,0.05); border-left: 2px solid rgba(171,127,255,0.3); padding: 8px 12px; margin-bottom: 8px; border-radius: 0 4px 4px 0; }
+.concept-block .concept-name { font-size: 13px; font-weight: 600; color: #c4b5fd; margin-bottom: 4px; }
+.concept-block .concept-desc { font-size: 13px; color: #94a3b8; line-height: 1.5; }
 
-/* Score / Questions (unchanged) */
+/* Score / Questions */
 .score-bar { background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 14px; margin-bottom: 16px; display: flex; align-items: center; gap: 14px; font-size: 13px; }
 .score-display { font-family: 'IBM Plex Mono', monospace; font-size: 18px; font-weight: 700; white-space: nowrap; }
 .score-display span { font-size: 12px; color: var(--muted); font-weight: 400; }
@@ -77,7 +88,7 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
 .analysis-block { margin-top: 10px; border-top: 1px dashed var(--border); padding-top: 10px; font-size: 13px; }
 .analysis-title { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--warn); text-transform: uppercase; margin-bottom: 6px; }
 .analysis-item { margin-bottom: 4px; color: #cbd5e1; }
-.analysis-item strong { color: #fff; }
+.analysis-item Triangle { color: #fff; }
 </style>
 </head>
 <body>
@@ -86,23 +97,24 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
 </header>
 <div class="wrapper">
 
-<!-- ═══════════════════════════════════════════════════════
-     DOMAIN 1 — Security Operations
-     ═══════════════════════════════════════════════════════ -->
 <div class="domain-header">
   <div class="domain-eyebrow">Domain 1 • 33%</div>
   <h2>Security Operations (SecOps)</h2>
   <p>Monitorização contínua, inteligência de ameaças (CTI) e arquitetura defensiva.</p>
 </div>
 
-<!-- ─── Objetivo 1.1 ─── -->
-<div class="objective">
-  <div class="obj-title"><span class="obj-num">1.1</span><h3>System and Network Architecture Concepts for Security Operations</h3></div>
+<div class="objective" id="obj-1-1">
+  <div class="obj-title" onclick="toggleObjective('obj-1-1')">
+    <span class="obj-num">1.1</span>
+    <h3>System and Network Architecture Concepts for Security Operations</h3>
+    <span class="toggle-icon">▼</span>
+  </div>
   <div class="obj-body">
 
     <div class="section explanation">
       <div class="section-label">Visão Geral</div>
       <p>A engenharia defensiva moderna exige visibilidade ponta a ponta estruturada sobre pilares de <strong>Zero Trust Architecture (ZTA)</strong>, separação lógica de ambientes e ecossistemas convergentes como <strong>SASE</strong>. Diferente do modelo perimetral clássico ("castelo e fosso"), onde tudo dentro da rede é confiável, o Zero Trust pressupõe que nenhuma entidade — interna ou externa — é confiável por padrão. Cada acesso a qualquer recurso deve ser continuamente autenticado, autorizado e auditado.</p>
+      <p><strong>Exemplo Prático:</strong> Em vez de permitir que um funcionário na VPN acesse todo o segmento de servidores corporativos, o modelo ZTA valida a postura de segurança do laptop dele (antivírus ativo, patch do SO em dia), exige MFA via Token e concede acesso estritamente ao microsserviço de destino por meio de um proxy reverso seguro.</p>
       <p>Paralelamente, arquiteturas de nuvem híbrida e multi-cloud exigem que analistas dominem o modelo de responsabilidade compartilhada, segmentação de rede, controles de identidade granulares e protocolos de borda como <strong>SD-WAN</strong> integrados a serviços de segurança.</p>
     </div>
 
@@ -135,6 +147,8 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
         <div class="glossary-item"><span class="abbr">ZTNA</span> — <span class="full">Zero Trust Network Access: substituto moderno da VPN tradicional que concede acesso apenas ao recurso específico solicitado, jamais à rede inteira.</span></div>
         <div class="glossary-item"><span class="abbr">IAM</span> — <span class="full">Identity and Access Management: conjunto de processos e tecnologias para gerenciar identidades digitais e controlar quem acessa o quê.</span></div>
         <div class="glossary-item"><span class="abbr">PAM</span> — <span class="full">Privileged Access Management: solução focada em cofres de senhas, rotação automática de credenciais e gravação de sessões de contas administrativas.</span></div>
+        <div class="glossary-item"><span class="abbr">DLP</span> — <span class="full">Data Loss Prevention: Tecnologias projetadas para detectar e prevenir o vazamento ou exfiltração não autorizada de dados confidenciais em repouso, trânsito ou uso.</span></div>
+        <div class="glossary-item"><span class="abbr">C2 / C&C</span> — <span class="full">Command and Control: Infraestrutura centralizada (servidores e canais) estabelecida por atacantes para enviar ordens remotas e controlar hosts infectados.</span></div>
         <div class="glossary-item"><span class="abbr">IdP</span> — <span class="full">Identity Provider: serviço que autentica usuários e emite tokens/assertions de identidade (ex: Okta, Azure AD, Keycloak).</span></div>
         <div class="glossary-item"><span class="abbr">SSO</span> — <span class="full">Single Sign-On: mecanismo que permite ao usuário autenticar-se uma única vez para acessar múltiplos sistemas sem re-autenticar.</span></div>
         <div class="glossary-item"><span class="abbr">MFA</span> — <span class="full">Multi-Factor Authentication: autenticação que exige dois ou mais fatores independentes (conhecimento, posse, inerência).</span></div>
@@ -149,7 +163,7 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
       <div class="key-concepts-title">Conceitos-Chave para a Prova</div>
       <div class="concept-block">
         <div class="concept-name">ZTA: os 3 princípios fundamentais</div>
-        <div class="concept-desc">1) Nunca confiar, sempre verificar ("never trust, always verify"). 2) Acesso com privilégio mínimo (least privilege). 3) Assumir que a rede já foi comprometida (assume breach).</div>
+        <div class="concept-desc">1) Nunca confiar, sempre verificar ("never trust, always verify"). 2) Acesso com privilégio mínimo (least privilege). 3) Assumir que a rede já foi comprometida (assume breach). <br><strong>Cenário de Exemplo:</strong> Um usuário legítimo logado na rede local tentando ler um banco de dados de RH sensível precisará se reautenticar com biometria facial, pois a confiança local interna é zero por padrão.</div>
       </div>
       <div class="concept-block">
         <div class="concept-name">PDP vs PEP — diferença crítica</div>
@@ -169,20 +183,24 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
       </div>
     </div>
 
-    <div class="section-label">Mini-Simulado 1.1 (5 Questões Aleatórias)</div>
-    <div class="score-bar"><div class="score-display" id="score-obj1-1">0 <span>/ 5</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj1-1"></div></div><button class="btn-reset" onclick="resetSection('1.1')">Sortear Novas</button></div>
+    <div class="section-label">Mini-Simulado 1.1 (10 Questões Aleatórias)</div>
+    <div class="score-bar"><div class="score-display" id="score-obj1-1">0 <span>/ 10</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj1-1"></div></div><button class="btn-reset" onclick="resetSection('1.1')">Sortear Novas</button></div>
     <div id="qlist-1-1"></div>
   </div>
 </div>
 
-<!-- ─── Objetivo 1.2 ─── -->
-<div class="objective">
-  <div class="obj-title"><span class="obj-num">1.2</span><h3>Threat Intelligence in Security Operations</h3></div>
+<div class="objective" id="obj-1-2">
+  <div class="obj-title" onclick="toggleObjective('obj-1-2')">
+    <span class="obj-num">1.2</span>
+    <h3>Threat Intelligence in Security Operations</h3>
+    <span class="toggle-icon">▼</span>
+  </div>
   <div class="obj-body">
 
     <div class="section explanation">
       <div class="section-label">Visão Geral</div>
       <p>A Inteligência de Ameaças Cibernéticas (<strong>CTI — Cyber Threat Intelligence</strong>) é o processo de coleta, análise e uso de informações sobre adversários para embasar decisões defensivas. No CySA+, é essencial distinguir os três níveis de inteligência (estratégico, tático e operacional/técnico), os formatos padronizados de intercâmbio (<strong>STIX</strong> para estrutura, <strong>TAXII</strong> para transporte) e as fontes de coleta (<strong>OSINT</strong>, ISACs, feeds comerciais).</p>
+      <p><strong>Exemplo Prático:</strong> Ao receber um feed do ISAC Financeiro em formato STIX informando que um grupo APT está usando uma nova variação de ransomware, o time do SOC utiliza o TAXII para distribuir automaticamente os hashes associados (IoCs) para os sistemas de firewalls e SIEM, antecipando-se ao ataque.</p>
       <p>O ciclo clássico de CTI possui 6 fases: <strong>Direção → Coleta → Processamento → Análise → Disseminação → Feedback</strong>. Cada fase tem responsabilidades distintas que a prova frequentemente testa em cenários.</p>
     </div>
 
@@ -218,6 +236,7 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
         <div class="glossary-item"><span class="abbr">ISAC</span> — <span class="full">Information Sharing and Analysis Center: organização sem fins lucrativos que facilita o compartilhamento de CTI entre membros de um setor industrial específico.</span></div>
         <div class="glossary-item"><span class="abbr">MITRE ATT&CK</span> — <span class="full">Base de conhecimento pública que categoriza TTPs de adversários reais em matrizes por ambiente (Enterprise, Mobile, ICS), usada para mapear ameaças e gaps defensivos.</span></div>
         <div class="glossary-item"><span class="abbr">C2</span> — <span class="full">Command and Control: infraestrutura usada por atacantes para enviar comandos a malwares implantados e exfiltrar dados das vítimas.</span></div>
+        <div class="glossary-item"><span class="abbr">DLP</span> — <span class="full">Data Loss Prevention: Suite de software que monitora e impede vazamento de dados corporativos baseando-se em regras de classificação profunda.</span></div>
         <div class="glossary-item"><span class="abbr">OpenIOC</span> — <span class="full">Open Indicators of Compromise: formato XML legado para descrever IoCs, menos flexível que o STIX moderno.</span></div>
         <div class="glossary-item"><span class="abbr">CybOX</span> — <span class="full">Cyber Observable eXpression: padrão anterior para descrever observáveis de estado computacional, incorporado ao STIX 2.x.</span></div>
       </div>
@@ -235,41 +254,34 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
       </div>
       <div class="concept-block">
         <div class="concept-name">Ciclo de CTI — fases críticas</div>
-        <div class="concept-desc"><strong>Direção:</strong> definir requisitos. <strong>Coleta:</strong> logs, feeds, OSINT. <strong>Processamento:</strong> normalizar/deduplicar dados brutos. <strong>Análise:</strong> transformar em inteligência acionável. <strong>Disseminação:</strong> entregar ao consumidor certo no formato certo. <strong>Feedback:</strong> avaliar utilidade e ajustar direção.</div>
-      </div>
-      <div class="concept-block">
-        <div class="concept-name">Classificação de Atores de Ameaça</div>
-        <div class="concept-desc"><strong>APT/Estatal:</strong> alto financiamento, Zero-Days, persistência de meses/anos. <strong>Cibercriminosos:</strong> motivação financeira (ransomware, fraude). <strong>Hacktivistas:</strong> motivação ideológica (DDoS, defacement). <strong>Script Kiddies:</strong> baixa habilidade, exploits públicos. <strong>Insider Malicioso:</strong> acesso legítimo, difícil detecção.</div>
-      </div>
-      <div class="concept-block">
-        <div class="concept-name">Threat Hunting vs Threat Intelligence</div>
-        <div class="concept-desc">CTI é reativa/proativa — processa informações sobre ameaças conhecidas. Threat Hunting é proativamente humana — analistas buscam ativamente evidências de comprometimento que ferramentas automatizadas não detectaram, geralmente usando hipóteses baseadas em TTPs.</div>
+        <div class="concept-desc"><strong>Direção:</strong> definir requisitos. <strong>Coleta:</strong> logs, feeds, OSINT. <strong>Processamento:</strong> normalizar/deduplicar dados brutos. <strong>Análise:</strong> transformar em inteligência acionável. <strong>Disseminação:</strong> entregar ao consumidor certo no formato certo. <strong>Feedback:</strong> avaliar utilidade e ajustar direção. <br><strong>Exemplo prático:</strong> No feedback, o CISO indica que os relatórios técnicos continham muitos IPs obsoletos, instruindo o time de CTI a encurtar o tempo de retenção dessas listas na fase de Direção do próximo ciclo.</div>
       </div>
     </div>
 
-    <div class="section-label">Mini-Simulado 1.2 (5 Questões Aleatórias)</div>
-    <div class="score-bar"><div class="score-display" id="score-obj1-2">0 <span>/ 5</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj1-2"></div></div><button class="btn-reset" onclick="resetSection('1.2')">Sortear Novas</button></div>
+    <div class="section-label">Mini-Simulado 1.2 (10 Questões Aleatórias)</div>
+    <div class="score-bar"><div class="score-display" id="score-obj1-2">0 <span>/ 10</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj1-2"></div></div><button class="btn-reset" onclick="resetSection('1.2')">Sortear Novas</button></div>
     <div id="qlist-1-2"></div>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════
-     DOMAIN 2 — Vulnerability Management
-     ═══════════════════════════════════════════════════════ -->
 <div class="domain-header" style="border-left-color: var(--warn);">
   <div class="domain-eyebrow" style="color: var(--warn);">Domain 2 • 30%</div>
   <h2>Vulnerability Management</h2>
   <p>Análise técnica de vulnerabilidades, arquitetura de escaneamentos e métricas de severidade CVSS.</p>
 </div>
 
-<!-- ─── Objetivo 2.1 ─── -->
-<div class="objective">
-  <div class="obj-title"><span class="obj-num">2.1</span><h3>Vulnerability Assessment, Analysis and Remediation</h3></div>
+<div class="objective" id="obj-2-1">
+  <div class="obj-title" onclick="toggleObjective('obj-2-1')">
+    <span class="obj-num">2.1</span>
+    <h3>Vulnerability Assessment, Analysis and Remediation</h3>
+    <span class="toggle-icon">▼</span>
+  </div>
   <div class="obj-body">
 
     <div class="section explanation">
       <div class="section-label">Visão Geral</div>
       <p>O gerenciamento de vulnerabilidades é um processo cíclico contínuo — não um evento único. Envolve <strong>descoberta</strong> (inventário de ativos), <strong>escaneamento</strong> (credenciado vs não credenciado), <strong>priorização</strong> (via CVSS + contexto de negócio), <strong>remediação ou mitigação</strong> e <strong>verificação</strong>.</p>
+      <p><strong>Exemplo Prático:</strong> Descobriu-se uma vulnerabilidade de RCE crítica (Log4j) em um servidor web Apache interno que não está exposto diretamente à internet. A remediação padrão (atualização de patch) demorará uma semana por causa das janelas de homologação do sistema. Como controle compensatório tático, o analista configura regras específicas no WAF para filtrar strings maliciosas de entrada imediatamente.</p>
       <p>O <strong>CVSS v3</strong> (Common Vulnerability Scoring System) usa três grupos de métricas: <strong>Base</strong> (características intrínsecas da falha, imutáveis), <strong>Temporal</strong> (muda conforme disponibilidade de exploit ou patch) e <strong>Ambiental</strong> (customiza o score pelo contexto do ambiente local). Entender cada parâmetro do vetor CVSS é frequentemente testado na prova.</p>
     </div>
 
@@ -295,6 +307,7 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
         <div class="glossary-item"><span class="abbr">CVSS</span> — <span class="full">Common Vulnerability Scoring System: sistema padronizado de pontuação de severidade de vulnerabilidades, mantido pelo FIRST. Versão atual: v3.1.</span></div>
         <div class="glossary-item"><span class="abbr">CVE</span> — <span class="full">Common Vulnerabilities and Exposures: banco de dados público de vulnerabilidades identificadas, mantido pela MITRE com suporte do governo americano (NVD/NIST).</span></div>
         <div class="glossary-item"><span class="abbr">NVD</span> — <span class="full">National Vulnerability Database: banco de dados do NIST que enriquece as entradas CVE com scores CVSS, referências e informações adicionais.</span></div>
+        <div class="glossary-item"><span class="abbr">EDR</span> — <span class="full">Endpoint Detection and Response: Solução de segurança que atua nos hosts monitorando processos, modificações de arquivos, conexões de rede e permitindo respostas ativas (como isolamento) através de agentes.</span></div>
         <div class="glossary-item"><span class="abbr">AV</span> — <span class="full">Attack Vector (CVSS): como o atacante acessa o alvo. Valores: N=Network, A=Adjacent, L=Local, P=Physical.</span></div>
         <div class="glossary-item"><span class="abbr">UI</span> — <span class="full">User Interaction (CVSS): UI:N = nenhuma ação do usuário necessária; UI:R = requer ação do usuário (clicar em link, abrir arquivo).</span></div>
         <div class="glossary-item"><span class="abbr">AC</span> — <span class="full">Attack Complexity (CVSS): AC:L = baixa complexidade (exploração confiável); AC:H = alta complexidade (exige condições específicas).</span></div>
@@ -316,45 +329,34 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
       </div>
       <div class="concept-block">
         <div class="concept-name">As 4 respostas a uma vulnerabilidade</div>
-        <div class="concept-desc"><strong>Remediation:</strong> elimina a vulnerabilidade (aplica patch). <strong>Mitigation:</strong> reduz impacto/probabilidade sem corrigir (WAF, regras de firewall). <strong>Acceptance:</strong> documenta e aceita o risco conscientemente. <strong>Transference:</strong> repassa o risco financeiro (seguro cibernético, terceirização).</div>
-      </div>
-      <div class="concept-block">
-        <div class="concept-name">Falso Positivo vs Falso Negativo — impacto diferente</div>
-        <div class="concept-desc"><strong>Falso Positivo:</strong> scanner alerta vulnerabilidade que não existe → desperdício de recursos. <strong>Falso Negativo:</strong> scanner não detecta vulnerabilidade real → risco oculto, mais perigoso para a organização.</div>
-      </div>
-      <div class="concept-block">
-        <div class="concept-name">CVSS ≠ prioridade absoluta</div>
-        <div class="concept-desc">Score CVSS alto não significa prioridade máxima automaticamente. Fatores como criticidade do ativo, presença de exploit ativo (EPSS), exposição à internet e controles compensatórios já existentes devem ajustar a priorização real.</div>
-      </div>
-      <div class="concept-block">
-        <div class="concept-name">Métricas Temporais — o que muda com o tempo</div>
-        <div class="concept-desc">Quando um exploit público é lançado no Metasploit, o score temporal sobe. Quando o fabricante lança um patch oficial, o RL muda de "Unavailable" para "Official Fix", reduzindo o score temporal.</div>
+        <div class="concept-desc"><strong>Remediation:</strong> elimina a vulnerabilidade (aplica patch). <strong>Mitigation:</strong> reduz impacto/probabilidade sem corrigir (WAF, regras de firewall). <strong>Acceptance:</strong> documenta e aceita o risco conscientemente. <strong>Transference:</strong> repassa o risco financeiro (seguro cibernético, terceirização). <br><strong>Cenário de Exemplo:</strong> Um servidor legado roda um sistema crítico que quebra se atualizado. Como o custo de reescrever o software é de $500k e a perda provável é de $10k, a gerência assina uma declaração formal de aceitação do risco (Risk Acceptance).</div>
       </div>
     </div>
 
-    <div class="section-label">Mini-Simulado 2.1 (5 Questões Aleatórias)</div>
-    <div class="score-bar"><div class="score-display" id="score-obj2-1">0 <span>/ 5</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj2-1"></div></div><button class="btn-reset" onclick="resetSection('2.1')">Sortear Novas</button></div>
+    <div class="section-label">Mini-Simulado 2.1 (10 Questões Aleatórias)</div>
+    <div class="score-bar"><div class="score-display" id="score-obj2-1">0 <span>/ 10</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj2-1"></div></div><button class="btn-reset" onclick="resetSection('2.1')">Sortear Novas</button></div>
     <div id="qlist-2-1"></div>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════
-     DOMAIN 3 — Incident Response
-     ═══════════════════════════════════════════════════════ -->
 <div class="domain-header" style="border-left-color: var(--accent2);">
   <div class="domain-eyebrow" style="color: var(--accent2);">Domain 3 • 22%</div>
   <h2>Incident Response</h2>
   <p>Ciclo de vida do tratamento de incidentes (NIST SP 800-61), isolamento, contenção tática e computação forense.</p>
 </div>
 
-<!-- ─── Objetivo 3.1 ─── -->
-<div class="objective">
-  <div class="obj-title"><span class="obj-num">3.1</span><h3>Incident Response Activities and Digital Forensics</h3></div>
+<div class="objective" id="obj-3-1">
+  <div class="obj-title" onclick="toggleObjective('obj-3-1')">
+    <span class="obj-num">3.1</span>
+    <h3>Incident Response Activities and Digital Forensics</h3>
+    <span class="toggle-icon">▼</span>
+  </div>
   <div class="obj-body">
 
     <div class="section explanation">
       <div class="section-label">Visão Geral</div>
       <p>O processo de resposta a incidentes define como uma organização detecta, contém, erradica e se recupera de eventos de segurança. O framework referência do CySA+ é o <strong>NIST SP 800-61 Rev. 2</strong>, que estrutura o ciclo em 4 fases principais: <strong>Preparation → Detection & Analysis → Containment, Eradication & Recovery → Post-Incident Activity</strong>.</p>
+      <p><strong>Exemplo Prático:</strong> Um alerta do EDR reporta comandos maliciosos executados via PowerShell (Tactic: Execution) em uma máquina de produção. O analista de plantão executa um playbook automatizado usando SOAR para isolar o host da rede IP (Containment) imediatamente antes que o comprometimento vire um vazamento massivo de dados.</p>
       <p>A computação forense digital complementa a IR ao fornecer metodologias para coleta e preservação de evidências com integridade legal. A <strong>Ordem de Volatilidade</strong> (RFC 3227) e a <strong>Cadeia de Custódia</strong> são conceitos absolutamente fundamentais e recorrentes no exame.</p>
     </div>
 
@@ -381,13 +383,14 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
         <div class="glossary-item"><span class="abbr">CSIRT</span> — <span class="full">Computer Security Incident Response Team: equipe especializada responsável por coordenar a resposta a incidentes de segurança na organização.</span></div>
         <div class="glossary-item"><span class="abbr">SOC</span> — <span class="full">Security Operations Center: centro operacional que monitora, detecta e responde a ameaças em tempo real, geralmente 24/7.</span></div>
         <div class="glossary-item"><span class="abbr">SOAR</span> — <span class="full">Security Orchestration, Automation and Response: plataforma que automatiza workflows de resposta a incidentes integrando múltiplas ferramentas de segurança via playbooks.</span></div>
-        <div class="glossary-item"><span class="abbr">IoC</span> — <span class="full">Indicator of Compromise: artefato observável que indica que um sistema foi comprometido (hash, IP, chave de registro, arquivo suspeito).</span></div>
+        <div class="glossary-item"><span class="abbr">EDR</span> — <span class="full">Endpoint Detection and Response: agente instalado em endpoints que registra atividades, detecta comportamentos maliciosos e permite resposta remota (isolamento, kill process).</span></div>
+        <div class="glossary-item"><span class="abbr">C2 / C&C</span> — <span class="full">Command and Control: Canais externos controlados por atacantes para orquestrar invasões. O bloqueio em proxy impede comunicações do malware instalado.</span></div>
+        <div class="glossary-item"><span class="abbr">DLP</span> — <span class="full">Data Loss Prevention: Mecanismo focado na borda e nos endpoints que inspeciona e previne que cartões de crédito ou dados pessoais saiam em texto claro.</span></div>
         <div class="glossary-item"><span class="abbr">RCA</span> — <span class="full">Root Cause Analysis: análise da causa raiz conduzida na fase Pós-Incidente para identificar o vetor de ataque original e evitar recorrências.</span></div>
         <div class="glossary-item"><span class="abbr">RFC 3227</span> — <span class="full">Guidelines for Evidence Collection and Archiving: documento que define a ordem de volatilidade para coleta forense e boas práticas de preservação de evidências.</span></div>
         <div class="glossary-item"><span class="abbr">SLA</span> — <span class="full">Service Level Agreement: contrato que define métricas de desempenho mínimas acordadas entre partes (ex: tempo máximo de resposta a um incidente crítico).</span></div>
         <div class="glossary-item"><span class="abbr">TTR</span> — <span class="full">Time to Respond: métrica que mede o tempo desde a detecção de um incidente até o início da ação de contenção.</span></div>
         <div class="glossary-item"><span class="abbr">MTTR</span> — <span class="full">Mean Time to Remediate/Recover: tempo médio para restaurar o serviço à normalidade após um incidente confirmado.</span></div>
-        <div class="glossary-item"><span class="abbr">EDR</span> — <span class="full">Endpoint Detection and Response: agente instalado em endpoints que registra atividades, detecta comportamentos maliciosos e permite resposta remota (isolamento, kill process).</span></div>
         <div class="glossary-item"><span class="abbr">XDR</span> — <span class="full">Extended Detection and Response: evolução do EDR que correlaciona telemetria de endpoints, rede, e-mail e nuvem em uma plataforma unificada de detecção.</span></div>
       </div>
     </div>
@@ -402,43 +405,32 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
         <div class="concept-name">Cadeia de Custódia (Chain of Custody)</div>
         <div class="concept-desc">Documento que registra: quem coletou a evidência, quando, onde, como foi armazenada e quem teve acesso a ela. Garante admissibilidade legal. Qualquer lacuna pode invalidar a evidência em tribunal.</div>
       </div>
-      <div class="concept-block">
-        <div class="concept-name">Integridade forense — hash SHA-256</div>
-        <div class="concept-desc">Calcular o hash da imagem forense imediatamente após a cópia e novamente antes da análise. Se os hashes coincidirem, a integridade está comprovada — nenhum bit foi alterado.</div>
-      </div>
-      <div class="concept-block">
-        <div class="concept-name">Contenção: por que não desligar imediatamente?</div>
-        <div class="concept-desc">Desligar o sistema destrói evidências na RAM (processos, conexões, chaves de criptografia do ransomware em memória). A contenção correta é isolar logicamente da rede (quarentena de VLAN) preservando o estado do sistema para análise forense.</div>
-      </div>
-      <div class="concept-block">
-        <div class="concept-name">Fases do NIST SP 800-61 — atribuição correta de atividades</div>
-        <div class="concept-desc"><strong>Preparation:</strong> criar playbooks, treinar equipe, configurar ferramentas. <strong>Detection & Analysis:</strong> correlacionar alertas no SIEM, confirmar incidente, classificar severidade. <strong>Containment/Eradication/Recovery:</strong> isolar sistemas, remover malware, restaurar operações. <strong>Post-Incident:</strong> relatório de lições aprendidas, RCA, atualizar playbooks.</div>
-      </div>
     </div>
 
-    <div class="section-label">Mini-Simulado 3.1 (5 Questões Aleatórias)</div>
-    <div class="score-bar"><div class="score-display" id="score-obj3-1">0 <span>/ 5</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj3-1"></div></div><button class="btn-reset" onclick="resetSection('3.1')">Sortear Novas</button></div>
+    <div class="section-label">Mini-Simulado 3.1 (10 Questões Aleatórias)</div>
+    <div class="score-bar"><div class="score-display" id="score-obj3-1">0 <span>/ 10</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj3-1"></div></div><button class="btn-reset" onclick="resetSection('3.1')">Sortear Novas</button></div>
     <div id="qlist-3-1"></div>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════
-     DOMAIN 4 — Governance and Compliance
-     ═══════════════════════════════════════════════════════ -->
 <div class="domain-header" style="border-left-color: #ab7fff;">
   <div class="domain-eyebrow" style="color: #ab7fff;">Domain 4 • 15%</div>
   <h2>Governance and Compliance</h2>
   <p>Frameworks regulatórios globais, gerenciamento de riscos quantitativos e leis de privacidade de dados.</p>
 </div>
 
-<!-- ─── Objetivo 4.1 ─── -->
-<div class="objective">
-  <div class="obj-title"><span class="obj-num">4.1</span><h3>Compliance Frameworks, Risk Metrics and Data Privacy</h3></div>
+<div class="objective" id="obj-4-1">
+  <div class="obj-title" onclick="toggleObjective('obj-4-1')">
+    <span class="obj-num">4.1</span>
+    <h3>Compliance Frameworks, Risk Metrics and Data Privacy</h3>
+    <span class="toggle-icon">▼</span>
+  </div>
   <div class="obj-body">
 
     <div class="section explanation">
       <div class="section-label">Visão Geral</div>
       <p>Governança, Risco e Conformidade (<strong>GRC</strong>) formam a espinha dorsal da segurança corporativa estratégica. O CySA+ exige que o analista reconheça as principais regulações setoriais (HIPAA, PCI DSS, SOX, FISMA, GDPR, CCPA), suas aplicabilidades e penalidades, além de dominar a matemática de risco quantitativo.</p>
+      <p><strong>Exemplo Prático de Risco:</strong> Se um data center está localizado em uma zona suscetível a alagamentos, e o custo de reparação total de uma inundação severa for estimado em $200.000 ($SLE$), com uma taxa histórica desse evento acontecendo uma vez a cada 5 anos ($ARO = 0.2$), o prejuízo financeiro anualizado planejado para a empresa ($ALE$) será exatamente de $200.000 \times 0.2 = \$40.000$ por ano.</p>
       <p>As fórmulas de risco — <strong>SLE × ARO = ALE</strong> — são frequentemente cobradas em questões de cálculo direto. Além disso, é fundamental distinguir os diferentes tipos de controles (preventivo, detective, corretivo, compensatório) e as categorias de dados protegidos (<strong>PII, PHI, CHD, PAN</strong>).</p>
     </div>
 
@@ -466,6 +458,9 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
         <div class="glossary-item"><span class="abbr">ARO</span> — <span class="full">Annual Rate of Occurrence: frequência estimada com que um evento de risco específico ocorre em um período de um ano (ex: ARO=0.5 = uma vez a cada 2 anos).</span></div>
         <div class="glossary-item"><span class="abbr">ALE</span> — <span class="full">Annual Loss Expectancy: perda financeira anual esperada decorrente de um risco. Fórmula: ALE = SLE × ARO.</span></div>
         <div class="glossary-item"><span class="abbr">EF</span> — <span class="full">Exposure Factor: percentual do valor do ativo que seria perdido em uma única ocorrência do evento de risco (0% a 100%).</span></div>
+        <div class="glossary-item"><span class="abbr">EDR</span> — <span class="full">Endpoint Detection and Response: Software focado nos servidores finais e estações de trabalho para auditar comportamentos suspeitos em conformidade com as leis.</span></div>
+        <div class="glossary-item"><span class="abbr">DLP</span> — <span class="full">Data Loss Prevention: Sistema crítico exigido por regulações para monitorar exfiltração não autorizada de dados PII e dados de cartões.</span></div>
+        <div class="glossary-item"><span class="abbr">C2</span> — <span class="full">Command and Control: Conexão remota externa usada por atacantes para burlar regras de GRC e escoar dados para fora do ambiente controlado.</span></div>
         <div class="glossary-item"><span class="abbr">HIPAA</span> — <span class="full">Health Insurance Portability and Accountability Act: lei federal americana que protege dados de saúde (PHI) de pacientes e exige controles administrativos, físicos e técnicos.</span></div>
         <div class="glossary-item"><span class="abbr">PHI</span> — <span class="full">Protected Health Information: qualquer informação de saúde individualmente identificável protegida pela HIPAA (diagnósticos, histórico médico, dados de seguro).</span></div>
         <div class="glossary-item"><span class="abbr">PCI DSS</span> — <span class="full">Payment Card Industry Data Security Standard: padrão privado de 12 requisitos técnicos para proteger dados de portadores de cartão de pagamento.</span></div>
@@ -494,53 +489,41 @@ header span { color: var(--muted); font-size: 13px; font-family: 'IBM Plex Mono'
         </div>
       </div>
       <div class="concept-block">
-        <div class="concept-name">Regulações por setor — mapa rápido</div>
-        <div class="concept-desc">
-          <strong>Saúde (EUA):</strong> HIPAA → PHI. 
-          <strong>Cartões de pagamento (global):</strong> PCI DSS → CHD/PAN. 
-          <strong>Financeiro público (EUA):</strong> SOX → relatórios financeiros. 
-          <strong>Financeiro privado (EUA):</strong> GLBA → dados de clientes bancários. 
-          <strong>Federal EUA:</strong> FISMA → NIST SP 800-53. 
-          <strong>UE / global:</strong> GDPR → PII de residentes europeus. 
-          <strong>Califórnia:</strong> CCPA. 
-          <strong>Crianças online (EUA):</strong> COPPA.
-        </div>
-      </div>
-      <div class="concept-block">
         <div class="concept-name">GDPR — extraterritorialidade</div>
         <div class="concept-desc">Uma empresa brasileira, americana ou asiática que colete dados de residentes da UE está sujeita ao GDPR — independentemente de onde a empresa está sediada. Penalidade máxima: €20 milhões ou 4% do faturamento global anual (o que for maior).</div>
       </div>
-      <div class="concept-block">
-        <div class="concept-name">Tipos de controles de segurança</div>
-        <div class="concept-desc"><strong>Preventivo:</strong> impede o incidente (firewall, MFA). <strong>Detective:</strong> detecta durante ou após (IDS, SIEM, logs). <strong>Corretivo:</strong> restaura após o incidente (backup, patch). <strong>Compensatório:</strong> controle alternativo quando o controle principal não pode ser aplicado (WAF no lugar de patch).</div>
-      </div>
-      <div class="concept-block">
-        <div class="concept-name">PCI DSS — os 12 requisitos (visão geral)</div>
-        <div class="concept-desc">1) Instalar firewall. 2) Não usar padrões do fornecedor. 3) Proteger CHD armazenado. 4) Criptografar transmissão do PAN. 5) Usar antivírus. 6) Desenvolver sistemas seguros. 7) Restringir acesso ao CHD por necessidade. 8) Identificar e autenticar acesso. 9) Restringir acesso físico. 10) Monitorar acesso à rede e CHD. 11) Testar regularmente sistemas. 12) Manter política de segurança da informação.</div>
-      </div>
     </div>
 
-    <div class="section-label">Mini-Simulado 4.1 (5 Questões Aleatórias)</div>
-    <div class="score-bar"><div class="score-display" id="score-obj4-1">0 <span>/ 5</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj4-1"></div></div><button class="btn-reset" onclick="resetSection('4.1')">Sortear Novas</button></div>
+    <div class="section-label">Mini-Simulado 4.1 (10 Questões Aleatórias)</div>
+    <div class="score-bar"><div class="score-display" id="score-obj4-1">0 <span>/ 10</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-obj4-1"></div></div><button class="btn-reset" onclick="resetSection('4.1')">Sortear Novas</button></div>
     <div id="qlist-4-1"></div>
   </div>
 </div>
 
-<!-- ─── Simulado Geral ─── -->
-<div class="objective">
-  <div class="obj-title" style="background: #131a24; border-bottom: 2px solid var(--accent2);"><span class="obj-num" style="color: var(--accent2); background: rgba(63,185,80,.1);">FINAL</span><h3>Simulado Geral Multi-Domínio</h3></div>
+<div class="objective" id="obj-master-exam">
+  <div class="obj-title" style="background: #131a24; border-bottom: 2px solid var(--accent2);" onclick="toggleObjective('obj-master-exam')">
+    <span class="obj-num" style="color: var(--accent2); background: rgba(63,185,80,.1);">FINAL</span>
+    <h3>Simulado Geral Multi-Domínio</h3>
+    <span class="toggle-icon">▼</span>
+  </div>
   <div class="obj-body">
-    <div class="section-label">Master Exam (5 Questões Aleatórias do Banco Geral)</div>
-    <div class="score-bar"><div class="score-display" id="score-master">0 <span>/ 5</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-master"></div></div><button class="btn-reset" onclick="resetSection('master')">Gerar Novo Exame</button></div>
+    <div class="section-label">Master Exam (75 Questões Aleatórias do Banco Geral)</div>
+    <div class="score-bar"><div class="score-display" id="score-master">0 <span>/ 75</span></div><div class="progress-wrap"><div class="progress-fill" id="prog-master"></div></div><button class="btn-reset" onclick="resetSection('master')">Gerar Novo Exame</button></div>
     <div id="qlist-master"></div>
   </div>
 </div>
 
-</div><!-- /wrapper -->
-
-<script>
+</div><script>
 let masterQuestionsDb = {};
 let activeSelection = {};
+
+// Função Toggle nativa solicitada para colapsar/expandir seções
+function toggleObjective(id) {
+  const objElement = document.getElementById(id);
+  if (objElement) {
+    objElement.classList.toggle('collapsed');
+  }
+}
 
 function shuffle(array) {
   let currentIndex = array.length, randomIndex;
@@ -559,7 +542,7 @@ async function loadQuestions() {
     initAllSections();
   } catch (error) {
     console.error("Erro ao ler banco de dados de questões:", error);
-    alert("Erro ao carregar o ficheiro 'questions.json'. Certifica-te de que os ficheiros estão alojados num servidor (ou ambiente local como VS Code Live Server) para evitar restrições de CORS.");
+    alert("Erro ao carregar o ficheiro 'questions.json'. Certifica-te de que os ficheiros estão alojados num servidor para evitar restrições de CORS.");
   }
 }
 
@@ -573,7 +556,8 @@ function selectAndRenderSection(topic) {
   const allTopicQuestions = masterQuestionsDb[topic] || [];
   let cloned = JSON.parse(JSON.stringify(allTopicQuestions));
   shuffle(cloned);
-  activeSelection[topic] = cloned.slice(0, 5);
+  // Atualizado de 5 para 10 questões por tópico conforme solicitado
+  activeSelection[topic] = cloned.slice(0, 10);
   const elementId = `qlist-${topic.replace('.', '-')}`;
   const container = document.getElementById(elementId);
   if (!container) return;
@@ -588,7 +572,8 @@ function selectAndRenderMaster() {
   });
   let cloned = JSON.parse(JSON.stringify(pool));
   shuffle(cloned);
-  activeSelection['master'] = cloned.slice(0, 5);
+  // Atualizado de 5 para 75 questões aleatórias no simulado final
+  activeSelection['master'] = cloned.slice(0, 75);
   const container = document.getElementById('qlist-master');
   if (!container) return;
   renderQuestionBlock(container, activeSelection['master'], 'master');
@@ -656,7 +641,7 @@ function evaluateAnswer(el) {
 }
 
 function updateScoreUI(sec) {
-  let totalQuestions = activeSelection[sec] ? activeSelection[sec].length : 5;
+  let totalQuestions = activeSelection[sec] ? activeSelection[sec].length : (sec === 'master' ? 75 : 10);
   let answered = 0;
   let correct = 0;
   const secSafeId = sec.replace('.', '-');
