@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>BSEP Quiz</title>
+
 <style>
 body {
   font-family: Arial, sans-serif;
@@ -19,11 +20,13 @@ body {
   border-radius:12px;
 }
 h1 { text-align:center; }
+
 .word {
   font-size:26px;
   margin-bottom:10px;
   color:#38bdf8;
 }
+
 .btn {
   display:block;
   width:100%;
@@ -35,24 +38,30 @@ h1 { text-align:center; }
   border-radius:8px;
   cursor:pointer;
 }
+
 .btn:hover { background:#334155; }
+
 .feedback {
   margin-top:15px;
   font-weight:bold;
 }
+
 .progress {
   margin-bottom:10px;
 }
 </style>
 </head>
+
 <body>
 
 <div class="container">
   <h1>BSEP Word Quiz</h1>
+
   <div class="progress" id="progress"></div>
   <div class="word" id="word">Loading...</div>
   <div id="options"></div>
   <div class="feedback" id="feedback"></div>
+
   <button class="btn" onclick="nextQuestion()">Next</button>
 </div>
 
@@ -64,7 +73,13 @@ let score = 0;
 fetch("bsep_questions.json")
   .then(res => res.json())
   .then(data => {
-    questions = data;
+    // suporta formato novo: []
+    if (Array.isArray(data)) {
+      questions = data;
+    } else {
+      questions = Object.values(data).flat();
+    }
+
     loadQuestion();
   });
 
@@ -95,24 +110,28 @@ function checkAnswer(choice){
   let feedback = document.getElementById("feedback");
 
   if(choice === q.answer){
-    feedback.innerHTML = "✅ Correct!<br><br><b>Definition:</b> " + q.definition;
     score++;
+    feedback.innerHTML =
+      "✅ Correct!<br><br><b>Definition:</b> " + q.definition;
   } else {
     feedback.innerHTML =
-      "❌ Wrong!<br>Correct answer: " + q.answer +
+      "❌ Wrong!<br><b>Correct answer:</b> " + q.answer +
       "<br><br><b>Definition:</b> " + q.definition;
   }
 }
 
 function nextQuestion(){
   index++;
+
   if(index >= questions.length){
     document.getElementById("word").innerText = "Finished!";
     document.getElementById("options").innerHTML = "";
     document.getElementById("progress").innerText =
       `Score: ${score}/${questions.length}`;
+    document.getElementById("feedback").innerText = "";
     return;
   }
+
   loadQuestion();
 }
 </script>
