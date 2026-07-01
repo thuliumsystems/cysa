@@ -1,0 +1,1137 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CySA+ CS0-003 — Dynamic Master Guide</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #0d1117;
+        --surface: #161b22;
+        --surface2: #1c2330;
+        --border: #30363d;
+        --accent: #58a6ff;
+        --accent2: #3fb950;
+        --warn: #d29922;
+        --danger: #f85149;
+        --text: #f0f6fc;
+        --muted: #8b949e;
+        --radius: 8px;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 15px;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      header {
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+        padding: 18px 20px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .badge {
+        background: var(--warn);
+        color: #0d1117;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        font-weight: 700;
+        padding: 2px 8px;
+        border-radius: 4px;
+      }
+      header h1 {
+        font-size: 17px;
+        font-weight: 700;
+      }
+      header span {
+        color: var(--muted);
+        font-size: 13px;
+        font-family: "IBM Plex Mono", monospace;
+        margin-left: auto;
+      }
+      .wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px 12px 60px;
+      }
+      .domain-header {
+        border-left: 4px solid var(--accent);
+        padding-left: 16px;
+        margin: 32px 0 20px;
+      }
+      .domain-eyebrow {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .domain-header h2 {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .domain-header p {
+        color: var(--muted);
+        font-size: 14px;
+        margin-top: 4px;
+      }
+      .objective {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        margin-bottom: 24px;
+        overflow: hidden;
+      }
+      .obj-title {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 18px;
+        background: var(--surface2);
+        border-bottom: 1px solid var(--border);
+        cursor: pointer;
+        user-select: none;
+        transition: background 0.2s ease;
+      }
+      .obj-title:hover {
+        background: #212c3d;
+      }
+      .obj-num {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--accent);
+        background: rgba(88, 166, 255, 0.1);
+        border: 1px solid rgba(88, 166, 255, 0.2);
+        padding: 2px 8px;
+        border-radius: 4px;
+      }
+      .obj-title h3 {
+        font-size: 15px;
+        font-weight: 600;
+        flex: 1;
+      }
+      .toggle-icon {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 14px;
+        color: var(--muted);
+        transition: transform 0.2s ease;
+        margin-left: 10px;
+      }
+      .objective.collapsed .toggle-icon {
+        transform: rotate(-90deg);
+      }
+      .objective.collapsed .obj-body {
+        display: none;
+      }
+      .obj-body {
+        padding: 18px;
+      }
+      .section-label {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 10px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid var(--border);
+      }
+      .explanation {
+        margin-bottom: 18px;
+      }
+      .explanation p {
+        margin-bottom: 12px;
+        color: #e6edf3;
+        font-size: 14.5px;
+      }
+      .explanation ul {
+        margin: 8px 0 16px 20px;
+        color: #cbd5e1;
+        font-size: 14px;
+      }
+      .explanation li {
+        margin-bottom: 6px;
+      }
+      .topics-covered {
+        margin: 12px 0 18px;
+      }
+      .topics-covered-title {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: var(--warn);
+        letter-spacing: 0.05em;
+        margin-bottom: 8px;
+      }
+      .topic-pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .topic-pill {
+        font-size: 11.5px;
+        background: rgba(88, 166, 255, 0.07);
+        border: 1px solid rgba(88, 166, 255, 0.18);
+        color: #a5c8ff;
+        padding: 3px 9px;
+        border-radius: 20px;
+        font-family: "IBM Plex Mono", monospace;
+      }
+      .score-bar {
+        background: var(--surface2);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 10px 14px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        font-size: 13px;
+      }
+      .score-display {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 18px;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+      .score-display span {
+        font-size: 12px;
+        color: var(--muted);
+        font-weight: 400;
+      }
+      .progress-wrap {
+        flex: 1;
+        height: 6px;
+        background: var(--border);
+        border-radius: 99px;
+        overflow: hidden;
+      }
+      .progress-fill {
+        height: 100%;
+        background: var(--border);
+        transition: width 0.2s ease;
+        width: 0%;
+      }
+      .btn-reset {
+        background: transparent;
+        border: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 12px;
+        padding: 4px 10px;
+        border-radius: var(--radius);
+        cursor: pointer;
+      }
+      .btn-reset:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+      .question {
+        background: #131a24;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        margin-bottom: 16px;
+        overflow: hidden;
+      }
+      .question.correct {
+        border-color: var(--accent2);
+      }
+      .question.wrong {
+        border-color: var(--danger);
+      }
+      .q-topic-tag {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 10px;
+        background: rgba(88, 166, 255, 0.05);
+        color: var(--accent);
+        padding: 2px 6px;
+        border-radius: 4px;
+        width: fit-content;
+        margin-bottom: 8px;
+        border: 1px solid rgba(88, 166, 255, 0.1);
+      }
+      .q-stem {
+        padding: 16px 16px 12px;
+        font-size: 14.5px;
+        font-weight: 500;
+      }
+      .options {
+        padding: 0 16px 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .opt {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px 14px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        cursor: pointer;
+        font-size: 14px;
+        transition:
+          background 0.12s,
+          border-color 0.12s;
+      }
+      .opt:hover {
+        background: var(--surface2);
+        border-color: var(--accent);
+      }
+      .opt .opt-letter {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--muted);
+        min-width: 14px;
+      }
+      .opt.correct-answer {
+        border-color: var(--accent2);
+        background: rgba(63, 185, 80, 0.08);
+      }
+      .opt.wrong-answer {
+        border-color: var(--danger);
+        background: rgba(248, 81, 73, 0.06);
+      }
+      .opt.disabled {
+        cursor: default;
+        pointer-events: none;
+      }
+      .feedback {
+        padding: 14px 16px;
+        font-size: 13.5px;
+        display: none;
+        border-top: 1px solid var(--border);
+        background: #0b0e14;
+      }
+      .feedback.show {
+        display: block;
+      }
+      .feedback-status {
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+      .feedback.ok .feedback-status {
+        color: var(--accent2);
+      }
+      .feedback.err .feedback-status {
+        color: var(--danger);
+      }
+      .analysis-block {
+        margin-top: 10px;
+        border-top: 1px dashed var(--border);
+        padding-top: 10px;
+        font-size: 13px;
+      }
+      .analysis-title {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        color: var(--warn);
+        text-transform: uppercase;
+        margin-bottom: 6px;
+      }
+      .analysis-item {
+        margin-bottom: 4px;
+        color: #cbd5e1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="badge">CS0-003</div>
+      <h1>CySA+ Interactive Study</h1>
+      <span>2026</span>
+    </header>
+    <div class="wrapper">
+
+      <!-- UNIT 1 -->
+      <div class="domain-header">
+        <div class="domain-eyebrow">Unidade 1</div>
+        <h2>Vulnerability Response, Handling & Management</h2>
+        <p>Liderança em cibersegurança, governança, gestão de riscos, modelagem de ameaças, tipos de controle, patches e configuração.</p>
+      </div>
+      <div class="objective" id="obj-1">
+        <div class="obj-title" onclick="toggleObjective('obj-1')">
+          <span class="obj-num">1</span>
+          <h3>Gestão de Vulnerabilidades e Resposta</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">Liderança em Cibersegurança</span>
+              <span class="topic-pill">Políticas e Governança</span>
+              <span class="topic-pill">Gestão de Riscos</span>
+              <span class="topic-pill">Modelagem de Ameaças</span>
+              <span class="topic-pill">Tipos de Controles</span>
+              <span class="topic-pill">Gestão de Patches</span>
+              <span class="topic-pill">Gestão de Configuração</span>
+              <span class="topic-pill">Janelas de Manutenção</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Esta unidade aborda a liderança em cibersegurança, incluindo políticas de segurança, governança corporativa, princípios de gestão de riscos (risk management) e modelagem de ameaças (threat modeling). São estudados os tipos de controles de segurança — preventivos, detectivos, corretivos, compensatórios — e as categorias administrativa (managerial), técnica (technical) e física (physical). O gerenciamento de vulnerabilidades cobre o ciclo de gestão de patches (patch management), gestão de configuração (configuration management) com linhas de base (baselines) de hardening, planejamento de janelas de manutenção (maintenance windows) e redução da superfície de ataque (attack surface).</p>
+          </div>
+          <div class="section-label">Mini-Simulado 1 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-1">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-1"></div></div>
+            <button class="btn-reset" onclick="resetSection('1')">Sortear Novas</button>
+          </div>
+          <div id="qlist-1"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 2 -->
+      <div class="domain-header" style="border-left-color:var(--warn)">
+        <div class="domain-eyebrow" style="color:var(--warn)">Unidade 2</div>
+        <h2>Threat Intelligence & Threat Hunting</h2>
+        <p>Atores de ameaça, OSINT, ISACs, STIX/TAXII, MITRE ATT&CK, IoC/IoA, busca proativa de ameaças.</p>
+      </div>
+      <div class="objective" id="obj-2">
+        <div class="obj-title" onclick="toggleObjective('obj-2')">
+          <span class="obj-num">2</span>
+          <h3>Inteligência Contra Ameaças</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">Atores de Ameaça (APT)</span>
+              <span class="topic-pill">TTPs</span>
+              <span class="topic-pill">OSINT</span>
+              <span class="topic-pill">Feeds de Inteligência</span>
+              <span class="topic-pill">ISAC</span>
+              <span class="topic-pill">STIX / TAXII</span>
+              <span class="topic-pill">MITRE ATT&CK</span>
+              <span class="topic-pill">IoC / IoA</span>
+              <span class="topic-pill">Threat Hunting</span>
+              <span class="topic-pill">Honeypots / Deception</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Estudo dos atores de ameaça, incluindo grupos de APT (<em>Advanced Persistent Threat</em>) e suas TTPs (<em>Tactics, Techniques and Procedures</em>). Aborda inteligência contra ameaças com fontes abertas OSINT (<em>Open-Source Intelligence</em>), ISACs (<em>Information Sharing and Analysis Centers</em>), padrões STIX (<em>Structured Threat Information eXpression</em>) e TAXII (<em>Trusted Automated eXchange of Intelligence Information</em>), e a matriz MITRE ATT&CK (<em>Adversarial Tactics, Techniques, and Common Knowledge</em>). Inclui indicadores de compromisso IoC (<em>Indicators of Compromise</em>) e de ataque IoA (<em>Indicators of Attack</em>), busca proativa de ameaças (threat hunting), honeypots e técnicas de deception (engano) para detecção antecipada.</p>
+          </div>
+          <div class="section-label">Mini-Simulado 2 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-2">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-2"></div></div>
+            <button class="btn-reset" onclick="resetSection('2')">Sortear Novas</button>
+          </div>
+          <div id="qlist-2"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 3 -->
+      <div class="domain-header" style="border-left-color:var(--accent2)">
+        <div class="domain-eyebrow" style="color:var(--accent2)">Unidade 3</div>
+        <h2>System & Network Architecture</h2>
+        <p>S.O., virtualização, contêineres, nuvem, SDN, Zero Trust, IAM, PKI, DLP, logging.</p>
+      </div>
+      <div class="objective" id="obj-3">
+        <div class="obj-title" onclick="toggleObjective('obj-3')">
+          <span class="obj-num">3</span>
+          <h3>Arquitetura de Sistema e Rede</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">S.O. e Virtualização</span>
+              <span class="topic-pill">Contêineres / Serverless</span>
+              <span class="topic-pill">Nuvem (IaaS/PaaS/SaaS)</span>
+              <span class="topic-pill">SDN</span>
+              <span class="topic-pill">Zero Trust (ZTA)</span>
+              <span class="topic-pill">SASE / SDP / ZTNA</span>
+              <span class="topic-pill">IAM / PAM / MFA / SSO</span>
+              <span class="topic-pill">CASB / SWG</span>
+              <span class="topic-pill">PKI / Criptografia</span>
+              <span class="topic-pill">DLP / Logging</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Conceitos de arquitetura de sistemas: sistemas operacionais, virtualização, contêineres, emulação e computação serverless. Modelos de nuvem IaaS (<em>Infrastructure as a Service</em>), PaaS (<em>Platform as a Service</em>) e SaaS (<em>Software as a Service</em>). Redes definidas por software SDN (<em>Software-Defined Networking</em>) e arquitetura Zero Trust ZTA (<em>Zero Trust Architecture</em>) com SASE (<em>Secure Access Service Edge</em>), SDP (<em>Software-Defined Perimeter</em>) e ZTNA (<em>Zero Trust Network Access</em>). Gerenciamento de identidade e acesso IAM (<em>Identity and Access Management</em>), autenticação multifator MFA (<em>Multi-Factor Authentication</em>), federação de identidades e SSO (<em>Single Sign-On</em>). Corretor de segurança de acesso à nuvem CASB (<em>Cloud Access Security Broker</em>) e gateway web seguro SWG (<em>Secure Web Gateway</em>). Infraestrutura de chave pública PKI (<em>Public Key Infrastructure</em>), criptografia, prevenção de perda de dados DLP (<em>Data Loss Prevention</em>), classificação de dados e registro em log (logging).</p>
+          </div>
+          <div class="section-label">Mini-Simulado 3 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-3">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-3"></div></div>
+            <button class="btn-reset" onclick="resetSection('3')">Sortear Novas</button>
+          </div>
+          <div id="qlist-3"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 4 -->
+      <div class="domain-header" style="border-left-color:#ab7fff">
+        <div class="domain-eyebrow" style="color:#ab7fff">Unidade 4</div>
+        <h2>Process Improvement in Security Operations</h2>
+        <p>Liderança em SecOps, automação SOAR, orquestração de CTI, dashboard unificado, KPIs e melhoria contínua.</p>
+      </div>
+      <div class="objective" id="obj-4">
+        <div class="obj-title" onclick="toggleObjective('obj-4')">
+          <span class="obj-num">4</span>
+          <h3>Melhoria de Processos em SecOps</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">Liderança em SecOps</span>
+              <span class="topic-pill">SOAR / Automação</span>
+              <span class="topic-pill">Orquestração de CTI</span>
+              <span class="topic-pill">Single Pane of Glass</span>
+              <span class="topic-pill">Customização de Dashboards</span>
+              <span class="topic-pill">MTTR / TTR / MTTD</span>
+              <span class="topic-pill">KPIs de Segurança</span>
+              <span class="topic-pill">Melhoria Contínua (PDCA)</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Liderança em operações de segurança SecOps (<em>Security Operations</em>), automação com SOAR (<em>Security Orchestration, Automation and Response</em>) e orquestração de inteligência contra ameaças CTI (<em>Cyber Threat Intelligence</em>). Uso de painel único (single pane of glass) e customização de dashboards para visibilidade unificada. Indicadores-chave de desempenho KPI (<em>Key Performance Indicator</em>) operacionais: MTTR (<em>Mean Time to Respond</em>), TTR (<em>Time to Respond</em>) e MTTD (<em>Mean Time to Detect</em>). Melhoria contínua através do ciclo PDCA (<em>Plan, Do, Check, Act</em>).</p>
+          </div>
+          <div class="section-label">Mini-Simulado 4 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-4">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-4"></div></div>
+            <button class="btn-reset" onclick="resetSection('4')">Sortear Novas</button>
+          </div>
+          <div id="qlist-4"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 5 -->
+      <div class="domain-header" style="border-left-color:var(--warn)">
+        <div class="domain-eyebrow" style="color:var(--warn)">Unidade 5</div>
+        <h2>Vulnerability Scanning Methods</h2>
+        <p>Conformidade (HIPAA, PCI DSS, GDPR), OWASP, CIS, métodos de varredura, hardening, baselines, ICS/SCADA.</p>
+      </div>
+      <div class="objective" id="obj-5">
+        <div class="obj-title" onclick="toggleObjective('obj-5')">
+          <span class="obj-num">5</span>
+          <h3>Métodos de Varredura de Vulnerabilidades</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">HIPAA / PHI</span>
+              <span class="topic-pill">PCI DSS / PAN / CHD</span>
+              <span class="topic-pill">SOX / FISMA</span>
+              <span class="topic-pill">GDPR / CCPA</span>
+              <span class="topic-pill">OWASP / CIS Benchmarks</span>
+              <span class="topic-pill">Credentialed vs Non-Credentialed</span>
+              <span class="topic-pill">Escopo de Avaliação</span>
+              <span class="topic-pill">Hardening / Baselines</span>
+              <span class="topic-pill">ICS / SCADA</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Requisitos de conformidade regulatória e padrões do setor: HIPAA (<em>Health Insurance Portability and Accountability Act</em>), PCI DSS (<em>Payment Card Industry Data Security Standard</em>), SOX (<em>Sarbanes-Oxley Act</em>), FISMA (<em>Federal Information Security Management Act</em>), GDPR (<em>General Data Protection Regulation</em>) e CCPA (<em>California Consumer Privacy Act</em>). Diretrizes OWASP (<em>Open Web Application Security Project</em>) e benchmarks CIS (<em>Center for Internet Security</em>). Métodos de varredura de vulnerabilidades: autenticada (credentialed) vs não autenticada (non-credentialed), escopo de avaliação, hardening de dispositivos, linhas de base (baselines) de configuração e considerações especiais para ambientes ICS (<em>Industrial Control Systems</em>) e SCADA (<em>Supervisory Control and Data Acquisition</em>).</p>
+          </div>
+          <div class="section-label">Mini-Simulado 5 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-5">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-5"></div></div>
+            <button class="btn-reset" onclick="resetSection('5')">Sortear Novas</button>
+          </div>
+          <div id="qlist-5"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 6 -->
+      <div class="domain-header" style="border-left-color:var(--accent)">
+        <div class="domain-eyebrow" style="color:var(--accent)">Unidade 6</div>
+        <h2>Vulnerability Analysis</h2>
+        <p>CVSS v3, SCAP, CVE/NVD, EPSS, falsos positivos, priorização, contexto e validação.</p>
+      </div>
+      <div class="objective" id="obj-6">
+        <div class="obj-title" onclick="toggleObjective('obj-6')">
+          <span class="obj-num">6</span>
+          <h3>Análise de Vulnerabilidades</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">CVSS v3 (Base / Temporal / Ambiental)</span>
+              <span class="topic-pill">SCAP</span>
+              <span class="topic-pill">CVE / NVD</span>
+              <span class="topic-pill">EPSS</span>
+              <span class="topic-pill">Falso Positivo / Negativo</span>
+              <span class="topic-pill">Priorização</span>
+              <span class="topic-pill">Contexto e Validação</span>
+              <span class="topic-pill">Ciclo de Vida da Vulnerabilidade</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Sistema de pontuação CVSS v3 (<em>Common Vulnerability Scoring System</em>) com métricas base (base), temporal (temporal) e ambiental (environmental). Protocolo SCAP (<em>Security Content Automation Protocol</em>) para automação de conformidade. Catálogo CVE (<em>Common Vulnerabilities and Exposures</em>) e banco nacional NVD (<em>National Vulnerability Database</em>). Sistema de pontuação de probabilidade de exploração EPSS (<em>Exploit Prediction Scoring System</em>). Contexto de vulnerabilidade, validação de achados, distinção entre falsos positivos (false positives) e falsos negativos (false negatives), priorização com base em risco e ciclo de vida completo da vulnerabilidade.</p>
+          </div>
+          <div class="section-label">Mini-Simulado 6 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-6">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-6"></div></div>
+            <button class="btn-reset" onclick="resetSection('6')">Sortear Novas</button>
+          </div>
+          <div id="qlist-6"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 7 -->
+      <div class="domain-header" style="border-left-color:var(--accent2)">
+        <div class="domain-eyebrow" style="color:var(--accent2)">Unidade 7</div>
+        <h2>Communicating Vulnerability Information</h2>
+        <p>Relatórios executivos e técnicos, KPIs, planos de ação, inibidores de remediação, comunicação com stakeholders.</p>
+      </div>
+      <div class="objective" id="obj-7">
+        <div class="obj-title" onclick="toggleObjective('obj-7')">
+          <span class="obj-num">7</span>
+          <h3>Comunicação de Vulnerabilidades</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">Comunicação Eficaz</span>
+              <span class="topic-pill">Relatórios Técnicos</span>
+              <span class="topic-pill">Relatórios Executivos</span>
+              <span class="topic-pill">KPIs / Métricas</span>
+              <span class="topic-pill">Planos de Ação</span>
+              <span class="topic-pill">Inibidores de Remediação</span>
+              <span class="topic-pill">Stakeholders</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Comunicação eficaz de informações de vulnerabilidades para diferentes audiências. Elaboração de relatórios técnicos (para equipes de infraestrutura e desenvolvimento) e relatórios executivos (para liderança e diretoria). Definição e acompanhamento de KPIs (<em>Key Performance Indicators</em>) e métricas de segurança. Planos de ação (action plans) com prazos e responsáveis, identificação de inibidores de remediação (remediation inhibitors) como desafios técnicos, políticos ou orçamentários, e comunicação clara com stakeholders (partes interessadas).</p>
+          </div>
+          <div class="section-label">Mini-Simulado 7 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-7">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-7"></div></div>
+            <button class="btn-reset" onclick="resetSection('7')">Sortear Novas</button>
+          </div>
+          <div id="qlist-7"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 8 -->
+      <div class="domain-header" style="border-left-color:#ab7fff">
+        <div class="domain-eyebrow" style="color:#ab7fff">Unidade 8</div>
+        <h2>Incident Response Activities</h2>
+        <p>NIST SP 800-61, CSIRT, cadeia de custódia, ordem de volatilidade, forense digital, contenção, erradicação, BCDR.</p>
+      </div>
+      <div class="objective" id="obj-8">
+        <div class="obj-title" onclick="toggleObjective('obj-8')">
+          <span class="obj-num">8</span>
+          <h3>Resposta a Incidentes e Forense</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">NIST SP 800-61 (4 fases)</span>
+              <span class="topic-pill">CSIRT / SOC</span>
+              <span class="topic-pill">Chain of Custody</span>
+              <span class="topic-pill">Ordem de Volatilidade</span>
+              <span class="topic-pill">Imagem Forense / Hash</span>
+              <span class="topic-pill">Contenção / Isolamento</span>
+              <span class="topic-pill">Erradicação / Recuperação</span>
+              <span class="topic-pill">Lições Aprendidas / RCA</span>
+              <span class="topic-pill">BCDR</span>
+              <span class="topic-pill">Playbooks / Runbooks</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Planejamento de resposta a incidentes baseado no NIST SP 800-61 (<em>National Institute of Standards and Technology Special Publication 800-61</em>) com quatro fases: preparação, detecção e análise, contenção/erradicação/recuperação, e pós-incidente. Estrutura de equipes CSIRT (<em>Computer Security Incident Response Team</em>) e SOC (<em>Security Operations Center</em>). Cadeia de custódia (chain of custody), ordem de volatilidade (order of volatility) para coleta forense, imagem forense (forensic imaging) e hash criptográfico. Contenção (containment), isolamento (isolation), erradicação (eradication) e recuperação (recovery). Continuidade de negócios e recuperação de desastres BCDR (<em>Business Continuity and Disaster Recovery</em>). Automação com playbooks e runbooks, lições aprendidas (lessons learned) e análise de causa raiz RCA (<em>Root Cause Analysis</em>).</p>
+          </div>
+          <div class="section-label">Mini-Simulado 8 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-8">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-8"></div></div>
+            <button class="btn-reset" onclick="resetSection('8')">Sortear Novas</button>
+          </div>
+          <div id="qlist-8"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 9 -->
+      <div class="domain-header" style="border-left-color:var(--warn)">
+        <div class="domain-eyebrow" style="color:var(--warn)">Unidade 9</div>
+        <h2>Incident Response Communication</h2>
+        <p>Comunicação com stakeholders, requisitos legais e regulatórios, relatórios de IR, melhoria contínua pós-incidente.</p>
+      </div>
+      <div class="objective" id="obj-9">
+        <div class="obj-title" onclick="toggleObjective('obj-9')">
+          <span class="obj-num">9</span>
+          <h3>Comunicação em Resposta a Incidentes</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">Comunicação com Stakeholders</span>
+              <span class="topic-pill">Requisitos de Reporte</span>
+              <span class="topic-pill">Relatórios de IR</span>
+              <span class="topic-pill">Comunicação com Diretoria</span>
+              <span class="topic-pill">Melhoria Contínua</span>
+              <span class="topic-pill">Aspectos Legais</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Comunicação eficaz com partes interessadas (stakeholders) durante todo o ciclo de resposta a incidentes. Requisitos legais e regulatórios de reporte obrigatório (mandatory reporting), incluindo notificações a autoridades de proteção de dados e agências reguladoras. Elaboração de relatórios de resposta a incidentes IR (<em>Incident Response</em>) com cronologia, evidências, impacto e ações tomadas. Comunicação com diretoria (executive communication) em linguagem de negócios. Atividades de melhoria contínua pós-incidente e considerações sobre aspectos legais (legal hold, discovery, privilégio advogado-cliente).</p>
+          </div>
+          <div class="section-label">Mini-Simulado 9 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-9">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-9"></div></div>
+            <button class="btn-reset" onclick="resetSection('9')">Sortear Novas</button>
+          </div>
+          <div id="qlist-9"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 10 -->
+      <div class="domain-header" style="border-left-color:var(--accent)">
+        <div class="domain-eyebrow" style="color:var(--accent)">Unidade 10</div>
+        <h2>Tools for Identifying Malicious Activity</h2>
+        <p>Packet capture, EDR, SIEM, SOAR, Cyber Kill Chain, MITRE ATT&CK, Diamond Model, análise de e-mail e comandos suspeitos.</p>
+      </div>
+      <div class="objective" id="obj-10">
+        <div class="obj-title" onclick="toggleObjective('obj-10')">
+          <span class="obj-num">10</span>
+          <h3>Ferramentas de Identificação de Atividades Maliciosas</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">Packet Capture (tcpdump/Wireshark)</span>
+              <span class="topic-pill">EDR</span>
+              <span class="topic-pill">SIEM / Correlação</span>
+              <span class="topic-pill">SOAR / Playbooks</span>
+              <span class="topic-pill">Cyber Kill Chain</span>
+              <span class="topic-pill">MITRE ATT&CK</span>
+              <span class="topic-pill">Diamond Model</span>
+              <span class="topic-pill">Análise de E-mail</span>
+              <span class="topic-pill">Comandos Suspeitos</span>
+              <span class="topic-pill">Sandbox / Malware Analysis</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Ferramentas para identificação de atividade maliciosa: captura de pacotes (packet capture) com tcpdump e Wireshark, detecção e resposta de endpoint EDR (<em>Endpoint Detection and Response</em>), gerenciamento de eventos e informações de segurança SIEM (<em>Security Information and Event Management</em>), e orquestração/automação/resposta SOAR (<em>Security Orchestration, Automation and Response</em>). Estruturas de metodologia de ataque: Cyber Kill Chain, matriz MITRE ATT&CK (<em>Adversarial Tactics, Techniques, and Common Knowledge</em>), Modelo Diamante (Diamond Model) de análise de invasão e OSSTMM (<em>Open Source Security Testing Methodology Manual</em>). Análise de cabeçalhos de e-mail, conteúdo malicioso, comandos suspeitos (command-line analysis), sandboxing e análise de malware.</p>
+          </div>
+          <div class="section-label">Mini-Simulado 10 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-10">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-10"></div></div>
+            <button class="btn-reset" onclick="resetSection('10')">Sortear Novas</button>
+          </div>
+          <div id="qlist-10"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 11 -->
+      <div class="domain-header" style="border-left-color:var(--accent2)">
+        <div class="domain-eyebrow" style="color:var(--accent2)">Unidade 11</div>
+        <h2>Analyzing Potentially Malicious Activity</h2>
+        <p>Indicadores de rede (DDoS, beaconing, rogue devices), indicadores de host, ferramentas de avaliação (Nessus, Nmap, OpenVAS).</p>
+      </div>
+      <div class="objective" id="obj-11">
+        <div class="obj-title" onclick="toggleObjective('obj-11')">
+          <span class="obj-num">11</span>
+          <h3>Análise de Atividades Potencialmente Maliciosas</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">Indicadores de Rede</span>
+              <span class="topic-pill">DDoS / Beaconing C2</span>
+              <span class="topic-pill">Dispositivos Rogue</span>
+              <span class="topic-pill">Indicadores de Host</span>
+              <span class="topic-pill">Consumo CPU/Memória</span>
+              <span class="topic-pill">Exfiltração de Dados</span>
+              <span class="topic-pill">Nessus / OpenVAS / Qualys</span>
+              <span class="topic-pill">Nmap (descoberta/fingerprint)</span>
+              <span class="topic-pill">Engenharia Social</span>
+              <span class="topic-pill">Ofuscação de URL</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Indicadores de ataque de rede: picos de tráfego e DDoS (<em>Distributed Denial of Service</em>), comunicação de comando e controle C2 (<em>Command and Control</em>) via beaconing, dispositivos rogue (não autorizados) e varreduras de descoberta (discovery scans). Indicadores de ataque ao host: consumo anormal de CPU e memória, alterações em disco e sistema de arquivos, processos maliciosos, software não autorizado e métodos de exfiltração de dados (data exfiltration). Ferramentas de avaliação: scanners de vulnerabilidade Nessus (Tenable), OpenVAS (<em>Open Vulnerability Assessment System</em>) e Qualys; descoberta de rede e fingerprinting com Nmap; medição de vulnerabilidades de engenharia social (social engineering) e técnicas de ofuscação de URL (<em>Uniform Resource Locator</em>).</p>
+          </div>
+          <div class="section-label">Mini-Simulado 11 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-11">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-11"></div></div>
+            <button class="btn-reset" onclick="resetSection('11')">Sortear Novas</button>
+          </div>
+          <div id="qlist-11"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 12 -->
+      <div class="domain-header" style="border-left-color:#ab7fff">
+        <div class="domain-eyebrow" style="color:#ab7fff">Unidade 12</div>
+        <h2>Application Vulnerability Assessment</h2>
+        <p>Vulnerabilidades web (XSS, SQLi, SSRF), Burp Suite, OWASP ZAP, debuggers, avaliação de nuvem (ScoutSuite).</p>
+      </div>
+      <div class="objective" id="obj-12">
+        <div class="obj-title" onclick="toggleObjective('obj-12')">
+          <span class="obj-num">12</span>
+          <h3>Avaliação de Vulnerabilidades de Aplicações</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">XSS / SQLi / SSRF / IDOR</span>
+              <span class="topic-pill">Burp Suite</span>
+              <span class="topic-pill">OWASP ZAP</span>
+              <span class="topic-pill">Scanners Web</span>
+              <span class="topic-pill">Debuggers</span>
+              <span class="topic-pill">Avaliação em Nuvem</span>
+              <span class="topic-pill">ScoutSuite / Pacu</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Vulnerabilidades de aplicações web: XSS (<em>Cross-Site Scripting</em>), injeção de SQL SQLi (<em>SQL Injection</em>), SSRF (<em>Server-Side Request Forgery</em>), IDOR (<em>Insecure Direct Object Reference</em>). Ferramentas de teste: proxy de interceptação Burp Suite, scanner OWASP ZAP (<em>Zed Attack Proxy</em>), outros scanners web automatizados e debuggers (depuradores) de aplicações. Avaliação de vulnerabilidades em ambientes de nuvem (cloud) com ferramentas como ScoutSuite e Pacu para auditoria de infraestrutura cloud.</p>
+          </div>
+          <div class="section-label">Mini-Simulado 12 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-12">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-12"></div></div>
+            <button class="btn-reset" onclick="resetSection('12')">Sortear Novas</button>
+          </div>
+          <div id="qlist-12"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 13 -->
+      <div class="domain-header" style="border-left-color:var(--warn)">
+        <div class="domain-eyebrow" style="color:var(--warn)">Unidade 13</div>
+        <h2>Scripting Tools & Analysis Concepts</h2>
+        <p>Shell/Bash, PowerShell, Python, JSON, XML, automação de análise, regex e identificação de atividade maliciosa via script.</p>
+      </div>
+      <div class="objective" id="obj-13">
+        <div class="obj-title" onclick="toggleObjective('obj-13')">
+          <span class="obj-num">13</span>
+          <h3>Ferramentas de Script e Análise</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">Shell / Bash</span>
+              <span class="topic-pill">PowerShell</span>
+              <span class="topic-pill">Python</span>
+              <span class="topic-pill">JSON / XML</span>
+              <span class="topic-pill">Expressões Regulares</span>
+              <span class="topic-pill">Automação de Análise</span>
+              <span class="topic-pill">Identificação de Atividades Maliciosas</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Linguagens de script para automação de segurança: Shell/Bash (Linux/macOS), PowerShell (Windows) e Python. Formatos de dados estruturados: JSON (<em>JavaScript Object Notation</em>) e XML (<em>eXtensible Markup Language</em>). Expressões regulares (regex) para busca de padrões em logs e dados. Automação de análise de segurança (security analysis automation) e identificação de atividade maliciosa através de scripts, incluindo detecção de padrões anormais em arquivos de log e saída de ferramentas de segurança.</p>
+          </div>
+          <div class="section-label">Mini-Simulado 13 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-13">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-13"></div></div>
+            <button class="btn-reset" onclick="resetSection('13')">Sortear Novas</button>
+          </div>
+          <div id="qlist-13"></div>
+        </div>
+      </div>
+
+      <!-- UNIT 14 -->
+      <div class="domain-header" style="border-left-color:var(--accent)">
+        <div class="domain-eyebrow" style="color:var(--accent)">Unidade 14</div>
+        <h2>Application Security Best Practices & Attack Mitigation</h2>
+        <p>DevSecOps, OWASP Top 10, buffer overflow, SQL/XML injection, CSRF, session hijacking, codificação segura.</p>
+      </div>
+      <div class="objective" id="obj-14">
+        <div class="obj-title" onclick="toggleObjective('obj-14')">
+          <span class="obj-num">14</span>
+          <h3>Segurança de Aplicações e Mitigação de Ataques</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="topics-covered">
+            <div class="topics-covered-title">Tópicos</div>
+            <div class="topic-pills">
+              <span class="topic-pill">DevSecOps / SDLC Seguro</span>
+              <span class="topic-pill">OWASP Top 10</span>
+              <span class="topic-pill">Buffer Overflow</span>
+              <span class="topic-pill">SQL Injection</span>
+              <span class="topic-pill">XSS / CSRF / SSRF</span>
+              <span class="topic-pill">Session Hijacking</span>
+              <span class="topic-pill">Ataques de Autenticação</span>
+              <span class="topic-pill">Codificação Segura</span>
+              <span class="topic-pill">Mitigação / Controles</span>
+            </div>
+          </div>
+          <div class="explanation">
+            <p>Práticas de desenvolvimento seguro de software com DevSecOps (integração de segurança no ciclo de desenvolvimento) e SDLC (<em>Software Development Life Cycle</em>) seguro. Diretrizes OWASP Top 10 (<em>Open Web Application Security Project</em>) para vulnerabilidades web. Tipos de ataque: estouro de buffer (buffer overflow), injeção de SQL (<em>Structured Query Language Injection</em>) e XML, XSS (<em>Cross-Site Scripting</em>), CSRF (<em>Cross-Site Request Forgery</em>), SSRF (<em>Server-Side Request Forgery</em>), sequestro de sessão (session hijacking) e ataques de autenticação. Codificação segura (secure coding), práticas de mitigação (mitigation) e implementação de controles preventivos (preventive controls) e compensatórios.</p>
+          </div>
+          <div class="section-label">Mini-Simulado 14 (10 Questões)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-14">0 <span>/ 10</span></div>
+            <div class="progress-wrap"><div class="progress-fill" id="prog-14"></div></div>
+            <button class="btn-reset" onclick="resetSection('14')">Sortear Novas</button>
+          </div>
+          <div id="qlist-14"></div>
+        </div>
+      </div>
+
+      <!-- MASTER EXAM -->
+      <div class="objective" id="obj-master-exam">
+        <div
+          class="obj-title"
+          style="background: #131a24; border-bottom: 2px solid var(--accent2)"
+          onclick="toggleObjective('obj-master-exam')"
+        >
+          <span
+            class="obj-num"
+            style="color: var(--accent2); background: rgba(63, 185, 80, 0.1)"
+            >FINAL</span
+          >
+          <h3>Simulado Geral Multi-Domínio</h3>
+          <span class="toggle-icon">▼</span>
+        </div>
+        <div class="obj-body">
+          <div class="section-label">Master Exam (50 Questões de Todas as Unidades)</div>
+          <div class="score-bar">
+            <div class="score-display" id="score-master">
+              0 <span>/ 50</span>
+            </div>
+            <div class="progress-wrap">
+              <div class="progress-fill" id="prog-master"></div>
+            </div>
+            <button class="btn-reset" onclick="resetSection('master')">
+              Gerar Novo Exame
+            </button>
+          </div>
+          <div id="qlist-master"></div>
+        </div>
+      </div>
+
+    </div>
+    <script>
+      let masterQuestionsDb = {};
+      let activeSelection = {};
+
+      function toggleObjective(id) {
+        const objElement = document.getElementById(id);
+        if (objElement) {
+          objElement.classList.toggle("collapsed");
+        }
+      }
+
+      function shuffle(array) {
+        let currentIndex = array.length,
+          randomIndex;
+        while (currentIndex != 0) {
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex--;
+          [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex],
+            array[currentIndex],
+          ];
+        }
+        return array;
+      }
+
+      async function loadQuestions() {
+        try {
+          const response = await fetch("questions.json");
+          masterQuestionsDb = await response.json();
+          initAllSections();
+        } catch (error) {
+          console.error("Erro ao ler banco de dados de questões:", error);
+          alert(
+            "Erro ao carregar o ficheiro 'questions.json'. Certifica-te de que os ficheiros estão alojados num servidor para evitar restrições de CORS.",
+          );
+        }
+      }
+
+      function initAllSections() {
+        const topics = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
+        topics.forEach((topic) => selectAndRenderSection(topic));
+        selectAndRenderMaster();
+      }
+
+      function selectAndRenderSection(topic) {
+        const allTopicQuestions = masterQuestionsDb[topic] || [];
+        let cloned = JSON.parse(JSON.stringify(allTopicQuestions));
+        shuffle(cloned);
+        activeSelection[topic] = cloned.slice(0, 10);
+        const container = document.getElementById("qlist-" + topic);
+        if (!container) return;
+        renderQuestionBlock(container, activeSelection[topic], topic);
+        updateScoreUI(topic);
+      }
+
+      function selectAndRenderMaster() {
+        let pool = [];
+        Object.keys(masterQuestionsDb).forEach((key) => {
+          pool = pool.concat(masterQuestionsDb[key]);
+        });
+        let cloned = JSON.parse(JSON.stringify(pool));
+        shuffle(cloned);
+        activeSelection["master"] = cloned.slice(0, 50);
+        const container = document.getElementById("qlist-master");
+        if (!container) return;
+        renderQuestionBlock(container, activeSelection["master"], "master");
+        updateScoreUI("master");
+      }
+
+      function renderQuestionBlock(container, questionsList, sectionKey) {
+        if (questionsList.length === 0) {
+          container.innerHTML = `<div style="color:var(--danger); font-size:13px; font-family:monospace;">Nenhuma questão disponível.</div>`;
+          return;
+        }
+        container.innerHTML = questionsList
+          .map(
+            (item, i) => `
+    <div class="question" id="q-${sectionKey}-${i}">
+      <div class="q-stem">
+        <div class="q-topic-tag">${item.t}</div>
+        <strong>Questão ${i + 1}:</strong> ${item.q}
+      </div>
+      <div class="options">
+        ${item.opts
+          .map(
+            (o, j) => `
+          <div class="opt" data-sec="${sectionKey}" data-q="${i}" data-idx="${j}" onclick="evaluateAnswer(this)">
+            <span class="opt-letter">${["A", "B", "C", "D"][j]}</span>
+            <span>${o}</span>
+          </div>
+        `,
+          )
+          .join("")}
+      </div>
+      <div class="feedback" id="fb-${sectionKey}-${i}"></div>
+    </div>
+  `,
+          )
+          .join("");
+      }
+
+      function evaluateAnswer(el) {
+        const sec = el.dataset.sec;
+        const qi = parseInt(el.dataset.q);
+        const idx = parseInt(el.dataset.idx);
+        const currentQuestion = activeSelection[sec][qi];
+        const correctIdx = currentQuestion.ans;
+        const questionElement = document.getElementById("q-" + sec + "-" + qi);
+        const opts = questionElement.querySelectorAll(".opt");
+        opts.forEach((o) => o.classList.add("disabled"));
+        opts[correctIdx].classList.add("correct-answer");
+        if (idx !== correctIdx) {
+          el.classList.add("wrong-answer");
+          questionElement.classList.add("wrong");
+        } else {
+          questionElement.classList.add("correct");
+        }
+        const feedbackElement = document.getElementById("fb-" + sec + "-" + qi);
+        feedbackElement.className = `feedback show ${idx === correctIdx ? "ok" : "err"}`;
+        const letters = ["A", "B", "C", "D"];
+        let incorrectAnalysisHtml = currentQuestion.opts
+          .map((_, index) => {
+            if (index === correctIdx) return "";
+            let explanationText =
+              currentQuestion.w[index > correctIdx ? index - 1 : index] ||
+              "Alternativa incorreta.";
+            return `<div class="analysis-item"><strong>Opção ${letters[index]}:</strong> ${explanationText}</div>`;
+          })
+          .join("");
+        feedbackElement.innerHTML = `
+    <div class="feedback-status">${idx === correctIdx ? "✓ Alternativa Correta!" : "✗ Resposta Incorreta."}</div>
+    <div style="margin-bottom:8px;"><strong>Justificativa da ${letters[correctIdx]}:</strong> ${currentQuestion.exp}</div>
+    <div class="analysis-block">
+      <div class="analysis-title">Análise das Alternativas Incorretas:</div>
+      ${incorrectAnalysisHtml}
+    </div>
+  `;
+        updateScoreUI(sec);
+      }
+
+      function updateScoreUI(sec) {
+        let totalQuestions = activeSelection[sec]
+          ? activeSelection[sec].length
+          : 10;
+        let answered = 0;
+        let correct = 0;
+        for (let i = 0; i < totalQuestions; i++) {
+          const qEl = document.getElementById("q-" + sec + "-" + i);
+          if (qEl) {
+            if (qEl.classList.contains("correct")) {
+              answered++;
+              correct++;
+            } else if (qEl.classList.contains("wrong")) {
+              answered++;
+            }
+          }
+        }
+        const scoreId = sec === "master" ? "score-master" : "score-" + sec;
+        const scoreDisplay = document.getElementById(scoreId);
+        if (scoreDisplay) {
+          scoreDisplay.innerHTML = `${correct} <span>/ ${totalQuestions}</span>`;
+        }
+        const progId = sec === "master" ? "prog-master" : "prog-" + sec;
+        const progressFill = document.getElementById(progId);
+        if (progressFill && totalQuestions > 0) {
+          const percent = (answered / totalQuestions) * 100;
+          progressFill.style.width = `${percent}%`;
+          progressFill.style.background =
+            answered > 0
+              ? correct / answered >= 0.7
+                ? "var(--accent2)"
+                : "var(--warn)"
+              : "var(--border)";
+        }
+      }
+
+      function resetSection(sec) {
+        if (sec === "master") {
+          selectAndRenderMaster();
+        } else {
+          selectAndRenderSection(sec);
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", loadQuestions);
+    </script>
+  </body>
+</html>

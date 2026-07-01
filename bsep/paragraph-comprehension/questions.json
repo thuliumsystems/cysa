@@ -1,0 +1,72 @@
+[
+  {
+    "source": "Official Material",
+    "word": "neophyte",
+    "answer": "beginner",
+    "definition": "A person who is new to a subject or activity.",
+    "options": ["expert", "beginner", "leader", "instructor", "veteran"]
+  },
+  {
+    "source": "Official Material",
+    "word": "polarize",
+    "answer": "divide into opposing groups",
+    "definition": "To cause to divide into opposing groups.",
+    "options": ["unite", "confuse", "divide into opposing groups", "strengthen", "encourage"]
+  },
+  {
+    "source": "Official Material",
+    "word": "prosaic",
+    "answer": "ordinary",
+    "definition": "Lacking interest or imagination; dull.",
+    "options": ["ordinary", "thrilling", "dangerous", "humorous", "complicated"]
+  },
+  {
+    "source": "Official Material",
+    "word": "quiescence",
+    "answer": "quiet stillness",
+    "definition": "A state of inactivity or repose.",
+    "options": ["celebration", "confusion", "fear", "anger", "quiet stillness"]
+  },
+  {
+    "source": "Official Material",
+    "word": "facetious",
+    "answer": "joking",
+    "definition": "Treating serious issues with inappropriate humor.",
+    "options": ["serious", "respectful", "angry", "joking", "emotional"]
+  },
+  {
+    "source": "Official Material",
+    "word": "vacillate",
+    "answer": "hesitate between choices",
+    "definition": "To waver between different opinions or actions.",
+    "options": ["decide quickly", "hesitate between choices", "celebrate loudly", "refuse entirely", "explain carefully"]
+  },
+  {
+    "source": "Official Material",
+    "word": "devise",
+    "answer": "invent or plan",
+    "definition": "To plan or invent carefully.",
+    "options": ["invent or plan", "destroy", "postpone", "supervise", "discover accidentally"]
+  },
+  {
+    "source": "Official Material",
+    "word": "capacious",
+    "answer": "spacious",
+    "definition": "Having a lot of space; roomy.",
+    "options": ["crowded", "dangerous", "spacious", "hidden", "damaged"]
+  },
+  {
+    "source": "Official Material",
+    "word": "scowl",
+    "answer": "a frown",
+    "definition": "An angry or bad-tempered expression.",
+    "options": ["a smile", "a cheerful expression", "a gesture of respect", "a salute", "a frown"]
+  },
+  {
+    "source": "Official Material",
+    "word": "scapegoat",
+    "answer": "someone unfairly blamed",
+    "definition": "A person who is blamed for the faults of others.",
+    "options": ["a hero", "someone unfairly blamed", "a commander", "a witness", "someone promoted"]
+  }
+]

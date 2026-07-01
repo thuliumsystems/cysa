@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Knowledge — BSEP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: 'Inter', system-ui, sans-serif;
+        background: linear-gradient(135deg, #070b17, #111827);
+        color: #e2e8f0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding: 24px;
+      }
+      .container {
+        width: 100%;
+        max-width: 560px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-bottom: 40px;
+      }
+      .back {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #64748b;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 600;
+        transition: color 0.2s;
+        margin-bottom: 4px;
+      }
+      .back:hover { color: #38bdf8; }
+      .back svg { width: 16px; height: 16px; }
+      h1 {
+        font-size: 22px;
+        font-weight: 800;
+        background: linear-gradient(135deg, #38bdf8, #818cf8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+        color: #94a3b8;
+      }
+      .source-badge {
+        display: inline-block;
+        padding: 3px 10px;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 600;
+        background: rgba(56, 189, 248, 0.1);
+        color: #38bdf8;
+      }
+      .word {
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        color: #f1f5f9;
+        margin: 12px 0;
+        letter-spacing: -0.5px;
+      }
+      .word small {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: #64748b;
+        margin-top: 6px;
+        letter-spacing: 0;
+      }
+      #options { display: flex; flex-direction: column; gap: 10px; }
+      .btn {
+        width: 100%;
+        padding: 15px 18px;
+        font-size: 15px;
+        font-family: inherit;
+        background: #1a2332;
+        border: 1px solid #1e293b;
+        color: #e2e8f0;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.2s;
+        text-align: left;
+      }
+      .btn:hover { background: #1e293b; border-color: #334155; }
+      .btn:active { transform: scale(0.98); }
+      .btn.selected { border-color: #38bdf8; background: rgba(56, 189, 248, 0.08); }
+      .btn.correct { border-color: #22c55e; background: rgba(34, 197, 94, 0.08); color: #22c55e; }
+      .btn.wrong { border-color: #ef4444; background: rgba(239, 68, 68, 0.08); color: #ef4444; }
+      .feedback {
+        padding: 16px;
+        background: #0f172a;
+        border: 1px solid #1e293b;
+        border-radius: 12px;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      .feedback .def { color: #94a3b8; margin-top: 4px; font-size: 13px; }
+      .actions { display: flex; gap: 10px; }
+      .actions button {
+        flex: 1;
+        padding: 14px;
+        font-size: 15px;
+        font-family: inherit;
+        font-weight: 600;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.2s;
+        color: #fff;
+      }
+      .actions button:active { transform: scale(0.97); }
+      .btn-next { background: #2563eb; }
+      .btn-next:hover { filter: brightness(1.15); }
+      .btn-reset { background: #dc2626; }
+      .btn-reset:hover { filter: brightness(1.15); }
+      .finished { text-align: center; padding: 40px 0; }
+      .finished h2 { font-size: 28px; margin-bottom: 8px; }
+      .finished p { font-size: 18px; color: #94a3b8; }
+      @media (max-width: 400px) {
+        .word { font-size: 26px; }
+        .btn { font-size: 14px; padding: 13px 14px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a class="back" href="../">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        Back to Menu
+      </a>
+      <h1>Word Knowledge</h1>
+
+      <div class="meta">
+        <span id="progress">Loading...</span>
+        <span id="sourceBadge"></span>
+      </div>
+
+      <div class="word" id="word"></div>
+      <div id="options"></div>
+      <div class="feedback" id="feedback"></div>
+
+      <div class="actions">
+        <button class="btn-next" id="nextBtn" onclick="nextQuestion()">Next</button>
+        <button class="btn-reset" onclick="resetProgress()">Reset</button>
+      </div>
+    </div>
+
+    <script>
+      let questions = [];
+      let index = 0;
+      let score = 0;
+      let answered = false;
+      let done = new Set();
+      const STORAGE_PREFIX = 'bsep_wk_';
+
+      function saveProgress() {
+        localStorage.setItem(STORAGE_PREFIX + 'index', index);
+        localStorage.setItem(STORAGE_PREFIX + 'score', score);
+        localStorage.setItem(STORAGE_PREFIX + 'done', JSON.stringify([...done]));
+      }
+
+      function loadProgress() {
+        index = parseInt(localStorage.getItem(STORAGE_PREFIX + 'index')) || 0;
+        score = parseInt(localStorage.getItem(STORAGE_PREFIX + 'score')) || 0;
+        const saved = localStorage.getItem(STORAGE_PREFIX + 'done');
+        if (saved) done = new Set(JSON.parse(saved));
+      }
+
+      fetch('questions.json')
+        .then(r => r.json())
+        .then(data => {
+          questions = Array.isArray(data) ? data : Object.values(data).flat();
+          loadProgress();
+          loadQuestion();
+        });
+
+      function loadQuestion() {
+        answered = false;
+        document.getElementById('nextBtn').style.display = 'none';
+
+        while (done.has(index) && index < questions.length) index++;
+
+        if (index >= questions.length) { finish(); return; }
+
+        const q = questions[index];
+        document.getElementById('word').innerHTML = q.word + (q.source ? ` <small>${q.source}</small>` : '');
+        document.getElementById('sourceBadge').innerHTML = q.source ? `<span class="source-badge">${q.source}</span>` : '';
+        updateProgress();
+
+        const opts = document.getElementById('options');
+        opts.innerHTML = '';
+        document.getElementById('feedback').innerHTML = '';
+
+        const shuffled = [...q.options].sort(() => Math.random() - 0.5);
+        shuffled.forEach(opt => {
+          const btn = document.createElement('button');
+          btn.className = 'btn';
+          btn.innerText = opt;
+          btn.onclick = () => checkAnswer(opt);
+          opts.appendChild(btn);
+        });
+      }
+
+      function checkAnswer(choice) {
+        if (answered) return;
+        answered = true;
+
+        const q = questions[index];
+        const correct = choice === q.answer;
+        const btns = document.querySelectorAll('#options .btn');
+        let correctBtn = null;
+
+        btns.forEach(b => {
+          if (b.innerText === q.answer) correctBtn = b;
+          if (b.innerText === choice) b.classList.add(correct ? 'correct' : 'wrong');
+        });
+        btns.forEach(b => b.style.pointerEvents = 'none');
+
+        if (correct) {
+          score++;
+        }
+
+        document.getElementById('feedback').innerHTML = `
+          <div style="font-weight:700;margin-bottom:4px;">${correct ? '✅ Correct!' : '❌ Wrong!'}</div>
+          <div style="color:#22c55e;font-weight:600;">Answer: ${q.answer}</div>
+          <div class="def">${q.definition}</div>
+        `;
+
+        done.add(index);
+        saveProgress();
+        document.getElementById('nextBtn').style.display = 'block';
+      }
+
+      function nextQuestion() {
+        index++;
+        saveProgress();
+        loadQuestion();
+      }
+
+      function updateProgress() {
+        document.getElementById('progress').textContent =
+          `Question ${Math.min(index + 1, questions.length)} of ${questions.length} | Score: ${score}`;
+      }
+
+      function finish() {
+        document.getElementById('word').innerHTML = '🎉 Finished!';
+        document.getElementById('options').innerHTML = '';
+        document.getElementById('feedback').innerHTML = '';
+        document.getElementById('sourceBadge').innerHTML = '';
+        document.getElementById('progress').textContent = `Final Score: ${score} / ${questions.length}`;
+        document.getElementById('nextBtn').style.display = 'none';
+      }
+
+      function resetProgress() {
+        localStorage.removeItem(STORAGE_PREFIX + 'index');
+        localStorage.removeItem(STORAGE_PREFIX + 'score');
+        localStorage.removeItem(STORAGE_PREFIX + 'done');
+        index = 0; score = 0; done = new Set();
+        loadQuestion();
+      }
+    </script>
+  </body>
+</html>

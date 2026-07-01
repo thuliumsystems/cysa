@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BSEP — Pre-Assessment Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        font-family: 'Inter', system-ui, sans-serif;
+        background: linear-gradient(135deg, #070b17 0%, #111827 50%, #0a1628 100%);
+        color: #e2e8f0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 960px;
+      }
+
+      /* ── Header ── */
+      .header {
+        text-align: center;
+        margin-bottom: 48px;
+      }
+
+      .emblem {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 72px;
+        height: 72px;
+        border: 2px solid #38bdf8;
+        border-radius: 50%;
+        margin-bottom: 16px;
+        background: rgba(56, 189, 248, 0.08);
+        box-shadow: 0 0 40px rgba(56, 189, 248, 0.15);
+      }
+
+      .emblem svg {
+        width: 36px;
+        height: 36px;
+      }
+
+      .header h1 {
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        background: linear-gradient(135deg, #38bdf8, #818cf8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .header .subtitle {
+        font-size: 16px;
+        color: #94a3b8;
+        margin-top: 6px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .header .desc {
+        font-size: 14px;
+        color: #64748b;
+        margin-top: 4px;
+      }
+
+      /* ── Grid ── */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+
+      @media (max-width: 720px) {
+        .grid { grid-template-columns: 1fr; }
+        .header h1 { font-size: 28px; }
+      }
+
+      /* ── Card ── */
+      .card {
+        background: linear-gradient(145deg, #1a2332, #0f172a);
+        border: 1px solid #1e293b;
+        border-radius: 20px;
+        padding: 36px 24px;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+      }
+
+      .card::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 20px;
+        padding: 1px;
+        background: linear-gradient(135deg, transparent 40%, #38bdf8, #818cf8, transparent 60%);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+      }
+
+      .card:hover::before {
+        opacity: 1;
+      }
+
+      .card:hover {
+        transform: translateY(-6px);
+        border-color: #38bdf8;
+        box-shadow: 0 20px 60px rgba(56, 189, 248, 0.12);
+      }
+
+      .card:active {
+        transform: translateY(-2px);
+      }
+
+      .card .icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        transition: transform 0.3s ease;
+      }
+
+      .card:hover .icon {
+        transform: scale(1.1);
+      }
+
+      .icon-wk { background: rgba(56, 189, 248, 0.12); color: #38bdf8; }
+      .icon-pc { background: rgba(129, 140, 248, 0.12); color: #818cf8; }
+      .icon-math { background: rgba(52, 211, 153, 0.12); color: #34d399; }
+
+      .card h2 {
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      .card p {
+        font-size: 13px;
+        color: #94a3b8;
+        line-height: 1.5;
+      }
+
+      .card .badge {
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+      }
+
+      .badge-wk { background: rgba(56, 189, 248, 0.12); color: #38bdf8; }
+      .badge-pc { background: rgba(129, 140, 248, 0.12); color: #818cf8; }
+      .badge-math { background: rgba(52, 211, 153, 0.12); color: #34d399; }
+
+      .card .enter-btn {
+        margin-top: 8px;
+        padding: 10px 32px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        color: #fff;
+      }
+
+      .card .enter-btn-wk { background: #2563eb; }
+      .card .enter-btn-pc { background: #7c3aed; }
+      .card .enter-btn-math { background: #059669; }
+
+      .card .enter-btn:hover {
+        filter: brightness(1.2);
+        box-shadow: 0 4px 20px rgba(37, 99, 235, 0.35);
+      }
+
+      .card .enter-btn-pc:hover { box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35); }
+      .card .enter-btn-math:hover { box-shadow: 0 4px 20px rgba(5, 150, 105, 0.35); }
+
+      .footer {
+        text-align: center;
+        margin-top: 48px;
+        font-size: 12px;
+        color: #475569;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="emblem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <h1>BSEP</h1>
+        <div class="subtitle">Basic Skill Education Program</div>
+        <div class="desc">Pre-Assessment Test</div>
+      </div>
+
+      <div class="grid">
+        <a class="card" href="word-knowledge/index.html">
+          <div class="icon icon-wk">📖</div>
+          <h2>Word Knowledge</h2>
+          <p>25 vocabulary questions covering advanced English words commonly used in academic and professional settings.</p>
+          <span class="badge badge-wk">25 Questions</span>
+          <div class="enter-btn enter-btn-wk">Start</div>
+        </a>
+
+        <a class="card" href="paragraph-comprehension/index.html">
+          <div class="icon icon-pc">📝</div>
+          <h2>Paragraph Comprehension</h2>
+          <p>10 reading comprehension questions to assess understanding of written passages in English.</p>
+          <span class="badge badge-pc">10 Questions</span>
+          <div class="enter-btn enter-btn-pc">Start</div>
+        </a>
+
+        <a class="card" href="math/index.html">
+          <div class="icon icon-math">➗</div>
+          <h2>Math</h2>
+          <p>Mathematical reasoning and problem-solving questions. Coming soon with detailed explanations.</p>
+          <span class="badge badge-math">Coming Soon</span>
+          <div class="enter-btn enter-btn-math">Enter</div>
+        </a>
+      </div>
+
+      <div class="footer">BSEP &mdash; Pre-Assessment Test &copy; 2026</div>
+    </div>
+  </body>
+</html>

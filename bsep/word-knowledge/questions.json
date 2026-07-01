@@ -1,0 +1,3495 @@
+[
+  {
+    "word": "abandon",
+    "answer": "to leave completely",
+    "definition": "To give up completely or desert something or someone.",
+    "options": [
+      "to leave completely",
+      "to build carefully",
+      "to repair",
+      "to combine"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "abrupt",
+    "answer": "sudden and unexpected",
+    "definition": "Happening quickly without warning.",
+    "options": [
+      "sudden and unexpected",
+      "very slow",
+      "well planned",
+      "soft and calm"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "benevolent",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "kind and generous",
+      "cruel and harsh",
+      "careless",
+      "lazy"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "candid",
+    "answer": "honest and direct",
+    "definition": "Speaking truthfully without hiding feelings.",
+    "options": [
+      "honest and direct",
+      "secretive",
+      "dishonest",
+      "silent"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "deter",
+    "answer": "to discourage",
+    "definition": "To prevent or make someone less likely to do something.",
+    "options": [
+      "to discourage",
+      "to encourage",
+      "to ignore",
+      "to celebrate"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "eloquent",
+    "answer": "fluent and persuasive in speech",
+    "definition": "Able to speak clearly and effectively.",
+    "options": [
+      "fluent and persuasive in speech",
+      "unable to speak",
+      "confused",
+      "silent"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "frugal",
+    "answer": "careful with money",
+    "definition": "Using money wisely without waste.",
+    "options": [
+      "careful with money",
+      "wasteful",
+      "rich",
+      "generous"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "hostile",
+    "answer": "unfriendly or aggressive",
+    "definition": "Showing anger or opposition.",
+    "options": [
+      "unfriendly or aggressive",
+      "friendly",
+      "calm",
+      "happy"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "inevitable",
+    "answer": "certain to happen",
+    "definition": "Something that will definitely occur.",
+    "options": [
+      "certain to happen",
+      "impossible",
+      "optional",
+      "unlikely"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "lucid",
+    "answer": "clear and easy to understand",
+    "definition": "Easy to think or express clearly.",
+    "options": [
+      "clear and easy to understand",
+      "confusing",
+      "dark",
+      "complicated"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "adapt",
+    "answer": "to adjust to new conditions",
+    "definition": "To change in order to fit new circumstances.",
+    "options": [
+      "to adjust to new conditions",
+      "to refuse change",
+      "to destroy",
+      "to hide"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "analyze",
+    "answer": "to examine carefully",
+    "definition": "To study something in detail.",
+    "options": [
+      "to examine carefully",
+      "to ignore",
+      "to guess",
+      "to break randomly"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "assume",
+    "answer": "to suppose without proof",
+    "definition": "To accept something as true without evidence.",
+    "options": [
+      "to suppose without proof",
+      "to prove",
+      "to deny",
+      "to calculate"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "coherent",
+    "answer": "logical and consistent",
+    "definition": "Easy to understand because it is logical.",
+    "options": [
+      "logical and consistent",
+      "confusing",
+      "random",
+      "silent"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "comply",
+    "answer": "to follow rules",
+    "definition": "To obey or act according to rules or requests.",
+    "options": [
+      "to follow rules",
+      "to ignore rules",
+      "to break rules",
+      "to create rules"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "concur",
+    "answer": "to agree",
+    "definition": "To have the same opinion.",
+    "options": [
+      "to agree",
+      "to argue",
+      "to refuse",
+      "to question"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "credible",
+    "answer": "believable",
+    "definition": "Able to be trusted or believed.",
+    "options": [
+      "believable",
+      "fake",
+      "unclear",
+      "weak"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "decline",
+    "answer": "to refuse or decrease",
+    "definition": "To go down or say no politely.",
+    "options": [
+      "to refuse or decrease",
+      "to increase",
+      "to accept",
+      "to build"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "eliminate",
+    "answer": "to remove completely",
+    "definition": "To get rid of something.",
+    "options": [
+      "to remove completely",
+      "to add",
+      "to create",
+      "to mix"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "flexible",
+    "answer": "able to bend or change",
+    "definition": "Able to adjust easily.",
+    "options": [
+      "able to bend or change",
+      "rigid",
+      "broken",
+      "fixed"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "generate",
+    "answer": "to produce",
+    "definition": "To create or cause something to exist.",
+    "options": [
+      "to produce",
+      "to destroy",
+      "to hide",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "impact",
+    "answer": "effect or influence",
+    "definition": "A strong effect on something.",
+    "options": [
+      "effect or influence",
+      "no change",
+      "random noise",
+      "delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "justify",
+    "answer": "to explain or prove right",
+    "definition": "To show something is reasonable.",
+    "options": [
+      "to explain or prove right",
+      "to hide",
+      "to ignore",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "maintain",
+    "answer": "to keep in good condition",
+    "definition": "To continue or preserve something.",
+    "options": [
+      "to keep in good condition",
+      "to destroy",
+      "to forget",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "obvious",
+    "answer": "clearly seen or understood",
+    "definition": "Easy to notice or understand.",
+    "options": [
+      "clearly seen or understood",
+      "hidden",
+      "confusing",
+      "rare"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "perceive",
+    "answer": "to understand or notice",
+    "definition": "To become aware of something.",
+    "options": [
+      "to understand or notice",
+      "to ignore",
+      "to break",
+      "to create"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "restrict",
+    "answer": "to limit",
+    "definition": "To control or reduce access.",
+    "options": [
+      "to limit",
+      "to expand",
+      "to ignore",
+      "to allow"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "select",
+    "answer": "to choose",
+    "definition": "To pick from a group.",
+    "options": [
+      "to choose",
+      "to reject everything",
+      "to destroy",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "vague",
+    "answer": "unclear",
+    "definition": "Not clearly expressed.",
+    "options": [
+      "unclear",
+      "very detailed",
+      "very bright",
+      "very loud"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "valid",
+    "answer": "legally or logically correct",
+    "definition": "Acceptable or reasonable.",
+    "options": [
+      "legally or logically correct",
+      "wrong",
+      "false",
+      "useless"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "advocate",
+    "answer": "to support or recommend",
+    "definition": "To publicly support or argue in favor of something.",
+    "options": [
+      "to support or recommend",
+      "to oppose strongly",
+      "to ignore",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "allocate",
+    "answer": "to distribute for a purpose",
+    "definition": "To assign resources or tasks for a specific use.",
+    "options": [
+      "to distribute for a purpose",
+      "to take away",
+      "to destroy",
+      "to hide"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "anticipate",
+    "answer": "to expect",
+    "definition": "To look forward to or predict something.",
+    "options": [
+      "to expect",
+      "to forget",
+      "to reject",
+      "to avoid"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "assert",
+    "answer": "to state strongly",
+    "definition": "To declare something confidently.",
+    "options": [
+      "to state strongly",
+      "to question",
+      "to whisper",
+      "to deny"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "beneficial",
+    "answer": "helpful or useful",
+    "definition": "Providing advantage or good effects.",
+    "options": [
+      "helpful or useful",
+      "harmful",
+      "useless",
+      "dangerous"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "bias",
+    "answer": "unfair preference",
+    "definition": "A tendency to favor one side unfairly.",
+    "options": [
+      "unfair preference",
+      "balance",
+      "truth",
+      "logic"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "clarify",
+    "answer": "to make clear",
+    "definition": "To explain something more clearly.",
+    "options": [
+      "to make clear",
+      "to confuse",
+      "to hide",
+      "to shorten"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "comprehend",
+    "answer": "to understand",
+    "definition": "To fully grasp or understand something.",
+    "options": [
+      "to understand",
+      "to ignore",
+      "to break",
+      "to guess"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "concede",
+    "answer": "to admit reluctantly",
+    "definition": "To admit something is true after first denying it.",
+    "options": [
+      "to admit reluctantly",
+      "to deny strongly",
+      "to hide",
+      "to create"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "consistent",
+    "answer": "always the same",
+    "definition": "Not changing over time.",
+    "options": [
+      "always the same",
+      "random",
+      "broken",
+      "rare"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "contrast",
+    "answer": "difference between things",
+    "definition": "To compare differences.",
+    "options": [
+      "difference between things",
+      "similarity",
+      "agreement",
+      "connection"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "convince",
+    "answer": "to persuade",
+    "definition": "To make someone believe something.",
+    "options": [
+      "to persuade",
+      "to confuse",
+      "to ignore",
+      "to reject"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "deficit",
+    "answer": "lack or shortage",
+    "definition": "When something is less than needed.",
+    "options": [
+      "lack or shortage",
+      "excess",
+      "balance",
+      "profit"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "derive",
+    "answer": "to obtain from source",
+    "definition": "To get something from a specific origin.",
+    "options": [
+      "to obtain from source",
+      "to lose",
+      "to destroy",
+      "to hide"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "diverse",
+    "answer": "varied",
+    "definition": "Showing a wide range of different things.",
+    "options": [
+      "varied",
+      "same",
+      "simple",
+      "empty"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "efficient",
+    "answer": "working well without waste",
+    "definition": "Achieving maximum productivity.",
+    "options": [
+      "working well without waste",
+      "slow",
+      "lazy",
+      "broken"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "emerge",
+    "answer": "to appear",
+    "definition": "To come into view or become known.",
+    "options": [
+      "to appear",
+      "to hide",
+      "to disappear",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "emphasize",
+    "answer": "to stress importance",
+    "definition": "To give special importance to something.",
+    "options": [
+      "to stress importance",
+      "to ignore",
+      "to remove",
+      "to confuse"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "encounter",
+    "answer": "to meet unexpectedly",
+    "definition": "To come across something or someone.",
+    "options": [
+      "to meet unexpectedly",
+      "to avoid",
+      "to build",
+      "to plan"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "enhance",
+    "answer": "to improve",
+    "definition": "To make something better.",
+    "options": [
+      "to improve",
+      "to reduce",
+      "to destroy",
+      "to hide"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "exclude",
+    "answer": "to leave out",
+    "definition": "To not include something.",
+    "options": [
+      "to leave out",
+      "to include",
+      "to add",
+      "to expand"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "expand",
+    "answer": "to increase size",
+    "definition": "To become larger or more extensive.",
+    "options": [
+      "to increase size",
+      "to shrink",
+      "to delete",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "facilitate",
+    "answer": "to make easier",
+    "definition": "To help make a process smoother.",
+    "options": [
+      "to make easier",
+      "to complicate",
+      "to stop",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "fundamental",
+    "answer": "basic and important",
+    "definition": "Essential foundation or principle.",
+    "options": [
+      "basic and important",
+      "optional",
+      "random",
+      "temporary"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "hypothesis",
+    "answer": "educated guess",
+    "definition": "A proposed explanation based on evidence.",
+    "options": [
+      "educated guess",
+      "fact",
+      "law",
+      "result"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "illustrate",
+    "answer": "to explain with examples",
+    "definition": "To make something clear using examples.",
+    "options": [
+      "to explain with examples",
+      "to confuse",
+      "to hide",
+      "to delete"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "infer",
+    "answer": "to conclude from evidence",
+    "definition": "To deduce information logically.",
+    "options": [
+      "to conclude from evidence",
+      "to guess randomly",
+      "to ignore",
+      "to deny"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "integrate",
+    "answer": "to combine",
+    "definition": "To bring together parts into a whole.",
+    "options": [
+      "to combine",
+      "to separate",
+      "to destroy",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "justify",
+    "answer": "to prove right",
+    "definition": "To show something is reasonable or correct.",
+    "options": [
+      "to prove right",
+      "to hide",
+      "to confuse",
+      "to reject"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "legitimate",
+    "answer": "valid or legal",
+    "definition": "Conforming to the law or rules.",
+    "options": [
+      "valid or legal",
+      "fake",
+      "wrong",
+      "illegal"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "modify",
+    "answer": "to change slightly",
+    "definition": "To make small changes.",
+    "options": [
+      "to change slightly",
+      "to destroy",
+      "to ignore",
+      "to create"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "objective",
+    "answer": "not influenced by feelings",
+    "definition": "Based on facts, not emotions.",
+    "options": [
+      "not influenced by feelings",
+      "emotional",
+      "biased",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "obtain",
+    "answer": "to get",
+    "definition": "To acquire or gain something.",
+    "options": [
+      "to get",
+      "to lose",
+      "to hide",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "persistent",
+    "answer": "continuing firmly",
+    "definition": "Not giving up easily.",
+    "options": [
+      "continuing firmly",
+      "giving up",
+      "lazy",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "predict",
+    "answer": "to say in advance",
+    "definition": "To forecast what will happen.",
+    "options": [
+      "to say in advance",
+      "to hide",
+      "to ignore",
+      "to confuse"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "presume",
+    "answer": "to assume",
+    "definition": "To believe something is true without proof.",
+    "options": [
+      "to assume",
+      "to prove",
+      "to deny",
+      "to measure"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "prohibit",
+    "answer": "to forbid",
+    "definition": "To officially stop something.",
+    "options": [
+      "to forbid",
+      "to allow",
+      "to encourage",
+      "to create"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "reinforce",
+    "answer": "to strengthen",
+    "definition": "To make something stronger.",
+    "options": [
+      "to strengthen",
+      "to weaken",
+      "to remove",
+      "to hide"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "reveal",
+    "answer": "to show",
+    "definition": "To make something known.",
+    "options": [
+      "to show",
+      "to hide",
+      "to delete",
+      "to confuse"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "significant",
+    "answer": "important",
+    "definition": "Having great meaning or importance.",
+    "options": [
+      "important",
+      "small",
+      "random",
+      "weak"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "substantial",
+    "answer": "large in amount",
+    "definition": "Considerable or significant in size.",
+    "options": [
+      "large in amount",
+      "tiny",
+      "empty",
+      "weak"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "transmit",
+    "answer": "to send",
+    "definition": "To pass something from one place to another.",
+    "options": [
+      "to send",
+      "to stop",
+      "to hide",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "valid",
+    "answer": "legally correct",
+    "definition": "Acceptable according to rules or logic.",
+    "options": [
+      "legally correct",
+      "false",
+      "invalid",
+      "wrong"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "verify",
+    "answer": "to confirm",
+    "definition": "To check accuracy or truth.",
+    "options": [
+      "to confirm",
+      "to guess",
+      "to ignore",
+      "to hide"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "abolish",
+    "answer": "to officially end",
+    "definition": "To formally put an end to a system or practice.",
+    "options": [
+      "to officially end",
+      "to create",
+      "to support",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "acquire",
+    "answer": "to obtain",
+    "definition": "To gain possession of something.",
+    "options": [
+      "to obtain",
+      "to lose",
+      "to hide",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "adequate",
+    "answer": "sufficient",
+    "definition": "Enough to meet a need or requirement.",
+    "options": [
+      "sufficient",
+      "insufficient",
+      "excessive",
+      "rare"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "adjacent",
+    "answer": "next to",
+    "definition": "Located very close or touching.",
+    "options": [
+      "next to",
+      "far away",
+      "above",
+      "hidden"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "alter",
+    "answer": "to change",
+    "definition": "To make something different.",
+    "options": [
+      "to change",
+      "to keep",
+      "to ignore",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "alternative",
+    "answer": "another option",
+    "definition": "A different choice available.",
+    "options": [
+      "another option",
+      "no option",
+      "error",
+      "result"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "ambiguous",
+    "answer": "unclear",
+    "definition": "Having more than one possible meaning.",
+    "options": [
+      "unclear",
+      "obvious",
+      "simple",
+      "true"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "anomaly",
+    "answer": "something unusual",
+    "definition": "Something that deviates from the norm.",
+    "options": [
+      "something unusual",
+      "normal thing",
+      "rule",
+      "pattern"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "apparent",
+    "answer": "obvious",
+    "definition": "Clearly visible or easy to understand.",
+    "options": [
+      "obvious",
+      "hidden",
+      "false",
+      "rare"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "approximate",
+    "answer": "not exact",
+    "definition": "Close to the actual value but not precise.",
+    "options": [
+      "not exact",
+      "exact",
+      "false",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "arbitrary",
+    "answer": "random or based on chance",
+    "definition": "Based on personal choice rather than reason.",
+    "options": [
+      "random or based on chance",
+      "logical",
+      "fixed",
+      "planned"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "coincide",
+    "answer": "to happen at the same time",
+    "definition": "To occur simultaneously.",
+    "options": [
+      "to happen at the same time",
+      "to delay",
+      "to stop",
+      "to separate"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "compatible",
+    "answer": "able to work together",
+    "definition": "Capable of existing or working together.",
+    "options": [
+      "able to work together",
+      "incompatible",
+      "broken",
+      "separate"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "compensate",
+    "answer": "to make up for",
+    "definition": "To provide something good to balance loss.",
+    "options": [
+      "to make up for",
+      "to remove",
+      "to ignore",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "complement",
+    "answer": "to complete",
+    "definition": "To enhance or make something complete.",
+    "options": [
+      "to complete",
+      "to destroy",
+      "to reduce",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "consequence",
+    "answer": "result",
+    "definition": "Something that follows an action.",
+    "options": [
+      "result",
+      "cause",
+      "option",
+      "rule"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "constraint",
+    "answer": "limitation",
+    "definition": "A restriction or control.",
+    "options": [
+      "limitation",
+      "freedom",
+      "expansion",
+      "gain"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "controversial",
+    "answer": "causing disagreement",
+    "definition": "Likely to cause public disagreement.",
+    "options": [
+      "causing disagreement",
+      "accepted",
+      "boring",
+      "silent"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "criteria",
+    "answer": "standards for judgment",
+    "definition": "Rules used to evaluate something.",
+    "options": [
+      "standards for judgment",
+      "opinions",
+      "guesses",
+      "results"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "derive",
+    "answer": "to come from",
+    "definition": "To originate from a source.",
+    "options": [
+      "to come from",
+      "to lose",
+      "to hide",
+      "to stop"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "diminish",
+    "answer": "to decrease",
+    "definition": "To become smaller or less.",
+    "options": [
+      "to decrease",
+      "to increase",
+      "to grow",
+      "to expand"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "disclose",
+    "answer": "to reveal",
+    "definition": "To make something known.",
+    "options": [
+      "to reveal",
+      "to hide",
+      "to confuse",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "distinct",
+    "answer": "clearly different",
+    "definition": "Easily recognized as different.",
+    "options": [
+      "clearly different",
+      "similar",
+      "hidden",
+      "unclear"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "distort",
+    "answer": "to twist out of shape",
+    "definition": "To change something in a misleading way.",
+    "options": [
+      "to twist out of shape",
+      "to fix",
+      "to clarify",
+      "to build"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "duration",
+    "answer": "length of time",
+    "definition": "The time something lasts.",
+    "options": [
+      "length of time",
+      "speed",
+      "distance",
+      "weight"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "elaborate",
+    "answer": "detailed",
+    "definition": "Containing many details.",
+    "options": [
+      "detailed",
+      "simple",
+      "short",
+      "weak"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "empirical",
+    "answer": "based on observation",
+    "definition": "Based on experience or experiment.",
+    "options": [
+      "based on observation",
+      "theoretical",
+      "imaginary",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "equivalent",
+    "answer": "equal in value",
+    "definition": "Having the same worth or effect.",
+    "options": [
+      "equal in value",
+      "different",
+      "greater",
+      "lesser"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "exceed",
+    "answer": "to go beyond",
+    "definition": "To surpass a limit.",
+    "options": [
+      "to go beyond",
+      "to stay under",
+      "to stop",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "exclude",
+    "answer": "to leave out",
+    "definition": "To not include something.",
+    "options": [
+      "to leave out",
+      "to include",
+      "to add",
+      "to combine"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "explicit",
+    "answer": "clearly stated",
+    "definition": "Expressed clearly and directly.",
+    "options": [
+      "clearly stated",
+      "unclear",
+      "hidden",
+      "confusing"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "feasible",
+    "answer": "possible",
+    "definition": "Able to be done.",
+    "options": [
+      "possible",
+      "impossible",
+      "rare",
+      "dangerous"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "fluctuate",
+    "answer": "to vary",
+    "definition": "To change irregularly.",
+    "options": [
+      "to vary",
+      "to stay constant",
+      "to stop",
+      "to freeze"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "formulate",
+    "answer": "to create systematically",
+    "definition": "To develop or plan carefully.",
+    "options": [
+      "to create systematically",
+      "to destroy",
+      "to ignore",
+      "to guess"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "generate",
+    "answer": "to produce",
+    "definition": "To create or cause something.",
+    "options": [
+      "to produce",
+      "to destroy",
+      "to hide",
+      "to stop"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "implement",
+    "answer": "to put into action",
+    "definition": "To execute a plan or decision.",
+    "options": [
+      "to put into action",
+      "to cancel",
+      "to ignore",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "imply",
+    "answer": "to suggest indirectly",
+    "definition": "To indicate something without saying it directly.",
+    "options": [
+      "to suggest indirectly",
+      "to state clearly",
+      "to deny",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "indicate",
+    "answer": "to show",
+    "definition": "To point out or demonstrate.",
+    "options": [
+      "to show",
+      "to hide",
+      "to remove",
+      "to confuse"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "inefficient",
+    "answer": "wasteful",
+    "definition": "Not using resources well.",
+    "options": [
+      "wasteful",
+      "effective",
+      "fast",
+      "strong"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "inferior",
+    "answer": "lower in quality",
+    "definition": "Not as good as something else.",
+    "options": [
+      "lower in quality",
+      "better",
+      "equal",
+      "perfect"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "initiate",
+    "answer": "to begin",
+    "definition": "To start something.",
+    "options": [
+      "to begin",
+      "to end",
+      "to stop",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "innovate",
+    "answer": "to create something new",
+    "definition": "To introduce new ideas or methods.",
+    "options": [
+      "to create something new",
+      "to copy",
+      "to destroy",
+      "to repeat"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "insignificant",
+    "answer": "not important",
+    "definition": "Having little or no importance.",
+    "options": [
+      "not important",
+      "very important",
+      "huge",
+      "critical"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "integral",
+    "answer": "essential",
+    "definition": "Necessary for completeness.",
+    "options": [
+      "essential",
+      "optional",
+      "extra",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "interpret",
+    "answer": "to explain meaning",
+    "definition": "To understand or explain something.",
+    "options": [
+      "to explain meaning",
+      "to confuse",
+      "to hide",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "manipulate",
+    "answer": "to control skillfully",
+    "definition": "To handle or influence something.",
+    "options": [
+      "to control skillfully",
+      "to destroy",
+      "to ignore",
+      "to lose"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "mediate",
+    "answer": "to help resolve",
+    "definition": "To act between parties to resolve conflict.",
+    "options": [
+      "to help resolve",
+      "to cause conflict",
+      "to ignore",
+      "to start"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "notion",
+    "answer": "idea",
+    "definition": "A general belief or concept.",
+    "options": [
+      "idea",
+      "fact",
+      "rule",
+      "law"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "notable",
+    "answer": "important or worthy of attention",
+    "definition": "Something worth noticing because it stands out.",
+    "options": [
+      "important or worthy of attention",
+      "unimportant",
+      "hidden",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "objective",
+    "answer": "based on facts",
+    "definition": "Not influenced by emotions or opinions.",
+    "options": [
+      "based on facts",
+      "emotional",
+      "biased",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "obstruct",
+    "answer": "to block",
+    "definition": "To prevent movement or progress.",
+    "options": [
+      "to block",
+      "to help",
+      "to open",
+      "to build"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "obsolete",
+    "answer": "outdated",
+    "definition": "No longer in use or useful.",
+    "options": [
+      "outdated",
+      "modern",
+      "useful",
+      "new"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "omit",
+    "answer": "to leave out",
+    "definition": "To not include something.",
+    "options": [
+      "to leave out",
+      "to add",
+      "to create",
+      "to expand"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "oppress",
+    "answer": "to treat unfairly",
+    "definition": "To control people in a cruel way.",
+    "options": [
+      "to treat unfairly",
+      "to protect",
+      "to help",
+      "to free"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "optimize",
+    "answer": "to make the best use of",
+    "definition": "To improve efficiency or effectiveness.",
+    "options": [
+      "to make the best use of",
+      "to waste",
+      "to reduce",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "optional",
+    "answer": "not required",
+    "definition": "Something that can be chosen or not.",
+    "options": [
+      "not required",
+      "mandatory",
+      "necessary",
+      "forced"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "outcome",
+    "answer": "result",
+    "definition": "The final result of an action.",
+    "options": [
+      "result",
+      "cause",
+      "rule",
+      "option"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "overlap",
+    "answer": "to cover partly",
+    "definition": "To extend over and cover part of something else.",
+    "options": [
+      "to cover partly",
+      "to separate",
+      "to remove",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "paradox",
+    "answer": "contradiction",
+    "definition": "A situation that seems impossible or contradictory.",
+    "options": [
+      "contradiction",
+      "fact",
+      "rule",
+      "law"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "perceive",
+    "answer": "to notice or understand",
+    "definition": "To become aware of something.",
+    "options": [
+      "to notice or understand",
+      "to ignore",
+      "to create",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "periodic",
+    "answer": "occurring regularly",
+    "definition": "Happening at regular intervals.",
+    "options": [
+      "occurring regularly",
+      "random",
+      "rare",
+      "once only"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "persuade",
+    "answer": "to convince",
+    "definition": "To make someone believe or do something.",
+    "options": [
+      "to convince",
+      "to confuse",
+      "to ignore",
+      "to reject"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "precede",
+    "answer": "to come before",
+    "definition": "To happen earlier than something else.",
+    "options": [
+      "to come before",
+      "to come after",
+      "to stop",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "precise",
+    "answer": "exact",
+    "definition": "Very accurate and detailed.",
+    "options": [
+      "exact",
+      "vague",
+      "random",
+      "unclear"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "predominant",
+    "answer": "most common",
+    "definition": "The most important or frequent.",
+    "options": [
+      "most common",
+      "rare",
+      "hidden",
+      "weak"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "preliminary",
+    "answer": "initial",
+    "definition": "Happening before the main event.",
+    "options": [
+      "initial",
+      "final",
+      "optional",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "presume",
+    "answer": "to assume",
+    "definition": "To believe something without proof.",
+    "options": [
+      "to assume",
+      "to prove",
+      "to deny",
+      "to measure"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "profound",
+    "answer": "deep or meaningful",
+    "definition": "Having great depth or importance.",
+    "options": [
+      "deep or meaningful",
+      "shallow",
+      "simple",
+      "weak"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "prohibit",
+    "answer": "to forbid",
+    "definition": "To officially stop something.",
+    "options": [
+      "to forbid",
+      "to allow",
+      "to encourage",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "proportion",
+    "answer": "relation of parts",
+    "definition": "A comparative relationship between things.",
+    "options": [
+      "relation of parts",
+      "randomness",
+      "speed",
+      "weight"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "qualify",
+    "answer": "to meet requirements",
+    "definition": "To be eligible for something.",
+    "options": [
+      "to meet requirements",
+      "to fail",
+      "to ignore",
+      "to reject"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "random",
+    "answer": "without pattern",
+    "definition": "Happening without specific order.",
+    "options": [
+      "without pattern",
+      "organized",
+      "planned",
+      "fixed"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "refine",
+    "answer": "to improve",
+    "definition": "To make something better or purer.",
+    "options": [
+      "to improve",
+      "to destroy",
+      "to ignore",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "reject",
+    "answer": "to refuse",
+    "definition": "To not accept something.",
+    "options": [
+      "to refuse",
+      "to accept",
+      "to create",
+      "to approve"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "relevant",
+    "answer": "related and important",
+    "definition": "Closely connected to the topic.",
+    "options": [
+      "related and important",
+      "unrelated",
+      "useless",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "reluctant",
+    "answer": "unwilling",
+    "definition": "Not wanting to do something.",
+    "options": [
+      "unwilling",
+      "eager",
+      "excited",
+      "happy"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "resemble",
+    "answer": "to look like",
+    "definition": "To be similar in appearance.",
+    "options": [
+      "to look like",
+      "to differ",
+      "to hide",
+      "to change"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "resilient",
+    "answer": "able to recover quickly",
+    "definition": "Able to recover from difficulties.",
+    "options": [
+      "able to recover quickly",
+      "weak",
+      "fragile",
+      "broken"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "retain",
+    "answer": "to keep",
+    "definition": "To continue to have something.",
+    "options": [
+      "to keep",
+      "to lose",
+      "to forget",
+      "to remove"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "scrutinize",
+    "answer": "to examine closely",
+    "definition": "To inspect in detail.",
+    "options": [
+      "to examine closely",
+      "to ignore",
+      "to guess",
+      "to skip"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "substitute",
+    "answer": "replacement",
+    "definition": "Something used instead of another.",
+    "options": [
+      "replacement",
+      "original",
+      "cause",
+      "result"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "subtle",
+    "answer": "not obvious",
+    "definition": "Difficult to notice or detect.",
+    "options": [
+      "not obvious",
+      "very clear",
+      "loud",
+      "simple"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "sustain",
+    "answer": "to maintain",
+    "definition": "To keep something going.",
+    "options": [
+      "to maintain",
+      "to stop",
+      "to break",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "tangible",
+    "answer": "physical or real",
+    "definition": "Able to be touched or clearly real.",
+    "options": [
+      "physical or real",
+      "imaginary",
+      "hidden",
+      "abstract"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "terminate",
+    "answer": "to end",
+    "definition": "To bring something to an end.",
+    "options": [
+      "to end",
+      "to start",
+      "to continue",
+      "to expand"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "transform",
+    "answer": "to change completely",
+    "definition": "To change form or appearance.",
+    "options": [
+      "to change completely",
+      "to keep same",
+      "to hide",
+      "to destroy"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "transition",
+    "answer": "change from one state to another",
+    "definition": "The process of change.",
+    "options": [
+      "change from one state to another",
+      "stability",
+      "end",
+      "start only"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "ultimate",
+    "answer": "final or most important",
+    "definition": "The last or most significant.",
+    "options": [
+      "final or most important",
+      "first",
+      "random",
+      "weak"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "valid",
+    "answer": "legally or logically correct",
+    "definition": "Acceptable under rules or logic.",
+    "options": [
+      "legally or logically correct",
+      "false",
+      "invalid",
+      "wrong"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "verify",
+    "answer": "to confirm",
+    "definition": "To check truth or accuracy.",
+    "options": [
+      "to confirm",
+      "to guess",
+      "to ignore",
+      "to hide"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "viable",
+    "answer": "possible",
+    "definition": "Capable of working successfully.",
+    "options": [
+      "possible",
+      "impossible",
+      "useless",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "voluntary",
+    "answer": "done by choice",
+    "definition": "Not forced; done willingly.",
+    "options": [
+      "done by choice",
+      "forced",
+      "required",
+      "mandatory"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "abundant",
+    "answer": "plentiful",
+    "definition": "Existing in large quantities.",
+    "options": [
+      "plentiful",
+      "rare",
+      "small",
+      "limited"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "accelerate",
+    "answer": "to speed up",
+    "definition": "To increase speed or rate.",
+    "options": [
+      "to speed up",
+      "to slow down",
+      "to stop",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "accumulate",
+    "answer": "to gather over time",
+    "definition": "To build up gradually.",
+    "options": [
+      "to gather over time",
+      "to lose",
+      "to destroy",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "accurate",
+    "answer": "exact",
+    "definition": "Free from errors; precise.",
+    "options": [
+      "exact",
+      "wrong",
+      "unclear",
+      "approximate"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "acknowledge",
+    "answer": "to recognize",
+    "definition": "To accept or admit the truth of something.",
+    "options": [
+      "to recognize",
+      "to ignore",
+      "to hide",
+      "to deny"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "acquire",
+    "answer": "to obtain",
+    "definition": "To get or gain possession of something.",
+    "options": [
+      "to obtain",
+      "to lose",
+      "to break",
+      "to avoid"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "adequate",
+    "answer": "enough",
+    "definition": "Sufficient for a specific need.",
+    "options": [
+      "enough",
+      "insufficient",
+      "excessive",
+      "missing"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "allocate",
+    "answer": "to assign",
+    "definition": "To distribute for a specific purpose.",
+    "options": [
+      "to assign",
+      "to take away",
+      "to destroy",
+      "to mix"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "ambiguous",
+    "answer": "unclear",
+    "definition": "Having more than one meaning.",
+    "options": [
+      "unclear",
+      "obvious",
+      "simple",
+      "direct"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "analyze",
+    "answer": "to examine",
+    "definition": "To study something in detail.",
+    "options": [
+      "to examine",
+      "to ignore",
+      "to guess",
+      "to create"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "anticipate",
+    "answer": "to expect",
+    "definition": "To predict or look forward to.",
+    "options": [
+      "to expect",
+      "to forget",
+      "to reject",
+      "to avoid"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "arbitrary",
+    "answer": "random",
+    "definition": "Based on chance or personal choice.",
+    "options": [
+      "random",
+      "logical",
+      "fixed",
+      "planned"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "assess",
+    "answer": "to evaluate",
+    "definition": "To judge the value or quality of something.",
+    "options": [
+      "to evaluate",
+      "to ignore",
+      "to break",
+      "to guess"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "assume",
+    "answer": "to suppose",
+    "definition": "To take something as true without proof.",
+    "options": [
+      "to suppose",
+      "to prove",
+      "to deny",
+      "to calculate"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "bias",
+    "answer": "unfair preference",
+    "definition": "A tendency to favor one side unfairly.",
+    "options": [
+      "unfair preference",
+      "fairness",
+      "balance",
+      "logic"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "brief",
+    "answer": "short",
+    "definition": "Lasting a short time.",
+    "options": [
+      "short",
+      "long",
+      "detailed",
+      "complex"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "coincide",
+    "answer": "to happen at the same time",
+    "definition": "To occur simultaneously.",
+    "options": [
+      "to happen at the same time",
+      "to separate",
+      "to delay",
+      "to stop"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "collapse",
+    "answer": "to fall down",
+    "definition": "To suddenly fall or break down.",
+    "options": [
+      "to fall down",
+      "to build",
+      "to expand",
+      "to grow"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "commence",
+    "answer": "to begin",
+    "definition": "To start something.",
+    "options": [
+      "to begin",
+      "to end",
+      "to stop",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "compatible",
+    "answer": "able to work together",
+    "definition": "Capable of existing or functioning together.",
+    "options": [
+      "able to work together",
+      "incompatible",
+      "broken",
+      "separate"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "compensate",
+    "answer": "to make up for",
+    "definition": "To balance or repay for something.",
+    "options": [
+      "to make up for",
+      "to remove",
+      "to ignore",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "complex",
+    "answer": "complicated",
+    "definition": "Made up of many parts.",
+    "options": [
+      "complicated",
+      "simple",
+      "easy",
+      "basic"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "comprehensive",
+    "answer": "complete",
+    "definition": "Covering all or nearly all elements.",
+    "options": [
+      "complete",
+      "partial",
+      "small",
+      "weak"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "concede",
+    "answer": "to admit",
+    "definition": "To accept something reluctantly.",
+    "options": [
+      "to admit",
+      "to deny",
+      "to hide",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "concurrent",
+    "answer": "happening at the same time",
+    "definition": "Occurring simultaneously.",
+    "options": [
+      "happening at the same time",
+      "separate",
+      "delayed",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "confine",
+    "answer": "to restrict",
+    "definition": "To keep within limits.",
+    "options": [
+      "to restrict",
+      "to expand",
+      "to free",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "consequent",
+    "answer": "resulting",
+    "definition": "Following as a result.",
+    "options": [
+      "resulting",
+      "unrelated",
+      "random",
+      "before"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "consist",
+    "answer": "to be made of",
+    "definition": "To be composed of parts.",
+    "options": [
+      "to be made of",
+      "to destroy",
+      "to ignore",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "constraint",
+    "answer": "limitation",
+    "definition": "A restriction or control.",
+    "options": [
+      "limitation",
+      "freedom",
+      "expansion",
+      "increase"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "contemplate",
+    "answer": "to think deeply",
+    "definition": "To consider carefully.",
+    "options": [
+      "to think deeply",
+      "to ignore",
+      "to rush",
+      "to act"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "contradict",
+    "answer": "to oppose",
+    "definition": "To state the opposite.",
+    "options": [
+      "to oppose",
+      "to agree",
+      "to confirm",
+      "to support"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "convert",
+    "answer": "to change form",
+    "definition": "To transform something into another form.",
+    "options": [
+      "to change form",
+      "to destroy",
+      "to ignore",
+      "to keep same"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "decline",
+    "answer": "to decrease",
+    "definition": "To become smaller or less.",
+    "options": [
+      "to decrease",
+      "to increase",
+      "to grow",
+      "to expand"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "deduce",
+    "answer": "to conclude logically",
+    "definition": "To reach a conclusion from evidence.",
+    "options": [
+      "to conclude logically",
+      "to guess randomly",
+      "to ignore",
+      "to deny"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "deficient",
+    "answer": "lacking",
+    "definition": "Not having enough.",
+    "options": [
+      "lacking",
+      "complete",
+      "excessive",
+      "strong"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "demonstrate",
+    "answer": "to show",
+    "definition": "To make something clear by example.",
+    "options": [
+      "to show",
+      "to hide",
+      "to ignore",
+      "to confuse"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "derive",
+    "answer": "to originate from",
+    "definition": "To come from a source.",
+    "options": [
+      "to originate from",
+      "to lose",
+      "to destroy",
+      "to stop"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "detect",
+    "answer": "to discover",
+    "definition": "To find or notice something.",
+    "options": [
+      "to discover",
+      "to hide",
+      "to ignore",
+      "to remove"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "deviate",
+    "answer": "to go off course",
+    "definition": "To depart from a standard path.",
+    "options": [
+      "to go off course",
+      "to follow",
+      "to stay",
+      "to continue"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "eliminate",
+    "answer": "to remove",
+    "definition": "To get rid of something completely.",
+    "options": [
+      "to remove",
+      "to add",
+      "to create",
+      "to expand"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "emerge",
+    "answer": "to appear",
+    "definition": "To come into view.",
+    "options": [
+      "to appear",
+      "to hide",
+      "to disappear",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "enhance",
+    "answer": "to improve",
+    "definition": "To make better.",
+    "options": [
+      "to improve",
+      "to reduce",
+      "to destroy",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "equivalent",
+    "answer": "equal",
+    "definition": "Having the same value or effect.",
+    "options": [
+      "equal",
+      "different",
+      "greater",
+      "lesser"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "explicit",
+    "answer": "clear",
+    "definition": "Stated clearly and directly.",
+    "options": [
+      "clear",
+      "unclear",
+      "hidden",
+      "vague"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "facilitate",
+    "answer": "to make easier",
+    "definition": "To help a process go smoothly.",
+    "options": [
+      "to make easier",
+      "to complicate",
+      "to stop",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "feasible",
+    "answer": "possible",
+    "definition": "Able to be done.",
+    "options": [
+      "possible",
+      "impossible",
+      "useless",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "flexible",
+    "answer": "able to change",
+    "definition": "Capable of adapting easily.",
+    "options": [
+      "able to change",
+      "rigid",
+      "broken",
+      "fixed"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "generate",
+    "answer": "to produce",
+    "definition": "To create or cause something.",
+    "options": [
+      "to produce",
+      "to destroy",
+      "to hide",
+      "to stop"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "hypothesis",
+    "answer": "educated guess",
+    "definition": "A proposed explanation based on evidence.",
+    "options": [
+      "educated guess",
+      "fact",
+      "law",
+      "result"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "imminent",
+    "answer": "about to happen",
+    "definition": "Something likely to occur very soon.",
+    "options": [
+      "about to happen",
+      "far away",
+      "impossible",
+      "delayed"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "impact",
+    "answer": "effect",
+    "definition": "A strong influence or result.",
+    "options": [
+      "effect",
+      "cause",
+      "delay",
+      "option"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "implement",
+    "answer": "to put into action",
+    "definition": "To execute or carry out a plan.",
+    "options": [
+      "to put into action",
+      "to cancel",
+      "to ignore",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "implication",
+    "answer": "suggested meaning",
+    "definition": "Something implied but not directly stated.",
+    "options": [
+      "suggested meaning",
+      "clear statement",
+      "rule",
+      "fact"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "incentive",
+    "answer": "motivation",
+    "definition": "Something that encourages action.",
+    "options": [
+      "motivation",
+      "punishment",
+      "delay",
+      "result"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "incline",
+    "answer": "to lean or tend",
+    "definition": "To be likely or have a tendency.",
+    "options": [
+      "to lean or tend",
+      "to stop",
+      "to break",
+      "to hide"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "incorporate",
+    "answer": "to include",
+    "definition": "To combine or integrate parts.",
+    "options": [
+      "to include",
+      "to remove",
+      "to separate",
+      "to destroy"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "indicate",
+    "answer": "to show",
+    "definition": "To point out or signal.",
+    "options": [
+      "to show",
+      "to hide",
+      "to remove",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "inevitable",
+    "answer": "unavoidable",
+    "definition": "Certain to happen.",
+    "options": [
+      "unavoidable",
+      "avoidable",
+      "rare",
+      "optional"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "inferior",
+    "answer": "lower in quality",
+    "definition": "Not as good as something else.",
+    "options": [
+      "lower in quality",
+      "better",
+      "equal",
+      "perfect"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "inhibit",
+    "answer": "to restrain",
+    "definition": "To prevent or slow something down.",
+    "options": [
+      "to restrain",
+      "to allow",
+      "to increase",
+      "to support"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "initiate",
+    "answer": "to begin",
+    "definition": "To start something.",
+    "options": [
+      "to begin",
+      "to end",
+      "to delay",
+      "to stop"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "innovate",
+    "answer": "to create new ideas",
+    "definition": "To introduce new methods or ideas.",
+    "options": [
+      "to create new ideas",
+      "to copy",
+      "to repeat",
+      "to destroy"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "insight",
+    "answer": "deep understanding",
+    "definition": "A clear understanding of something complex.",
+    "options": [
+      "deep understanding",
+      "confusion",
+      "ignorance",
+      "delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "integrate",
+    "answer": "to combine",
+    "definition": "To bring together parts into a whole.",
+    "options": [
+      "to combine",
+      "to separate",
+      "to break",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "interfere",
+    "answer": "to get in the way",
+    "definition": "To prevent something from working smoothly.",
+    "options": [
+      "to get in the way",
+      "to help",
+      "to support",
+      "to fix"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "interpret",
+    "answer": "to explain meaning",
+    "definition": "To understand or translate meaning.",
+    "options": [
+      "to explain meaning",
+      "to ignore",
+      "to hide",
+      "to confuse"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "isolate",
+    "answer": "to separate",
+    "definition": "To set apart from others.",
+    "options": [
+      "to separate",
+      "to connect",
+      "to include",
+      "to combine"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "justify",
+    "answer": "to prove right",
+    "definition": "To show something is reasonable.",
+    "options": [
+      "to prove right",
+      "to hide",
+      "to ignore",
+      "to deny"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "levy",
+    "answer": "to impose (tax or fee)",
+    "definition": "To officially charge a tax or fee.",
+    "options": [
+      "to impose (tax or fee)",
+      "to remove",
+      "to ignore",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "maintain",
+    "answer": "to keep",
+    "definition": "To continue or preserve.",
+    "options": [
+      "to keep",
+      "to destroy",
+      "to lose",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "mitigate",
+    "answer": "to reduce severity",
+    "definition": "To make something less harmful.",
+    "options": [
+      "to reduce severity",
+      "to increase",
+      "to create",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "modify",
+    "answer": "to change slightly",
+    "definition": "To make small adjustments.",
+    "options": [
+      "to change slightly",
+      "to destroy",
+      "to ignore",
+      "to create"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "notion",
+    "answer": "idea",
+    "definition": "A general concept or belief.",
+    "options": [
+      "idea",
+      "fact",
+      "law",
+      "rule"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "obtain",
+    "answer": "to get",
+    "definition": "To acquire or gain something.",
+    "options": [
+      "to get",
+      "to lose",
+      "to hide",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "offset",
+    "answer": "to counterbalance",
+    "definition": "To compensate for something.",
+    "options": [
+      "to counterbalance",
+      "to increase",
+      "to ignore",
+      "to start"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "ongoing",
+    "answer": "continuing",
+    "definition": "Still in progress.",
+    "options": [
+      "continuing",
+      "finished",
+      "stopped",
+      "delayed"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "outsource",
+    "answer": "to contract outside",
+    "definition": "To assign work to external groups.",
+    "options": [
+      "to contract outside",
+      "to keep inside",
+      "to destroy",
+      "to cancel"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "overcome",
+    "answer": "to defeat",
+    "definition": "To successfully deal with a problem.",
+    "options": [
+      "to defeat",
+      "to fail",
+      "to ignore",
+      "to avoid"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "overlap",
+    "answer": "to cover partly",
+    "definition": "To extend over something else.",
+    "options": [
+      "to cover partly",
+      "to separate",
+      "to break",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "parameter",
+    "answer": "limit or boundary",
+    "definition": "A defining boundary or rule.",
+    "options": [
+      "limit or boundary",
+      "freedom",
+      "randomness",
+      "result"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "perceive",
+    "answer": "to notice",
+    "definition": "To become aware of something.",
+    "options": [
+      "to notice",
+      "to ignore",
+      "to create",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "persistent",
+    "answer": "continuing firmly",
+    "definition": "Not giving up easily.",
+    "options": [
+      "continuing firmly",
+      "giving up",
+      "lazy",
+      "random"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "precede",
+    "answer": "to come before",
+    "definition": "To happen earlier.",
+    "options": [
+      "to come before",
+      "to come after",
+      "to stop",
+      "to delay"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "predict",
+    "answer": "to forecast",
+    "definition": "To say what will happen in the future.",
+    "options": [
+      "to forecast",
+      "to ignore",
+      "to hide",
+      "to break"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "presume",
+    "answer": "to assume",
+    "definition": "To take something as true without proof.",
+    "options": [
+      "to assume",
+      "to prove",
+      "to deny",
+      "to calculate"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "prohibit",
+    "answer": "to forbid",
+    "definition": "To officially stop something.",
+    "options": [
+      "to forbid",
+      "to allow",
+      "to encourage",
+      "to create"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "promote",
+    "answer": "to support or advance",
+    "definition": "To help something grow or increase.",
+    "options": [
+      "to support or advance",
+      "to stop",
+      "to reduce",
+      "to hide"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "proportion",
+    "answer": "relation of parts",
+    "definition": "A comparative relationship.",
+    "options": [
+      "relation of parts",
+      "randomness",
+      "speed",
+      "weight"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "reconcile",
+    "answer": "to restore harmony",
+    "definition": "To bring into agreement.",
+    "options": [
+      "to restore harmony",
+      "to separate",
+      "to fight",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "refine",
+    "answer": "to improve",
+    "definition": "To make something better or purer.",
+    "options": [
+      "to improve",
+      "to destroy",
+      "to ignore",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "reinforce",
+    "answer": "to strengthen",
+    "definition": "To make something stronger.",
+    "options": [
+      "to strengthen",
+      "to weaken",
+      "to remove",
+      "to ignore"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "reluctant",
+    "answer": "unwilling",
+    "definition": "Not wanting to do something.",
+    "options": [
+      "unwilling",
+      "eager",
+      "happy",
+      "excited"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "remove",
+    "answer": "to take away",
+    "definition": "To eliminate something.",
+    "options": [
+      "to take away",
+      "to add",
+      "to build",
+      "to create"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "require",
+    "answer": "to need",
+    "definition": "To make something necessary.",
+    "options": [
+      "to need",
+      "to ignore",
+      "to remove",
+      "to cancel"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "resist",
+    "answer": "to oppose",
+    "definition": "To fight against something.",
+    "options": [
+      "to oppose",
+      "to accept",
+      "to support",
+      "to allow"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "restrict",
+    "answer": "to limit",
+    "definition": "To control or reduce.",
+    "options": [
+      "to limit",
+      "to expand",
+      "to increase",
+      "to free"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "sustain",
+    "answer": "to maintain",
+    "definition": "To keep something going.",
+    "options": [
+      "to maintain",
+      "to stop",
+      "to break",
+      "to reduce"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "word": "terminate",
+    "answer": "to end",
+    "definition": "To bring something to an end.",
+    "options": [
+      "to end",
+      "to start",
+      "to continue",
+      "to expand"
+    ],
+    "source": "Official Material"
+  },
+  {
+    "source": "Official Material",
+    "word": "abhor",
+    "answer": "despise",
+    "definition": "To regard with disgust and hatred.",
+    "options": [
+      "admire",
+      "despise",
+      "ignore",
+      "defend",
+      "encourage"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "acquiescence",
+    "answer": "agreement",
+    "definition": "The reluctant acceptance of something without protest.",
+    "options": [
+      "refusal",
+      "confusion",
+      "agreement",
+      "rebellion",
+      "punishment"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "adage",
+    "answer": "proverb",
+    "definition": "A short, memorable saying that expresses a general truth.",
+    "options": [
+      "proverb",
+      "rumor",
+      "joke",
+      "command",
+      "excuse"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "amalgamation",
+    "answer": "combination",
+    "definition": "The process of combining or uniting multiple things.",
+    "options": [
+      "separation",
+      "combination",
+      "argument",
+      "inspection",
+      "cancellation"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "bodacious",
+    "answer": "bold",
+    "definition": "Bold, confident, and uninhibited.",
+    "options": [
+      "timid",
+      "reckless",
+      "weak",
+      "bold",
+      "fearful"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "bombastic",
+    "answer": "loud and exaggerated",
+    "definition": "High-sounding but with little meaning; pompous.",
+    "options": [
+      "humble",
+      "dull",
+      "loud and exaggerated",
+      "sincere",
+      "nervous"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "crevasse",
+    "answer": "cliffside crack",
+    "definition": "A deep open crack in a glacier or cliff face.",
+    "options": [
+      "bridge",
+      "cliffside crack",
+      "riverbank",
+      "forest",
+      "pathway"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "cynical",
+    "answer": "doubtful",
+    "definition": "Believing that people are motivated by self-interest; distrustful.",
+    "options": [
+      "trusting",
+      "careless",
+      "excited",
+      "cheerful",
+      "doubtful"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "demurral",
+    "answer": "hesitation",
+    "definition": "The act of hesitating or raising objections.",
+    "options": [
+      "approval",
+      "confidence",
+      "celebration",
+      "hesitation",
+      "enthusiasm"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "dossier",
+    "answer": "collection of documents",
+    "definition": "A set of documents about a particular person or event.",
+    "options": [
+      "map",
+      "schedule",
+      "collection of documents",
+      "uniform",
+      "command"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "eclectic",
+    "answer": "diverse",
+    "definition": "Deriving ideas or style from a broad range of sources.",
+    "options": [
+      "diverse",
+      "repetitive",
+      "limited",
+      "boring",
+      "outdated"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "effulgence",
+    "answer": "brilliance",
+    "definition": "A brilliant radiance or shining quality.",
+    "options": [
+      "darkness",
+      "shadow",
+      "silence",
+      "confusion",
+      "brilliance"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "effusive",
+    "answer": "enthusiastic",
+    "definition": "Expressing feelings or praise in an unrestrained way.",
+    "options": [
+      "unemotional",
+      "enthusiastic",
+      "brief",
+      "sarcastic",
+      "angry"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "eminent",
+    "answer": "highly esteemed",
+    "definition": "Famous and respected within a particular field.",
+    "options": [
+      "inexperienced",
+      "ordinary",
+      "highly esteemed",
+      "careless",
+      "uncertain"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "ensconce",
+    "answer": "hide comfortably",
+    "definition": "To settle or hide in a comfortable, safe place.",
+    "options": [
+      "expose",
+      "challenge",
+      "abandon",
+      "hide comfortably",
+      "investigate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "erudite",
+    "answer": "scholarly",
+    "definition": "Having great knowledge or learning.",
+    "options": [
+      "scholarly",
+      "confusing",
+      "careless",
+      "humorous",
+      "emotional"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "fortuitous",
+    "answer": "accidental and fortunate",
+    "definition": "Happening by chance in a lucky way.",
+    "options": [
+      "unlucky",
+      "accidental and fortunate",
+      "intentional",
+      "predictable",
+      "unnecessary"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "gaudy",
+    "answer": "flashy",
+    "definition": "Extravagantly bright or showy.",
+    "options": [
+      "plain",
+      "tasteful",
+      "flashy",
+      "broken",
+      "valuable"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "hankering",
+    "answer": "desire",
+    "definition": "A strong, persistent longing or desire.",
+    "options": [
+      "dislike",
+      "memory",
+      "desire",
+      "fear",
+      "complaint"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "hypocrisy",
+    "answer": "contradiction between words and actions",
+    "definition": "The practice of claiming to have moral standards one does not actually follow.",
+    "options": [
+      "sincerity",
+      "contradiction between words and actions",
+      "bravery",
+      "leadership",
+      "loyalty"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "impetuous",
+    "answer": "rash",
+    "definition": "Acting quickly without thought or care.",
+    "options": [
+      "thoughtful",
+      "rash",
+      "cautious",
+      "delayed",
+      "planned"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "incisive",
+    "answer": "sharp or insightful",
+    "definition": "Intelligently analytical and clear-thinking.",
+    "options": [
+      "dull",
+      "sharp or insightful",
+      "confused",
+      "slow",
+      "forgetful"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "lewd",
+    "answer": "crude",
+    "definition": "Crude and offensive in a sexual way.",
+    "options": [
+      "polite",
+      "crude",
+      "respectful",
+      "confusing",
+      "humorous"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "meticulous",
+    "answer": "precise",
+    "definition": "Showing great attention to detail; very careful.",
+    "options": [
+      "careless",
+      "precise",
+      "slow",
+      "confused",
+      "generous"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "moratorium",
+    "answer": "delay or suspension",
+    "definition": "A temporary suspension of activity.",
+    "options": [
+      "acceleration",
+      "delay or suspension",
+      "creation",
+      "celebration",
+      "approval"
+    ]
+  }
+]
