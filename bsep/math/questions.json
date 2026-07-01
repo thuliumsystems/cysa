@@ -10,7 +10,7 @@
       "$700",
       "$800"
     ],
-    "definition": "\\(\\textbf{Concept: Percentage of a number.}\\) \\(25\\% = \\frac{25}{100} = \\frac{1}{4}\\). To find \\(25\\%\\) of \\(\\$2,\\!400\\): multiply \\(2,\\!400 \\times 0.25 = 600\\) or divide by 4: \\(2,\\!400 \\div 4 = \\$600\\).",
+    "definition": "\\(\\textbf{Concept: Percentage of a number.}\\) \\(25\\% = \\frac{25}{100} = \\frac{1}{4}\\). To find \\(25\\%\\) of \\(\\$2,\\!400\\): multiply \\(2,\\!400 \\times 0.25 = 600\\) or divide by 4: \\(2,\\!400 / 4 = \\$600\\).",
     "word": ""
   },
   {
@@ -24,7 +24,7 @@
       "60 mph",
       "65 mph"
     ],
-    "definition": "\\(\\textbf{Concept: Average speed.}\\) Formula: \\(v = \\dfrac{d}{t}\\). Here, \\(d = 180\\) miles, \\(t = 3\\) hours. So \\(v = \\dfrac{180}{3} = 60\\) mph.",
+    "definition": "\\(\\textbf{Concept: Average speed.}\\) Formula: \\(s = \\dfrac{d}{t}\\) where \\(s\\) = speed, \\(d\\) = distance, \\(t\\) = time. Here \\(d = 180\\) miles, \\(t = 3\\) hours. So \\(s = \\dfrac{180}{3} = 60\\) mph.",
     "word": ""
   },
   {
@@ -38,7 +38,7 @@
       "12",
       "14"
     ],
-    "definition": "\\(\\textbf{Concept: Fraction of a whole.}\\) \\(\\dfrac{3}{4}\\) of 16 means multiply: \\(16 \\times \\dfrac{3}{4} = \\dfrac{48}{4} = 12\\) miles. Or: \\((16 \\div 4) \\times 3 = 4 \\times 3 = 12\\).",
+    "definition": "\\(\\textbf{Concept: Fraction of a whole.}\\) \\(\\dfrac{3}{4}\\) of 16 means multiply: \\(16 \\times \\dfrac{3}{4} = \\dfrac{48}{4} = 12\\) miles. Or: \\((16 / 4) \\times 3 = 4 \\times 3 = 12\\).",
     "word": ""
   },
   {
@@ -52,7 +52,7 @@
       "75%",
       "91%"
     ],
-    "definition": "\\(\\textbf{Concept: Percentage of remainder.}\\) Total = 48, issued = 16, so remaining = \\(48 - 16 = 32\\) boxes. 32 out of 48 means \\(32 \\div 48 = 0.666\\ldots \\approx 67\\%\\).",
+    "definition": "\\(\\textbf{Concept: Percentage of remainder.}\\) Total = 48, issued = 16, so remaining = \\(48 - 16 = 32\\) boxes. 32 out of 48 means \\(32 / 48 = 0.666\\ldots \\approx 67\\%\\).",
     "word": ""
   },
   {
@@ -80,7 +80,7 @@
       "0.84",
       "0.94"
     ],
-    "definition": "\\(\\textbf{Concept: Fraction to decimal.}\\) \\(\\dfrac{84}{100} = 84 \\div 100 = 0.84\\). Move the decimal point two places to the left: \\(84. \\rightarrow 0.84\\).",
+    "definition": "\\(\\textbf{Concept: Fraction to decimal.}\\) \\(\\dfrac{84}{100} = 84 / 100 = 0.84\\). Move the decimal point two places to the left: \\(84. \\rightarrow 0.84\\).",
     "word": ""
   },
   {
@@ -150,7 +150,7 @@
       "5",
       "6"
     ],
-    "definition": "\\(\\textbf{Concept: Fraction of a group.}\\) \\(\\dfrac{1}{3}\\) of \\(12 = 12 \\div 3 = 4\\) soldiers.",
+    "definition": "\\(\\textbf{Concept: Fraction of a group.}\\) \\(\\dfrac{1}{3}\\) of \\(12 = 12 / 3 = 4\\) soldiers.",
     "word": ""
   },
   {
@@ -164,7 +164,7 @@
       "7",
       "8"
     ],
-    "definition": "\\(\\textbf{Concept: Division (equal groups).}\\) Total length = 150 ft, each piece = 25 ft. Number of pieces: \\(150 \\div 25 = 6\\).",
+    "definition": "\\(\\textbf{Concept: Division (equal groups).}\\) Total length = 150 ft, each piece = 25 ft. Number of pieces: \\(150 / 25 = 6\\).",
     "word": ""
   },
   {
@@ -192,7 +192,7 @@
       "16",
       "17"
     ],
-    "definition": "\\(\\textbf{Concept: Division (how many groups).}\\) Total gallons = 240, per container = 15. Containers needed: \\(240 \\div 15 = 16\\).",
+    "definition": "\\(\\textbf{Concept: Division (how many groups).}\\) Total gallons = 240, per container = 15. Containers needed: \\(240 / 15 = 16\\).",
     "word": ""
   },
   {
@@ -248,7 +248,7 @@
       "80 mph",
       "90 mph"
     ],
-    "definition": "\\(\\textbf{Concept: Average speed with decimals.}\\) \\(v = \\dfrac{360}{4.5}\\). Multiply numerator and denominator by 10: \\(\\dfrac{3600}{45} = 80\\) mph.",
+    "definition": "\\(\\textbf{Concept: Average speed with decimals.}\\) \\(s = \\dfrac{360}{4.5}\\). Multiply top and bottom by 10: \\(\\dfrac{3600}{45} = 80\\) mph.",
     "word": ""
   },
   {
@@ -262,7 +262,7 @@
       "275",
       "300"
     ],
-    "definition": "\\(\\textbf{Concept: Fraction of a total.}\\) \\(\\dfrac{5}{8}\\) of 400 = \\((400 \\div 8) \\times 5 = 50 \\times 5 = 250\\) gallons.",
+    "definition": "\\(\\textbf{Concept: Fraction of a total.}\\) \\(\\dfrac{5}{8}\\) of 400 = \\((400 / 8) \\times 5 = 50 \\times 5 = 250\\) gallons.",
     "word": ""
   },
   {
@@ -318,7 +318,7 @@
       "3 mph",
       "4 mph"
     ],
-    "definition": "\\(\\textbf{Concept: Average speed.}\\) \\(v = \\dfrac{12}{4} = 3\\) mph.",
+    "definition": "\\(\\textbf{Concept: Average speed.}\\) \\(s = \\dfrac{12}{4} = 3\\) mph.",
     "word": ""
   },
   {
@@ -360,7 +360,7 @@
       "324 sq ft",
       "648 sq ft"
     ],
-    "definition": "\\(\\textbf{Concept: Area of a square.}\\) Formula: \\(A = s^2\\). Side = 18 ft, so \\(A = 18^2 = 324\\) square feet.",
+    "definition": "\\(\\textbf{Concept: Area of a square.}\\) Formula: \\(A = s^2\\) where \\(A\\) = area, \\(s\\) = side. Side = 18 ft, so \\(A = 18^2 = 324\\) square feet.",
     "word": ""
   },
   {
@@ -374,7 +374,7 @@
       "96 ft",
       "78 ft"
     ],
-    "definition": "\\(\\textbf{Concept: Perimeter of a rectangle.}\\) Formula: \\(P = 2(l + w)\\). \\(l = 24\\), \\(w = 15\\). \\(P = 2(24 + 15) = 2 \\times 39 = 78\\) feet.",
+    "definition": "\\(\\textbf{Concept: Perimeter of a rectangle.}\\) Formula: \\(P = 2(l + w)\\) where \\(P\\) = perimeter, \\(l\\) = length, \\(w\\) = width. \\(l = 24\\), \\(w = 15\\). \\(P = 2(24 + 15) = 2 \\times 39 = 78\\) feet.",
     "word": ""
   },
   {
@@ -388,7 +388,7 @@
       "49.28 m",
       "153.86 m"
     ],
-    "definition": "\\(\\textbf{Concept: Circumference of a circle.}\\) Formula: \\(C = 2\\pi r\\). \\(r = 7\\) m, \\(\\pi = 3.14\\). \\(C = 2 \\times 3.14 \\times 7 = 43.96\\) meters.",
+    "definition": "\\(\\textbf{Concept: Circumference of a circle.}\\) Formula: \\(C = 2\\pi r\\) where \\(C\\) = circumference, \\(r\\) = radius. \\(r = 7\\) m, \\(\\pi = 3.14\\). \\(C = 2 \\times 3.14 \\times 7 = 43.96\\) meters.",
     "word": ""
   },
   {
@@ -402,7 +402,7 @@
       "120 sq in",
       "240 sq in"
     ],
-    "definition": "\\(\\textbf{Concept: Area of a triangle.}\\) Formula: \\(A = \\dfrac{b \\times h}{2}\\). \\(b = 12\\), \\(h = 10\\). \\(A = \\dfrac{12 \\times 10}{2} = \\dfrac{120}{2} = 60\\) square inches.",
+    "definition": "\\(\\textbf{Concept: Area of a triangle.}\\) Formula: \\(A = \\dfrac{b \\times h}{2}\\) where \\(A\\) = area, \\(b\\) = base, \\(h\\) = height. \\(b = 12\\), \\(h = 10\\). \\(A = \\dfrac{12 \\times 10}{2} = \\dfrac{120}{2} = 60\\) square inches.",
     "word": ""
   },
   {
@@ -416,7 +416,7 @@
       "628 sq yd",
       "1256 sq yd"
     ],
-    "definition": "\\(\\textbf{Concept: Area of a circle.}\\) Formula: \\(A = \\pi r^2\\). Diameter = 20 yd, so \\(r = 20 \\div 2 = 10\\). \\(A = 3.14 \\times 10^2 = 3.14 \\times 100 = 314\\) square yards.",
+    "definition": "\\(\\textbf{Concept: Area of a circle.}\\) Formula: \\(A = \\pi r^2\\) where \\(A\\) = area, \\(r\\) = radius. Diameter = 20 yd, so \\(r = 20 / 2 = 10\\). \\(A = 3.14 \\times 10^2 = 3.14 \\times 100 = 314\\) square yards.",
     "word": ""
   },
   {
@@ -458,7 +458,7 @@
       "$22,000",
       "$25,000"
     ],
-    "definition": "\\(\\textbf{Concept: Finding the whole from a percentage.}\\) If 30% = \\(6,\\!000\\), then 1% = \\(6,\\!000 \\div 30 = 200\\), and 100% = \\(200 \\times 100 = \\$20,\\!000\\).",
+    "definition": "\\(\\textbf{Concept: Finding the whole from a percentage.}\\) If 30% = \\(6,\\!000\\), then 1% = \\(6,\\!000 / 30 = 200\\), and 100% = \\(200 \\times 100 = \\$20,\\!000\\).",
     "word": ""
   },
   {
@@ -570,7 +570,7 @@
       "86",
       "88"
     ],
-    "definition": "\\(\\textbf{Concept: Average (mean).}\\) Sum = \\(78 + 82 + 85 + 91 = 336\\). Average = \\(336 \\div 4 = 84\\).",
+    "definition": "\\(\\textbf{Concept: Average (mean).}\\) Sum = \\(78 + 82 + 85 + 91 = 336\\). Average = \\(336 / 4 = 84\\).",
     "word": ""
   },
   {
@@ -584,7 +584,7 @@
       "135",
       "140"
     ],
-    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(120 + 140 + 110 + 130 + 150 = 650\\). Average = \\(650 \\div 5 = 130\\) pounds.",
+    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(120 + 140 + 110 + 130 + 150 = 650\\). Average = \\(650 / 5 = 130\\) pounds.",
     "word": ""
   },
   {
@@ -598,7 +598,7 @@
       "8",
       "9"
     ],
-    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(5 + 7 + 6 = 18\\). Average = \\(18 \\div 3 = 6\\) miles per day.",
+    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(5 + 7 + 6 = 18\\). Average = \\(18 / 3 = 6\\) miles per day.",
     "word": ""
   },
   {
@@ -612,7 +612,7 @@
       "70",
       "72"
     ],
-    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(62 + 68 + 71 + 65 + 74 = 340\\). Average = \\(340 \\div 5 = 68^{\\circ}\\).",
+    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(62 + 68 + 71 + 65 + 74 = 340\\). Average = \\(340 / 5 = 68^{\\circ}\\).",
     "word": ""
   },
   {
@@ -626,7 +626,7 @@
       "105",
       "110"
     ],
-    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(90 + 110 + 95 + 105 = 400\\). Average = \\(400 \\div 4 = 100\\) rounds.",
+    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(90 + 110 + 95 + 105 = 400\\). Average = \\(400 / 4 = 100\\) rounds.",
     "word": ""
   },
   {
@@ -640,7 +640,7 @@
       "45 mph",
       "50 mph"
     ],
-    "definition": "\\(\\textbf{Concept: Average speed.}\\) \\(v = \\dfrac{240}{6} = 40\\) mph.",
+    "definition": "\\(\\textbf{Concept: Average speed.}\\) \\(s = \\dfrac{240}{6} = 40\\) mph.",
     "word": ""
   },
   {
@@ -654,7 +654,7 @@
       "400 mi",
       "425 mi"
     ],
-    "definition": "\\(\\textbf{Concept: Distance = rate × time.}\\) \\(d = 150 \\times 2.5 = 375\\) miles.",
+    "definition": "\\(\\textbf{Concept: Distance = rate × time.}\\) Formula: \\(d = r \\times t\\) where \\(d\\) = distance, \\(r\\) = rate, \\(t\\) = time. \\(d = 150 \\times 2.5 = 375\\) miles.",
     "word": ""
   },
   {
@@ -668,7 +668,7 @@
       "7",
       "8"
     ],
-    "definition": "\\(\\textbf{Concept: Time = distance ÷ speed.}\\) \\(t = 300 \\div 50 = 6\\) hours.",
+    "definition": "\\(\\textbf{Concept: Time from speed and distance.}\\) Formula: \\(t = \\dfrac{d}{s}\\) where \\(t\\) = time, \\(d\\) = distance, \\(s\\) = speed. \\(t = 300 / 50 = 6\\) hours.",
     "word": ""
   },
   {
@@ -682,7 +682,7 @@
       "3.5 mph",
       "4 mph"
     ],
-    "definition": "\\(\\textbf{Concept: Speed conversion.}\\) 40 min = \\(\\dfrac{2}{3}\\) hour. \\(v = \\dfrac{2}{2/3} = 2 \\times \\dfrac{3}{2} = 3\\) mph.",
+    "definition": "\\(\\textbf{Concept: Speed conversion.}\\) 40 min = \\(\\dfrac{2}{3}\\) hour. \\(s = \\dfrac{2}{2/3} = 2 \\times \\dfrac{3}{2} = 3\\) mph.",
     "word": ""
   },
   {
@@ -696,7 +696,7 @@
       "450 mph",
       "500 mph"
     ],
-    "definition": "\\(\\textbf{Concept: Average speed.}\\) \\(v = \\dfrac{1,\\!200}{3} = 400\\) mph.",
+    "definition": "\\(\\textbf{Concept: Average speed.}\\) \\(s = \\dfrac{1,\\!200}{3} = 400\\) mph.",
     "word": ""
   },
   {
@@ -710,7 +710,7 @@
       "10",
       "12"
     ],
-    "definition": "\\(\\textbf{Concept: Fraction of a group.}\\) \\(\\dfrac{1}{2} \\times 16 = 16 \\div 2 = 8\\) soldiers.",
+    "definition": "\\(\\textbf{Concept: Fraction of a group.}\\) \\(\\dfrac{1}{2} \\times 16 = 16 / 2 = 8\\) soldiers.",
     "word": ""
   },
   {
@@ -724,7 +724,7 @@
       "13",
       "14"
     ],
-    "definition": "\\(\\textbf{Concept: Fraction of a distance.}\\) \\(\\dfrac{2}{3} \\times 15 = (15 \\div 3) \\times 2 = 5 \\times 2 = 10\\) miles.",
+    "definition": "\\(\\textbf{Concept: Fraction of a distance.}\\) \\(\\dfrac{2}{3} \\times 15 = (15 / 3) \\times 2 = 5 \\times 2 = 10\\) miles.",
     "word": ""
   },
   {
@@ -738,7 +738,7 @@
       "12",
       "15"
     ],
-    "definition": "\\(\\textbf{Concept: Fraction of a total.}\\) \\(\\dfrac{3}{8} \\times 24 = (24 \\div 8) \\times 3 = 3 \\times 3 = 9\\) rooms.",
+    "definition": "\\(\\textbf{Concept: Fraction of a total.}\\) \\(\\dfrac{3}{8} \\times 24 = (24 / 8) \\times 3 = 3 \\times 3 = 9\\) rooms.",
     "word": ""
   },
   {
@@ -766,7 +766,7 @@
       "10",
       "12"
     ],
-    "definition": "\\(\\textbf{Concept: Fraction of a whole.}\\) \\(\\dfrac{2}{5} \\times 20 = (20 \\div 5) \\times 2 = 4 \\times 2 = 8\\) inches.",
+    "definition": "\\(\\textbf{Concept: Fraction of a whole.}\\) \\(\\dfrac{2}{5} \\times 20 = (20 / 5) \\times 2 = 4 \\times 2 = 8\\) inches.",
     "word": ""
   },
   {
@@ -878,7 +878,7 @@
       "33",
       "36"
     ],
-    "definition": "\\(\\textbf{Concept: Division (equal groups).}\\) \\(360 \\div 12 = 30\\) boxes per unit.",
+    "definition": "\\(\\textbf{Concept: Division (equal groups).}\\) \\(360 / 12 = 30\\) boxes per unit.",
     "word": ""
   },
   {
@@ -892,7 +892,7 @@
       "35",
       "40"
     ],
-    "definition": "\\(\\textbf{Concept: Division (rate).}\\) \\(240 \\div 8 = 30\\) minutes.",
+    "definition": "\\(\\textbf{Concept: Division (rate).}\\) \\(240 / 8 = 30\\) minutes.",
     "word": ""
   },
   {
@@ -920,7 +920,7 @@
       "195",
       "210"
     ],
-    "definition": "\\(\\textbf{Concept: Ratio.}\\) \\(\\frac{\\text{enlisted}}{\\text{officers}} = \\frac{15}{1} \\times 12 = 180\\).",
+    "definition": "\\(\\textbf{Concept: Ratio.}\\) Ratio officers:enlisted = 1:15. For 12 officers: enlisted = \\(12 \\times 15 = 180\\).",
     "word": ""
   },
   {
@@ -934,7 +934,7 @@
       "250,000 cm",
       "500,000 cm"
     ],
-    "definition": "\\(\\textbf{Concept: Map scale.}\\) \\(4 \\times 50,\\!000 = 200,\\!000\\) cm (2 km).",
+    "definition": "\\(\\textbf{Concept: Map scale.}\\) Scale 1:50,000 means 1 cm on map = 50,000 cm real. For 4 cm: \\(4 \\times 50,\\!000 = 200,\\!000\\) cm (2 km).",
     "word": ""
   },
   {
@@ -948,7 +948,7 @@
       "18",
       "20"
     ],
-    "definition": "\\(\\textbf{Concept: Proportion.}\\) \\(\\dfrac{6}{4} = \\dfrac{x}{10}\\). \\(x = \\dfrac{6 \\times 10}{4} = 15\\) cups.",
+    "definition": "\\(\\textbf{Concept: Proportion.}\\) \\(\\dfrac{6}{4} = \\dfrac{x}{10}\\). Cross-multiply: \\(6 \\times 10 = 4 \\times x\\). So \\(x = \\dfrac{6 \\times 10}{4} = 15\\) cups.",
     "word": ""
   },
   {
@@ -962,7 +962,7 @@
       "22",
       "24"
     ],
-    "definition": "\\(\\textbf{Concept: Direct proportion.}\\) Rate per medic = \\(12 \\div 3 = 4\\). \\(5 \\times 4 = 20\\) patients.",
+    "definition": "\\(\\textbf{Concept: Direct proportion.}\\) Rate per medic = \\(12 / 3 = 4\\) patients per hour. For 5 medics: \\(5 \\times 4 = 20\\) patients.",
     "word": ""
   },
   {
@@ -976,7 +976,7 @@
       "16",
       "18"
     ],
-    "definition": "\\(\\textbf{Concept: Proportion (fuel economy).}\\) \\(\\dfrac{4}{100} = \\dfrac{x}{350}\\). \\(x = \\dfrac{4 \\times 350}{100} = 14\\) gallons.",
+    "definition": "\\(\\textbf{Concept: Proportion (fuel economy).}\\) \\(\\dfrac{4}{100} = \\dfrac{x}{350}\\). Cross-multiply: \\(4 \\times 350 = 100 \\times x\\). So \\(x = \\dfrac{4 \\times 350}{100} = 14\\) gallons.",
     "word": ""
   },
   {
@@ -990,7 +990,7 @@
       "1,600 sq yd",
       "1,800 sq yd"
     ],
-    "definition": "\\(\\textbf{Concept: Area of a rectangle.}\\) \\(A = l \\times w = 50 \\times 30 = 1,\\!500\\) square yards.",
+    "definition": "\\(\\textbf{Concept: Area of a rectangle.}\\) Formula: \\(A = l \\times w\\) where \\(A\\) = area, \\(l\\) = length, \\(w\\) = width. \\(l = 50\\), \\(w = 30\\). \\(A = 50 \\times 30 = 1,\\!500\\) square yards.",
     "word": ""
   },
   {
@@ -1004,7 +1004,7 @@
       "156 sq ft",
       "168 sq ft"
     ],
-    "definition": "\\(\\textbf{Concept: Area of a square.}\\) \\(A = s^2 = 12^2 = 144\\) square feet.",
+    "definition": "\\(\\textbf{Concept: Area of a square.}\\) Formula: \\(A = s^2\\) where \\(A\\) = area, \\(s\\) = side. \\(s = 12\\). \\(A = 12^2 = 144\\) square feet.",
     "word": ""
   },
   {
@@ -1018,7 +1018,7 @@
       "28 sq in",
       "48 sq in"
     ],
-    "definition": "\\(\\textbf{Concept: Area of a triangle.}\\) \\(A = \\dfrac{b \\times h}{2} = \\dfrac{8 \\times 6}{2} = \\dfrac{48}{2} = 24\\) square inches.",
+    "definition": "\\(\\textbf{Concept: Area of a triangle.}\\) Formula: \\(A = \\dfrac{b \\times h}{2}\\) where \\(A\\) = area, \\(b\\) = base, \\(h\\) = height. \\(b = 8\\), \\(h = 6\\). \\(A = \\dfrac{8 \\times 6}{2} = \\dfrac{48}{2} = 24\\) square inches.",
     "word": ""
   },
   {
@@ -1032,7 +1032,7 @@
       "2,000 sq m",
       "2,500 sq m"
     ],
-    "definition": "\\(\\textbf{Concept: Area of a circle.}\\) \\(A = \\pi r^2 = 3.14 \\times 25^2 = 3.14 \\times 625 = 1,\\!962.5\\) square meters.",
+    "definition": "\\(\\textbf{Concept: Area of a circle.}\\) Formula: \\(A = \\pi r^2\\) where \\(A\\) = area, \\(r\\) = radius. \\(r = 25\\) m, \\(\\pi = 3.14\\). \\(A = 3.14 \\times 25^2 = 3.14 \\times 625 = 1,\\!962.5\\) square meters.",
     "word": ""
   },
   {
@@ -1046,7 +1046,7 @@
       "78 sq ft",
       "84 sq ft"
     ],
-    "definition": "\\(\\textbf{Concept: Area of a trapezoid.}\\) \\(A = \\dfrac{(b_1 + b_2) \\times h}{2} = \\dfrac{(10 + 14) \\times 6}{2} = \\dfrac{24 \\times 6}{2} = 72\\) square feet.",
+    "definition": "\\(\\textbf{Concept: Area of a trapezoid.}\\) Formula: \\(A = \\dfrac{(b_1 + b_2) \\times h}{2}\\) where \\(A\\) = area, \\(b_1\\) and \\(b_2\\) = bases, \\(h\\) = height. \\(b_1 = 10\\), \\(b_2 = 14\\), \\(h = 6\\). \\(A = \\dfrac{(10 + 14) \\times 6}{2} = \\dfrac{24 \\times 6}{2} = 72\\) square feet.",
     "word": ""
   },
   {
@@ -1060,7 +1060,7 @@
       "260 m",
       "280 m"
     ],
-    "definition": "\\(\\textbf{Concept: Perimeter of a rectangle.}\\) \\(P = 2(l + w) = 2(80 + 50) = 2 \\times 130 = 260\\) meters.",
+    "definition": "\\(\\textbf{Concept: Perimeter of a rectangle.}\\) Formula: \\(P = 2(l + w)\\) where \\(P\\) = perimeter, \\(l\\) = length, \\(w\\) = width. \\(l = 80\\), \\(w = 50\\). \\(P = 2(80 + 50) = 2 \\times 130 = 260\\) meters.",
     "word": ""
   },
   {
@@ -1074,7 +1074,7 @@
       "60 ft",
       "75 ft"
     ],
-    "definition": "\\(\\textbf{Concept: Perimeter of a square.}\\) \\(P = 4s = 4 \\times 15 = 60\\) feet.",
+    "definition": "\\(\\textbf{Concept: Perimeter of a square.}\\) Formula: \\(P = 4s\\) where \\(P\\) = perimeter, \\(s\\) = side. \\(s = 15\\). \\(P = 4 \\times 15 = 60\\) feet.",
     "word": ""
   },
   {
@@ -1088,7 +1088,7 @@
       "20.4 ft",
       "25.12 ft"
     ],
-    "definition": "\\(\\textbf{Concept: Circumference.}\\) \\(C = \\pi d = 3.14 \\times 6 = 18.84\\) feet.",
+    "definition": "\\(\\textbf{Concept: Circumference.}\\) Formula: \\(C = \\pi d\\) where \\(C\\) = circumference, \\(d\\) = diameter. \\(d = 6\\) ft, \\(\\pi = 3.14\\). \\(C = 3.14 \\times 6 = 18.84\\) feet.",
     "word": ""
   },
   {
@@ -1116,7 +1116,7 @@
       "628 m",
       "650 m"
     ],
-    "definition": "\\(\\textbf{Concept: Circumference.}\\) \\(C = 2\\pi r = 2 \\times 3.14 \\times 100 = 628\\) meters.",
+    "definition": "\\(\\textbf{Concept: Circumference.}\\) Formula: \\(C = 2\\pi r\\) where \\(C\\) = circumference, \\(r\\) = radius. \\(r = 100\\) m, \\(\\pi = 3.14\\). \\(C = 2 \\times 3.14 \\times 100 = 628\\) meters.",
     "word": ""
   },
   {
@@ -1214,7 +1214,7 @@
       "28 cu ft",
       "36 cu ft"
     ],
-    "definition": "\\(\\textbf{Concept: Volume of a rectangular prism.}\\) \\(V = l \\times w \\times h = 4 \\times 3 \\times 2 = 24\\) cubic feet.",
+    "definition": "\\(\\textbf{Concept: Volume of a rectangular prism.}\\) Formula: \\(V = l \\times w \\times h\\) where \\(V\\) = volume, \\(l\\) = length, \\(w\\) = width, \\(h\\) = height. \\(l = 4\\), \\(w = 3\\), \\(h = 2\\). \\(V = 4 \\times 3 \\times 2 = 24\\) cubic feet.",
     "word": ""
   },
   {
@@ -1228,7 +1228,7 @@
       "36 cu m",
       "54 cu m"
     ],
-    "definition": "\\(\\textbf{Concept: Volume of a cube.}\\) \\(V = s^3 = 3^3 = 27\\) cubic meters.",
+    "definition": "\\(\\textbf{Concept: Volume of a cube.}\\) Formula: \\(V = s^3\\) where \\(V\\) = volume, \\(s\\) = side. \\(s = 3\\). \\(V = 3^3 = 27\\) cubic meters.",
     "word": ""
   },
   {
@@ -1242,7 +1242,7 @@
       "300 cu ft",
       "314 cu ft"
     ],
-    "definition": "\\(\\textbf{Concept: Volume of a cylinder.}\\) \\(V = \\pi r^2 h = 3.14 \\times 9 \\times 10 = 282.6\\) cubic feet.",
+    "definition": "\\(\\textbf{Concept: Volume of a cylinder.}\\) Formula: \\(V = \\pi r^2 h\\) where \\(V\\) = volume, \\(r\\) = radius, \\(h\\) = height. \\(r = 3\\), \\(h = 10\\), \\(\\pi = 3.14\\). \\(V = 3.14 \\times 9 \\times 10 = 282.6\\) cubic feet.",
     "word": ""
   },
   {
@@ -1284,7 +1284,7 @@
       "0.75",
       "0.8"
     ],
-    "definition": "\\(\\textbf{Concept: Fraction to decimal.}\\) \\(\\dfrac{3}{5} = 3 \\div 5 = 0.6\\).",
+    "definition": "\\(\\textbf{Concept: Fraction to decimal.}\\) \\(\\dfrac{3}{5} = 3 / 5 = 0.6\\).",
     "word": ""
   },
   {
@@ -1340,7 +1340,7 @@
       "5",
       "6"
     ],
-    "definition": "\\(\\textbf{Concept: Division.}\\) \\(6 \\div 1.5 = 4\\) pallets.",
+    "definition": "\\(\\textbf{Concept: Division.}\\) \\(6 / 1.5 = 4\\) pallets.",
     "word": ""
   },
   {
@@ -1354,7 +1354,7 @@
       "$450",
       "$500"
     ],
-    "definition": "\\(\\textbf{Concept: Division (equal share).}\\) \\(2,\\!400 \\div 6 = \\$400\\) per unit.",
+    "definition": "\\(\\textbf{Concept: Division (equal share).}\\) \\(2,\\!400 / 6 = \\$400\\) per unit.",
     "word": ""
   },
   {
@@ -1368,7 +1368,7 @@
       "7",
       "8"
     ],
-    "definition": "\\(\\textbf{Concept: Division (rate).}\\) \\(90 \\div 15 = 6\\) hours.",
+    "definition": "\\(\\textbf{Concept: Division (rate).}\\) \\(90 / 15 = 6\\) hours.",
     "word": ""
   },
   {
@@ -1382,7 +1382,7 @@
       "33",
       "36"
     ],
-    "definition": "\\(\\textbf{Concept: Direct proportion.}\\) \\(\\dfrac{18}{3} = \\dfrac{x}{5}\\). \\(x = 6 \\times 5 = 30\\) hours.",
+    "definition": "\\(\\textbf{Concept: Direct proportion.}\\) \\(\\dfrac{18}{3} = \\dfrac{x}{5}\\). Cross-multiply: \\(18 \\times 5 = 3 \\times x\\). So \\(x = \\dfrac{18 \\times 5}{3} = 30\\) hours.",
     "word": ""
   },
   {
