@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BSEP Word Quiz</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background:#0f172a;
+  color:#e2e8f0;
+  margin:0;
+  padding:20px;
+}
+.container {
+  max-width:700px;
+  margin:auto;
+  background:#111827;
+  padding:20px;
+  border-radius:12px;
+}
+h1 { text-align:center; }
+.word {
+  font-size:26px;
+  margin-bottom:10px;
+  color:#38bdf8;
+}
+.btn {
+  display:block;
+  width:100%;
+  margin:8px 0;
+  padding:10px;
+  background:#1f2937;
+  border:1px solid #334155;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+}
+.btn:hover { background:#334155; }
+.feedback {
+  margin-top:15px;
+  font-weight:bold;
+}
+.progress {
+  margin-bottom:10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>BSEP Word Quiz</h1>
+  <div class="progress" id="progress"></div>
+  <div class="word" id="word"></div>
+  <div id="options"></div>
+  <div class="feedback" id="feedback"></div>
+  <button class="btn" onclick="nextQuestion()">Next</button>
+</div>
+
+<script>
+const questions = [
+{
+ word:"abandon",
+ answer:"to leave completely",
+ options:[
+ "to leave completely",
+ "to build carefully",
+ "to divide equally",
+ "to accept something"
+ ]
+},
+{
+ word:"abrupt",
+ answer:"sudden and unexpected",
+ options:[
+ "slow and calm",
+ "sudden and unexpected",
+ "very old",
+ "carefully planned"
+ ]
+},
+{
+ word:"benevolent",
+ answer:"kind and generous",
+ options:[
+ "angry and loud",
+ "kind and generous",
+ "very lazy",
+ "extremely fast"
+ ]
+},
+{
+ word:"candid",
+ answer:"honest and direct",
+ options:[
+ "dishonest",
+ "honest and direct",
+ "confused",
+ "silent"
+ ]
+},
+{
+ word:"deter",
+ answer:"to discourage",
+ options:[
+ "to encourage strongly",
+ "to discourage",
+ "to ignore",
+ "to celebrate"
+ ]
+},
+{
+ word:"eloquent",
+ answer:"fluent and persuasive in speech",
+ options:[
+ "unable to speak",
+ "fluent and persuasive in speech",
+ "very shy",
+ "confused"
+ ]
+},
+{
+ word:"frugal",
+ answer:"careful with money",
+ options:[
+ "wasteful",
+ "careful with money",
+ "very rich",
+ "very poor"
+ ]
+},
+{
+ word:"hostile",
+ answer:"unfriendly or aggressive",
+ options:[
+ "friendly",
+ "unfriendly or aggressive",
+ "quiet",
+ "funny"
+ ]
+},
+{
+ word:"inevitable",
+ answer:"certain to happen",
+ options:[
+ "impossible",
+ "certain to happen",
+ "optional",
+ "rare"
+ ]
+},
+{
+ word:"lucid",
+ answer:"clear and easy to understand",
+ options:[
+ "confusing",
+ "clear and easy to understand",
+ "dark",
+ "silent"
+ ]
+}
+];
+
+let index = 0;
+let score = 0;
+
+function loadQuestion(){
+  let q = questions[index];
+  document.getElementById("word").innerText = q.word;
+  document.getElementById("progress").innerText =
+    `Question ${index+1} of ${questions.length}`;
+
+  let optionsDiv = document.getElementById("options");
+  optionsDiv.innerHTML = "";
+  document.getElementById("feedback").innerText = "";
+
+  let shuffled = q.options.sort(() => Math.random() - 0.5);
+
+  shuffled.forEach(opt=>{
+    let btn = document.createElement("button");
+    btn.className="btn";
+    btn.innerText = opt;
+    btn.onclick = () => checkAnswer(opt);
+    optionsDiv.appendChild(btn);
+  });
+}
+
+function checkAnswer(choice){
+  let q = questions[index];
+  let feedback = document.getElementById("feedback");
+
+  if(choice === q.answer){
+    feedback.innerHTML = "✅ Correct!<br>" + q.answer;
+    score++;
+  } else {
+    feedback.innerHTML =
+      "❌ Wrong! Correct answer: " + q.answer;
+  }
+}
+
+function nextQuestion(){
+  index++;
+  if(index >= questions.length){
+    document.getElementById("word").innerText = "Finished!";
+    document.getElementById("options").innerHTML = "";
+    document.getElementById("progress").innerText =
+      `Score: ${score}/${questions.length}`;
+    document.getElementById("feedback").innerText = "";
+    return;
+  }
+  loadQuestion();
+}
+
+loadQuestion();
+</script>
+
+</body>
+</html>
