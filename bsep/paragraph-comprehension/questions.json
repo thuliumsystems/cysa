@@ -2,6 +2,8 @@
   {
     "source": "Official Material",
     "word": "neophyte",
+    "passage": "Private Lewis was a neophyte to military life. During his first week, he struggled to understand rank structure, customs, and reporting procedures. However, with guidance from experienced soldiers, he gradually became more confident.",
+    "question": "What does the word \"neophyte\" most nearly mean?",
     "answer": "beginner",
     "definition": "A person who is new to a subject or activity.",
     "options": ["expert", "beginner", "leader", "instructor", "veteran"]
@@ -9,6 +11,8 @@
   {
     "source": "Official Material",
     "word": "polarize",
+    "passage": "The debate over new grooming standards began to polarize the unit. Some soldiers believed the changes improved professionalism, while others argued the rules were too strict.",
+    "question": "The word \"polarize\" means:",
     "answer": "divide into opposing groups",
     "definition": "To cause to divide into opposing groups.",
     "options": ["unite", "confuse", "divide into opposing groups", "strengthen", "encourage"]
@@ -16,6 +20,8 @@
   {
     "source": "Official Material",
     "word": "prosaic",
+    "passage": "The daily administrative paperwork seemed prosaic compared to the excitement of field training exercises.",
+    "question": "The word \"prosaic\" most nearly means:",
     "answer": "ordinary",
     "definition": "Lacking interest or imagination; dull.",
     "options": ["ordinary", "thrilling", "dangerous", "humorous", "complicated"]
@@ -23,6 +29,8 @@
   {
     "source": "Official Material",
     "word": "quiescence",
+    "passage": "After the storm passed, a sense of quiescence settled over the base. The helicopters stopped flying, and the noisy generators became silent.",
+    "question": "\"Quiescence\" refers to:",
     "answer": "quiet stillness",
     "definition": "A state of inactivity or repose.",
     "options": ["celebration", "confusion", "fear", "anger", "quiet stillness"]
@@ -30,6 +38,8 @@
   {
     "source": "Official Material",
     "word": "facetious",
+    "passage": "When Sergeant King jokingly told the class they would all become generals by Friday, everyone recognized his facetious tone.",
+    "question": "The word \"facetious\" means:",
     "answer": "joking",
     "definition": "Treating serious issues with inappropriate humor.",
     "options": ["serious", "respectful", "angry", "joking", "emotional"]
@@ -37,6 +47,8 @@
   {
     "source": "Official Material",
     "word": "vacillate",
+    "passage": "The lieutenant continued to vacillate between approving or rejecting the new training schedule. His indecision frustrated the instructors.",
+    "question": "What does \"vacillate\" mean?",
     "answer": "hesitate between choices",
     "definition": "To waver between different opinions or actions.",
     "options": ["decide quickly", "hesitate between choices", "celebrate loudly", "refuse entirely", "explain carefully"]
@@ -44,6 +56,8 @@
   {
     "source": "Official Material",
     "word": "devise",
+    "passage": "The mechanics had to devise a temporary solution after the communications system failed during the exercise.",
+    "question": "The word \"devise\" most nearly means:",
     "answer": "invent or plan",
     "definition": "To plan or invent carefully.",
     "options": ["invent or plan", "destroy", "postpone", "supervise", "discover accidentally"]
@@ -51,6 +65,8 @@
   {
     "source": "Official Material",
     "word": "capacious",
+    "passage": "The supply warehouse was so capacious that it could store vehicles, medical equipment, and thousands of Meals Ready-to-Eat (MREs).",
+    "question": "\"Capacious\" means:",
     "answer": "spacious",
     "definition": "Having a lot of space; roomy.",
     "options": ["crowded", "dangerous", "spacious", "hidden", "damaged"]
@@ -58,6 +74,8 @@
   {
     "source": "Official Material",
     "word": "scowl",
+    "passage": "When the recruit received corrective counseling, he responded with a deep scowl and crossed his arms in frustration.",
+    "question": "A \"scowl\" is:",
     "answer": "a frown",
     "definition": "An angry or bad-tempered expression.",
     "options": ["a smile", "a cheerful expression", "a gesture of respect", "a salute", "a frown"]
@@ -65,6 +83,8 @@
   {
     "source": "Official Material",
     "word": "scapegoat",
+    "passage": "After the training accident, several soldiers unfairly tried to make Specialist Gomez the scapegoat, even though many people shared responsibility.",
+    "question": "A \"scapegoat\" is:",
     "answer": "someone unfairly blamed",
     "definition": "A person who is blamed for the faults of others.",
     "options": ["a hero", "someone unfairly blamed", "a commander", "a witness", "someone promoted"]
