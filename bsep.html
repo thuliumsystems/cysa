@@ -130,6 +130,10 @@ h1 {
 
   <button class="next-btn" onclick="nextQuestion()">Next</button>
 
+<button class="next-btn" onclick="resetProgress()" style="background:#ef4444; margin-top:8px;">
+Reset Progress
+</button>
+
 </div>
 
 <script>
@@ -137,19 +141,46 @@ let questions = [];
 let index = 0;
 let score = 0;
 
+// salva progresso
+function saveProgress() {
+  localStorage.setItem("bsep_index", index);
+  localStorage.setItem("bsep_score", score);
+  localStorage.setItem("bsep_done", JSON.stringify(done));
+}
+
+// carrega progresso
+function loadProgress() {
+  index = parseInt(localStorage.getItem("bsep_index")) || 0;
+  score = parseInt(localStorage.getItem("bsep_score")) || 0;
+}
+
+let done = new Set(JSON.parse(localStorage.getItem("bsep_done") || "[]"));
+
 fetch("bsep_questions.json")
   .then(res => res.json())
   .then(data => {
     questions = Array.isArray(data) ? data : Object.values(data).flat();
+
+    loadProgress();
     loadQuestion();
   });
 
 function loadQuestion() {
+  // pula perguntas já feitas
+  while (done.has(index) && index < questions.length) {
+    index++;
+  }
+
+  if (index >= questions.length) {
+    finish();
+    return;
+  }
+
   let q = questions[index];
 
   document.getElementById("word").innerText = q.word;
   document.getElementById("progress").innerText =
-    `Question ${index + 1} of ${questions.length}`;
+    `Question ${index + 1} of ${questions.length} | Score: ${score}`;
 
   let optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
@@ -170,7 +201,9 @@ function checkAnswer(choice) {
   let q = questions[index];
   let feedback = document.getElementById("feedback");
 
-  if (choice === q.answer) {
+  let correct = choice === q.answer;
+
+  if (correct) {
     score++;
     feedback.innerHTML =
       "✅ Correct!<br><br><b>Definition:</b><br>" + q.definition;
@@ -179,18 +212,34 @@ function checkAnswer(choice) {
       "❌ Wrong!<br><br><b>Correct:</b> " + q.answer +
       "<br><br><b>Definition:</b><br>" + q.definition;
   }
+
+  done.add(index);
+
+  saveProgress();
 }
 
 function nextQuestion() {
   index++;
+  saveProgress();
+  loadQuestion();
+}
 
-  if (index >= questions.length) {
-    document.getElementById("word").innerText = "Finished!";
-    document.getElementById("options").innerHTML = "";
-    document.getElementById("progress").innerText =
-      `Score: ${score}/${questions.length}`;
-    return;
-  }
+function finish() {
+  document.getElementById("word").innerText = "Finished!";
+  document.getElementById("options").innerHTML = "";
+  document.getElementById("feedback").innerHTML = "";
+  document.getElementById("progress").innerText =
+    `Final Score: ${score}/${questions.length}`;
+}
+
+function resetProgress() {
+  localStorage.removeItem("bsep_index");
+  localStorage.removeItem("bsep_score");
+  localStorage.removeItem("bsep_done");
+
+  index = 0;
+  score = 0;
+  done = new Set();
 
   loadQuestion();
 }
