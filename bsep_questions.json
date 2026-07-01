@@ -1,3 +1,185 @@
-{
-    "a": 1
-}
+[
+  {
+    "word": "abandon",
+    "answer": "to leave completely",
+    "definition": "To give up completely or desert something or someone.",
+    "options": ["to leave completely", "to build carefully", "to repair", "to combine"]
+  },
+  {
+    "word": "abrupt",
+    "answer": "sudden and unexpected",
+    "definition": "Happening quickly without warning.",
+    "options": ["sudden and unexpected", "very slow", "well planned", "soft and calm"]
+  },
+  {
+    "word": "benevolent",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": ["kind and generous", "cruel and harsh", "careless", "lazy"]
+  },
+  {
+    "word": "candid",
+    "answer": "honest and direct",
+    "definition": "Speaking truthfully without hiding feelings.",
+    "options": ["honest and direct", "secretive", "dishonest", "silent"]
+  },
+  {
+    "word": "deter",
+    "answer": "to discourage",
+    "definition": "To prevent or make someone less likely to do something.",
+    "options": ["to discourage", "to encourage", "to ignore", "to celebrate"]
+  },
+  {
+    "word": "eloquent",
+    "answer": "fluent and persuasive in speech",
+    "definition": "Able to speak clearly and effectively.",
+    "options": ["fluent and persuasive in speech", "unable to speak", "confused", "silent"]
+  },
+  {
+    "word": "frugal",
+    "answer": "careful with money",
+    "definition": "Using money wisely without waste.",
+    "options": ["careful with money", "wasteful", "rich", "generous"]
+  },
+  {
+    "word": "hostile",
+    "answer": "unfriendly or aggressive",
+    "definition": "Showing anger or opposition.",
+    "options": ["unfriendly or aggressive", "friendly", "calm", "happy"]
+  },
+  {
+    "word": "inevitable",
+    "answer": "certain to happen",
+    "definition": "Something that will definitely occur.",
+    "options": ["certain to happen", "impossible", "optional", "unlikely"]
+  },
+  {
+    "word": "lucid",
+    "answer": "clear and easy to understand",
+    "definition": "Easy to think or express clearly.",
+    "options": ["clear and easy to understand", "confusing", "dark", "complicated"]
+  },
+
+  {
+    "word": "adapt",
+    "answer": "to adjust to new conditions",
+    "definition": "To change in order to fit new circumstances.",
+    "options": ["to adjust to new conditions", "to refuse change", "to destroy", "to hide"]
+  },
+  {
+    "word": "analyze",
+    "answer": "to examine carefully",
+    "definition": "To study something in detail.",
+    "options": ["to examine carefully", "to ignore", "to guess", "to break randomly"]
+  },
+  {
+    "word": "assume",
+    "answer": "to suppose without proof",
+    "definition": "To accept something as true without evidence.",
+    "options": ["to suppose without proof", "to prove", "to deny", "to calculate"]
+  },
+  {
+    "word": "coherent",
+    "answer": "logical and consistent",
+    "definition": "Easy to understand because it is logical.",
+    "options": ["logical and consistent", "confusing", "random", "silent"]
+  },
+  {
+    "word": "comply",
+    "answer": "to follow rules",
+    "definition": "To obey or act according to rules or requests.",
+    "options": ["to follow rules", "to ignore rules", "to break rules", "to create rules"]
+  },
+  {
+    "word": "concur",
+    "answer": "to agree",
+    "definition": "To have the same opinion.",
+    "options": ["to agree", "to argue", "to refuse", "to question"]
+  },
+  {
+    "word": "credible",
+    "answer": "believable",
+    "definition": "Able to be trusted or believed.",
+    "options": ["believable", "fake", "unclear", "weak"]
+  },
+  {
+    "word": "decline",
+    "answer": "to refuse or decrease",
+    "definition": "To go down or say no politely.",
+    "options": ["to refuse or decrease", "to increase", "to accept", "to build"]
+  },
+  {
+    "word": "eliminate",
+    "answer": "to remove completely",
+    "definition": "To get rid of something.",
+    "options": ["to remove completely", "to add", "to create", "to mix"]
+  },
+  {
+    "word": "flexible",
+    "answer": "able to bend or change",
+    "definition": "Able to adjust easily.",
+    "options": ["able to bend or change", "rigid", "broken", "fixed"]
+  },
+
+  {
+    "word": "generate",
+    "answer": "to produce",
+    "definition": "To create or cause something to exist.",
+    "options": ["to produce", "to destroy", "to hide", "to reduce"]
+  },
+  {
+    "word": "impact",
+    "answer": "effect or influence",
+    "definition": "A strong effect on something.",
+    "options": ["effect or influence", "no change", "random noise", "delay"]
+  },
+  {
+    "word": "justify",
+    "answer": "to explain or prove right",
+    "definition": "To show something is reasonable.",
+    "options": ["to explain or prove right", "to hide", "to ignore", "to break"]
+  },
+  {
+    "word": "maintain",
+    "answer": "to keep in good condition",
+    "definition": "To continue or preserve something.",
+    "options": ["to keep in good condition", "to destroy", "to forget", "to ignore"]
+  },
+  {
+    "word": "obvious",
+    "answer": "clearly seen or understood",
+    "definition": "Easy to notice or understand.",
+    "options": ["clearly seen or understood", "hidden", "confusing", "rare"]
+  },
+
+  {
+    "word": "perceive",
+    "answer": "to understand or notice",
+    "definition": "To become aware of something.",
+    "options": ["to understand or notice", "to ignore", "to break", "to create"]
+  },
+  {
+    "word": "restrict",
+    "answer": "to limit",
+    "definition": "To control or reduce access.",
+    "options": ["to limit", "to expand", "to ignore", "to allow"]
+  },
+  {
+    "word": "select",
+    "answer": "to choose",
+    "definition": "To pick from a group.",
+    "options": ["to choose", "to reject everything", "to destroy", "to ignore"]
+  },
+  {
+    "word": "vague",
+    "answer": "unclear",
+    "definition": "Not clearly expressed.",
+    "options": ["unclear", "very detailed", "very bright", "very loud"]
+  },
+  {
+    "word": "valid",
+    "answer": "legally or logically correct",
+    "definition": "Acceptable or reasonable.",
+    "options": ["legally or logically correct", "wrong", "false", "useless"]
+  }
+]
