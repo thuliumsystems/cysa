@@ -6,7 +6,13 @@
     "question": "What does the word \"neophyte\" most nearly mean?",
     "answer": "beginner",
     "definition": "A person who is new to a subject or activity.",
-    "options": ["expert", "beginner", "leader", "instructor", "veteran"]
+    "options": [
+      "expert",
+      "beginner",
+      "leader",
+      "instructor",
+      "veteran"
+    ]
   },
   {
     "source": "Official Material",
@@ -15,7 +21,13 @@
     "question": "The word \"polarize\" means:",
     "answer": "divide into opposing groups",
     "definition": "To cause to divide into opposing groups.",
-    "options": ["unite", "confuse", "divide into opposing groups", "strengthen", "encourage"]
+    "options": [
+      "unite",
+      "confuse",
+      "divide into opposing groups",
+      "strengthen",
+      "encourage"
+    ]
   },
   {
     "source": "Official Material",
@@ -24,7 +36,13 @@
     "question": "The word \"prosaic\" most nearly means:",
     "answer": "ordinary",
     "definition": "Lacking interest or imagination; dull.",
-    "options": ["ordinary", "thrilling", "dangerous", "humorous", "complicated"]
+    "options": [
+      "ordinary",
+      "thrilling",
+      "dangerous",
+      "humorous",
+      "complicated"
+    ]
   },
   {
     "source": "Official Material",
@@ -33,7 +51,13 @@
     "question": "\"Quiescence\" refers to:",
     "answer": "quiet stillness",
     "definition": "A state of inactivity or repose.",
-    "options": ["celebration", "confusion", "fear", "anger", "quiet stillness"]
+    "options": [
+      "celebration",
+      "confusion",
+      "fear",
+      "anger",
+      "quiet stillness"
+    ]
   },
   {
     "source": "Official Material",
@@ -42,7 +66,13 @@
     "question": "The word \"facetious\" means:",
     "answer": "joking",
     "definition": "Treating serious issues with inappropriate humor.",
-    "options": ["serious", "respectful", "angry", "joking", "emotional"]
+    "options": [
+      "serious",
+      "respectful",
+      "angry",
+      "joking",
+      "emotional"
+    ]
   },
   {
     "source": "Official Material",
@@ -51,7 +81,13 @@
     "question": "What does \"vacillate\" mean?",
     "answer": "hesitate between choices",
     "definition": "To waver between different opinions or actions.",
-    "options": ["decide quickly", "hesitate between choices", "celebrate loudly", "refuse entirely", "explain carefully"]
+    "options": [
+      "decide quickly",
+      "hesitate between choices",
+      "celebrate loudly",
+      "refuse entirely",
+      "explain carefully"
+    ]
   },
   {
     "source": "Official Material",
@@ -60,7 +96,13 @@
     "question": "The word \"devise\" most nearly means:",
     "answer": "invent or plan",
     "definition": "To plan or invent carefully.",
-    "options": ["invent or plan", "destroy", "postpone", "supervise", "discover accidentally"]
+    "options": [
+      "invent or plan",
+      "destroy",
+      "postpone",
+      "supervise",
+      "discover accidentally"
+    ]
   },
   {
     "source": "Official Material",
@@ -69,7 +111,13 @@
     "question": "\"Capacious\" means:",
     "answer": "spacious",
     "definition": "Having a lot of space; roomy.",
-    "options": ["crowded", "dangerous", "spacious", "hidden", "damaged"]
+    "options": [
+      "crowded",
+      "dangerous",
+      "spacious",
+      "hidden",
+      "damaged"
+    ]
   },
   {
     "source": "Official Material",
@@ -78,7 +126,13 @@
     "question": "A \"scowl\" is:",
     "answer": "a frown",
     "definition": "An angry or bad-tempered expression.",
-    "options": ["a smile", "a cheerful expression", "a gesture of respect", "a salute", "a frown"]
+    "options": [
+      "a smile",
+      "a cheerful expression",
+      "a gesture of respect",
+      "a salute",
+      "a frown"
+    ]
   },
   {
     "source": "Official Material",
@@ -87,6 +141,4362 @@
     "question": "A \"scapegoat\" is:",
     "answer": "someone unfairly blamed",
     "definition": "A person who is blamed for the faults of others.",
-    "options": ["a hero", "someone unfairly blamed", "a commander", "a witness", "someone promoted"]
+    "options": [
+      "a hero",
+      "someone unfairly blamed",
+      "a commander",
+      "a witness",
+      "someone promoted"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "explain clearly",
+      "hide",
+      "ignore",
+      "confuse",
+      "clarify"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "short",
+      "safe",
+      "fast",
+      "easy",
+      "difficult and tiring"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "confused",
+      "timid",
+      "weak",
+      "lazy",
+      "holding firmly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "careless",
+      "reckless",
+      "foolish",
+      "cautious and wise",
+      "hasty"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "concise",
+      "using too many words",
+      "silent",
+      "clear",
+      "brief"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "win",
+      "yield to something",
+      "fight",
+      "resist",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "dull",
+      "naive",
+      "slow",
+      "foolish",
+      "shrewd and perceptive"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "rude",
+      "pleasant and friendly",
+      "cold",
+      "unfriendly",
+      "hostile"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "easy",
+      "trivial",
+      "manageable",
+      "simple",
+      "seeming difficult"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "try to equal",
+      "forget",
+      "avoid",
+      "reject",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "calm",
+      "bored",
+      "intensely enthusiastic",
+      "apathetic",
+      "indifferent"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "needed",
+      "essential",
+      "unnecessary",
+      "helpful",
+      "useful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "create difficulties",
+      "aid",
+      "speed",
+      "assist",
+      "help"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "unbiased",
+      "unjust",
+      "biased",
+      "partial",
+      "unfair"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "put at risk",
+      "safeguard",
+      "secure",
+      "preserve",
+      "protect"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "rejoice",
+      "praise",
+      "celebrate",
+      "cheer",
+      "express sadness"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "hasty",
+      "messy",
+      "careless",
+      "very careful",
+      "sloppy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "eager",
+      "hopeful",
+      "content",
+      "excited",
+      "longing for the past"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "not well known",
+      "clear",
+      "known",
+      "plain",
+      "obvious"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "calm",
+      "safe",
+      "secure",
+      "easy",
+      "full of danger"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "querulous",
+    "passage": "The querulous soldier was always unhappy with the food, the quarters, and the schedule.",
+    "question": "What does the word \"querulous\" most nearly mean in this context?",
+    "answer": "complaining",
+    "definition": "Expressing complaints in a whiny way.",
+    "options": [
+      "cheerful",
+      "satisfied",
+      "happy",
+      "content",
+      "complaining"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "replenish",
+    "passage": "The convoy arrived to replenish the forward base with ammunition and rations.",
+    "question": "What does the word \"replenish\" most nearly mean in this context?",
+    "answer": "refill",
+    "definition": "To restore a supply to its full level.",
+    "options": [
+      "empty",
+      "deplete",
+      "drain",
+      "refill",
+      "exhaust"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "sporadic",
+    "passage": "Communication with the outpost was sporadic due to the mountainous terrain.",
+    "question": "What does the word \"sporadic\" most nearly mean in this context?",
+    "answer": "occurring irregularly",
+    "definition": "Happening at irregular intervals.",
+    "options": [
+      "occurring irregularly",
+      "steady",
+      "constant",
+      "regular",
+      "frequent"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tumultuous",
+    "passage": "The tumultuous applause from the soldiers showed their appreciation for the general's visit.",
+    "question": "What does the word \"tumultuous\" most nearly mean in this context?",
+    "answer": "very loud and disorderly",
+    "definition": "Making a loud, confused noise.",
+    "options": [
+      "quiet",
+      "very loud and disorderly",
+      "peaceful",
+      "calm",
+      "orderly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "unprecedented",
+    "passage": "The operation required an unprecedented level of coordination between all branches.",
+    "question": "What does the word \"unprecedented\" most nearly mean in this context?",
+    "answer": "never done before",
+    "definition": "Never done or known before.",
+    "options": [
+      "usual",
+      "typical",
+      "never done before",
+      "common",
+      "ordinary"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "vindicate",
+    "passage": "The investigation vindicated the officer, showing he had followed proper procedure.",
+    "question": "What does the word \"vindicate\" most nearly mean in this context?",
+    "answer": "prove right",
+    "definition": "To clear someone of blame or suspicion.",
+    "options": [
+      "prove right",
+      "accuse",
+      "blame",
+      "convict",
+      "condemn"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "wary",
+    "passage": "The patrol remained wary of hidden explosives as they moved through the abandoned village.",
+    "question": "What does the word \"wary\" most nearly mean in this context?",
+    "answer": "cautious",
+    "definition": "Feeling or showing caution about dangers.",
+    "options": [
+      "careless",
+      "cautious",
+      "confident",
+      "trusting",
+      "reckless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "zealous",
+    "passage": "The zealous recruit volunteered for every extra duty and training opportunity.",
+    "question": "What does the word \"zealous\" most nearly mean in this context?",
+    "answer": "very enthusiastic",
+    "definition": "Having great energy for a cause.",
+    "options": [
+      "uninterested",
+      "indifferent",
+      "very enthusiastic",
+      "lazy",
+      "apathetic"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "alleviate",
+    "passage": "The medic gave first aid to alleviate the soldier's pain until evacuation arrived.",
+    "question": "What does the word \"alleviate\" most nearly mean in this context?",
+    "answer": "reduce pain",
+    "definition": "To make suffering less severe.",
+    "options": [
+      "increase",
+      "worsen",
+      "intensify",
+      "reduce pain",
+      "aggravate"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "benevolent",
+    "passage": "The benevolent officer always ensured his soldiers had proper rest and hot meals.",
+    "question": "What does the word \"benevolent\" most nearly mean in this context?",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "selfish",
+      "kind and generous",
+      "cruel",
+      "harsh",
+      "mean"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "ignore",
+      "hide",
+      "confuse",
+      "explain clearly",
+      "clarify"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "short",
+      "safe",
+      "easy",
+      "difficult and tiring",
+      "fast"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "lazy",
+      "timid",
+      "holding firmly",
+      "weak",
+      "confused"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "reckless",
+      "foolish",
+      "hasty",
+      "cautious and wise",
+      "careless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "concise",
+      "silent",
+      "using too many words",
+      "brief",
+      "clear"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "win",
+      "yield to something",
+      "ignore",
+      "fight",
+      "resist"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "dull",
+      "foolish",
+      "shrewd and perceptive",
+      "slow",
+      "naive"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "hostile",
+      "rude",
+      "pleasant and friendly",
+      "unfriendly",
+      "cold"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "trivial",
+      "seeming difficult",
+      "easy",
+      "manageable",
+      "simple"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "reject",
+      "avoid",
+      "try to equal",
+      "forget",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "intensely enthusiastic",
+      "calm",
+      "indifferent",
+      "bored",
+      "apathetic"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "useful",
+      "unnecessary",
+      "helpful",
+      "essential",
+      "needed"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "assist",
+      "speed",
+      "create difficulties",
+      "aid",
+      "help"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "biased",
+      "partial",
+      "unjust",
+      "unfair",
+      "unbiased"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "safeguard",
+      "put at risk",
+      "protect",
+      "preserve",
+      "secure"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "rejoice",
+      "praise",
+      "celebrate",
+      "express sadness",
+      "cheer"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "very careful",
+      "sloppy",
+      "careless",
+      "hasty",
+      "messy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "eager",
+      "excited",
+      "longing for the past",
+      "content",
+      "hopeful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "obvious",
+      "known",
+      "not well known",
+      "plain",
+      "clear"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "easy",
+      "secure",
+      "safe",
+      "calm",
+      "full of danger"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "querulous",
+    "passage": "The querulous soldier was always unhappy with the food, the quarters, and the schedule.",
+    "question": "What does the word \"querulous\" most nearly mean in this context?",
+    "answer": "complaining",
+    "definition": "Expressing complaints in a whiny way.",
+    "options": [
+      "cheerful",
+      "complaining",
+      "satisfied",
+      "happy",
+      "content"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "replenish",
+    "passage": "The convoy arrived to replenish the forward base with ammunition and rations.",
+    "question": "What does the word \"replenish\" most nearly mean in this context?",
+    "answer": "refill",
+    "definition": "To restore a supply to its full level.",
+    "options": [
+      "drain",
+      "exhaust",
+      "refill",
+      "empty",
+      "deplete"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "sporadic",
+    "passage": "Communication with the outpost was sporadic due to the mountainous terrain.",
+    "question": "What does the word \"sporadic\" most nearly mean in this context?",
+    "answer": "occurring irregularly",
+    "definition": "Happening at irregular intervals.",
+    "options": [
+      "regular",
+      "constant",
+      "frequent",
+      "steady",
+      "occurring irregularly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tumultuous",
+    "passage": "The tumultuous applause from the soldiers showed their appreciation for the general's visit.",
+    "question": "What does the word \"tumultuous\" most nearly mean in this context?",
+    "answer": "very loud and disorderly",
+    "definition": "Making a loud, confused noise.",
+    "options": [
+      "quiet",
+      "very loud and disorderly",
+      "calm",
+      "orderly",
+      "peaceful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "unprecedented",
+    "passage": "The operation required an unprecedented level of coordination between all branches.",
+    "question": "What does the word \"unprecedented\" most nearly mean in this context?",
+    "answer": "never done before",
+    "definition": "Never done or known before.",
+    "options": [
+      "typical",
+      "usual",
+      "ordinary",
+      "common",
+      "never done before"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "vindicate",
+    "passage": "The investigation vindicated the officer, showing he had followed proper procedure.",
+    "question": "What does the word \"vindicate\" most nearly mean in this context?",
+    "answer": "prove right",
+    "definition": "To clear someone of blame or suspicion.",
+    "options": [
+      "prove right",
+      "convict",
+      "accuse",
+      "condemn",
+      "blame"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "wary",
+    "passage": "The patrol remained wary of hidden explosives as they moved through the abandoned village.",
+    "question": "What does the word \"wary\" most nearly mean in this context?",
+    "answer": "cautious",
+    "definition": "Feeling or showing caution about dangers.",
+    "options": [
+      "reckless",
+      "cautious",
+      "trusting",
+      "careless",
+      "confident"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "zealous",
+    "passage": "The zealous recruit volunteered for every extra duty and training opportunity.",
+    "question": "What does the word \"zealous\" most nearly mean in this context?",
+    "answer": "very enthusiastic",
+    "definition": "Having great energy for a cause.",
+    "options": [
+      "very enthusiastic",
+      "lazy",
+      "uninterested",
+      "apathetic",
+      "indifferent"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "alleviate",
+    "passage": "The medic gave first aid to alleviate the soldier's pain until evacuation arrived.",
+    "question": "What does the word \"alleviate\" most nearly mean in this context?",
+    "answer": "reduce pain",
+    "definition": "To make suffering less severe.",
+    "options": [
+      "reduce pain",
+      "worsen",
+      "increase",
+      "aggravate",
+      "intensify"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "benevolent",
+    "passage": "The benevolent officer always ensured his soldiers had proper rest and hot meals.",
+    "question": "What does the word \"benevolent\" most nearly mean in this context?",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "kind and generous",
+      "selfish",
+      "cruel",
+      "harsh",
+      "mean"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "confuse",
+      "explain clearly",
+      "hide",
+      "ignore",
+      "clarify"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "easy",
+      "short",
+      "difficult and tiring",
+      "safe",
+      "fast"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "timid",
+      "confused",
+      "weak",
+      "lazy",
+      "holding firmly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "hasty",
+      "cautious and wise",
+      "foolish",
+      "reckless",
+      "careless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "clear",
+      "using too many words",
+      "concise",
+      "brief",
+      "silent"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "ignore",
+      "yield to something",
+      "resist",
+      "win",
+      "fight"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "shrewd and perceptive",
+      "naive",
+      "dull",
+      "foolish",
+      "slow"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "rude",
+      "unfriendly",
+      "hostile",
+      "pleasant and friendly",
+      "cold"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "trivial",
+      "seeming difficult",
+      "easy",
+      "manageable",
+      "simple"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "forget",
+      "reject",
+      "avoid",
+      "try to equal",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "bored",
+      "indifferent",
+      "apathetic",
+      "intensely enthusiastic",
+      "calm"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "useful",
+      "unnecessary",
+      "needed",
+      "helpful",
+      "essential"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "assist",
+      "aid",
+      "create difficulties",
+      "speed",
+      "help"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "unbiased",
+      "biased",
+      "unfair",
+      "unjust",
+      "partial"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "secure",
+      "protect",
+      "preserve",
+      "put at risk",
+      "safeguard"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "rejoice",
+      "celebrate",
+      "cheer",
+      "praise",
+      "express sadness"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "careless",
+      "messy",
+      "sloppy",
+      "very careful",
+      "hasty"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "longing for the past",
+      "hopeful",
+      "content",
+      "excited",
+      "eager"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "obvious",
+      "not well known",
+      "plain",
+      "known",
+      "clear"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "secure",
+      "safe",
+      "calm",
+      "easy",
+      "full of danger"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "querulous",
+    "passage": "The querulous soldier was always unhappy with the food, the quarters, and the schedule.",
+    "question": "What does the word \"querulous\" most nearly mean in this context?",
+    "answer": "complaining",
+    "definition": "Expressing complaints in a whiny way.",
+    "options": [
+      "content",
+      "happy",
+      "complaining",
+      "cheerful",
+      "satisfied"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "replenish",
+    "passage": "The convoy arrived to replenish the forward base with ammunition and rations.",
+    "question": "What does the word \"replenish\" most nearly mean in this context?",
+    "answer": "refill",
+    "definition": "To restore a supply to its full level.",
+    "options": [
+      "drain",
+      "deplete",
+      "refill",
+      "exhaust",
+      "empty"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "sporadic",
+    "passage": "Communication with the outpost was sporadic due to the mountainous terrain.",
+    "question": "What does the word \"sporadic\" most nearly mean in this context?",
+    "answer": "occurring irregularly",
+    "definition": "Happening at irregular intervals.",
+    "options": [
+      "occurring irregularly",
+      "constant",
+      "steady",
+      "frequent",
+      "regular"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tumultuous",
+    "passage": "The tumultuous applause from the soldiers showed their appreciation for the general's visit.",
+    "question": "What does the word \"tumultuous\" most nearly mean in this context?",
+    "answer": "very loud and disorderly",
+    "definition": "Making a loud, confused noise.",
+    "options": [
+      "peaceful",
+      "quiet",
+      "orderly",
+      "very loud and disorderly",
+      "calm"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "unprecedented",
+    "passage": "The operation required an unprecedented level of coordination between all branches.",
+    "question": "What does the word \"unprecedented\" most nearly mean in this context?",
+    "answer": "never done before",
+    "definition": "Never done or known before.",
+    "options": [
+      "common",
+      "ordinary",
+      "typical",
+      "usual",
+      "never done before"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "vindicate",
+    "passage": "The investigation vindicated the officer, showing he had followed proper procedure.",
+    "question": "What does the word \"vindicate\" most nearly mean in this context?",
+    "answer": "prove right",
+    "definition": "To clear someone of blame or suspicion.",
+    "options": [
+      "accuse",
+      "convict",
+      "prove right",
+      "blame",
+      "condemn"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "wary",
+    "passage": "The patrol remained wary of hidden explosives as they moved through the abandoned village.",
+    "question": "What does the word \"wary\" most nearly mean in this context?",
+    "answer": "cautious",
+    "definition": "Feeling or showing caution about dangers.",
+    "options": [
+      "trusting",
+      "careless",
+      "confident",
+      "cautious",
+      "reckless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "zealous",
+    "passage": "The zealous recruit volunteered for every extra duty and training opportunity.",
+    "question": "What does the word \"zealous\" most nearly mean in this context?",
+    "answer": "very enthusiastic",
+    "definition": "Having great energy for a cause.",
+    "options": [
+      "apathetic",
+      "very enthusiastic",
+      "lazy",
+      "indifferent",
+      "uninterested"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "alleviate",
+    "passage": "The medic gave first aid to alleviate the soldier's pain until evacuation arrived.",
+    "question": "What does the word \"alleviate\" most nearly mean in this context?",
+    "answer": "reduce pain",
+    "definition": "To make suffering less severe.",
+    "options": [
+      "aggravate",
+      "reduce pain",
+      "worsen",
+      "intensify",
+      "increase"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "benevolent",
+    "passage": "The benevolent officer always ensured his soldiers had proper rest and hot meals.",
+    "question": "What does the word \"benevolent\" most nearly mean in this context?",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "harsh",
+      "kind and generous",
+      "cruel",
+      "selfish",
+      "mean"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "ignore",
+      "confuse",
+      "hide",
+      "clarify",
+      "explain clearly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "difficult and tiring",
+      "easy",
+      "fast",
+      "short",
+      "safe"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "holding firmly",
+      "confused",
+      "timid",
+      "lazy",
+      "weak"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "foolish",
+      "cautious and wise",
+      "reckless",
+      "hasty",
+      "careless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "concise",
+      "using too many words",
+      "silent",
+      "brief",
+      "clear"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "win",
+      "fight",
+      "yield to something",
+      "ignore",
+      "resist"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "shrewd and perceptive",
+      "naive",
+      "foolish",
+      "dull",
+      "slow"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "cold",
+      "hostile",
+      "pleasant and friendly",
+      "unfriendly",
+      "rude"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "manageable",
+      "easy",
+      "simple",
+      "seeming difficult",
+      "trivial"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "try to equal",
+      "forget",
+      "reject",
+      "ignore",
+      "avoid"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "indifferent",
+      "calm",
+      "bored",
+      "apathetic",
+      "intensely enthusiastic"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "helpful",
+      "needed",
+      "useful",
+      "essential",
+      "unnecessary"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "help",
+      "speed",
+      "aid",
+      "assist",
+      "create difficulties"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "unfair",
+      "partial",
+      "unbiased",
+      "biased",
+      "unjust"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "safeguard",
+      "put at risk",
+      "secure",
+      "preserve",
+      "protect"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "praise",
+      "express sadness",
+      "celebrate",
+      "rejoice",
+      "cheer"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "careless",
+      "messy",
+      "very careful",
+      "hasty",
+      "sloppy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "content",
+      "hopeful",
+      "longing for the past",
+      "excited",
+      "eager"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "clear",
+      "plain",
+      "not well known",
+      "obvious",
+      "known"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "safe",
+      "full of danger",
+      "easy",
+      "calm",
+      "secure"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "querulous",
+    "passage": "The querulous soldier was always unhappy with the food, the quarters, and the schedule.",
+    "question": "What does the word \"querulous\" most nearly mean in this context?",
+    "answer": "complaining",
+    "definition": "Expressing complaints in a whiny way.",
+    "options": [
+      "complaining",
+      "happy",
+      "content",
+      "satisfied",
+      "cheerful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "replenish",
+    "passage": "The convoy arrived to replenish the forward base with ammunition and rations.",
+    "question": "What does the word \"replenish\" most nearly mean in this context?",
+    "answer": "refill",
+    "definition": "To restore a supply to its full level.",
+    "options": [
+      "exhaust",
+      "empty",
+      "drain",
+      "deplete",
+      "refill"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "sporadic",
+    "passage": "Communication with the outpost was sporadic due to the mountainous terrain.",
+    "question": "What does the word \"sporadic\" most nearly mean in this context?",
+    "answer": "occurring irregularly",
+    "definition": "Happening at irregular intervals.",
+    "options": [
+      "occurring irregularly",
+      "regular",
+      "steady",
+      "frequent",
+      "constant"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tumultuous",
+    "passage": "The tumultuous applause from the soldiers showed their appreciation for the general's visit.",
+    "question": "What does the word \"tumultuous\" most nearly mean in this context?",
+    "answer": "very loud and disorderly",
+    "definition": "Making a loud, confused noise.",
+    "options": [
+      "orderly",
+      "very loud and disorderly",
+      "quiet",
+      "peaceful",
+      "calm"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "unprecedented",
+    "passage": "The operation required an unprecedented level of coordination between all branches.",
+    "question": "What does the word \"unprecedented\" most nearly mean in this context?",
+    "answer": "never done before",
+    "definition": "Never done or known before.",
+    "options": [
+      "typical",
+      "ordinary",
+      "common",
+      "usual",
+      "never done before"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "vindicate",
+    "passage": "The investigation vindicated the officer, showing he had followed proper procedure.",
+    "question": "What does the word \"vindicate\" most nearly mean in this context?",
+    "answer": "prove right",
+    "definition": "To clear someone of blame or suspicion.",
+    "options": [
+      "prove right",
+      "convict",
+      "blame",
+      "condemn",
+      "accuse"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "wary",
+    "passage": "The patrol remained wary of hidden explosives as they moved through the abandoned village.",
+    "question": "What does the word \"wary\" most nearly mean in this context?",
+    "answer": "cautious",
+    "definition": "Feeling or showing caution about dangers.",
+    "options": [
+      "cautious",
+      "confident",
+      "trusting",
+      "careless",
+      "reckless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "zealous",
+    "passage": "The zealous recruit volunteered for every extra duty and training opportunity.",
+    "question": "What does the word \"zealous\" most nearly mean in this context?",
+    "answer": "very enthusiastic",
+    "definition": "Having great energy for a cause.",
+    "options": [
+      "apathetic",
+      "lazy",
+      "indifferent",
+      "very enthusiastic",
+      "uninterested"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "alleviate",
+    "passage": "The medic gave first aid to alleviate the soldier's pain until evacuation arrived.",
+    "question": "What does the word \"alleviate\" most nearly mean in this context?",
+    "answer": "reduce pain",
+    "definition": "To make suffering less severe.",
+    "options": [
+      "aggravate",
+      "increase",
+      "worsen",
+      "intensify",
+      "reduce pain"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "benevolent",
+    "passage": "The benevolent officer always ensured his soldiers had proper rest and hot meals.",
+    "question": "What does the word \"benevolent\" most nearly mean in this context?",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "mean",
+      "cruel",
+      "harsh",
+      "kind and generous",
+      "selfish"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "clarify",
+      "ignore",
+      "hide",
+      "confuse",
+      "explain clearly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "safe",
+      "difficult and tiring",
+      "fast",
+      "easy",
+      "short"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "confused",
+      "timid",
+      "holding firmly",
+      "lazy",
+      "weak"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "careless",
+      "foolish",
+      "hasty",
+      "cautious and wise",
+      "reckless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "brief",
+      "clear",
+      "using too many words",
+      "concise",
+      "silent"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "win",
+      "ignore",
+      "fight",
+      "resist",
+      "yield to something"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "shrewd and perceptive",
+      "slow",
+      "naive",
+      "foolish",
+      "dull"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "pleasant and friendly",
+      "unfriendly",
+      "rude",
+      "hostile",
+      "cold"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "simple",
+      "seeming difficult",
+      "easy",
+      "trivial",
+      "manageable"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "reject",
+      "try to equal",
+      "avoid",
+      "ignore",
+      "forget"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "apathetic",
+      "intensely enthusiastic",
+      "bored",
+      "indifferent",
+      "calm"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "needed",
+      "unnecessary",
+      "helpful",
+      "essential",
+      "useful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "speed",
+      "aid",
+      "create difficulties",
+      "help",
+      "assist"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "biased",
+      "unfair",
+      "unjust",
+      "partial",
+      "unbiased"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "safeguard",
+      "put at risk",
+      "protect",
+      "secure",
+      "preserve"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "praise",
+      "celebrate",
+      "cheer",
+      "express sadness",
+      "rejoice"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "messy",
+      "sloppy",
+      "careless",
+      "hasty",
+      "very careful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "excited",
+      "hopeful",
+      "longing for the past",
+      "eager",
+      "content"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "plain",
+      "known",
+      "not well known",
+      "obvious",
+      "clear"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "safe",
+      "secure",
+      "full of danger",
+      "easy",
+      "calm"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "querulous",
+    "passage": "The querulous soldier was always unhappy with the food, the quarters, and the schedule.",
+    "question": "What does the word \"querulous\" most nearly mean in this context?",
+    "answer": "complaining",
+    "definition": "Expressing complaints in a whiny way.",
+    "options": [
+      "satisfied",
+      "complaining",
+      "content",
+      "happy",
+      "cheerful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "replenish",
+    "passage": "The convoy arrived to replenish the forward base with ammunition and rations.",
+    "question": "What does the word \"replenish\" most nearly mean in this context?",
+    "answer": "refill",
+    "definition": "To restore a supply to its full level.",
+    "options": [
+      "empty",
+      "deplete",
+      "refill",
+      "exhaust",
+      "drain"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "sporadic",
+    "passage": "Communication with the outpost was sporadic due to the mountainous terrain.",
+    "question": "What does the word \"sporadic\" most nearly mean in this context?",
+    "answer": "occurring irregularly",
+    "definition": "Happening at irregular intervals.",
+    "options": [
+      "occurring irregularly",
+      "regular",
+      "frequent",
+      "constant",
+      "steady"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tumultuous",
+    "passage": "The tumultuous applause from the soldiers showed their appreciation for the general's visit.",
+    "question": "What does the word \"tumultuous\" most nearly mean in this context?",
+    "answer": "very loud and disorderly",
+    "definition": "Making a loud, confused noise.",
+    "options": [
+      "peaceful",
+      "very loud and disorderly",
+      "calm",
+      "orderly",
+      "quiet"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "unprecedented",
+    "passage": "The operation required an unprecedented level of coordination between all branches.",
+    "question": "What does the word \"unprecedented\" most nearly mean in this context?",
+    "answer": "never done before",
+    "definition": "Never done or known before.",
+    "options": [
+      "ordinary",
+      "common",
+      "never done before",
+      "typical",
+      "usual"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "vindicate",
+    "passage": "The investigation vindicated the officer, showing he had followed proper procedure.",
+    "question": "What does the word \"vindicate\" most nearly mean in this context?",
+    "answer": "prove right",
+    "definition": "To clear someone of blame or suspicion.",
+    "options": [
+      "blame",
+      "convict",
+      "accuse",
+      "prove right",
+      "condemn"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "wary",
+    "passage": "The patrol remained wary of hidden explosives as they moved through the abandoned village.",
+    "question": "What does the word \"wary\" most nearly mean in this context?",
+    "answer": "cautious",
+    "definition": "Feeling or showing caution about dangers.",
+    "options": [
+      "trusting",
+      "confident",
+      "reckless",
+      "careless",
+      "cautious"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "zealous",
+    "passage": "The zealous recruit volunteered for every extra duty and training opportunity.",
+    "question": "What does the word \"zealous\" most nearly mean in this context?",
+    "answer": "very enthusiastic",
+    "definition": "Having great energy for a cause.",
+    "options": [
+      "apathetic",
+      "very enthusiastic",
+      "indifferent",
+      "uninterested",
+      "lazy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "alleviate",
+    "passage": "The medic gave first aid to alleviate the soldier's pain until evacuation arrived.",
+    "question": "What does the word \"alleviate\" most nearly mean in this context?",
+    "answer": "reduce pain",
+    "definition": "To make suffering less severe.",
+    "options": [
+      "intensify",
+      "aggravate",
+      "reduce pain",
+      "increase",
+      "worsen"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "benevolent",
+    "passage": "The benevolent officer always ensured his soldiers had proper rest and hot meals.",
+    "question": "What does the word \"benevolent\" most nearly mean in this context?",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "harsh",
+      "kind and generous",
+      "mean",
+      "cruel",
+      "selfish"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "explain clearly",
+      "hide",
+      "confuse",
+      "clarify",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "safe",
+      "fast",
+      "short",
+      "difficult and tiring",
+      "easy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "timid",
+      "lazy",
+      "confused",
+      "holding firmly",
+      "weak"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "hasty",
+      "foolish",
+      "careless",
+      "cautious and wise",
+      "reckless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "brief",
+      "clear",
+      "using too many words",
+      "concise",
+      "silent"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "win",
+      "fight",
+      "ignore",
+      "resist",
+      "yield to something"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "dull",
+      "slow",
+      "shrewd and perceptive",
+      "naive",
+      "foolish"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "unfriendly",
+      "cold",
+      "pleasant and friendly",
+      "rude",
+      "hostile"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "manageable",
+      "easy",
+      "trivial",
+      "seeming difficult",
+      "simple"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "try to equal",
+      "avoid",
+      "forget",
+      "reject",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "bored",
+      "calm",
+      "apathetic",
+      "intensely enthusiastic",
+      "indifferent"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "helpful",
+      "useful",
+      "essential",
+      "unnecessary",
+      "needed"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "speed",
+      "create difficulties",
+      "aid",
+      "assist",
+      "help"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "partial",
+      "unfair",
+      "biased",
+      "unbiased",
+      "unjust"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "protect",
+      "safeguard",
+      "preserve",
+      "secure",
+      "put at risk"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "rejoice",
+      "praise",
+      "cheer",
+      "celebrate",
+      "express sadness"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "very careful",
+      "messy",
+      "careless",
+      "sloppy",
+      "hasty"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "content",
+      "eager",
+      "excited",
+      "longing for the past",
+      "hopeful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "not well known",
+      "obvious",
+      "known",
+      "clear",
+      "plain"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "full of danger",
+      "calm",
+      "secure",
+      "easy",
+      "safe"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "querulous",
+    "passage": "The querulous soldier was always unhappy with the food, the quarters, and the schedule.",
+    "question": "What does the word \"querulous\" most nearly mean in this context?",
+    "answer": "complaining",
+    "definition": "Expressing complaints in a whiny way.",
+    "options": [
+      "cheerful",
+      "satisfied",
+      "happy",
+      "complaining",
+      "content"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "replenish",
+    "passage": "The convoy arrived to replenish the forward base with ammunition and rations.",
+    "question": "What does the word \"replenish\" most nearly mean in this context?",
+    "answer": "refill",
+    "definition": "To restore a supply to its full level.",
+    "options": [
+      "refill",
+      "exhaust",
+      "drain",
+      "deplete",
+      "empty"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "sporadic",
+    "passage": "Communication with the outpost was sporadic due to the mountainous terrain.",
+    "question": "What does the word \"sporadic\" most nearly mean in this context?",
+    "answer": "occurring irregularly",
+    "definition": "Happening at irregular intervals.",
+    "options": [
+      "steady",
+      "frequent",
+      "occurring irregularly",
+      "regular",
+      "constant"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tumultuous",
+    "passage": "The tumultuous applause from the soldiers showed their appreciation for the general's visit.",
+    "question": "What does the word \"tumultuous\" most nearly mean in this context?",
+    "answer": "very loud and disorderly",
+    "definition": "Making a loud, confused noise.",
+    "options": [
+      "calm",
+      "quiet",
+      "orderly",
+      "peaceful",
+      "very loud and disorderly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "unprecedented",
+    "passage": "The operation required an unprecedented level of coordination between all branches.",
+    "question": "What does the word \"unprecedented\" most nearly mean in this context?",
+    "answer": "never done before",
+    "definition": "Never done or known before.",
+    "options": [
+      "ordinary",
+      "typical",
+      "usual",
+      "never done before",
+      "common"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "vindicate",
+    "passage": "The investigation vindicated the officer, showing he had followed proper procedure.",
+    "question": "What does the word \"vindicate\" most nearly mean in this context?",
+    "answer": "prove right",
+    "definition": "To clear someone of blame or suspicion.",
+    "options": [
+      "prove right",
+      "accuse",
+      "condemn",
+      "convict",
+      "blame"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "wary",
+    "passage": "The patrol remained wary of hidden explosives as they moved through the abandoned village.",
+    "question": "What does the word \"wary\" most nearly mean in this context?",
+    "answer": "cautious",
+    "definition": "Feeling or showing caution about dangers.",
+    "options": [
+      "confident",
+      "trusting",
+      "careless",
+      "cautious",
+      "reckless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "zealous",
+    "passage": "The zealous recruit volunteered for every extra duty and training opportunity.",
+    "question": "What does the word \"zealous\" most nearly mean in this context?",
+    "answer": "very enthusiastic",
+    "definition": "Having great energy for a cause.",
+    "options": [
+      "indifferent",
+      "lazy",
+      "apathetic",
+      "uninterested",
+      "very enthusiastic"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "alleviate",
+    "passage": "The medic gave first aid to alleviate the soldier's pain until evacuation arrived.",
+    "question": "What does the word \"alleviate\" most nearly mean in this context?",
+    "answer": "reduce pain",
+    "definition": "To make suffering less severe.",
+    "options": [
+      "worsen",
+      "reduce pain",
+      "increase",
+      "intensify",
+      "aggravate"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "benevolent",
+    "passage": "The benevolent officer always ensured his soldiers had proper rest and hot meals.",
+    "question": "What does the word \"benevolent\" most nearly mean in this context?",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "mean",
+      "selfish",
+      "harsh",
+      "cruel",
+      "kind and generous"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "confuse",
+      "explain clearly",
+      "ignore",
+      "clarify",
+      "hide"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "fast",
+      "short",
+      "easy",
+      "safe",
+      "difficult and tiring"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "weak",
+      "lazy",
+      "timid",
+      "holding firmly",
+      "confused"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "reckless",
+      "careless",
+      "foolish",
+      "cautious and wise",
+      "hasty"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "silent",
+      "clear",
+      "brief",
+      "using too many words",
+      "concise"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "fight",
+      "win",
+      "ignore",
+      "yield to something",
+      "resist"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "shrewd and perceptive",
+      "dull",
+      "slow",
+      "foolish",
+      "naive"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "pleasant and friendly",
+      "cold",
+      "unfriendly",
+      "rude",
+      "hostile"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "seeming difficult",
+      "simple",
+      "manageable",
+      "trivial",
+      "easy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "avoid",
+      "try to equal",
+      "ignore",
+      "forget",
+      "reject"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "apathetic",
+      "bored",
+      "indifferent",
+      "intensely enthusiastic",
+      "calm"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "essential",
+      "needed",
+      "unnecessary",
+      "useful",
+      "helpful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "speed",
+      "aid",
+      "create difficulties",
+      "assist",
+      "help"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "biased",
+      "unbiased",
+      "unfair",
+      "partial",
+      "unjust"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "preserve",
+      "secure",
+      "protect",
+      "safeguard",
+      "put at risk"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "praise",
+      "celebrate",
+      "express sadness",
+      "cheer",
+      "rejoice"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "messy",
+      "sloppy",
+      "careless",
+      "very careful",
+      "hasty"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "hopeful",
+      "excited",
+      "longing for the past",
+      "content",
+      "eager"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "obvious",
+      "known",
+      "plain",
+      "clear",
+      "not well known"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "calm",
+      "easy",
+      "full of danger",
+      "secure",
+      "safe"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "querulous",
+    "passage": "The querulous soldier was always unhappy with the food, the quarters, and the schedule.",
+    "question": "What does the word \"querulous\" most nearly mean in this context?",
+    "answer": "complaining",
+    "definition": "Expressing complaints in a whiny way.",
+    "options": [
+      "cheerful",
+      "satisfied",
+      "content",
+      "complaining",
+      "happy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "replenish",
+    "passage": "The convoy arrived to replenish the forward base with ammunition and rations.",
+    "question": "What does the word \"replenish\" most nearly mean in this context?",
+    "answer": "refill",
+    "definition": "To restore a supply to its full level.",
+    "options": [
+      "empty",
+      "deplete",
+      "refill",
+      "drain",
+      "exhaust"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "sporadic",
+    "passage": "Communication with the outpost was sporadic due to the mountainous terrain.",
+    "question": "What does the word \"sporadic\" most nearly mean in this context?",
+    "answer": "occurring irregularly",
+    "definition": "Happening at irregular intervals.",
+    "options": [
+      "regular",
+      "constant",
+      "frequent",
+      "steady",
+      "occurring irregularly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tumultuous",
+    "passage": "The tumultuous applause from the soldiers showed their appreciation for the general's visit.",
+    "question": "What does the word \"tumultuous\" most nearly mean in this context?",
+    "answer": "very loud and disorderly",
+    "definition": "Making a loud, confused noise.",
+    "options": [
+      "calm",
+      "orderly",
+      "very loud and disorderly",
+      "peaceful",
+      "quiet"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "unprecedented",
+    "passage": "The operation required an unprecedented level of coordination between all branches.",
+    "question": "What does the word \"unprecedented\" most nearly mean in this context?",
+    "answer": "never done before",
+    "definition": "Never done or known before.",
+    "options": [
+      "common",
+      "ordinary",
+      "typical",
+      "never done before",
+      "usual"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "vindicate",
+    "passage": "The investigation vindicated the officer, showing he had followed proper procedure.",
+    "question": "What does the word \"vindicate\" most nearly mean in this context?",
+    "answer": "prove right",
+    "definition": "To clear someone of blame or suspicion.",
+    "options": [
+      "prove right",
+      "accuse",
+      "convict",
+      "condemn",
+      "blame"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "wary",
+    "passage": "The patrol remained wary of hidden explosives as they moved through the abandoned village.",
+    "question": "What does the word \"wary\" most nearly mean in this context?",
+    "answer": "cautious",
+    "definition": "Feeling or showing caution about dangers.",
+    "options": [
+      "trusting",
+      "reckless",
+      "careless",
+      "confident",
+      "cautious"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "zealous",
+    "passage": "The zealous recruit volunteered for every extra duty and training opportunity.",
+    "question": "What does the word \"zealous\" most nearly mean in this context?",
+    "answer": "very enthusiastic",
+    "definition": "Having great energy for a cause.",
+    "options": [
+      "lazy",
+      "very enthusiastic",
+      "uninterested",
+      "indifferent",
+      "apathetic"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "alleviate",
+    "passage": "The medic gave first aid to alleviate the soldier's pain until evacuation arrived.",
+    "question": "What does the word \"alleviate\" most nearly mean in this context?",
+    "answer": "reduce pain",
+    "definition": "To make suffering less severe.",
+    "options": [
+      "intensify",
+      "reduce pain",
+      "worsen",
+      "aggravate",
+      "increase"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "benevolent",
+    "passage": "The benevolent officer always ensured his soldiers had proper rest and hot meals.",
+    "question": "What does the word \"benevolent\" most nearly mean in this context?",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "harsh",
+      "mean",
+      "kind and generous",
+      "selfish",
+      "cruel"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "clarify",
+      "ignore",
+      "hide",
+      "confuse",
+      "explain clearly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "safe",
+      "short",
+      "difficult and tiring",
+      "easy",
+      "fast"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "holding firmly",
+      "lazy",
+      "confused",
+      "timid",
+      "weak"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "cautious and wise",
+      "hasty",
+      "careless",
+      "foolish",
+      "reckless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "brief",
+      "clear",
+      "silent",
+      "concise",
+      "using too many words"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "fight",
+      "win",
+      "yield to something",
+      "resist",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "naive",
+      "shrewd and perceptive",
+      "dull",
+      "slow",
+      "foolish"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "pleasant and friendly",
+      "hostile",
+      "cold",
+      "unfriendly",
+      "rude"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "simple",
+      "easy",
+      "manageable",
+      "seeming difficult",
+      "trivial"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "try to equal",
+      "forget",
+      "reject",
+      "avoid",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "apathetic",
+      "indifferent",
+      "intensely enthusiastic",
+      "calm",
+      "bored"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "essential",
+      "useful",
+      "unnecessary",
+      "helpful",
+      "needed"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "help",
+      "create difficulties",
+      "assist",
+      "aid",
+      "speed"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "biased",
+      "unfair",
+      "unbiased",
+      "unjust",
+      "partial"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "put at risk",
+      "preserve",
+      "safeguard",
+      "secure",
+      "protect"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "praise",
+      "express sadness",
+      "rejoice",
+      "celebrate",
+      "cheer"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "messy",
+      "careless",
+      "hasty",
+      "sloppy",
+      "very careful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "eager",
+      "longing for the past",
+      "hopeful",
+      "excited",
+      "content"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "clear",
+      "obvious",
+      "not well known",
+      "plain",
+      "known"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "secure",
+      "calm",
+      "easy",
+      "safe",
+      "full of danger"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "querulous",
+    "passage": "The querulous soldier was always unhappy with the food, the quarters, and the schedule.",
+    "question": "What does the word \"querulous\" most nearly mean in this context?",
+    "answer": "complaining",
+    "definition": "Expressing complaints in a whiny way.",
+    "options": [
+      "content",
+      "happy",
+      "cheerful",
+      "complaining",
+      "satisfied"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "replenish",
+    "passage": "The convoy arrived to replenish the forward base with ammunition and rations.",
+    "question": "What does the word \"replenish\" most nearly mean in this context?",
+    "answer": "refill",
+    "definition": "To restore a supply to its full level.",
+    "options": [
+      "drain",
+      "exhaust",
+      "deplete",
+      "refill",
+      "empty"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "sporadic",
+    "passage": "Communication with the outpost was sporadic due to the mountainous terrain.",
+    "question": "What does the word \"sporadic\" most nearly mean in this context?",
+    "answer": "occurring irregularly",
+    "definition": "Happening at irregular intervals.",
+    "options": [
+      "frequent",
+      "occurring irregularly",
+      "constant",
+      "regular",
+      "steady"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tumultuous",
+    "passage": "The tumultuous applause from the soldiers showed their appreciation for the general's visit.",
+    "question": "What does the word \"tumultuous\" most nearly mean in this context?",
+    "answer": "very loud and disorderly",
+    "definition": "Making a loud, confused noise.",
+    "options": [
+      "very loud and disorderly",
+      "peaceful",
+      "quiet",
+      "orderly",
+      "calm"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "unprecedented",
+    "passage": "The operation required an unprecedented level of coordination between all branches.",
+    "question": "What does the word \"unprecedented\" most nearly mean in this context?",
+    "answer": "never done before",
+    "definition": "Never done or known before.",
+    "options": [
+      "common",
+      "never done before",
+      "usual",
+      "ordinary",
+      "typical"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "vindicate",
+    "passage": "The investigation vindicated the officer, showing he had followed proper procedure.",
+    "question": "What does the word \"vindicate\" most nearly mean in this context?",
+    "answer": "prove right",
+    "definition": "To clear someone of blame or suspicion.",
+    "options": [
+      "accuse",
+      "blame",
+      "convict",
+      "prove right",
+      "condemn"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "wary",
+    "passage": "The patrol remained wary of hidden explosives as they moved through the abandoned village.",
+    "question": "What does the word \"wary\" most nearly mean in this context?",
+    "answer": "cautious",
+    "definition": "Feeling or showing caution about dangers.",
+    "options": [
+      "careless",
+      "trusting",
+      "reckless",
+      "cautious",
+      "confident"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "zealous",
+    "passage": "The zealous recruit volunteered for every extra duty and training opportunity.",
+    "question": "What does the word \"zealous\" most nearly mean in this context?",
+    "answer": "very enthusiastic",
+    "definition": "Having great energy for a cause.",
+    "options": [
+      "very enthusiastic",
+      "lazy",
+      "uninterested",
+      "apathetic",
+      "indifferent"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "alleviate",
+    "passage": "The medic gave first aid to alleviate the soldier's pain until evacuation arrived.",
+    "question": "What does the word \"alleviate\" most nearly mean in this context?",
+    "answer": "reduce pain",
+    "definition": "To make suffering less severe.",
+    "options": [
+      "aggravate",
+      "reduce pain",
+      "worsen",
+      "increase",
+      "intensify"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "benevolent",
+    "passage": "The benevolent officer always ensured his soldiers had proper rest and hot meals.",
+    "question": "What does the word \"benevolent\" most nearly mean in this context?",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "harsh",
+      "cruel",
+      "selfish",
+      "kind and generous",
+      "mean"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "clarify",
+      "confuse",
+      "hide",
+      "ignore",
+      "explain clearly"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "fast",
+      "safe",
+      "difficult and tiring",
+      "short",
+      "easy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "holding firmly",
+      "confused",
+      "lazy",
+      "weak",
+      "timid"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "reckless",
+      "careless",
+      "hasty",
+      "foolish",
+      "cautious and wise"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "brief",
+      "concise",
+      "clear",
+      "using too many words",
+      "silent"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "yield to something",
+      "resist",
+      "win",
+      "ignore",
+      "fight"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "foolish",
+      "shrewd and perceptive",
+      "slow",
+      "dull",
+      "naive"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "rude",
+      "unfriendly",
+      "hostile",
+      "pleasant and friendly",
+      "cold"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "manageable",
+      "simple",
+      "seeming difficult",
+      "trivial",
+      "easy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "forget",
+      "ignore",
+      "try to equal",
+      "reject",
+      "avoid"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "apathetic",
+      "bored",
+      "indifferent",
+      "calm",
+      "intensely enthusiastic"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "needed",
+      "essential",
+      "useful",
+      "helpful",
+      "unnecessary"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "create difficulties",
+      "aid",
+      "help",
+      "speed",
+      "assist"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "unfair",
+      "biased",
+      "partial",
+      "unjust",
+      "unbiased"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "protect",
+      "safeguard",
+      "secure",
+      "put at risk",
+      "preserve"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "rejoice",
+      "praise",
+      "cheer",
+      "celebrate",
+      "express sadness"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "messy",
+      "sloppy",
+      "careless",
+      "hasty",
+      "very careful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "excited",
+      "longing for the past",
+      "content",
+      "hopeful",
+      "eager"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "known",
+      "plain",
+      "clear",
+      "not well known",
+      "obvious"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "calm",
+      "safe",
+      "secure",
+      "easy",
+      "full of danger"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "querulous",
+    "passage": "The querulous soldier was always unhappy with the food, the quarters, and the schedule.",
+    "question": "What does the word \"querulous\" most nearly mean in this context?",
+    "answer": "complaining",
+    "definition": "Expressing complaints in a whiny way.",
+    "options": [
+      "content",
+      "complaining",
+      "happy",
+      "satisfied",
+      "cheerful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "replenish",
+    "passage": "The convoy arrived to replenish the forward base with ammunition and rations.",
+    "question": "What does the word \"replenish\" most nearly mean in this context?",
+    "answer": "refill",
+    "definition": "To restore a supply to its full level.",
+    "options": [
+      "deplete",
+      "refill",
+      "empty",
+      "exhaust",
+      "drain"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "sporadic",
+    "passage": "Communication with the outpost was sporadic due to the mountainous terrain.",
+    "question": "What does the word \"sporadic\" most nearly mean in this context?",
+    "answer": "occurring irregularly",
+    "definition": "Happening at irregular intervals.",
+    "options": [
+      "frequent",
+      "steady",
+      "occurring irregularly",
+      "constant",
+      "regular"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tumultuous",
+    "passage": "The tumultuous applause from the soldiers showed their appreciation for the general's visit.",
+    "question": "What does the word \"tumultuous\" most nearly mean in this context?",
+    "answer": "very loud and disorderly",
+    "definition": "Making a loud, confused noise.",
+    "options": [
+      "calm",
+      "quiet",
+      "very loud and disorderly",
+      "orderly",
+      "peaceful"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "unprecedented",
+    "passage": "The operation required an unprecedented level of coordination between all branches.",
+    "question": "What does the word \"unprecedented\" most nearly mean in this context?",
+    "answer": "never done before",
+    "definition": "Never done or known before.",
+    "options": [
+      "never done before",
+      "common",
+      "typical",
+      "usual",
+      "ordinary"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "vindicate",
+    "passage": "The investigation vindicated the officer, showing he had followed proper procedure.",
+    "question": "What does the word \"vindicate\" most nearly mean in this context?",
+    "answer": "prove right",
+    "definition": "To clear someone of blame or suspicion.",
+    "options": [
+      "accuse",
+      "prove right",
+      "convict",
+      "blame",
+      "condemn"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "wary",
+    "passage": "The patrol remained wary of hidden explosives as they moved through the abandoned village.",
+    "question": "What does the word \"wary\" most nearly mean in this context?",
+    "answer": "cautious",
+    "definition": "Feeling or showing caution about dangers.",
+    "options": [
+      "reckless",
+      "trusting",
+      "careless",
+      "cautious",
+      "confident"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "zealous",
+    "passage": "The zealous recruit volunteered for every extra duty and training opportunity.",
+    "question": "What does the word \"zealous\" most nearly mean in this context?",
+    "answer": "very enthusiastic",
+    "definition": "Having great energy for a cause.",
+    "options": [
+      "lazy",
+      "very enthusiastic",
+      "indifferent",
+      "apathetic",
+      "uninterested"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "alleviate",
+    "passage": "The medic gave first aid to alleviate the soldier's pain until evacuation arrived.",
+    "question": "What does the word \"alleviate\" most nearly mean in this context?",
+    "answer": "reduce pain",
+    "definition": "To make suffering less severe.",
+    "options": [
+      "intensify",
+      "worsen",
+      "aggravate",
+      "reduce pain",
+      "increase"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "benevolent",
+    "passage": "The benevolent officer always ensured his soldiers had proper rest and hot meals.",
+    "question": "What does the word \"benevolent\" most nearly mean in this context?",
+    "answer": "kind and generous",
+    "definition": "Showing goodwill and kindness.",
+    "options": [
+      "kind and generous",
+      "cruel",
+      "harsh",
+      "selfish",
+      "mean"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "elucidate",
+    "passage": "The teacher took a moment to elucidate the complex theory so everyone could understand it.",
+    "question": "What does the word \"elucidate\" most nearly mean in this context?",
+    "answer": "explain clearly",
+    "definition": "To make something clear or explain it.",
+    "options": [
+      "clarify",
+      "hide",
+      "ignore",
+      "explain clearly",
+      "confuse"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "arduous",
+    "passage": "The soldiers completed an arduous 20-mile march through rough terrain in the pouring rain.",
+    "question": "What does the word \"arduous\" most nearly mean in this context?",
+    "answer": "difficult and tiring",
+    "definition": "Involving great effort and difficulty.",
+    "options": [
+      "fast",
+      "short",
+      "easy",
+      "safe",
+      "difficult and tiring"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "tenacious",
+    "passage": "The recruit's tenacious attitude helped her master every skill, even when she struggled at first.",
+    "question": "What does the word \"tenacious\" most nearly mean in this context?",
+    "answer": "holding firmly",
+    "definition": "Not giving up easily; persistent.",
+    "options": [
+      "holding firmly",
+      "confused",
+      "timid",
+      "weak",
+      "lazy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "prudent",
+    "passage": "It was prudent to double-check the equipment before deployment rather than risk a failure.",
+    "question": "What does the word \"prudent\" most nearly mean in this context?",
+    "answer": "cautious and wise",
+    "definition": "Acting with careful thought for the future.",
+    "options": [
+      "cautious and wise",
+      "reckless",
+      "hasty",
+      "foolish",
+      "careless"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "verbose",
+    "passage": "The instructor's verbose explanations often confused the students more than they helped.",
+    "question": "What does the word \"verbose\" most nearly mean in this context?",
+    "answer": "using too many words",
+    "definition": "Using more words than needed.",
+    "options": [
+      "clear",
+      "silent",
+      "concise",
+      "brief",
+      "using too many words"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "succumb",
+    "passage": "After hours in the heat, several soldiers began to succumb to exhaustion and had to rest.",
+    "question": "What does the word \"succumb\" most nearly mean in this context?",
+    "answer": "yield to something",
+    "definition": "To fail to resist pressure or temptation.",
+    "options": [
+      "ignore",
+      "resist",
+      "fight",
+      "win",
+      "yield to something"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "astute",
+    "passage": "The commander's astute decision to change the route avoided a potential ambush.",
+    "question": "What does the word \"astute\" most nearly mean in this context?",
+    "answer": "shrewd and perceptive",
+    "definition": "Having the ability to assess situations quickly.",
+    "options": [
+      "foolish",
+      "slow",
+      "naive",
+      "dull",
+      "shrewd and perceptive"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "congenial",
+    "passage": "The new officer found the unit to be congenial, with everyone welcoming him warmly.",
+    "question": "What does the word \"congenial\" most nearly mean in this context?",
+    "answer": "pleasant and friendly",
+    "definition": "Pleasant because of personality or interests.",
+    "options": [
+      "pleasant and friendly",
+      "rude",
+      "unfriendly",
+      "hostile",
+      "cold"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "daunting",
+    "passage": "The prospect of learning a new language seemed daunting, but the soldiers practiced daily.",
+    "question": "What does the word \"daunting\" most nearly mean in this context?",
+    "answer": "seeming difficult",
+    "definition": "Seeming difficult to deal with.",
+    "options": [
+      "trivial",
+      "manageable",
+      "seeming difficult",
+      "easy",
+      "simple"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "emulate",
+    "passage": "Young soldiers often emulate their sergeants, adopting their discipline and work ethic.",
+    "question": "What does the word \"emulate\" most nearly mean in this context?",
+    "answer": "try to equal",
+    "definition": "To match or surpass by imitation.",
+    "options": [
+      "reject",
+      "try to equal",
+      "avoid",
+      "forget",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "fervent",
+    "passage": "The platoon leader's fervent speech inspired everyone before the mission.",
+    "question": "What does the word \"fervent\" most nearly mean in this context?",
+    "answer": "intensely enthusiastic",
+    "definition": "Having passionate feelings.",
+    "options": [
+      "bored",
+      "intensely enthusiastic",
+      "apathetic",
+      "indifferent",
+      "calm"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "gratuitous",
+    "passage": "The instructor thought the extra drills were gratuitous and did not improve skills.",
+    "question": "What does the word \"gratuitous\" most nearly mean in this context?",
+    "answer": "unnecessary",
+    "definition": "Given or done without good reason.",
+    "options": [
+      "helpful",
+      "unnecessary",
+      "useful",
+      "essential",
+      "needed"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "hinder",
+    "passage": "The muddy terrain began to hinder the convoy's advance toward the objective.",
+    "question": "What does the word \"hinder\" most nearly mean in this context?",
+    "answer": "create difficulties",
+    "definition": "To delay or impede progress.",
+    "options": [
+      "assist",
+      "speed",
+      "help",
+      "create difficulties",
+      "aid"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "impartial",
+    "passage": "A good leader must be impartial when evaluating the performance of team members.",
+    "question": "What does the word \"impartial\" most nearly mean in this context?",
+    "answer": "unbiased",
+    "definition": "Treating all sides equally.",
+    "options": [
+      "unjust",
+      "biased",
+      "unbiased",
+      "unfair",
+      "partial"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "jeopardize",
+    "passage": "Carelessly leaving equipment behind could jeopardize the entire mission.",
+    "question": "What does the word \"jeopardize\" most nearly mean in this context?",
+    "answer": "put at risk",
+    "definition": "To expose to danger or loss.",
+    "options": [
+      "preserve",
+      "secure",
+      "protect",
+      "safeguard",
+      "put at risk"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "lament",
+    "passage": "The unit lamented the loss of their comrade who had fallen during the operation.",
+    "question": "What does the word \"lament\" most nearly mean in this context?",
+    "answer": "express sadness",
+    "definition": "To feel or show grief.",
+    "options": [
+      "praise",
+      "celebrate",
+      "rejoice",
+      "cheer",
+      "express sadness"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "meticulous",
+    "passage": "The medic was meticulous in checking every supply before the field exercise.",
+    "question": "What does the word \"meticulous\" most nearly mean in this context?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail.",
+    "options": [
+      "messy",
+      "very careful",
+      "careless",
+      "hasty",
+      "sloppy"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "nostalgic",
+    "passage": "The veterans grew nostalgic when they visited the old training camp where they first served.",
+    "question": "What does the word \"nostalgic\" most nearly mean in this context?",
+    "answer": "longing for the past",
+    "definition": "A sentimental longing for past times.",
+    "options": [
+      "excited",
+      "longing for the past",
+      "eager",
+      "hopeful",
+      "content"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "obscure",
+    "passage": "The meaning of the transmission remained obscure until the code was deciphered.",
+    "question": "What does the word \"obscure\" most nearly mean in this context?",
+    "answer": "not well known",
+    "definition": "Not known or hard to understand.",
+    "options": [
+      "obvious",
+      "clear",
+      "plain",
+      "known",
+      "not well known"
+    ]
+  },
+  {
+    "source": "Non-Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance team navigated a perilous path along the cliff edge at night.",
+    "question": "What does the word \"perilous\" most nearly mean in this context?",
+    "answer": "full of danger",
+    "definition": "Full of immediate danger.",
+    "options": [
+      "easy",
+      "secure",
+      "full of danger",
+      "calm",
+      "safe"
+    ]
   }
 ]

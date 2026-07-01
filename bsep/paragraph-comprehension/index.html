@@ -60,9 +60,51 @@
         border-radius: 999px;
         font-size: 11px;
         font-weight: 600;
-        background: rgba(129, 140, 248, 0.1);
+      }
+      .source-badge.official { background: rgba(129, 140, 248, 0.1); color: #818cf8; }
+      .source-badge.non-official { background: rgba(234, 179, 8, 0.1); color: #eab308; }
+      .timer {
+        font-variant-numeric: tabular-nums;
+        font-weight: 700;
         color: #818cf8;
       }
+
+      .start-screen {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        padding: 48px 24px;
+      }
+      .start-screen .icon { font-size: 56px; }
+      .start-screen h2 { font-size: 24px; font-weight: 700; }
+      .start-screen p { color: #94a3b8; font-size: 14px; line-height: 1.6; max-width: 400px; }
+      .start-screen .stats { color: #64748b; font-size: 13px; }
+      .start-screen .stats span { color: #e2e8f0; font-weight: 600; }
+      .btn-start {
+        padding: 16px 56px;
+        font-size: 17px;
+        font-family: inherit;
+        font-weight: 700;
+        border: none;
+        border-radius: 14px;
+        cursor: pointer;
+        color: #fff;
+        background: linear-gradient(135deg, #7c3aed, #a855f7);
+        transition: all 0.25s;
+      }
+      .btn-start:hover {
+        filter: brightness(1.15);
+        box-shadow: 0 8px 32px rgba(124, 58, 237, 0.35);
+        transform: translateY(-2px);
+      }
+      .btn-start:active { transform: scale(0.97); }
+
+      .quiz-content { display: none; }
+
       .passage {
         background: #0f172a;
         border: 1px solid #1e293b;
@@ -146,19 +188,29 @@
       </a>
       <h1>Paragraph Comprehension</h1>
 
-      <div class="meta">
-        <span id="progress">Loading...</span>
-        <span id="sourceBadge"></span>
+      <div class="start-screen" id="startScreen">
+        <div class="icon">📝</div>
+        <h2>Ready?</h2>
+        <p>Read each passage carefully and answer the question that follows. You will be presented with <strong id="totalQuestions">0</strong> questions.</p>
+        <div class="stats" id="resumeStats"></div>
+        <button class="btn-start" id="startBtn" onclick="startQuiz()">Start</button>
       </div>
 
-      <div class="passage" id="passage"></div>
-      <div class="question-text" id="questionText"></div>
-      <div id="options"></div>
-      <div class="feedback" id="feedback"></div>
+      <div class="quiz-content" id="quizContent">
+        <div class="meta">
+          <span id="progress">Loading...</span>
+          <span><span class="timer" id="timerDisplay">00:00</span> &middot; <span id="sourceBadge"></span></span>
+        </div>
 
-      <div class="actions">
-        <button class="btn-next" id="nextBtn" onclick="nextQuestion()">Next</button>
-        <button class="btn-reset" onclick="resetProgress()">Reset</button>
+        <div class="passage" id="passage"></div>
+        <div class="question-text" id="questionText"></div>
+        <div id="options"></div>
+        <div class="feedback" id="feedback"></div>
+
+        <div class="actions">
+          <button class="btn-next" id="nextBtn" onclick="nextQuestion()">Next</button>
+          <button class="btn-reset" onclick="resetProgress()">Reset</button>
+        </div>
       </div>
     </div>
 
@@ -168,31 +220,83 @@
       let score = 0;
       let answered = false;
       let done = new Set();
+      let timerInterval = null;
+      let elapsedSeconds = 0;
+      let quizStarted = false;
       const STORAGE_PREFIX = 'bsep_pc_';
 
       function saveProgress() {
         localStorage.setItem(STORAGE_PREFIX + 'index', index);
         localStorage.setItem(STORAGE_PREFIX + 'score', score);
         localStorage.setItem(STORAGE_PREFIX + 'done', JSON.stringify([...done]));
+        localStorage.setItem(STORAGE_PREFIX + 'elapsed', elapsedSeconds);
+        localStorage.setItem(STORAGE_PREFIX + 'started', quizStarted ? '1' : '0');
       }
 
       function loadProgress() {
         index = parseInt(localStorage.getItem(STORAGE_PREFIX + 'index')) || 0;
         score = parseInt(localStorage.getItem(STORAGE_PREFIX + 'score')) || 0;
+        elapsedSeconds = parseInt(localStorage.getItem(STORAGE_PREFIX + 'elapsed')) || 0;
+        quizStarted = localStorage.getItem(STORAGE_PREFIX + 'started') === '1';
         const saved = localStorage.getItem(STORAGE_PREFIX + 'done');
         if (saved) done = new Set(JSON.parse(saved));
+      }
+
+      function formatTime(sec) {
+        const m = String(Math.floor(sec / 60)).padStart(2, '0');
+        const s = String(sec % 60).padStart(2, '0');
+        return m + ':' + s;
+      }
+
+      function updateTimerDisplay() {
+        document.getElementById('timerDisplay').textContent = formatTime(elapsedSeconds);
+      }
+
+      function startTimer() {
+        if (timerInterval) return;
+        timerInterval = setInterval(() => {
+          elapsedSeconds++;
+          updateTimerDisplay();
+          saveProgress();
+        }, 1000);
+      }
+
+      function stopTimer() {
+        if (timerInterval) {
+          clearInterval(timerInterval);
+          timerInterval = null;
+        }
       }
 
       fetch('questions.json')
         .then(r => r.json())
         .then(data => {
           questions = Array.isArray(data) ? data : Object.values(data).flat();
+          document.getElementById('totalQuestions').textContent = questions.length;
           loadProgress();
-          loadQuestion();
+
+          if (quizStarted && index < questions.length) {
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('quizContent').style.display = 'flex';
+            updateTimerDisplay();
+            loadQuestion();
+            startTimer();
+          }
         });
 
+      function startQuiz() {
+        document.getElementById('startScreen').style.display = 'none';
+        document.getElementById('quizContent').style.display = 'flex';
+        quizStarted = true;
+        if (index === 0) elapsedSeconds = 0;
+        updateTimerDisplay();
+        saveProgress();
+        startTimer();
+        loadQuestion();
+      }
+
       function highlightPassage(text, word) {
-        const re = new RegExp(`(${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+        const re = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
         return text.replace(re, '<strong>$1</strong>');
       }
 
@@ -207,7 +311,8 @@
         const q = questions[index];
         document.getElementById('passage').innerHTML = highlightPassage(q.passage, q.word);
         document.getElementById('questionText').textContent = q.question;
-        document.getElementById('sourceBadge').innerHTML = q.source ? `<span class="source-badge">${q.source}</span>` : '';
+        var cls = q.source ? q.source.toLowerCase().replace(/\s+/g, '-') : '';
+        document.getElementById('sourceBadge').innerHTML = q.source ? '<span class="source-badge ' + cls + '">' + q.source + '</span>' : '';
         updateProgress();
 
         const opts = document.getElementById('options');
@@ -240,11 +345,10 @@
 
         if (correct) score++;
 
-        document.getElementById('feedback').innerHTML = `
-          <div style="font-weight:700;margin-bottom:4px;">${correct ? '✅ Correct!' : '❌ Wrong!'}</div>
-          <div style="color:#22c55e;font-weight:600;">Answer: ${q.answer}</div>
-          <div class="def">${q.definition}</div>
-        `;
+        document.getElementById('feedback').innerHTML =
+          '<div style="font-weight:700;margin-bottom:4px;">' + (correct ? '✅ Correct!' : '❌ Wrong!') + '</div>' +
+          '<div style="color:#22c55e;font-weight:600;">Answer: ' + q.answer + '</div>' +
+          '<div class="def">' + q.definition + '</div>';
 
         done.add(index);
         saveProgress();
@@ -259,27 +363,33 @@
 
       function updateProgress() {
         document.getElementById('progress').textContent =
-          `Question ${Math.min(index + 1, questions.length)} of ${questions.length} | Score: ${score}`;
+          'Question ' + Math.min(index + 1, questions.length) + ' of ' + questions.length + ' | Score: ' + score;
       }
 
       function finish() {
+        stopTimer();
         document.getElementById('passage').innerHTML = '';
         document.getElementById('questionText').innerHTML = '';
         document.getElementById('options').innerHTML = '';
         document.getElementById('feedback').innerHTML = '';
         document.getElementById('sourceBadge').innerHTML = '';
-        document.getElementById('progress').textContent = `Final Score: ${score} / ${questions.length}`;
+        document.getElementById('progress').textContent = 'Final Score: ' + score + ' / ' + questions.length;
         document.getElementById('nextBtn').style.display = 'none';
-        document.querySelector('.container').insertAdjacentHTML('beforeend',
-          '<div class="finished"><h2>🎉 Finished!</h2><p>Final Score: ' + score + ' / ' + questions.length + '</p></div>');
+        document.querySelector('.quiz-content').insertAdjacentHTML('beforeend',
+          '<div class="finished"><h2>🎉 Finished!</h2><p>Time: ' + formatTime(elapsedSeconds) + '</p></div>');
       }
 
       function resetProgress() {
+        stopTimer();
         localStorage.removeItem(STORAGE_PREFIX + 'index');
         localStorage.removeItem(STORAGE_PREFIX + 'score');
         localStorage.removeItem(STORAGE_PREFIX + 'done');
-        index = 0; score = 0; done = new Set();
-        loadQuestion();
+        localStorage.removeItem(STORAGE_PREFIX + 'elapsed');
+        localStorage.removeItem(STORAGE_PREFIX + 'started');
+        index = 0; score = 0; done = new Set(); elapsedSeconds = 0; quizStarted = false;
+        document.getElementById('startScreen').style.display = 'flex';
+        document.getElementById('quizContent').style.display = 'none';
+        updateTimerDisplay();
       }
     </script>
   </body>

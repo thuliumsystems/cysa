@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
     <style>
       * { box-sizing: border-box; margin: 0; padding: 0; }
       body {
@@ -16,15 +19,18 @@
         min-height: 100vh;
         display: flex;
         justify-content: center;
-        align-items: center;
         padding: 24px;
       }
       .container {
-        text-align: center;
-        max-width: 480px;
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-bottom: 40px;
       }
       .back {
-        display: inline-flex;
+        display: flex;
         align-items: center;
         gap: 8px;
         color: #64748b;
@@ -32,55 +38,343 @@
         font-size: 13px;
         font-weight: 600;
         transition: color 0.2s;
-        margin-bottom: 32px;
+        margin-bottom: 4px;
       }
       .back:hover { color: #34d399; }
       .back svg { width: 16px; height: 16px; }
-      .icon {
-        font-size: 56px;
-        margin-bottom: 20px;
-      }
       h1 {
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 800;
         background: linear-gradient(135deg, #34d399, #06b6d4);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        margin-bottom: 12px;
       }
-      p {
+      .meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
         color: #94a3b8;
-        font-size: 15px;
-        line-height: 1.6;
-        margin-bottom: 8px;
       }
-      .status {
+      .source-badge {
         display: inline-block;
-        padding: 6px 20px;
+        padding: 3px 10px;
         border-radius: 999px;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 600;
-        background: rgba(52, 211, 153, 0.1);
+      }
+      .source-badge.official { background: rgba(52, 211, 153, 0.1); color: #34d399; }
+      .source-badge.non-official { background: rgba(234, 179, 8, 0.1); color: #eab308; }
+      .timer {
+        font-variant-numeric: tabular-nums;
+        font-weight: 700;
         color: #34d399;
-        margin-top: 16px;
-        letter-spacing: 0.5px;
+      }
+      .start-screen {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        padding: 48px 24px;
+      }
+      .start-screen .icon { font-size: 56px; }
+      .start-screen h2 { font-size: 24px; font-weight: 700; }
+      .start-screen p { color: #94a3b8; font-size: 14px; line-height: 1.6; max-width: 400px; }
+      .btn-start {
+        padding: 16px 56px;
+        font-size: 17px;
+        font-family: inherit;
+        font-weight: 700;
+        border: none;
+        border-radius: 14px;
+        cursor: pointer;
+        color: #fff;
+        background: linear-gradient(135deg, #059669, #06b6d4);
+        transition: all 0.25s;
+      }
+      .btn-start:hover {
+        filter: brightness(1.15);
+        box-shadow: 0 8px 32px rgba(5, 150, 105, 0.35);
+        transform: translateY(-2px);
+      }
+      .btn-start:active { transform: scale(0.97); }
+      .quiz-content { display: none; }
+      .question-box {
+        background: #0f172a;
+        border: 1px solid #1e293b;
+        border-radius: 12px;
+        padding: 18px;
+        font-size: 15px;
+        line-height: 1.7;
+        color: #cbd5e1;
+      }
+      .question-box .katex { font-size: 1.05em; }
+      .feedback .katex { font-size: 1.05em; }
+
+      #options { display: flex; flex-direction: column; gap: 10px; }
+      .btn {
+        width: 100%;
+        padding: 15px 18px;
+        font-size: 15px;
+        font-family: inherit;
+        background: #1a2332;
+        border: 1px solid #1e293b;
+        color: #e2e8f0;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.2s;
+        text-align: left;
+      }
+      .btn:hover { background: #1e293b; border-color: #334155; }
+      .btn:active { transform: scale(0.98); }
+      .btn.correct { border-color: #22c55e; background: rgba(34, 197, 94, 0.08); color: #22c55e; }
+      .btn.wrong { border-color: #ef4444; background: rgba(239, 68, 68, 0.08); color: #ef4444; }
+      .feedback {
+        padding: 16px;
+        background: #0f172a;
+        border: 1px solid #1e293b;
+        border-radius: 12px;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      .actions { display: flex; gap: 10px; }
+      .actions button {
+        flex: 1;
+        padding: 14px;
+        font-size: 15px;
+        font-family: inherit;
+        font-weight: 600;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.2s;
+        color: #fff;
+      }
+      .actions button:active { transform: scale(0.97); }
+      .btn-next { background: #059669; }
+      .btn-next:hover { filter: brightness(1.15); }
+      .btn-reset { background: #dc2626; }
+      .btn-reset:hover { filter: brightness(1.15); }
+      .finished { text-align: center; padding: 40px 0; }
+      .finished h2 { font-size: 28px; margin-bottom: 8px; }
+      .finished p { font-size: 18px; color: #94a3b8; }
+      @media (max-width: 400px) {
+        .passage { font-size: 13px; padding: 14px; }
+        .btn { font-size: 14px; padding: 13px 14px; }
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div>
-        <a class="back" href="../">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Back to Menu
-        </a>
-      </div>
-      <div class="icon">📐</div>
+      <a class="back" href="../">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        Back to Menu
+      </a>
       <h1>Math</h1>
-      <p>Mathematical reasoning and problem-solving questions are being prepared.</p>
-      <p style="color:#64748b;font-size:14px;">This section will include detailed explanations and step-by-step solutions for each question.</p>
-      <div class="status">Coming Soon</div>
+
+      <div class="start-screen" id="startScreen">
+        <div class="icon">📐</div>
+        <h2>Ready?</h2>
+        <p>You will be presented with <strong id="totalQuestions">0</strong> math problems covering arithmetic, percentages, geometry, and more.</p>
+        <button class="btn-start" id="startBtn" onclick="startQuiz()">Start</button>
+      </div>
+
+      <div class="quiz-content" id="quizContent">
+        <div class="meta">
+          <span id="progress">Loading...</span>
+          <span><span class="timer" id="timerDisplay">00:00</span> &middot; <span id="sourceBadge"></span></span>
+        </div>
+
+        <div class="question-box" id="questionBox"></div>
+        <div id="options"></div>
+        <div class="feedback" id="feedback"></div>
+
+        <div class="actions">
+          <button class="btn-next" id="nextBtn" onclick="nextQuestion()">Next</button>
+          <button class="btn-reset" onclick="resetProgress()">Reset</button>
+        </div>
+      </div>
     </div>
+
+    <script>
+      let questions = [];
+      let index = 0;
+      let score = 0;
+      let answered = false;
+      let done = new Set();
+      let timerInterval = null;
+      let elapsedSeconds = 0;
+      let quizStarted = false;
+      const STORAGE_PREFIX = 'bsep_math_';
+
+      function saveProgress() {
+        localStorage.setItem(STORAGE_PREFIX + 'index', index);
+        localStorage.setItem(STORAGE_PREFIX + 'score', score);
+        localStorage.setItem(STORAGE_PREFIX + 'done', JSON.stringify([...done]));
+        localStorage.setItem(STORAGE_PREFIX + 'elapsed', elapsedSeconds);
+        localStorage.setItem(STORAGE_PREFIX + 'started', quizStarted ? '1' : '0');
+      }
+
+      function loadProgress() {
+        index = parseInt(localStorage.getItem(STORAGE_PREFIX + 'index')) || 0;
+        score = parseInt(localStorage.getItem(STORAGE_PREFIX + 'score')) || 0;
+        elapsedSeconds = parseInt(localStorage.getItem(STORAGE_PREFIX + 'elapsed')) || 0;
+        quizStarted = localStorage.getItem(STORAGE_PREFIX + 'started') === '1';
+        const saved = localStorage.getItem(STORAGE_PREFIX + 'done');
+        if (saved) done = new Set(JSON.parse(saved));
+      }
+
+      function formatTime(sec) {
+        var m = String(Math.floor(sec / 60)).padStart(2, '0');
+        var s = String(sec % 60).padStart(2, '0');
+        return m + ':' + s;
+      }
+
+      function updateTimerDisplay() {
+        document.getElementById('timerDisplay').textContent = formatTime(elapsedSeconds);
+      }
+
+      function startTimer() {
+        if (timerInterval) return;
+        timerInterval = setInterval(function() {
+          elapsedSeconds++;
+          updateTimerDisplay();
+          saveProgress();
+        }, 1000);
+      }
+
+      function stopTimer() {
+        if (timerInterval) {
+          clearInterval(timerInterval);
+          timerInterval = null;
+        }
+      }
+
+      fetch('questions.json')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          questions = Array.isArray(data) ? data : Object.values(data).flat();
+          document.getElementById('totalQuestions').textContent = questions.length;
+          loadProgress();
+          if (quizStarted && index < questions.length) {
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('quizContent').style.display = 'flex';
+            updateTimerDisplay();
+            loadQuestion();
+            startTimer();
+          }
+        });
+
+      function startQuiz() {
+        document.getElementById('startScreen').style.display = 'none';
+        document.getElementById('quizContent').style.display = 'flex';
+        quizStarted = true;
+        if (index === 0) elapsedSeconds = 0;
+        updateTimerDisplay();
+        saveProgress();
+        startTimer();
+        loadQuestion();
+      }
+
+      function loadQuestion() {
+        answered = false;
+        document.getElementById('nextBtn').style.display = 'none';
+        while (done.has(index) && index < questions.length) index++;
+        if (index >= questions.length) { finish(); return; }
+
+        var q = questions[index];
+        document.getElementById('questionBox').innerHTML = q.question;
+        renderMath();
+        var cls = q.source ? q.source.toLowerCase().replace(/\s+/g, '-') : '';
+        document.getElementById('sourceBadge').innerHTML = q.source ? '<span class="source-badge ' + cls + '">' + q.source + '</span>' : '';
+        updateProgress();
+
+        var opts = document.getElementById('options');
+        opts.innerHTML = '';
+        document.getElementById('feedback').innerHTML = '';
+
+        var shuffled = [...q.options].sort(function() { return Math.random() - 0.5; });
+        shuffled.forEach(function(opt) {
+          var btn = document.createElement('button');
+          btn.className = 'btn';
+          btn.innerText = opt;
+          btn.onclick = function() { checkAnswer(opt); };
+          opts.appendChild(btn);
+        });
+      }
+
+      function checkAnswer(choice) {
+        if (answered) return;
+        answered = true;
+        var q = questions[index];
+        var correct = choice === q.answer;
+        var btns = document.querySelectorAll('#options .btn');
+        btns.forEach(function(b) {
+          if (b.innerText === q.answer) b.classList.add('correct');
+          if (b.innerText === choice && !correct) b.classList.add('wrong');
+        });
+        btns.forEach(function(b) { b.style.pointerEvents = 'none'; });
+        if (correct) score++;
+        document.getElementById('feedback').innerHTML =
+          '<div style="font-weight:700;margin-bottom:4px;">' + (correct ? '✅ Correct!' : '❌ Wrong!') + '</div>' +
+          '<div style="color:#22c55e;font-weight:600;">' + q.definition + '</div>';
+        renderMath();
+        done.add(index);
+        saveProgress();
+        document.getElementById('nextBtn').style.display = 'block';
+      }
+
+      function nextQuestion() {
+        index++;
+        saveProgress();
+        loadQuestion();
+      }
+
+      function updateProgress() {
+        document.getElementById('progress').textContent =
+          'Question ' + Math.min(index + 1, questions.length) + ' of ' + questions.length + ' | Score: ' + score;
+      }
+
+      function finish() {
+        stopTimer();
+        document.getElementById('questionBox').innerHTML = '';
+        document.getElementById('options').innerHTML = '';
+        document.getElementById('feedback').innerHTML = '';
+        document.getElementById('sourceBadge').innerHTML = '';
+        document.getElementById('progress').textContent = 'Final Score: ' + score + ' / ' + questions.length;
+        document.getElementById('nextBtn').style.display = 'none';
+        document.querySelector('.quiz-content').insertAdjacentHTML('beforeend',
+          '<div class="finished"><h2>🎉 Finished!</h2><p>Time: ' + formatTime(elapsedSeconds) + '</p></div>');
+      }
+
+      function resetProgress() {
+        stopTimer();
+        localStorage.removeItem(STORAGE_PREFIX + 'index');
+        localStorage.removeItem(STORAGE_PREFIX + 'score');
+        localStorage.removeItem(STORAGE_PREFIX + 'done');
+        localStorage.removeItem(STORAGE_PREFIX + 'elapsed');
+        localStorage.removeItem(STORAGE_PREFIX + 'started');
+        index = 0; score = 0; done = new Set(); elapsedSeconds = 0; quizStarted = false;
+        document.getElementById('startScreen').style.display = 'flex';
+        document.getElementById('quizContent').style.display = 'none';
+        updateTimerDisplay();
+      }
+      function renderMath() {
+        if (typeof renderMathInElement === 'function') {
+          renderMathInElement(document.getElementById('questionBox'), {
+            delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}],
+            throwOnError: false
+          });
+          renderMathInElement(document.getElementById('feedback'), {
+            delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}],
+            throwOnError: false
+          });
+        }
+      }
+    </script>
   </body>
 </html>
