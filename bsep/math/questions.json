@@ -10,7 +10,7 @@
       "$700",
       "$800"
     ],
-    "definition": "\\(25\\%\\) means 25 out of 100. To find \\(25\\%\\) of \\(\\$2\\!,\\!400\\), divide 2400 by 4 (since \\(25\\% = \\frac{1}{4}\\)), which gives \\(\\$600\\).",
+    "definition": "\\(\\textbf{Concept: Percentage of a number.}\\) \\(25\\% = \\frac{25}{100} = \\frac{1}{4}\\). To find \\(25\\%\\) of \\(\\$2,\\!400\\): multiply \\(2,\\!400 \\times 0.25 = 600\\) or divide by 4: \\(2,\\!400 \\div 4 = \\$600\\).",
     "word": ""
   },
   {
@@ -24,7 +24,7 @@
       "60 mph",
       "65 mph"
     ],
-    "definition": "\\(\\text{Average speed} = \\dfrac{\\text{distance}}{\\text{time}} = \\dfrac{180}{3} = 60\\) mph.",
+    "definition": "\\(\\textbf{Concept: Average speed.}\\) Formula: \\(v = \\dfrac{d}{t}\\). Here, \\(d = 180\\) miles, \\(t = 3\\) hours. So \\(v = \\dfrac{180}{3} = 60\\) mph.",
     "word": ""
   },
   {
@@ -38,7 +38,7 @@
       "12",
       "14"
     ],
-    "definition": "\\(\\frac{3}{4} \\times 16 = (16 / 4) \\times 3 = 4 \\times 3 = 12\\) miles.",
+    "definition": "\\(\\textbf{Concept: Fraction of a whole.}\\) \\(\\dfrac{3}{4}\\) of 16 means multiply: \\(16 \\times \\dfrac{3}{4} = \\dfrac{48}{4} = 12\\) miles. Or: \\((16 \\div 4) \\times 3 = 4 \\times 3 = 12\\).",
     "word": ""
   },
   {
@@ -52,7 +52,7 @@
       "75%",
       "91%"
     ],
-    "definition": "\\(48 - 16 = 32\\) boxes remain. \\(32 / 48 = 0.666\\ldots \\approx 67\\%\\).",
+    "definition": "\\(\\textbf{Concept: Percentage of remainder.}\\) Total = 48, issued = 16, so remaining = \\(48 - 16 = 32\\) boxes. Fraction remaining = \\(\\dfrac{32}{48} = \\dfrac{2}{3}\\). As percent: \\(\\dfrac{32}{48} \\times 100\\% \\approx 67\\%\\).",
     "word": ""
   },
   {
@@ -66,7 +66,7 @@
       "22°",
       "24°"
     ],
-    "definition": "Simple subtraction: \\(72^{\\circ}\\text{F} - 54^{\\circ}\\text{F} = 18^{\\circ}\\text{F}\\) decrease.",
+    "definition": "\\(\\textbf{Concept: Subtraction (difference).}\\) Difference = final - initial = \\(54^{\\circ}\\text{F} - 72^{\\circ}\\text{F} = -18^{\\circ}\\text{F}\\). The temperature dropped \\(18^{\\circ}\\text{F}\\).",
     "word": ""
   },
   {
@@ -80,7 +80,7 @@
       "0.84",
       "0.94"
     ],
-    "definition": "\\(84 / 100 = 0.84\\). Just move the decimal two places to the left.",
+    "definition": "\\(\\textbf{Concept: Fraction to decimal.}\\) \\(\\dfrac{84}{100} = 84 \\div 100 = 0.84\\). Move the decimal point two places to the left: \\(84. \\rightarrow 0.84\\).",
     "word": ""
   },
   {
@@ -94,7 +94,7 @@
       "11",
       "12"
     ],
-    "definition": "\\(2.5 \\times 4 = 10\\) tons total.",
+    "definition": "\\(\\textbf{Concept: Multiplication (total).}\\) Each truck carries 2.5 tons. Total = \\(2.5 \\times 4 = 10.0\\) tons.",
     "word": ""
   },
   {
@@ -108,7 +108,7 @@
       "$10.60",
       "$9.60"
     ],
-    "definition": "\\(20\\%\\) of \\(\\$48 = 0.20 \\times 48 = \\$9.60\\) discount.",
+    "definition": "\\(\\textbf{Concept: Percentage discount.}\\) Discount = \\(20\\%\\) of \\(\\$48 = 0.20 \\times 48 = \\$9.60\\).",
     "word": ""
   },
   {
@@ -122,7 +122,7 @@
       "8h 45m",
       "9h 15m"
     ],
-    "definition": "From 07:30 to 15:30 is 8 hours, plus 15 minutes = 8h 15m.",
+    "definition": "\\(\\textbf{Concept: Elapsed time.}\\) From 07:30 to 15:30 = 8 full hours. Plus 15 more minutes (15:30 to 15:45) = \\(8\\)h \\(15\\)m.",
     "word": ""
   },
   {
@@ -136,7 +136,7 @@
       "17",
       "18"
     ],
-    "definition": "\\(3.2 \\times 5 = 16\\) miles total.",
+    "definition": "\\(\\textbf{Concept: Rate × time = total.}\\) \\(3.2\\) miles/day \\(\\times 5\\) days = \\(3.2 \\times 5 = 16\\) miles.",
     "word": ""
   },
   {
@@ -150,7 +150,7 @@
       "5",
       "6"
     ],
-    "definition": "\\(\\frac{1}{3} \\times 12 = 12 / 3 = 4\\) soldiers.",
+    "definition": "\\(\\textbf{Concept: Fraction of a group.}\\) \\(\\dfrac{1}{3}\\) of \\(12 = 12 \\div 3 = 4\\) soldiers.",
     "word": ""
   },
   {
@@ -164,7 +164,7 @@
       "7",
       "8"
     ],
-    "definition": "\\(150 / 25 = 6\\) pieces.",
+    "definition": "\\(\\textbf{Concept: Division (equal groups).}\\) Total length = 150 ft, each piece = 25 ft. Number of pieces: \\(150 \\div 25 = 6\\).",
     "word": ""
   },
   {
@@ -178,7 +178,7 @@
       "$600",
       "$700"
     ],
-    "definition": "\\(75 \\times 8 = \\$600\\) saved.",
+    "definition": "\\(\\textbf{Concept: Multiplication (total over time).}\\) \\(\\$75\\) per month for 8 months: \\(75 \\times 8 = \\$600\\).",
     "word": ""
   },
   {
@@ -192,7 +192,7 @@
       "16",
       "17"
     ],
-    "definition": "\\(240 / 15 = 16\\) containers.",
+    "definition": "\\(\\textbf{Concept: Division (how many groups).}\\) Total gallons = 240, per container = 15. Containers needed: \\(240 \\div 15 = 16\\).",
     "word": ""
   },
   {
@@ -206,7 +206,7 @@
       "310",
       "320"
     ],
-    "definition": "\\(\\text{Average} = (320 + 280) / 2 = 600 / 2 = 300\\) meals per day.",
+    "definition": "\\(\\textbf{Concept: Average (mean).}\\) \\(\\text{Average} = \\dfrac{320 + 280}{2} = \\dfrac{600}{2} = 300\\) meals per day.",
     "word": ""
   },
   {
@@ -220,7 +220,7 @@
       "80%",
       "85%"
     ],
-    "definition": "\\(18 / 24 = 0.75 = 75\\%\\).",
+    "definition": "\\(\\textbf{Concept: Fraction to percent.}\\) \\(\\dfrac{18}{24} = \\dfrac{3}{4} = 0.75 = 75\\%\\). Simplify the fraction first, then convert.",
     "word": ""
   },
   {
@@ -234,7 +234,7 @@
       "$9.40",
       "$10.40"
     ],
-    "definition": "\\(7\\%\\) of \\(\\$120 = 0.07 \\times 120 = \\$8.40\\) sales tax.",
+    "definition": "\\(\\textbf{Concept: Percentage (sales tax).}\\) Tax = \\(7\\%\\) of \\(\\$120 = 0.07 \\times 120 = \\$8.40\\).",
     "word": ""
   },
   {
@@ -248,7 +248,7 @@
       "80 mph",
       "90 mph"
     ],
-    "definition": "\\(\\dfrac{360}{4.5} = 80\\) mph.",
+    "definition": "\\(\\textbf{Concept: Average speed with decimals.}\\) \\(v = \\dfrac{360}{4.5}\\). Multiply numerator and denominator by 10: \\(\\dfrac{3600}{45} = 80\\) mph.",
     "word": ""
   },
   {
@@ -262,7 +262,7 @@
       "275",
       "300"
     ],
-    "definition": "\\(\\frac{5}{8} \\times 400 = (400 / 8) \\times 5 = 50 \\times 5 = 250\\) gallons.",
+    "definition": "\\(\\textbf{Concept: Fraction of a total.}\\) \\(\\dfrac{5}{8}\\) of 400 = \\((400 \\div 8) \\times 5 = 50 \\times 5 = 250\\) gallons.",
     "word": ""
   },
   {
@@ -276,7 +276,7 @@
       "9",
       "10"
     ],
-    "definition": "\\(40 - 32 = 8\\) points.",
+    "definition": "\\(\\textbf{Concept: Subtraction (increase).}\\) Increase = final - initial = \\(40 - 32 = 8\\) points.",
     "word": ""
   },
   {
@@ -290,7 +290,7 @@
       "90 miles",
       "80 miles"
     ],
-    "definition": "\\(1\\) inch \\(= 20\\) miles. \\(4 \\times 20 = 80\\) miles apart.",
+    "definition": "\\(\\textbf{Concept: Scale / proportion.}\\) Scale: 1 inch = 20 miles. For 4 inches: \\(4 \\times 20 = 80\\) miles.",
     "word": ""
   },
   {
@@ -304,7 +304,7 @@
       "$8.75",
       "$9.25"
     ],
-    "definition": "\\(2.75 \\times 3 = \\$8.25\\) total.",
+    "definition": "\\(\\textbf{Concept: Multiplication (total cost).}\\) 3 notebooks at \\(\\$2.75\\) each: \\(3 \\times 2.75 = \\$8.25\\).",
     "word": ""
   },
   {
@@ -318,7 +318,7 @@
       "3 mph",
       "4 mph"
     ],
-    "definition": "\\(\\dfrac{12}{4} = 3\\) mph.",
+    "definition": "\\(\\textbf{Concept: Average speed.}\\) \\(v = \\dfrac{12}{4} = 3\\) mph.",
     "word": ""
   },
   {
@@ -332,7 +332,7 @@
       "$650",
       "$700"
     ],
-    "definition": "\\(12\\%\\) of \\(\\$5\\!,\\!000 = 0.12 \\times 5000 = \\$600\\) reduction.",
+    "definition": "\\(\\textbf{Concept: Percentage reduction.}\\) Reduction = \\(12\\%\\) of \\(\\$5,\\!000 = 0.12 \\times 5000 = \\$600\\).",
     "word": ""
   },
   {
@@ -346,7 +346,7 @@
       "7",
       "8"
     ],
-    "definition": "\\(0.75 \\times 8 = 6\\) liters.",
+    "definition": "\\(\\textbf{Concept: Rate × time.}\\) \\(0.75\\) liters/hour \\(\\times 8\\) hours = \\(0.75 \\times 8 = 6\\) liters.",
     "word": ""
   },
   {
@@ -360,7 +360,7 @@
       "324 sq ft",
       "648 sq ft"
     ],
-    "definition": "\\(\\text{Area} = s^2 = 18 \\times 18 = 324\\) square feet.",
+    "definition": "\\(\\textbf{Concept: Area of a square.}\\) Formula: \\(A = s^2\\). Side = 18 ft, so \\(A = 18^2 = 324\\) square feet.",
     "word": ""
   },
   {
@@ -374,7 +374,7 @@
       "96 ft",
       "78 ft"
     ],
-    "definition": "\\(\\text{Perimeter} = 2(24 + 15) = 2 \\times 39 = 78\\) feet.",
+    "definition": "\\(\\textbf{Concept: Perimeter of a rectangle.}\\) Formula: \\(P = 2(l + w)\\). \\(l = 24\\), \\(w = 15\\). \\(P = 2(24 + 15) = 2 \\times 39 = 78\\) feet.",
     "word": ""
   },
   {
@@ -388,7 +388,7 @@
       "49.28 m",
       "153.86 m"
     ],
-    "definition": "\\(\\text{C} = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96\\) meters.",
+    "definition": "\\(\\textbf{Concept: Circumference of a circle.}\\) Formula: \\(C = 2\\pi r\\). \\(r = 7\\) m, \\(\\pi = 3.14\\). \\(C = 2 \\times 3.14 \\times 7 = 43.96\\) meters.",
     "word": ""
   },
   {
@@ -402,7 +402,7 @@
       "120 sq in",
       "240 sq in"
     ],
-    "definition": "\\(\\text{Area} = \\frac{1}{2} \\times 12 \\times 10 = 60\\) square inches.",
+    "definition": "\\(\\textbf{Concept: Area of a triangle.}\\) Formula: \\(A = \\dfrac{b \\times h}{2}\\). \\(b = 12\\), \\(h = 10\\). \\(A = \\dfrac{12 \\times 10}{2} = \\dfrac{120}{2} = 60\\) square inches.",
     "word": ""
   },
   {
@@ -416,7 +416,987 @@
       "628 sq yd",
       "1256 sq yd"
     ],
-    "definition": "\\(r = 20 / 2 = 10\\). \\(\\text{Area} = \\pi r^2 = 3.14 \\times 100 = 314\\) square yards.",
+    "definition": "\\(\\textbf{Concept: Area of a circle.}\\) Formula: \\(A = \\pi r^2\\). Diameter = 20 yd, so \\(r = 20 \\div 2 = 10\\). \\(A = 3.14 \\times 10^2 = 3.14 \\times 100 = 314\\) square yards.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier spent 15% of his $1,200 monthly salary on food. How much did he spend?",
+    "answer": "$180",
+    "options": [
+      "$150",
+      "$180",
+      "$200",
+      "$220",
+      "$250"
+    ],
+    "definition": "\\(\\textbf{Concept: Percentage of a number.}\\) \\(15\\% = 0.15\\). \\(0.15 \\times 1,\\!200 = \\$180\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "The price of a uniform increased from $80 to $100. What is the percent increase?",
+    "answer": "25%",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "40%",
+      "50%"
+    ],
+    "definition": "\\(\\textbf{Concept: Percent increase.}\\) Increase = \\(100 - 80 = 20\\). \\(\\dfrac{20}{80} \\times 100\\% = 25\\%\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A unit spent $6,000 on ammunition. This was 30% of the total budget. What was the total budget?",
+    "answer": "$20,000",
+    "options": [
+      "$15,000",
+      "$18,000",
+      "$20,000",
+      "$22,000",
+      "$25,000"
+    ],
+    "definition": "\\(\\textbf{Concept: Finding the whole from a percentage.}\\) If 30% = \\(6,\\!000\\), then 1% = \\(6,\\!000 \\div 30 = 200\\), and 100% = \\(200 \\times 100 = \\$20,\\!000\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A recruit scored 45 out of 60 on a physical fitness test. What percent did he score?",
+    "answer": "75%",
+    "options": [
+      "65%",
+      "70%",
+      "75%",
+      "80%",
+      "85%"
+    ],
+    "definition": "\\(\\textbf{Concept: Percent from a fraction.}\\) \\(\\dfrac{45}{60} = \\dfrac{3}{4} = 0.75 = 75\\%\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "The Army bought 500 rifles. 8% were found defective. How many were defective?",
+    "answer": "40",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "definition": "\\(\\textbf{Concept: Percentage of a total.}\\) \\(8\\% = 0.08\\). \\(0.08 \\times 500 = 40\\) rifles.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier invested $2,500 and earned 6% interest in one year. How much interest did he earn?",
+    "answer": "$150",
+    "options": [
+      "$100",
+      "$125",
+      "$150",
+      "$175",
+      "$200"
+    ],
+    "definition": "\\(\\textbf{Concept: Simple interest.}\\) \\(6\\% = 0.06\\). Interest = \\(0.06 \\times 2,\\!500 = \\$150\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A military hospital treated 240 patients. 60% were for routine checkups. How many were routine?",
+    "answer": "144",
+    "options": [
+      "120",
+      "134",
+      "144",
+      "154",
+      "160"
+    ],
+    "definition": "\\(\\textbf{Concept: Percentage of a whole.}\\) \\(60\\% = 0.60\\). \\(0.60 \\times 240 = 144\\) patients.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "The price of a backpack was reduced by 15%. The original price was $60. What is the sale price?",
+    "answer": "$51",
+    "options": [
+      "$45",
+      "$48",
+      "$51",
+      "$54",
+      "$57"
+    ],
+    "definition": "\\(\\textbf{Concept: Percentage discount.}\\) Discount = \\(15\\% \\times 60 = \\$9\\). Sale price = \\(60 - 9 = \\$51\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A base has 1,200 soldiers. 35% are assigned to field duty. How many are on field duty?",
+    "answer": "420",
+    "options": [
+      "380",
+      "400",
+      "420",
+      "450",
+      "480"
+    ],
+    "definition": "\\(\\textbf{Concept: Percentage of a population.}\\) \\(35\\% = 0.35\\). \\(0.35 \\times 1,\\!200 = 420\\) soldiers.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A training course has 80 spots. 85% are filled. How many spots are filled?",
+    "answer": "68",
+    "options": [
+      "60",
+      "64",
+      "68",
+      "72",
+      "76"
+    ],
+    "definition": "\\(\\textbf{Concept: Percentage of capacity.}\\) \\(85\\% = 0.85\\). \\(0.85 \\times 80 = 68\\) spots.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier scored 78, 82, 85, and 91 on four exams. What is the average score?",
+    "answer": "84",
+    "options": [
+      "80",
+      "82",
+      "84",
+      "86",
+      "88"
+    ],
+    "definition": "\\(\\textbf{Concept: Average (mean).}\\) Sum = \\(78 + 82 + 85 + 91 = 336\\). Average = \\(336 \\div 4 = 84\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "Five supply runs delivered: 120, 140, 110, 130, and 150 pounds. What is the average weight per run?",
+    "answer": "130",
+    "options": [
+      "120",
+      "125",
+      "130",
+      "135",
+      "140"
+    ],
+    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(120 + 140 + 110 + 130 + 150 = 650\\). Average = \\(650 \\div 5 = 130\\) pounds.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A recruit ran 5 miles on day 1, 7 on day 2, and 6 on day 3. What was the average miles per day?",
+    "answer": "6",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(5 + 7 + 6 = 18\\). Average = \\(18 \\div 3 = 6\\) miles per day.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "The temperatures at five different bases were: 62, 68, 71, 65, and 74 degrees. What is the average temperature?",
+    "answer": "68",
+    "options": [
+      "64",
+      "66",
+      "68",
+      "70",
+      "72"
+    ],
+    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(62 + 68 + 71 + 65 + 74 = 340\\). Average = \\(340 \\div 5 = 68^{\\circ}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A platoon fired 90, 110, 95, and 105 rounds in four exercises. What was the average rounds per exercise?",
+    "answer": "100",
+    "options": [
+      "90",
+      "95",
+      "100",
+      "105",
+      "110"
+    ],
+    "definition": "\\(\\textbf{Concept: Average.}\\) Sum = \\(90 + 110 + 95 + 105 = 400\\). Average = \\(400 \\div 4 = 100\\) rounds.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A supply truck traveled 240 miles in 6 hours. What was its average speed?",
+    "answer": "40 mph",
+    "options": [
+      "30 mph",
+      "35 mph",
+      "40 mph",
+      "45 mph",
+      "50 mph"
+    ],
+    "definition": "\\(\\textbf{Concept: Average speed.}\\) \\(v = \\dfrac{240}{6} = 40\\) mph.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A helicopter flew at 150 mph for 2.5 hours. How far did it travel?",
+    "answer": "375 mi",
+    "options": [
+      "300 mi",
+      "350 mi",
+      "375 mi",
+      "400 mi",
+      "425 mi"
+    ],
+    "definition": "\\(\\textbf{Concept: Distance = rate × time.}\\) \\(d = 150 \\times 2.5 = 375\\) miles.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A convoy needs to travel 300 miles at an average speed of 50 mph. How many hours will it take?",
+    "answer": "6",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "definition": "\\(\\textbf{Concept: Time = distance ÷ speed.}\\) \\(t = 300 \\div 50 = 6\\) hours.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier walked 2 miles in 40 minutes. What is the speed in miles per hour?",
+    "answer": "3 mph",
+    "options": [
+      "2 mph",
+      "2.5 mph",
+      "3 mph",
+      "3.5 mph",
+      "4 mph"
+    ],
+    "definition": "\\(\\textbf{Concept: Speed conversion.}\\) 40 min = \\(\\dfrac{2}{3}\\) hour. \\(v = \\dfrac{2}{2/3} = 2 \\times \\dfrac{3}{2} = 3\\) mph.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A jet traveled 1,200 miles in 3 hours. What was the average speed?",
+    "answer": "400 mph",
+    "options": [
+      "300 mph",
+      "350 mph",
+      "400 mph",
+      "450 mph",
+      "500 mph"
+    ],
+    "definition": "\\(\\textbf{Concept: Average speed.}\\) \\(v = \\dfrac{1,\\!200}{3} = 400\\) mph.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A squad has 16 soldiers. \\( \frac{1}{2} \\) are on patrol. How many are on patrol?",
+    "answer": "8",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "definition": "\\(\\textbf{Concept: Fraction of a group.}\\) \\(\\dfrac{1}{2} \\times 16 = 16 \\div 2 = 8\\) soldiers.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A platoon finished \\( \frac{2}{3} \\) of a 15-mile march. How many miles did they march?",
+    "answer": "10",
+    "options": [
+      "5",
+      "10",
+      "12",
+      "13",
+      "14"
+    ],
+    "definition": "\\(\\textbf{Concept: Fraction of a distance.}\\) \\(\\dfrac{2}{3} \\times 15 = (15 \\div 3) \\times 2 = 5 \\times 2 = 10\\) miles.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A barracks has 24 rooms. \\( \frac{3}{8} \\) are unoccupied. How many rooms are empty?",
+    "answer": "9",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12",
+      "15"
+    ],
+    "definition": "\\(\\textbf{Concept: Fraction of a total.}\\) \\(\\dfrac{3}{8} \\times 24 = (24 \\div 8) \\times 3 = 3 \\times 3 = 9\\) rooms.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A fuel tank holds 200 gallons. \\( \frac{7}{10} \\) are used. How many gallons remain?",
+    "answer": "60",
+    "options": [
+      "40",
+      "60",
+      "80",
+      "100",
+      "120"
+    ],
+    "definition": "\\(\\textbf{Concept: Fraction remaining.}\\) Used = \\(\\dfrac{7}{10} \\times 200 = 140\\). Remaining = \\(200 - 140 = 60\\) gallons.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier ate \\( \frac{2}{5} \\) of a 20-inch sandwich. How many inches did he eat?",
+    "answer": "8",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "definition": "\\(\\textbf{Concept: Fraction of a whole.}\\) \\(\\dfrac{2}{5} \\times 20 = (20 \\div 5) \\times 2 = 4 \\times 2 = 8\\) inches.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A base received 350 gallons of fuel on Monday and 480 on Tuesday. How many gallons total?",
+    "answer": "830",
+    "options": [
+      "730",
+      "780",
+      "830",
+      "880",
+      "930"
+    ],
+    "definition": "\\(\\textbf{Concept: Addition.}\\) \\(350 + 480 = 830\\) gallons.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier had $450 in his account. He spent $175 on gear. How much remains?",
+    "answer": "$275",
+    "options": [
+      "$225",
+      "$250",
+      "$275",
+      "$300",
+      "$325"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtraction.}\\) \\(450 - 175 = \\$275\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A company has 320 soldiers. 140 are deployed. How many remain on base?",
+    "answer": "180",
+    "options": [
+      "160",
+      "170",
+      "180",
+      "190",
+      "200"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtraction.}\\) \\(320 - 140 = 180\\) soldiers.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "The total weight of four supply crates is 95, 110, 85, and 100 pounds. What is the total?",
+    "answer": "390",
+    "options": [
+      "370",
+      "380",
+      "390",
+      "400",
+      "410"
+    ],
+    "definition": "\\(\\textbf{Concept: Addition.}\\) \\(95 + 110 + 85 + 100 = 390\\) pounds.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A flagpole is 30 ft tall. A shadow is 18 ft shorter. How long is the shadow?",
+    "answer": "12 ft",
+    "options": [
+      "10 ft",
+      "12 ft",
+      "14 ft",
+      "16 ft",
+      "18 ft"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtraction.}\\) \\(30 - 18 = 12\\) feet.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "8 pallets each carry 45 boxes. How many boxes total?",
+    "answer": "360",
+    "options": [
+      "320",
+      "340",
+      "360",
+      "380",
+      "400"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplication (arrays).}\\) \\(8 \\times 45 = 360\\) boxes.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier earns $18 per hour and works 40 hours. What is the weekly pay?",
+    "answer": "$720",
+    "options": [
+      "$600",
+      "$680",
+      "$720",
+      "$760",
+      "$800"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplication (hourly rate).}\\) \\(18 \\times 40 = \\$720\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "360 MRE boxes are divided evenly among 12 units. How many boxes per unit?",
+    "answer": "30",
+    "options": [
+      "24",
+      "27",
+      "30",
+      "33",
+      "36"
+    ],
+    "definition": "\\(\\textbf{Concept: Division (equal groups).}\\) \\(360 \\div 12 = 30\\) boxes per unit.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A 240-gallon water tank fills at 8 gallons per minute. How many minutes to fill?",
+    "answer": "30",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "definition": "\\(\\textbf{Concept: Division (rate).}\\) \\(240 \\div 8 = 30\\) minutes.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "5 squads need 12 flares each. How many flares total?",
+    "answer": "60",
+    "options": [
+      "48",
+      "55",
+      "60",
+      "65",
+      "72"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplication.}\\) \\(5 \\times 12 = 60\\) flares.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "The ratio of officers to enlisted is 1:15. There are 12 officers. How many enlisted?",
+    "answer": "180",
+    "options": [
+      "150",
+      "165",
+      "180",
+      "195",
+      "210"
+    ],
+    "definition": "\\(\\textbf{Concept: Ratio.}\\) \\(\\frac{\\text{enlisted}}{\\text{officers}} = \\frac{15}{1} \\times 12 = 180\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A map scale is 1:50,000. Two points are 4 cm apart on the map. How many cm in real life?",
+    "answer": "200,000 cm",
+    "options": [
+      "50,000 cm",
+      "100,000 cm",
+      "200,000 cm",
+      "250,000 cm",
+      "500,000 cm"
+    ],
+    "definition": "\\(\\textbf{Concept: Map scale.}\\) \\(4 \\times 50,\\!000 = 200,\\!000\\) cm (2 km).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A recipe for 4 soldiers requires 6 cups of rice. How many cups for 10 soldiers?",
+    "answer": "15",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "18",
+      "20"
+    ],
+    "definition": "\\(\\textbf{Concept: Proportion.}\\) \\(\\dfrac{6}{4} = \\dfrac{x}{10}\\). \\(x = \\dfrac{6 \\times 10}{4} = 15\\) cups.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "3 medics can treat 12 patients per hour. How many patients per hour can 5 medics treat?",
+    "answer": "20",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "definition": "\\(\\textbf{Concept: Direct proportion.}\\) Rate per medic = \\(12 \\div 3 = 4\\). \\(5 \\times 4 = 20\\) patients.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A vehicle uses 4 gallons of fuel per 100 miles. How many gallons for 350 miles?",
+    "answer": "14",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "definition": "\\(\\textbf{Concept: Proportion (fuel economy).}\\) \\(\\dfrac{4}{100} = \\dfrac{x}{350}\\). \\(x = \\dfrac{4 \\times 350}{100} = 14\\) gallons.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A rectangular training field is 50 yards long and 30 yards wide. What is the area?",
+    "answer": "1,500 sq yd",
+    "options": [
+      "1,200 sq yd",
+      "1,400 sq yd",
+      "1,500 sq yd",
+      "1,600 sq yd",
+      "1,800 sq yd"
+    ],
+    "definition": "\\(\\textbf{Concept: Area of a rectangle.}\\) \\(A = l \\times w = 50 \\times 30 = 1,\\!500\\) square yards.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A square tent has sides of 12 feet. What is the area?",
+    "answer": "144 sq ft",
+    "options": [
+      "120 sq ft",
+      "132 sq ft",
+      "144 sq ft",
+      "156 sq ft",
+      "168 sq ft"
+    ],
+    "definition": "\\(\\textbf{Concept: Area of a square.}\\) \\(A = s^2 = 12^2 = 144\\) square feet.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A triangular patch has base 8 inches and height 6 inches. What is the area?",
+    "answer": "24 sq in",
+    "options": [
+      "18 sq in",
+      "20 sq in",
+      "24 sq in",
+      "28 sq in",
+      "48 sq in"
+    ],
+    "definition": "\\(\\textbf{Concept: Area of a triangle.}\\) \\(A = \\dfrac{b \\times h}{2} = \\dfrac{8 \\times 6}{2} = \\dfrac{48}{2} = 24\\) square inches.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A circular parade ground has radius 25 meters. Use \\(\\pi = 3.14\\). What is the area?",
+    "answer": "1,962.5 sq m",
+    "options": [
+      "1,500 sq m",
+      "1,750 sq m",
+      "1,962.5 sq m",
+      "2,000 sq m",
+      "2,500 sq m"
+    ],
+    "definition": "\\(\\textbf{Concept: Area of a circle.}\\) \\(A = \\pi r^2 = 3.14 \\times 25^2 = 3.14 \\times 625 = 1,\\!962.5\\) square meters.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A trapezoid has bases of 10 ft and 14 ft, and height 6 ft. What is the area?",
+    "answer": "72 sq ft",
+    "options": [
+      "60 sq ft",
+      "66 sq ft",
+      "72 sq ft",
+      "78 sq ft",
+      "84 sq ft"
+    ],
+    "definition": "\\(\\textbf{Concept: Area of a trapezoid.}\\) \\(A = \\dfrac{(b_1 + b_2) \\times h}{2} = \\dfrac{(10 + 14) \\times 6}{2} = \\dfrac{24 \\times 6}{2} = 72\\) square feet.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A rectangular obstacle course is 80 m by 50 m. What is the perimeter?",
+    "answer": "260 m",
+    "options": [
+      "200 m",
+      "220 m",
+      "240 m",
+      "260 m",
+      "280 m"
+    ],
+    "definition": "\\(\\textbf{Concept: Perimeter of a rectangle.}\\) \\(P = 2(l + w) = 2(80 + 50) = 2 \\times 130 = 260\\) meters.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A square staging area has side 15 ft. What is the perimeter?",
+    "answer": "60 ft",
+    "options": [
+      "45 ft",
+      "50 ft",
+      "55 ft",
+      "60 ft",
+      "75 ft"
+    ],
+    "definition": "\\(\\textbf{Concept: Perimeter of a square.}\\) \\(P = 4s = 4 \\times 15 = 60\\) feet.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A round table has diameter 6 ft. Use \\(\\pi = 3.14\\). What is the circumference?",
+    "answer": "18.84 ft",
+    "options": [
+      "15.7 ft",
+      "17.2 ft",
+      "18.84 ft",
+      "20.4 ft",
+      "25.12 ft"
+    ],
+    "definition": "\\(\\textbf{Concept: Circumference.}\\) \\(C = \\pi d = 3.14 \\times 6 = 18.84\\) feet.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A triangular fence has sides 12 ft, 15 ft, and 18 ft. What is the perimeter?",
+    "answer": "45 ft",
+    "options": [
+      "40 ft",
+      "42 ft",
+      "45 ft",
+      "48 ft",
+      "50 ft"
+    ],
+    "definition": "\\(\\textbf{Concept: Perimeter of a triangle.}\\) \\(P = 12 + 15 + 18 = 45\\) feet.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A circular track has radius 100 m. Use \\(\\pi = 3.14\\). What is the circumference?",
+    "answer": "628 m",
+    "options": [
+      "500 m",
+      "550 m",
+      "600 m",
+      "628 m",
+      "650 m"
+    ],
+    "definition": "\\(\\textbf{Concept: Circumference.}\\) \\(C = 2\\pi r = 2 \\times 3.14 \\times 100 = 628\\) meters.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A shift starts at 06:30 and ends at 14:20. How long is the shift?",
+    "answer": "7h 50m",
+    "options": [
+      "6h 50m",
+      "7h 20m",
+      "7h 50m",
+      "8h 10m",
+      "8h 50m"
+    ],
+    "definition": "\\(\\textbf{Concept: Elapsed time.}\\) 06:30 to 14:30 = 8h. Minus 10 min = 7h 50m.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A flight departs at 08:45 and lands at 11:30. How long is the flight?",
+    "answer": "2h 45m",
+    "options": [
+      "2h 15m",
+      "2h 30m",
+      "2h 45m",
+      "3h 00m",
+      "3h 15m"
+    ],
+    "definition": "\\(\\textbf{Concept: Elapsed time.}\\) 08:45 to 11:45 = 3h. Minus 15 min = 2h 45m.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A training session lasts 90 minutes. It starts at 09:00. What time does it end?",
+    "answer": "10:30",
+    "options": [
+      "10:00",
+      "10:15",
+      "10:30",
+      "10:45",
+      "11:00"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding time.}\\) 09:00 + 1h 30m = 10:30.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A guard duty begins at 22:00 and lasts 6 hours. When does it end?",
+    "answer": "04:00",
+    "options": [
+      "02:00",
+      "03:00",
+      "04:00",
+      "05:00",
+      "06:00"
+    ],
+    "definition": "\\(\\textbf{Concept: Military time.}\\) 22:00 + 6h = 28:00 → subtract 24 = 04:00 next day.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "How many minutes are in 2.5 hours?",
+    "answer": "150",
+    "options": [
+      "120",
+      "140",
+      "150",
+      "160",
+      "180"
+    ],
+    "definition": "\\(\\textbf{Concept: Unit conversion.}\\) \\(2.5 \\times 60 = 150\\) minutes.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A water bladder holds 25 gallons per minute. How many gallons in 12 minutes?",
+    "answer": "300",
+    "options": [
+      "250",
+      "275",
+      "300",
+      "325",
+      "350"
+    ],
+    "definition": "\\(\\textbf{Concept: Rate × time.}\\) \\(25 \\times 12 = 300\\) gallons.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A rectangular container is 4 ft × 3 ft × 2 ft. What is the volume?",
+    "answer": "24 cu ft",
+    "options": [
+      "18 cu ft",
+      "20 cu ft",
+      "24 cu ft",
+      "28 cu ft",
+      "36 cu ft"
+    ],
+    "definition": "\\(\\textbf{Concept: Volume of a rectangular prism.}\\) \\(V = l \\times w \\times h = 4 \\times 3 \\times 2 = 24\\) cubic feet.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A cube-shaped crate has sides of 3 meters. What is the volume?",
+    "answer": "27 cu m",
+    "options": [
+      "9 cu m",
+      "18 cu m",
+      "27 cu m",
+      "36 cu m",
+      "54 cu m"
+    ],
+    "definition": "\\(\\textbf{Concept: Volume of a cube.}\\) \\(V = s^3 = 3^3 = 27\\) cubic meters.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A cylindrical fuel tank has radius 3 ft and height 10 ft. Use \\(\\pi = 3.14\\). What is the volume?",
+    "answer": "282.6 cu ft",
+    "options": [
+      "250 cu ft",
+      "270 cu ft",
+      "282.6 cu ft",
+      "300 cu ft",
+      "314 cu ft"
+    ],
+    "definition": "\\(\\textbf{Concept: Volume of a cylinder.}\\) \\(V = \\pi r^2 h = 3.14 \\times 9 \\times 10 = 282.6\\) cubic feet.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A water tank has 500 gallons. 320 are used. How many gallons remain?",
+    "answer": "180",
+    "options": [
+      "150",
+      "160",
+      "170",
+      "180",
+      "200"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtraction (remainder).}\\) \\(500 - 320 = 180\\) gallons.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "What is 0.25 as a fraction in simplest form?",
+    "answer": "1/4",
+    "options": [
+      "1/2",
+      "1/4",
+      "2/5",
+      "3/4",
+      "1/8"
+    ],
+    "definition": "\\(\\textbf{Concept: Decimal to fraction.}\\) \\(0.25 = \\dfrac{25}{100} = \\dfrac{1}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "What is 3/5 as a decimal?",
+    "answer": "0.6",
+    "options": [
+      "0.3",
+      "0.5",
+      "0.6",
+      "0.75",
+      "0.8"
+    ],
+    "definition": "\\(\\textbf{Concept: Fraction to decimal.}\\) \\(\\dfrac{3}{5} = 3 \\div 5 = 0.6\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "Add: 12.5 + 7.35",
+    "answer": "19.85",
+    "options": [
+      "18.85",
+      "19.35",
+      "19.85",
+      "20.15",
+      "20.85"
+    ],
+    "definition": "\\(\\textbf{Concept: Decimal addition.}\\) \\(12.5 + 7.35 = 19.85\\) (line up decimal points).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "Subtract: 45.6 - 12.8",
+    "answer": "32.8",
+    "options": [
+      "30.8",
+      "31.8",
+      "32.8",
+      "33.8",
+      "34.8"
+    ],
+    "definition": "\\(\\textbf{Concept: Decimal subtraction.}\\) \\(45.6 - 12.8 = 32.8\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "Multiply: 0.4 × 0.25",
+    "answer": "0.1",
+    "options": [
+      "0.01",
+      "0.1",
+      "1.0",
+      "10",
+      "0.001"
+    ],
+    "definition": "\\(\\textbf{Concept: Decimal multiplication.}\\) \\(0.4 \\times 0.25 = 0.1\\) (count 3 decimal places).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A truck carries 6 tons. How many 1.5-ton pallets can it hold?",
+    "answer": "4",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "definition": "\\(\\textbf{Concept: Division.}\\) \\(6 \\div 1.5 = 4\\) pallets.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A total of 2,400 dollars is split equally among 6 units. How much does each unit get?",
+    "answer": "$400",
+    "options": [
+      "$300",
+      "$350",
+      "$400",
+      "$450",
+      "$500"
+    ],
+    "definition": "\\(\\textbf{Concept: Division (equal share).}\\) \\(2,\\!400 \\div 6 = \\$400\\) per unit.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier reads 15 pages per hour. He needs to read 90 pages. How many hours?",
+    "answer": "6",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "definition": "\\(\\textbf{Concept: Division (rate).}\\) \\(90 \\div 15 = 6\\) hours.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "3 batteries power a radio for 18 hours. How long will 5 batteries last?",
+    "answer": "30",
+    "options": [
+      "24",
+      "27",
+      "30",
+      "33",
+      "36"
+    ],
+    "definition": "\\(\\textbf{Concept: Direct proportion.}\\) \\(\\dfrac{18}{3} = \\dfrac{x}{5}\\). \\(x = 6 \\times 5 = 30\\) hours.",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A siren sounds every 12 minutes starting at 08:00. At what time does it sound for the 5th time?",
+    "answer": "08:48",
+    "options": [
+      "08:36",
+      "08:42",
+      "08:48",
+      "08:54",
+      "09:00"
+    ],
+    "definition": "\\(\\textbf{Concept: Intervals.}\\) Start at 08:00. After 4 intervals (5th sound): \\(4 \\times 12 = 48\\) min later = 08:48.",
     "word": ""
   }
 ]
