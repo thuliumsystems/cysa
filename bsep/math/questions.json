@@ -52,7 +52,7 @@
       "75%",
       "91%"
     ],
-    "definition": "\\(\\textbf{Concept: Percentage of remainder.}\\) Total = 48, issued = 16, so remaining = \\(48 - 16 = 32\\) boxes. Fraction remaining = \\(\\dfrac{32}{48} = \\dfrac{2}{3}\\). As percent: \\(\\dfrac{32}{48} \\times 100\\% \\approx 67\\%\\).",
+    "definition": "\\(\\textbf{Concept: Percentage of remainder.}\\) Total = 48, issued = 16, so remaining = \\(48 - 16 = 32\\) boxes. 32 out of 48 means \\(32 \\div 48 = 0.666\\ldots \\approx 67\\%\\).",
     "word": ""
   },
   {
