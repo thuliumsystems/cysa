@@ -3,390 +3,420 @@
     "source": "Official Material",
     "question": "A soldier earns $2,400 per month. 25% of the paycheck goes toward bills. How much money is used for bills?",
     "answer": "$600",
-    "definition": "$25\\%$ means 25 out of 100. To find $25\\%$ of $\\$2\\!,\\!400$, divide 2400 by 4 (since $25\\% = \\frac{1}{4}$), which gives $\\$600$.",
     "options": [
       "$400",
       "$500",
       "$600",
       "$700",
       "$800"
-    ]
+    ],
+    "definition": "\\(25\\%\\) means 25 out of 100. To find \\(25\\%\\) of \\(\\$2\\!,\\!400\\), divide 2400 by 4 (since \\(25\\% = \\frac{1}{4}\\)), which gives \\(\\$600\\).",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A convoy travels 180 miles in 3 hours. What is the average speed?",
     "answer": "60 mph",
-    "definition": "$\\text{Average speed} = \\dfrac{\\text{distance}}{\\text{time}}$. $180 \\div 3 = 60$ mph.",
     "options": [
       "45 mph",
       "50 mph",
       "55 mph",
       "60 mph",
       "65 mph"
-    ]
+    ],
+    "definition": "\\(\\text{Average speed} = \\dfrac{\\text{distance}}{\\text{time}}\\). \\(180 \\div 3 = 60\\) mph.",
+    "word": ""
   },
   {
     "source": "Official Material",
-    "question": "A soldier completed $\\frac{3}{4}$ of a 16-mile ruck march. How many miles did the soldier complete?",
+    "question": "A soldier completed \\(\\frac{3}{4}\\) of a 16-mile ruck march. How many miles did the soldier complete?",
     "answer": "12",
-    "definition": "$\\frac{3}{4} \\times 16 = (16 \\div 4) \\times 3 = 4 \\times 3 = 12$ miles.",
     "options": [
       "10",
       "11",
       "13",
       "12",
       "14"
-    ]
+    ],
+    "definition": "\\(\\frac{3}{4} \\times 16 = (16 \\div 4) \\times 3 = 4 \\times 3 = 12\\) miles.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A supply room contains 48 boxes of MREs. 16 boxes are issued. What percent remain?",
     "answer": "67%",
-    "definition": "$48 - 16 = 32$ boxes remain. $32 \\div 48 = 0.666\\ldots \\approx 67\\%$.",
     "options": [
       "33%",
       "50%",
       "67%",
       "75%",
       "91%"
-    ]
+    ],
+    "definition": "\\(48 - 16 = 32\\) boxes remain. \\(32 \\div 48 = 0.666\\ldots \\approx 67\\%\\).",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "The temperature dropped from 72°F to 54°F during field training. What was the decrease?",
     "answer": "18°",
-    "definition": "Simple subtraction: $72^{\\circ}\\text{F} - 54^{\\circ}\\text{F} = 18^{\\circ}\\text{F}$ decrease.",
     "options": [
       "16°",
       "18°",
       "20°",
       "22°",
       "24°"
-    ]
+    ],
+    "definition": "Simple subtraction: \\(72^{\\circ}\\text{F} - 54^{\\circ}\\text{F} = 18^{\\circ}\\text{F}\\) decrease.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A soldier scored 84 out of 100 on a diagnostic exam. What decimal represents the score?",
     "answer": "0.84",
-    "definition": "$84 \\div 100 = 0.84$. Just move the decimal two places to the left.",
     "options": [
       "0.48",
       "0.64",
       "0.74",
       "0.84",
       "0.94"
-    ]
+    ],
+    "definition": "\\(84 \\div 100 = 0.84\\). Just move the decimal two places to the left.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A military truck carries 2.5 tons of equipment. 4 trucks carry the same amount. How many tons are carried total?",
     "answer": "10",
-    "definition": "$2.5 \\times 4 = 10$ tons total.",
     "options": [
       "10",
       "9",
       "8",
       "11",
       "12"
-    ]
+    ],
+    "definition": "\\(2.5 \\times 4 = 10\\) tons total.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A soldier bought a tactical flashlight for $48. It was discounted by 20%. What was the discount amount?",
     "answer": "$9.60",
-    "definition": "$20\\%$ of $\\$48 = 0.20 \\times 48 = \\$9.60$ discount.",
     "options": [
       "$7.60",
       "$8.60",
       "$11.60",
       "$10.60",
       "$9.60"
-    ]
+    ],
+    "definition": "\\(20\\%\\) of \\(\\$48 = 0.20 \\times 48 = \\$9.60\\) discount.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A training exercise starts at 0730 and ends at 1545. How long is the exercise?",
     "answer": "8h 15m",
-    "definition": "From 07:30 to 15:30 is 8 hours, plus 15 minutes = 8h 15m.",
     "options": [
       "7h 15m",
       "7h 45m",
       "8h 15m",
       "8h 45m",
       "9h 15m"
-    ]
+    ],
+    "definition": "From 07:30 to 15:30 is 8 hours, plus 15 minutes = 8h 15m.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A soldier ran 3.2 miles each day for 5 days. How many total miles were run?",
     "answer": "16",
-    "definition": "$3.2 \\times 5 = 16$ miles total.",
     "options": [
       "16",
       "15",
       "14",
       "17",
       "18"
-    ]
+    ],
+    "definition": "\\(3.2 \\times 5 = 16\\) miles total.",
+    "word": ""
   },
   {
     "source": "Official Material",
-    "question": "A squad has 12 soldiers. $\\frac{1}{3}$ are assigned to guard duty. How many soldiers are assigned?",
+    "question": "A squad has 12 soldiers. \\(\\frac{1}{3}\\) are assigned to guard duty. How many soldiers are assigned?",
     "answer": "4",
-    "definition": "$\\frac{1}{3} \\times 12 = 12 \\div 3 = 4$ soldiers.",
     "options": [
       "2",
       "3",
       "4",
       "5",
       "6"
-    ]
+    ],
+    "definition": "\\(\\frac{1}{3} \\times 12 = 12 \\div 3 = 4\\) soldiers.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A communications cable is 150 feet long. It is cut into pieces measuring 25 feet each. How many pieces are made?",
     "answer": "6",
-    "definition": "$150 \\div 25 = 6$ pieces.",
     "options": [
       "4",
       "6",
       "5",
       "7",
       "8"
-    ]
+    ],
+    "definition": "\\(150 \\div 25 = 6\\) pieces.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A soldier saves $75 each month. How much will be saved in 8 months?",
     "answer": "$600",
-    "definition": "$75 \\times 8 = \\$600$ saved.",
     "options": [
       "$500",
       "$550",
       "$650",
       "$600",
       "$700"
-    ]
+    ],
+    "definition": "\\(75 \\times 8 = \\$600\\) saved.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A unit needs 240 gallons of fuel. Each container holds 15 gallons. How many containers are needed?",
     "answer": "16",
-    "definition": "$240 \\div 15 = 16$ containers.",
     "options": [
       "7",
       "14",
       "15",
       "16",
       "17"
-    ]
+    ],
+    "definition": "\\(240 \\div 15 = 16\\) containers.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "The cafeteria served 320 meals Monday and 280 Tuesday. What is the average per day?",
     "answer": "300",
-    "definition": "$\\text{Average} = (320 + 280) \\div 2 = 600 \\div 2 = 300$ meals per day.",
     "options": [
       "280",
       "290",
       "300",
       "310",
       "320"
-    ]
+    ],
+    "definition": "\\(\\text{Average} = (320 + 280) \\div 2 = 600 \\div 2 = 300\\) meals per day.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A recruit answered 18 out of 24 correctly. What percent is this?",
     "answer": "75%",
-    "definition": "$18 \\div 24 = 0.75 = 75\\%$.",
     "options": [
       "75%",
       "70%",
       "65%",
       "80%",
       "85%"
-    ]
+    ],
+    "definition": "\\(18 \\div 24 = 0.75 = 75\\%\\).",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A soldier purchased boots for $120 and paid 7% sales tax. How much was the sales tax?",
     "answer": "$8.40",
-    "definition": "$7\\%$ of $\\$120 = 0.07 \\times 120 = \\$8.40$ sales tax.",
     "options": [
       "$6.40",
       "$7.40",
       "$8.40",
       "$9.40",
       "$10.40"
-    ]
+    ],
+    "definition": "\\(7\\%\\) of \\(\\$120 = 0.07 \\times 120 = \\$8.40\\) sales tax.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A helicopter flies 360 miles in 4.5 hours. What is the average speed?",
     "answer": "80 mph",
-    "definition": "$\\dfrac{360}{4.5} = 80$ mph.",
     "options": [
       "70 mph",
       "75 mph",
       "85 mph",
       "80 mph",
       "90 mph"
-    ]
+    ],
+    "definition": "\\(\\dfrac{360}{4.5} = 80\\) mph.",
+    "word": ""
   },
   {
     "source": "Official Material",
-    "question": "A water tank holds 400 gallons. After a training exercise, $\\frac{5}{8}$ of the water remains. How many gallons are left?",
+    "question": "A water tank holds 400 gallons. After a training exercise, \\(\\frac{5}{8}\\) of the water remains. How many gallons are left?",
     "answer": "250",
-    "definition": "$\\frac{5}{8} \\times 400 = (400 \\div 8) \\times 5 = 50 \\times 5 = 250$ gallons.",
     "options": [
       "200",
       "225",
       "250",
       "275",
       "300"
-    ]
+    ],
+    "definition": "\\(\\frac{5}{8} \\times 400 = (400 \\div 8) \\times 5 = 50 \\times 5 = 250\\) gallons.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A soldier's rifle qualification score increased from 32 to 40. By how many points?",
     "answer": "8",
-    "definition": "$40 - 32 = 8$ points.",
     "options": [
       "8",
       "7",
       "6",
       "9",
       "10"
-    ]
+    ],
+    "definition": "\\(40 - 32 = 8\\) points.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A military map uses a scale where 1 inch equals 20 miles. Two cities are 4 inches apart on the map. How far apart are they?",
     "answer": "80 miles",
-    "definition": "$1$ inch $= 20$ miles. $4 \\times 20 = 80$ miles apart.",
     "options": [
       "60 miles",
       "70 miles",
       "100 miles",
       "90 miles",
       "80 miles"
-    ]
+    ],
+    "definition": "\\(1\\) inch \\(= 20\\) miles. \\(4 \\times 20 = 80\\) miles apart.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A soldier bought 3 notebooks costing $2.75 each. What was the total cost?",
     "answer": "$8.25",
-    "definition": "$2.75 \\times 3 = \\$8.25$ total.",
     "options": [
       "$7.25",
       "$7.75",
       "$8.25",
       "$8.75",
       "$9.25"
-    ]
+    ],
+    "definition": "\\(2.75 \\times 3 = \\$8.25\\) total.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A squad completed a 12-mile march in 4 hours. What was the average speed?",
     "answer": "3 mph",
-    "definition": "$\\dfrac{12}{4} = 3$ mph.",
     "options": [
       "1 mph",
       "2 mph",
       "2.5 mph",
       "3 mph",
       "4 mph"
-    ]
+    ],
+    "definition": "\\(\\dfrac{12}{4} = 3\\) mph.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A training budget of $5,000 was reduced by 12%. How much money was reduced?",
     "answer": "$600",
-    "definition": "$12\\%$ of $\\$5\\!,\\!000 = 0.12 \\times 5000 = \\$600$ reduction.",
     "options": [
       "$500",
       "$550",
       "$600",
       "$650",
       "$700"
-    ]
+    ],
+    "definition": "\\(12\\%\\) of \\(\\$5\\!,\\!000 = 0.12 \\times 5000 = \\$600\\) reduction.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A soldier drinks 0.75 liters of water every hour during training. How many liters in 8 hours?",
     "answer": "6",
-    "definition": "$0.75 \\times 8 = 6$ liters.",
     "options": [
       "6",
       "5",
       "4",
       "7",
       "8"
-    ]
+    ],
+    "definition": "\\(0.75 \\times 8 = 6\\) liters.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "Engineers are building a square communications pad with sides measuring 18 feet each. What is the area?",
     "answer": "324 sq ft",
-    "definition": "$\\text{Area} = s^2 = 18 \\times 18 = 324$ square feet.",
     "options": [
       "36 sq ft",
       "72 sq ft",
       "144 sq ft",
       "324 sq ft",
       "648 sq ft"
-    ]
+    ],
+    "definition": "\\(\\text{Area} = s^2 = 18 \\times 18 = 324\\) square feet.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A military training tent is shaped like a rectangle measuring 24 feet long and 15 feet wide. What is the perimeter?",
     "answer": "78 ft",
-    "definition": "$\\text{Perimeter} = 2(24 + 15) = 2 \\times 39 = 78$ feet.",
     "options": [
       "39 ft",
       "48 ft",
       "60 ft",
       "96 ft",
       "78 ft"
-    ]
+    ],
+    "definition": "\\(\\text{Perimeter} = 2(24 + 15) = 2 \\times 39 = 78\\) feet.",
+    "word": ""
   },
   {
     "source": "Official Material",
-    "question": "A circular landing zone has a radius of 7 meters. Use π = 3.14. What is the circumference?",
+    "question": "A circular landing zone has a radius of 7 meters. Use \\(\\pi = 3.14\\). What is the circumference?",
     "answer": "43.96 m",
-    "definition": "$\\text{C} = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96$ meters.",
     "options": [
       "21.98 m",
       "32.14 m",
       "43.96 m",
       "49.28 m",
       "153.86 m"
-    ]
+    ],
+    "definition": "\\(\\text{C} = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96\\) meters.",
+    "word": ""
   },
   {
     "source": "Official Material",
     "question": "A triangular warning sign has a base of 12 inches and height of 10 inches. What is the area?",
     "answer": "60 sq in",
-    "definition": "$\\text{Area} = \\frac{1}{2} \\times 12 \\times 10 = 60$ square inches.",
     "options": [
       "60 sq in",
       "44 sq in",
       "22 sq in",
       "120 sq in",
       "240 sq in"
-    ]
+    ],
+    "definition": "\\(\\text{Area} = \\frac{1}{2} \\times 12 \\times 10 = 60\\) square inches.",
+    "word": ""
   },
   {
     "source": "Official Material",
-    "question": "A circular obstacle course has a diameter of 20 yards. Use π = 3.14. What is the area?",
+    "question": "A circular obstacle course has a diameter of 20 yards. Use \\(\\pi = 3.14\\). What is the area?",
     "answer": "314 sq yd",
-    "definition": "$r = 20 \\div 2 = 10$. $\\text{Area} = \\pi r^2 = 3.14 \\times 100 = 314$ square yards.",
     "options": [
       "62.8 sq yd",
       "125.6 sq yd",
       "314 sq yd",
       "628 sq yd",
       "1256 sq yd"
-    ]
+    ],
+    "definition": "\\(r = 20 \\div 2 = 10\\). \\(\\text{Area} = \\pi r^2 = 3.14 \\times 100 = 314\\) square yards.",
+    "word": ""
   }
 ]
