@@ -2,52 +2,115 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BSEP Quiz</title>
 
 <style>
-body {
+* {
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
-  background:#0f172a;
-  color:#e2e8f0;
-  margin:0;
-  padding:20px;
 }
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e2e8f0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-  max-width:700px;
-  margin:auto;
-  background:#111827;
-  padding:20px;
-  border-radius:12px;
-}
-h1 { text-align:center; }
-
-.word {
-  font-size:26px;
-  margin-bottom:10px;
-  color:#38bdf8;
+  width: 100%;
+  max-width: 520px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.btn {
-  display:block;
-  width:100%;
-  margin:8px 0;
-  padding:10px;
-  background:#1f2937;
-  border:1px solid #334155;
-  color:white;
-  border-radius:8px;
-  cursor:pointer;
-}
-
-.btn:hover { background:#334155; }
-
-.feedback {
-  margin-top:15px;
-  font-weight:bold;
+h1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .progress {
-  margin-bottom:10px;
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.word {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #38bdf8;
+  margin: 10px 0;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background: #1f2937;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: left;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:hover {
+  background: #334155;
+}
+
+.feedback {
+  margin-top: 10px;
+  padding: 12px;
+  background: #111827;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.next-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.next-btn:active {
+  transform: scale(0.98);
+}
+
+/* melhora em telas muito pequenas */
+@media (max-width: 380px) {
+  .word {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 12px;
+  }
 }
 </style>
 </head>
@@ -55,14 +118,18 @@ h1 { text-align:center; }
 <body>
 
 <div class="container">
+
   <h1>BSEP Word Quiz</h1>
 
   <div class="progress" id="progress"></div>
   <div class="word" id="word">Loading...</div>
+
   <div id="options"></div>
+
   <div class="feedback" id="feedback"></div>
 
-  <button class="btn" onclick="nextQuestion()">Next</button>
+  <button class="next-btn" onclick="nextQuestion()">Next</button>
+
 </div>
 
 <script>
@@ -73,22 +140,16 @@ let score = 0;
 fetch("bsep_questions.json")
   .then(res => res.json())
   .then(data => {
-    // suporta formato novo: []
-    if (Array.isArray(data)) {
-      questions = data;
-    } else {
-      questions = Object.values(data).flat();
-    }
-
+    questions = Array.isArray(data) ? data : Object.values(data).flat();
     loadQuestion();
   });
 
-function loadQuestion(){
+function loadQuestion() {
   let q = questions[index];
 
   document.getElementById("word").innerText = q.word;
   document.getElementById("progress").innerText =
-    `Question ${index+1} of ${questions.length}`;
+    `Question ${index + 1} of ${questions.length}`;
 
   let optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
@@ -96,39 +157,38 @@ function loadQuestion(){
 
   let shuffled = [...q.options].sort(() => Math.random() - 0.5);
 
-  shuffled.forEach(opt=>{
+  shuffled.forEach(opt => {
     let btn = document.createElement("button");
-    btn.className="btn";
+    btn.className = "btn";
     btn.innerText = opt;
     btn.onclick = () => checkAnswer(opt);
     optionsDiv.appendChild(btn);
   });
 }
 
-function checkAnswer(choice){
+function checkAnswer(choice) {
   let q = questions[index];
   let feedback = document.getElementById("feedback");
 
-  if(choice === q.answer){
+  if (choice === q.answer) {
     score++;
     feedback.innerHTML =
-      "✅ Correct!<br><br><b>Definition:</b> " + q.definition;
+      "✅ Correct!<br><br><b>Definition:</b><br>" + q.definition;
   } else {
     feedback.innerHTML =
-      "❌ Wrong!<br><b>Correct answer:</b> " + q.answer +
-      "<br><br><b>Definition:</b> " + q.definition;
+      "❌ Wrong!<br><br><b>Correct:</b> " + q.answer +
+      "<br><br><b>Definition:</b><br>" + q.definition;
   }
 }
 
-function nextQuestion(){
+function nextQuestion() {
   index++;
 
-  if(index >= questions.length){
+  if (index >= questions.length) {
     document.getElementById("word").innerText = "Finished!";
     document.getElementById("options").innerHTML = "";
     document.getElementById("progress").innerText =
       `Score: ${score}/${questions.length}`;
-    document.getElementById("feedback").innerText = "";
     return;
   }
 
