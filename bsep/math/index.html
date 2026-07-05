@@ -21,7 +21,7 @@
       }
       .container {
         width: 100%;
-        max-width: 600px;
+        max-width: 720px;
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -61,14 +61,18 @@
         border-radius: 999px;
         font-size: 11px;
         font-weight: 600;
+        margin-left: 6px;
       }
       .source-badge.official { background: rgba(52, 211, 153, 0.1); color: #34d399; }
+      .source-badge.official-material { background: rgba(52, 211, 153, 0.1); color: #34d399; }
       .source-badge.non-official { background: rgba(234, 179, 8, 0.1); color: #eab308; }
+      .source-badge.non-official-material { background: rgba(234, 179, 8, 0.1); color: #eab308; }
       .timer {
         font-variant-numeric: tabular-nums;
         font-weight: 700;
         color: #34d399;
       }
+
       .start-screen {
         flex: 1;
         display: flex;
@@ -100,29 +104,56 @@
         transform: translateY(-2px);
       }
       .btn-start:active { transform: scale(0.97); }
+
       .quiz-content { display: none; flex-direction: column; }
-      .question-box {
+
+      .question-card {
         background: #0f172a;
         border: 1px solid #1e293b;
-        border-radius: 12px;
-        padding: 18px;
+        border-radius: 14px;
+        padding: 20px 22px;
+        margin-bottom: 14px;
+        transition: border-color 0.2s;
+      }
+      .question-card .q-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+      }
+      .question-card .q-number {
+        font-size: 13px;
+        font-weight: 700;
+        color: #34d399;
+        margin-right: auto;
+      }
+      .question-card .q-status {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 2px 10px;
+        border-radius: 999px;
+      }
+      .question-card .q-status.correct { color: #22c55e; background: rgba(34,197,94,0.1); }
+      .question-card .q-status.wrong { color: #ef4444; background: rgba(239,68,68,0.1); }
+
+      .card-question {
         font-size: 15px;
         line-height: 1.7;
         color: #cbd5e1;
+        margin-bottom: 12px;
       }
-      .question-box .katex { font-size: 1.05em; }
-      .feedback .katex { font-size: 1.05em; }
-
-      #options { display: flex; flex-direction: column; gap: 10px; }
+      .card-question .katex { font-size: 1.05em; }
+      .card-options { display: flex; flex-direction: column; gap: 8px; }
       .btn {
         width: 100%;
-        padding: 15px 18px;
-        font-size: 15px;
+        padding: 13px 16px;
+        font-size: 14px;
         font-family: inherit;
         background: #1a2332;
         border: 1px solid #1e293b;
         color: #e2e8f0;
-        border-radius: 12px;
+        border-radius: 10px;
         cursor: pointer;
         transition: all 0.2s;
         text-align: left;
@@ -131,38 +162,77 @@
       .btn:active { transform: scale(0.98); }
       .btn.correct { border-color: #22c55e; background: rgba(34, 197, 94, 0.08); color: #22c55e; }
       .btn.wrong { border-color: #ef4444; background: rgba(239, 68, 68, 0.08); color: #ef4444; }
-      .feedback {
-        padding: 16px;
-        background: #0f172a;
-        border: 1px solid #1e293b;
-        border-radius: 12px;
-        font-size: 14px;
+      .card-feedback {
+        margin-top: 10px;
+        padding: 12px 14px;
+        background: #1a2332;
+        border-radius: 8px;
+        font-size: 13px;
         line-height: 1.6;
+        display: none;
       }
-      .actions { display: flex; gap: 10px; }
-      .actions button {
-        flex: 1;
-        padding: 14px;
-        font-size: 15px;
+      .card-feedback.show { display: block; }
+      .card-feedback .katex { font-size: 1.05em; }
+
+      .answered-count {
+        text-align: center;
+        font-size: 12px;
+        color: #64748b;
+        margin-bottom: 4px;
+      }
+
+      .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding: 8px 0 4px;
+      }
+      .page-btn {
+        padding: 10px 24px;
+        font-size: 14px;
+        font-family: inherit;
+        font-weight: 600;
+        border: 1px solid #334155;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.2s;
+        color: #e2e8f0;
+        background: #1a2332;
+      }
+      .page-btn:hover { background: #1e293b; }
+      .page-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+      .page-info {
+        font-size: 14px;
+        font-weight: 600;
+        color: #94a3b8;
+        min-width: 100px;
+        text-align: center;
+      }
+
+      .btn-reset {
+        padding: 10px 28px;
+        font-size: 14px;
         font-family: inherit;
         font-weight: 600;
         border: none;
-        border-radius: 12px;
+        border-radius: 10px;
         cursor: pointer;
         transition: all 0.2s;
         color: #fff;
+        background: #dc2626;
       }
-      .actions button:active { transform: scale(0.97); }
-      .btn-next { background: #059669; }
-      .btn-next:hover { filter: brightness(1.15); }
-      .btn-reset { background: #dc2626; }
       .btn-reset:hover { filter: brightness(1.15); }
+      .btn-reset:active { transform: scale(0.97); }
+
       .finished { text-align: center; padding: 40px 0; }
       .finished h2 { font-size: 28px; margin-bottom: 8px; }
       .finished p { font-size: 18px; color: #94a3b8; }
+
       @media (max-width: 400px) {
-        .passage { font-size: 13px; padding: 14px; }
-        .btn { font-size: 14px; padding: 13px 14px; }
+        .card-question { font-size: 13px; }
+        .btn { font-size: 13px; padding: 11px 13px; }
+        .question-card { padding: 15px 16px; }
       }
     </style>
   </head>
@@ -184,46 +254,53 @@
       <div class="quiz-content" id="quizContent">
         <div class="meta">
           <span id="progress">Loading...</span>
-          <span><span class="timer" id="timerDisplay">00:00</span> &middot; <span id="sourceBadge"></span></span>
+          <span><span class="timer" id="timerDisplay">00:00</span></span>
         </div>
 
-        <div class="question-box" id="questionBox"></div>
-        <div id="options"></div>
-        <div class="feedback" id="feedback"></div>
-
-        <div class="actions">
-          <button class="btn-next" id="nextBtn" onclick="nextQuestion()">Next</button>
+        <div id="questionsContainer"></div>
+        <div class="answered-count" id="answeredCount"></div>
+        <div class="pagination">
+          <button class="page-btn" id="prevPageBtn" onclick="prevPage()">← Previous</button>
+          <span class="page-info" id="pageInfo"></span>
+          <button class="page-btn" id="nextPageBtn" onclick="nextPage()">Next →</button>
+        </div>
+        <div style="text-align:center;margin-top:8px;">
           <button class="btn-reset" onclick="resetProgress()">Reset</button>
         </div>
       </div>
     </div>
 
     <script>
-      let questions = [];
-      let index = 0;
-      let score = 0;
-      let answered = false;
-      let done = new Set();
-      let timerInterval = null;
-      let elapsedSeconds = 0;
-      let quizStarted = false;
-      const STORAGE_PREFIX = 'bsep_math_';
+      var PER_PAGE = 10;
+      var questions = [];
+      var currentPage = 0;
+      var score = 0;
+      var done = new Set();
+      var correctAnswers = new Set();
+      var timerInterval = null;
+      var elapsedSeconds = 0;
+      var quizStarted = false;
+      var STORAGE_PREFIX = 'bsep_math_';
+      var shuffledOptions = {};
 
       function saveProgress() {
-        localStorage.setItem(STORAGE_PREFIX + 'index', index);
+        localStorage.setItem(STORAGE_PREFIX + 'page', currentPage);
         localStorage.setItem(STORAGE_PREFIX + 'score', score);
-        localStorage.setItem(STORAGE_PREFIX + 'done', JSON.stringify([...done]));
+        localStorage.setItem(STORAGE_PREFIX + 'done', JSON.stringify([].slice.call(done)));
+        localStorage.setItem(STORAGE_PREFIX + 'correct', JSON.stringify([].slice.call(correctAnswers)));
         localStorage.setItem(STORAGE_PREFIX + 'elapsed', elapsedSeconds);
         localStorage.setItem(STORAGE_PREFIX + 'started', quizStarted ? '1' : '0');
       }
 
       function loadProgress() {
-        index = parseInt(localStorage.getItem(STORAGE_PREFIX + 'index')) || 0;
+        currentPage = parseInt(localStorage.getItem(STORAGE_PREFIX + 'page')) || 0;
         score = parseInt(localStorage.getItem(STORAGE_PREFIX + 'score')) || 0;
         elapsedSeconds = parseInt(localStorage.getItem(STORAGE_PREFIX + 'elapsed')) || 0;
         quizStarted = localStorage.getItem(STORAGE_PREFIX + 'started') === '1';
-        const saved = localStorage.getItem(STORAGE_PREFIX + 'done');
-        if (saved) done = new Set(JSON.parse(saved));
+        var savedDone = localStorage.getItem(STORAGE_PREFIX + 'done');
+        if (savedDone) done = new Set(JSON.parse(savedDone));
+        var savedCorrect = localStorage.getItem(STORAGE_PREFIX + 'correct');
+        if (savedCorrect) correctAnswers = new Set(JSON.parse(savedCorrect));
       }
 
       function formatTime(sec) {
@@ -252,17 +329,50 @@
         }
       }
 
+      function totalPages() {
+        return Math.ceil(questions.length / PER_PAGE);
+      }
+
+      function getPageRange(page) {
+        var start = page * PER_PAGE;
+        var end = Math.min(start + PER_PAGE, questions.length);
+        return { start: start, end: end };
+      }
+
+      function getShuffledOptions(idx) {
+        if (!shuffledOptions[idx]) {
+          shuffledOptions[idx] = questions[idx].options.slice().sort(function() { return Math.random() - 0.5; });
+        }
+        return shuffledOptions[idx];
+      }
+
+      function esc(s) {
+        return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+      }
+
+      function renderMathInContainer(el) {
+        if (typeof renderMathInElement === 'function') {
+          renderMathInElement(el, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '\\(', right: '\\)', display: false}
+            ],
+            throwOnError: false
+          });
+        }
+      }
+
       fetch('questions.json')
         .then(function(r) { return r.json(); })
         .then(function(data) {
           questions = Array.isArray(data) ? data : Object.values(data).flat();
           document.getElementById('totalQuestions').textContent = questions.length;
           loadProgress();
-          if (quizStarted && index < questions.length) {
+          if (quizStarted && currentPage < totalPages()) {
             document.getElementById('startScreen').style.display = 'none';
             document.getElementById('quizContent').style.display = 'flex';
             updateTimerDisplay();
-            loadQuestion();
+            renderPage(currentPage);
             startTimer();
           }
         });
@@ -271,113 +381,156 @@
         document.getElementById('startScreen').style.display = 'none';
         document.getElementById('quizContent').style.display = 'flex';
         quizStarted = true;
-        if (index === 0) elapsedSeconds = 0;
+        if (done.size === 0) elapsedSeconds = 0;
         updateTimerDisplay();
         saveProgress();
         startTimer();
-        loadQuestion();
+        renderPage(0);
       }
 
-      function loadQuestion() {
-        answered = false;
-        document.getElementById('nextBtn').style.display = 'none';
-        while (done.has(index) && index < questions.length) index++;
-        if (index >= questions.length) { finish(); return; }
+      function createQuestionCard(idx) {
+        var q = questions[idx];
+        var isAnswered = done.has(idx);
+        var isCorrect = correctAnswers.has(idx);
 
-        var q = questions[index];
-        document.getElementById('questionBox').innerHTML = q.question;
-        renderMath();
-        var cls = q.source ? q.source.toLowerCase().replace(/\s+/g, '-') : '';
-        document.getElementById('sourceBadge').innerHTML = q.source ? '<span class="source-badge ' + cls + '">' + q.source + '</span>' : '';
-        updateProgress();
+        var card = document.createElement('div');
+        card.className = 'question-card';
+        card.id = 'q-card-' + idx;
 
-        var opts = document.getElementById('options');
-        opts.innerHTML = '';
-        document.getElementById('feedback').innerHTML = '';
+        var html = '<div class="q-header"><span class="q-number">Question ' + (idx + 1) + '</span>';
+        if (q.source) {
+          var srcClass = q.source.toLowerCase().replace(/\s+/g, '-');
+          html += '<span class="source-badge ' + esc(srcClass) + '">' + esc(q.source) + '</span>';
+        }
+        if (isAnswered) {
+          html += '<span class="q-status ' + (isCorrect ? 'correct' : 'wrong') + '">' + (isCorrect ? 'Correct' : 'Wrong') + '</span>';
+        }
+        html += '</div>';
+        html += '<div class="card-question">' + (q.question || '') + '</div>';
+        html += '<div class="card-options"></div>';
+        html += '<div class="card-feedback' + (isAnswered ? ' show' : '') + '"></div>';
 
-        var shuffled = [...q.options].sort(function() { return Math.random() - 0.5; });
-        shuffled.forEach(function(opt) {
+        card.innerHTML = html;
+
+        var optsContainer = card.querySelector('.card-options');
+        var opts = getShuffledOptions(idx);
+        opts.forEach(function(opt) {
           var btn = document.createElement('button');
           btn.className = 'btn';
-          btn.innerText = opt;
-          btn.onclick = function() { checkAnswer(opt); };
-          opts.appendChild(btn);
+          if (isAnswered && opt === q.answer) btn.classList.add('correct');
+          btn.textContent = opt;
+          if (isAnswered) {
+            btn.disabled = true;
+            btn.style.pointerEvents = 'none';
+          } else {
+            btn.addEventListener('click', (function(i, o) {
+              return function() { checkAnswer(i, o); };
+            })(idx, opt));
+          }
+          optsContainer.appendChild(btn);
         });
+
+        if (isAnswered) {
+          var fb = card.querySelector('.card-feedback');
+          var statusLine = document.createElement('div');
+          statusLine.style.fontWeight = '700';
+          statusLine.style.marginBottom = '4px';
+          statusLine.textContent = isCorrect ? '✅ Correct!' : '❌ Wrong!';
+          fb.appendChild(statusLine);
+          var defLine = document.createElement('div');
+          defLine.style.color = '#22c55e';
+          defLine.style.fontWeight = '600';
+          defLine.innerHTML = q.definition || '';
+          fb.appendChild(defLine);
+        }
+
+        return card;
       }
 
-      function checkAnswer(choice) {
-        if (answered) return;
-        answered = true;
-        var q = questions[index];
+      function renderPage(page) {
+        currentPage = page;
+        var range = getPageRange(page);
+        var container = document.getElementById('questionsContainer');
+        container.innerHTML = '';
+        for (var i = range.start; i < range.end; i++) {
+          container.appendChild(createQuestionCard(i));
+        }
+        renderMathInContainer(container);
+        updatePagination();
+        updateProgress();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      function checkAnswer(idx, choice) {
+        if (done.has(idx)) return;
+        var q = questions[idx];
         var correct = choice === q.answer;
-        var btns = document.querySelectorAll('#options .btn');
-        btns.forEach(function(b) {
-          if (b.innerText === q.answer) b.classList.add('correct');
-          if (b.innerText === choice && !correct) b.classList.add('wrong');
-        });
-        btns.forEach(function(b) { b.style.pointerEvents = 'none'; });
-        if (correct) score++;
-        document.getElementById('feedback').innerHTML =
-          '<div style="font-weight:700;margin-bottom:4px;">' + (correct ? '✅ Correct!' : '❌ Wrong!') + '</div>' +
-          '<div style="color:#22c55e;font-weight:600;">' + q.definition + '</div>';
-        renderMath();
-        done.add(index);
+        if (correct) {
+          score++;
+          correctAnswers.add(idx);
+        }
+        done.add(idx);
         saveProgress();
-        document.getElementById('nextBtn').style.display = 'block';
+        var oldCard = document.getElementById('q-card-' + idx);
+        if (oldCard) {
+          var newCard = createQuestionCard(idx);
+          oldCard.replaceWith(newCard);
+          renderMathInContainer(newCard);
+        }
+        updatePagination();
+        updateProgress();
       }
 
-      function nextQuestion() {
-        index++;
-        saveProgress();
-        loadQuestion();
+      function updatePagination() {
+        var total = totalPages();
+        var range = getPageRange(currentPage);
+        var answeredOnPage = 0;
+        for (var i = range.start; i < range.end; i++) {
+          if (done.has(i)) answeredOnPage++;
+        }
+        document.getElementById('prevPageBtn').disabled = (currentPage === 0);
+        document.getElementById('nextPageBtn').disabled = (currentPage >= total - 1);
+        document.getElementById('pageInfo').textContent = 'Page ' + (currentPage + 1) + ' of ' + total;
+        document.getElementById('answeredCount').textContent = answeredOnPage + ' / ' + (range.end - range.start) + ' answered on this page';
+      }
+
+      function nextPage() {
+        if (currentPage < totalPages() - 1) renderPage(currentPage + 1);
+      }
+
+      function prevPage() {
+        if (currentPage > 0) renderPage(currentPage - 1);
       }
 
       function updateProgress() {
         document.getElementById('progress').textContent =
-          'Question ' + Math.min(index + 1, questions.length) + ' of ' + questions.length + ' | Score: ' + score;
+          'Question ' + Math.min(done.size + 1, questions.length) + ' of ' + questions.length + ' | Score: ' + score;
+        if (done.size >= questions.length) finish();
       }
 
       function finish() {
         stopTimer();
-        document.getElementById('questionBox').innerHTML = '';
-        document.getElementById('options').innerHTML = '';
-        document.getElementById('feedback').innerHTML = '';
-        document.getElementById('sourceBadge').innerHTML = '';
+        var container = document.getElementById('questionsContainer');
+        container.innerHTML = '<div class="finished"><h2>🎉 Finished!</h2><p>Score: ' + score + ' / ' + questions.length + '</p><p style="color:#94a3b8;">Time: ' + formatTime(elapsedSeconds) + '</p></div>';
+        document.getElementById('answeredCount').style.display = 'none';
+        document.getElementById('prevPageBtn').style.display = 'none';
+        document.getElementById('nextPageBtn').style.display = 'none';
+        document.getElementById('pageInfo').style.display = 'none';
         document.getElementById('progress').textContent = 'Final Score: ' + score + ' / ' + questions.length;
-        document.getElementById('nextBtn').style.display = 'none';
-        document.querySelector('.quiz-content').insertAdjacentHTML('beforeend',
-          '<div class="finished"><h2>🎉 Finished!</h2><p>Time: ' + formatTime(elapsedSeconds) + '</p></div>');
       }
 
       function resetProgress() {
         stopTimer();
-        localStorage.removeItem(STORAGE_PREFIX + 'index');
+        localStorage.removeItem(STORAGE_PREFIX + 'page');
         localStorage.removeItem(STORAGE_PREFIX + 'score');
         localStorage.removeItem(STORAGE_PREFIX + 'done');
+        localStorage.removeItem(STORAGE_PREFIX + 'correct');
         localStorage.removeItem(STORAGE_PREFIX + 'elapsed');
         localStorage.removeItem(STORAGE_PREFIX + 'started');
-        index = 0; score = 0; done = new Set(); elapsedSeconds = 0; quizStarted = false;
+        currentPage = 0; score = 0; done = new Set(); correctAnswers = new Set(); elapsedSeconds = 0; quizStarted = false;
         document.getElementById('startScreen').style.display = 'flex';
         document.getElementById('quizContent').style.display = 'none';
         updateTimerDisplay();
-      }
-      function renderMath() {
-        if (typeof renderMathInElement === 'function') {
-          renderMathInElement(document.getElementById('questionBox'), {
-            delimiters: [
-              {left: '$$', right: '$$', display: true},
-              {left: '\\(' , right: '\\)', display: false}
-            ],
-            throwOnError: false
-          });
-          renderMathInElement(document.getElementById('feedback'), {
-            delimiters: [
-              {left: '$$', right: '$$', display: true},
-              {left: '\\(' , right: '\\)', display: false}
-            ],
-            throwOnError: false
-          });
-        }
       }
     </script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
