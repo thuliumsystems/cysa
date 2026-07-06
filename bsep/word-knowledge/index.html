@@ -284,8 +284,8 @@
       function saveProgress() {
         localStorage.setItem(STORAGE_PREFIX + 'page', currentPage);
         localStorage.setItem(STORAGE_PREFIX + 'score', score);
-        localStorage.setItem(STORAGE_PREFIX + 'done', JSON.stringify([].slice.call(done)));
-        localStorage.setItem(STORAGE_PREFIX + 'correct', JSON.stringify([].slice.call(correctAnswers)));
+        localStorage.setItem(STORAGE_PREFIX + 'done', JSON.stringify(Array.from(done)));
+        localStorage.setItem(STORAGE_PREFIX + 'correct', JSON.stringify(Array.from(correctAnswers)));
         localStorage.setItem(STORAGE_PREFIX + 'elapsed', elapsedSeconds);
         localStorage.setItem(STORAGE_PREFIX + 'started', quizStarted ? '1' : '0');
       }
@@ -428,6 +428,15 @@
           answerLine.style.fontWeight = '600';
           answerLine.textContent = 'Answer: ' + q.answer;
           fb.appendChild(answerLine);
+          if (q.synonyms && q.synonyms.length) {
+            var synLine = document.createElement('div');
+            synLine.style.color = '#818cf8';
+            synLine.style.fontWeight = '600';
+            synLine.style.marginTop = '4px';
+            synLine.style.fontSize = '13px';
+            synLine.textContent = 'Synonyms: ' + q.synonyms.join(', ');
+            fb.appendChild(synLine);
+          }
           var defLine = document.createElement('div');
           defLine.style.color = '#94a3b8';
           defLine.style.marginTop = '4px';

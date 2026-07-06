@@ -1398,5 +1398,1405 @@
     ],
     "definition": "\\(\\textbf{Concept: Intervals.}\\) Start at 08:00. After 4 intervals (5th sound): \\(4 \\times 12 = 48\\) min later = 08:48.",
     "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A recruit ruck-marched \\(\\dfrac{1}{4}\\) of a mile before breakfast and \\(\\dfrac{1}{2}\\) of a mile after breakfast. How many total miles did the recruit march?",
+    "answer": "3/4",
+    "options": [
+      "3/4",
+      "6/8",
+      "1/3",
+      "1/2",
+      "1 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 4 and 2 is 4. Rewrite: \\(\\dfrac{1}{4} = \\dfrac{1}{4}\\) and \\(\\dfrac{1}{2} = \\dfrac{2}{4}\\). Add: \\(\\dfrac{1}{4} + \\dfrac{2}{4} = \\dfrac{3}{4}\\). Simplified, this equals \\(\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A water buffalo trailer received \\(\\dfrac{2}{3}\\) of a tank in the first fill and \\(\\dfrac{1}{6}\\) of a tank in the second fill. What fraction of a tank was added in total?",
+    "answer": "5/6",
+    "options": [
+      "5/6",
+      "10/12",
+      "1/3",
+      "2/3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 3 and 6 is 6. Rewrite: \\(\\dfrac{2}{3} = \\dfrac{4}{6}\\) and \\(\\dfrac{1}{6} = \\dfrac{1}{6}\\). Add: \\(\\dfrac{4}{6} + \\dfrac{1}{6} = \\dfrac{5}{6}\\). Simplified, this equals \\(\\dfrac{5}{6}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A rucksack contains \\(\\dfrac{3}{8}\\) of its capacity in the top compartment and \\(\\dfrac{1}{4}\\) of its capacity in the bottom compartment. What fraction of the rucksack's capacity is filled in total?",
+    "answer": "5/8",
+    "options": [
+      "5/8",
+      "10/16",
+      "1/3",
+      "1/2",
+      "1 5/8"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 8 and 4 is 8. Rewrite: \\(\\dfrac{3}{8} = \\dfrac{3}{8}\\) and \\(\\dfrac{1}{4} = \\dfrac{2}{8}\\). Add: \\(\\dfrac{3}{8} + \\dfrac{2}{8} = \\dfrac{5}{8}\\). Simplified, this equals \\(\\dfrac{5}{8}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier stood guard for \\(\\dfrac{5}{6}\\) of an hour during the first shift and \\(\\dfrac{1}{3}\\) of an hour during the second shift. How many total hours did the soldier stand guard?",
+    "answer": "1 1/6",
+    "options": [
+      "1 1/6",
+      "1 2/12",
+      "2/3",
+      "1",
+      "1/6"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 6 and 3 is 6. Rewrite: \\(\\dfrac{5}{6} = \\dfrac{5}{6}\\) and \\(\\dfrac{1}{3} = \\dfrac{2}{6}\\). Add: \\(\\dfrac{5}{6} + \\dfrac{2}{6} = \\dfrac{7}{6}\\). Simplified, this equals \\(1\\dfrac{1}{6}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A convoy delivered \\(\\dfrac{3}{4}\\) of a truckload of ammunition on the first trip and \\(\\dfrac{5}{8}\\) of a truckload on the second trip. How many truckloads were delivered in total?",
+    "answer": "1 3/8",
+    "options": [
+      "1 3/8",
+      "1 6/16",
+      "2/3",
+      "1 1/4",
+      "2"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 4 and 8 is 8. Rewrite: \\(\\dfrac{3}{4} = \\dfrac{6}{8}\\) and \\(\\dfrac{5}{8} = \\dfrac{5}{8}\\). Add: \\(\\dfrac{6}{8} + \\dfrac{5}{8} = \\dfrac{11}{8}\\). Simplified, this equals \\(1\\dfrac{3}{8}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A convoy drove \\(\\dfrac{1}{2}\\) of an hour on a paved road and \\(\\dfrac{7}{4}\\) hours on a dirt trail. How many total hours did the convoy travel?",
+    "answer": "2 1/4",
+    "options": [
+      "2 1/4",
+      "2 2/8",
+      "1 1/3",
+      "2",
+      "4"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 2 and 4 is 4. Rewrite: \\(\\dfrac{1}{2} = \\dfrac{2}{4}\\) and \\(\\dfrac{7}{4} = \\dfrac{7}{4}\\). Add: \\(\\dfrac{2}{4} + \\dfrac{7}{4} = \\dfrac{9}{4}\\). Simplified, this equals \\(2\\dfrac{1}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A recruit spent \\(\\dfrac{3}{5}\\) of an hour on land navigation and \\(\\dfrac{8}{5}\\) of an hour on the rifle range. How many total hours were spent training?",
+    "answer": "2 1/5",
+    "options": [
+      "2 1/5",
+      "2 2/10",
+      "1 1/10",
+      "1 1/5",
+      "3 1/5"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) Add the numerators: \\(\\dfrac{3}{5} + \\dfrac{8}{5} = \\dfrac{11}{5}\\). Simplified, this equals \\(2\\dfrac{1}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A supply point issued \\(\\dfrac{5}{3}\\) of a pallet of MREs to one platoon and \\(\\dfrac{4}{3}\\) of a pallet to another platoon. How many pallets were issued in total?",
+    "answer": "3",
+    "options": [
+      "3",
+      "1 1/2",
+      "2",
+      "4",
+      "3 1/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) Add the numerators: \\(\\dfrac{5}{3} + \\dfrac{4}{3} = \\dfrac{9}{3}\\). Simplified, this equals \\(3\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A generator used \\(\\dfrac{7}{6}\\) of a fuel drum on day one and \\(\\dfrac{5}{6}\\) of a fuel drum on day two. How many fuel drums were used in total?",
+    "answer": "2",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "2 1/4",
+      "2 1/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) Add the numerators: \\(\\dfrac{7}{6} + \\dfrac{5}{6} = \\dfrac{12}{6}\\). Simplified, this equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A platoon covered \\(\\dfrac{2}{3}\\) of a planned route during a day movement and \\(\\dfrac{5}{3}\\) of the route during a night movement. What fraction of the route, in total lengths, did they cover?",
+    "answer": "2 1/3",
+    "options": [
+      "2 1/3",
+      "2 2/6",
+      "1 1/6",
+      "1 1/3",
+      "3 1/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) Add the numerators: \\(\\dfrac{2}{3} + \\dfrac{5}{3} = \\dfrac{7}{3}\\). Simplified, this equals \\(2\\dfrac{1}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A soldier slept \\(1\\dfrac{1}{2}\\) hours before a mission and \\(2\\dfrac{1}{4}\\) hours after the mission. How many total hours of sleep did the soldier get?",
+    "answer": "3 3/4",
+    "options": [
+      "3 3/4",
+      "3 6/8",
+      "2",
+      "3 1/2",
+      "4"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\), \\(2\\dfrac{1}{4} = \\dfrac{9}{4}\\). The LCD of 2 and 4 is 4. Rewrite: \\(\\dfrac{3}{2} = \\dfrac{6}{4}\\) and \\(\\dfrac{9}{4} = \\dfrac{9}{4}\\). Add: \\(\\dfrac{6}{4} + \\dfrac{9}{4} = \\dfrac{15}{4}\\). Simplified, this equals \\(3\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A defensive position used \\(2\\dfrac{1}{3}\\) tons of sand in one bag and \\(1\\dfrac{1}{6}\\) tons in a second bag. What is the combined weight of sand?",
+    "answer": "3 1/2",
+    "options": [
+      "3 1/2",
+      "3 2/4",
+      "1 5/9",
+      "3 1/3",
+      "3 2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{1}{3} = \\dfrac{7}{3}\\), \\(1\\dfrac{1}{6} = \\dfrac{7}{6}\\). The LCD of 3 and 6 is 6. Rewrite: \\(\\dfrac{7}{3} = \\dfrac{14}{6}\\) and \\(\\dfrac{7}{6} = \\dfrac{7}{6}\\). Add: \\(\\dfrac{14}{6} + \\dfrac{7}{6} = \\dfrac{21}{6}\\). Simplified, this equals \\(3\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A fuel truck pumped \\(3\\dfrac{2}{5}\\) gallons into one vehicle and \\(1\\dfrac{4}{5}\\) gallons into another. How many gallons were pumped in total?",
+    "answer": "5 1/5",
+    "options": [
+      "5 1/5",
+      "5 2/10",
+      "2 3/5",
+      "4 1/5",
+      "6 1/5"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(3\\dfrac{2}{5} = \\dfrac{17}{5}\\), \\(1\\dfrac{4}{5} = \\dfrac{9}{5}\\). Add the numerators: \\(\\dfrac{17}{5} + \\dfrac{9}{5} = \\dfrac{26}{5}\\). Simplified, this equals \\(5\\dfrac{1}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A patrol covered \\(2\\dfrac{3}{4}\\) miles along the river and \\(3\\dfrac{1}{2}\\) miles along the ridge line. How many total miles did the patrol cover?",
+    "answer": "6 1/4",
+    "options": [
+      "6 1/4",
+      "6 2/8",
+      "3",
+      "6",
+      "5 1/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{3}{4} = \\dfrac{11}{4}\\), \\(3\\dfrac{1}{2} = \\dfrac{7}{2}\\). The LCD of 4 and 2 is 4. Rewrite: \\(\\dfrac{11}{4} = \\dfrac{11}{4}\\) and \\(\\dfrac{7}{2} = \\dfrac{14}{4}\\). Add: \\(\\dfrac{11}{4} + \\dfrac{14}{4} = \\dfrac{25}{4}\\). Simplified, this equals \\(6\\dfrac{1}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A radio operator worked \\(4\\dfrac{5}{6}\\) hours on the morning watch and \\(2\\dfrac{1}{3}\\) hours on the evening watch. How many total hours did the operator work?",
+    "answer": "7 1/6",
+    "options": [
+      "7 1/6",
+      "7 2/12",
+      "4",
+      "7",
+      "6 1/6"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(4\\dfrac{5}{6} = \\dfrac{29}{6}\\), \\(2\\dfrac{1}{3} = \\dfrac{7}{3}\\). The LCD of 6 and 3 is 6. Rewrite: \\(\\dfrac{29}{6} = \\dfrac{29}{6}\\) and \\(\\dfrac{7}{3} = \\dfrac{14}{6}\\). Add: \\(\\dfrac{29}{6} + \\dfrac{14}{6} = \\dfrac{43}{6}\\). Simplified, this equals \\(7\\dfrac{1}{6}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "An ammo can holds \\(3\\dfrac{1}{2}\\) pounds of linked rounds, and a second can holds an additional \\(\\dfrac{1}{4}\\) pounds. What is the combined weight?",
+    "answer": "3 3/4",
+    "options": [
+      "3 3/4",
+      "3 6/8",
+      "1 1/3",
+      "3 1/2",
+      "4"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(3\\dfrac{1}{2} = \\dfrac{7}{2}\\), \\(\\dfrac{1}{4} = \\dfrac{1}{4}\\). The LCD of 2 and 4 is 4. Rewrite: \\(\\dfrac{7}{2} = \\dfrac{14}{4}\\) and \\(\\dfrac{1}{4} = \\dfrac{1}{4}\\). Add: \\(\\dfrac{14}{4} + \\dfrac{1}{4} = \\dfrac{15}{4}\\). Simplified, this equals \\(3\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A unit road-marched \\(2\\dfrac{2}{3}\\) miles to the first checkpoint and \\(\\dfrac{1}{6}\\) of a mile to the second checkpoint. What is the total distance marched?",
+    "answer": "2 5/6",
+    "options": [
+      "2 5/6",
+      "2 10/12",
+      "1",
+      "2 2/3",
+      "3"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{2}{3} = \\dfrac{8}{3}\\), \\(\\dfrac{1}{6} = \\dfrac{1}{6}\\). The LCD of 3 and 6 is 6. Rewrite: \\(\\dfrac{8}{3} = \\dfrac{16}{6}\\) and \\(\\dfrac{1}{6} = \\dfrac{1}{6}\\). Add: \\(\\dfrac{16}{6} + \\dfrac{1}{6} = \\dfrac{17}{6}\\). Simplified, this equals \\(2\\dfrac{5}{6}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A squad received \\(4\\dfrac{3}{8}\\) liters of water in the morning resupply and \\(\\dfrac{3}{4}\\) of a liter in the evening resupply. How many total liters were received?",
+    "answer": "5 1/8",
+    "options": [
+      "5 1/8",
+      "5 2/16",
+      "3 1/6",
+      "4 3/4",
+      "4 1/8"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(4\\dfrac{3}{8} = \\dfrac{35}{8}\\), \\(\\dfrac{3}{4} = \\dfrac{3}{4}\\). The LCD of 8 and 4 is 8. Rewrite: \\(\\dfrac{35}{8} = \\dfrac{35}{8}\\) and \\(\\dfrac{3}{4} = \\dfrac{6}{8}\\). Add: \\(\\dfrac{35}{8} + \\dfrac{6}{8} = \\dfrac{41}{8}\\). Simplified, this equals \\(5\\dfrac{1}{8}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A mechanic spent \\(1\\dfrac{1}{2}\\) hours repairing one truck and \\(\\dfrac{5}{4}\\) hours repairing a second truck. How many total hours were spent on repairs?",
+    "answer": "2 3/4",
+    "options": [
+      "2 3/4",
+      "2 6/8",
+      "1 1/3",
+      "2 1/2",
+      "4"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\), \\(\\dfrac{5}{4} = \\dfrac{5}{4}\\). The LCD of 2 and 4 is 4. Rewrite: \\(\\dfrac{3}{2} = \\dfrac{6}{4}\\) and \\(\\dfrac{5}{4} = \\dfrac{5}{4}\\). Add: \\(\\dfrac{6}{4} + \\dfrac{5}{4} = \\dfrac{11}{4}\\). Simplified, this equals \\(2\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "Engineers spread \\(2\\dfrac{1}{4}\\) tons of gravel on one section of road and \\(\\dfrac{7}{2}\\) tons on another section. What is the total tonnage of gravel spread?",
+    "answer": "5 3/4",
+    "options": [
+      "5 3/4",
+      "5 6/8",
+      "2 2/3",
+      "4",
+      "4 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{1}{4} = \\dfrac{9}{4}\\), \\(\\dfrac{7}{2} = \\dfrac{7}{2}\\). The LCD of 4 and 2 is 4. Rewrite: \\(\\dfrac{9}{4} = \\dfrac{9}{4}\\) and \\(\\dfrac{7}{2} = \\dfrac{14}{4}\\). Add: \\(\\dfrac{9}{4} + \\dfrac{14}{4} = \\dfrac{23}{4}\\). Simplified, this equals \\(5\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A soldier ruck-marched \\(\\dfrac{1}{6}\\) of a mile on the first leg of a short route and \\(\\dfrac{1}{8}\\) of a mile on the second leg. How many total miles were marched?",
+    "answer": "7/24",
+    "options": [
+      "7/24",
+      "14/48",
+      "1/7",
+      "1/6",
+      "1/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 6 and 8 is 24. Rewrite: \\(\\dfrac{1}{6} = \\dfrac{4}{24}\\) and \\(\\dfrac{1}{8} = \\dfrac{3}{24}\\). Add: \\(\\dfrac{4}{24} + \\dfrac{3}{24} = \\dfrac{7}{24}\\). Simplified, this equals \\(\\dfrac{7}{24}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A mess team prepared \\(\\dfrac{5}{12}\\) of a batch of rice for one meal and \\(\\dfrac{1}{4}\\) of a batch for a second meal. What fraction of a batch was prepared in total?",
+    "answer": "2/3",
+    "options": [
+      "2/3",
+      "4/6",
+      "3/8",
+      "1/2",
+      "1 2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 12 and 4 is 12. Rewrite: \\(\\dfrac{5}{12} = \\dfrac{5}{12}\\) and \\(\\dfrac{1}{4} = \\dfrac{3}{12}\\). Add: \\(\\dfrac{5}{12} + \\dfrac{3}{12} = \\dfrac{8}{12}\\). Simplified, this equals \\(\\dfrac{2}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A generator was topped off with \\(\\dfrac{9}{4}\\) gallons of diesel, then later with \\(\\dfrac{1}{2}\\) of a gallon more. How many total gallons were added?",
+    "answer": "2 3/4",
+    "options": [
+      "2 3/4",
+      "2 6/8",
+      "1 2/3",
+      "2 1/2",
+      "1 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 4 and 2 is 4. Rewrite: \\(\\dfrac{9}{4} = \\dfrac{9}{4}\\) and \\(\\dfrac{1}{2} = \\dfrac{2}{4}\\). Add: \\(\\dfrac{9}{4} + \\dfrac{2}{4} = \\dfrac{11}{4}\\). Simplified, this equals \\(2\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A training exercise ran for \\(\\dfrac{7}{3}\\) hours on day one and \\(2\\dfrac{1}{6}\\) hours on day two. How many total hours did the exercise run?",
+    "answer": "4 1/2",
+    "options": [
+      "4 1/2",
+      "4 2/4",
+      "2 2/9",
+      "4 1/3",
+      "4 2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{7}{3} = \\dfrac{7}{3}\\), \\(2\\dfrac{1}{6} = \\dfrac{13}{6}\\). The LCD of 3 and 6 is 6. Rewrite: \\(\\dfrac{7}{3} = \\dfrac{14}{6}\\) and \\(\\dfrac{13}{6} = \\dfrac{13}{6}\\). Add: \\(\\dfrac{14}{6} + \\dfrac{13}{6} = \\dfrac{27}{6}\\). Simplified, this equals \\(4\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A convoy traveled \\(\\dfrac{3}{10}\\) of its route before a refuel stop and \\(\\dfrac{2}{5}\\) of its route after the stop. What fraction of the route, in total, was traveled?",
+    "answer": "7/10",
+    "options": [
+      "7/10",
+      "14/20",
+      "1/3",
+      "1/2",
+      "1 7/10"
+    ],
+    "definition": "\\(\\textbf{Concept: Adding fractions.}\\) The LCD of 10 and 5 is 10. Rewrite: \\(\\dfrac{3}{10} = \\dfrac{3}{10}\\) and \\(\\dfrac{2}{5} = \\dfrac{4}{10}\\). Add: \\(\\dfrac{3}{10} + \\dfrac{4}{10} = \\dfrac{7}{10}\\). Simplified, this equals \\(\\dfrac{7}{10}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A fuel truck started a mission with \\(5\\dfrac{1}{4}\\) tons of fuel. During the mission, \\(2\\dfrac{3}{4}\\) tons of fuel were used. How many tons of fuel remain?",
+    "answer": "2 1/2",
+    "options": [
+      "2 1/2",
+      "2 2/4",
+      "3 1/2",
+      "1 1/2",
+      "2 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Since \\(\\dfrac{1}{4} < \\dfrac{3}{4}\\), borrow 1 from 5: \\(5\\dfrac{1}{4} = 4\\dfrac{5}{4}\\). Subtract: \\(4\\dfrac{5}{4} - 2\\dfrac{3}{4} = 2\\dfrac{2}{4}\\). Simplified, this equals \\(2\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A platoon was assigned a route totaling \\(6\\dfrac{1}{3}\\) miles. So far the platoon has marched \\(2\\dfrac{2}{3}\\) miles. How many miles remain on the route?",
+    "answer": "3 2/3",
+    "options": [
+      "3 2/3",
+      "3 4/6",
+      "4 1/3",
+      "4 2/3",
+      "2 2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Since \\(\\dfrac{1}{3} < \\dfrac{2}{3}\\), borrow 1 from 6: \\(6\\dfrac{1}{3} = 5\\dfrac{4}{3}\\). Subtract: \\(5\\dfrac{4}{3} - 2\\dfrac{2}{3} = 3\\dfrac{2}{3}\\). Simplified, this equals \\(3\\dfrac{2}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A supply point had \\(4\\dfrac{1}{5}\\) pallets of bottled water in stock. \\(1\\dfrac{3}{5}\\) pallets were issued to units in the field. How many pallets remain in stock?",
+    "answer": "2 3/5",
+    "options": [
+      "2 3/5",
+      "2 6/10",
+      "3 2/5",
+      "3 3/5",
+      "1 3/5"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Since \\(\\dfrac{1}{5} < \\dfrac{3}{5}\\), borrow 1 from 4: \\(4\\dfrac{1}{5} = 3\\dfrac{6}{5}\\). Subtract: \\(3\\dfrac{6}{5} - 1\\dfrac{3}{5} = 2\\dfrac{3}{5}\\). Simplified, this equals \\(2\\dfrac{3}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A convoy's movement was scheduled to take \\(7\\dfrac{1}{6}\\) hours. The convoy has been driving for \\(3\\dfrac{5}{6}\\) hours so far. How many hours of driving remain?",
+    "answer": "3 1/3",
+    "options": [
+      "3 1/3",
+      "3 2/6",
+      "4 2/3",
+      "4 1/3",
+      "2 1/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Since \\(\\dfrac{1}{6} < \\dfrac{5}{6}\\), borrow 1 from 7: \\(7\\dfrac{1}{6} = 6\\dfrac{7}{6}\\). Subtract: \\(6\\dfrac{7}{6} - 3\\dfrac{5}{6} = 3\\dfrac{2}{6}\\). Simplified, this equals \\(3\\dfrac{1}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier packed \\(3\\dfrac{1}{8}\\) pounds of rations for a patrol. By the halfway point, \\(1\\dfrac{5}{8}\\) pounds had been eaten. How many pounds of rations remain?",
+    "answer": "1 1/2",
+    "options": [
+      "1 1/2",
+      "1 2/4",
+      "2 1/2",
+      "1/2",
+      "1 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Since \\(\\dfrac{1}{8} < \\dfrac{5}{8}\\), borrow 1 from 3: \\(3\\dfrac{1}{8} = 2\\dfrac{9}{8}\\). Subtract: \\(2\\dfrac{9}{8} - 1\\dfrac{5}{8} = 1\\dfrac{4}{8}\\). Simplified, this equals \\(1\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A fuel bladder was filled with \\(8\\dfrac{2}{5}\\) gallons of diesel. \\(3\\dfrac{4}{5}\\) gallons were drawn off to fuel vehicles. How many gallons remain in the bladder?",
+    "answer": "4 3/5",
+    "options": [
+      "4 3/5",
+      "4 6/10",
+      "5 2/5",
+      "5 3/5",
+      "3 3/5"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Since \\(\\dfrac{2}{5} < \\dfrac{4}{5}\\), borrow 1 from 8: \\(8\\dfrac{2}{5} = 7\\dfrac{7}{5}\\). Subtract: \\(7\\dfrac{7}{5} - 3\\dfrac{4}{5} = 4\\dfrac{3}{5}\\). Simplified, this equals \\(4\\dfrac{3}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A defensive position was allotted \\(5\\dfrac{3}{10}\\) tons of sandbags. \\(2\\dfrac{7}{10}\\) tons have already been filled and placed. How many tons of sandbags remain?",
+    "answer": "2 3/5",
+    "options": [
+      "2 3/5",
+      "2 6/10",
+      "3 2/5",
+      "3 3/5",
+      "1 3/5"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Since \\(\\dfrac{3}{10} < \\dfrac{7}{10}\\), borrow 1 from 5: \\(5\\dfrac{3}{10} = 4\\dfrac{13}{10}\\). Subtract: \\(4\\dfrac{13}{10} - 2\\dfrac{7}{10} = 2\\dfrac{6}{10}\\). Simplified, this equals \\(2\\dfrac{3}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A guard rotation was scheduled for \\(6\\dfrac{1}{4}\\) hours. \\(4\\dfrac{3}{4}\\) hours have already been completed. How many hours of the rotation remain?",
+    "answer": "1 1/2",
+    "options": [
+      "1 1/2",
+      "1 2/4",
+      "2 1/2",
+      "1/2",
+      "1 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Since \\(\\dfrac{1}{4} < \\dfrac{3}{4}\\), borrow 1 from 6: \\(6\\dfrac{1}{4} = 5\\dfrac{5}{4}\\). Subtract: \\(5\\dfrac{5}{4} - 4\\dfrac{3}{4} = 1\\dfrac{2}{4}\\). Simplified, this equals \\(1\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A unit planned a road march of \\(9\\dfrac{1}{6}\\) miles. After the first day, \\(5\\dfrac{1}{2}\\) miles had been covered. How many miles remain?",
+    "answer": "3 2/3",
+    "options": [
+      "3 2/3",
+      "3 4/6",
+      "4 1/3",
+      "4",
+      "4 2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Common denominator is 6: \\(9\\dfrac{1}{6}\\) and \\(5\\dfrac{3}{6}\\). Since \\(\\dfrac{1}{6} < \\dfrac{3}{6}\\), borrow 1 from 9: \\(9\\dfrac{1}{6} = 8\\dfrac{7}{6}\\). Subtract: \\(8\\dfrac{7}{6} - 5\\dfrac{3}{6} = 3\\dfrac{4}{6}\\). Simplified, this equals \\(3\\dfrac{2}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A squad was issued \\(4\\dfrac{1}{3}\\) liters of water for a training exercise. \\(2\\dfrac{5}{6}\\) liters have been consumed. How many liters remain?",
+    "answer": "1 1/2",
+    "options": [
+      "1 1/2",
+      "1 2/4",
+      "2 1/2",
+      "2/3",
+      "1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Common denominator is 6: \\(4\\dfrac{2}{6}\\) and \\(2\\dfrac{5}{6}\\). Since \\(\\dfrac{2}{6} < \\dfrac{5}{6}\\), borrow 1 from 4: \\(4\\dfrac{2}{6} = 3\\dfrac{8}{6}\\). Subtract: \\(3\\dfrac{8}{6} - 2\\dfrac{5}{6} = 1\\dfrac{3}{6}\\). Simplified, this equals \\(1\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "An ammunition point held \\(10\\dfrac{1}{4}\\) tons of ordnance. \\(6\\dfrac{1}{2}\\) tons were shipped out to forward units. How many tons remain?",
+    "answer": "3 3/4",
+    "options": [
+      "3 3/4",
+      "3 6/8",
+      "4 1/4",
+      "4",
+      "4 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Common denominator is 4: \\(10\\dfrac{1}{4}\\) and \\(6\\dfrac{2}{4}\\). Since \\(\\dfrac{1}{4} < \\dfrac{2}{4}\\), borrow 1 from 10: \\(10\\dfrac{1}{4} = 9\\dfrac{5}{4}\\). Subtract: \\(9\\dfrac{5}{4} - 6\\dfrac{2}{4} = 3\\dfrac{3}{4}\\). Simplified, this equals \\(3\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A helicopter crew was tasked with \\(3\\dfrac{1}{10}\\) hours of flight time. \\(1\\dfrac{3}{5}\\) hours have already been flown. How many hours remain?",
+    "answer": "1 1/2",
+    "options": [
+      "1 1/2",
+      "1 2/4",
+      "2 1/2",
+      "1 4/5",
+      "1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Common denominator is 10: \\(3\\dfrac{1}{10}\\) and \\(1\\dfrac{6}{10}\\). Since \\(\\dfrac{1}{10} < \\dfrac{6}{10}\\), borrow 1 from 3: \\(3\\dfrac{1}{10} = 2\\dfrac{11}{10}\\). Subtract: \\(2\\dfrac{11}{10} - 1\\dfrac{6}{10} = 1\\dfrac{5}{10}\\). Simplified, this equals \\(1\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A medical team stocked \\(5\\dfrac{2}{9}\\) pounds of supplies for a field hospital. \\(2\\dfrac{5}{9}\\) pounds have been used treating patients. How many pounds remain?",
+    "answer": "2 2/3",
+    "options": [
+      "2 2/3",
+      "2 4/6",
+      "3 1/3",
+      "3 2/3",
+      "1 2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers with borrowing.}\\) Since \\(\\dfrac{2}{9} < \\dfrac{5}{9}\\), borrow 1 from 5: \\(5\\dfrac{2}{9} = 4\\dfrac{11}{9}\\). Subtract: \\(4\\dfrac{11}{9} - 2\\dfrac{5}{9} = 2\\dfrac{6}{9}\\). Simplified, this equals \\(2\\dfrac{2}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "One platoon marched \\(5\\dfrac{3}{4}\\) miles during a training exercise while a second platoon marched \\(2\\dfrac{1}{4}\\) miles. How many more miles did the first platoon march?",
+    "answer": "3 1/2",
+    "options": [
+      "3 1/2",
+      "3 2/4",
+      "4 1/2",
+      "2 1/2",
+      "3 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers.}\\) Subtract whole numbers and fractions separately: \\(5-2 = 3\\), \\(\\dfrac{3}{4} - \\dfrac{1}{4} = \\dfrac{2}{4}\\). Simplified, this equals \\(3\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A radio operator was on watch for \\(7\\dfrac{5}{6}\\) hours while a relief operator worked only \\(3\\dfrac{1}{6}\\) hours. How many more hours did the first operator work?",
+    "answer": "4 2/3",
+    "options": [
+      "4 2/3",
+      "4 4/6",
+      "5 2/3",
+      "3 2/3",
+      "3 1/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers.}\\) Subtract whole numbers and fractions separately: \\(7-3 = 4\\), \\(\\dfrac{5}{6} - \\dfrac{1}{6} = \\dfrac{4}{6}\\). Simplified, this equals \\(4\\dfrac{2}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A jerry can held \\(4\\dfrac{3}{5}\\) gallons of fuel. \\(\\dfrac{1}{5}\\) of a gallon was poured out to top off a vehicle. How many gallons remain in the can?",
+    "answer": "4 2/5",
+    "options": [
+      "4 2/5",
+      "4 4/10",
+      "5 2/5",
+      "3 2/5",
+      "3 3/5"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers.}\\) Subtract whole numbers and fractions separately: \\(4-0 = 4\\), \\(\\dfrac{3}{5} - \\dfrac{1}{5} = \\dfrac{2}{5}\\). Simplified, this equals \\(4\\dfrac{2}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A rucksack weighed \\(6\\dfrac{7}{8}\\) pounds before inspection. \\(\\dfrac{3}{8}\\) of a pound of gear was removed. How much does the rucksack weigh now?",
+    "answer": "6 1/2",
+    "options": [
+      "6 1/2",
+      "6 2/4",
+      "7 1/2",
+      "5 1/2",
+      "6 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers.}\\) Subtract whole numbers and fractions separately: \\(6-0 = 6\\), \\(\\dfrac{7}{8} - \\dfrac{3}{8} = \\dfrac{4}{8}\\). Simplified, this equals \\(6\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A recruit completed \\(\\dfrac{3}{4}\\) of an obstacle course before a break, while a squad-mate completed only \\(\\dfrac{1}{3}\\) of it in the same time. What fraction more of the course did the first recruit complete?",
+    "answer": "5/12",
+    "options": [
+      "5/12",
+      "10/24",
+      "1/2",
+      "1 5/12",
+      "2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting fractions.}\\) Common denominator is 12: \\(\\dfrac{9}{12}\\) and \\(\\dfrac{4}{12}\\). Subtract the numerators: \\(\\dfrac{9}{12} - \\dfrac{4}{12} = \\dfrac{5}{12}\\). Simplified, this equals \\(\\dfrac{5}{12}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A fuel tank started a mission at \\(\\dfrac{5}{6}\\) of its capacity. During the mission, an amount equal to \\(\\dfrac{1}{4}\\) of the tank's capacity was used. What fraction of the tank's capacity remains?",
+    "answer": "7/12",
+    "options": [
+      "7/12",
+      "14/24",
+      "2/3",
+      "1 7/12",
+      "5/6"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting fractions.}\\) Common denominator is 12: \\(\\dfrac{10}{12}\\) and \\(\\dfrac{3}{12}\\). Subtract the numerators: \\(\\dfrac{10}{12} - \\dfrac{3}{12} = \\dfrac{7}{12}\\). Simplified, this equals \\(\\dfrac{7}{12}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A patrol advanced \\(\\dfrac{9}{4}\\) miles along a route. It then had to backtrack \\(\\dfrac{1}{2}\\) of a mile to retrieve equipment. How many net miles did the patrol advance?",
+    "answer": "1 3/4",
+    "options": [
+      "1 3/4",
+      "1 6/8",
+      "2",
+      "2 3/4",
+      "3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting fractions.}\\) Convert to improper fractions: \\(\\dfrac{9}{4} = \\dfrac{9}{4}\\), \\(\\dfrac{1}{2} = \\dfrac{1}{2}\\). The LCD of 4 and 2 is 4. Rewrite: \\(\\dfrac{9}{4} = \\dfrac{9}{4}\\) and \\(\\dfrac{1}{2} = \\dfrac{2}{4}\\). Subtract: \\(\\dfrac{9}{4} - \\dfrac{2}{4} = \\dfrac{7}{4}\\). Simplified, this equals \\(1\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A supply point had \\(\\dfrac{11}{3}\\) tons of gravel delivered. \\(\\dfrac{5}{3}\\) tons were used for a road repair. How many tons of gravel remain?",
+    "answer": "2",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "2 1/4",
+      "2 1/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting fractions.}\\) Convert to improper fractions: \\(\\dfrac{11}{3} = \\dfrac{11}{3}\\), \\(\\dfrac{5}{3} = \\dfrac{5}{3}\\). Subtract the numerators: \\(\\dfrac{11}{3} - \\dfrac{5}{3} = \\dfrac{6}{3}\\). Simplified, this equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A radar system operated for \\(\\dfrac{13}{4}\\) hours total. It was down for maintenance for \\(1\\dfrac{1}{2}\\) hours of that time. How many hours was the radar actually operating?",
+    "answer": "1 3/4",
+    "options": [
+      "1 3/4",
+      "1 6/8",
+      "2",
+      "2 3/4",
+      "3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{13}{4} = \\dfrac{13}{4}\\), \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\). The LCD of 4 and 2 is 4. Rewrite: \\(\\dfrac{13}{4} = \\dfrac{13}{4}\\) and \\(\\dfrac{3}{2} = \\dfrac{6}{4}\\). Subtract: \\(\\dfrac{13}{4} - \\dfrac{6}{4} = \\dfrac{7}{4}\\). Simplified, this equals \\(1\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A patrol advanced \\(5\\dfrac{1}{2}\\) miles, then had to retreat \\(\\dfrac{7}{4}\\) miles to avoid an obstacle. How many net miles did the patrol advance?",
+    "answer": "3 3/4",
+    "options": [
+      "3 3/4",
+      "3 6/8",
+      "2",
+      "4 3/4",
+      "2 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers.}\\) Convert to improper fractions: \\(5\\dfrac{1}{2} = \\dfrac{11}{2}\\), \\(\\dfrac{7}{4} = \\dfrac{7}{4}\\). The LCD of 2 and 4 is 4. Rewrite: \\(\\dfrac{11}{2} = \\dfrac{22}{4}\\) and \\(\\dfrac{7}{4} = \\dfrac{7}{4}\\). Subtract: \\(\\dfrac{22}{4} - \\dfrac{7}{4} = \\dfrac{15}{4}\\). Simplified, this equals \\(3\\dfrac{3}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A cargo truck is loaded to \\(\\dfrac{7}{10}\\) of its weight capacity. \\(\\dfrac{3}{10}\\) of its capacity is then offloaded at a checkpoint. What fraction of the truck's capacity remains loaded?",
+    "answer": "2/5",
+    "options": [
+      "2/5",
+      "4/10",
+      "1 2/5",
+      "13/20",
+      "11/15"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting fractions.}\\) Subtract the numerators: \\(\\dfrac{7}{10} - \\dfrac{3}{10} = \\dfrac{4}{10}\\). Simplified, this equals \\(\\dfrac{2}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "An ammo supply point received \\(9\\dfrac{5}{8}\\) tons of ordnance. \\(4\\dfrac{1}{8}\\) tons were issued to units. How many tons remain at the supply point?",
+    "answer": "5 1/2",
+    "options": [
+      "5 1/2",
+      "5 2/4",
+      "6 1/2",
+      "4 1/2",
+      "5 3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Subtracting mixed numbers.}\\) Subtract whole numbers and fractions separately: \\(9-4 = 5\\), \\(\\dfrac{5}{8} - \\dfrac{1}{8} = \\dfrac{4}{8}\\). Simplified, this equals \\(5\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A vehicle uses \\(\\dfrac{1}{2}\\) of a gallon of fuel per mile. How many gallons are used to travel \\(\\dfrac{3}{4}\\) of a mile?",
+    "answer": "3/8",
+    "options": [
+      "3/8",
+      "6/16",
+      "1 1/4",
+      "2/3",
+      "7/8"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying fractions.}\\) Multiply numerators and denominators: \\(\\dfrac{1}{2} \\times \\dfrac{3}{4} = \\dfrac{3}{8}\\). This equals \\(\\dfrac{3}{8}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier can dig \\(\\dfrac{2}{3}\\) of a foxhole per hour. How much of the foxhole is dug in \\(\\dfrac{3}{5}\\) of an hour?",
+    "answer": "2/5",
+    "options": [
+      "2/5",
+      "4/10",
+      "1 4/15",
+      "1 1/9",
+      "9/10"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying fractions.}\\) Multiply numerators and denominators: \\(\\dfrac{2}{3} \\times \\dfrac{3}{5} = \\dfrac{6}{15}\\). Simplify by dividing top and bottom by 3: \\(\\dfrac{2}{5}\\). This equals \\(\\dfrac{2}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A ration pack provides \\(\\dfrac{3}{4}\\) of a soldier's daily calories. If a soldier eats \\(\\dfrac{2}{9}\\) of the ration pack, what fraction of daily calories were obtained?",
+    "answer": "1/6",
+    "options": [
+      "1/6",
+      "2/12",
+      "35/36",
+      "3 3/8",
+      "2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying fractions.}\\) Multiply numerators and denominators: \\(\\dfrac{3}{4} \\times \\dfrac{2}{9} = \\dfrac{6}{36}\\). Simplify by dividing top and bottom by 6: \\(\\dfrac{1}{6}\\). This equals \\(\\dfrac{1}{6}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A fuel truck can fill \\(\\dfrac{5}{6}\\) of a tank per stop. How much of the tank is filled if the truck completes only \\(\\dfrac{3}{10}\\) of a stop?",
+    "answer": "1/4",
+    "options": [
+      "1/4",
+      "2/8",
+      "1 2/15",
+      "2 7/9",
+      "3/4"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying fractions.}\\) Multiply numerators and denominators: \\(\\dfrac{5}{6} \\times \\dfrac{3}{10} = \\dfrac{15}{60}\\). Simplify by dividing top and bottom by 15: \\(\\dfrac{1}{4}\\). This equals \\(\\dfrac{1}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A platoon can clear \\(\\dfrac{4}{9}\\) of a minefield per day. How much of the minefield is cleared in \\(\\dfrac{3}{8}\\) of a day?",
+    "answer": "1/6",
+    "options": [
+      "1/6",
+      "2/12",
+      "59/72",
+      "1 5/27",
+      "2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying fractions.}\\) Multiply numerators and denominators: \\(\\dfrac{4}{9} \\times \\dfrac{3}{8} = \\dfrac{12}{72}\\). Simplify by dividing top and bottom by 12: \\(\\dfrac{1}{6}\\). This equals \\(\\dfrac{1}{6}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A generator burns \\(\\dfrac{2}{3}\\) of a gallon of fuel per hour. How many gallons are burned in \\(1\\dfrac{1}{2}\\) hours?",
+    "answer": "1",
+    "options": [
+      "1",
+      "2 1/6",
+      "1/3",
+      "4/9",
+      "1 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{2}{3} = \\dfrac{2}{3}\\), \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\). Multiply numerators and denominators: \\(\\dfrac{2}{3} \\times \\dfrac{3}{2} = \\dfrac{6}{6}\\). Simplify by dividing top and bottom by 6: \\(\\dfrac{1}{1}\\). This equals \\(1\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A soldier drinks \\(\\dfrac{3}{5}\\) of a canteen per hour during a hike. How many canteens are consumed in \\(2\\dfrac{1}{2}\\) hours?",
+    "answer": "1 1/2",
+    "options": [
+      "1 1/2",
+      "1 2/4",
+      "3 1/10",
+      "3/10",
+      "6/25"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{3}{5} = \\dfrac{3}{5}\\), \\(2\\dfrac{1}{2} = \\dfrac{5}{2}\\). Multiply numerators and denominators: \\(\\dfrac{3}{5} \\times \\dfrac{5}{2} = \\dfrac{15}{10}\\). Simplify by dividing top and bottom by 5: \\(\\dfrac{3}{2}\\). This equals \\(1\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A water pump fills \\(\\dfrac{5}{8}\\) of a tank per hour. How much of the tank is filled in \\(1\\dfrac{3}{5}\\) hours?",
+    "answer": "1",
+    "options": [
+      "1",
+      "2 9/40",
+      "3/8",
+      "25/64",
+      "1 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{5}{8} = \\dfrac{5}{8}\\), \\(1\\dfrac{3}{5} = \\dfrac{8}{5}\\). Multiply numerators and denominators: \\(\\dfrac{5}{8} \\times \\dfrac{8}{5} = \\dfrac{40}{40}\\). Simplify by dividing top and bottom by 40: \\(\\dfrac{1}{1}\\). This equals \\(1\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A soldier eats \\(\\dfrac{1}{4}\\) of an MRE per meal period. How many MREs are eaten over \\(3\\dfrac{1}{3}\\) meal periods?",
+    "answer": "5/6",
+    "options": [
+      "5/6",
+      "10/12",
+      "3 7/12",
+      "1/12",
+      "3/40"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{1}{4} = \\dfrac{1}{4}\\), \\(3\\dfrac{1}{3} = \\dfrac{10}{3}\\). Multiply numerators and denominators: \\(\\dfrac{1}{4} \\times \\dfrac{10}{3} = \\dfrac{10}{12}\\). Simplify by dividing top and bottom by 2: \\(\\dfrac{5}{6}\\). This equals \\(\\dfrac{5}{6}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A truck uses \\(\\dfrac{2}{5}\\) of a tank of fuel per hour of driving. How much fuel is used in \\(4\\dfrac{1}{2}\\) hours?",
+    "answer": "1 4/5",
+    "options": [
+      "1 4/5",
+      "1 8/10",
+      "4 9/10",
+      "1/5",
+      "4/45"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{2}{5} = \\dfrac{2}{5}\\), \\(4\\dfrac{1}{2} = \\dfrac{9}{2}\\). Multiply numerators and denominators: \\(\\dfrac{2}{5} \\times \\dfrac{9}{2} = \\dfrac{18}{10}\\). Simplify by dividing top and bottom by 2: \\(\\dfrac{9}{5}\\). This equals \\(1\\dfrac{4}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A convoy moves at an effective pace of \\(1\\dfrac{1}{2}\\) miles per hour through rough terrain. How far does it travel in \\(2\\dfrac{1}{3}\\) hours?",
+    "answer": "3 1/2",
+    "options": [
+      "3 1/2",
+      "3 2/4",
+      "3 5/6",
+      "2 1/6",
+      "9/14"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\), \\(2\\dfrac{1}{3} = \\dfrac{7}{3}\\). Multiply numerators and denominators: \\(\\dfrac{3}{2} \\times \\dfrac{7}{3} = \\dfrac{21}{6}\\). Simplify by dividing top and bottom by 3: \\(\\dfrac{7}{2}\\). This equals \\(3\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier can fill \\(2\\dfrac{1}{4}\\) sandbags per minute. How many sandbags are filled in \\(1\\dfrac{1}{3}\\) minutes?",
+    "answer": "3",
+    "options": [
+      "3",
+      "3 7/12",
+      "2 1/12",
+      "1 11/16",
+      "3 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{1}{4} = \\dfrac{9}{4}\\), \\(1\\dfrac{1}{3} = \\dfrac{4}{3}\\). Multiply numerators and denominators: \\(\\dfrac{9}{4} \\times \\dfrac{4}{3} = \\dfrac{36}{12}\\). Simplify by dividing top and bottom by 12: \\(\\dfrac{3}{1}\\). This equals \\(3\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A pump moves \\(1\\dfrac{1}{5}\\) gallons of water per minute. How many gallons are moved in \\(2\\dfrac{1}{2}\\) minutes?",
+    "answer": "3",
+    "options": [
+      "3",
+      "3 7/10",
+      "2 1/10",
+      "12/25",
+      "3 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(1\\dfrac{1}{5} = \\dfrac{6}{5}\\), \\(2\\dfrac{1}{2} = \\dfrac{5}{2}\\). Multiply numerators and denominators: \\(\\dfrac{6}{5} \\times \\dfrac{5}{2} = \\dfrac{30}{10}\\). Simplify by dividing top and bottom by 10: \\(\\dfrac{3}{1}\\). This equals \\(3\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A cable team lays \\(3\\dfrac{1}{3}\\) miles of wire per hour. How much cable is laid in \\(1\\dfrac{1}{5}\\) hours?",
+    "answer": "4",
+    "options": [
+      "4",
+      "4 8/15",
+      "3 1/15",
+      "2 7/9",
+      "4 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(3\\dfrac{1}{3} = \\dfrac{10}{3}\\), \\(1\\dfrac{1}{5} = \\dfrac{6}{5}\\). Multiply numerators and denominators: \\(\\dfrac{10}{3} \\times \\dfrac{6}{5} = \\dfrac{60}{15}\\). Simplify by dividing top and bottom by 15: \\(\\dfrac{4}{1}\\). This equals \\(4\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A team builds \\(2\\dfrac{2}{3}\\) yards of fighting position per hour. How many yards are built in \\(1\\dfrac{1}{4}\\) hours?",
+    "answer": "3 1/3",
+    "options": [
+      "3 1/3",
+      "3 2/6",
+      "3 11/12",
+      "2 1/6",
+      "2 2/15"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{2}{3} = \\dfrac{8}{3}\\), \\(1\\dfrac{1}{4} = \\dfrac{5}{4}\\). Multiply numerators and denominators: \\(\\dfrac{8}{3} \\times \\dfrac{5}{4} = \\dfrac{40}{12}\\). Simplify by dividing top and bottom by 4: \\(\\dfrac{10}{3}\\). This equals \\(3\\dfrac{1}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A vehicle burns \\(1\\dfrac{3}{4}\\) gallons of fuel per hour at idle. How many gallons are burned over \\(2\\dfrac{2}{5}\\) hours?",
+    "answer": "4 1/5",
+    "options": [
+      "4 1/5",
+      "4 2/10",
+      "4 3/20",
+      "2 3/10",
+      "35/48"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(1\\dfrac{3}{4} = \\dfrac{7}{4}\\), \\(2\\dfrac{2}{5} = \\dfrac{12}{5}\\). Multiply numerators and denominators: \\(\\dfrac{7}{4} \\times \\dfrac{12}{5} = \\dfrac{84}{20}\\). Simplify by dividing top and bottom by 4: \\(\\dfrac{21}{5}\\). This equals \\(4\\dfrac{1}{5}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A patrol boat travels at \\(2\\dfrac{1}{2}\\) knots average speed. How far does it travel in \\(2\\dfrac{1}{2}\\) hours?",
+    "answer": "6 1/4",
+    "options": [
+      "6 1/4",
+      "6 2/8",
+      "5",
+      "4 1/4",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{1}{2} = \\dfrac{5}{2}\\), \\(2\\dfrac{1}{2} = \\dfrac{5}{2}\\). Multiply numerators and denominators: \\(\\dfrac{5}{2} \\times \\dfrac{5}{2} = \\dfrac{25}{4}\\). This equals \\(6\\dfrac{1}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A generator consumes \\(1\\dfrac{1}{2}\\) gallons of fuel per hour. How many gallons are consumed in \\(1\\dfrac{1}{2}\\) hours?",
+    "answer": "2 1/4",
+    "options": [
+      "2 1/4",
+      "2 2/8",
+      "3",
+      "1 1/4",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\), \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\). Multiply numerators and denominators: \\(\\dfrac{3}{2} \\times \\dfrac{3}{2} = \\dfrac{9}{4}\\). This equals \\(2\\dfrac{1}{4}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A supply point has \\(\\dfrac{7}{4}\\) of a truckload of ammunition. If \\(\\dfrac{2}{7}\\) of that amount is issued, what fraction of a truckload was issued?",
+    "answer": "1/2",
+    "options": [
+      "1/2",
+      "2/4",
+      "2 1/28",
+      "6 1/8",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying fractions.}\\) Multiply numerators and denominators: \\(\\dfrac{7}{4} \\times \\dfrac{2}{7} = \\dfrac{14}{28}\\). Simplify by dividing top and bottom by 14: \\(\\dfrac{1}{2}\\). This equals \\(\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A reservoir is filled to \\(\\dfrac{5}{3}\\) of capacity, expressed relative to a full truck tank. \\(\\dfrac{3}{10}\\) of that water is used for a field shower point. What fraction of the reservoir's capacity was used?",
+    "answer": "1/2",
+    "options": [
+      "1/2",
+      "2/4",
+      "1 29/30",
+      "5 5/9",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying fractions.}\\) Multiply numerators and denominators: \\(\\dfrac{5}{3} \\times \\dfrac{3}{10} = \\dfrac{15}{30}\\). Simplify by dividing top and bottom by 15: \\(\\dfrac{1}{2}\\). This equals \\(\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A vehicle travels \\(\\dfrac{9}{4}\\) miles per hour on a supply route. How far does it travel in \\(1\\dfrac{1}{3}\\) hours?",
+    "answer": "3",
+    "options": [
+      "3",
+      "3 7/12",
+      "3/4",
+      "1 11/16",
+      "3 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{9}{4} = \\dfrac{9}{4}\\), \\(1\\dfrac{1}{3} = \\dfrac{4}{3}\\). Multiply numerators and denominators: \\(\\dfrac{9}{4} \\times \\dfrac{4}{3} = \\dfrac{36}{12}\\). Simplify by dividing top and bottom by 12: \\(\\dfrac{3}{1}\\). This equals \\(3\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A minefield has \\(\\dfrac{3}{2}\\) of its total area mapped by a reconnaissance team, relative to a full sector. Of the mapped area, \\(\\dfrac{4}{9}\\) has been cleared. What fraction of the total minefield has been cleared?",
+    "answer": "2/3",
+    "options": [
+      "2/3",
+      "4/6",
+      "1 17/18",
+      "3 3/8",
+      "1 1/6"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying fractions.}\\) Multiply numerators and denominators: \\(\\dfrac{3}{2} \\times \\dfrac{4}{9} = \\dfrac{12}{18}\\). Simplify by dividing top and bottom by 6: \\(\\dfrac{2}{3}\\). This equals \\(\\dfrac{2}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A defensive perimeter is \\(\\dfrac{7}{12}\\) complete. Of the completed portion, \\(\\dfrac{4}{7}\\) has been inspected. What fraction of the total perimeter has been inspected?",
+    "answer": "1/3",
+    "options": [
+      "1/3",
+      "2/6",
+      "1 13/84",
+      "1 1/48",
+      "5/6"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying fractions.}\\) Multiply numerators and denominators: \\(\\dfrac{7}{12} \\times \\dfrac{4}{7} = \\dfrac{28}{84}\\). Simplify by dividing top and bottom by 28: \\(\\dfrac{1}{3}\\). This equals \\(\\dfrac{1}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A vehicle travels \\(3\\dfrac{1}{3}\\) miles per hour. How far does it travel in \\(\\dfrac{3}{5}\\) of an hour?",
+    "answer": "2",
+    "options": [
+      "2",
+      "3 14/15",
+      "1/5",
+      "5 5/9",
+      "2 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(3\\dfrac{1}{3} = \\dfrac{10}{3}\\), \\(\\dfrac{3}{5} = \\dfrac{3}{5}\\). Multiply numerators and denominators: \\(\\dfrac{10}{3} \\times \\dfrac{3}{5} = \\dfrac{30}{15}\\). Simplify by dividing top and bottom by 15: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A supply point has \\(4\\dfrac{1}{2}\\) tons of grain. \\(\\dfrac{2}{9}\\) of that grain is set aside for a nearby unit. How many tons are set aside?",
+    "answer": "1",
+    "options": [
+      "1",
+      "4 13/18",
+      "1/9",
+      "20 1/4",
+      "1 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Multiplying mixed numbers.}\\) Convert to improper fractions: \\(4\\dfrac{1}{2} = \\dfrac{9}{2}\\), \\(\\dfrac{2}{9} = \\dfrac{2}{9}\\). Multiply numerators and denominators: \\(\\dfrac{9}{2} \\times \\dfrac{2}{9} = \\dfrac{18}{18}\\). Simplify by dividing top and bottom by 18: \\(\\dfrac{1}{1}\\). This equals \\(1\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A canteen holds \\(\\dfrac{1}{2}\\) of a gallon. If each soldier is given \\(\\dfrac{1}{4}\\) of a gallon, how many soldiers can be served from one canteen?",
+    "answer": "2",
+    "options": [
+      "2",
+      "1/8",
+      "1/2",
+      "3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing fractions.}\\) Multiply by the reciprocal of the second fraction: \\(\\dfrac{1}{2} \\times \\dfrac{4}{1} = \\dfrac{4}{2}\\). Simplify by dividing top and bottom by 2: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A supply crate holds \\(\\dfrac{3}{4}\\) of a ton of gear. If each pallet can carry \\(\\dfrac{1}{2}\\) of a ton, how many pallets are needed?",
+    "answer": "1 1/2",
+    "options": [
+      "1 1/2",
+      "1 2/4",
+      "3/8",
+      "2/3",
+      "2 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing fractions.}\\) Multiply by the reciprocal of the second fraction: \\(\\dfrac{3}{4} \\times \\dfrac{2}{1} = \\dfrac{6}{4}\\). Simplify by dividing top and bottom by 2: \\(\\dfrac{3}{2}\\). This equals \\(1\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A water tank is \\(\\dfrac{2}{3}\\) full. Each squad's ration uses \\(\\dfrac{4}{9}\\) of a full tank. How many squad rations can be issued?",
+    "answer": "1 1/2",
+    "options": [
+      "1 1/2",
+      "1 2/4",
+      "8/27",
+      "2/3",
+      "2 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing fractions.}\\) Multiply by the reciprocal of the second fraction: \\(\\dfrac{2}{3} \\times \\dfrac{9}{4} = \\dfrac{18}{12}\\). Simplify by dividing top and bottom by 6: \\(\\dfrac{3}{2}\\). This equals \\(1\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A fuel drum holds \\(\\dfrac{5}{6}\\) of a full load. Each generator needs \\(\\dfrac{5}{12}\\) of a full load to run for a day. How many generators can run for a day?",
+    "answer": "2",
+    "options": [
+      "2",
+      "25/72",
+      "1/2",
+      "3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing fractions.}\\) Multiply by the reciprocal of the second fraction: \\(\\dfrac{5}{6} \\times \\dfrac{12}{5} = \\dfrac{60}{30}\\). Simplify by dividing top and bottom by 30: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A medic has \\(\\dfrac{3}{8}\\) of a first-aid kit's supplies left. Treating one soldier uses \\(\\dfrac{9}{16}\\) of a full kit's supplies. How many soldiers can be treated?",
+    "answer": "2/3",
+    "options": [
+      "2/3",
+      "4/6",
+      "27/128",
+      "1 1/2",
+      "1 2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing fractions.}\\) Multiply by the reciprocal of the second fraction: \\(\\dfrac{3}{8} \\times \\dfrac{16}{9} = \\dfrac{48}{72}\\). Simplify by dividing top and bottom by 24: \\(\\dfrac{2}{3}\\). This equals \\(\\dfrac{2}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A fuel can holds \\(1\\dfrac{1}{2}\\) gallons. If each lantern uses \\(\\dfrac{3}{4}\\) of a gallon, how many lanterns can be filled?",
+    "answer": "2",
+    "options": [
+      "2",
+      "1 1/8",
+      "1/2",
+      "3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\), \\(\\dfrac{3}{4} = \\dfrac{3}{4}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{3}{2} \\times \\dfrac{4}{3} = \\dfrac{12}{6}\\). Simplify by dividing top and bottom by 6: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A rope is \\(2\\dfrac{1}{3}\\) yards long. If each tent stake line requires \\(\\dfrac{1}{3}\\) of a yard, how many lines can be cut from the rope?",
+    "answer": "7",
+    "options": [
+      "7",
+      "7/9",
+      "1/7",
+      "8",
+      "6"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{1}{3} = \\dfrac{7}{3}\\), \\(\\dfrac{1}{3} = \\dfrac{1}{3}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{7}{3} \\times \\dfrac{3}{1} = \\dfrac{21}{3}\\). Simplify by dividing top and bottom by 3: \\(\\dfrac{7}{1}\\). This equals \\(7\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A water jug holds \\(3\\dfrac{3}{4}\\) gallons. Each canteen holds \\(\\dfrac{5}{8}\\) of a gallon. How many canteens can be filled?",
+    "answer": "6",
+    "options": [
+      "6",
+      "2 11/32",
+      "1/6",
+      "7",
+      "5"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(3\\dfrac{3}{4} = \\dfrac{15}{4}\\), \\(\\dfrac{5}{8} = \\dfrac{5}{8}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{15}{4} \\times \\dfrac{8}{5} = \\dfrac{120}{20}\\). Simplify by dividing top and bottom by 20: \\(\\dfrac{6}{1}\\). This equals \\(6\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier has \\(1\\dfrac{1}{4}\\) hours of guard duty left. Each relief shift lasts \\(\\dfrac{5}{6}\\) of an hour. How many full relief shifts fit in the remaining time?",
+    "answer": "1 1/2",
+    "options": [
+      "1 1/2",
+      "1 2/4",
+      "1 1/24",
+      "2/3",
+      "2 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(1\\dfrac{1}{4} = \\dfrac{5}{4}\\), \\(\\dfrac{5}{6} = \\dfrac{5}{6}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{5}{4} \\times \\dfrac{6}{5} = \\dfrac{30}{20}\\). Simplify by dividing top and bottom by 10: \\(\\dfrac{3}{2}\\). This equals \\(1\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A crate holds \\(4\\dfrac{1}{2}\\) pounds of ammunition. Each bandolier holds \\(\\dfrac{3}{4}\\) of a pound. How many bandoliers can be filled?",
+    "answer": "6",
+    "options": [
+      "6",
+      "3 3/8",
+      "1/6",
+      "7",
+      "5"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(4\\dfrac{1}{2} = \\dfrac{9}{2}\\), \\(\\dfrac{3}{4} = \\dfrac{3}{4}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{9}{2} \\times \\dfrac{4}{3} = \\dfrac{36}{6}\\). Simplify by dividing top and bottom by 6: \\(\\dfrac{6}{1}\\). This equals \\(6\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A convoy has \\(2\\dfrac{1}{2}\\) tons of cargo. Each truck can carry \\(1\\dfrac{1}{4}\\) tons. How many trucks are needed?",
+    "answer": "2",
+    "options": [
+      "2",
+      "3 1/8",
+      "1/2",
+      "3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{1}{2} = \\dfrac{5}{2}\\), \\(1\\dfrac{1}{4} = \\dfrac{5}{4}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{5}{2} \\times \\dfrac{4}{5} = \\dfrac{20}{10}\\). Simplify by dividing top and bottom by 10: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A unit must march \\(3\\dfrac{1}{3}\\) miles total. Each day's march covers \\(1\\dfrac{2}{3}\\) miles. How many days will the march take?",
+    "answer": "2",
+    "options": [
+      "2",
+      "5 5/9",
+      "1/2",
+      "3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(3\\dfrac{1}{3} = \\dfrac{10}{3}\\), \\(1\\dfrac{2}{3} = \\dfrac{5}{3}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{10}{3} \\times \\dfrac{3}{5} = \\dfrac{30}{15}\\). Simplify by dividing top and bottom by 15: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier has \\(1\\dfrac{1}{2}\\) hours before a mission briefing. A full equipment check takes \\(2\\dfrac{1}{4}\\) hours. What fraction of a full equipment check can be completed?",
+    "answer": "2/3",
+    "options": [
+      "2/3",
+      "4/6",
+      "3 3/8",
+      "1 1/2",
+      "1 2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\), \\(2\\dfrac{1}{4} = \\dfrac{9}{4}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{3}{2} \\times \\dfrac{4}{9} = \\dfrac{12}{18}\\). Simplify by dividing top and bottom by 6: \\(\\dfrac{2}{3}\\). This equals \\(\\dfrac{2}{3}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A fuel bladder holds \\(4\\dfrac{1}{2}\\) gallons. Each vehicle's tank takes \\(1\\dfrac{1}{2}\\) gallons to fill. How many vehicles can be fueled?",
+    "answer": "3",
+    "options": [
+      "3",
+      "6 3/4",
+      "1/3",
+      "4",
+      "2"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(4\\dfrac{1}{2} = \\dfrac{9}{2}\\), \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{9}{2} \\times \\dfrac{2}{3} = \\dfrac{18}{6}\\). Simplify by dividing top and bottom by 6: \\(\\dfrac{3}{1}\\). This equals \\(3\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A stretch of trench needs \\(2\\dfrac{2}{5}\\) yards dug. Each soldier can dig \\(1\\dfrac{1}{5}\\) yards in a shift. How many soldiers' shifts are needed to finish?",
+    "answer": "2",
+    "options": [
+      "2",
+      "2 22/25",
+      "1/2",
+      "3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{2}{5} = \\dfrac{12}{5}\\), \\(1\\dfrac{1}{5} = \\dfrac{6}{5}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{12}{5} \\times \\dfrac{5}{6} = \\dfrac{60}{30}\\). Simplify by dividing top and bottom by 30: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A supply route is \\(5\\dfrac{1}{4}\\) miles long. Each checkpoint is spaced \\(1\\dfrac{3}{4}\\) miles apart. How many checkpoint intervals fit along the route?",
+    "answer": "3",
+    "options": [
+      "3",
+      "9 3/16",
+      "1/3",
+      "4",
+      "2"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(5\\dfrac{1}{4} = \\dfrac{21}{4}\\), \\(1\\dfrac{3}{4} = \\dfrac{7}{4}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{21}{4} \\times \\dfrac{4}{7} = \\dfrac{84}{28}\\). Simplify by dividing top and bottom by 28: \\(\\dfrac{3}{1}\\). This equals \\(3\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A generator has \\(3\\dfrac{1}{2}\\) gallons of fuel. It burns \\(2\\dfrac{1}{3}\\) gallons per full duty day. How many duty days can it run?",
+    "answer": "1 1/2",
+    "options": [
+      "1 1/2",
+      "1 2/4",
+      "8 1/6",
+      "2/3",
+      "2 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(3\\dfrac{1}{2} = \\dfrac{7}{2}\\), \\(2\\dfrac{1}{3} = \\dfrac{7}{3}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{7}{2} \\times \\dfrac{3}{7} = \\dfrac{21}{14}\\). Simplify by dividing top and bottom by 7: \\(\\dfrac{3}{2}\\). This equals \\(1\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A pallet holds \\(6\\dfrac{1}{4}\\) tons of rations. Each unit's resupply requires \\(2\\dfrac{1}{2}\\) tons. How many units can be resupplied?",
+    "answer": "2 1/2",
+    "options": [
+      "2 1/2",
+      "2 2/4",
+      "15 5/8",
+      "2/5",
+      "3 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(6\\dfrac{1}{4} = \\dfrac{25}{4}\\), \\(2\\dfrac{1}{2} = \\dfrac{5}{2}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{25}{4} \\times \\dfrac{2}{5} = \\dfrac{50}{20}\\). Simplify by dividing top and bottom by 10: \\(\\dfrac{5}{2}\\). This equals \\(2\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A signal wire spool has \\(\\dfrac{9}{4}\\) miles of cable. Each observation post needs \\(\\dfrac{3}{8}\\) of a mile to connect. How many observation posts can be connected?",
+    "answer": "6",
+    "options": [
+      "6",
+      "27/32",
+      "1/6",
+      "7",
+      "5"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing fractions.}\\) Multiply by the reciprocal of the second fraction: \\(\\dfrac{9}{4} \\times \\dfrac{8}{3} = \\dfrac{72}{12}\\). Simplify by dividing top and bottom by 12: \\(\\dfrac{6}{1}\\). This equals \\(6\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A water blivet holds \\(\\dfrac{7}{2}\\) tons of water. Each shower point uses \\(\\dfrac{7}{4}\\) tons. How many shower points can be supplied?",
+    "answer": "2",
+    "options": [
+      "2",
+      "6 1/8",
+      "1/2",
+      "3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing fractions.}\\) Multiply by the reciprocal of the second fraction: \\(\\dfrac{7}{2} \\times \\dfrac{4}{7} = \\dfrac{28}{14}\\). Simplify by dividing top and bottom by 14: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A convoy has \\(\\dfrac{5}{2}\\) tons of fuel in reserve. Each refuel stop uses \\(\\dfrac{5}{4}\\) tons. How many refuel stops can be made?",
+    "answer": "2",
+    "options": [
+      "2",
+      "3 1/8",
+      "1/2",
+      "3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing fractions.}\\) Multiply by the reciprocal of the second fraction: \\(\\dfrac{5}{2} \\times \\dfrac{4}{5} = \\dfrac{20}{10}\\). Simplify by dividing top and bottom by 10: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A quarry has produced \\(\\dfrac{15}{4}\\) tons of gravel. Each road section needs \\(1\\dfrac{1}{4}\\) tons. How many road sections can be completed?",
+    "answer": "3",
+    "options": [
+      "3",
+      "4 11/16",
+      "1/3",
+      "4",
+      "2"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{15}{4} = \\dfrac{15}{4}\\), \\(1\\dfrac{1}{4} = \\dfrac{5}{4}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{15}{4} \\times \\dfrac{4}{5} = \\dfrac{60}{20}\\). Simplify by dividing top and bottom by 20: \\(\\dfrac{3}{1}\\). This equals \\(3\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A soldier has \\(\\dfrac{3}{4}\\) of a tank of fuel. Each patrol uses \\(1\\dfrac{1}{2}\\) tanks of fuel. What fraction of one patrol's fuel needs does the soldier have?",
+    "answer": "1/2",
+    "options": [
+      "1/2",
+      "2/4",
+      "1 1/8",
+      "2",
+      "1 1/2"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(\\dfrac{3}{4} = \\dfrac{3}{4}\\), \\(1\\dfrac{1}{2} = \\dfrac{3}{2}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{3}{4} \\times \\dfrac{2}{3} = \\dfrac{6}{12}\\). Simplify by dividing top and bottom by 6: \\(\\dfrac{1}{2}\\). This equals \\(\\dfrac{1}{2}\\).",
+    "word": ""
+  },
+  {
+    "source": "Official Material",
+    "question": "A generator has \\(2\\dfrac{1}{2}\\) gallons of fuel. It burns \\(\\dfrac{5}{4}\\) gallons per hour. How many hours can it run?",
+    "answer": "2",
+    "options": [
+      "2",
+      "3 1/8",
+      "1/2",
+      "3",
+      "1"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing mixed numbers.}\\) Convert to improper fractions: \\(2\\dfrac{1}{2} = \\dfrac{5}{2}\\), \\(\\dfrac{5}{4} = \\dfrac{5}{4}\\). Multiply by the reciprocal of the second fraction: \\(\\dfrac{5}{2} \\times \\dfrac{4}{5} = \\dfrac{20}{10}\\). Simplify by dividing top and bottom by 10: \\(\\dfrac{2}{1}\\). This equals \\(2\\).",
+    "word": ""
+  },
+  {
+    "source": "Non-Official Material",
+    "question": "A minefield has \\(\\dfrac{5}{9}\\) of its area cleared. Clearing one full lane requires \\(\\dfrac{5}{6}\\) of the total minefield area. How many full lanes' worth of clearing has been completed?",
+    "answer": "2/3",
+    "options": [
+      "2/3",
+      "4/6",
+      "25/54",
+      "1 1/2",
+      "1 2/3"
+    ],
+    "definition": "\\(\\textbf{Concept: Dividing fractions.}\\) Multiply by the reciprocal of the second fraction: \\(\\dfrac{5}{9} \\times \\dfrac{6}{5} = \\dfrac{30}{45}\\). Simplify by dividing top and bottom by 15: \\(\\dfrac{2}{3}\\). This equals \\(\\dfrac{2}{3}\\).",
+    "word": ""
   }
 ]

@@ -10,6 +10,12 @@
       "ignore",
       "defend",
       "encourage"
+    ],
+    "synonyms": [
+      "detest",
+      "loathe",
+      "despise",
+      "abominate"
     ]
   },
   {
@@ -22,7 +28,13 @@
       "well planned",
       "soft and gradual"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "sudden",
+      "curt",
+      "blunt",
+      "brusque"
+    ]
   },
   {
     "word": "abstemious",
@@ -34,7 +46,13 @@
       "being reckless",
       "avoiding all social gatherings"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "moderate",
+      "temperate",
+      "self-restrained",
+      "sparing"
+    ]
   },
   {
     "word": "abundant",
@@ -46,7 +64,13 @@
       "completely empty",
       "mediocre"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "plentiful",
+      "copious",
+      "ample",
+      "bountiful"
+    ]
   },
   {
     "source": "Official Material",
@@ -59,6 +83,12 @@
       "agreement",
       "rebellion",
       "punishment"
+    ],
+    "synonyms": [
+      "compliance",
+      "consent",
+      "submission",
+      "agreement"
     ]
   },
   {
@@ -71,7 +101,13 @@
       "the act of forgetting",
       "the act of refusing"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "procurement",
+      "purchase",
+      "gain",
+      "obtainment"
+    ]
   },
   {
     "source": "Official Material",
@@ -84,6 +120,12 @@
       "joke",
       "command",
       "excuse"
+    ],
+    "synonyms": [
+      "proverb",
+      "saying",
+      "maxim",
+      "aphorism"
     ]
   },
   {
@@ -96,7 +138,13 @@
       "opposite",
       "completely separate"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "adjoining",
+      "neighboring",
+      "bordering",
+      "contiguous"
+    ]
   },
   {
     "word": "admonish",
@@ -108,7 +156,13 @@
       "to ignore completely",
       "to encourage wildly"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "reprimand",
+      "scold",
+      "chide",
+      "reprove"
+    ]
   },
   {
     "word": "adobe",
@@ -120,7 +174,13 @@
       "a fabric material",
       "a rare gem"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "mud brick",
+      "clay brick",
+      "sun-dried brick",
+      "brick"
+    ]
   },
   {
     "word": "adore",
@@ -132,7 +192,13 @@
       "to ignore completely",
       "to betray"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "love",
+      "cherish",
+      "worship",
+      "treasure"
+    ]
   },
   {
     "word": "adversary",
@@ -144,7 +210,13 @@
       "an ally",
       "a trusted advisor"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "opponent",
+      "enemy",
+      "rival",
+      "foe"
+    ]
   },
   {
     "word": "advocacy",
@@ -156,7 +228,13 @@
       "neutral stance",
       "passive acceptance"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "support",
+      "championing",
+      "promotion",
+      "backing"
+    ]
   },
   {
     "word": "agile",
@@ -168,7 +246,13 @@
       "stiff and rigid",
       "unable to move"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "nimble",
+      "spry",
+      "lithe",
+      "quick"
+    ]
   },
   {
     "word": "allude",
@@ -180,7 +264,13 @@
       "to completely ignore",
       "to deny everything"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "refer",
+      "hint",
+      "imply",
+      "suggest"
+    ]
   },
   {
     "source": "Official Material",
@@ -193,6 +283,12 @@
       "argument",
       "inspection",
       "cancellation"
+    ],
+    "synonyms": [
+      "merger",
+      "fusion",
+      "blend",
+      "combination"
     ]
   },
   {
@@ -205,7 +301,13 @@
       "feeling angry",
       "feeling indifferent"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "entertained",
+      "delighted",
+      "tickled",
+      "diverted"
+    ]
   },
   {
     "word": "argument",
@@ -217,7 +319,13 @@
       "a silence",
       "a peaceful discussion"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "dispute",
+      "quarrel",
+      "disagreement",
+      "altercation"
+    ]
   },
   {
     "word": "assail",
@@ -229,7 +337,13 @@
       "to protect carefully",
       "to agree completely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "attack",
+      "assault",
+      "batter",
+      "besiege"
+    ]
   },
   {
     "word": "attrition",
@@ -241,7 +355,13 @@
       "violent explosion",
       "complete restoration"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "erosion",
+      "wearing down",
+      "depletion",
+      "reduction"
+    ]
   },
   {
     "word": "banish",
@@ -253,7 +373,13 @@
       "to embrace tightly",
       "to invite permanently"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "exile",
+      "expel",
+      "deport",
+      "oust"
+    ]
   },
   {
     "word": "berate",
@@ -265,7 +391,13 @@
       "to compliment sincerely",
       "to ignore politely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "scold",
+      "reprimand",
+      "chide",
+      "upbraid"
+    ]
   },
   {
     "word": "bigotry",
@@ -277,7 +409,13 @@
       "open-mindedness",
       "respect for differences"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "prejudice",
+      "intolerance",
+      "narrow-mindedness",
+      "discrimination"
+    ]
   },
   {
     "word": "bivouac",
@@ -289,7 +427,13 @@
       "a luxury hotel",
       "a fortified castle"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "camp",
+      "encampment",
+      "shelter",
+      "tent"
+    ]
   },
   {
     "word": "boast",
@@ -301,7 +445,13 @@
       "silent observation",
       "truthful statement"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "brag",
+      "gloat",
+      "crow",
+      "vaunt"
+    ]
   },
   {
     "source": "Official Material",
@@ -314,6 +464,12 @@
       "weak",
       "bold",
       "fearful"
+    ],
+    "synonyms": [
+      "bold",
+      "audacious",
+      "brazen",
+      "confident"
     ]
   },
   {
@@ -327,6 +483,12 @@
       "loud and exaggerated",
       "honest and sincere",
       "anxious and nervous"
+    ],
+    "synonyms": [
+      "pompous",
+      "grandiloquent",
+      "pretentious",
+      "inflated"
     ]
   },
   {
@@ -339,7 +501,13 @@
       "fascinating and engaging",
       "thrilling and dynamic"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "tedious",
+      "dull",
+      "monotonous",
+      "dreary"
+    ]
   },
   {
     "word": "brawn",
@@ -351,7 +519,13 @@
       "emotional sensitivity",
       "spiritual awareness"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "muscle",
+      "strength",
+      "power",
+      "sinew"
+    ]
   },
   {
     "word": "broach",
@@ -363,7 +537,13 @@
       "to aggressively attack",
       "to firmly reject"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "bring up",
+      "raise",
+      "mention",
+      "introduce"
+    ]
   },
   {
     "word": "canny",
@@ -375,7 +555,13 @@
       "foolish and careless",
       "stubborn and rigid"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "shrewd",
+      "clever",
+      "astute",
+      "wily"
+    ]
   },
   {
     "word": "cede",
@@ -387,7 +573,13 @@
       "to defend firmly",
       "to protect zealously"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "yield",
+      "surrender",
+      "relinquish",
+      "concede"
+    ]
   },
   {
     "word": "chronicle",
@@ -399,7 +591,13 @@
       "a personal opinion",
       "a random collection"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "record",
+      "account",
+      "history",
+      "narrative"
+    ]
   },
   {
     "word": "circumvent",
@@ -411,7 +609,13 @@
       "to surrender immediately",
       "to give up completely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "bypass",
+      "evade",
+      "avoid",
+      "outmaneuver"
+    ]
   },
   {
     "word": "clemency",
@@ -423,7 +627,13 @@
       "harsh judgment",
       "complete revenge"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "mercy",
+      "leniency",
+      "forgiveness",
+      "compassion"
+    ]
   },
   {
     "word": "clutter",
@@ -435,7 +645,13 @@
       "to clean thoroughly",
       "to arrange carefully"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "mess",
+      "disarray",
+      "jumble",
+      "litter"
+    ]
   },
   {
     "word": "commiserate",
@@ -447,7 +663,13 @@
       "to ignore completely",
       "to argue fiercely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "sympathize",
+      "condole",
+      "empathize",
+      "console"
+    ]
   },
   {
     "word": "communiqué",
@@ -459,7 +681,13 @@
       "a fictional story",
       "a casual conversation"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "announcement",
+      "bulletin",
+      "dispatch",
+      "statement"
+    ]
   },
   {
     "word": "commute",
@@ -471,7 +699,13 @@
       "to increase punishment",
       "to ignore laws"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "travel",
+      "shuttle",
+      "reduce",
+      "lessen"
+    ]
   },
   {
     "word": "concoct",
@@ -483,7 +717,13 @@
       "to copy exactly",
       "to forget entirely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "devise",
+      "fabricate",
+      "contrive",
+      "brew"
+    ]
   },
   {
     "word": "concur",
@@ -495,7 +735,13 @@
       "to remain silent",
       "to avoid commitment"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "agree",
+      "coincide",
+      "consent",
+      "accord"
+    ]
   },
   {
     "word": "confidante",
@@ -507,7 +753,13 @@
       "a casual acquaintance",
       "a distant relative"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "confidant",
+      "intimate",
+      "close friend",
+      "trusted friend"
+    ]
   },
   {
     "word": "conspiracy",
@@ -519,7 +771,13 @@
       "an honest agreement",
       "a fair competition"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "plot",
+      "scheme",
+      "collusion",
+      "cabal"
+    ]
   },
   {
     "word": "construe",
@@ -531,7 +789,13 @@
       "to ignore completely",
       "to change meaning"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "interpret",
+      "understand",
+      "deduce",
+      "read"
+    ]
   },
   {
     "word": "contemplate",
@@ -543,7 +807,13 @@
       "to forget about",
       "to rush ahead"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "ponder",
+      "consider",
+      "meditate",
+      "mull"
+    ]
   },
   {
     "word": "contentious",
@@ -555,7 +825,13 @@
       "easy to please",
       "always cooperative"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "controversial",
+      "argumentative",
+      "quarrelsome",
+      "disputatious"
+    ]
   },
   {
     "word": "conversant",
@@ -567,7 +843,13 @@
       "unwilling to learn",
       "deliberately confused"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "familiar",
+      "knowledgeable",
+      "versed",
+      "acquainted"
+    ]
   },
   {
     "word": "coroner",
@@ -579,7 +861,13 @@
       "a police officer",
       "a funeral director"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "medical examiner",
+      "death investigator",
+      "inquest officer",
+      "examiner"
+    ]
   },
   {
     "source": "Official Material",
@@ -592,6 +880,12 @@
       "riverbank",
       "forest",
       "pathway"
+    ],
+    "synonyms": [
+      "crack",
+      "fissure",
+      "chasm",
+      "cleft"
     ]
   },
   {
@@ -605,6 +899,12 @@
       "excited",
       "cheerful",
       "doubtful"
+    ],
+    "synonyms": [
+      "skeptical",
+      "distrustful",
+      "jaded",
+      "pessimistic"
     ]
   },
   {
@@ -617,7 +917,13 @@
       "to keep secret",
       "to ignore completely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "decode",
+      "decrypt",
+      "interpret",
+      "unravel"
+    ]
   },
   {
     "word": "decorum",
@@ -629,7 +935,13 @@
       "wild and chaotic actions",
       "disrespectful conduct"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "propriety",
+      "etiquette",
+      "politeness",
+      "dignity"
+    ]
   },
   {
     "word": "decry",
@@ -641,7 +953,13 @@
       "to ignore quietly",
       "to agree completely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "condemn",
+      "denounce",
+      "criticize",
+      "censure"
+    ]
   },
   {
     "word": "defer",
@@ -653,7 +971,13 @@
       "to argue strongly",
       "to enforce authority"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "postpone",
+      "delay",
+      "put off",
+      "yield"
+    ]
   },
   {
     "word": "demoralize",
@@ -665,7 +989,13 @@
       "to increase courage",
       "to strengthen discipline"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "discourage",
+      "dishearten",
+      "dispirit",
+      "unnerve"
+    ]
   },
   {
     "source": "Official Material",
@@ -678,6 +1008,12 @@
       "celebration",
       "hesitation",
       "enthusiasm"
+    ],
+    "synonyms": [
+      "objection",
+      "hesitation",
+      "protest",
+      "reluctance"
     ]
   },
   {
@@ -690,7 +1026,13 @@
       "to collect more",
       "to preserve fully"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "exhaust",
+      "drain",
+      "reduce",
+      "use up"
+    ]
   },
   {
     "word": "depression",
@@ -702,7 +1044,13 @@
       "high energy level",
       "extreme excitement"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "sadness",
+      "gloom",
+      "despondency",
+      "melancholy"
+    ]
   },
   {
     "word": "destitution",
@@ -714,7 +1062,13 @@
       "comfortable living",
       "abundant resources"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "poverty",
+      "penury",
+      "indigence",
+      "want"
+    ]
   },
   {
     "word": "diminish",
@@ -726,7 +1080,13 @@
       "to enhance value",
       "to strengthen impact"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "decrease",
+      "reduce",
+      "lessen",
+      "dwindle"
+    ]
   },
   {
     "word": "disclose",
@@ -738,7 +1098,13 @@
       "to hide carefully",
       "to deny completely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "reveal",
+      "divulge",
+      "expose",
+      "unveil"
+    ]
   },
   {
     "word": "disparity",
@@ -750,7 +1116,13 @@
       "perfect balance",
       "similar treatment"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "inequality",
+      "difference",
+      "discrepancy",
+      "gap"
+    ]
   },
   {
     "source": "Official Material",
@@ -763,6 +1135,12 @@
       "collection of documents",
       "military uniform",
       "official command"
+    ],
+    "synonyms": [
+      "file",
+      "record",
+      "portfolio",
+      "report"
     ]
   },
   {
@@ -775,7 +1153,13 @@
       "exciting and fun",
       "beautiful and delightful"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "terrible",
+      "awful",
+      "horrible",
+      "appalling"
+    ]
   },
   {
     "source": "Official Material",
@@ -788,6 +1172,12 @@
       "limited",
       "boring",
       "outdated"
+    ],
+    "synonyms": [
+      "varied",
+      "diverse",
+      "wide-ranging",
+      "mixed"
     ]
   },
   {
@@ -801,6 +1191,12 @@
       "silence",
       "confusion",
       "brilliance"
+    ],
+    "synonyms": [
+      "radiance",
+      "brilliance",
+      "brightness",
+      "glow"
     ]
   },
   {
@@ -814,6 +1210,12 @@
       "brief",
       "sarcastic",
       "angry"
+    ],
+    "synonyms": [
+      "gushing",
+      "unrestrained",
+      "exuberant",
+      "overflowing"
     ]
   },
   {
@@ -826,7 +1228,13 @@
       "to hide the truth",
       "to confuse further"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "evoke",
+      "draw out",
+      "extract",
+      "provoke"
+    ]
   },
   {
     "word": "elusive",
@@ -838,7 +1246,13 @@
       "simple to understand",
       "obvious to all"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "evasive",
+      "slippery",
+      "hard to pin down",
+      "fleeting"
+    ]
   },
   {
     "word": "embargo",
@@ -850,7 +1264,13 @@
       "business expansion",
       "commercial growth"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "ban",
+      "restriction",
+      "prohibition",
+      "blockade"
+    ]
   },
   {
     "source": "Official Material",
@@ -863,6 +1283,12 @@
       "highly esteemed",
       "careless",
       "uncertain"
+    ],
+    "synonyms": [
+      "distinguished",
+      "prominent",
+      "renowned",
+      "illustrious"
     ]
   },
   {
@@ -875,7 +1301,13 @@
       "to ignore completely",
       "to downplay significance"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "stress",
+      "highlight",
+      "underscore",
+      "accentuate"
+    ]
   },
   {
     "word": "encampment",
@@ -887,7 +1319,13 @@
       "a luxury resort",
       "a fortified city"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "camp",
+      "settlement",
+      "bivouac",
+      "base"
+    ]
   },
   {
     "source": "Official Material",
@@ -900,6 +1338,12 @@
       "abandon",
       "hide comfortably",
       "investigate"
+    ],
+    "synonyms": [
+      "settle",
+      "install",
+      "nestle",
+      "establish"
     ]
   },
   {
@@ -913,6 +1357,12 @@
       "careless",
       "humorous",
       "emotional"
+    ],
+    "synonyms": [
+      "scholarly",
+      "learned",
+      "knowledgeable",
+      "well-read"
     ]
   },
   {
@@ -926,6 +1376,12 @@
       "planned and intentional",
       "expected and predictable",
       "pointless and unnecessary"
+    ],
+    "synonyms": [
+      "lucky",
+      "fortunate",
+      "serendipitous",
+      "providential"
     ]
   },
   {
@@ -939,6 +1395,12 @@
       "flashy",
       "broken",
       "valuable"
+    ],
+    "synonyms": [
+      "flashy",
+      "garish",
+      "showy",
+      "loud"
     ]
   },
   {
@@ -952,6 +1414,12 @@
       "desire",
       "fear",
       "complaint"
+    ],
+    "synonyms": [
+      "craving",
+      "longing",
+      "yearning",
+      "desire"
     ]
   },
   {
@@ -965,6 +1433,12 @@
       "courage under pressure",
       "skill in leading others",
       "faithfulness to a cause"
+    ],
+    "synonyms": [
+      "insincerity",
+      "duplicity",
+      "sanctimony",
+      "pretense"
     ]
   },
   {
@@ -978,6 +1452,12 @@
       "cautious",
       "delayed",
       "planned"
+    ],
+    "synonyms": [
+      "impulsive",
+      "rash",
+      "hasty",
+      "reckless"
     ]
   },
   {
@@ -991,6 +1471,12 @@
       "confused and vague",
       "slow to understand",
       "forgetful and careless"
+    ],
+    "synonyms": [
+      "sharp",
+      "penetrating",
+      "perceptive",
+      "keen"
     ]
   },
   {
@@ -1003,7 +1489,13 @@
       "very competent",
       "experienced and able"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "incompetent",
+      "clumsy",
+      "unskilled",
+      "bungling"
+    ]
   },
   {
     "word": "infer",
@@ -1015,7 +1507,13 @@
       "to guess randomly",
       "to deny completely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "deduce",
+      "conclude",
+      "surmise",
+      "gather"
+    ]
   },
   {
     "word": "infiltrate",
@@ -1027,7 +1525,13 @@
       "to formally request",
       "to invite publicly"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "penetrate",
+      "sneak into",
+      "invade",
+      "permeate"
+    ]
   },
   {
     "word": "insignia",
@@ -1039,7 +1543,13 @@
       "a weapon",
       "a medal"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "emblem",
+      "badge",
+      "symbol",
+      "crest"
+    ]
   },
   {
     "word": "intervene",
@@ -1051,7 +1561,13 @@
       "to encourage conflict",
       "to stay uninvolved"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "interpose",
+      "mediate",
+      "intercede",
+      "step in"
+    ]
   },
   {
     "word": "intrinsic",
@@ -1063,7 +1579,13 @@
       "temporary and fleeting",
       "acquired and learned"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "inherent",
+      "essential",
+      "innate",
+      "fundamental"
+    ]
   },
   {
     "word": "invariably",
@@ -1075,7 +1597,13 @@
       "rarely",
       "never"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "always",
+      "consistently",
+      "unfailingly",
+      "without exception"
+    ]
   },
   {
     "source": "Official Material",
@@ -1088,6 +1616,12 @@
       "respectful",
       "confusing",
       "humorous"
+    ],
+    "synonyms": [
+      "crude",
+      "vulgar",
+      "indecent",
+      "obscene"
     ]
   },
   {
@@ -1101,6 +1635,12 @@
       "slow",
       "confused",
       "generous"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -1114,6 +1654,12 @@
       "creation of something new",
       "celebration of an event",
       "official approval"
+    ],
+    "synonyms": [
+      "suspension",
+      "halt",
+      "freeze",
+      "postponement"
     ]
   },
   {
@@ -1126,7 +1672,13 @@
       "somewhat risky",
       "moderately careful"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
+    ]
   },
   {
     "word": "perjure",
@@ -1138,7 +1690,13 @@
       "to refuse to speak",
       "to swear an oath"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "lie under oath",
+      "give false testimony",
+      "falsify oath",
+      "swear falsely"
+    ]
   },
   {
     "word": "petrify",
@@ -1150,7 +1708,13 @@
       "to encourage boldly",
       "to calm completely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "terrify",
+      "horrify",
+      "paralyze",
+      "stun"
+    ]
   },
   {
     "word": "phenomenon",
@@ -1162,7 +1726,13 @@
       "a common event",
       "a regular activity"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "marvel",
+      "wonder",
+      "occurrence",
+      "event"
+    ]
   },
   {
     "word": "pliable",
@@ -1174,7 +1744,13 @@
       "fragile and breakable",
       "hard and solid"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "flexible",
+      "bendable",
+      "supple",
+      "malleable"
+    ]
   },
   {
     "word": "plummet",
@@ -1186,7 +1762,13 @@
       "to stay level",
       "to increase slowly"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "plunge",
+      "drop",
+      "fall",
+      "nosedive"
+    ]
   },
   {
     "word": "polarize",
@@ -1198,7 +1780,13 @@
       "to balance equally",
       "to remain neutral"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "divide",
+      "split",
+      "separate",
+      "estrange"
+    ]
   },
   {
     "word": "ponderous",
@@ -1210,7 +1798,13 @@
       "stimulating and engaging",
       "easy and simple"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "unwieldy",
+      "cumbersome",
+      "heavy",
+      "sluggish"
+    ]
   },
   {
     "word": "staunch",
@@ -1222,7 +1816,13 @@
       "disloyal and treacherous",
       "doubtful and hesitant"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "loyal",
+      "steadfast",
+      "faithful",
+      "devoted"
+    ]
   },
   {
     "word": "suffice",
@@ -1234,7 +1834,13 @@
       "to fall short",
       "to fail completely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "satisfy",
+      "do",
+      "serve",
+      "meet needs"
+    ]
   },
   {
     "word": "suppress",
@@ -1246,7 +1852,13 @@
       "to encourage fully",
       "to publicize widely"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "quell",
+      "stifle",
+      "repress",
+      "subdue"
+    ]
   },
   {
     "word": "synonymous",
@@ -1258,7 +1870,13 @@
       "being completely different",
       "having no meaning"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "equivalent",
+      "identical",
+      "interchangeable",
+      "same"
+    ]
   },
   {
     "word": "synthesize",
@@ -1270,7 +1888,13 @@
       "to analyze thoroughly",
       "to break apart"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "combine",
+      "integrate",
+      "merge",
+      "fuse"
+    ]
   },
   {
     "word": "tactical",
@@ -1282,7 +1906,13 @@
       "accidental and unintended",
       "hasty and careless"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "strategic",
+      "calculated",
+      "planned",
+      "maneuvering"
+    ]
   },
   {
     "word": "tantalizing",
@@ -1294,7 +1924,13 @@
       "repulsive and offensive",
       "dull and monotonous"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "tempting",
+      "enticing",
+      "alluring",
+      "teasing"
+    ]
   },
   {
     "word": "tawdry",
@@ -1306,7 +1942,13 @@
       "quality and expensive",
       "simple and modest"
     ],
-    "source": "Official Material"
+    "source": "Official Material",
+    "synonyms": [
+      "cheap",
+      "gaudy",
+      "tacky",
+      "garish"
+    ]
   },
   {
     "word": "abandon",
@@ -1318,7 +1960,13 @@
       "to repair",
       "to combine"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "desert",
+      "forsake",
+      "relinquish",
+      "give up"
+    ]
   },
   {
     "word": "abolish",
@@ -1330,7 +1978,13 @@
       "to support",
       "to delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "eliminate",
+      "abrogate",
+      "repeal",
+      "revoke"
+    ]
   },
   {
     "word": "accelerate",
@@ -1342,7 +1996,13 @@
       "to stop",
       "to delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "speed up",
+      "hasten",
+      "quicken",
+      "expedite"
+    ]
   },
   {
     "word": "accumulate",
@@ -1354,7 +2014,13 @@
       "to destroy",
       "to reduce"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "amass",
+      "gather",
+      "collect",
+      "build up"
+    ]
   },
   {
     "word": "accurate",
@@ -1366,7 +2032,13 @@
       "unclear",
       "approximate"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "precise",
+      "exact",
+      "correct",
+      "error-free"
+    ]
   },
   {
     "word": "acknowledge",
@@ -1378,7 +2050,13 @@
       "to hide",
       "to deny"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "admit",
+      "recognize",
+      "accept",
+      "concede"
+    ]
   },
   {
     "word": "acquire",
@@ -1390,7 +2068,13 @@
       "to hide",
       "to break"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "obtain",
+      "gain",
+      "procure",
+      "secure"
+    ]
   },
   {
     "word": "adapt",
@@ -1402,7 +2086,13 @@
       "to destroy",
       "to hide"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "adjust",
+      "modify",
+      "tailor",
+      "acclimate"
+    ]
   },
   {
     "word": "adequate",
@@ -1414,7 +2104,13 @@
       "excessive",
       "rare"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "sufficient",
+      "enough",
+      "satisfactory",
+      "ample"
+    ]
   },
   {
     "word": "advocate",
@@ -1426,7 +2122,13 @@
       "to ignore",
       "to delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "support",
+      "champion",
+      "promote",
+      "endorse"
+    ]
   },
   {
     "word": "allocate",
@@ -1438,7 +2140,13 @@
       "to destroy",
       "to hide"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "assign",
+      "distribute",
+      "allot",
+      "apportion"
+    ]
   },
   {
     "word": "alter",
@@ -1450,7 +2158,13 @@
       "to ignore",
       "to break"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "change",
+      "modify",
+      "adjust",
+      "revise"
+    ]
   },
   {
     "word": "alternative",
@@ -1462,7 +2176,13 @@
       "error",
       "result"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "option",
+      "choice",
+      "substitute",
+      "alternate"
+    ]
   },
   {
     "word": "ambiguous",
@@ -1474,7 +2194,13 @@
       "simple",
       "true"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "unclear",
+      "vague",
+      "equivocal",
+      "uncertain"
+    ]
   },
   {
     "word": "analyze",
@@ -1486,7 +2212,13 @@
       "to guess",
       "to break randomly"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "examine",
+      "study",
+      "investigate",
+      "scrutinize"
+    ]
   },
   {
     "word": "anomaly",
@@ -1498,7 +2230,13 @@
       "rule",
       "pattern"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "irregularity",
+      "deviation",
+      "aberration",
+      "oddity"
+    ]
   },
   {
     "word": "anticipate",
@@ -1510,7 +2248,13 @@
       "to reject",
       "to avoid"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "expect",
+      "foresee",
+      "predict",
+      "await"
+    ]
   },
   {
     "word": "apparent",
@@ -1522,7 +2266,13 @@
       "false",
       "rare"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "evident",
+      "obvious",
+      "clear",
+      "visible"
+    ]
   },
   {
     "word": "approximate",
@@ -1534,7 +2284,13 @@
       "false",
       "random"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "rough",
+      "estimated",
+      "close",
+      "near"
+    ]
   },
   {
     "word": "arbitrary",
@@ -1546,7 +2302,13 @@
       "fixed and unchanging",
       "carefully planned"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "random",
+      "capricious",
+      "subjective",
+      "unreasoned"
+    ]
   },
   {
     "word": "assert",
@@ -1558,7 +2320,13 @@
       "to whisper",
       "to deny"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "declare",
+      "affirm",
+      "state",
+      "claim"
+    ]
   },
   {
     "word": "assess",
@@ -1570,7 +2338,13 @@
       "to break",
       "to guess"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "evaluate",
+      "appraise",
+      "judge",
+      "gauge"
+    ]
   },
   {
     "word": "assume",
@@ -1582,7 +2356,13 @@
       "to deny",
       "to calculate"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "presume",
+      "suppose",
+      "take for granted",
+      "guess"
+    ]
   },
   {
     "word": "beneficial",
@@ -1594,7 +2374,13 @@
       "useless or wasteful",
       "dangerous and risky"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "advantageous",
+      "helpful",
+      "favorable",
+      "useful"
+    ]
   },
   {
     "word": "benevolent",
@@ -1606,7 +2392,13 @@
       "careless",
       "lazy"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
+    ]
   },
   {
     "word": "bias",
@@ -1618,7 +2410,13 @@
       "truth",
       "logic"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "prejudice",
+      "partiality",
+      "favoritism",
+      "slant"
+    ]
   },
   {
     "word": "brief",
@@ -1630,7 +2428,13 @@
       "detailed",
       "complex"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "short",
+      "quick",
+      "fleeting",
+      "momentary"
+    ]
   },
   {
     "word": "candid",
@@ -1642,7 +2446,13 @@
       "dishonest and deceptive",
       "quiet and reserved"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "honest",
+      "frank",
+      "forthright",
+      "straightforward"
+    ]
   },
   {
     "word": "clarify",
@@ -1654,7 +2464,13 @@
       "to hide",
       "to shorten"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "explain",
+      "elucidate",
+      "clear up",
+      "simplify"
+    ]
   },
   {
     "word": "coherent",
@@ -1666,7 +2482,13 @@
       "random and disorganized",
       "quiet and withdrawn"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "logical",
+      "consistent",
+      "clear",
+      "organized"
+    ]
   },
   {
     "word": "coincide",
@@ -1678,7 +2500,13 @@
       "to stop",
       "to separate"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "overlap",
+      "correspond",
+      "align",
+      "occur together"
+    ]
   },
   {
     "word": "collapse",
@@ -1690,7 +2518,13 @@
       "to expand",
       "to grow"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "crumble",
+      "fall apart",
+      "break down",
+      "cave in"
+    ]
   },
   {
     "word": "commence",
@@ -1702,7 +2536,13 @@
       "to stop",
       "to delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "begin",
+      "start",
+      "initiate",
+      "launch"
+    ]
   },
   {
     "word": "compatible",
@@ -1714,7 +2554,13 @@
       "broken and unusable",
       "kept completely separate"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "suitable",
+      "harmonious",
+      "congruous",
+      "well-matched"
+    ]
   },
   {
     "word": "compensate",
@@ -1726,7 +2572,13 @@
       "to ignore",
       "to reduce"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "reimburse",
+      "repay",
+      "offset",
+      "make up for"
+    ]
   },
   {
     "word": "complement",
@@ -1738,7 +2590,13 @@
       "to reduce",
       "to ignore"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "complete",
+      "enhance",
+      "supplement",
+      "round out"
+    ]
   },
   {
     "word": "complex",
@@ -1750,7 +2608,13 @@
       "easy",
       "basic"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "complicated",
+      "intricate",
+      "elaborate",
+      "convoluted"
+    ]
   },
   {
     "word": "comply",
@@ -1762,7 +2626,13 @@
       "to break rules",
       "to create rules"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "obey",
+      "conform",
+      "adhere",
+      "follow"
+    ]
   },
   {
     "word": "comprehend",
@@ -1774,7 +2644,13 @@
       "to break",
       "to guess"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "understand",
+      "grasp",
+      "fathom",
+      "perceive"
+    ]
   },
   {
     "word": "comprehensive",
@@ -1786,7 +2662,13 @@
       "small",
       "weak"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "thorough",
+      "extensive",
+      "complete",
+      "all-inclusive"
+    ]
   },
   {
     "word": "concede",
@@ -1798,7 +2680,13 @@
       "to hide",
       "to create"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "admit",
+      "acknowledge",
+      "grant",
+      "yield"
+    ]
   },
   {
     "word": "concurrent",
@@ -1810,7 +2698,13 @@
       "happening much later",
       "happening randomly"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "simultaneous",
+      "coinciding",
+      "parallel",
+      "synchronous"
+    ]
   },
   {
     "word": "confine",
@@ -1822,7 +2716,13 @@
       "to free",
       "to ignore"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "restrict",
+      "limit",
+      "restrain",
+      "enclose"
+    ]
   },
   {
     "word": "consequence",
@@ -1834,7 +2734,13 @@
       "option",
       "rule"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "result",
+      "outcome",
+      "effect",
+      "upshot"
+    ]
   },
   {
     "word": "consequent",
@@ -1846,7 +2752,13 @@
       "random",
       "before"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "resulting",
+      "ensuing",
+      "subsequent",
+      "following"
+    ]
   },
   {
     "word": "consist",
@@ -1858,7 +2770,13 @@
       "to ignore",
       "to break"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "comprise",
+      "be made up of",
+      "be composed of",
+      "contain"
+    ]
   },
   {
     "word": "consistent",
@@ -1870,7 +2788,13 @@
       "broken and unreliable",
       "rare and occasional"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "steady",
+      "uniform",
+      "stable",
+      "unchanging"
+    ]
   },
   {
     "word": "constraint",
@@ -1882,7 +2806,13 @@
       "expansion",
       "gain"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "restriction",
+      "limitation",
+      "restraint",
+      "curb"
+    ]
   },
   {
     "word": "contradict",
@@ -1894,7 +2824,13 @@
       "to confirm",
       "to support"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "deny",
+      "oppose",
+      "refute",
+      "negate"
+    ]
   },
   {
     "word": "contrast",
@@ -1906,7 +2842,13 @@
       "agreement between people",
       "connection between ideas"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "differentiate",
+      "distinguish",
+      "juxtapose",
+      "compare"
+    ]
   },
   {
     "word": "controversial",
@@ -1918,7 +2860,13 @@
       "boring",
       "silent"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "contentious",
+      "disputed",
+      "debatable",
+      "divisive"
+    ]
   },
   {
     "word": "convert",
@@ -1930,7 +2878,13 @@
       "to ignore",
       "to keep same"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "transform",
+      "change",
+      "turn",
+      "alter"
+    ]
   },
   {
     "word": "convince",
@@ -1942,7 +2896,13 @@
       "to ignore",
       "to reject"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "persuade",
+      "assure",
+      "satisfy",
+      "win over"
+    ]
   },
   {
     "word": "credible",
@@ -1954,7 +2914,13 @@
       "unclear",
       "weak"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "believable",
+      "plausible",
+      "trustworthy",
+      "convincing"
+    ]
   },
   {
     "word": "criteria",
@@ -1966,7 +2932,13 @@
       "random guesses",
       "final results only"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "standards",
+      "benchmarks",
+      "measures",
+      "guidelines"
+    ]
   },
   {
     "word": "decline",
@@ -1978,7 +2950,13 @@
       "to accept",
       "to build"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "decrease",
+      "refuse",
+      "drop",
+      "deteriorate"
+    ]
   },
   {
     "word": "deduce",
@@ -1990,7 +2968,13 @@
       "to ignore",
       "to deny"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "infer",
+      "conclude",
+      "derive",
+      "reason"
+    ]
   },
   {
     "word": "deficient",
@@ -2002,7 +2986,13 @@
       "excessive",
       "strong"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "lacking",
+      "insufficient",
+      "inadequate",
+      "wanting"
+    ]
   },
   {
     "word": "deficit",
@@ -2014,7 +3004,13 @@
       "balance of accounts",
       "profit or gain"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "shortfall",
+      "shortage",
+      "deficiency",
+      "gap"
+    ]
   },
   {
     "word": "demonstrate",
@@ -2026,7 +3022,13 @@
       "to ignore",
       "to confuse"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "show",
+      "illustrate",
+      "prove",
+      "exhibit"
+    ]
   },
   {
     "word": "derive",
@@ -2038,7 +3040,13 @@
       "to destroy",
       "to hide"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "obtain",
+      "extract",
+      "deduce",
+      "originate"
+    ]
   },
   {
     "word": "detect",
@@ -2050,7 +3058,13 @@
       "to ignore",
       "to remove"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "discover",
+      "notice",
+      "spot",
+      "identify"
+    ]
   },
   {
     "word": "deter",
@@ -2062,7 +3076,13 @@
       "to ignore",
       "to celebrate"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "discourage",
+      "dissuade",
+      "prevent",
+      "hinder"
+    ]
   },
   {
     "word": "deviate",
@@ -2074,7 +3094,13 @@
       "to stay",
       "to continue"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "diverge",
+      "stray",
+      "depart",
+      "digress"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -2087,6 +3113,12 @@
       "careless",
       "slow",
       "forgetful"
+    ],
+    "synonyms": [
+      "hardworking",
+      "industrious",
+      "conscientious",
+      "assiduous"
     ]
   },
   {
@@ -2099,7 +3131,13 @@
       "hidden",
       "unclear"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "different",
+      "separate",
+      "distinguishable",
+      "discrete"
+    ]
   },
   {
     "word": "distort",
@@ -2111,7 +3149,13 @@
       "to clarify",
       "to build"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "twist",
+      "warp",
+      "skew",
+      "misrepresent"
+    ]
   },
   {
     "word": "diverse",
@@ -2123,7 +3167,13 @@
       "simple",
       "empty"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "varied",
+      "assorted",
+      "wide-ranging",
+      "heterogeneous"
+    ]
   },
   {
     "word": "duration",
@@ -2135,7 +3185,13 @@
       "amount of distance",
       "amount of weight"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "length",
+      "span",
+      "period",
+      "extent"
+    ]
   },
   {
     "word": "efficient",
@@ -2147,7 +3203,13 @@
       "careless and lazy",
       "damaged and unreliable"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "productive",
+      "effective",
+      "streamlined",
+      "competent"
+    ]
   },
   {
     "word": "elaborate",
@@ -2159,7 +3221,13 @@
       "short",
       "weak"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "detailed",
+      "intricate",
+      "complex",
+      "ornate"
+    ]
   },
   {
     "word": "eliminate",
@@ -2171,7 +3239,13 @@
       "to create",
       "to mix"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "remove",
+      "eradicate",
+      "get rid of",
+      "abolish"
+    ]
   },
   {
     "word": "eloquent",
@@ -2183,7 +3257,13 @@
       "confused",
       "silent"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "articulate",
+      "fluent",
+      "expressive",
+      "well-spoken"
+    ]
   },
   {
     "word": "emerge",
@@ -2195,7 +3275,13 @@
       "to disappear",
       "to break"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "appear",
+      "arise",
+      "surface",
+      "come out"
+    ]
   },
   {
     "word": "empirical",
@@ -2207,7 +3293,13 @@
       "based on imagination",
       "based on guesswork"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "observed",
+      "experiential",
+      "evidence-based",
+      "factual"
+    ]
   },
   {
     "word": "encounter",
@@ -2219,7 +3311,13 @@
       "to build",
       "to plan"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "meet",
+      "come across",
+      "face",
+      "confront"
+    ]
   },
   {
     "word": "enhance",
@@ -2231,7 +3329,13 @@
       "to destroy",
       "to hide"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "improve",
+      "boost",
+      "augment",
+      "strengthen"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -2244,6 +3348,12 @@
       "strong",
       "slow",
       "heavy"
+    ],
+    "synonyms": [
+      "fleeting",
+      "transient",
+      "short-lived",
+      "momentary"
     ]
   },
   {
@@ -2256,7 +3366,13 @@
       "greater in value",
       "lesser in value"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "equal",
+      "comparable",
+      "corresponding",
+      "tantamount"
+    ]
   },
   {
     "word": "exceed",
@@ -2268,7 +3384,13 @@
       "to stop",
       "to reduce"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "surpass",
+      "outdo",
+      "top",
+      "go beyond"
+    ]
   },
   {
     "word": "exclude",
@@ -2280,7 +3402,13 @@
       "to add",
       "to expand"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "omit",
+      "leave out",
+      "bar",
+      "eliminate"
+    ]
   },
   {
     "word": "expand",
@@ -2292,7 +3420,13 @@
       "to delete",
       "to reduce"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "grow",
+      "enlarge",
+      "extend",
+      "broaden"
+    ]
   },
   {
     "word": "explicit",
@@ -2304,7 +3438,13 @@
       "hidden",
       "confusing"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "clear",
+      "direct",
+      "specific",
+      "unambiguous"
+    ]
   },
   {
     "word": "facilitate",
@@ -2316,7 +3456,13 @@
       "to stop",
       "to delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "ease",
+      "assist",
+      "expedite",
+      "simplify"
+    ]
   },
   {
     "word": "feasible",
@@ -2328,7 +3474,13 @@
       "rare",
       "dangerous"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "doable",
+      "viable",
+      "practicable",
+      "achievable"
+    ]
   },
   {
     "word": "flexible",
@@ -2340,7 +3492,13 @@
       "damaged beyond repair",
       "fixed and unmovable"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "adaptable",
+      "pliable",
+      "versatile",
+      "adjustable"
+    ]
   },
   {
     "word": "fluctuate",
@@ -2352,7 +3510,13 @@
       "to stop",
       "to freeze"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "vary",
+      "waver",
+      "oscillate",
+      "shift"
+    ]
   },
   {
     "word": "formulate",
@@ -2364,7 +3528,13 @@
       "to ignore",
       "to guess"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "devise",
+      "develop",
+      "create",
+      "construct"
+    ]
   },
   {
     "word": "frugal",
@@ -2376,7 +3546,13 @@
       "extremely wealthy",
       "overly generous"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "thrifty",
+      "economical",
+      "sparing",
+      "prudent"
+    ]
   },
   {
     "word": "fundamental",
@@ -2388,7 +3564,13 @@
       "random and unrelated",
       "temporary and short-lived"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "basic",
+      "essential",
+      "core",
+      "primary"
+    ]
   },
   {
     "word": "generate",
@@ -2400,7 +3582,13 @@
       "to hide",
       "to reduce"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "produce",
+      "create",
+      "cause",
+      "yield"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -2413,6 +3601,12 @@
       "angry",
       "wise",
       "careful"
+    ],
+    "synonyms": [
+      "naive",
+      "credulous",
+      "trusting",
+      "easily fooled"
     ]
   },
   {
@@ -2425,7 +3619,13 @@
       "calm and peaceful",
       "cheerful and pleasant"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "antagonistic",
+      "aggressive",
+      "unfriendly",
+      "belligerent"
+    ]
   },
   {
     "word": "hypothesis",
@@ -2437,7 +3637,13 @@
       "law",
       "result"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "theory",
+      "assumption",
+      "premise",
+      "conjecture"
+    ]
   },
   {
     "word": "illustrate",
@@ -2449,7 +3655,13 @@
       "to hide",
       "to delete"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "demonstrate",
+      "exemplify",
+      "depict",
+      "show"
+    ]
   },
   {
     "word": "imminent",
@@ -2461,7 +3673,13 @@
       "impossible",
       "delayed"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "impending",
+      "forthcoming",
+      "approaching",
+      "near"
+    ]
   },
   {
     "word": "impact",
@@ -2473,7 +3691,13 @@
       "random noise",
       "delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "effect",
+      "influence",
+      "impression",
+      "consequence"
+    ]
   },
   {
     "word": "implement",
@@ -2485,7 +3709,13 @@
       "to ignore",
       "to delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "execute",
+      "carry out",
+      "apply",
+      "enact"
+    ]
   },
   {
     "word": "implication",
@@ -2497,7 +3727,13 @@
       "rule",
       "fact"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "suggestion",
+      "insinuation",
+      "ramification",
+      "corollary"
+    ]
   },
   {
     "word": "imply",
@@ -2509,7 +3745,13 @@
       "to deny",
       "to ignore"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "suggest",
+      "indicate",
+      "hint",
+      "insinuate"
+    ]
   },
   {
     "word": "incentive",
@@ -2521,7 +3763,13 @@
       "delay",
       "result"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "motivation",
+      "inducement",
+      "stimulus",
+      "encouragement"
+    ]
   },
   {
     "word": "incline",
@@ -2533,7 +3781,13 @@
       "to break",
       "to hide"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "tend",
+      "lean",
+      "be disposed",
+      "favor"
+    ]
   },
   {
     "word": "incorporate",
@@ -2545,7 +3799,13 @@
       "to separate",
       "to destroy"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "include",
+      "integrate",
+      "merge",
+      "embody"
+    ]
   },
   {
     "word": "indicate",
@@ -2557,7 +3817,13 @@
       "to remove",
       "to confuse"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "show",
+      "signal",
+      "suggest",
+      "denote"
+    ]
   },
   {
     "word": "inefficient",
@@ -2569,7 +3835,13 @@
       "fast",
       "strong"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "wasteful",
+      "unproductive",
+      "ineffective",
+      "sluggish"
+    ]
   },
   {
     "word": "inevitable",
@@ -2581,7 +3853,13 @@
       "optional and avoidable",
       "unlikely to happen"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "unavoidable",
+      "certain",
+      "inescapable",
+      "assured"
+    ]
   },
   {
     "word": "inferior",
@@ -2593,7 +3871,13 @@
       "equal in quality",
       "flawless in quality"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "lesser",
+      "substandard",
+      "second-rate",
+      "lower"
+    ]
   },
   {
     "word": "inhibit",
@@ -2605,7 +3889,13 @@
       "to increase",
       "to support"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "hinder",
+      "restrain",
+      "impede",
+      "suppress"
+    ]
   },
   {
     "word": "initiate",
@@ -2617,7 +3907,13 @@
       "to stop",
       "to delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "start",
+      "begin",
+      "launch",
+      "commence"
+    ]
   },
   {
     "word": "innovate",
@@ -2629,7 +3925,13 @@
       "to destroy",
       "to repeat"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "invent",
+      "pioneer",
+      "modernize",
+      "create"
+    ]
   },
   {
     "word": "insight",
@@ -2641,7 +3943,13 @@
       "ignorance",
       "delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "understanding",
+      "perception",
+      "awareness",
+      "discernment"
+    ]
   },
   {
     "word": "insignificant",
@@ -2653,7 +3961,13 @@
       "huge",
       "critical"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "trivial",
+      "negligible",
+      "unimportant",
+      "minor"
+    ]
   },
   {
     "word": "integral",
@@ -2665,7 +3979,13 @@
       "extra",
       "random"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "essential",
+      "fundamental",
+      "necessary",
+      "intrinsic"
+    ]
   },
   {
     "word": "integrate",
@@ -2677,7 +3997,13 @@
       "to destroy",
       "to reduce"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "combine",
+      "merge",
+      "unify",
+      "incorporate"
+    ]
   },
   {
     "word": "interfere",
@@ -2689,7 +4015,13 @@
       "to support",
       "to fix"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "meddle",
+      "intervene",
+      "obstruct",
+      "disrupt"
+    ]
   },
   {
     "word": "interpret",
@@ -2701,7 +4033,13 @@
       "to hide",
       "to ignore"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "explain",
+      "understand",
+      "construe",
+      "decode"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -2714,6 +4052,12 @@
       "tired",
       "confused",
       "gentle"
+    ],
+    "synonyms": [
+      "fearless",
+      "bold",
+      "brave",
+      "courageous"
     ]
   },
   {
@@ -2726,7 +4070,13 @@
       "to include",
       "to combine"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "separate",
+      "seclude",
+      "segregate",
+      "quarantine"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -2739,6 +4089,12 @@
       "angry",
       "calm",
       "tired"
+    ],
+    "synonyms": [
+      "joyful",
+      "elated",
+      "exultant",
+      "ecstatic"
     ]
   },
   {
@@ -2751,7 +4107,13 @@
       "to ignore",
       "to break"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "defend",
+      "validate",
+      "vindicate",
+      "rationalize"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -2764,6 +4126,12 @@
       "angry and tense",
       "fast and hurried",
       "nervous and anxious"
+    ],
+    "synonyms": [
+      "sluggish",
+      "lethargic",
+      "listless",
+      "lazy"
     ]
   },
   {
@@ -2776,7 +4144,13 @@
       "wrong or incorrect",
       "illegal and unlawful"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "lawful",
+      "valid",
+      "legal",
+      "rightful"
+    ]
   },
   {
     "word": "levy",
@@ -2788,7 +4162,13 @@
       "to ignore",
       "to reduce"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "impose",
+      "charge",
+      "exact",
+      "tax"
+    ]
   },
   {
     "word": "lucid",
@@ -2800,7 +4180,13 @@
       "dark and hidden",
       "overly complicated"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "clear",
+      "coherent",
+      "understandable",
+      "transparent"
+    ]
   },
   {
     "word": "maintain",
@@ -2812,7 +4198,13 @@
       "to forget",
       "to ignore"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "sustain",
+      "preserve",
+      "uphold",
+      "continue"
+    ]
   },
   {
     "word": "manipulate",
@@ -2824,7 +4216,13 @@
       "to ignore",
       "to lose"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "control",
+      "influence",
+      "handle",
+      "exploit"
+    ]
   },
   {
     "word": "mediate",
@@ -2836,7 +4234,13 @@
       "to ignore",
       "to start"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "arbitrate",
+      "negotiate",
+      "intervene",
+      "reconcile"
+    ]
   },
   {
     "word": "mitigate",
@@ -2848,7 +4252,13 @@
       "to create",
       "to ignore"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "alleviate",
+      "ease",
+      "lessen",
+      "reduce"
+    ]
   },
   {
     "word": "modify",
@@ -2860,7 +4270,13 @@
       "to ignore",
       "to create"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "alter",
+      "adjust",
+      "change",
+      "revise"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -2873,6 +4289,12 @@
       "poor",
       "angry",
       "selfish"
+    ],
+    "synonyms": [
+      "generous",
+      "lavish",
+      "bountiful",
+      "liberal"
     ]
   },
   {
@@ -2886,6 +4308,12 @@
       "excited",
       "angry",
       "confused"
+    ],
+    "synonyms": [
+      "casual",
+      "unconcerned",
+      "indifferent",
+      "relaxed"
     ]
   },
   {
@@ -2898,7 +4326,13 @@
       "hidden from attention",
       "randomly selected"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "remarkable",
+      "noteworthy",
+      "significant",
+      "prominent"
+    ]
   },
   {
     "word": "notion",
@@ -2910,7 +4344,13 @@
       "rule",
       "law"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "idea",
+      "concept",
+      "belief",
+      "thought"
+    ]
   },
   {
     "word": "objective",
@@ -2922,7 +4362,13 @@
       "unfairly biased",
       "randomly decided"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "impartial",
+      "unbiased",
+      "factual",
+      "neutral"
+    ]
   },
   {
     "word": "obsolete",
@@ -2934,7 +4380,13 @@
       "useful",
       "new"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "outdated",
+      "defunct",
+      "antiquated",
+      "out-of-date"
+    ]
   },
   {
     "word": "obstruct",
@@ -2946,7 +4398,13 @@
       "to open",
       "to build"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "block",
+      "hinder",
+      "impede",
+      "hamper"
+    ]
   },
   {
     "word": "obtain",
@@ -2958,7 +4416,13 @@
       "to hide",
       "to break"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "acquire",
+      "get",
+      "procure",
+      "secure"
+    ]
   },
   {
     "word": "obvious",
@@ -2970,7 +4434,13 @@
       "confusing and unclear",
       "rare and unusual"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "clear",
+      "evident",
+      "apparent",
+      "plain"
+    ]
   },
   {
     "word": "offset",
@@ -2982,7 +4452,13 @@
       "to ignore",
       "to start"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "counterbalance",
+      "compensate",
+      "counteract",
+      "neutralize"
+    ]
   },
   {
     "word": "omit",
@@ -2994,7 +4470,13 @@
       "to create",
       "to expand"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "exclude",
+      "leave out",
+      "skip",
+      "drop"
+    ]
   },
   {
     "word": "ongoing",
@@ -3006,7 +4488,13 @@
       "stopped",
       "delayed"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "continuing",
+      "current",
+      "in progress",
+      "continual"
+    ]
   },
   {
     "word": "oppress",
@@ -3018,7 +4506,13 @@
       "to help",
       "to free"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "subjugate",
+      "tyrannize",
+      "persecute",
+      "crush"
+    ]
   },
   {
     "word": "optimize",
@@ -3030,7 +4524,13 @@
       "to reduce",
       "to ignore"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "improve",
+      "maximize",
+      "enhance",
+      "refine"
+    ]
   },
   {
     "word": "optional",
@@ -3042,7 +4542,13 @@
       "necessary",
       "forced"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "voluntary",
+      "elective",
+      "discretionary",
+      "non-mandatory"
+    ]
   },
   {
     "word": "outcome",
@@ -3054,7 +4560,13 @@
       "rule",
       "option"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "result",
+      "consequence",
+      "effect",
+      "upshot"
+    ]
   },
   {
     "word": "outsource",
@@ -3066,7 +4578,13 @@
       "to destroy",
       "to cancel"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "contract out",
+      "subcontract",
+      "delegate",
+      "farm out"
+    ]
   },
   {
     "word": "overcome",
@@ -3078,7 +4596,13 @@
       "to ignore",
       "to avoid"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "conquer",
+      "surmount",
+      "defeat",
+      "triumph over"
+    ]
   },
   {
     "word": "overlap",
@@ -3090,7 +4614,13 @@
       "to remove",
       "to break"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "coincide",
+      "intersect",
+      "converge",
+      "overlie"
+    ]
   },
   {
     "word": "paradox",
@@ -3102,7 +4632,13 @@
       "rule",
       "law"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "contradiction",
+      "inconsistency",
+      "puzzle",
+      "anomaly"
+    ]
   },
   {
     "word": "parameter",
@@ -3114,7 +4650,13 @@
       "random variation",
       "final result"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "boundary",
+      "limit",
+      "guideline",
+      "factor"
+    ]
   },
   {
     "word": "perceive",
@@ -3126,7 +4668,13 @@
       "to break",
       "to create"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "notice",
+      "discern",
+      "observe",
+      "sense"
+    ]
   },
   {
     "word": "periodic",
@@ -3138,7 +4686,13 @@
       "rare",
       "once only"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "recurrent",
+      "regular",
+      "cyclical",
+      "intermittent"
+    ]
   },
   {
     "word": "persistent",
@@ -3150,7 +4704,13 @@
       "lazy",
       "random"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "persevering",
+      "tenacious",
+      "relentless",
+      "determined"
+    ]
   },
   {
     "word": "persuade",
@@ -3162,7 +4722,13 @@
       "to ignore",
       "to reject"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "convince",
+      "induce",
+      "sway",
+      "influence"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -3175,6 +4741,12 @@
       "careless",
       "slow",
       "confused"
+    ],
+    "synonyms": [
+      "practical",
+      "realistic",
+      "sensible",
+      "down-to-earth"
     ]
   },
   {
@@ -3187,7 +4759,13 @@
       "to stop",
       "to delay"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "come before",
+      "antecede",
+      "lead",
+      "forerun"
+    ]
   },
   {
     "word": "precise",
@@ -3199,7 +4777,13 @@
       "random",
       "unclear"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "exact",
+      "accurate",
+      "specific",
+      "definite"
+    ]
   },
   {
     "word": "predict",
@@ -3211,7 +4795,13 @@
       "to ignore",
       "to confuse"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "forecast",
+      "foretell",
+      "anticipate",
+      "prophesy"
+    ]
   },
   {
     "word": "predominant",
@@ -3223,7 +4813,13 @@
       "hidden",
       "weak"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "dominant",
+      "prevailing",
+      "chief",
+      "primary"
+    ]
   },
   {
     "word": "preliminary",
@@ -3235,7 +4831,13 @@
       "optional",
       "random"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "introductory",
+      "initial",
+      "preparatory",
+      "opening"
+    ]
   },
   {
     "word": "presume",
@@ -3247,7 +4849,13 @@
       "to deny",
       "to measure"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "assume",
+      "suppose",
+      "take for granted",
+      "surmise"
+    ]
   },
   {
     "word": "profound",
@@ -3259,7 +4867,13 @@
       "overly simple",
       "weak in meaning"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "deep",
+      "intense",
+      "significant",
+      "weighty"
+    ]
   },
   {
     "word": "prohibit",
@@ -3271,7 +4885,13 @@
       "to encourage",
       "to create"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "forbid",
+      "ban",
+      "outlaw",
+      "disallow"
+    ]
   },
   {
     "word": "promote",
@@ -3283,7 +4903,13 @@
       "to reduce",
       "to hide"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "encourage",
+      "foster",
+      "advance",
+      "support"
+    ]
   },
   {
     "word": "proportion",
@@ -3295,7 +4921,13 @@
       "speed of movement",
       "weight of an object"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "ratio",
+      "balance",
+      "distribution",
+      "relation"
+    ]
   },
   {
     "word": "qualify",
@@ -3307,7 +4939,13 @@
       "to ignore",
       "to reject"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "be eligible",
+      "meet requirements",
+      "be entitled",
+      "be suited"
+    ]
   },
   {
     "word": "random",
@@ -3319,7 +4957,13 @@
       "planned",
       "fixed"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "arbitrary",
+      "haphazard",
+      "unsystematic",
+      "chance"
+    ]
   },
   {
     "word": "reconcile",
@@ -3331,7 +4975,13 @@
       "to fight",
       "to ignore"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "resolve",
+      "harmonize",
+      "settle",
+      "reunite"
+    ]
   },
   {
     "word": "refine",
@@ -3343,7 +4993,13 @@
       "to ignore",
       "to reduce"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "improve",
+      "polish",
+      "perfect",
+      "purify"
+    ]
   },
   {
     "word": "reinforce",
@@ -3355,7 +5011,13 @@
       "to remove",
       "to hide"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "strengthen",
+      "bolster",
+      "support",
+      "fortify"
+    ]
   },
   {
     "word": "reject",
@@ -3367,7 +5029,13 @@
       "to create",
       "to approve"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "refuse",
+      "decline",
+      "dismiss",
+      "turn down"
+    ]
   },
   {
     "word": "relevant",
@@ -3379,7 +5047,13 @@
       "pointless and useless",
       "randomly chosen"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "pertinent",
+      "applicable",
+      "related",
+      "apt"
+    ]
   },
   {
     "word": "reluctant",
@@ -3391,7 +5065,13 @@
       "excited",
       "happy"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "unwilling",
+      "hesitant",
+      "disinclined",
+      "loath"
+    ]
   },
   {
     "word": "remove",
@@ -3403,7 +5083,13 @@
       "to build",
       "to create"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "eliminate",
+      "take away",
+      "extract",
+      "delete"
+    ]
   },
   {
     "word": "require",
@@ -3415,7 +5101,13 @@
       "to remove",
       "to cancel"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "need",
+      "demand",
+      "necessitate",
+      "call for"
+    ]
   },
   {
     "word": "resemble",
@@ -3427,7 +5119,13 @@
       "to hide",
       "to change"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "look like",
+      "mirror",
+      "take after",
+      "be similar to"
+    ]
   },
   {
     "word": "resilient",
@@ -3439,7 +5137,13 @@
       "fragile and delicate",
       "permanently damaged"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "tough",
+      "adaptable",
+      "hardy",
+      "durable"
+    ]
   },
   {
     "word": "resist",
@@ -3451,7 +5155,13 @@
       "to support",
       "to allow"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "withstand",
+      "oppose",
+      "defy",
+      "fight"
+    ]
   },
   {
     "word": "restrict",
@@ -3463,7 +5173,13 @@
       "to ignore",
       "to allow"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "limit",
+      "confine",
+      "curb",
+      "constrain"
+    ]
   },
   {
     "word": "retain",
@@ -3475,7 +5191,13 @@
       "to forget",
       "to remove"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "keep",
+      "preserve",
+      "maintain",
+      "hold onto"
+    ]
   },
   {
     "word": "reveal",
@@ -3487,7 +5209,13 @@
       "to delete",
       "to confuse"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "disclose",
+      "expose",
+      "uncover",
+      "unveil"
+    ]
   },
   {
     "word": "scrutinize",
@@ -3499,7 +5227,13 @@
       "to guess",
       "to skip"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "examine",
+      "inspect",
+      "analyze",
+      "study closely"
+    ]
   },
   {
     "word": "select",
@@ -3511,7 +5245,13 @@
       "to destroy",
       "to ignore"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "choose",
+      "pick",
+      "opt for",
+      "elect"
+    ]
   },
   {
     "word": "significant",
@@ -3523,7 +5263,13 @@
       "random",
       "weak"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "important",
+      "notable",
+      "considerable",
+      "meaningful"
+    ]
   },
   {
     "word": "substantial",
@@ -3535,7 +5281,13 @@
       "completely empty",
       "weak or minor"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "considerable",
+      "sizable",
+      "ample",
+      "significant"
+    ]
   },
   {
     "word": "substitute",
@@ -3547,7 +5299,13 @@
       "cause",
       "result"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "replacement",
+      "alternative",
+      "stand-in",
+      "proxy"
+    ]
   },
   {
     "word": "subtle",
@@ -3559,7 +5317,13 @@
       "loud",
       "simple"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "understated",
+      "nuanced",
+      "faint",
+      "delicate"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -3572,6 +5336,12 @@
       "vague",
       "angry",
       "slow"
+    ],
+    "synonyms": [
+      "concise",
+      "brief",
+      "terse",
+      "to the point"
     ]
   },
   {
@@ -3584,7 +5354,13 @@
       "to break",
       "to reduce"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "maintain",
+      "support",
+      "prolong",
+      "uphold"
+    ]
   },
   {
     "word": "tangible",
@@ -3596,7 +5372,13 @@
       "hidden and unclear",
       "abstract and vague"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "concrete",
+      "palpable",
+      "real",
+      "touchable"
+    ]
   },
   {
     "source": "Non-Official Material",
@@ -3609,6 +5391,12 @@
       "careless",
       "slow",
       "confused"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -3621,7 +5409,13 @@
       "to continue",
       "to expand"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "end",
+      "conclude",
+      "finish",
+      "stop"
+    ]
   },
   {
     "word": "transform",
@@ -3633,7 +5427,13 @@
       "to hide",
       "to destroy"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "change",
+      "convert",
+      "alter",
+      "transmute"
+    ]
   },
   {
     "word": "transition",
@@ -3645,7 +5445,13 @@
       "end",
       "start only"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "change",
+      "shift",
+      "changeover",
+      "conversion"
+    ]
   },
   {
     "word": "transmit",
@@ -3657,7 +5463,13 @@
       "to hide",
       "to break"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "send",
+      "convey",
+      "transfer",
+      "relay"
+    ]
   },
   {
     "word": "ultimate",
@@ -3669,7 +5481,13 @@
       "randomly chosen",
       "minor or unimportant"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "final",
+      "last",
+      "supreme",
+      "definitive"
+    ]
   },
   {
     "word": "vague",
@@ -3681,7 +5499,13 @@
       "very bright",
       "very loud"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "unclear",
+      "hazy",
+      "ambiguous",
+      "imprecise"
+    ]
   },
   {
     "word": "valid",
@@ -3693,7 +5517,13 @@
       "false and misleading",
       "useless and pointless"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "legitimate",
+      "sound",
+      "acceptable",
+      "reasonable"
+    ]
   },
   {
     "word": "verify",
@@ -3705,7 +5535,13 @@
       "to ignore",
       "to hide"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "confirm",
+      "check",
+      "validate",
+      "corroborate"
+    ]
   },
   {
     "word": "viable",
@@ -3717,7 +5553,13 @@
       "useless",
       "random"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "workable",
+      "feasible",
+      "practicable",
+      "sustainable"
+    ]
   },
   {
     "word": "voluntary",
@@ -3729,6 +5571,12 @@
       "required by law",
       "mandatory for everyone"
     ],
-    "source": "Non-Official Material"
+    "source": "Non-Official Material",
+    "synonyms": [
+      "willing",
+      "unforced",
+      "discretionary",
+      "elective"
+    ]
   }
 ]

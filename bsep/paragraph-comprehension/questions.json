@@ -12,6 +12,12 @@
       "leader",
       "instructor",
       "veteran"
+    ],
+    "synonyms": [
+      "novice",
+      "beginner",
+      "newcomer",
+      "rookie"
     ]
   },
   {
@@ -27,6 +33,12 @@
       "divide into opposing groups",
       "strengthen unity",
       "encourage agreement"
+    ],
+    "synonyms": [
+      "divide",
+      "split",
+      "separate",
+      "estrange"
     ]
   },
   {
@@ -42,6 +54,12 @@
       "dangerous",
       "humorous",
       "complicated"
+    ],
+    "synonyms": [
+      "dull",
+      "mundane",
+      "unimaginative",
+      "plain"
     ]
   },
   {
@@ -57,6 +75,12 @@
       "fear",
       "anger",
       "quiet stillness"
+    ],
+    "synonyms": [
+      "dormancy",
+      "stillness",
+      "inactivity",
+      "calm"
     ]
   },
   {
@@ -72,6 +96,12 @@
       "angry",
       "joking",
       "emotional"
+    ],
+    "synonyms": [
+      "flippant",
+      "joking",
+      "glib",
+      "tongue-in-cheek"
     ]
   },
   {
@@ -87,6 +117,12 @@
       "celebrate loudly",
       "refuse entirely",
       "explain carefully"
+    ],
+    "synonyms": [
+      "waver",
+      "oscillate",
+      "hesitate",
+      "fluctuate"
     ]
   },
   {
@@ -102,6 +138,12 @@
       "postpone",
       "supervise",
       "discover accidentally"
+    ],
+    "synonyms": [
+      "concoct",
+      "design",
+      "invent",
+      "formulate"
     ]
   },
   {
@@ -117,6 +159,12 @@
       "spacious",
       "hidden",
       "damaged"
+    ],
+    "synonyms": [
+      "roomy",
+      "spacious",
+      "ample",
+      "expansive"
     ]
   },
   {
@@ -132,6 +180,12 @@
       "a gesture of respect",
       "a salute",
       "a frown"
+    ],
+    "synonyms": [
+      "frown",
+      "glower",
+      "grimace",
+      "sneer"
     ]
   },
   {
@@ -147,6 +201,12 @@
       "a commander",
       "a witness",
       "someone promoted"
+    ],
+    "synonyms": [
+      "fall guy",
+      "whipping boy",
+      "patsy",
+      "sacrificial lamb"
     ]
   },
   {
@@ -162,6 +222,12 @@
       "ignore",
       "confuse",
       "clarify"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -177,6 +243,12 @@
       "quick and brief",
       "simple and effortless",
       "difficult and tiring"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -192,6 +264,12 @@
       "weak",
       "lazy",
       "holding firmly"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -207,6 +285,12 @@
       "foolish and unwise",
       "cautious and wise",
       "hasty and rushed"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -222,6 +306,12 @@
       "completely silent",
       "clear and direct",
       "brief and to the point"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -237,6 +327,12 @@
       "fight against something",
       "resist strongly",
       "ignore completely"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -252,6 +348,12 @@
       "slow to understand",
       "foolish and unwise",
       "shrewd and perceptive"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -267,6 +369,12 @@
       "cold and distant",
       "unfriendly and harsh",
       "hostile and aggressive"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -282,6 +390,12 @@
       "manageable",
       "simple",
       "seeming difficult"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -297,6 +411,12 @@
       "avoid entirely",
       "reject strongly",
       "ignore on purpose"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -312,6 +432,12 @@
       "intensely enthusiastic",
       "apathetic",
       "indifferent"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -327,6 +453,12 @@
       "unnecessary",
       "helpful",
       "useful"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -342,6 +474,12 @@
       "speed",
       "assist",
       "help"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -357,6 +495,12 @@
       "biased",
       "partial",
       "unfair"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -372,6 +516,12 @@
       "keep secure",
       "preserve carefully",
       "protect fully"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -387,6 +537,12 @@
       "celebrate",
       "cheer",
       "express sadness"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -402,6 +558,12 @@
       "careless",
       "very careful",
       "sloppy"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -417,6 +579,12 @@
       "content with the present",
       "excited about today",
       "longing for the past"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -432,6 +600,12 @@
       "widely known",
       "plain and simple",
       "obvious to all"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -447,6 +621,12 @@
       "completely secure",
       "easy and simple",
       "full of danger"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -462,6 +642,12 @@
       "happy",
       "content",
       "complaining"
+    ],
+    "synonyms": [
+      "complaining",
+      "whiny",
+      "peevish",
+      "fretful"
     ]
   },
   {
@@ -477,6 +663,12 @@
       "drain",
       "refill",
       "exhaust"
+    ],
+    "synonyms": [
+      "restock",
+      "refill",
+      "renew",
+      "restore"
     ]
   },
   {
@@ -492,6 +684,12 @@
       "constant",
       "regular",
       "frequent"
+    ],
+    "synonyms": [
+      "occasional",
+      "intermittent",
+      "irregular",
+      "scattered"
     ]
   },
   {
@@ -507,6 +705,12 @@
       "peaceful and quiet",
       "calm and steady",
       "orderly and structured"
+    ],
+    "synonyms": [
+      "chaotic",
+      "turbulent",
+      "riotous",
+      "stormy"
     ]
   },
   {
@@ -522,6 +726,12 @@
       "never done before",
       "common and frequent",
       "ordinary and typical"
+    ],
+    "synonyms": [
+      "unparalleled",
+      "unmatched",
+      "unheard-of",
+      "novel"
     ]
   },
   {
@@ -537,6 +747,12 @@
       "blame",
       "convict",
       "condemn"
+    ],
+    "synonyms": [
+      "exonerate",
+      "clear",
+      "absolve",
+      "justify"
     ]
   },
   {
@@ -552,6 +768,12 @@
       "confident",
       "trusting",
       "reckless"
+    ],
+    "synonyms": [
+      "careful",
+      "guarded",
+      "watchful",
+      "suspicious"
     ]
   },
   {
@@ -567,6 +789,12 @@
       "very enthusiastic",
       "lazy",
       "apathetic"
+    ],
+    "synonyms": [
+      "enthusiastic",
+      "ardent",
+      "fervent",
+      "passionate"
     ]
   },
   {
@@ -582,6 +810,12 @@
       "intensify",
       "reduce pain",
       "aggravate"
+    ],
+    "synonyms": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
     ]
   },
   {
@@ -597,6 +831,12 @@
       "cruel and heartless",
       "harsh and severe",
       "mean and unkind"
+    ],
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
     ]
   },
   {
@@ -612,6 +852,12 @@
       "confuse",
       "explain clearly",
       "clarify"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -627,6 +873,12 @@
       "simple and effortless",
       "difficult and tiring",
       "quick and brief"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -642,6 +894,12 @@
       "holding firmly",
       "weak",
       "confused"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -657,6 +915,12 @@
       "hasty and rushed",
       "cautious and wise",
       "careless and unwise"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -672,6 +936,12 @@
       "using too many words",
       "brief and to the point",
       "clear and direct"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -687,6 +957,12 @@
       "ignore completely",
       "fight against something",
       "resist strongly"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -702,6 +978,12 @@
       "shrewd and perceptive",
       "slow to understand",
       "naive and trusting"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -717,6 +999,12 @@
       "pleasant and friendly",
       "unfriendly and harsh",
       "cold and distant"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -732,6 +1020,12 @@
       "easy",
       "manageable",
       "simple"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -747,6 +1041,12 @@
       "try to equal",
       "forget completely",
       "ignore on purpose"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -762,6 +1062,12 @@
       "indifferent",
       "bored",
       "apathetic"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -777,6 +1083,12 @@
       "helpful",
       "essential",
       "needed"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -792,6 +1104,12 @@
       "create difficulties",
       "aid",
       "help"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -807,6 +1125,12 @@
       "unjust",
       "unfair",
       "unbiased"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -822,6 +1146,12 @@
       "protect fully",
       "preserve carefully",
       "keep secure"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -837,6 +1167,12 @@
       "celebrate",
       "express sadness",
       "cheer"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -852,6 +1188,12 @@
       "careless",
       "hasty",
       "messy"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -867,6 +1209,12 @@
       "longing for the past",
       "content with the present",
       "hopeful about tomorrow"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -882,6 +1230,12 @@
       "not well known",
       "plain and simple",
       "clear and evident"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -897,6 +1251,12 @@
       "safe and sound",
       "calm and peaceful",
       "full of danger"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -912,6 +1272,12 @@
       "satisfied",
       "happy",
       "content"
+    ],
+    "synonyms": [
+      "complaining",
+      "whiny",
+      "peevish",
+      "fretful"
     ]
   },
   {
@@ -927,6 +1293,12 @@
       "refill",
       "empty",
       "deplete"
+    ],
+    "synonyms": [
+      "restock",
+      "refill",
+      "renew",
+      "restore"
     ]
   },
   {
@@ -942,6 +1314,12 @@
       "frequent",
       "steady",
       "occurring irregularly"
+    ],
+    "synonyms": [
+      "occasional",
+      "intermittent",
+      "irregular",
+      "scattered"
     ]
   },
   {
@@ -957,6 +1335,12 @@
       "calm and steady",
       "orderly and structured",
       "peaceful and quiet"
+    ],
+    "synonyms": [
+      "chaotic",
+      "turbulent",
+      "riotous",
+      "stormy"
     ]
   },
   {
@@ -972,6 +1356,12 @@
       "ordinary and typical",
       "common and frequent",
       "never done before"
+    ],
+    "synonyms": [
+      "unparalleled",
+      "unmatched",
+      "unheard-of",
+      "novel"
     ]
   },
   {
@@ -987,6 +1377,12 @@
       "accuse",
       "condemn",
       "blame"
+    ],
+    "synonyms": [
+      "exonerate",
+      "clear",
+      "absolve",
+      "justify"
     ]
   },
   {
@@ -1002,6 +1398,12 @@
       "trusting",
       "careless",
       "confident"
+    ],
+    "synonyms": [
+      "careful",
+      "guarded",
+      "watchful",
+      "suspicious"
     ]
   },
   {
@@ -1017,6 +1419,12 @@
       "uninterested",
       "apathetic",
       "indifferent"
+    ],
+    "synonyms": [
+      "enthusiastic",
+      "ardent",
+      "fervent",
+      "passionate"
     ]
   },
   {
@@ -1032,6 +1440,12 @@
       "increase",
       "aggravate",
       "intensify"
+    ],
+    "synonyms": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
     ]
   },
   {
@@ -1047,6 +1461,12 @@
       "cruel and heartless",
       "harsh and severe",
       "mean and unkind"
+    ],
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
     ]
   },
   {
@@ -1062,6 +1482,12 @@
       "hide",
       "ignore",
       "clarify"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -1077,6 +1503,12 @@
       "difficult and tiring",
       "safe and secure",
       "quick and brief"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -1092,6 +1524,12 @@
       "weak",
       "lazy",
       "holding firmly"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -1107,6 +1545,12 @@
       "foolish and unwise",
       "reckless and rash",
       "careless and unwise"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -1122,6 +1566,12 @@
       "concise and short",
       "brief and to the point",
       "completely silent"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -1137,6 +1587,12 @@
       "resist strongly",
       "win decisively",
       "fight against something"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -1152,6 +1608,12 @@
       "dull and unaware",
       "foolish and unwise",
       "slow to understand"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -1167,6 +1629,12 @@
       "hostile and aggressive",
       "pleasant and friendly",
       "cold and distant"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -1182,6 +1650,12 @@
       "easy",
       "manageable",
       "simple"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -1197,6 +1671,12 @@
       "avoid entirely",
       "try to equal",
       "ignore on purpose"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -1212,6 +1692,12 @@
       "apathetic",
       "intensely enthusiastic",
       "calm"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -1227,6 +1713,12 @@
       "needed",
       "helpful",
       "essential"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -1242,6 +1734,12 @@
       "create difficulties",
       "speed",
       "help"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -1257,6 +1755,12 @@
       "unfair",
       "unjust",
       "partial"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -1272,6 +1776,12 @@
       "preserve carefully",
       "put at risk",
       "safeguard completely"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -1287,6 +1797,12 @@
       "cheer",
       "praise",
       "express sadness"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -1302,6 +1818,12 @@
       "sloppy",
       "very careful",
       "hasty"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -1317,6 +1839,12 @@
       "content with the present",
       "excited about today",
       "eager for the future"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -1332,6 +1860,12 @@
       "plain and simple",
       "widely known",
       "clear and evident"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -1347,6 +1881,12 @@
       "calm and peaceful",
       "easy and simple",
       "full of danger"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -1362,6 +1902,12 @@
       "complaining",
       "cheerful",
       "satisfied"
+    ],
+    "synonyms": [
+      "complaining",
+      "whiny",
+      "peevish",
+      "fretful"
     ]
   },
   {
@@ -1377,6 +1923,12 @@
       "refill",
       "exhaust",
       "empty"
+    ],
+    "synonyms": [
+      "restock",
+      "refill",
+      "renew",
+      "restore"
     ]
   },
   {
@@ -1392,6 +1944,12 @@
       "steady",
       "frequent",
       "regular"
+    ],
+    "synonyms": [
+      "occasional",
+      "intermittent",
+      "irregular",
+      "scattered"
     ]
   },
   {
@@ -1407,6 +1965,12 @@
       "orderly and structured",
       "very loud and disorderly",
       "calm and steady"
+    ],
+    "synonyms": [
+      "chaotic",
+      "turbulent",
+      "riotous",
+      "stormy"
     ]
   },
   {
@@ -1422,6 +1986,12 @@
       "typical and expected",
       "usual and routine",
       "never done before"
+    ],
+    "synonyms": [
+      "unparalleled",
+      "unmatched",
+      "unheard-of",
+      "novel"
     ]
   },
   {
@@ -1437,6 +2007,12 @@
       "prove right",
       "blame",
       "condemn"
+    ],
+    "synonyms": [
+      "exonerate",
+      "clear",
+      "absolve",
+      "justify"
     ]
   },
   {
@@ -1452,6 +2028,12 @@
       "confident",
       "cautious",
       "reckless"
+    ],
+    "synonyms": [
+      "careful",
+      "guarded",
+      "watchful",
+      "suspicious"
     ]
   },
   {
@@ -1467,6 +2049,12 @@
       "lazy",
       "indifferent",
       "uninterested"
+    ],
+    "synonyms": [
+      "enthusiastic",
+      "ardent",
+      "fervent",
+      "passionate"
     ]
   },
   {
@@ -1482,6 +2070,12 @@
       "worsen",
       "intensify",
       "increase"
+    ],
+    "synonyms": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
     ]
   },
   {
@@ -1497,6 +2091,12 @@
       "cruel and heartless",
       "selfish and greedy",
       "mean and unkind"
+    ],
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
     ]
   },
   {
@@ -1512,6 +2112,12 @@
       "hide",
       "clarify",
       "explain clearly"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -1527,6 +2133,12 @@
       "quick and brief",
       "short and easy",
       "safe and secure"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -1542,6 +2154,12 @@
       "timid",
       "lazy",
       "weak"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -1557,6 +2175,12 @@
       "reckless and rash",
       "hasty and rushed",
       "careless and unwise"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -1572,6 +2196,12 @@
       "completely silent",
       "brief and to the point",
       "clear and direct"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -1587,6 +2217,12 @@
       "yield to something",
       "ignore completely",
       "resist strongly"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -1602,6 +2238,12 @@
       "foolish and unwise",
       "dull and unaware",
       "slow to understand"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -1617,6 +2259,12 @@
       "pleasant and friendly",
       "unfriendly and harsh",
       "rude and dismissive"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -1632,6 +2280,12 @@
       "simple",
       "seeming difficult",
       "trivial"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -1647,6 +2301,12 @@
       "reject strongly",
       "ignore on purpose",
       "avoid entirely"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -1662,6 +2322,12 @@
       "bored",
       "apathetic",
       "intensely enthusiastic"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -1677,6 +2343,12 @@
       "useful",
       "essential",
       "unnecessary"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -1692,6 +2364,12 @@
       "aid",
       "assist",
       "create difficulties"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -1707,6 +2385,12 @@
       "unbiased",
       "biased",
       "unjust"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -1722,6 +2406,12 @@
       "keep secure",
       "preserve carefully",
       "protect fully"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -1737,6 +2427,12 @@
       "celebrate",
       "rejoice",
       "cheer"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -1752,6 +2448,12 @@
       "very careful",
       "hasty",
       "sloppy"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -1767,6 +2469,12 @@
       "longing for the past",
       "excited about today",
       "eager for the future"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -1782,6 +2490,12 @@
       "not well known",
       "obvious to all",
       "widely known"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -1797,6 +2511,12 @@
       "easy and simple",
       "calm and peaceful",
       "completely secure"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -1812,6 +2532,12 @@
       "content",
       "satisfied",
       "cheerful"
+    ],
+    "synonyms": [
+      "complaining",
+      "whiny",
+      "peevish",
+      "fretful"
     ]
   },
   {
@@ -1827,6 +2553,12 @@
       "drain",
       "deplete",
       "refill"
+    ],
+    "synonyms": [
+      "restock",
+      "refill",
+      "renew",
+      "restore"
     ]
   },
   {
@@ -1842,6 +2574,12 @@
       "steady",
       "frequent",
       "constant"
+    ],
+    "synonyms": [
+      "occasional",
+      "intermittent",
+      "irregular",
+      "scattered"
     ]
   },
   {
@@ -1857,6 +2595,12 @@
       "quiet and still",
       "peaceful and quiet",
       "calm and steady"
+    ],
+    "synonyms": [
+      "chaotic",
+      "turbulent",
+      "riotous",
+      "stormy"
     ]
   },
   {
@@ -1872,6 +2616,12 @@
       "common and frequent",
       "usual and routine",
       "never done before"
+    ],
+    "synonyms": [
+      "unparalleled",
+      "unmatched",
+      "unheard-of",
+      "novel"
     ]
   },
   {
@@ -1887,6 +2637,12 @@
       "blame",
       "condemn",
       "accuse"
+    ],
+    "synonyms": [
+      "exonerate",
+      "clear",
+      "absolve",
+      "justify"
     ]
   },
   {
@@ -1902,6 +2658,12 @@
       "trusting",
       "careless",
       "reckless"
+    ],
+    "synonyms": [
+      "careful",
+      "guarded",
+      "watchful",
+      "suspicious"
     ]
   },
   {
@@ -1917,6 +2679,12 @@
       "indifferent",
       "very enthusiastic",
       "uninterested"
+    ],
+    "synonyms": [
+      "enthusiastic",
+      "ardent",
+      "fervent",
+      "passionate"
     ]
   },
   {
@@ -1932,6 +2700,12 @@
       "worsen",
       "intensify",
       "reduce pain"
+    ],
+    "synonyms": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
     ]
   },
   {
@@ -1947,6 +2721,12 @@
       "harsh and severe",
       "kind and generous",
       "selfish and greedy"
+    ],
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
     ]
   },
   {
@@ -1962,6 +2742,12 @@
       "hide",
       "confuse",
       "explain clearly"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -1977,6 +2763,12 @@
       "quick and brief",
       "simple and effortless",
       "short and easy"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -1992,6 +2784,12 @@
       "holding firmly",
       "lazy",
       "weak"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -2007,6 +2805,12 @@
       "hasty and rushed",
       "cautious and wise",
       "reckless and rash"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -2022,6 +2826,12 @@
       "using too many words",
       "concise and short",
       "completely silent"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -2037,6 +2847,12 @@
       "fight against something",
       "resist strongly",
       "yield to something"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -2052,6 +2868,12 @@
       "naive and trusting",
       "foolish and unwise",
       "dull and unaware"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -2067,6 +2889,12 @@
       "rude and dismissive",
       "hostile and aggressive",
       "cold and distant"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -2082,6 +2910,12 @@
       "easy",
       "trivial",
       "manageable"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -2097,6 +2931,12 @@
       "avoid entirely",
       "ignore on purpose",
       "forget completely"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -2112,6 +2952,12 @@
       "bored",
       "indifferent",
       "calm"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -2127,6 +2973,12 @@
       "helpful",
       "essential",
       "useful"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -2142,6 +2994,12 @@
       "create difficulties",
       "help",
       "assist"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -2157,6 +3015,12 @@
       "unjust",
       "partial",
       "unbiased"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -2172,6 +3036,12 @@
       "protect fully",
       "keep secure",
       "preserve carefully"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -2187,6 +3057,12 @@
       "cheer",
       "express sadness",
       "rejoice"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -2202,6 +3078,12 @@
       "careless",
       "hasty",
       "very careful"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -2217,6 +3099,12 @@
       "longing for the past",
       "eager for the future",
       "content with the present"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -2232,6 +3120,12 @@
       "not well known",
       "obvious to all",
       "clear and evident"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -2247,6 +3141,12 @@
       "full of danger",
       "easy and simple",
       "calm and peaceful"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -2262,6 +3162,12 @@
       "content",
       "happy",
       "cheerful"
+    ],
+    "synonyms": [
+      "complaining",
+      "whiny",
+      "peevish",
+      "fretful"
     ]
   },
   {
@@ -2277,6 +3183,12 @@
       "refill",
       "exhaust",
       "drain"
+    ],
+    "synonyms": [
+      "restock",
+      "refill",
+      "renew",
+      "restore"
     ]
   },
   {
@@ -2292,6 +3204,12 @@
       "frequent",
       "constant",
       "steady"
+    ],
+    "synonyms": [
+      "occasional",
+      "intermittent",
+      "irregular",
+      "scattered"
     ]
   },
   {
@@ -2307,6 +3225,12 @@
       "calm and steady",
       "orderly and structured",
       "quiet and still"
+    ],
+    "synonyms": [
+      "chaotic",
+      "turbulent",
+      "riotous",
+      "stormy"
     ]
   },
   {
@@ -2322,6 +3246,12 @@
       "never done before",
       "typical and expected",
       "usual and routine"
+    ],
+    "synonyms": [
+      "unparalleled",
+      "unmatched",
+      "unheard-of",
+      "novel"
     ]
   },
   {
@@ -2337,6 +3267,12 @@
       "accuse",
       "prove right",
       "condemn"
+    ],
+    "synonyms": [
+      "exonerate",
+      "clear",
+      "absolve",
+      "justify"
     ]
   },
   {
@@ -2352,6 +3288,12 @@
       "reckless",
       "careless",
       "cautious"
+    ],
+    "synonyms": [
+      "careful",
+      "guarded",
+      "watchful",
+      "suspicious"
     ]
   },
   {
@@ -2367,6 +3309,12 @@
       "indifferent",
       "uninterested",
       "lazy"
+    ],
+    "synonyms": [
+      "enthusiastic",
+      "ardent",
+      "fervent",
+      "passionate"
     ]
   },
   {
@@ -2382,6 +3330,12 @@
       "reduce pain",
       "increase",
       "worsen"
+    ],
+    "synonyms": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
     ]
   },
   {
@@ -2397,6 +3351,12 @@
       "mean and unkind",
       "cruel and heartless",
       "selfish and greedy"
+    ],
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
     ]
   },
   {
@@ -2412,6 +3372,12 @@
       "confuse",
       "clarify",
       "ignore"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -2427,6 +3393,12 @@
       "short and easy",
       "difficult and tiring",
       "simple and effortless"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -2442,6 +3414,12 @@
       "confused",
       "holding firmly",
       "weak"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -2457,6 +3435,12 @@
       "careless and unwise",
       "cautious and wise",
       "reckless and rash"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -2472,6 +3456,12 @@
       "using too many words",
       "concise and short",
       "completely silent"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -2487,6 +3477,12 @@
       "ignore completely",
       "resist strongly",
       "yield to something"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -2502,6 +3498,12 @@
       "shrewd and perceptive",
       "naive and trusting",
       "foolish and unwise"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -2517,6 +3519,12 @@
       "pleasant and friendly",
       "rude and dismissive",
       "hostile and aggressive"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -2532,6 +3540,12 @@
       "trivial",
       "seeming difficult",
       "simple"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -2547,6 +3561,12 @@
       "forget completely",
       "reject strongly",
       "ignore on purpose"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -2562,6 +3582,12 @@
       "apathetic",
       "intensely enthusiastic",
       "indifferent"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -2577,6 +3603,12 @@
       "essential",
       "unnecessary",
       "needed"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -2592,6 +3624,12 @@
       "aid",
       "assist",
       "help"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -2607,6 +3645,12 @@
       "biased",
       "unbiased",
       "unjust"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -2622,6 +3666,12 @@
       "preserve carefully",
       "keep secure",
       "put at risk"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -2637,6 +3687,12 @@
       "cheer",
       "celebrate",
       "express sadness"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -2652,6 +3708,12 @@
       "careless",
       "sloppy",
       "hasty"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -2667,6 +3729,12 @@
       "excited about today",
       "longing for the past",
       "hopeful about tomorrow"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -2682,6 +3750,12 @@
       "widely known",
       "clear and evident",
       "plain and simple"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -2697,6 +3771,12 @@
       "completely secure",
       "easy and simple",
       "safe and sound"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -2712,6 +3792,12 @@
       "happy",
       "complaining",
       "content"
+    ],
+    "synonyms": [
+      "complaining",
+      "whiny",
+      "peevish",
+      "fretful"
     ]
   },
   {
@@ -2727,6 +3813,12 @@
       "drain",
       "deplete",
       "empty"
+    ],
+    "synonyms": [
+      "restock",
+      "refill",
+      "renew",
+      "restore"
     ]
   },
   {
@@ -2742,6 +3834,12 @@
       "occurring irregularly",
       "regular",
       "constant"
+    ],
+    "synonyms": [
+      "occasional",
+      "intermittent",
+      "irregular",
+      "scattered"
     ]
   },
   {
@@ -2757,6 +3855,12 @@
       "orderly and structured",
       "peaceful and quiet",
       "very loud and disorderly"
+    ],
+    "synonyms": [
+      "chaotic",
+      "turbulent",
+      "riotous",
+      "stormy"
     ]
   },
   {
@@ -2772,6 +3876,12 @@
       "usual and routine",
       "never done before",
       "common and frequent"
+    ],
+    "synonyms": [
+      "unparalleled",
+      "unmatched",
+      "unheard-of",
+      "novel"
     ]
   },
   {
@@ -2787,6 +3897,12 @@
       "condemn",
       "convict",
       "blame"
+    ],
+    "synonyms": [
+      "exonerate",
+      "clear",
+      "absolve",
+      "justify"
     ]
   },
   {
@@ -2802,6 +3918,12 @@
       "careless",
       "cautious",
       "reckless"
+    ],
+    "synonyms": [
+      "careful",
+      "guarded",
+      "watchful",
+      "suspicious"
     ]
   },
   {
@@ -2817,6 +3939,12 @@
       "apathetic",
       "uninterested",
       "very enthusiastic"
+    ],
+    "synonyms": [
+      "enthusiastic",
+      "ardent",
+      "fervent",
+      "passionate"
     ]
   },
   {
@@ -2832,6 +3960,12 @@
       "increase",
       "intensify",
       "aggravate"
+    ],
+    "synonyms": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
     ]
   },
   {
@@ -2847,6 +3981,12 @@
       "harsh and severe",
       "cruel and heartless",
       "kind and generous"
+    ],
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
     ]
   },
   {
@@ -2862,6 +4002,12 @@
       "ignore",
       "clarify",
       "hide"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -2877,6 +4023,12 @@
       "simple and effortless",
       "safe and secure",
       "difficult and tiring"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -2892,6 +4044,12 @@
       "timid",
       "holding firmly",
       "confused"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -2907,6 +4065,12 @@
       "foolish and unwise",
       "cautious and wise",
       "hasty and rushed"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -2922,6 +4086,12 @@
       "brief and to the point",
       "using too many words",
       "concise and short"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -2937,6 +4107,12 @@
       "ignore completely",
       "yield to something",
       "resist strongly"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -2952,6 +4128,12 @@
       "slow to understand",
       "foolish and unwise",
       "naive and trusting"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -2967,6 +4149,12 @@
       "unfriendly and harsh",
       "rude and dismissive",
       "hostile and aggressive"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -2982,6 +4170,12 @@
       "manageable",
       "trivial",
       "easy"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -2997,6 +4191,12 @@
       "ignore on purpose",
       "forget completely",
       "reject strongly"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -3012,6 +4212,12 @@
       "indifferent",
       "intensely enthusiastic",
       "calm"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -3027,6 +4233,12 @@
       "unnecessary",
       "useful",
       "helpful"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -3042,6 +4254,12 @@
       "create difficulties",
       "assist",
       "help"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -3057,6 +4275,12 @@
       "unfair",
       "partial",
       "unjust"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -3072,6 +4296,12 @@
       "protect fully",
       "safeguard completely",
       "put at risk"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -3087,6 +4317,12 @@
       "express sadness",
       "cheer",
       "rejoice"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -3102,6 +4338,12 @@
       "careless",
       "very careful",
       "hasty"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -3117,6 +4359,12 @@
       "longing for the past",
       "content with the present",
       "eager for the future"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -3132,6 +4380,12 @@
       "plain and simple",
       "clear and evident",
       "not well known"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -3147,6 +4401,12 @@
       "full of danger",
       "completely secure",
       "safe and sound"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -3162,6 +4422,12 @@
       "content",
       "complaining",
       "happy"
+    ],
+    "synonyms": [
+      "complaining",
+      "whiny",
+      "peevish",
+      "fretful"
     ]
   },
   {
@@ -3177,6 +4443,12 @@
       "refill",
       "drain",
       "exhaust"
+    ],
+    "synonyms": [
+      "restock",
+      "refill",
+      "renew",
+      "restore"
     ]
   },
   {
@@ -3192,6 +4464,12 @@
       "frequent",
       "steady",
       "occurring irregularly"
+    ],
+    "synonyms": [
+      "occasional",
+      "intermittent",
+      "irregular",
+      "scattered"
     ]
   },
   {
@@ -3207,6 +4485,12 @@
       "very loud and disorderly",
       "peaceful and quiet",
       "quiet and still"
+    ],
+    "synonyms": [
+      "chaotic",
+      "turbulent",
+      "riotous",
+      "stormy"
     ]
   },
   {
@@ -3222,6 +4506,12 @@
       "typical and expected",
       "never done before",
       "usual and routine"
+    ],
+    "synonyms": [
+      "unparalleled",
+      "unmatched",
+      "unheard-of",
+      "novel"
     ]
   },
   {
@@ -3237,6 +4527,12 @@
       "convict",
       "condemn",
       "blame"
+    ],
+    "synonyms": [
+      "exonerate",
+      "clear",
+      "absolve",
+      "justify"
     ]
   },
   {
@@ -3252,6 +4548,12 @@
       "careless",
       "confident",
       "cautious"
+    ],
+    "synonyms": [
+      "careful",
+      "guarded",
+      "watchful",
+      "suspicious"
     ]
   },
   {
@@ -3267,6 +4569,12 @@
       "uninterested",
       "indifferent",
       "apathetic"
+    ],
+    "synonyms": [
+      "enthusiastic",
+      "ardent",
+      "fervent",
+      "passionate"
     ]
   },
   {
@@ -3282,6 +4590,12 @@
       "worsen",
       "aggravate",
       "increase"
+    ],
+    "synonyms": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
     ]
   },
   {
@@ -3297,6 +4611,12 @@
       "kind and generous",
       "selfish and greedy",
       "cruel and heartless"
+    ],
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
     ]
   },
   {
@@ -3312,6 +4632,12 @@
       "hide",
       "confuse",
       "explain clearly"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -3327,6 +4653,12 @@
       "difficult and tiring",
       "simple and effortless",
       "quick and brief"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -3342,6 +4674,12 @@
       "confused",
       "timid",
       "weak"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -3357,6 +4695,12 @@
       "careless and unwise",
       "foolish and unwise",
       "reckless and rash"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -3372,6 +4716,12 @@
       "completely silent",
       "concise and short",
       "using too many words"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -3387,6 +4737,12 @@
       "yield to something",
       "resist strongly",
       "ignore completely"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -3402,6 +4758,12 @@
       "dull and unaware",
       "slow to understand",
       "foolish and unwise"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -3417,6 +4779,12 @@
       "cold and distant",
       "unfriendly and harsh",
       "rude and dismissive"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -3432,6 +4800,12 @@
       "manageable",
       "seeming difficult",
       "trivial"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -3447,6 +4821,12 @@
       "reject strongly",
       "avoid entirely",
       "ignore on purpose"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -3462,6 +4842,12 @@
       "intensely enthusiastic",
       "calm",
       "bored"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -3477,6 +4863,12 @@
       "unnecessary",
       "helpful",
       "needed"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -3492,6 +4884,12 @@
       "assist",
       "aid",
       "speed"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -3507,6 +4905,12 @@
       "unbiased",
       "unjust",
       "partial"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -3522,6 +4926,12 @@
       "safeguard completely",
       "keep secure",
       "protect fully"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -3537,6 +4947,12 @@
       "rejoice",
       "celebrate",
       "cheer"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -3552,6 +4968,12 @@
       "hasty",
       "sloppy",
       "very careful"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -3567,6 +4989,12 @@
       "hopeful about tomorrow",
       "excited about today",
       "content with the present"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -3582,6 +5010,12 @@
       "not well known",
       "plain and simple",
       "widely known"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -3597,6 +5031,12 @@
       "easy and simple",
       "safe and sound",
       "full of danger"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -3612,6 +5052,12 @@
       "cheerful",
       "complaining",
       "satisfied"
+    ],
+    "synonyms": [
+      "complaining",
+      "whiny",
+      "peevish",
+      "fretful"
     ]
   },
   {
@@ -3627,6 +5073,12 @@
       "deplete",
       "refill",
       "empty"
+    ],
+    "synonyms": [
+      "restock",
+      "refill",
+      "renew",
+      "restore"
     ]
   },
   {
@@ -3642,6 +5094,12 @@
       "constant",
       "regular",
       "steady"
+    ],
+    "synonyms": [
+      "occasional",
+      "intermittent",
+      "irregular",
+      "scattered"
     ]
   },
   {
@@ -3657,6 +5115,12 @@
       "quiet and still",
       "orderly and structured",
       "calm and steady"
+    ],
+    "synonyms": [
+      "chaotic",
+      "turbulent",
+      "riotous",
+      "stormy"
     ]
   },
   {
@@ -3672,6 +5136,12 @@
       "usual and routine",
       "ordinary and typical",
       "typical and expected"
+    ],
+    "synonyms": [
+      "unparalleled",
+      "unmatched",
+      "unheard-of",
+      "novel"
     ]
   },
   {
@@ -3687,6 +5157,12 @@
       "convict",
       "prove right",
       "condemn"
+    ],
+    "synonyms": [
+      "exonerate",
+      "clear",
+      "absolve",
+      "justify"
     ]
   },
   {
@@ -3702,6 +5178,12 @@
       "reckless",
       "cautious",
       "confident"
+    ],
+    "synonyms": [
+      "careful",
+      "guarded",
+      "watchful",
+      "suspicious"
     ]
   },
   {
@@ -3717,6 +5199,12 @@
       "uninterested",
       "apathetic",
       "indifferent"
+    ],
+    "synonyms": [
+      "enthusiastic",
+      "ardent",
+      "fervent",
+      "passionate"
     ]
   },
   {
@@ -3732,6 +5220,12 @@
       "worsen",
       "increase",
       "intensify"
+    ],
+    "synonyms": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
     ]
   },
   {
@@ -3747,6 +5241,12 @@
       "selfish and greedy",
       "kind and generous",
       "mean and unkind"
+    ],
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
     ]
   },
   {
@@ -3762,6 +5262,12 @@
       "hide",
       "ignore",
       "explain clearly"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -3777,6 +5283,12 @@
       "difficult and tiring",
       "short and easy",
       "simple and effortless"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -3792,6 +5304,12 @@
       "lazy",
       "weak",
       "timid"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -3807,6 +5325,12 @@
       "hasty and rushed",
       "foolish and unwise",
       "cautious and wise"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -3822,6 +5346,12 @@
       "clear and direct",
       "using too many words",
       "completely silent"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -3837,6 +5367,12 @@
       "win decisively",
       "ignore completely",
       "fight against something"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -3852,6 +5388,12 @@
       "slow to understand",
       "dull and unaware",
       "naive and trusting"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -3867,6 +5409,12 @@
       "hostile and aggressive",
       "pleasant and friendly",
       "cold and distant"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -3882,6 +5430,12 @@
       "seeming difficult",
       "trivial",
       "easy"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -3897,6 +5451,12 @@
       "try to equal",
       "reject strongly",
       "avoid entirely"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -3912,6 +5472,12 @@
       "indifferent",
       "calm",
       "intensely enthusiastic"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -3927,6 +5493,12 @@
       "useful",
       "helpful",
       "unnecessary"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -3942,6 +5514,12 @@
       "help",
       "speed",
       "assist"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -3957,6 +5535,12 @@
       "partial",
       "unjust",
       "unbiased"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -3972,6 +5556,12 @@
       "keep secure",
       "put at risk",
       "preserve carefully"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -3987,6 +5577,12 @@
       "cheer",
       "celebrate",
       "express sadness"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -4002,6 +5598,12 @@
       "careless",
       "hasty",
       "very careful"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -4017,6 +5619,12 @@
       "content with the present",
       "hopeful about tomorrow",
       "eager for the future"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -4032,6 +5640,12 @@
       "clear and evident",
       "not well known",
       "obvious to all"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -4047,6 +5661,12 @@
       "completely secure",
       "easy and simple",
       "full of danger"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -4062,6 +5682,12 @@
       "happy",
       "satisfied",
       "cheerful"
+    ],
+    "synonyms": [
+      "complaining",
+      "whiny",
+      "peevish",
+      "fretful"
     ]
   },
   {
@@ -4077,6 +5703,12 @@
       "empty",
       "exhaust",
       "drain"
+    ],
+    "synonyms": [
+      "restock",
+      "refill",
+      "renew",
+      "restore"
     ]
   },
   {
@@ -4092,6 +5724,12 @@
       "occurring irregularly",
       "constant",
       "regular"
+    ],
+    "synonyms": [
+      "occasional",
+      "intermittent",
+      "irregular",
+      "scattered"
     ]
   },
   {
@@ -4107,6 +5745,12 @@
       "very loud and disorderly",
       "orderly and structured",
       "peaceful and quiet"
+    ],
+    "synonyms": [
+      "chaotic",
+      "turbulent",
+      "riotous",
+      "stormy"
     ]
   },
   {
@@ -4122,6 +5766,12 @@
       "typical and expected",
       "usual and routine",
       "ordinary and typical"
+    ],
+    "synonyms": [
+      "unparalleled",
+      "unmatched",
+      "unheard-of",
+      "novel"
     ]
   },
   {
@@ -4137,6 +5787,12 @@
       "convict",
       "blame",
       "condemn"
+    ],
+    "synonyms": [
+      "exonerate",
+      "clear",
+      "absolve",
+      "justify"
     ]
   },
   {
@@ -4152,6 +5808,12 @@
       "careless",
       "cautious",
       "confident"
+    ],
+    "synonyms": [
+      "careful",
+      "guarded",
+      "watchful",
+      "suspicious"
     ]
   },
   {
@@ -4167,6 +5829,12 @@
       "indifferent",
       "apathetic",
       "uninterested"
+    ],
+    "synonyms": [
+      "enthusiastic",
+      "ardent",
+      "fervent",
+      "passionate"
     ]
   },
   {
@@ -4182,6 +5850,12 @@
       "aggravate",
       "reduce pain",
       "increase"
+    ],
+    "synonyms": [
+      "ease",
+      "relieve",
+      "lessen",
+      "mitigate"
     ]
   },
   {
@@ -4197,6 +5871,12 @@
       "harsh and severe",
       "selfish and greedy",
       "mean and unkind"
+    ],
+    "synonyms": [
+      "kind",
+      "generous",
+      "charitable",
+      "compassionate"
     ]
   },
   {
@@ -4212,6 +5892,12 @@
       "ignore",
       "explain clearly",
       "confuse"
+    ],
+    "synonyms": [
+      "explain",
+      "clarify",
+      "illuminate",
+      "expound"
     ]
   },
   {
@@ -4227,6 +5913,12 @@
       "simple and effortless",
       "safe and secure",
       "difficult and tiring"
+    ],
+    "synonyms": [
+      "grueling",
+      "strenuous",
+      "difficult",
+      "laborious"
     ]
   },
   {
@@ -4242,6 +5934,12 @@
       "timid",
       "weak",
       "lazy"
+    ],
+    "synonyms": [
+      "persistent",
+      "determined",
+      "steadfast",
+      "unyielding"
     ]
   },
   {
@@ -4257,6 +5955,12 @@
       "hasty and rushed",
       "foolish and unwise",
       "careless and unwise"
+    ],
+    "synonyms": [
+      "sensible",
+      "wise",
+      "cautious",
+      "judicious"
     ]
   },
   {
@@ -4272,6 +5976,12 @@
       "concise and short",
       "brief and to the point",
       "using too many words"
+    ],
+    "synonyms": [
+      "wordy",
+      "long-winded",
+      "loquacious",
+      "garrulous"
     ]
   },
   {
@@ -4287,6 +5997,12 @@
       "fight against something",
       "win decisively",
       "yield to something"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "give in",
+      "capitulate"
     ]
   },
   {
@@ -4302,6 +6018,12 @@
       "naive and trusting",
       "dull and unaware",
       "shrewd and perceptive"
+    ],
+    "synonyms": [
+      "shrewd",
+      "perceptive",
+      "sharp",
+      "insightful"
     ]
   },
   {
@@ -4317,6 +6039,12 @@
       "unfriendly and harsh",
       "hostile and aggressive",
       "cold and distant"
+    ],
+    "synonyms": [
+      "friendly",
+      "agreeable",
+      "pleasant",
+      "amiable"
     ]
   },
   {
@@ -4332,6 +6060,12 @@
       "seeming difficult",
       "easy",
       "simple"
+    ],
+    "synonyms": [
+      "intimidating",
+      "formidable",
+      "forbidding",
+      "overwhelming"
     ]
   },
   {
@@ -4347,6 +6081,12 @@
       "avoid entirely",
       "forget completely",
       "ignore on purpose"
+    ],
+    "synonyms": [
+      "imitate",
+      "copy",
+      "mimic",
+      "mirror"
     ]
   },
   {
@@ -4362,6 +6102,12 @@
       "apathetic",
       "indifferent",
       "calm"
+    ],
+    "synonyms": [
+      "passionate",
+      "ardent",
+      "zealous",
+      "intense"
     ]
   },
   {
@@ -4377,6 +6123,12 @@
       "useful",
       "essential",
       "needed"
+    ],
+    "synonyms": [
+      "unwarranted",
+      "uncalled-for",
+      "needless",
+      "unjustified"
     ]
   },
   {
@@ -4392,6 +6144,12 @@
       "help",
       "create difficulties",
       "aid"
+    ],
+    "synonyms": [
+      "impede",
+      "obstruct",
+      "hamper",
+      "delay"
     ]
   },
   {
@@ -4407,6 +6165,12 @@
       "unbiased",
       "unfair",
       "partial"
+    ],
+    "synonyms": [
+      "unbiased",
+      "neutral",
+      "fair",
+      "objective"
     ]
   },
   {
@@ -4422,6 +6186,12 @@
       "protect fully",
       "safeguard completely",
       "put at risk"
+    ],
+    "synonyms": [
+      "endanger",
+      "imperil",
+      "risk",
+      "threaten"
     ]
   },
   {
@@ -4437,6 +6207,12 @@
       "rejoice",
       "cheer",
       "express sadness"
+    ],
+    "synonyms": [
+      "mourn",
+      "grieve",
+      "bemoan",
+      "bewail"
     ]
   },
   {
@@ -4452,6 +6228,12 @@
       "careless",
       "hasty",
       "sloppy"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -4467,6 +6249,12 @@
       "eager for the future",
       "hopeful about tomorrow",
       "content with the present"
+    ],
+    "synonyms": [
+      "wistful",
+      "sentimental",
+      "reminiscent",
+      "yearning"
     ]
   },
   {
@@ -4482,6 +6270,12 @@
       "plain and simple",
       "widely known",
       "not well known"
+    ],
+    "synonyms": [
+      "unclear",
+      "vague",
+      "cryptic",
+      "unknown"
     ]
   },
   {
@@ -4497,6 +6291,12 @@
       "full of danger",
       "calm and peaceful",
       "safe and sound"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -4512,6 +6312,12 @@
       "to ignore completely",
       "to forgive quickly",
       "to tolerate"
+    ],
+    "synonyms": [
+      "detest",
+      "loathe",
+      "despise",
+      "abominate"
     ]
   },
   {
@@ -4527,6 +6333,12 @@
       "carefully planned",
       "friendly and warm",
       "delayed"
+    ],
+    "synonyms": [
+      "sudden",
+      "curt",
+      "blunt",
+      "brusque"
     ]
   },
   {
@@ -4542,6 +6354,12 @@
       "extremely wealthy",
       "highly emotional",
       "physically weak"
+    ],
+    "synonyms": [
+      "moderate",
+      "temperate",
+      "self-restrained",
+      "sparing"
     ]
   },
   {
@@ -4557,6 +6375,12 @@
       "hidden",
       "expensive",
       "damaged"
+    ],
+    "synonyms": [
+      "plentiful",
+      "copious",
+      "ample",
+      "bountiful"
     ]
   },
   {
@@ -4572,6 +6396,12 @@
       "confusion",
       "harsh criticism",
       "delay"
+    ],
+    "synonyms": [
+      "compliance",
+      "consent",
+      "submission",
+      "agreement"
     ]
   },
   {
@@ -4587,6 +6417,12 @@
       "a formal apology",
       "a type of punishment",
       "a period of rest"
+    ],
+    "synonyms": [
+      "procurement",
+      "purchase",
+      "gain",
+      "obtainment"
     ]
   },
   {
@@ -4602,6 +6438,12 @@
       "a musical instrument",
       "a scientific formula",
       "a type of uniform"
+    ],
+    "synonyms": [
+      "proverb",
+      "saying",
+      "maxim",
+      "aphorism"
     ]
   },
   {
@@ -4617,6 +6459,12 @@
       "underneath",
       "inside of",
       "opposite to"
+    ],
+    "synonyms": [
+      "adjoining",
+      "neighboring",
+      "bordering",
+      "contiguous"
     ]
   },
   {
@@ -4632,6 +6480,12 @@
       "to ignore completely",
       "to praise highly",
       "to promote"
+    ],
+    "synonyms": [
+      "reprimand",
+      "scold",
+      "chide",
+      "reprove"
     ]
   },
   {
@@ -4647,6 +6501,12 @@
       "reinforced steel",
       "woven fabric",
       "carved wood"
+    ],
+    "synonyms": [
+      "mud brick",
+      "clay brick",
+      "sun-dried brick",
+      "brick"
     ]
   },
   {
@@ -4662,6 +6522,12 @@
       "to forget completely",
       "to avoid",
       "to criticize"
+    ],
+    "synonyms": [
+      "love",
+      "cherish",
+      "worship",
+      "treasure"
     ]
   },
   {
@@ -4677,6 +6543,12 @@
       "trusted advisor",
       "family member",
       "teammate"
+    ],
+    "synonyms": [
+      "opponent",
+      "enemy",
+      "rival",
+      "foe"
     ]
   },
   {
@@ -4692,6 +6564,12 @@
       "private secrecy",
       "financial punishment",
       "military retreat"
+    ],
+    "synonyms": [
+      "support",
+      "championing",
+      "promotion",
+      "backing"
     ]
   },
   {
@@ -4707,6 +6585,12 @@
       "extremely heavy",
       "unable to bend",
       "fearful"
+    ],
+    "synonyms": [
+      "nimble",
+      "spry",
+      "lithe",
+      "quick"
     ]
   },
   {
@@ -4722,6 +6606,12 @@
       "to forbid entirely",
       "to translate",
       "to memorize"
+    ],
+    "synonyms": [
+      "refer",
+      "hint",
+      "imply",
+      "suggest"
     ]
   },
   {
@@ -4737,6 +6627,12 @@
       "a strict rule",
       "a formal apology",
       "a sudden collapse"
+    ],
+    "synonyms": [
+      "merger",
+      "fusion",
+      "blend",
+      "combination"
     ]
   },
   {
@@ -4752,6 +6648,12 @@
       "bored and uninterested",
       "frightened and scared",
       "confused and puzzled"
+    ],
+    "synonyms": [
+      "entertained",
+      "delighted",
+      "tickled",
+      "diverted"
     ]
   },
   {
@@ -4767,6 +6669,12 @@
       "a written report",
       "a musical performance",
       "a formal celebration"
+    ],
+    "synonyms": [
+      "dispute",
+      "quarrel",
+      "disagreement",
+      "altercation"
     ]
   },
   {
@@ -4782,6 +6690,12 @@
       "to ignore quietly",
       "to reward",
       "to forgive"
+    ],
+    "synonyms": [
+      "attack",
+      "assault",
+      "batter",
+      "besiege"
     ]
   },
   {
@@ -4797,6 +6711,12 @@
       "complete victory",
       "immediate recovery",
       "formal celebration"
+    ],
+    "synonyms": [
+      "erosion",
+      "wearing down",
+      "depletion",
+      "reduction"
     ]
   },
   {
@@ -4812,6 +6732,12 @@
       "to reward generously",
       "to promote quickly",
       "to hide"
+    ],
+    "synonyms": [
+      "exile",
+      "expel",
+      "deport",
+      "oust"
     ]
   },
   {
@@ -4827,6 +6753,12 @@
       "to ignore completely",
       "to reward",
       "to comfort"
+    ],
+    "synonyms": [
+      "scold",
+      "reprimand",
+      "chide",
+      "upbraid"
     ]
   },
   {
@@ -4842,6 +6774,12 @@
       "deep friendship",
       "careful planning",
       "quiet patience"
+    ],
+    "synonyms": [
+      "prejudice",
+      "intolerance",
+      "narrow-mindedness",
+      "discrimination"
     ]
   },
   {
@@ -4857,6 +6795,12 @@
       "a formal ceremony",
       "a type of weapon",
       "a written order"
+    ],
+    "synonyms": [
+      "camp",
+      "encampment",
+      "shelter",
+      "tent"
     ]
   },
   {
@@ -4872,6 +6816,12 @@
       "to whisper",
       "to remain silent",
       "to complain"
+    ],
+    "synonyms": [
+      "brag",
+      "gloat",
+      "crow",
+      "vaunt"
     ]
   },
   {
@@ -4887,6 +6837,12 @@
       "weak and fragile",
       "dull and forgettable",
       "slow and careful"
+    ],
+    "synonyms": [
+      "bold",
+      "audacious",
+      "brazen",
+      "confident"
     ]
   },
   {
@@ -4902,6 +6858,12 @@
       "simple and clear",
       "sad and sincere",
       "brief and factual"
+    ],
+    "synonyms": [
+      "pompous",
+      "grandiloquent",
+      "pretentious",
+      "inflated"
     ]
   },
   {
@@ -4917,6 +6879,12 @@
       "very frightening",
       "extremely short",
       "well organized"
+    ],
+    "synonyms": [
+      "tedious",
+      "dull",
+      "monotonous",
+      "dreary"
     ]
   },
   {
@@ -4932,6 +6900,12 @@
       "emotional sensitivity",
       "financial wealth",
       "artistic talent"
+    ],
+    "synonyms": [
+      "muscle",
+      "strength",
+      "power",
+      "sinew"
     ]
   },
   {
@@ -4947,6 +6921,12 @@
       "to end a conversation",
       "to memorize",
       "to translate"
+    ],
+    "synonyms": [
+      "bring up",
+      "raise",
+      "mention",
+      "introduce"
     ]
   },
   {
@@ -4962,6 +6942,12 @@
       "slow and confused",
       "loud and boastful",
       "weak and timid"
+    ],
+    "synonyms": [
+      "shrewd",
+      "clever",
+      "astute",
+      "wily"
     ]
   },
   {
@@ -4977,6 +6963,12 @@
       "to purchase",
       "to celebrate",
       "to repair"
+    ],
+    "synonyms": [
+      "yield",
+      "surrender",
+      "relinquish",
+      "concede"
     ]
   },
   {
@@ -4992,6 +6984,12 @@
       "to predict the future",
       "to keep a secret",
       "to perform a song"
+    ],
+    "synonyms": [
+      "record",
+      "account",
+      "history",
+      "narrative"
     ]
   },
   {
@@ -5007,6 +7005,12 @@
       "to obey strictly",
       "to give up",
       "to celebrate"
+    ],
+    "synonyms": [
+      "bypass",
+      "evade",
+      "avoid",
+      "outmaneuver"
     ]
   },
   {
@@ -5022,6 +7026,12 @@
       "strict discipline",
       "public praise",
       "financial reward"
+    ],
+    "synonyms": [
+      "mercy",
+      "leniency",
+      "forgiveness",
+      "compassion"
     ]
   },
   {
@@ -5037,6 +7047,12 @@
       "a formal speech",
       "a type of vehicle",
       "a musical rhythm"
+    ],
+    "synonyms": [
+      "mess",
+      "disarray",
+      "jumble",
+      "litter"
     ]
   },
   {
@@ -5052,6 +7068,12 @@
       "criticize",
       "ignore",
       "celebrate"
+    ],
+    "synonyms": [
+      "sympathize",
+      "condole",
+      "empathize",
+      "console"
     ]
   },
   {
@@ -5067,6 +7089,12 @@
       "casual rumor",
       "secret handshake",
       "medal"
+    ],
+    "synonyms": [
+      "announcement",
+      "bulletin",
+      "dispatch",
+      "statement"
     ]
   },
   {
@@ -5082,6 +7110,12 @@
       "avoid working",
       "retire early",
       "relocate"
+    ],
+    "synonyms": [
+      "travel",
+      "shuttle",
+      "reduce",
+      "lessen"
     ]
   },
   {
@@ -5097,6 +7131,12 @@
       "discard",
       "memorize",
       "report accurately"
+    ],
+    "synonyms": [
+      "devise",
+      "fabricate",
+      "contrive",
+      "brew"
     ]
   },
   {
@@ -5112,6 +7152,12 @@
       "hesitate",
       "complain",
       "forget"
+    ],
+    "synonyms": [
+      "agree",
+      "coincide",
+      "consent",
+      "accord"
     ]
   },
   {
@@ -5127,6 +7173,12 @@
       "an unknown recruit",
       "a rival",
       "a stranger"
+    ],
+    "synonyms": [
+      "confidant",
+      "intimate",
+      "close friend",
+      "trusted friend"
     ]
   },
   {
@@ -5142,6 +7194,12 @@
       "training exercise",
       "friendly agreement",
       "promotion ceremony"
+    ],
+    "synonyms": [
+      "plot",
+      "scheme",
+      "collusion",
+      "cabal"
     ]
   },
   {
@@ -5157,6 +7215,12 @@
       "rewrite",
       "delay",
       "shout"
+    ],
+    "synonyms": [
+      "interpret",
+      "understand",
+      "deduce",
+      "read"
     ]
   },
   {
@@ -5172,6 +7236,12 @@
       "act quickly",
       "argue loudly",
       "forget"
+    ],
+    "synonyms": [
+      "ponder",
+      "consider",
+      "meditate",
+      "mull"
     ]
   },
   {
@@ -5187,6 +7257,12 @@
       "boring",
       "cowardly",
       "silent"
+    ],
+    "synonyms": [
+      "controversial",
+      "argumentative",
+      "quarrelsome",
+      "disputatious"
     ]
   },
   {
@@ -5202,6 +7278,12 @@
       "careless",
       "forgetful",
       "hostile"
+    ],
+    "synonyms": [
+      "familiar",
+      "knowledgeable",
+      "versed",
+      "acquainted"
     ]
   },
   {
@@ -5217,6 +7299,12 @@
       "supply officer",
       "recruiter",
       "drill instructor"
+    ],
+    "synonyms": [
+      "medical examiner",
+      "death investigator",
+      "inquest officer",
+      "examiner"
     ]
   },
   {
@@ -5232,6 +7320,12 @@
       "narrow tunnel",
       "wide river",
       "steep hill"
+    ],
+    "synonyms": [
+      "crack",
+      "fissure",
+      "chasm",
+      "cleft"
     ]
   },
   {
@@ -5247,6 +7341,12 @@
       "trusting",
       "cheerful",
       "generous"
+    ],
+    "synonyms": [
+      "skeptical",
+      "distrustful",
+      "jaded",
+      "pessimistic"
     ]
   },
   {
@@ -5262,6 +7362,12 @@
       "delete",
       "memorize",
       "ignore"
+    ],
+    "synonyms": [
+      "decode",
+      "decrypt",
+      "interpret",
+      "unravel"
     ]
   },
   {
@@ -5277,6 +7383,12 @@
       "loud protest",
       "physical fitness",
       "private conversation"
+    ],
+    "synonyms": [
+      "propriety",
+      "etiquette",
+      "politeness",
+      "dignity"
     ]
   },
   {
@@ -5292,6 +7404,12 @@
       "ignore quietly",
       "reward generously",
       "celebrate"
+    ],
+    "synonyms": [
+      "condemn",
+      "denounce",
+      "criticize",
+      "censure"
     ]
   },
   {
@@ -5307,6 +7425,12 @@
       "argue against",
       "ignore completely",
       "celebrate"
+    ],
+    "synonyms": [
+      "postpone",
+      "delay",
+      "put off",
+      "yield"
     ]
   },
   {
@@ -5322,6 +7446,12 @@
       "reward",
       "strengthen",
       "entertain"
+    ],
+    "synonyms": [
+      "discourage",
+      "dishearten",
+      "dispirit",
+      "unnerve"
     ]
   },
   {
@@ -5337,6 +7467,12 @@
       "agreement",
       "apology",
       "announcement"
+    ],
+    "synonyms": [
+      "objection",
+      "hesitation",
+      "protest",
+      "reluctance"
     ]
   },
   {
@@ -5352,6 +7488,12 @@
       "ignore",
       "distribute",
       "protect"
+    ],
+    "synonyms": [
+      "exhaust",
+      "drain",
+      "reduce",
+      "use up"
     ]
   },
   {
@@ -5367,6 +7509,12 @@
       "calm confidence",
       "sudden anger",
       "boredom"
+    ],
+    "synonyms": [
+      "sadness",
+      "gloom",
+      "despondency",
+      "melancholy"
     ]
   },
   {
@@ -5382,6 +7530,12 @@
       "mild discomfort",
       "strong leadership",
       "military victory"
+    ],
+    "synonyms": [
+      "poverty",
+      "penury",
+      "indigence",
+      "want"
     ]
   },
   {
@@ -5397,6 +7551,12 @@
       "replace",
       "protect",
       "celebrate"
+    ],
+    "synonyms": [
+      "decrease",
+      "reduce",
+      "lessen",
+      "dwindle"
     ]
   },
   {
@@ -5412,6 +7572,12 @@
       "destroy",
       "deny",
       "forget"
+    ],
+    "synonyms": [
+      "reveal",
+      "divulge",
+      "expose",
+      "unveil"
     ]
   },
   {
@@ -5427,6 +7593,12 @@
       "similarity",
       "balance",
       "unity"
+    ],
+    "synonyms": [
+      "inequality",
+      "difference",
+      "discrepancy",
+      "gap"
     ]
   },
   {
@@ -5442,6 +7614,12 @@
       "single photograph",
       "verbal report",
       "medal"
+    ],
+    "synonyms": [
+      "file",
+      "record",
+      "portfolio",
+      "report"
     ]
   },
   {
@@ -5457,6 +7635,12 @@
       "ordinary",
       "mild",
       "exciting"
+    ],
+    "synonyms": [
+      "terrible",
+      "awful",
+      "horrible",
+      "appalling"
     ]
   },
   {
@@ -5472,6 +7656,12 @@
       "outdated",
       "strictly traditional",
       "incomplete"
+    ],
+    "synonyms": [
+      "varied",
+      "diverse",
+      "wide-ranging",
+      "mixed"
     ]
   },
   {
@@ -5487,6 +7677,12 @@
       "silence",
       "dampness",
       "coldness"
+    ],
+    "synonyms": [
+      "radiance",
+      "brilliance",
+      "brightness",
+      "glow"
     ]
   },
   {
@@ -5502,6 +7698,12 @@
       "quietly reserved",
       "angry",
       "confused"
+    ],
+    "synonyms": [
+      "gushing",
+      "unrestrained",
+      "exuberant",
+      "overflowing"
     ]
   },
   {
@@ -5517,6 +7719,12 @@
       "ignore",
       "memorize",
       "delay"
+    ],
+    "synonyms": [
+      "evoke",
+      "draw out",
+      "extract",
+      "provoke"
     ]
   },
   {
@@ -5532,6 +7740,12 @@
       "obvious",
       "permanent",
       "loud"
+    ],
+    "synonyms": [
+      "evasive",
+      "slippery",
+      "hard to pin down",
+      "fleeting"
     ]
   },
   {
@@ -5547,6 +7761,12 @@
       "military parade",
       "financial reward",
       "peace treaty"
+    ],
+    "synonyms": [
+      "ban",
+      "restriction",
+      "prohibition",
+      "blockade"
     ]
   },
   {
@@ -5562,6 +7782,12 @@
       "cowardly",
       "junior",
       "careless"
+    ],
+    "synonyms": [
+      "distinguished",
+      "prominent",
+      "renowned",
+      "illustrious"
     ]
   },
   {
@@ -5577,6 +7803,12 @@
       "hide",
       "forget",
       "weaken"
+    ],
+    "synonyms": [
+      "stress",
+      "highlight",
+      "underscore",
+      "accentuate"
     ]
   },
   {
@@ -5592,6 +7824,12 @@
       "empty field",
       "supply depot",
       "parade ground"
+    ],
+    "synonyms": [
+      "camp",
+      "settlement",
+      "bivouac",
+      "base"
     ]
   },
   {
@@ -5607,6 +7845,12 @@
       "hesitant and unsure",
       "disorganized and messy",
       "careless and sloppy"
+    ],
+    "synonyms": [
+      "sharp",
+      "penetrating",
+      "perceptive",
+      "keen"
     ]
   },
   {
@@ -5622,6 +7866,12 @@
       "confident",
       "organized",
       "experienced"
+    ],
+    "synonyms": [
+      "incompetent",
+      "clumsy",
+      "unskilled",
+      "bungling"
     ]
   },
   {
@@ -5637,6 +7887,12 @@
       "ignore completely",
       "deny outright",
       "memorize"
+    ],
+    "synonyms": [
+      "deduce",
+      "conclude",
+      "surmise",
+      "gather"
     ]
   },
   {
@@ -5652,6 +7908,12 @@
       "announce loudly",
       "defend openly",
       "surrender"
+    ],
+    "synonyms": [
+      "penetrate",
+      "sneak into",
+      "invade",
+      "permeate"
     ]
   },
   {
@@ -5667,6 +7929,12 @@
       "uniform fabric",
       "paycheck",
       "training manual"
+    ],
+    "synonyms": [
+      "emblem",
+      "badge",
+      "symbol",
+      "crest"
     ]
   },
   {
@@ -5682,6 +7950,12 @@
       "ignore",
       "celebrate",
       "delay"
+    ],
+    "synonyms": [
+      "interpose",
+      "mediate",
+      "intercede",
+      "step in"
     ]
   },
   {
@@ -5697,6 +7971,12 @@
       "external",
       "temporary",
       "artificial"
+    ],
+    "synonyms": [
+      "inherent",
+      "essential",
+      "innate",
+      "fundamental"
     ]
   },
   {
@@ -5712,6 +7992,12 @@
       "sometimes",
       "never",
       "occasionally"
+    ],
+    "synonyms": [
+      "always",
+      "consistently",
+      "unfailingly",
+      "without exception"
     ]
   },
   {
@@ -5727,6 +8013,12 @@
       "weaken",
       "confuse",
       "discourage"
+    ],
+    "synonyms": [
+      "energize",
+      "revitalize",
+      "refresh",
+      "stimulate"
     ]
   },
   {
@@ -5742,6 +8034,12 @@
       "a warning",
       "an apology",
       "a complaint"
+    ],
+    "synonyms": [
+      "joke",
+      "quip",
+      "wisecrack",
+      "gag"
     ]
   },
   {
@@ -5757,6 +8055,12 @@
       "an award",
       "a schedule",
       "a celebration"
+    ],
+    "synonyms": [
+      "flaw",
+      "glitch",
+      "snag",
+      "hitch"
     ]
   },
   {
@@ -5772,6 +8076,12 @@
       "lightweight",
       "damaged",
       "misplaced"
+    ],
+    "synonyms": [
+      "loaded",
+      "burdened",
+      "weighed down",
+      "packed"
     ]
   },
   {
@@ -5787,6 +8097,12 @@
       "ignore completely",
       "reward",
       "encourage gently"
+    ],
+    "synonyms": [
+      "criticize harshly",
+      "blast",
+      "castigate",
+      "excoriate"
     ]
   },
   {
@@ -5802,6 +8118,12 @@
       "expired",
       "official",
       "loud"
+    ],
+    "synonyms": [
+      "dormant",
+      "hidden",
+      "potential",
+      "undeveloped"
     ]
   },
   {
@@ -5817,6 +8139,12 @@
       "formal",
       "cheerful",
       "quiet"
+    ],
+    "synonyms": [
+      "crude",
+      "vulgar",
+      "indecent",
+      "obscene"
     ]
   },
   {
@@ -5832,6 +8160,12 @@
       "tolerate",
       "enjoy",
       "ignore"
+    ],
+    "synonyms": [
+      "detest",
+      "despise",
+      "abhor",
+      "hate"
     ]
   },
   {
@@ -5847,6 +8181,12 @@
       "size",
       "color",
       "shape"
+    ],
+    "synonyms": [
+      "shine",
+      "gloss",
+      "sheen",
+      "radiance"
     ]
   },
   {
@@ -5862,6 +8202,12 @@
       "expensive upgrade",
       "official issue",
       "luxury item"
+    ],
+    "synonyms": [
+      "improvised",
+      "temporary",
+      "stopgap",
+      "jury-rigged"
     ]
   },
   {
@@ -5877,6 +8223,12 @@
       "average",
       "brief",
       "simple"
+    ],
+    "synonyms": [
+      "huge",
+      "enormous",
+      "gigantic",
+      "colossal"
     ]
   },
   {
@@ -5892,6 +8244,12 @@
       "promote",
       "reward",
       "transport"
+    ],
+    "synonyms": [
+      "strand",
+      "abandon",
+      "isolate",
+      "cast away"
     ]
   },
   {
@@ -5907,6 +8265,12 @@
       "disintegrate",
       "decline",
       "retreat"
+    ],
+    "synonyms": [
+      "appear",
+      "emerge",
+      "manifest",
+      "take shape"
     ]
   },
   {
@@ -5922,6 +8286,12 @@
       "hurried",
       "forgetful",
       "reckless"
+    ],
+    "synonyms": [
+      "careful",
+      "thorough",
+      "painstaking",
+      "precise"
     ]
   },
   {
@@ -5937,6 +8307,12 @@
       "a complete absence",
       "an unlimited supply",
       "a fair share"
+    ],
+    "synonyms": [
+      "a little",
+      "small amount",
+      "trace",
+      "bit"
     ]
   },
   {
@@ -5952,6 +8328,12 @@
       "work eagerly",
       "laugh cheerfully",
       "sleep soundly"
+    ],
+    "synonyms": [
+      "sulk",
+      "brood",
+      "wallow",
+      "languish"
     ]
   },
   {
@@ -5967,6 +8349,12 @@
       "formal celebration",
       "financial reward",
       "official promotion"
+    ],
+    "synonyms": [
+      "suspension",
+      "halt",
+      "freeze",
+      "postponement"
     ]
   },
   {
@@ -5982,6 +8370,12 @@
       "confident",
       "detailed",
       "final"
+    ],
+    "synonyms": [
+      "vague",
+      "hazy",
+      "unclear",
+      "indistinct"
     ]
   },
   {
@@ -5997,6 +8391,12 @@
       "cautious",
       "thorough",
       "diligent"
+    ],
+    "synonyms": [
+      "careless",
+      "neglectful",
+      "remiss",
+      "lax"
     ]
   },
   {
@@ -6012,6 +8412,12 @@
       "instructor",
       "supervisor",
       "expert"
+    ],
+    "synonyms": [
+      "novice",
+      "beginner",
+      "newcomer",
+      "rookie"
     ]
   },
   {
@@ -6027,6 +8433,12 @@
       "equal treatment",
       "public recognition",
       "financial planning"
+    ],
+    "synonyms": [
+      "favoritism",
+      "cronyism",
+      "patronage",
+      "preferential treatment"
     ]
   },
   {
@@ -6042,6 +8454,12 @@
       "extend",
       "publish",
       "enforce"
+    ],
+    "synonyms": [
+      "void",
+      "invalidate",
+      "cancel",
+      "annul"
     ]
   },
   {
@@ -6057,6 +8475,12 @@
       "agreeable",
       "uncertain",
       "cooperative"
+    ],
+    "synonyms": [
+      "stubborn",
+      "headstrong",
+      "unyielding",
+      "inflexible"
     ]
   },
   {
@@ -6072,6 +8496,12 @@
       "apologize",
       "listen quietly",
       "agree"
+    ],
+    "synonyms": [
+      "impose",
+      "intrude",
+      "interject",
+      "thrust forward"
     ]
   },
   {
@@ -6087,6 +8517,12 @@
       "confusing",
       "uncertain",
       "secret"
+    ],
+    "synonyms": [
+      "clear",
+      "evident",
+      "apparent",
+      "plain"
     ]
   },
   {
@@ -6102,6 +8538,12 @@
       "a training manual",
       "a medical exam",
       "a supply request"
+    ],
+    "synonyms": [
+      "sign",
+      "portent",
+      "harbinger",
+      "augury"
     ]
   },
   {
@@ -6117,6 +8559,12 @@
       "a formal reward",
       "a training exercise",
       "a written apology"
+    ],
+    "synonyms": [
+      "exclusion",
+      "oversight",
+      "gap",
+      "exception"
     ]
   },
   {
@@ -6132,6 +8580,12 @@
       "planned retirement",
       "joyful celebration",
       "official appointment"
+    ],
+    "synonyms": [
+      "removal",
+      "expulsion",
+      "overthrow",
+      "dismissal"
     ]
   },
   {
@@ -6147,6 +8601,12 @@
       "punishment",
       "retreat",
       "inspection"
+    ],
+    "synonyms": [
+      "proposal",
+      "offer",
+      "approach",
+      "opening move"
     ]
   },
   {
@@ -6162,6 +8622,12 @@
       "forgetful",
       "confused",
       "indifferent"
+    ],
+    "synonyms": [
+      "observant",
+      "insightful",
+      "discerning",
+      "astute"
     ]
   },
   {
@@ -6177,6 +8643,12 @@
       "polish",
       "paint",
       "reinforce"
+    ],
+    "synonyms": [
+      "pierce",
+      "puncture",
+      "penetrate",
+      "punch holes in"
     ]
   },
   {
@@ -6192,6 +8664,12 @@
       "full of danger",
       "calm and peaceful",
       "easy and simple"
+    ],
+    "synonyms": [
+      "dangerous",
+      "hazardous",
+      "risky",
+      "treacherous"
     ]
   },
   {
@@ -6207,6 +8685,12 @@
       "remain silent",
       "take an oath",
       "apologize"
+    ],
+    "synonyms": [
+      "lie under oath",
+      "give false testimony",
+      "falsify oath",
+      "swear falsely"
     ]
   },
   {
@@ -6222,6 +8706,12 @@
       "make someone laugh",
       "relax entirely",
       "encourage boldly"
+    ],
+    "synonyms": [
+      "terrify",
+      "horrify",
+      "paralyze",
+      "stun"
     ]
   },
   {
@@ -6237,6 +8727,12 @@
       "minor detail",
       "common mistake",
       "quiet moment"
+    ],
+    "synonyms": [
+      "marvel",
+      "wonder",
+      "occurrence",
+      "event"
     ]
   },
   {
@@ -6252,6 +8748,12 @@
       "completely broken",
       "extremely heavy",
       "permanently fixed"
+    ],
+    "synonyms": [
+      "flexible",
+      "bendable",
+      "supple",
+      "malleable"
     ]
   },
   {
@@ -6267,6 +8769,12 @@
       "to stay the same",
       "to improve slowly",
       "to level off"
+    ],
+    "synonyms": [
+      "plunge",
+      "drop",
+      "fall",
+      "nosedive"
     ]
   },
   {
@@ -6282,6 +8790,12 @@
       "confuse everyone",
       "strengthen bonds",
       "calm tensions"
+    ],
+    "synonyms": [
+      "divide",
+      "split",
+      "separate",
+      "estrange"
     ]
   },
   {
@@ -6297,6 +8811,12 @@
       "bright and cheerful",
       "short and simple",
       "fast and agile"
+    ],
+    "synonyms": [
+      "unwieldy",
+      "cumbersome",
+      "heavy",
+      "sluggish"
     ]
   },
   {
@@ -6312,6 +8832,12 @@
       "entirely unaware",
       "strictly forbidden",
       "randomly selected"
+    ],
+    "synonyms": [
+      "inclined",
+      "prone",
+      "susceptible",
+      "disposed"
     ]
   },
   {
@@ -6327,6 +8853,12 @@
       "total secrecy",
       "minor inconvenience",
       "complete failure"
+    ],
+    "synonyms": [
+      "status",
+      "reputation",
+      "esteem",
+      "renown"
     ]
   },
   {
@@ -6342,6 +8874,12 @@
       "postpone indefinitely",
       "randomize the order",
       "complete simultaneously"
+    ],
+    "synonyms": [
+      "rank",
+      "order",
+      "triage",
+      "sequence"
     ]
   },
   {
@@ -6357,6 +8895,12 @@
       "dangerous and risky",
       "humorous and witty",
       "complicated and confusing"
+    ],
+    "synonyms": [
+      "dull",
+      "mundane",
+      "unimaginative",
+      "plain"
     ]
   },
   {
@@ -6372,6 +8916,12 @@
       "secretly hidden",
       "newly invented",
       "rarely mentioned"
+    ],
+    "synonyms": [
+      "well-known",
+      "legendary",
+      "famous",
+      "traditional"
     ]
   },
   {
@@ -6387,6 +8937,12 @@
       "clearly informed",
       "overly cautious",
       "perfectly focused"
+    ],
+    "synonyms": [
+      "short-sighted",
+      "obtuse",
+      "unperceptive",
+      "dim-witted"
     ]
   },
   {
@@ -6402,6 +8958,12 @@
       "safe shelter",
       "official report",
       "training manual"
+    ],
+    "synonyms": [
+      "prey",
+      "target",
+      "prize",
+      "game"
     ]
   },
   {
@@ -6417,6 +8979,12 @@
       "a loud celebration",
       "an urgent alarm",
       "a sudden attack"
+    ],
+    "synonyms": [
+      "dormancy",
+      "stillness",
+      "inactivity",
+      "calm"
     ]
   },
   {
@@ -6432,6 +9000,12 @@
       "tired and sluggish",
       "polite and reserved",
       "serious and focused"
+    ],
+    "synonyms": [
+      "boisterous",
+      "unruly",
+      "rowdy",
+      "wild"
     ]
   },
   {
@@ -6447,6 +9021,12 @@
       "supply depot",
       "training ground",
       "communication tower"
+    ],
+    "synonyms": [
+      "fortification",
+      "wall",
+      "bulwark",
+      "barricade"
     ]
   },
   {
@@ -6462,6 +9042,12 @@
       "friendly advice",
       "official promotion",
       "quiet agreement"
+    ],
+    "synonyms": [
+      "reprimand",
+      "scold",
+      "admonish",
+      "chastise"
     ]
   },
   {
@@ -6477,6 +9063,12 @@
       "private celebration",
       "casual compliment",
       "promotion in rank"
+    ],
+    "synonyms": [
+      "rebuke",
+      "scold",
+      "admonish",
+      "chastise"
     ]
   },
   {
@@ -6492,6 +9084,12 @@
       "criminal charge",
       "formal apology only",
       "prison sentence"
+    ],
+    "synonyms": [
+      "compensation",
+      "reparation",
+      "repayment",
+      "amends"
     ]
   },
   {
@@ -6507,6 +9105,12 @@
       "announce loudly",
       "expand upon",
       "ignore completely"
+    ],
+    "synonyms": [
+      "withdraw",
+      "take back",
+      "recant",
+      "rescind"
     ]
   },
   {
@@ -6522,6 +9126,12 @@
       "complete secrecy",
       "harsh punishment",
       "public criticism"
+    ],
+    "synonyms": [
+      "approval",
+      "authorization",
+      "permission",
+      "endorsement"
     ]
   },
   {
@@ -6537,6 +9147,12 @@
       "ignore entirely",
       "criticize harshly",
       "waste carelessly"
+    ],
+    "synonyms": [
+      "relish",
+      "enjoy",
+      "appreciate",
+      "delight in"
     ]
   },
   {
@@ -6552,6 +9168,12 @@
       "a peace treaty",
       "a joint celebration",
       "a shared victory"
+    ],
+    "synonyms": [
+      "split",
+      "division",
+      "rift",
+      "rupture"
     ]
   },
   {
@@ -6567,6 +9189,12 @@
       "showing confusion",
       "showing gratitude",
       "showing indifference"
+    ],
+    "synonyms": [
+      "contemptuous",
+      "disdainful",
+      "derisive",
+      "sneering"
     ]
   },
   {
@@ -6582,6 +9210,12 @@
       "gentle hum",
       "quiet murmur",
       "steady beat"
+    ],
+    "synonyms": [
+      "shriek",
+      "scream",
+      "squeal",
+      "shrill cry"
     ]
   },
   {
@@ -6597,6 +9231,12 @@
       "freely release",
       "widely distribute",
       "openly display"
+    ],
+    "synonyms": [
+      "isolate",
+      "seclude",
+      "confine",
+      "segregate"
     ]
   },
   {
@@ -6612,6 +9252,12 @@
       "to strengthen a bond",
       "to repair fully",
       "to extend further"
+    ],
+    "synonyms": [
+      "cut off",
+      "separate",
+      "detach",
+      "split"
     ]
   },
   {
@@ -6627,6 +9273,12 @@
       "an honest confession",
       "a verified fact",
       "a formal award"
+    ],
+    "synonyms": [
+      "fake",
+      "fraud",
+      "hoax",
+      "counterfeit"
     ]
   },
   {
@@ -6642,6 +9294,12 @@
       "to closely follow",
       "to publicly praise",
       "to actively support"
+    ],
+    "synonyms": [
+      "avoid",
+      "spurn",
+      "snub",
+      "ostracize"
     ]
   },
   {
@@ -6657,6 +9315,12 @@
       "total agreement",
       "open admiration",
       "blind loyalty"
+    ],
+    "synonyms": [
+      "doubt",
+      "disbelief",
+      "distrust",
+      "incredulity"
     ]
   },
   {
@@ -6672,6 +9336,12 @@
       "a quiet retreat",
       "an organized formation",
       "a clear signal"
+    ],
+    "synonyms": [
+      "tangle",
+      "knot",
+      "jumble",
+      "muddle"
     ]
   },
   {
@@ -6687,6 +9357,12 @@
       "extremely solid",
       "completely dry",
       "highly flammable"
+    ],
+    "synonyms": [
+      "dissolvable",
+      "solvable",
+      "liquefiable",
+      "meltable"
     ]
   },
   {
@@ -6702,6 +9378,12 @@
       "to permanently end",
       "to quietly ignore",
       "to slowly forget"
+    ],
+    "synonyms": [
+      "produce",
+      "generate",
+      "breed",
+      "create"
     ]
   },
   {
@@ -6717,6 +9399,12 @@
       "timid and hesitant",
       "careless and lazy",
       "dishonest and disloyal"
+    ],
+    "synonyms": [
+      "loyal",
+      "steadfast",
+      "staunch",
+      "dependable"
     ]
   },
   {
@@ -6732,6 +9420,12 @@
       "careless",
       "disloyal",
       "indifferent"
+    ],
+    "synonyms": [
+      "loyal",
+      "steadfast",
+      "faithful",
+      "devoted"
     ]
   },
   {
@@ -6747,6 +9441,12 @@
       "multiply",
       "fail",
       "overflow"
+    ],
+    "synonyms": [
+      "satisfy",
+      "do",
+      "serve",
+      "meet needs"
     ]
   },
   {
@@ -6762,6 +9462,12 @@
       "publish",
       "encourage",
       "expand"
+    ],
+    "synonyms": [
+      "quell",
+      "stifle",
+      "repress",
+      "subdue"
     ]
   },
   {
@@ -6777,6 +9483,12 @@
       "being unrelated",
       "being outdated",
       "being confusing"
+    ],
+    "synonyms": [
+      "equivalent",
+      "identical",
+      "interchangeable",
+      "same"
     ]
   },
   {
@@ -6792,6 +9504,12 @@
       "separate",
       "ignore",
       "copy"
+    ],
+    "synonyms": [
+      "combine",
+      "integrate",
+      "merge",
+      "fuse"
     ]
   },
   {
@@ -6807,6 +9525,12 @@
       "reckless",
       "emotional",
       "outdated"
+    ],
+    "synonyms": [
+      "strategic",
+      "calculated",
+      "planned",
+      "maneuvering"
     ]
   },
   {
@@ -6822,6 +9546,12 @@
       "disgusting",
       "forgettable",
       "calming"
+    ],
+    "synonyms": [
+      "tempting",
+      "enticing",
+      "alluring",
+      "teasing"
     ]
   },
   {
@@ -6837,6 +9567,12 @@
       "plain and modest",
       "expensive and rare",
       "dull and quiet"
+    ],
+    "synonyms": [
+      "cheap",
+      "gaudy",
+      "tacky",
+      "garish"
     ]
   },
   {
@@ -6852,6 +9588,12 @@
       "pale white",
       "bright red",
       "dark green"
+    ],
+    "synonyms": [
+      "brownish-orange",
+      "fawn",
+      "tan",
+      "russet"
     ]
   },
   {
@@ -6867,6 +9609,12 @@
       "confusing",
       "emotional",
       "repetitive"
+    ],
+    "synonyms": [
+      "concise",
+      "curt",
+      "brief",
+      "succinct"
     ]
   },
   {
@@ -6882,6 +9630,12 @@
       "numb",
       "bruised",
       "frozen"
+    ],
+    "synonyms": [
+      "swollen",
+      "distended",
+      "bloated",
+      "engorged"
     ]
   },
   {
@@ -6897,6 +9651,12 @@
       "temporary",
       "optional",
       "local"
+    ],
+    "synonyms": [
+      "global",
+      "worldwide",
+      "general",
+      "all-encompassing"
     ]
   },
   {
@@ -6912,6 +9672,12 @@
       "flashy",
       "wealthy",
       "demanding"
+    ],
+    "synonyms": [
+      "modest",
+      "humble",
+      "simple",
+      "unassuming"
     ]
   },
   {
@@ -6927,6 +9693,12 @@
       "gentle",
       "forgiving",
       "weak"
+    ],
+    "synonyms": [
+      "relentless",
+      "persistent",
+      "unyielding",
+      "incessant"
     ]
   },
   {
@@ -6942,6 +9714,12 @@
       "angry",
       "cheerful",
       "confident"
+    ],
+    "synonyms": [
+      "empty",
+      "mindless",
+      "vapid",
+      "inane"
     ]
   },
   {
@@ -6957,6 +9735,12 @@
       "careless",
       "weak",
       "cautious"
+    ],
+    "synonyms": [
+      "brave",
+      "courageous",
+      "heroic",
+      "valiant"
     ]
   },
   {
@@ -6972,6 +9756,12 @@
       "rocky and steep",
       "icy and cold",
       "paved and flat"
+    ],
+    "synonyms": [
+      "green",
+      "lush",
+      "leafy",
+      "flourishing"
     ]
   },
   {
@@ -6987,6 +9777,12 @@
       "calm",
       "reward",
       "assist"
+    ],
+    "synonyms": [
+      "annoy",
+      "irritate",
+      "aggravate",
+      "bother"
     ]
   },
   {
@@ -7002,6 +9798,12 @@
       "slow-moving",
       "curable",
       "pleasant"
+    ],
+    "synonyms": [
+      "toxic",
+      "poisonous",
+      "deadly",
+      "noxious"
     ]
   },
   {
@@ -7017,6 +9819,12 @@
       "weaken",
       "confuse",
       "ignore"
+    ],
+    "synonyms": [
+      "energize",
+      "invigorate",
+      "animate",
+      "enliven"
     ]
   },
   {
@@ -7032,6 +9840,12 @@
       "shout",
       "sleep",
       "celebrate"
+    ],
+    "synonyms": [
+      "cry",
+      "sob",
+      "whimper",
+      "shed tears"
     ]
   },
   {
@@ -7047,6 +9861,12 @@
       "short and stocky",
       "muscular and bulky",
       "frail and sickly"
+    ],
+    "synonyms": [
+      "slender",
+      "lithe",
+      "svelte",
+      "graceful"
     ]
   },
   {
@@ -7062,6 +9882,12 @@
       "boring",
       "arrogant",
       "timid"
+    ],
+    "synonyms": [
+      "charming",
+      "endearing",
+      "appealing",
+      "engaging"
     ]
   },
   {
@@ -7077,6 +9903,12 @@
       "smile brightly",
       "sleep soundly",
       "march steadily"
+    ],
+    "synonyms": [
+      "squirm",
+      "twist",
+      "wriggle",
+      "contort"
     ]
   },
   {
@@ -7092,6 +9924,12 @@
       "proven as fact",
       "officially recorded",
       "permanently forgotten"
+    ],
+    "synonyms": [
+      "exchanged",
+      "tossed around",
+      "circulated",
+      "traded"
     ]
   },
   {
@@ -7107,6 +9945,12 @@
       "clearly explained",
       "widely accepted",
       "easily solved"
+    ],
+    "synonyms": [
+      "polarizing",
+      "contentious",
+      "disruptive",
+      "splitting"
     ]
   },
   {
@@ -7122,6 +9966,12 @@
       "angry",
       "sorrowful",
       "formal"
+    ],
+    "synonyms": [
+      "flippant",
+      "joking",
+      "glib",
+      "tongue-in-cheek"
     ]
   },
   {
@@ -7137,6 +9987,12 @@
       "perfectly adequate",
       "surprisingly large",
       "well-deserved"
+    ],
+    "synonyms": [
+      "meager",
+      "trivial",
+      "insignificant",
+      "measly"
     ]
   },
   {
@@ -7152,6 +10008,12 @@
       "fade away slowly",
       "freeze completely",
       "shatter suddenly"
+    ],
+    "synonyms": [
+      "throb",
+      "pulse",
+      "beat",
+      "vibrate"
     ]
   },
   {
@@ -7167,6 +10029,12 @@
       "slow and cautious",
       "calm and patient",
       "well-informed"
+    ],
+    "synonyms": [
+      "reckless",
+      "hasty",
+      "impulsive",
+      "careless"
     ]
   },
   {
@@ -7182,6 +10050,12 @@
       "newly invented",
       "rarely repeated",
       "spontaneous"
+    ],
+    "synonyms": [
+      "ceremonial",
+      "formal",
+      "customary",
+      "routine"
     ]
   },
   {
@@ -7197,6 +10071,12 @@
       "festive celebration",
       "well-earned reward",
       "total silence"
+    ],
+    "synonyms": [
+      "pressure",
+      "strain",
+      "tension",
+      "burden"
     ]
   },
   {
@@ -7212,6 +10092,12 @@
       "act boldly",
       "remain silent",
       "refuse outright"
+    ],
+    "synonyms": [
+      "waver",
+      "oscillate",
+      "hesitate",
+      "fluctuate"
     ]
   },
   {
@@ -7227,6 +10113,12 @@
       "gently support",
       "carefully avoid",
       "quietly ignore"
+    ],
+    "synonyms": [
+      "envelop",
+      "overwhelm",
+      "submerge",
+      "swallow up"
     ]
   },
   {
@@ -7242,6 +10134,12 @@
       "copy exactly",
       "ignore entirely",
       "abandon quickly"
+    ],
+    "synonyms": [
+      "concoct",
+      "design",
+      "invent",
+      "formulate"
     ]
   },
   {
@@ -7257,6 +10155,12 @@
       "fragile",
       "expensive",
       "heavy"
+    ],
+    "synonyms": [
+      "roomy",
+      "spacious",
+      "ample",
+      "expansive"
     ]
   },
   {
@@ -7272,6 +10176,12 @@
       "laugh loudly",
       "stare blankly",
       "nod approvingly"
+    ],
+    "synonyms": [
+      "frown",
+      "glower",
+      "grimace",
+      "sneer"
     ]
   },
   {
@@ -7287,6 +10197,12 @@
       "well documented",
       "officially verified",
       "widely known"
+    ],
+    "synonyms": [
+      "fake",
+      "imaginary",
+      "invented",
+      "fabricated"
     ]
   },
   {
@@ -7302,6 +10218,12 @@
       "impartial judge",
       "trusted advisor",
       "official leader"
+    ],
+    "synonyms": [
+      "fall guy",
+      "whipping boy",
+      "patsy",
+      "sacrificial lamb"
     ]
   }
 ]
