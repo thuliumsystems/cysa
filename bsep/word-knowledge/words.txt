@@ -1,5 +1,4 @@
 abandon; NOF; To give up completely or desert something or someone.
-abrupt; NOF; Happening quickly without warning.
 benevolent; NOF; Showing goodwill and kindness.
 candid; NOF; Speaking truthfully without hiding feelings.
 deter; NOF; To prevent or make someone less likely to do something.
@@ -13,7 +12,6 @@ analyze; NOF; To study something in detail.
 assume; NOF; To accept something as true without evidence.
 coherent; NOF; Easy to understand because it is logical.
 comply; NOF; To obey or act according to rules or requests.
-concur; NOF; To have the same opinion.
 credible; NOF; Able to be trusted or believed.
 decline; NOF; To go down or say no politely.
 eliminate; NOF; To get rid of something.
@@ -22,7 +20,6 @@ generate; NOF; To create or cause something to exist.
 impact; NOF; A strong effect on something.
 justify; NOF; To show something is reasonable.
 maintain; NOF; To continue or preserve something.
-obvious; NOF; Easy to notice or understand.
 perceive; NOF; To become aware of something.
 restrict; NOF; To control or reduce access.
 select; NOF; To pick from a group.
@@ -45,7 +42,6 @@ derive; NOF; To get something from a specific origin.
 diverse; NOF; Showing a wide range of different things.
 efficient; NOF; Achieving maximum productivity.
 emerge; NOF; To come into view or become known.
-emphasize; NOF; To give special importance to something.
 encounter; NOF; To come across something or someone.
 enhance; NOF; To make something better.
 exclude; NOF; To not include something.
@@ -54,9 +50,7 @@ facilitate; NOF; To help make a process smoother.
 fundamental; NOF; Essential foundation or principle.
 hypothesis; NOF; A proposed explanation based on evidence.
 illustrate; NOF; To make something clear using examples.
-infer; NOF; To deduce information logically.
 integrate; NOF; To bring together parts into a whole.
-justify; NOF; To show something is reasonable or correct.
 legitimate; NOF; Conforming to the law or rules.
 modify; NOF; To make small changes.
 objective; NOF; Based on facts, not emotions.
@@ -70,12 +64,10 @@ reveal; NOF; To make something known.
 significant; NOF; Having great meaning or importance.
 substantial; NOF; Considerable or significant in size.
 transmit; NOF; To pass something from one place to another.
-valid; NOF; Acceptable according to rules or logic.
 verify; NOF; To check accuracy or truth.
 abolish; NOF; To formally put an end to a system or practice.
 acquire; NOF; To gain possession of something.
 adequate; NOF; Enough to meet a need or requirement.
-adjacent; NOF; Located very close or touching.
 alter; NOF; To make something different.
 alternative; NOF; A different choice available.
 ambiguous; NOF; Having more than one possible meaning.
@@ -91,9 +83,6 @@ consequence; NOF; Something that follows an action.
 constraint; NOF; A restriction or control.
 controversial; NOF; Likely to cause public disagreement.
 criteria; NOF; Rules used to evaluate something.
-derive; NOF; To originate from a source.
-diminish; NOF; To become smaller or less.
-disclose; NOF; To make something known.
 distinct; NOF; Easily recognized as different.
 distort; NOF; To change something in a misleading way.
 duration; NOF; The time something lasts.
@@ -101,12 +90,10 @@ elaborate; NOF; Containing many details.
 empirical; NOF; Based on experience or experiment.
 equivalent; NOF; Having the same worth or effect.
 exceed; NOF; To surpass a limit.
-exclude; NOF; To not include something.
 explicit; NOF; Expressed clearly and directly.
 feasible; NOF; Able to be done.
 fluctuate; NOF; To change irregularly.
 formulate; NOF; To develop or plan carefully.
-generate; NOF; To create or cause something.
 implement; NOF; To execute a plan or decision.
 imply; NOF; To indicate something without saying it directly.
 indicate; NOF; To point out or demonstrate.
@@ -121,7 +108,6 @@ manipulate; NOF; To handle or influence something.
 mediate; NOF; To act between parties to resolve conflict.
 notion; NOF; A general belief or concept.
 notable; NOF; Something worth noticing because it stands out.
-objective; NOF; Not influenced by emotions or opinions.
 obstruct; NOF; To prevent movement or progress.
 obsolete; NOF; No longer in use or useful.
 omit; NOF; To not include something.
@@ -131,16 +117,13 @@ optional; NOF; Something that can be chosen or not.
 outcome; NOF; The final result of an action.
 overlap; NOF; To extend over and cover part of something else.
 paradox; NOF; A situation that seems impossible or contradictory.
-perceive; NOF; To become aware of something.
 periodic; NOF; Happening at regular intervals.
 persuade; NOF; To make someone believe or do something.
 precede; NOF; To happen earlier than something else.
 precise; NOF; Very accurate and detailed.
 predominant; NOF; The most important or frequent.
 preliminary; NOF; Happening before the main event.
-presume; NOF; To believe something without proof.
 profound; NOF; Having great depth or importance.
-prohibit; NOF; To officially stop something.
 proportion; NOF; A comparative relationship between things.
 qualify; NOF; To be eligible for something.
 random; NOF; Happening without specific order.
@@ -160,133 +143,50 @@ terminate; NOF; To bring something to an end.
 transform; NOF; To change form or appearance.
 transition; NOF; The process of change.
 ultimate; NOF; The last or most significant.
-valid; NOF; Acceptable under rules or logic.
-verify; NOF; To check truth or accuracy.
 viable; NOF; Capable of working successfully.
 voluntary; NOF; Not forced; done willingly.
-abundant; NOF; Existing in large quantities.
 accelerate; NOF; To increase speed or rate.
 accumulate; NOF; To build up gradually.
 accurate; NOF; Free from errors; precise.
 acknowledge; NOF; To accept or admit the truth of something.
-acquire; NOF; To get or gain possession of something.
-adequate; NOF; Sufficient for a specific need.
-allocate; NOF; To distribute for a specific purpose.
-ambiguous; NOF; Having more than one meaning.
-analyze; NOF; To study something in detail.
-anticipate; NOF; To predict or look forward to.
-arbitrary; NOF; Based on chance or personal choice.
 assess; NOF; To judge the value or quality of something.
-assume; NOF; To take something as true without proof.
-bias; NOF; A tendency to favor one side unfairly.
 brief; NOF; Lasting a short time.
-coincide; NOF; To occur simultaneously.
 collapse; NOF; To suddenly fall or break down.
 commence; NOF; To start something.
-compatible; NOF; Capable of existing or functioning together.
-compensate; NOF; To balance or repay for something.
 complex; NOF; Made up of many parts.
 comprehensive; NOF; Covering all or nearly all elements.
-concede; NOF; To accept something reluctantly.
 concurrent; NOF; Occurring simultaneously.
 confine; NOF; To keep within limits.
 consequent; NOF; Following as a result.
 consist; NOF; To be composed of parts.
-constraint; NOF; A restriction or control.
-contemplate; NOF; To consider carefully.
 contradict; NOF; To state the opposite.
 convert; NOF; To transform something into another form.
-decline; NOF; To become smaller or less.
 deduce; NOF; To reach a conclusion from evidence.
 deficient; NOF; Not having enough.
 demonstrate; NOF; To make something clear by example.
-derive; NOF; To come from a source.
 detect; NOF; To find or notice something.
 deviate; NOF; To depart from a standard path.
-eliminate; NOF; To get rid of something completely.
-emerge; NOF; To come into view.
-enhance; NOF; To make better.
-equivalent; NOF; Having the same value or effect.
-explicit; NOF; Stated clearly and directly.
-facilitate; NOF; To help a process go smoothly.
-feasible; NOF; Able to be done.
-flexible; NOF; Capable of adapting easily.
-generate; NOF; To create or cause something.
-hypothesis; NOF; A proposed explanation based on evidence.
 imminent; NOF; Something likely to occur very soon.
-impact; NOF; A strong influence or result.
-implement; NOF; To execute or carry out a plan.
 implication; NOF; Something implied but not directly stated.
 incentive; NOF; Something that encourages action.
 incline; NOF; To be likely or have a tendency.
 incorporate; NOF; To combine or integrate parts.
-indicate; NOF; To point out or signal.
-inevitable; NOF; Certain to happen.
-inferior; NOF; Not as good as something else.
 inhibit; NOF; To prevent or slow something down.
-initiate; NOF; To start something.
-innovate; NOF; To introduce new methods or ideas.
 insight; NOF; A clear understanding of something complex.
-integrate; NOF; To bring together parts into a whole.
 interfere; NOF; To prevent something from working smoothly.
-interpret; NOF; To understand or translate meaning.
 isolate; NOF; To set apart from others.
-justify; NOF; To show something is reasonable.
 levy; NOF; To officially charge a tax or fee.
-maintain; NOF; To continue or preserve.
 mitigate; NOF; To make something less harmful.
-modify; NOF; To make small adjustments.
-notion; NOF; A general concept or belief.
-obtain; NOF; To acquire or gain something.
 offset; NOF; To compensate for something.
 ongoing; NOF; Still in progress.
 outsource; NOF; To assign work to external groups.
 overcome; NOF; To successfully deal with a problem.
-overlap; NOF; To extend over something else.
 parameter; NOF; A defining boundary or rule.
-perceive; NOF; To become aware of something.
-persistent; NOF; Not giving up easily.
-precede; NOF; To happen earlier.
-predict; NOF; To say what will happen in the future.
-presume; NOF; To take something as true without proof.
-prohibit; NOF; To officially stop something.
 promote; NOF; To help something grow or increase.
-proportion; NOF; A comparative relationship.
 reconcile; NOF; To bring into agreement.
-refine; NOF; To make something better or purer.
-reinforce; NOF; To make something stronger.
-reluctant; NOF; Not wanting to do something.
 remove; NOF; To eliminate something.
 require; NOF; To make something necessary.
 resist; NOF; To fight against something.
-restrict; NOF; To control or reduce.
-sustain; NOF; To keep something going.
-terminate; NOF; To bring something to an end.
-abhor; OF; To regard with disgust and hatred.
-acquiescence; OF; The reluctant acceptance of something without protest.
-adage; OF; A short, memorable saying that expresses a general truth.
-amalgamation; OF; The process of combining or uniting multiple things.
-bodacious; OF; Bold, confident, and uninhibited.
-bombastic; OF; High-sounding but with little meaning; pompous.
-crevasse; OF; A deep open crack in a glacier or cliff face.
-cynical; OF; Believing that people are motivated by self-interest; distrustful.
-demurral; OF; The act of hesitating or raising objections.
-dossier; OF; A set of documents about a particular person or event.
-eclectic; OF; Deriving ideas or style from a broad range of sources.
-effulgence; OF; A brilliant radiance or shining quality.
-effusive; OF; Expressing feelings or praise in an unrestrained way.
-eminent; OF; Famous and respected within a particular field.
-ensconce; OF; To settle or hide in a comfortable, safe place.
-erudite; OF; Having great knowledge or learning.
-fortuitous; OF; Happening by chance in a lucky way.
-gaudy; OF; Extravagantly bright or showy.
-hankering; OF; A strong, persistent longing or desire.
-hypocrisy; OF; The practice of claiming to have moral standards one does not actually follow.
-impetuous; OF; Acting quickly without thought or care.
-incisive; OF; Intelligently analytical and clear-thinking.
-lewd; OF; Crude and offensive in a sexual way.
-meticulous; OF; Showing great attention to detail; very careful.
-moratorium; OF; A temporary suspension of activity.
 diligent; NOF; Having or showing care in one's work or duties.
 ephemeral; NOF; Lasting for a very short time.
 gullible; NOF; Easily persuaded to believe something false.
@@ -298,183 +198,224 @@ nonchalant; NOF; Feeling or appearing casually calm and relaxed.
 pragmatic; NOF; Dealing with things in a practical way.
 succinct; NOF; Expressed in a few clear words.
 tenacious; NOF; Tending to keep a firm hold of something.
-300	abstemious; OF; Sparing or moderate in eating or drinking or other activities.
-301	acquisition; OF; Something gained or added.
-302	admonish; OF; To reprove or scold.
-303	adobe; OF; Kind of clay in the form of sun-dried bricks used for building.
-304	adore; OF; To feel passion, devotion, or tenderness for.
-305	adversary; OF; One that is hostile toward another.
-306	agile; OF; Quick and well-coordinated.
-307	allude; OF; To suggest or call attention to indirectly.
-308	amused; OF; Finding something funny or entertaining.
-309	argument; OF; Usually heated exchange of opposite views.
-310	assail; OF; To attack vigorously or violently.
-311	attrition; OF; A reduction or decrease in number, size, or strength.
-312	banish; OF; To send someone away, or get rid of.
-313	berate; OF; To scold or criticize angrily.
-314	bigotry; OF; Intolerant adherence to one's own opinions.
-315	bivouac; OF; A temporary camp without cover.
-316	boast; OF; Exaggerated or objectionable speech; or to speak with exaggeration and excessive pride.
-317	boring; OF; Not interesting, tedious.
-318	brawn; OF; Muscular strength.
-319	broach; OF; To mention or talk about for the first time.
-320	canny; OF; Careful, cautious, prudent.
-321	cede; OF; To yield or formally surrender.
-322	chronicle; OF; Record of events; or to record, as a history.
-323	circumvent; OF; To find a way around or overcome an obstacle.
-324	clemency; OF; Mercy, lenience.
-325	clutter; OF; A disorderly heap of items; or to litter with things in a messy way.
-326	commiserate; OF; To feel or express sympathy or sorrow.
-327	communiqué; OF; An official bulletin or communication.
-328	commute; OF; A trip made to and from work; or to travel regularly over some distance, or to change a prison sentence to a less severe one.
-329	concoct; OF; To create or think of cleverly.
-330	confidante; OF; A person who has a strong like for and trust in another.
-331	conspiracy; OF; A secret agreement for a dishonest purpose.
-332	construe; OF; To make plain or understandable; to deduce by inference.
-333	contentious; OF; Characterized by argument or controversy.
-334	conversant; OF; Having information as the result of study or experience.
-335	coroner; OF; A public official who investigates any death not due to natural causes.
-336	decipher; OF; To make sense of.
-337	decorum; OF; Dignified manner of behavior, speech, dress, etc.
-338	decry; OF; To express scornfully one's low opinion of something.
-339	demoralize; OF; To deprive of courage, spirit, or discipline.
-340	deplete; OF; To decrease or use up the supply of.
-341	depression; OF; A state of low spirits; or, a low spot in the terrain.
-342	destitution; OF; Lack of means of subsistence.
-343	disparity; OF; Lack of equality.
-344	dreadful; OF; Causing intense disgust, displeasure, or resentment.
-345	elicit; OF; To draw out something hidden.
-346	elusive; OF; Hard, to find, capture, or isolate.
-347	embargo; OF; An order that something not be done or used; or to prohibit.
-348	encampment; OF; A place where people live in tents, usually for a short time.
-349	enclosure; OF; Something that encloses, as a fence or a wall; or something inserted, as inside an envelope.
-350	erratic; OF; Deviating from the usual or proper course.
-351	ethics; OF; Code of good conduct.
-352	excel; OF; To be greater, better, or stronger than.
-353	exploit; OF; An act of notable skill, strength, or cleverness; or to take unfair advantage of.
-354	faction; OF; A group of people acting together within a larger group.
-355	fame; OF; Popular acclaim.
-356	fate; OF; The determining cause by which things happen, or the final outcome.
-357	favor; OF; An act of kind assistance; or to do a service for or to prefer.
-358	fecund; OF; Producing abundantly.
-359	feign; OF; To give a false appearance of.
-360	fervor; OF; Intensity of feeling or expression.
-361	fiction; OF; Something that is the product of the imagination.
-362	flagrant; OF; Obviously inconsistent with what is right or proper.
-363	fraction; OF; Irregular part of something that remains incomplete.
-364	fragility; OF; The quality of having a delicate structure.
-365	frolic; OF; A time of carefree fun; or to play and run about happily.
-366	gawk; OF; To gape or stare stupidly.
-367	gaze; OF; To look long and hard in wonder or surprise.
-368	glean; OF; To collect gradually and bit by bit.
-369	green; OF; Lacking in adult experience or maturity.
-370	halt; OF; To bring to a standstill.
-371	hiatus; OF; A break in continuity.
-372	hindrance; OF; Something that makes progress difficult.
-373	horrendous; OF; Extremely disturbing or repellant.
-374	illusion; OF; A false idea or conception.
-375	impediment; OF; Something that makes movement difficult.
-376	impromptu; OF; Made or done without previous thought or preparation.
-377	inept; OF; Lacking qualities required to do a job.
-378	infiltrate; OF; To pass through small openings.
-379	insignia; OF; A sign that indicates membership in a particular group or the attainment of a particular rank.
-380	intervene; OF; To act as a go-between for opposing sides.
-381	intrinsic; OF; Being a part of the innermost nature of a person or thing.
-382	invariably; OF; On every relevant occasion.
-383	invigorate; OF; To give life, vigor, or spirit to.
-384	jest; OF; Something said or done to cause laughter; or to make jokes.
-385	kink; OF; A twist or bend in something.
-386	laden; OF; Having a weight or burden on.
-387	lambaste; OF; To criticize severely or angrily.
-388	latent; OF; Present but invisible or inactive.
-389	loathe; OF; To dislike strongly.
-390	luster; OF; Brightness created by reflected light.
-391	makeshift; OF; Doing for a while as a substitute.
-392	mammoth; OF; Unusually large.
-393	maroon; OF; A dark red-purple color; or to leave behind, to isolate.
-394	materialize; OF; To come into existence or to appear.
-395	modicum; OF; The smallest amount or part imaginable.
-396	mope; OF; To go about silently in a bad mood.
-397	nebulous; OF; Not seen or understood clearly.
-398	negligent; OF; Failing to give enough care or attention.
-399	neophyte; OF; A person just starting out in a field of activity.
-400	nepotism; OF; Unfair use of power to get jobs or benefits for family or friends.
-401	nullify; OF; To put an end to by formal action.
-402	obstinate; OF; Sticking to an opinion in spite of reason or persuasion.
-403	obtrude; OF; To interest oneself in what is not one's concern.
-404	omen; OF; A thing believed to foretell a future event.
-405	omission; OF; Something left out.
-406	ouster; OF; The act of removing someone from an important position or job.
-407	overture; OF; A performance or event that precedes the main event.
-408	perceptive; OF; Able to notice and understand things that many do not notice.
-409	perforate; OF; To make a hole or series of holes in.
-410	perilous; OF; Full of danger.
-411	perjure; OF; To tell a lie in a court of law.
-412	petrify; OF; To paralyze with astonishment, horror, or other strong emotion.
-413	phenomenon; OF; A remarkable person, thing, or event.
-414	pliable; OF; Able to bend easily without breaking.
-415	plummet; OF; An abrupt drop; or to fall abruptly.
-416	polarize; OF; Divide into two completely opposing groups.
-417	ponderous; OF; Causing restlessness or lack of interest; unwieldy or clumsy because of weight or size.
-418	predisposed; OF; To be more likely to behave in a particular way.
-419	prestige; OF; The power to impress because of success, wealth, etc.
-420	prioritize; OF; To put in order based on importance.
-421	prosaic; OF; Encountered in the normal course of events.
-422	proverbial; OF; Commonly known, expressing an acknowledged truth.
-423	purblind; OF; Lacking in vision, insight, or understanding.
-424	quarry; OF; Something that is hunted or killed.
-425	quiescence; OF; A state of temporary inactivity.
-426	rambunctious; OF; Rough or noisy in a high-spirited way.
-427	rampart; OF; A fortification built around a city or castle for protection.
-428	rebuke; OF; A formal expression of disapproval; or to criticize to correct a fault.
-429	reprimand; OF; A public expression of disapproval; or to criticize severely.
-430	restitution; OF; Payment for loss or injury.
-431	retract; OF; To formally reject or go back on.
-432	sanction; OF; Approval by an authority for doing something; or to give official acceptance.
-433	savor; OF; Characteristic identified by taste; or to take pleasure in.
-434	schism; OF; A division between opposing sections caused by differences in opinion.
-435	scornful; OF; Filled with contempt.
-436	screech; OF; A loud, harsh, piercing cry; or to cry out loudly and emotionally.
-437	sequester; OF; To keep apart from others or to confiscate.
-438	sever; OF; To break or separate, especially by cutting.
-439	sham; OF; A thing that is not what it is supposed to be; or being such in appearance only; or to present a false appearance of.
-440	shun; OF; Persistently ignore, avoid, or reject.
-441	skepticism; OF; Doubt about a subject or event.
-442	snarl; OF; A crowded or tangled mass; or to speak sharply or irritably.
-443	soluble; OF; Capable of being dissolved in a liquid; or capable of being solved.
-444	spawn; OF; Descendants of a person, animal, or plant; or to be the cause of.
-445	stalwart; OF; Marked by outstanding strength and vigor of body, mind, or spirit.
-446	staunch; OF; Firm in one's allegiance.
-447	suffice; OF; To be enough, to satisfy a need.
-448	suppress; OF; To put down by authority or force.
-449	synonymous; OF; Resembling another in meaning.
-450	tactical; OF; Suitable for bringing about a desired result under the circumstances.
-451	tantalizing; OF; Having a strong power to hold interest.
-452	tawdry; OF; Marked by low quality and unbecoming appearance.
-453	tawny; OF; Of a yellowish-brown color.
-454	terse; OF; Very short and to the point.
-455	tumescent; OF; Enlarged beyond normal from internal pressure.
-456	unpretentious; OF; Not excessively showy.
-457	unrelenting; OF; Sticking to an opinion in spite of reason, showing no signs of yielding.
-458	vacuous; OF; Lacking content that should be present, not having an ability to grasp ideas.
-459	valorous; OF; Feeling or displaying no fear.
-460	verdant; OF; Covered with a thick, healthy, natural growth.
-461	vex; OF; To disturb someone's peace of mind.
-462	virulent; OF; Highly dangerous and deadly.
-463	vitalize; OF; To give life, vigor, or spirit to.
-464	weep; OF; To shed tears.
-465	willowy; OF; Able to bend easily without breaking.
-466	winsome; OF; Having a good mood or disposition, likely to win one's affection.
-467	writhe; OF; To make continual twisting, squirming movements.
-468	bandied; OF; Discussed lightly or banteringly, used in an offhand manner.
-469	divisive; OF; Creating disunity or dissension, causing unfriendliness.
-470	facetious; OF; Joking or jesting, meant to be humorous; not serious.
-471	paltry; OF; Small or meager; of little value.
-472	pulsate; OF; To throb or move rhythmically; expand and contract.
-473	rash; OF; Marked by undue haste or lack of caution; or, an itchy eruption on the body; or, a large number of instances in a short period.
-474	ritualistic; OF; Invariably performed in the same way, characteristic of rituals.
-475	stress; OF; Marked by undue haste or lack of caution; or, constraining force or influence; or, emphasis; or, to subject to stress or strain.
-476	vacillate; OF; To waver in mind, will, or feeling, to hesitate in making a decision.
-477	engulf; OF; To flow over and enclose.
-478	devise; OF; To form in the mind by new combinations of ideas.
-479	capacious; OF; Containing or capable of containing a great deal.
+abhor; OF; To regard with extreme repugnance.
+abrupt; OF; Sudden and unexpected; or brief to the point of rudeness.
+abstemious; OF; Sparing or moderate in eating or drinking or other activities.
+abundant; OF; Existing in great amounts; marked by plenty.
+acquiescence; OF; Readiness or willingness to yield to the wishes of others.
+acquisition; OF; Something gained or added.
+adage; OF; A traditional saying.
+adjacent; OF; Lying near, close, or contiguous.
+admonish; OF; To reprove or scold.
+adobe; OF; Kind of clay in the form of sun-dried bricks used for building.
+adore; OF; To feel passion, devotion, or tenderness for.
+adversary; OF; One that is hostile toward another.
+advocacy; OF; Support for or recommendation of a particular cause.
+agile; OF; Quick and well-coordinated.
+allude; OF; To suggest or call attention to indirectly.
+amalgamation; OF; The action, process, or result of combining or uniting.
+amused; OF; Finding something funny or entertaining.
+argument; OF; Usually heated exchange of opposite views.
+assail; OF; To attack vigorously or violently.
+attrition; OF; A reduction or decrease in number, size, or strength.
+banish; OF; To send someone away, or get rid of.
+berate; OF; To scold or criticize angrily.
+bigotry; OF; Intolerant adherence to one's own opinions.
+bivouac; OF; A temporary camp without cover.
+boast; OF; Exaggerated or objectionable speech; or to speak with exaggeration and excessive pride.
+bodacious; OF; Likely to attract attention, or without exception or restriction.
+bombastic; OF; Marked by the use of impressive-sounding but mostly meaningless words and phrases, meant to impress.
+boring; OF; Not interesting, tedious.
+brawn; OF; Muscular strength.
+broach; OF; To mention or talk about for the first time.
+canny; OF; Careful, cautious, prudent.
+cede; OF; To yield or formally surrender.
+chronicle; OF; Record of events; or to record, as a history.
+circumvent; OF; To find a way around or overcome an obstacle.
+clemency; OF; Mercy, lenience.
+clutter; OF; A disorderly heap of items; or to litter with things in a messy way.
+commiserate; OF; To feel or express sympathy or sorrow.
+communiqué; OF; An official bulletin or communication.
+commute; OF; A trip made to and from work; or to travel regularly over some distance, or to change a prison sentence to a less severe one.
+concoct; OF; To create or think of cleverly.
+concur; OF; To agree, to cooperate.
+confidante; OF; A person who has a strong like for and trust in another.
+conspiracy; OF; A secret agreement for a dishonest purpose.
+construe; OF; To make plain or understandable; to deduce by inference.
+contemplate; OF; To give serious and careful thought to.
+contentious; OF; Characterized by argument or controversy.
+conversant; OF; Having information as the result of study or experience.
+coroner; OF; A public official who investigates any death not due to natural causes.
+crevasse; OF; A deep, narrow opening or crack in thick ice or rock.
+cynical; OF; Having deep distrust of human beings and their motives.
+decipher; OF; To make sense of.
+decorum; OF; Dignified manner of behavior, speech, dress, etc.
+decry; OF; To express scornfully one's low opinion of something.
+defer; OF; To postpone or to yield to another's wishes.
+demoralize; OF; To deprive of courage, spirit, or discipline.
+demurral; OF; A feeling or declaration of disapproval or dissent.
+deplete; OF; To decrease or use up the supply of.
+depression; OF; A state of low spirits; or, a low spot in the terrain.
+destitution; OF; Lack of means of subsistence.
+diminish; OF; To make or to seem smaller or less important.
+disclose; OF; To make known, as information previously kept secret.
+disparity; OF; Lack of equality.
+dossier; OF; A file containing detailed records on.
+dreadful; OF; Causing intense disgust, displeasure, or resentment.
+eclectic; OF; Consisting of many things of different sorts.
+effulgence; OF; The quality or state of having or giving off light.
+effusive; OF; Showing feelings freely.
+elicit; OF; To draw out something hidden.
+elusive; OF; Hard, to find, capture, or isolate.
+embargo; OF; An order that something not be done or used; or to prohibit.
+eminent; OF; Standing above others in rank, importance, or achievement.
+emphasize; OF; To lay stress upon, to give emphasis to.
+encampment; OF; A place where people live in tents, usually for a short time.
+enclosure; OF; Something that encloses, as a fence or a wall; or something inserted, as inside an envelope.
+ensconce; OF; To place snugly or put into a hiding place.
+erratic; OF; Deviating from the usual or proper course.
+erudite; OF; Having advanced knowledge or education.
+ethics; OF; Code of good conduct.
+excel; OF; To be greater, better, or stronger than.
+exploit; OF; An act of notable skill, strength, or cleverness; or to take unfair advantage of.
+faction; OF; A group of people acting together within a larger group.
+fame; OF; Popular acclaim.
+fate; OF; The determining cause by which things happen, or the final outcome.
+favor; OF; An act of kind assistance; or to do a service for or to prefer.
+fecund; OF; Producing abundantly.
+feign; OF; To give a false appearance of.
+fervor; OF; Intensity of feeling or expression.
+fiction; OF; Something that is the product of the imagination.
+flagrant; OF; Obviously inconsistent with what is right or proper.
+fortuitous; OF; Happening by chance in a lucky way.
+foster; OF; To help the growth or development of.
+fraction; OF; Irregular part of something that remains incomplete.
+fragility; OF; The quality of having a delicate structure.
+frolic; OF; A time of carefree fun; or to play and run about happily.
+gaudy; OF; Extravagantly bright or showy.
+gawk; OF; To gape or stare stupidly.
+gaze; OF; To look long and hard in wonder or surprise.
+glean; OF; To collect gradually and bit by bit.
+green; OF; Lacking in adult experience or maturity.
+halt; OF; To bring to a standstill.
+hankering; OF; A strong, persistent longing or desire.
+hesitant; OF; Slow to proceed because of doubt.
+hiatus; OF; A break in continuity.
+hindrance; OF; Something that makes progress difficult.
+horrendous; OF; Extremely disturbing or repellant.
+hypocrisy; OF; The practice of claiming to have moral standards to which one's own behavior does not conform.
+illusion; OF; A false idea or conception.
+impediment; OF; Something that makes movement difficult.
+impetuous; OF; Acting quickly and without thought, controlled by emotion.
+impromptu; OF; Made or done without previous thought or preparation.
+incisive; OF; Very clear and direct.
+inept; OF; Lacking qualities required to do a job.
+infer; OF; To derive by reasoning, to draw a conclusion.
+infiltrate; OF; To pass through small openings.
+insignia; OF; A sign that indicates membership in a particular group or the attainment of a particular rank.
+intervene; OF; To act as a go-between for opposing sides.
+intrinsic; OF; Being a part of the innermost nature of a person or thing.
+invariably; OF; On every relevant occasion.
+invigorate; OF; To give life, vigor, or spirit to.
+jest; OF; Something said or done to cause laughter; or to make jokes.
+kink; OF; A twist or bend in something.
+laden; OF; Having a weight or burden on.
+lambaste; OF; To criticize severely or angrily.
+latent; OF; Present but invisible or inactive.
+lewd; OF; Referring to sexual matters in an unacceptable way.
+loathe; OF; To dislike strongly.
+luster; OF; Brightness created by reflected light.
+makeshift; OF; Doing for a while as a substitute.
+mammoth; OF; Unusually large.
+maroon; OF; A dark red-purple color; or to leave behind, to isolate.
+materialize; OF; To come into existence or to appear.
+meticulous; OF; Taking great care and effort.
+modicum; OF; The smallest amount or part imaginable.
+mope; OF; To go about silently in a bad mood.
+moratorium; OF; A temporary stopping of an activity.
+nebulous; OF; Not seen or understood clearly.
+negligent; OF; Failing to give enough care or attention.
+neophyte; OF; A person just starting out in a field of activity.
+nepotism; OF; Unfair use of power to get jobs or benefits for family or friends.
+nullify; OF; To put an end to by formal action.
+obstinate; OF; Sticking to an opinion in spite of reason or persuasion.
+obtrude; OF; To interest oneself in what is not one's concern.
+obvious; OF; Not open to misinterpretation.
+omen; OF; A thing believed to foretell a future event.
+omission; OF; Something left out.
+ouster; OF; The act of removing someone from an important position or job.
+overture; OF; A performance or event that precedes the main event.
+perceptive; OF; Able to notice and understand things that many do not notice.
+perforate; OF; To make a hole or series of holes in.
+perilous; OF; Full of danger.
+perjure; OF; To tell a lie in a court of law.
+petrify; OF; To paralyze with astonishment, horror, or other strong emotion.
+phenomenon; OF; A remarkable person, thing, or event.
+pliable; OF; Able to bend easily without breaking.
+plummet; OF; An abrupt drop; or to fall abruptly.
+polarize; OF; Divide into two completely opposing groups.
+ponderous; OF; Causing restlessness or lack of interest; unwieldy or clumsy because of weight or size.
+predisposed; OF; To be more likely to behave in a particular way.
+prestige; OF; The power to impress because of success, wealth, etc.
+prioritize; OF; To put in order based on importance.
+prosaic; OF; Encountered in the normal course of events.
+proverbial; OF; Commonly known, expressing an acknowledged truth.
+purblind; OF; Lacking in vision, insight, or understanding.
+quarry; OF; Something that is hunted or killed.
+quiescence; OF; A state of temporary inactivity.
+rambunctious; OF; Rough or noisy in a high-spirited way.
+rampart; OF; A fortification built around a city or castle for protection.
+rebuke; OF; A formal expression of disapproval; or to criticize to correct a fault.
+reprimand; OF; A public expression of disapproval; or to criticize severely.
+restitution; OF; Payment for loss or injury.
+retract; OF; To formally reject or go back on.
+sanction; OF; Approval by an authority for doing something; or to give official acceptance.
+savor; OF; Characteristic identified by taste; or to take pleasure in.
+schism; OF; A division between opposing sections caused by differences in opinion.
+scornful; OF; Filled with contempt.
+screech; OF; A loud, harsh, piercing cry; or to cry out loudly and emotionally.
+sequester; OF; To keep apart from others or to confiscate.
+sever; OF; To break or separate, especially by cutting.
+sham; OF; A thing that is not what it is supposed to be; or being such in appearance only; or to present a false appearance of.
+shun; OF; Persistently ignore, avoid, or reject.
+skepticism; OF; Doubt about a subject or event.
+snarl; OF; A crowded or tangled mass; or to speak sharply or irritably.
+soluble; OF; Capable of being dissolved in a liquid; or capable of being solved.
+spawn; OF; Descendants of a person, animal, or plant; or to be the cause of.
+stalwart; OF; Marked by outstanding strength and vigor of body, mind, or spirit.
+staunch; OF; Firm in one's allegiance.
+suffice; OF; To be enough, to satisfy a need.
+suppress; OF; To put down by authority or force.
+synonymous; OF; Resembling another in meaning.
+synthesize; OF; To make by combining different things.
+tactical; OF; Suitable for bringing about a desired result under the circumstances.
+tantalizing; OF; Having a strong power to hold interest.
+tawdry; OF; Marked by low quality and unbecoming appearance.
+tawny; OF; Of a yellowish-brown color.
+terse; OF; Very short and to the point.
+tumescent; OF; Enlarged beyond normal from internal pressure.
+universal; OF; Belonging or relating to the whole, covering everything.
+unpretentious; OF; Not excessively showy.
+unrelenting; OF; Sticking to an opinion in spite of reason, showing no signs of yielding.
+vacuous; OF; Lacking content that should be present, not having an ability to grasp ideas.
+valorous; OF; Feeling or displaying no fear.
+verdant; OF; Covered with a thick, healthy, natural growth.
+vex; OF; To disturb someone's peace of mind.
+virulent; OF; Highly dangerous and deadly.
+vitalize; OF; To give life, vigor, or spirit to.
+weep; OF; To shed tears.
+willowy; OF; Able to bend easily without breaking.
+winsome; OF; Having a good mood or disposition, likely to win one's affection.
+writhe; OF; To make continual twisting, squirming movements.
+bandied; OF; Discussed lightly or banteringly, used in an offhand manner.
+divisive; OF; Creating disunity or dissension, causing unfriendliness.
+facetious; OF; Joking or jesting, meant to be humorous; not serious.
+paltry; OF; Small or meager; of little value.
+pulsate; OF; To throb or move rhythmically; expand and contract.
+rash; OF; Marked by undue haste or lack of caution; or, an itchy eruption on the body; or, a large number of instances in a short period.
+ritualistic; OF; Invariably performed in the same way, characteristic of rituals.
+stress; OF; Marked by undue haste or lack of caution; or, constraining force or influence; or, emphasis; or, to subject to stress or strain.
+vacillate; OF; To waver in mind, will, or feeling, to hesitate in making a decision.
+engulf; OF; To flow over and enclose.
+devise; OF; To form in the mind by new combinations of ideas.
+capacious; OF; Containing or capable of containing a great deal.

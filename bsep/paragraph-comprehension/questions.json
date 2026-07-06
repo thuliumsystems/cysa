@@ -22,11 +22,11 @@
     "answer": "divide into opposing groups",
     "definition": "To cause to divide into opposing groups.",
     "options": [
-      "unite",
-      "confuse",
+      "bring people together",
+      "create confusion",
       "divide into opposing groups",
-      "strengthen",
-      "encourage"
+      "strengthen unity",
+      "encourage agreement"
     ]
   },
   {
@@ -172,10 +172,10 @@
     "answer": "difficult and tiring",
     "definition": "Involving great effort and difficulty.",
     "options": [
-      "short",
-      "safe",
-      "fast",
-      "easy",
+      "short and easy",
+      "safe and secure",
+      "quick and brief",
+      "simple and effortless",
       "difficult and tiring"
     ]
   },
@@ -202,11 +202,11 @@
     "answer": "cautious and wise",
     "definition": "Acting with careful thought for the future.",
     "options": [
-      "careless",
-      "reckless",
-      "foolish",
+      "careless and unwise",
+      "reckless and rash",
+      "foolish and unwise",
       "cautious and wise",
-      "hasty"
+      "hasty and rushed"
     ]
   },
   {
@@ -217,11 +217,11 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "concise",
+      "concise and short",
       "using too many words",
-      "silent",
-      "clear",
-      "brief"
+      "completely silent",
+      "clear and direct",
+      "brief and to the point"
     ]
   },
   {
@@ -232,11 +232,11 @@
     "answer": "yield to something",
     "definition": "To fail to resist pressure or temptation.",
     "options": [
-      "win",
+      "win decisively",
       "yield to something",
-      "fight",
-      "resist",
-      "ignore"
+      "fight against something",
+      "resist strongly",
+      "ignore completely"
     ]
   },
   {
@@ -247,10 +247,10 @@
     "answer": "shrewd and perceptive",
     "definition": "Having the ability to assess situations quickly.",
     "options": [
-      "dull",
-      "naive",
-      "slow",
-      "foolish",
+      "dull and unaware",
+      "naive and trusting",
+      "slow to understand",
+      "foolish and unwise",
       "shrewd and perceptive"
     ]
   },
@@ -262,11 +262,11 @@
     "answer": "pleasant and friendly",
     "definition": "Pleasant because of personality or interests.",
     "options": [
-      "rude",
+      "rude and dismissive",
       "pleasant and friendly",
-      "cold",
-      "unfriendly",
-      "hostile"
+      "cold and distant",
+      "unfriendly and harsh",
+      "hostile and aggressive"
     ]
   },
   {
@@ -293,10 +293,10 @@
     "definition": "To match or surpass by imitation.",
     "options": [
       "try to equal",
-      "forget",
-      "avoid",
-      "reject",
-      "ignore"
+      "forget completely",
+      "avoid entirely",
+      "reject strongly",
+      "ignore on purpose"
     ]
   },
   {
@@ -368,10 +368,10 @@
     "definition": "To expose to danger or loss.",
     "options": [
       "put at risk",
-      "safeguard",
-      "secure",
-      "preserve",
-      "protect"
+      "safeguard completely",
+      "keep secure",
+      "preserve carefully",
+      "protect fully"
     ]
   },
   {
@@ -412,10 +412,10 @@
     "answer": "longing for the past",
     "definition": "A sentimental longing for past times.",
     "options": [
-      "eager",
-      "hopeful",
-      "content",
-      "excited",
+      "eager for the future",
+      "hopeful about tomorrow",
+      "content with the present",
+      "excited about today",
       "longing for the past"
     ]
   },
@@ -428,10 +428,10 @@
     "definition": "Not known or hard to understand.",
     "options": [
       "not well known",
-      "clear",
-      "known",
-      "plain",
-      "obvious"
+      "clear and evident",
+      "widely known",
+      "plain and simple",
+      "obvious to all"
     ]
   },
   {
@@ -442,10 +442,10 @@
     "answer": "full of danger",
     "definition": "Full of immediate danger.",
     "options": [
-      "calm",
-      "safe",
-      "secure",
-      "easy",
+      "calm and peaceful",
+      "safe and sound",
+      "completely secure",
+      "easy and simple",
       "full of danger"
     ]
   },
@@ -502,11 +502,11 @@
     "answer": "very loud and disorderly",
     "definition": "Making a loud, confused noise.",
     "options": [
-      "quiet",
+      "quiet and still",
       "very loud and disorderly",
-      "peaceful",
-      "calm",
-      "orderly"
+      "peaceful and quiet",
+      "calm and steady",
+      "orderly and structured"
     ]
   },
   {
@@ -517,11 +517,11 @@
     "answer": "never done before",
     "definition": "Never done or known before.",
     "options": [
-      "usual",
-      "typical",
+      "usual and routine",
+      "typical and expected",
       "never done before",
-      "common",
-      "ordinary"
+      "common and frequent",
+      "ordinary and typical"
     ]
   },
   {
@@ -592,11 +592,11 @@
     "answer": "kind and generous",
     "definition": "Showing goodwill and kindness.",
     "options": [
-      "selfish",
+      "selfish and greedy",
       "kind and generous",
-      "cruel",
-      "harsh",
-      "mean"
+      "cruel and heartless",
+      "harsh and severe",
+      "mean and unkind"
     ]
   },
   {
@@ -622,11 +622,11 @@
     "answer": "difficult and tiring",
     "definition": "Involving great effort and difficulty.",
     "options": [
-      "short",
-      "safe",
-      "easy",
+      "short and easy",
+      "safe and secure",
+      "simple and effortless",
       "difficult and tiring",
-      "fast"
+      "quick and brief"
     ]
   },
   {
@@ -652,11 +652,11 @@
     "answer": "cautious and wise",
     "definition": "Acting with careful thought for the future.",
     "options": [
-      "reckless",
-      "foolish",
-      "hasty",
+      "reckless and rash",
+      "foolish and unwise",
+      "hasty and rushed",
       "cautious and wise",
-      "careless"
+      "careless and unwise"
     ]
   },
   {
@@ -667,11 +667,11 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "concise",
-      "silent",
+      "concise and short",
+      "completely silent",
       "using too many words",
-      "brief",
-      "clear"
+      "brief and to the point",
+      "clear and direct"
     ]
   },
   {
@@ -682,11 +682,11 @@
     "answer": "yield to something",
     "definition": "To fail to resist pressure or temptation.",
     "options": [
-      "win",
+      "win decisively",
       "yield to something",
-      "ignore",
-      "fight",
-      "resist"
+      "ignore completely",
+      "fight against something",
+      "resist strongly"
     ]
   },
   {
@@ -697,11 +697,11 @@
     "answer": "shrewd and perceptive",
     "definition": "Having the ability to assess situations quickly.",
     "options": [
-      "dull",
-      "foolish",
+      "dull and unaware",
+      "foolish and unwise",
       "shrewd and perceptive",
-      "slow",
-      "naive"
+      "slow to understand",
+      "naive and trusting"
     ]
   },
   {
@@ -712,11 +712,11 @@
     "answer": "pleasant and friendly",
     "definition": "Pleasant because of personality or interests.",
     "options": [
-      "hostile",
-      "rude",
+      "hostile and aggressive",
+      "rude and dismissive",
       "pleasant and friendly",
-      "unfriendly",
-      "cold"
+      "unfriendly and harsh",
+      "cold and distant"
     ]
   },
   {
@@ -742,11 +742,11 @@
     "answer": "try to equal",
     "definition": "To match or surpass by imitation.",
     "options": [
-      "reject",
-      "avoid",
+      "reject strongly",
+      "avoid entirely",
       "try to equal",
-      "forget",
-      "ignore"
+      "forget completely",
+      "ignore on purpose"
     ]
   },
   {
@@ -817,11 +817,11 @@
     "answer": "put at risk",
     "definition": "To expose to danger or loss.",
     "options": [
-      "safeguard",
+      "safeguard completely",
       "put at risk",
-      "protect",
-      "preserve",
-      "secure"
+      "protect fully",
+      "preserve carefully",
+      "keep secure"
     ]
   },
   {
@@ -862,11 +862,11 @@
     "answer": "longing for the past",
     "definition": "A sentimental longing for past times.",
     "options": [
-      "eager",
-      "excited",
+      "eager for the future",
+      "excited about today",
       "longing for the past",
-      "content",
-      "hopeful"
+      "content with the present",
+      "hopeful about tomorrow"
     ]
   },
   {
@@ -877,11 +877,11 @@
     "answer": "not well known",
     "definition": "Not known or hard to understand.",
     "options": [
-      "obvious",
-      "known",
+      "obvious to all",
+      "widely known",
       "not well known",
-      "plain",
-      "clear"
+      "plain and simple",
+      "clear and evident"
     ]
   },
   {
@@ -892,10 +892,10 @@
     "answer": "full of danger",
     "definition": "Full of immediate danger.",
     "options": [
-      "easy",
-      "secure",
-      "safe",
-      "calm",
+      "easy and simple",
+      "completely secure",
+      "safe and sound",
+      "calm and peaceful",
       "full of danger"
     ]
   },
@@ -952,11 +952,11 @@
     "answer": "very loud and disorderly",
     "definition": "Making a loud, confused noise.",
     "options": [
-      "quiet",
+      "quiet and still",
       "very loud and disorderly",
-      "calm",
-      "orderly",
-      "peaceful"
+      "calm and steady",
+      "orderly and structured",
+      "peaceful and quiet"
     ]
   },
   {
@@ -967,10 +967,10 @@
     "answer": "never done before",
     "definition": "Never done or known before.",
     "options": [
-      "typical",
-      "usual",
-      "ordinary",
-      "common",
+      "typical and expected",
+      "usual and routine",
+      "ordinary and typical",
+      "common and frequent",
       "never done before"
     ]
   },
@@ -1043,10 +1043,10 @@
     "definition": "Showing goodwill and kindness.",
     "options": [
       "kind and generous",
-      "selfish",
-      "cruel",
-      "harsh",
-      "mean"
+      "selfish and greedy",
+      "cruel and heartless",
+      "harsh and severe",
+      "mean and unkind"
     ]
   },
   {
@@ -1072,11 +1072,11 @@
     "answer": "difficult and tiring",
     "definition": "Involving great effort and difficulty.",
     "options": [
-      "easy",
-      "short",
+      "simple and effortless",
+      "short and easy",
       "difficult and tiring",
-      "safe",
-      "fast"
+      "safe and secure",
+      "quick and brief"
     ]
   },
   {
@@ -1102,11 +1102,11 @@
     "answer": "cautious and wise",
     "definition": "Acting with careful thought for the future.",
     "options": [
-      "hasty",
+      "hasty and rushed",
       "cautious and wise",
-      "foolish",
-      "reckless",
-      "careless"
+      "foolish and unwise",
+      "reckless and rash",
+      "careless and unwise"
     ]
   },
   {
@@ -1117,11 +1117,11 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "clear",
+      "clear and direct",
       "using too many words",
-      "concise",
-      "brief",
-      "silent"
+      "concise and short",
+      "brief and to the point",
+      "completely silent"
     ]
   },
   {
@@ -1132,11 +1132,11 @@
     "answer": "yield to something",
     "definition": "To fail to resist pressure or temptation.",
     "options": [
-      "ignore",
+      "ignore completely",
       "yield to something",
-      "resist",
-      "win",
-      "fight"
+      "resist strongly",
+      "win decisively",
+      "fight against something"
     ]
   },
   {
@@ -1148,10 +1148,10 @@
     "definition": "Having the ability to assess situations quickly.",
     "options": [
       "shrewd and perceptive",
-      "naive",
-      "dull",
-      "foolish",
-      "slow"
+      "naive and trusting",
+      "dull and unaware",
+      "foolish and unwise",
+      "slow to understand"
     ]
   },
   {
@@ -1162,11 +1162,11 @@
     "answer": "pleasant and friendly",
     "definition": "Pleasant because of personality or interests.",
     "options": [
-      "rude",
-      "unfriendly",
-      "hostile",
+      "rude and dismissive",
+      "unfriendly and harsh",
+      "hostile and aggressive",
       "pleasant and friendly",
-      "cold"
+      "cold and distant"
     ]
   },
   {
@@ -1192,11 +1192,11 @@
     "answer": "try to equal",
     "definition": "To match or surpass by imitation.",
     "options": [
-      "forget",
-      "reject",
-      "avoid",
+      "forget completely",
+      "reject strongly",
+      "avoid entirely",
       "try to equal",
-      "ignore"
+      "ignore on purpose"
     ]
   },
   {
@@ -1267,11 +1267,11 @@
     "answer": "put at risk",
     "definition": "To expose to danger or loss.",
     "options": [
-      "secure",
-      "protect",
-      "preserve",
+      "keep secure",
+      "protect fully",
+      "preserve carefully",
       "put at risk",
-      "safeguard"
+      "safeguard completely"
     ]
   },
   {
@@ -1313,10 +1313,10 @@
     "definition": "A sentimental longing for past times.",
     "options": [
       "longing for the past",
-      "hopeful",
-      "content",
-      "excited",
-      "eager"
+      "hopeful about tomorrow",
+      "content with the present",
+      "excited about today",
+      "eager for the future"
     ]
   },
   {
@@ -1327,11 +1327,11 @@
     "answer": "not well known",
     "definition": "Not known or hard to understand.",
     "options": [
-      "obvious",
+      "obvious to all",
       "not well known",
-      "plain",
-      "known",
-      "clear"
+      "plain and simple",
+      "widely known",
+      "clear and evident"
     ]
   },
   {
@@ -1342,10 +1342,10 @@
     "answer": "full of danger",
     "definition": "Full of immediate danger.",
     "options": [
-      "secure",
-      "safe",
-      "calm",
-      "easy",
+      "completely secure",
+      "safe and sound",
+      "calm and peaceful",
+      "easy and simple",
       "full of danger"
     ]
   },
@@ -1402,11 +1402,11 @@
     "answer": "very loud and disorderly",
     "definition": "Making a loud, confused noise.",
     "options": [
-      "peaceful",
-      "quiet",
-      "orderly",
+      "peaceful and quiet",
+      "quiet and still",
+      "orderly and structured",
       "very loud and disorderly",
-      "calm"
+      "calm and steady"
     ]
   },
   {
@@ -1417,10 +1417,10 @@
     "answer": "never done before",
     "definition": "Never done or known before.",
     "options": [
-      "common",
-      "ordinary",
-      "typical",
-      "usual",
+      "common and frequent",
+      "ordinary and typical",
+      "typical and expected",
+      "usual and routine",
       "never done before"
     ]
   },
@@ -1492,11 +1492,11 @@
     "answer": "kind and generous",
     "definition": "Showing goodwill and kindness.",
     "options": [
-      "harsh",
+      "harsh and severe",
       "kind and generous",
-      "cruel",
-      "selfish",
-      "mean"
+      "cruel and heartless",
+      "selfish and greedy",
+      "mean and unkind"
     ]
   },
   {
@@ -1523,10 +1523,10 @@
     "definition": "Involving great effort and difficulty.",
     "options": [
       "difficult and tiring",
-      "easy",
-      "fast",
-      "short",
-      "safe"
+      "simple and effortless",
+      "quick and brief",
+      "short and easy",
+      "safe and secure"
     ]
   },
   {
@@ -1552,11 +1552,11 @@
     "answer": "cautious and wise",
     "definition": "Acting with careful thought for the future.",
     "options": [
-      "foolish",
+      "foolish and unwise",
       "cautious and wise",
-      "reckless",
-      "hasty",
-      "careless"
+      "reckless and rash",
+      "hasty and rushed",
+      "careless and unwise"
     ]
   },
   {
@@ -1567,11 +1567,11 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "concise",
+      "concise and short",
       "using too many words",
-      "silent",
-      "brief",
-      "clear"
+      "completely silent",
+      "brief and to the point",
+      "clear and direct"
     ]
   },
   {
@@ -1582,11 +1582,11 @@
     "answer": "yield to something",
     "definition": "To fail to resist pressure or temptation.",
     "options": [
-      "win",
-      "fight",
+      "win decisively",
+      "fight against something",
       "yield to something",
-      "ignore",
-      "resist"
+      "ignore completely",
+      "resist strongly"
     ]
   },
   {
@@ -1598,10 +1598,10 @@
     "definition": "Having the ability to assess situations quickly.",
     "options": [
       "shrewd and perceptive",
-      "naive",
-      "foolish",
-      "dull",
-      "slow"
+      "naive and trusting",
+      "foolish and unwise",
+      "dull and unaware",
+      "slow to understand"
     ]
   },
   {
@@ -1612,11 +1612,11 @@
     "answer": "pleasant and friendly",
     "definition": "Pleasant because of personality or interests.",
     "options": [
-      "cold",
-      "hostile",
+      "cold and distant",
+      "hostile and aggressive",
       "pleasant and friendly",
-      "unfriendly",
-      "rude"
+      "unfriendly and harsh",
+      "rude and dismissive"
     ]
   },
   {
@@ -1643,10 +1643,10 @@
     "definition": "To match or surpass by imitation.",
     "options": [
       "try to equal",
-      "forget",
-      "reject",
-      "ignore",
-      "avoid"
+      "forget completely",
+      "reject strongly",
+      "ignore on purpose",
+      "avoid entirely"
     ]
   },
   {
@@ -1717,11 +1717,11 @@
     "answer": "put at risk",
     "definition": "To expose to danger or loss.",
     "options": [
-      "safeguard",
+      "safeguard completely",
       "put at risk",
-      "secure",
-      "preserve",
-      "protect"
+      "keep secure",
+      "preserve carefully",
+      "protect fully"
     ]
   },
   {
@@ -1762,11 +1762,11 @@
     "answer": "longing for the past",
     "definition": "A sentimental longing for past times.",
     "options": [
-      "content",
-      "hopeful",
+      "content with the present",
+      "hopeful about tomorrow",
       "longing for the past",
-      "excited",
-      "eager"
+      "excited about today",
+      "eager for the future"
     ]
   },
   {
@@ -1777,11 +1777,11 @@
     "answer": "not well known",
     "definition": "Not known or hard to understand.",
     "options": [
-      "clear",
-      "plain",
+      "clear and evident",
+      "plain and simple",
       "not well known",
-      "obvious",
-      "known"
+      "obvious to all",
+      "widely known"
     ]
   },
   {
@@ -1792,11 +1792,11 @@
     "answer": "full of danger",
     "definition": "Full of immediate danger.",
     "options": [
-      "safe",
+      "safe and sound",
       "full of danger",
-      "easy",
-      "calm",
-      "secure"
+      "easy and simple",
+      "calm and peaceful",
+      "completely secure"
     ]
   },
   {
@@ -1852,11 +1852,11 @@
     "answer": "very loud and disorderly",
     "definition": "Making a loud, confused noise.",
     "options": [
-      "orderly",
+      "orderly and structured",
       "very loud and disorderly",
-      "quiet",
-      "peaceful",
-      "calm"
+      "quiet and still",
+      "peaceful and quiet",
+      "calm and steady"
     ]
   },
   {
@@ -1867,10 +1867,10 @@
     "answer": "never done before",
     "definition": "Never done or known before.",
     "options": [
-      "typical",
-      "ordinary",
-      "common",
-      "usual",
+      "typical and expected",
+      "ordinary and typical",
+      "common and frequent",
+      "usual and routine",
       "never done before"
     ]
   },
@@ -1942,11 +1942,11 @@
     "answer": "kind and generous",
     "definition": "Showing goodwill and kindness.",
     "options": [
-      "mean",
-      "cruel",
-      "harsh",
+      "mean and unkind",
+      "cruel and heartless",
+      "harsh and severe",
       "kind and generous",
-      "selfish"
+      "selfish and greedy"
     ]
   },
   {
@@ -1972,11 +1972,11 @@
     "answer": "difficult and tiring",
     "definition": "Involving great effort and difficulty.",
     "options": [
-      "safe",
+      "safe and secure",
       "difficult and tiring",
-      "fast",
-      "easy",
-      "short"
+      "quick and brief",
+      "simple and effortless",
+      "short and easy"
     ]
   },
   {
@@ -2002,11 +2002,11 @@
     "answer": "cautious and wise",
     "definition": "Acting with careful thought for the future.",
     "options": [
-      "careless",
-      "foolish",
-      "hasty",
+      "careless and unwise",
+      "foolish and unwise",
+      "hasty and rushed",
       "cautious and wise",
-      "reckless"
+      "reckless and rash"
     ]
   },
   {
@@ -2017,11 +2017,11 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "brief",
-      "clear",
+      "brief and to the point",
+      "clear and direct",
       "using too many words",
-      "concise",
-      "silent"
+      "concise and short",
+      "completely silent"
     ]
   },
   {
@@ -2032,10 +2032,10 @@
     "answer": "yield to something",
     "definition": "To fail to resist pressure or temptation.",
     "options": [
-      "win",
-      "ignore",
-      "fight",
-      "resist",
+      "win decisively",
+      "ignore completely",
+      "fight against something",
+      "resist strongly",
       "yield to something"
     ]
   },
@@ -2048,10 +2048,10 @@
     "definition": "Having the ability to assess situations quickly.",
     "options": [
       "shrewd and perceptive",
-      "slow",
-      "naive",
-      "foolish",
-      "dull"
+      "slow to understand",
+      "naive and trusting",
+      "foolish and unwise",
+      "dull and unaware"
     ]
   },
   {
@@ -2063,10 +2063,10 @@
     "definition": "Pleasant because of personality or interests.",
     "options": [
       "pleasant and friendly",
-      "unfriendly",
-      "rude",
-      "hostile",
-      "cold"
+      "unfriendly and harsh",
+      "rude and dismissive",
+      "hostile and aggressive",
+      "cold and distant"
     ]
   },
   {
@@ -2092,11 +2092,11 @@
     "answer": "try to equal",
     "definition": "To match or surpass by imitation.",
     "options": [
-      "reject",
+      "reject strongly",
       "try to equal",
-      "avoid",
-      "ignore",
-      "forget"
+      "avoid entirely",
+      "ignore on purpose",
+      "forget completely"
     ]
   },
   {
@@ -2167,11 +2167,11 @@
     "answer": "put at risk",
     "definition": "To expose to danger or loss.",
     "options": [
-      "safeguard",
+      "safeguard completely",
       "put at risk",
-      "protect",
-      "secure",
-      "preserve"
+      "protect fully",
+      "keep secure",
+      "preserve carefully"
     ]
   },
   {
@@ -2212,11 +2212,11 @@
     "answer": "longing for the past",
     "definition": "A sentimental longing for past times.",
     "options": [
-      "excited",
-      "hopeful",
+      "excited about today",
+      "hopeful about tomorrow",
       "longing for the past",
-      "eager",
-      "content"
+      "eager for the future",
+      "content with the present"
     ]
   },
   {
@@ -2227,11 +2227,11 @@
     "answer": "not well known",
     "definition": "Not known or hard to understand.",
     "options": [
-      "plain",
-      "known",
+      "plain and simple",
+      "widely known",
       "not well known",
-      "obvious",
-      "clear"
+      "obvious to all",
+      "clear and evident"
     ]
   },
   {
@@ -2242,11 +2242,11 @@
     "answer": "full of danger",
     "definition": "Full of immediate danger.",
     "options": [
-      "safe",
-      "secure",
+      "safe and sound",
+      "completely secure",
       "full of danger",
-      "easy",
-      "calm"
+      "easy and simple",
+      "calm and peaceful"
     ]
   },
   {
@@ -2302,11 +2302,11 @@
     "answer": "very loud and disorderly",
     "definition": "Making a loud, confused noise.",
     "options": [
-      "peaceful",
+      "peaceful and quiet",
       "very loud and disorderly",
-      "calm",
-      "orderly",
-      "quiet"
+      "calm and steady",
+      "orderly and structured",
+      "quiet and still"
     ]
   },
   {
@@ -2317,11 +2317,11 @@
     "answer": "never done before",
     "definition": "Never done or known before.",
     "options": [
-      "ordinary",
-      "common",
+      "ordinary and typical",
+      "common and frequent",
       "never done before",
-      "typical",
-      "usual"
+      "typical and expected",
+      "usual and routine"
     ]
   },
   {
@@ -2392,11 +2392,11 @@
     "answer": "kind and generous",
     "definition": "Showing goodwill and kindness.",
     "options": [
-      "harsh",
+      "harsh and severe",
       "kind and generous",
-      "mean",
-      "cruel",
-      "selfish"
+      "mean and unkind",
+      "cruel and heartless",
+      "selfish and greedy"
     ]
   },
   {
@@ -2422,11 +2422,11 @@
     "answer": "difficult and tiring",
     "definition": "Involving great effort and difficulty.",
     "options": [
-      "safe",
-      "fast",
-      "short",
+      "safe and secure",
+      "quick and brief",
+      "short and easy",
       "difficult and tiring",
-      "easy"
+      "simple and effortless"
     ]
   },
   {
@@ -2452,11 +2452,11 @@
     "answer": "cautious and wise",
     "definition": "Acting with careful thought for the future.",
     "options": [
-      "hasty",
-      "foolish",
-      "careless",
+      "hasty and rushed",
+      "foolish and unwise",
+      "careless and unwise",
       "cautious and wise",
-      "reckless"
+      "reckless and rash"
     ]
   },
   {
@@ -2467,11 +2467,11 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "brief",
-      "clear",
+      "brief and to the point",
+      "clear and direct",
       "using too many words",
-      "concise",
-      "silent"
+      "concise and short",
+      "completely silent"
     ]
   },
   {
@@ -2482,10 +2482,10 @@
     "answer": "yield to something",
     "definition": "To fail to resist pressure or temptation.",
     "options": [
-      "win",
-      "fight",
-      "ignore",
-      "resist",
+      "win decisively",
+      "fight against something",
+      "ignore completely",
+      "resist strongly",
       "yield to something"
     ]
   },
@@ -2497,11 +2497,11 @@
     "answer": "shrewd and perceptive",
     "definition": "Having the ability to assess situations quickly.",
     "options": [
-      "dull",
-      "slow",
+      "dull and unaware",
+      "slow to understand",
       "shrewd and perceptive",
-      "naive",
-      "foolish"
+      "naive and trusting",
+      "foolish and unwise"
     ]
   },
   {
@@ -2512,11 +2512,11 @@
     "answer": "pleasant and friendly",
     "definition": "Pleasant because of personality or interests.",
     "options": [
-      "unfriendly",
-      "cold",
+      "unfriendly and harsh",
+      "cold and distant",
       "pleasant and friendly",
-      "rude",
-      "hostile"
+      "rude and dismissive",
+      "hostile and aggressive"
     ]
   },
   {
@@ -2543,10 +2543,10 @@
     "definition": "To match or surpass by imitation.",
     "options": [
       "try to equal",
-      "avoid",
-      "forget",
-      "reject",
-      "ignore"
+      "avoid entirely",
+      "forget completely",
+      "reject strongly",
+      "ignore on purpose"
     ]
   },
   {
@@ -2617,10 +2617,10 @@
     "answer": "put at risk",
     "definition": "To expose to danger or loss.",
     "options": [
-      "protect",
-      "safeguard",
-      "preserve",
-      "secure",
+      "protect fully",
+      "safeguard completely",
+      "preserve carefully",
+      "keep secure",
       "put at risk"
     ]
   },
@@ -2662,11 +2662,11 @@
     "answer": "longing for the past",
     "definition": "A sentimental longing for past times.",
     "options": [
-      "content",
-      "eager",
-      "excited",
+      "content with the present",
+      "eager for the future",
+      "excited about today",
       "longing for the past",
-      "hopeful"
+      "hopeful about tomorrow"
     ]
   },
   {
@@ -2678,10 +2678,10 @@
     "definition": "Not known or hard to understand.",
     "options": [
       "not well known",
-      "obvious",
-      "known",
-      "clear",
-      "plain"
+      "obvious to all",
+      "widely known",
+      "clear and evident",
+      "plain and simple"
     ]
   },
   {
@@ -2693,10 +2693,10 @@
     "definition": "Full of immediate danger.",
     "options": [
       "full of danger",
-      "calm",
-      "secure",
-      "easy",
-      "safe"
+      "calm and peaceful",
+      "completely secure",
+      "easy and simple",
+      "safe and sound"
     ]
   },
   {
@@ -2752,10 +2752,10 @@
     "answer": "very loud and disorderly",
     "definition": "Making a loud, confused noise.",
     "options": [
-      "calm",
-      "quiet",
-      "orderly",
-      "peaceful",
+      "calm and steady",
+      "quiet and still",
+      "orderly and structured",
+      "peaceful and quiet",
       "very loud and disorderly"
     ]
   },
@@ -2767,11 +2767,11 @@
     "answer": "never done before",
     "definition": "Never done or known before.",
     "options": [
-      "ordinary",
-      "typical",
-      "usual",
+      "ordinary and typical",
+      "typical and expected",
+      "usual and routine",
       "never done before",
-      "common"
+      "common and frequent"
     ]
   },
   {
@@ -2842,10 +2842,10 @@
     "answer": "kind and generous",
     "definition": "Showing goodwill and kindness.",
     "options": [
-      "mean",
-      "selfish",
-      "harsh",
-      "cruel",
+      "mean and unkind",
+      "selfish and greedy",
+      "harsh and severe",
+      "cruel and heartless",
       "kind and generous"
     ]
   },
@@ -2872,10 +2872,10 @@
     "answer": "difficult and tiring",
     "definition": "Involving great effort and difficulty.",
     "options": [
-      "fast",
-      "short",
-      "easy",
-      "safe",
+      "quick and brief",
+      "short and easy",
+      "simple and effortless",
+      "safe and secure",
       "difficult and tiring"
     ]
   },
@@ -2902,11 +2902,11 @@
     "answer": "cautious and wise",
     "definition": "Acting with careful thought for the future.",
     "options": [
-      "reckless",
-      "careless",
-      "foolish",
+      "reckless and rash",
+      "careless and unwise",
+      "foolish and unwise",
       "cautious and wise",
-      "hasty"
+      "hasty and rushed"
     ]
   },
   {
@@ -2917,11 +2917,11 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "silent",
-      "clear",
-      "brief",
+      "completely silent",
+      "clear and direct",
+      "brief and to the point",
       "using too many words",
-      "concise"
+      "concise and short"
     ]
   },
   {
@@ -2932,11 +2932,11 @@
     "answer": "yield to something",
     "definition": "To fail to resist pressure or temptation.",
     "options": [
-      "fight",
-      "win",
-      "ignore",
+      "fight against something",
+      "win decisively",
+      "ignore completely",
       "yield to something",
-      "resist"
+      "resist strongly"
     ]
   },
   {
@@ -2948,10 +2948,10 @@
     "definition": "Having the ability to assess situations quickly.",
     "options": [
       "shrewd and perceptive",
-      "dull",
-      "slow",
-      "foolish",
-      "naive"
+      "dull and unaware",
+      "slow to understand",
+      "foolish and unwise",
+      "naive and trusting"
     ]
   },
   {
@@ -2963,10 +2963,10 @@
     "definition": "Pleasant because of personality or interests.",
     "options": [
       "pleasant and friendly",
-      "cold",
-      "unfriendly",
-      "rude",
-      "hostile"
+      "cold and distant",
+      "unfriendly and harsh",
+      "rude and dismissive",
+      "hostile and aggressive"
     ]
   },
   {
@@ -2992,11 +2992,11 @@
     "answer": "try to equal",
     "definition": "To match or surpass by imitation.",
     "options": [
-      "avoid",
+      "avoid entirely",
       "try to equal",
-      "ignore",
-      "forget",
-      "reject"
+      "ignore on purpose",
+      "forget completely",
+      "reject strongly"
     ]
   },
   {
@@ -3067,10 +3067,10 @@
     "answer": "put at risk",
     "definition": "To expose to danger or loss.",
     "options": [
-      "preserve",
-      "secure",
-      "protect",
-      "safeguard",
+      "preserve carefully",
+      "keep secure",
+      "protect fully",
+      "safeguard completely",
       "put at risk"
     ]
   },
@@ -3112,11 +3112,11 @@
     "answer": "longing for the past",
     "definition": "A sentimental longing for past times.",
     "options": [
-      "hopeful",
-      "excited",
+      "hopeful about tomorrow",
+      "excited about today",
       "longing for the past",
-      "content",
-      "eager"
+      "content with the present",
+      "eager for the future"
     ]
   },
   {
@@ -3127,10 +3127,10 @@
     "answer": "not well known",
     "definition": "Not known or hard to understand.",
     "options": [
-      "obvious",
-      "known",
-      "plain",
-      "clear",
+      "obvious to all",
+      "widely known",
+      "plain and simple",
+      "clear and evident",
       "not well known"
     ]
   },
@@ -3142,11 +3142,11 @@
     "answer": "full of danger",
     "definition": "Full of immediate danger.",
     "options": [
-      "calm",
-      "easy",
+      "calm and peaceful",
+      "easy and simple",
       "full of danger",
-      "secure",
-      "safe"
+      "completely secure",
+      "safe and sound"
     ]
   },
   {
@@ -3202,11 +3202,11 @@
     "answer": "very loud and disorderly",
     "definition": "Making a loud, confused noise.",
     "options": [
-      "calm",
-      "orderly",
+      "calm and steady",
+      "orderly and structured",
       "very loud and disorderly",
-      "peaceful",
-      "quiet"
+      "peaceful and quiet",
+      "quiet and still"
     ]
   },
   {
@@ -3217,11 +3217,11 @@
     "answer": "never done before",
     "definition": "Never done or known before.",
     "options": [
-      "common",
-      "ordinary",
-      "typical",
+      "common and frequent",
+      "ordinary and typical",
+      "typical and expected",
       "never done before",
-      "usual"
+      "usual and routine"
     ]
   },
   {
@@ -3292,11 +3292,11 @@
     "answer": "kind and generous",
     "definition": "Showing goodwill and kindness.",
     "options": [
-      "harsh",
-      "mean",
+      "harsh and severe",
+      "mean and unkind",
       "kind and generous",
-      "selfish",
-      "cruel"
+      "selfish and greedy",
+      "cruel and heartless"
     ]
   },
   {
@@ -3322,11 +3322,11 @@
     "answer": "difficult and tiring",
     "definition": "Involving great effort and difficulty.",
     "options": [
-      "safe",
-      "short",
+      "safe and secure",
+      "short and easy",
       "difficult and tiring",
-      "easy",
-      "fast"
+      "simple and effortless",
+      "quick and brief"
     ]
   },
   {
@@ -3353,10 +3353,10 @@
     "definition": "Acting with careful thought for the future.",
     "options": [
       "cautious and wise",
-      "hasty",
-      "careless",
-      "foolish",
-      "reckless"
+      "hasty and rushed",
+      "careless and unwise",
+      "foolish and unwise",
+      "reckless and rash"
     ]
   },
   {
@@ -3367,10 +3367,10 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "brief",
-      "clear",
-      "silent",
-      "concise",
+      "brief and to the point",
+      "clear and direct",
+      "completely silent",
+      "concise and short",
       "using too many words"
     ]
   },
@@ -3382,11 +3382,11 @@
     "answer": "yield to something",
     "definition": "To fail to resist pressure or temptation.",
     "options": [
-      "fight",
-      "win",
+      "fight against something",
+      "win decisively",
       "yield to something",
-      "resist",
-      "ignore"
+      "resist strongly",
+      "ignore completely"
     ]
   },
   {
@@ -3397,11 +3397,11 @@
     "answer": "shrewd and perceptive",
     "definition": "Having the ability to assess situations quickly.",
     "options": [
-      "naive",
+      "naive and trusting",
       "shrewd and perceptive",
-      "dull",
-      "slow",
-      "foolish"
+      "dull and unaware",
+      "slow to understand",
+      "foolish and unwise"
     ]
   },
   {
@@ -3413,10 +3413,10 @@
     "definition": "Pleasant because of personality or interests.",
     "options": [
       "pleasant and friendly",
-      "hostile",
-      "cold",
-      "unfriendly",
-      "rude"
+      "hostile and aggressive",
+      "cold and distant",
+      "unfriendly and harsh",
+      "rude and dismissive"
     ]
   },
   {
@@ -3443,10 +3443,10 @@
     "definition": "To match or surpass by imitation.",
     "options": [
       "try to equal",
-      "forget",
-      "reject",
-      "avoid",
-      "ignore"
+      "forget completely",
+      "reject strongly",
+      "avoid entirely",
+      "ignore on purpose"
     ]
   },
   {
@@ -3518,10 +3518,10 @@
     "definition": "To expose to danger or loss.",
     "options": [
       "put at risk",
-      "preserve",
-      "safeguard",
-      "secure",
-      "protect"
+      "preserve carefully",
+      "safeguard completely",
+      "keep secure",
+      "protect fully"
     ]
   },
   {
@@ -3562,11 +3562,11 @@
     "answer": "longing for the past",
     "definition": "A sentimental longing for past times.",
     "options": [
-      "eager",
+      "eager for the future",
       "longing for the past",
-      "hopeful",
-      "excited",
-      "content"
+      "hopeful about tomorrow",
+      "excited about today",
+      "content with the present"
     ]
   },
   {
@@ -3577,11 +3577,11 @@
     "answer": "not well known",
     "definition": "Not known or hard to understand.",
     "options": [
-      "clear",
-      "obvious",
+      "clear and evident",
+      "obvious to all",
       "not well known",
-      "plain",
-      "known"
+      "plain and simple",
+      "widely known"
     ]
   },
   {
@@ -3592,10 +3592,10 @@
     "answer": "full of danger",
     "definition": "Full of immediate danger.",
     "options": [
-      "secure",
-      "calm",
-      "easy",
-      "safe",
+      "completely secure",
+      "calm and peaceful",
+      "easy and simple",
+      "safe and sound",
       "full of danger"
     ]
   },
@@ -3653,10 +3653,10 @@
     "definition": "Making a loud, confused noise.",
     "options": [
       "very loud and disorderly",
-      "peaceful",
-      "quiet",
-      "orderly",
-      "calm"
+      "peaceful and quiet",
+      "quiet and still",
+      "orderly and structured",
+      "calm and steady"
     ]
   },
   {
@@ -3667,11 +3667,11 @@
     "answer": "never done before",
     "definition": "Never done or known before.",
     "options": [
-      "common",
+      "common and frequent",
       "never done before",
-      "usual",
-      "ordinary",
-      "typical"
+      "usual and routine",
+      "ordinary and typical",
+      "typical and expected"
     ]
   },
   {
@@ -3742,11 +3742,11 @@
     "answer": "kind and generous",
     "definition": "Showing goodwill and kindness.",
     "options": [
-      "harsh",
-      "cruel",
-      "selfish",
+      "harsh and severe",
+      "cruel and heartless",
+      "selfish and greedy",
       "kind and generous",
-      "mean"
+      "mean and unkind"
     ]
   },
   {
@@ -3772,11 +3772,11 @@
     "answer": "difficult and tiring",
     "definition": "Involving great effort and difficulty.",
     "options": [
-      "fast",
-      "safe",
+      "quick and brief",
+      "safe and secure",
       "difficult and tiring",
-      "short",
-      "easy"
+      "short and easy",
+      "simple and effortless"
     ]
   },
   {
@@ -3802,10 +3802,10 @@
     "answer": "cautious and wise",
     "definition": "Acting with careful thought for the future.",
     "options": [
-      "reckless",
-      "careless",
-      "hasty",
-      "foolish",
+      "reckless and rash",
+      "careless and unwise",
+      "hasty and rushed",
+      "foolish and unwise",
       "cautious and wise"
     ]
   },
@@ -3817,11 +3817,11 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "brief",
-      "concise",
-      "clear",
+      "brief and to the point",
+      "concise and short",
+      "clear and direct",
       "using too many words",
-      "silent"
+      "completely silent"
     ]
   },
   {
@@ -3833,10 +3833,10 @@
     "definition": "To fail to resist pressure or temptation.",
     "options": [
       "yield to something",
-      "resist",
-      "win",
-      "ignore",
-      "fight"
+      "resist strongly",
+      "win decisively",
+      "ignore completely",
+      "fight against something"
     ]
   },
   {
@@ -3847,11 +3847,11 @@
     "answer": "shrewd and perceptive",
     "definition": "Having the ability to assess situations quickly.",
     "options": [
-      "foolish",
+      "foolish and unwise",
       "shrewd and perceptive",
-      "slow",
-      "dull",
-      "naive"
+      "slow to understand",
+      "dull and unaware",
+      "naive and trusting"
     ]
   },
   {
@@ -3862,11 +3862,11 @@
     "answer": "pleasant and friendly",
     "definition": "Pleasant because of personality or interests.",
     "options": [
-      "rude",
-      "unfriendly",
-      "hostile",
+      "rude and dismissive",
+      "unfriendly and harsh",
+      "hostile and aggressive",
       "pleasant and friendly",
-      "cold"
+      "cold and distant"
     ]
   },
   {
@@ -3892,11 +3892,11 @@
     "answer": "try to equal",
     "definition": "To match or surpass by imitation.",
     "options": [
-      "forget",
-      "ignore",
+      "forget completely",
+      "ignore on purpose",
       "try to equal",
-      "reject",
-      "avoid"
+      "reject strongly",
+      "avoid entirely"
     ]
   },
   {
@@ -3967,11 +3967,11 @@
     "answer": "put at risk",
     "definition": "To expose to danger or loss.",
     "options": [
-      "protect",
-      "safeguard",
-      "secure",
+      "protect fully",
+      "safeguard completely",
+      "keep secure",
       "put at risk",
-      "preserve"
+      "preserve carefully"
     ]
   },
   {
@@ -4012,11 +4012,11 @@
     "answer": "longing for the past",
     "definition": "A sentimental longing for past times.",
     "options": [
-      "excited",
+      "excited about today",
       "longing for the past",
-      "content",
-      "hopeful",
-      "eager"
+      "content with the present",
+      "hopeful about tomorrow",
+      "eager for the future"
     ]
   },
   {
@@ -4027,11 +4027,11 @@
     "answer": "not well known",
     "definition": "Not known or hard to understand.",
     "options": [
-      "known",
-      "plain",
-      "clear",
+      "widely known",
+      "plain and simple",
+      "clear and evident",
       "not well known",
-      "obvious"
+      "obvious to all"
     ]
   },
   {
@@ -4042,10 +4042,10 @@
     "answer": "full of danger",
     "definition": "Full of immediate danger.",
     "options": [
-      "calm",
-      "safe",
-      "secure",
-      "easy",
+      "calm and peaceful",
+      "safe and sound",
+      "completely secure",
+      "easy and simple",
       "full of danger"
     ]
   },
@@ -4102,11 +4102,11 @@
     "answer": "very loud and disorderly",
     "definition": "Making a loud, confused noise.",
     "options": [
-      "calm",
-      "quiet",
+      "calm and steady",
+      "quiet and still",
       "very loud and disorderly",
-      "orderly",
-      "peaceful"
+      "orderly and structured",
+      "peaceful and quiet"
     ]
   },
   {
@@ -4118,10 +4118,10 @@
     "definition": "Never done or known before.",
     "options": [
       "never done before",
-      "common",
-      "typical",
-      "usual",
-      "ordinary"
+      "common and frequent",
+      "typical and expected",
+      "usual and routine",
+      "ordinary and typical"
     ]
   },
   {
@@ -4193,10 +4193,10 @@
     "definition": "Showing goodwill and kindness.",
     "options": [
       "kind and generous",
-      "cruel",
-      "harsh",
-      "selfish",
-      "mean"
+      "cruel and heartless",
+      "harsh and severe",
+      "selfish and greedy",
+      "mean and unkind"
     ]
   },
   {
@@ -4222,10 +4222,10 @@
     "answer": "difficult and tiring",
     "definition": "Involving great effort and difficulty.",
     "options": [
-      "fast",
-      "short",
-      "easy",
-      "safe",
+      "quick and brief",
+      "short and easy",
+      "simple and effortless",
+      "safe and secure",
       "difficult and tiring"
     ]
   },
@@ -4253,10 +4253,10 @@
     "definition": "Acting with careful thought for the future.",
     "options": [
       "cautious and wise",
-      "reckless",
-      "hasty",
-      "foolish",
-      "careless"
+      "reckless and rash",
+      "hasty and rushed",
+      "foolish and unwise",
+      "careless and unwise"
     ]
   },
   {
@@ -4267,10 +4267,10 @@
     "answer": "using too many words",
     "definition": "Using more words than needed.",
     "options": [
-      "clear",
-      "silent",
-      "concise",
-      "brief",
+      "clear and direct",
+      "completely silent",
+      "concise and short",
+      "brief and to the point",
       "using too many words"
     ]
   },
@@ -4282,10 +4282,10 @@
     "answer": "yield to something",
     "definition": "To fail to resist pressure or temptation.",
     "options": [
-      "ignore",
-      "resist",
-      "fight",
-      "win",
+      "ignore completely",
+      "resist strongly",
+      "fight against something",
+      "win decisively",
       "yield to something"
     ]
   },
@@ -4297,10 +4297,10 @@
     "answer": "shrewd and perceptive",
     "definition": "Having the ability to assess situations quickly.",
     "options": [
-      "foolish",
-      "slow",
-      "naive",
-      "dull",
+      "foolish and unwise",
+      "slow to understand",
+      "naive and trusting",
+      "dull and unaware",
       "shrewd and perceptive"
     ]
   },
@@ -4313,10 +4313,10 @@
     "definition": "Pleasant because of personality or interests.",
     "options": [
       "pleasant and friendly",
-      "rude",
-      "unfriendly",
-      "hostile",
-      "cold"
+      "rude and dismissive",
+      "unfriendly and harsh",
+      "hostile and aggressive",
+      "cold and distant"
     ]
   },
   {
@@ -4342,11 +4342,11 @@
     "answer": "try to equal",
     "definition": "To match or surpass by imitation.",
     "options": [
-      "reject",
+      "reject strongly",
       "try to equal",
-      "avoid",
-      "forget",
-      "ignore"
+      "avoid entirely",
+      "forget completely",
+      "ignore on purpose"
     ]
   },
   {
@@ -4417,10 +4417,10 @@
     "answer": "put at risk",
     "definition": "To expose to danger or loss.",
     "options": [
-      "preserve",
-      "secure",
-      "protect",
-      "safeguard",
+      "preserve carefully",
+      "keep secure",
+      "protect fully",
+      "safeguard completely",
       "put at risk"
     ]
   },
@@ -4462,11 +4462,11 @@
     "answer": "longing for the past",
     "definition": "A sentimental longing for past times.",
     "options": [
-      "excited",
+      "excited about today",
       "longing for the past",
-      "eager",
-      "hopeful",
-      "content"
+      "eager for the future",
+      "hopeful about tomorrow",
+      "content with the present"
     ]
   },
   {
@@ -4477,10 +4477,10 @@
     "answer": "not well known",
     "definition": "Not known or hard to understand.",
     "options": [
-      "obvious",
-      "clear",
-      "plain",
-      "known",
+      "obvious to all",
+      "clear and evident",
+      "plain and simple",
+      "widely known",
       "not well known"
     ]
   },
@@ -4492,11 +4492,2816 @@
     "answer": "full of danger",
     "definition": "Full of immediate danger.",
     "options": [
-      "easy",
-      "secure",
+      "easy and simple",
+      "completely secure",
       "full of danger",
+      "calm and peaceful",
+      "safe and sound"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "abhor",
+    "passage": "Sergeant Diaz made it clear that he abhorred dishonesty among his troops. He often reminded new recruits that he also abhorred violence used without just cause, and expected them to seek peaceful solutions whenever possible.",
+    "question": "What does the word \"abhor\" most nearly mean?",
+    "answer": "to hate intensely",
+    "definition": "To hate something deeply or regard it with extreme disgust.",
+    "options": [
+      "to hate intensely",
+      "to admire greatly",
+      "to ignore completely",
+      "to forgive quickly",
+      "to tolerate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "abrupt",
+    "passage": "The BSEP meeting ended in an abrupt manner, catching everyone off guard. Sherman's abrupt response to his daughter's marriage proposal surprised the entire family, since no one expected such a quick reaction.",
+    "question": "The word \"abrupt\" most nearly means:",
+    "answer": "sudden and unexpected",
+    "definition": "Happening suddenly and unexpectedly, without warning.",
+    "options": [
+      "sudden and unexpected",
+      "slow and gradual",
+      "carefully planned",
+      "friendly and warm",
+      "delayed"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "abstemious",
+    "passage": "Elizabeth remained abstemious during the holiday feast to avoid getting sick, since she was a diabetic. Her abstemious lifestyle, which included careful moderation in eating and drinking, helped her stay healthy year-round.",
+    "question": "\"Abstemious\" refers to:",
+    "answer": "practicing self-restraint",
+    "definition": "Practicing self-restraint, especially in eating and drinking.",
+    "options": [
+      "practicing self-restraint",
+      "eating without limits",
+      "extremely wealthy",
+      "highly emotional",
+      "physically weak"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "abundant",
+    "passage": "The forest had abundant wildlife, with animals visible at nearly every turn. Investigators also found abundant evidence to support the claim, leaving little doubt about what had happened.",
+    "question": "What does the word \"abundant\" most nearly mean?",
+    "answer": "plentiful",
+    "definition": "Existing in large quantities; more than enough.",
+    "options": [
+      "plentiful",
+      "scarce",
+      "hidden",
+      "expensive",
+      "damaged"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "acquiescence",
+    "passage": "Silvia's acquiescence allowed the plan to move forward without further delay. Likewise, the team showed acquiescence to the commander's orders, agreeing to proceed without protest even though some had reservations.",
+    "question": "The word \"acquiescence\" as used in the passage means:",
+    "answer": "agreement without protest",
+    "definition": "Agreement or acceptance without objection.",
+    "options": [
+      "agreement without protest",
+      "open rebellion",
+      "confusion",
+      "harsh criticism",
+      "delay"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "acquisition",
+    "passage": "The students' acquisition of BSEP English in such a short time amazed all of their instructors. Later, the military celebrated the acquisition of new equipment, since knowledge, like new gear, is always a valuable acquisition.",
+    "question": "\"Acquisition\" refers to:",
+    "answer": "the act of gaining something",
+    "definition": "The act of acquiring or gaining possession of something.",
+    "options": [
+      "the act of gaining something",
+      "the act of losing something",
+      "a formal apology",
+      "a type of punishment",
+      "a period of rest"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "adage",
+    "passage": "One old adage is \"birds of a feather flock together,\" a saying passed down for generations. Mr. Mitchell lives by another well-known adage about hard work, believing that such traditional sayings often express a common truth.",
+    "question": "What does the word \"adage\" most nearly mean?",
+    "answer": "a traditional saying",
+    "definition": "A short, well-known saying that expresses a common truth.",
+    "options": [
+      "a traditional saying",
+      "a legal contract",
+      "a musical instrument",
+      "a scientific formula",
+      "a type of uniform"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "adjacent",
+    "passage": "The BSEP classrooms are adjacent to each other, making it easy for students to move between them. Because the schools were adjacent, though separated by separate doors, students often parked in an adjacent lot nearby.",
+    "question": "The word \"adjacent\" most nearly means:",
+    "answer": "next to or near",
+    "definition": "Lying next to or near something; adjoining.",
+    "options": [
+      "next to or near",
+      "far away from",
+      "underneath",
+      "inside of",
+      "opposite to"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "admonish",
+    "passage": "The teacher admonished the children to look more carefully before crossing the street. Her gentle warning was meant to caution them, not to punish them, so they would remember the lesson in the future.",
+    "question": "What does the word \"admonish\" most nearly mean?",
+    "answer": "to warn or caution",
+    "definition": "To warn or reprimand someone gently.",
+    "options": [
+      "to warn or caution",
+      "to reward generously",
+      "to ignore completely",
+      "to praise highly",
+      "to promote"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "adobe",
+    "passage": "The old mission was constructed using adobe bricks, which kept the building cool during the hot summers. The house we saw in the desert was also built from adobe, a sun-dried clay material common in dry climates.",
+    "question": "\"Adobe\" refers to:",
+    "answer": "sun-dried clay brick",
+    "definition": "Sun-dried brick made of clay and straw, used for building.",
+    "options": [
+      "sun-dried clay brick",
+      "polished marble",
+      "reinforced steel",
+      "woven fabric",
+      "carved wood"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "adore",
+    "passage": "Ms. Stuckey absolutely adores her grandchildren and spends every weekend with them. Dr. Bullock adores her family in much the same way, just as many people adore their pets with deep affection.",
+    "question": "What does the word \"adore\" most nearly mean?",
+    "answer": "to love deeply",
+    "definition": "To love deeply; to feel great affection or devotion for.",
+    "options": [
+      "to love deeply",
+      "to dislike strongly",
+      "to forget completely",
+      "to avoid",
+      "to criticize"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "adversary",
+    "passage": "The basketball team prepared to face a strong adversary in the championship game. Even Superman respected his adversary despite their rivalry, recognizing that a worthy opponent deserves respect.",
+    "question": "The word \"adversary\" most nearly means:",
+    "answer": "opponent or enemy",
+    "definition": "A person or group that opposes or fights against another.",
+    "options": [
+      "opponent or enemy",
+      "close friend",
+      "trusted advisor",
+      "family member",
+      "teammate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "advocacy",
+    "passage": "Horace Mann was known for his advocacy for public education, championing the cause throughout his career. Similarly, public advocacy by numerous civil rights leaders led to the passing of new anti-discrimination laws.",
+    "question": "What does the word \"advocacy\" most nearly mean?",
+    "answer": "public support for a cause",
+    "definition": "Public support for or recommendation of a particular cause.",
+    "options": [
+      "public support for a cause",
+      "strong opposition to an idea",
+      "private secrecy",
+      "financial punishment",
+      "military retreat"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "agile",
+    "passage": "Many of the soldiers were agile during the various combat training drills, moving quickly and gracefully through each obstacle. Like gymnasts, who are known for being extremely agile, they combined speed with excellent coordination.",
+    "question": "\"Agile\" most nearly means:",
+    "answer": "able to move quickly and easily",
+    "definition": "Able to move quickly, easily, and gracefully.",
+    "options": [
+      "able to move quickly and easily",
+      "slow and clumsy",
+      "extremely heavy",
+      "unable to bend",
+      "fearful"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "allude",
+    "passage": "Dr. Bullock is always alluding to books that the class has not read, hinting at their content without full explanation. Similarly, the commander alluded to the problem without directly naming it during the briefing.",
+    "question": "What does the word \"allude\" most nearly mean?",
+    "answer": "to refer to indirectly",
+    "definition": "To refer to something indirectly or hint at it without stating it outright.",
+    "options": [
+      "to refer to indirectly",
+      "to state directly and clearly",
+      "to forbid entirely",
+      "to translate",
+      "to memorize"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "amalgamation",
+    "passage": "The project's success was attributed to the amalgamation of talents from various disciplines, each contributing unique perspectives. In much the same way, the culture in that region is an amalgamation of different traditions blended together over time.",
+    "question": "The word \"amalgamation\" most nearly means:",
+    "answer": "a mixture or combination",
+    "definition": "A mixture or combination of different things.",
+    "options": [
+      "a mixture or combination",
+      "a complete separation",
+      "a strict rule",
+      "a formal apology",
+      "a sudden collapse"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "amused",
+    "passage": "Ms. Durham was amused by the joke one of the soldiers made as she enrolled him in BSEP classes. Likewise, the children in the auditorium looked amused during the show, clearly finding it entertaining.",
+    "question": "What does the word \"amused\" most nearly mean?",
+    "answer": "entertained or delighted",
+    "definition": "Finding something funny or entertaining.",
+    "options": [
+      "entertained or delighted",
+      "angered and upset",
+      "bored and uninterested",
+      "frightened and scared",
+      "confused and puzzled"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "argument",
+    "passage": "My neighbor's heated argument over politics lasted well into the night, with neither side willing to back down. The military leaders likewise had an argument about the plan they should follow for the mission, until the debate finally settled the matter.",
+    "question": "\"Argument\" refers to:",
+    "answer": "a disagreement or debate",
+    "definition": "A disagreement or debate, often a heated exchange of opposing views.",
+    "options": [
+      "a disagreement or debate",
+      "a peaceful agreement",
+      "a written report",
+      "a musical performance",
+      "a formal celebration"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "assail",
+    "passage": "The journalist was assailed by critics after publishing the controversial article. In a similar way, the critics assailed the decision the military leaders made, attacking it fiercely from every angle.",
+    "question": "What does the word \"assail\" most nearly mean?",
+    "answer": "to attack forcefully",
+    "definition": "To attack someone or something verbally or physically, often vigorously.",
+    "options": [
+      "to attack forcefully",
+      "to defend calmly",
+      "to ignore quietly",
+      "to reward",
+      "to forgive"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "attrition",
+    "passage": "The college reduced staff through attrition due to the furlough, allowing positions to go unfilled rather than laying anyone off directly. In wartime, an army may suffer similar losses by attrition, gradually weakening over time.",
+    "question": "The word \"attrition\" most nearly means:",
+    "answer": "gradual reduction or loss",
+    "definition": "A gradual reduction or wearing down in number, size, or strength.",
+    "options": [
+      "gradual reduction or loss",
+      "sudden increase",
+      "complete victory",
+      "immediate recovery",
+      "formal celebration"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "banish",
+    "passage": "King Charles decided to banish the traitor from the kingdom rather than imprison him. In the same spirit, the BSEP instructors strive to banish all thoughts of failure from their students' minds before exam day.",
+    "question": "What does the word \"banish\" most nearly mean?",
+    "answer": "to force out or expel",
+    "definition": "To force someone to leave; to send away or get rid of.",
+    "options": [
+      "to force out or expel",
+      "to warmly welcome",
+      "to reward generously",
+      "to promote quickly",
+      "to hide"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "berate",
+    "passage": "Coach Carter would often berate the players for their mistakes during practice, scolding them harshly. After the playoff loss, he berated the team again, though another coach refused to berate his own students in the same way.",
+    "question": "The word \"berate\" most nearly means:",
+    "answer": "to scold angrily",
+    "definition": "To scold or criticize someone angrily.",
+    "options": [
+      "to scold angrily",
+      "to praise warmly",
+      "to ignore completely",
+      "to reward",
+      "to comfort"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "bigotry",
+    "passage": "The commander's speech condemned bigotry in all its forms, urging the unit to treat every soldier fairly. He reminded them that society must continue to work to eliminate bigotry, which is built on intolerance toward different beliefs and groups.",
+    "question": "What does the word \"bigotry\" most nearly mean?",
+    "answer": "intolerance toward others",
+    "definition": "Intolerance toward people with different beliefs or backgrounds.",
+    "options": [
+      "intolerance toward others",
+      "generous kindness",
+      "deep friendship",
+      "careful planning",
+      "quiet patience"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "bivouac",
+    "passage": "The soldiers set up a bivouac for the night after a long day of marching. Many of them decided to bivouac in the field near the river, using only minimal shelter until sunrise.",
+    "question": "\"Bivouac\" most nearly means:",
+    "answer": "a temporary camp",
+    "definition": "A temporary camp or shelter, especially one used by soldiers, or to camp temporarily.",
+    "options": [
+      "a temporary camp",
+      "a permanent building",
+      "a formal ceremony",
+      "a type of weapon",
+      "a written order"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "boast",
+    "passage": "Dr. Swain likes to boast about her many achievements whenever the topic arises. Ms. Williams's success eventually became a point of boast as well, and Ms. Shelly boasted about the fact that she has never betrayed a friend.",
+    "question": "What does the word \"boast\" most nearly mean?",
+    "answer": "to brag",
+    "definition": "To speak with excessive pride about oneself or one's achievements.",
+    "options": [
+      "to brag",
+      "to apologize",
+      "to whisper",
+      "to remain silent",
+      "to complain"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "bodacious",
+    "passage": "The plan to renovate the beach house was bodacious but effective, drawing attention from the whole neighborhood. Mr. Mitchell made an equally bodacious move in business, one that was bold enough to attract plenty of notice.",
+    "question": "The word \"bodacious\" most nearly means:",
+    "answer": "bold and remarkable",
+    "definition": "Bold and remarkable; likely to attract attention.",
+    "options": [
+      "bold and remarkable",
+      "quiet and shy",
+      "weak and fragile",
+      "dull and forgettable",
+      "slow and careful"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "bombastic",
+    "passage": "The politician's bombastic speech was ridiculed in the press for being full of grand but empty words. The commander's bombastic manner, marked by impressive-sounding phrases, turned out to be a front for deep insecurity.",
+    "question": "What does the word \"bombastic\" most nearly mean?",
+    "answer": "overly grand in speech",
+    "definition": "Overly grand or showy in speech; using impressive but meaningless words.",
+    "options": [
+      "overly grand in speech",
+      "quiet and modest",
+      "simple and clear",
+      "sad and sincere",
+      "brief and factual"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "boring",
+    "passage": "The lecture was so boring that several students fell asleep in their seats. Dr. Bullock similarly found the movie Hamlet boring, saying it dragged on without holding her interest.",
+    "question": "\"Boring\" refers to:",
+    "answer": "not interesting",
+    "definition": "Not interesting; tedious.",
+    "options": [
+      "not interesting",
+      "highly exciting",
+      "very frightening",
+      "extremely short",
+      "well organized"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "brawn",
+    "passage": "The job required more brawn than skill, favoring raw physical strength over technique. PFC James relied on brawn to lift the heavy equipment, and the soldiers, wearing sleeveless shirts, took pleasure in displaying their brawn.",
+    "question": "What does the word \"brawn\" most nearly mean?",
+    "answer": "physical strength",
+    "definition": "Physical strength; large, solid muscles.",
+    "options": [
+      "physical strength",
+      "mental sharpness",
+      "emotional sensitivity",
+      "financial wealth",
+      "artistic talent"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "broach",
+    "passage": "The commander decided to broach the subject of pay carefully during the meeting. He finally broached the issue in front of the whole group, bringing up the topic for the first time.",
+    "question": "The word \"broach\" most nearly means:",
+    "answer": "to bring up a topic",
+    "definition": "To suggest or mention a topic for the first time.",
+    "options": [
+      "to bring up a topic",
+      "to avoid entirely",
+      "to end a conversation",
+      "to memorize",
+      "to translate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "canny",
+    "passage": "The canny investor made smart choices, carefully avoiding risks that fooled less careful competitors. SFC Moore gave an equally canny response to the question, showing the same shrewd, careful thinking.",
+    "question": "What does the word \"canny\" most nearly mean?",
+    "answer": "clever and careful",
+    "definition": "Clever and careful; difficult to fool or take advantage of.",
+    "options": [
+      "clever and careful",
+      "careless and reckless",
+      "slow and confused",
+      "loud and boastful",
+      "weak and timid"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "cede",
+    "passage": "The vanquished nation ceded some territory to the victors after the war ended. Rather than continue fighting, its leaders chose to formally surrender control of the land to the opposing side.",
+    "question": "\"Cede\" most nearly means:",
+    "answer": "to give up or surrender",
+    "definition": "To yield or formally surrender something to another.",
+    "options": [
+      "to give up or surrender",
+      "to conquer completely",
+      "to purchase",
+      "to celebrate",
+      "to repair"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "chronicle",
+    "passage": "We can read about historic battles in the chronicles that were written during those times. In the same way, the tabloids chronicled the events leading up to the couple's divorce, recording each detail as it happened.",
+    "question": "What does the word \"chronicle\" most nearly mean?",
+    "answer": "to record events in order",
+    "definition": "A chronological record of events, or to record events in that manner.",
+    "options": [
+      "to record events in order",
+      "to destroy records",
+      "to predict the future",
+      "to keep a secret",
+      "to perform a song"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "circumvent",
+    "passage": "Some soldiers tried to circumvent the rules in the barracks, looking for ways around the regulations. My student found a different way to circumvent the obstacle, avoiding it rather than confronting it directly.",
+    "question": "The word \"circumvent\" most nearly means:",
+    "answer": "to find a way around",
+    "definition": "To find a way around or avoid an obstacle.",
+    "options": [
+      "to find a way around",
+      "to confront directly",
+      "to obey strictly",
+      "to give up",
+      "to celebrate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "clemency",
+    "passage": "The judge showed clemency in sentencing, choosing mercy over the harshest punishment allowed. Sgt. Brown's son later asked for clemency in his own sentence, hoping for the same leniency.",
+    "question": "What does the word \"clemency\" most nearly mean?",
+    "answer": "mercy or leniency",
+    "definition": "Mercy or leniency, especially in judging or punishing someone.",
+    "options": [
+      "mercy or leniency",
+      "harsh punishment",
+      "strict discipline",
+      "public praise",
+      "financial reward"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "clutter",
+    "passage": "The desk was covered in clutter, with papers and supplies piled in every direction. The instructor reminded the students, \"Don't clutter your workspace,\" since a messy area of disorganized items makes it harder to focus.",
+    "question": "\"Clutter\" refers to:",
+    "answer": "a messy collection of things",
+    "definition": "A disorderly heap of things; a messy or confused state.",
+    "options": [
+      "a messy collection of things",
+      "a neat, organized system",
+      "a formal speech",
+      "a type of vehicle",
+      "a musical rhythm"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "commiserate",
+    "passage": "The squad gathered to commiserate with a soldier who had failed the promotion board. Leaders often commiserate with troops facing deployment stress, offering comfort rather than criticism.",
+    "question": "What does the word \"commiserate\" most nearly mean?",
+    "answer": "sympathize",
+    "definition": "To express sympathy or sorrow with someone.",
+    "options": [
+      "sympathize",
+      "compete",
+      "criticize",
+      "ignore",
+      "celebrate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "communique",
+    "passage": "The commander released a communiqué about the mission outcome. Later, a classified communiqué was sent to headquarters detailing further instructions.",
+    "question": "The word \"communiqué\" most nearly means:",
+    "answer": "official announcement",
+    "definition": "An official announcement or report, usually to the press or public.",
+    "options": [
+      "official announcement",
+      "personal letter",
+      "casual rumor",
+      "secret handshake",
+      "medal"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "commute",
+    "passage": "Many soldiers commute from nearby cities to base each day. Dr. Bullock's daily commute to Fort Bragg takes about an hour, but he says the drive helps him prepare for the day.",
+    "question": "The word \"commute\" as used in the passage means:",
+    "answer": "travel back and forth",
+    "definition": "To travel regularly between a home and workplace.",
+    "options": [
+      "travel back and forth",
+      "live permanently",
+      "avoid working",
+      "retire early",
+      "relocate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "concoct",
+    "passage": "The soldier tried to concoct an excuse for being late to formation. Intelligence officers, however, must never concoct reports, since accurate information is critical to mission success.",
+    "question": "What does the word \"concoct\" most nearly mean?",
+    "answer": "make up",
+    "definition": "To create or invent something, often falsely.",
+    "options": [
+      "make up",
+      "verify",
+      "discard",
+      "memorize",
+      "report accurately"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "concur",
+    "passage": "The officers concurred on the mission plan after reviewing the intelligence reports. \"I concur with the commander's decision,\" said the sergeant, \"to delay the operation until conditions improve.\"",
+    "question": "The word \"concur\" most nearly means:",
+    "answer": "agree",
+    "definition": "To agree or share the same opinion.",
+    "options": [
+      "agree",
+      "disagree",
+      "hesitate",
+      "complain",
+      "forget"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "confidante",
+    "passage": "Every leader needs a confidante they trust completely. He spoke to his confidante about his deployment concerns, knowing the conversation would stay private.",
+    "question": "\"Confidante\" refers to:",
+    "answer": "a trusted friend",
+    "definition": "A trusted person with whom one shares secrets.",
+    "options": [
+      "a trusted friend",
+      "a strict superior",
+      "an unknown recruit",
+      "a rival",
+      "a stranger"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "conspiracy",
+    "passage": "The investigation uncovered a conspiracy against the unit. Soldiers who reported the suspected conspiracy helped prevent serious harm before it could occur.",
+    "question": "What does the word \"conspiracy\" most nearly mean?",
+    "answer": "secret plot",
+    "definition": "A secret plan by two or more people to do something harmful or illegal.",
+    "options": [
+      "secret plot",
+      "public announcement",
+      "training exercise",
+      "friendly agreement",
+      "promotion ceremony"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "construe",
+    "passage": "Soldiers were warned not to construe orders incorrectly during the tense operation. The young private construed the message as urgent and immediately alerted his sergeant.",
+    "question": "The word \"construe\" most nearly means:",
+    "answer": "interpret",
+    "definition": "To interpret or understand the meaning of something.",
+    "options": [
+      "interpret",
+      "ignore",
+      "rewrite",
+      "delay",
+      "shout"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "contemplate",
+    "passage": "He took time to contemplate reenlistment before making a final decision. Leaders must contemplate all possible outcomes before taking action in the field.",
+    "question": "\"Contemplate\" most nearly means:",
+    "answer": "think deeply about",
+    "definition": "To think deeply and carefully about something.",
+    "options": [
+      "think deeply about",
+      "ignore completely",
+      "act quickly",
+      "argue loudly",
+      "forget"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "contentious",
+    "passage": "The new grooming policy became contentious among soldiers, with some fully supporting it and others strongly opposed. A contentious meeting between leadership and troops delayed the final decision for weeks.",
+    "question": "The word \"contentious\" as used in the passage means:",
+    "answer": "causing argument",
+    "definition": "Likely to cause disagreement or argument.",
+    "options": [
+      "causing argument",
+      "universally accepted",
+      "boring",
+      "cowardly",
+      "silent"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "conversant",
+    "passage": "Soldiers must be conversant with safety procedures before operating heavy equipment. Dr. Bullock is conversant in military protocols, which helps him relate lessons to his students' experiences.",
+    "question": "What does the word \"conversant\" most nearly mean?",
+    "answer": "knowledgeable",
+    "definition": "Familiar with or knowledgeable about a subject.",
+    "options": [
+      "knowledgeable",
+      "unaware",
+      "careless",
+      "forgetful",
+      "hostile"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "coroner",
+    "passage": "The coroner examined the cause of death after the accident on base. Once the examination was complete, the report was forwarded to the coroner's office for final review.",
+    "question": "\"Coroner\" refers to:",
+    "answer": "death investigator",
+    "definition": "A public official who investigates deaths not caused by natural causes.",
+    "options": [
+      "death investigator",
+      "military chaplain",
+      "supply officer",
+      "recruiter",
+      "drill instructor"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "crevasse",
+    "passage": "The mountain patrol carefully avoided a dangerous crevasse along the ridge. Fresh snow had covered the crevasse, making it especially hazardous for soldiers on the winter exercise.",
+    "question": "The word \"crevasse\" most nearly means:",
+    "answer": "deep crack",
+    "definition": "A deep, narrow crack or opening in ice, ground, or rock.",
+    "options": [
+      "deep crack",
+      "tall mountain",
+      "narrow tunnel",
+      "wide river",
+      "steep hill"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "cynical",
+    "passage": "He became cynical after repeated failures during training, doubting whether hard work would ever pay off. Leaders know that a cynical attitude can quickly hurt unit morale.",
+    "question": "What does the word \"cynical\" most nearly mean?",
+    "answer": "distrustful",
+    "definition": "Distrustful of the motives of other people.",
+    "options": [
+      "distrustful",
+      "hopeful",
+      "trusting",
+      "cheerful",
+      "generous"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "decipher",
+    "passage": "The intelligence analyst worked for hours to decipher the enemy's code. Soldiers in the field must often decipher unclear instructions quickly, especially during chaotic operations.",
+    "question": "The word \"decipher\" most nearly means:",
+    "answer": "figure out",
+    "definition": "To figure out the meaning of something unclear, or to decode.",
+    "options": [
+      "figure out",
+      "hide",
+      "delete",
+      "memorize",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "decorum",
+    "passage": "Soldiers must maintain decorum while in uniform, even in stressful situations. The military ceremony required strict decorum, from posture to the proper wearing of medals.",
+    "question": "\"Decorum\" refers to:",
+    "answer": "proper behavior",
+    "definition": "Proper and dignified behavior or conduct.",
+    "options": [
+      "proper behavior",
+      "careless conduct",
+      "loud protest",
+      "physical fitness",
+      "private conversation"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "decry",
+    "passage": "Leaders decry misconduct whenever it threatens the discipline of the unit. The general publicly decried poor discipline among new recruits during his address.",
+    "question": "What does the word \"decry\" most nearly mean?",
+    "answer": "criticize openly",
+    "definition": "To publicly criticize or express strong disapproval of something.",
+    "options": [
+      "criticize openly",
+      "praise highly",
+      "ignore quietly",
+      "reward generously",
+      "celebrate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "defer",
+    "passage": "The mission was deferred due to poor weather conditions. In matters of judgment, soldiers should defer to the experience of their leadership.",
+    "question": "The word \"defer\" as used in the passage means:",
+    "answer": "postpone or yield",
+    "definition": "To postpone something, or to yield to another's opinion or wishes.",
+    "options": [
+      "postpone or yield",
+      "cancel permanently",
+      "argue against",
+      "ignore completely",
+      "celebrate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "demoralize",
+    "passage": "Constant failure during training exercises can demoralize an entire unit. Poor leadership may also demoralize soldiers, leaving them discouraged and unmotivated.",
+    "question": "What does the word \"demoralize\" most nearly mean?",
+    "answer": "discourage",
+    "definition": "To cause someone to lose confidence, hope, or morale.",
+    "options": [
+      "discourage",
+      "inspire",
+      "reward",
+      "strengthen",
+      "entertain"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "demurral",
+    "passage": "There was a slight demurral to the plan when one officer questioned its timing. His demurral ultimately delayed final approval of the mission until concerns were addressed.",
+    "question": "\"Demurral\" most nearly means:",
+    "answer": "objection",
+    "definition": "An objection or expression of hesitation or doubt.",
+    "options": [
+      "objection",
+      "celebration",
+      "agreement",
+      "apology",
+      "announcement"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "deplete",
+    "passage": "The extended mission depleted the unit's supplies faster than expected. Long operations in the field can also deplete a soldier's energy and morale.",
+    "question": "The word \"deplete\" most nearly means:",
+    "answer": "use up",
+    "definition": "To use up or greatly reduce the supply of something.",
+    "options": [
+      "use up",
+      "replenish",
+      "ignore",
+      "distribute",
+      "protect"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "depression",
+    "passage": "Extended deployments away from home can sometimes lead to depression among soldiers. Leaders must watch closely for signs of depression so they can connect struggling troops with support.",
+    "question": "What does the word \"depression\" most nearly mean?",
+    "answer": "deep sadness",
+    "definition": "A state of sadness, low spirits, or low activity.",
+    "options": [
+      "deep sadness",
+      "extreme joy",
+      "calm confidence",
+      "sudden anger",
+      "boredom"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "destitution",
+    "passage": "Humanitarian aid missions often help civilians living in destitution after natural disasters. The region suffered severe destitution following years of conflict and displaced families.",
+    "question": "\"Destitution\" refers to:",
+    "answer": "extreme poverty",
+    "definition": "Extreme poverty or lack of the basic necessities of life.",
+    "options": [
+      "extreme poverty",
+      "great wealth",
+      "mild discomfort",
+      "strong leadership",
+      "military victory"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "diminish",
+    "passage": "Fatigue can diminish a soldier's performance during long missions. Without resupply, the unit's ammunition and food supplies began to diminish quickly.",
+    "question": "The word \"diminish\" most nearly means:",
+    "answer": "decrease",
+    "definition": "To make or become smaller, weaker, or less important.",
+    "options": [
+      "decrease",
+      "increase",
+      "replace",
+      "protect",
+      "celebrate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "disclose",
+    "passage": "Soldiers must never disclose classified information to unauthorized personnel. The investigative report eventually disclosed new findings that changed the course of the case.",
+    "question": "What does the word \"disclose\" most nearly mean?",
+    "answer": "reveal",
+    "definition": "To reveal or make known information that was previously secret.",
+    "options": [
+      "reveal",
+      "conceal",
+      "destroy",
+      "deny",
+      "forget"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "disparity",
+    "passage": "There was a noticeable disparity in resources between the two units. This disparity ultimately affected the readiness of the smaller unit during the exercise.",
+    "question": "\"Disparity\" most nearly means:",
+    "answer": "inequality",
+    "definition": "A difference or inequality between two or more things.",
+    "options": [
+      "inequality",
+      "agreement",
+      "similarity",
+      "balance",
+      "unity"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "dossier",
+    "passage": "Military intelligence compiled a detailed dossier on the suspected informant. The dossier contained classified data that had taken months to gather.",
+    "question": "The word \"dossier\" most nearly means:",
+    "answer": "file of records",
+    "definition": "A file or collection of documents containing detailed records on a person or subject.",
+    "options": [
+      "file of records",
+      "blank form",
+      "single photograph",
+      "verbal report",
+      "medal"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "dreadful",
+    "passage": "The weather turned dreadful during the final week of field training. Conditions became so dreadful overnight that the exercise had to be postponed for safety reasons.",
+    "question": "What does the word \"dreadful\" most nearly mean?",
+    "answer": "terrible",
+    "definition": "Very bad, unpleasant, or causing fear and suffering.",
+    "options": [
+      "terrible",
+      "wonderful",
+      "ordinary",
+      "mild",
+      "exciting"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "eclectic",
+    "passage": "The team used an eclectic strategy that combined ideas from several different training programs. His skills are eclectic and diverse, ranging from logistics planning to hand-to-hand combat.",
+    "question": "The word \"eclectic\" as used in the passage means:",
+    "answer": "made of varied sources",
+    "definition": "Made up of elements drawn from various sources, styles, or systems.",
+    "options": [
+      "made of varied sources",
+      "focused on one method",
+      "outdated",
+      "strictly traditional",
+      "incomplete"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "effulgence",
+    "passage": "The sunrise cast a warm effulgence over the base as the morning formation began. That night, the runway lights created an effulgence visible for miles across the dark sky.",
+    "question": "\"Effulgence\" most nearly means:",
+    "answer": "brightness",
+    "definition": "Bright radiance; the quality of giving off light.",
+    "options": [
+      "brightness",
+      "darkness",
+      "silence",
+      "dampness",
+      "coldness"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "effusive",
+    "passage": "Mr. Sloan gave an effusive thank you after receiving unexpected help from his squad. The commander was equally effusive in his praise, commending the team in front of the entire company.",
+    "question": "What does the word \"effusive\" most nearly mean?",
+    "answer": "openly expressive",
+    "definition": "Expressing feelings, especially gratitude or approval, openly and abundantly.",
+    "options": [
+      "openly expressive",
+      "cold and distant",
+      "quietly reserved",
+      "angry",
+      "confused"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "elicit",
+    "passage": "Mr. Mitchell tried to elicit honest answers from the recruits during the interview. The practice questions were designed to elicit useful feedback about the new training program.",
+    "question": "The word \"elicit\" most nearly means:",
+    "answer": "draw out",
+    "definition": "To draw out or bring forth a response.",
+    "options": [
+      "draw out",
+      "suppress",
+      "ignore",
+      "memorize",
+      "delay"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "elusive",
+    "passage": "The target remained elusive despite weeks of searching by the patrol. Success at first seemed elusive, but persistence eventually paid off for the unit.",
+    "question": "\"Elusive\" most nearly means:",
+    "answer": "hard to find",
+    "definition": "Hard to find, capture, understand, or isolate.",
+    "options": [
+      "hard to find",
+      "easy to catch",
+      "obvious",
+      "permanent",
+      "loud"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "embargo",
+    "passage": "The country imposed an embargo on weapons shipments to the region in conflict. Trade was embargoed for months, cutting off supplies to both sides.",
+    "question": "What does the word \"embargo\" most nearly mean?",
+    "answer": "official ban",
+    "definition": "An official ban on trade or the shipment of goods.",
+    "options": [
+      "official ban",
+      "trade agreement",
+      "military parade",
+      "financial reward",
+      "peace treaty"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "eminent",
+    "passage": "An eminent leader addressed the troops before the ceremony began. She is an eminent expert in military strategy, respected by soldiers and officers alike.",
+    "question": "The word \"eminent\" most nearly means:",
+    "answer": "distinguished",
+    "definition": "Famous and respected; standing above others in rank or achievement.",
+    "options": [
+      "distinguished",
+      "unknown",
+      "cowardly",
+      "junior",
+      "careless"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "emphasize",
+    "passage": "Leaders emphasize discipline in every training session to build strong habits early. Upcoming training will emphasize readiness, ensuring soldiers are prepared for any mission.",
+    "question": "What does the word \"emphasize\" most nearly mean?",
+    "answer": "stress",
+    "definition": "To give special importance or attention to something.",
+    "options": [
+      "stress",
+      "ignore",
+      "hide",
+      "forget",
+      "weaken"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "encampment",
+    "passage": "The unit set up an encampment near the training range before the exercise began. The encampment lasted three days before the soldiers packed up and moved to the next location.",
+    "question": "\"Encampment\" most nearly means:",
+    "answer": "temporary camp",
+    "definition": "A temporary camp where people live, usually in tents, for a short time.",
+    "options": [
+      "temporary camp",
+      "permanent base",
+      "empty field",
+      "supply depot",
+      "parade ground"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "incisive",
+    "passage": "During the debate, Mrs. Jones offered incisive comments that clearly demonstrated her deep understanding of the issue. Her sharp analysis quickly cut through the confusion and helped the team reach a decision.",
+    "question": "What does the word \"incisive\" most nearly mean?",
+    "answer": "sharp and clear",
+    "definition": "Clear and sharp in thought or expression.",
+    "options": [
+      "sharp and clear",
+      "vague and unclear",
+      "hesitant and unsure",
+      "disorganized and messy",
+      "careless and sloppy"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "inept",
+    "passage": "Private Williams was completely inept at land navigation during his first field exercise. His clumsy handling of the compass and map caused the squad to lose valuable time, and his sergeant noted his lack of skill in the after-action report.",
+    "question": "The word \"inept\" most nearly means:",
+    "answer": "unskilled",
+    "definition": "Lacking skill or ability to do something well.",
+    "options": [
+      "unskilled",
+      "talented",
+      "confident",
+      "organized",
+      "experienced"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "infer",
+    "passage": "From the worried look on the commander's face, the soldiers could infer that the mission had not gone as planned. Although no one said a word, everyone in the room reached the same conclusion based on the evidence in front of them.",
+    "question": "\"Infer\" refers to:",
+    "answer": "conclude from evidence",
+    "definition": "To conclude something from evidence and reasoning rather than from explicit statements.",
+    "options": [
+      "conclude from evidence",
+      "state directly",
+      "ignore completely",
+      "deny outright",
+      "memorize"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "infiltrate",
+    "passage": "Under cover of darkness, the reconnaissance team infiltrated enemy lines without being detected. Their ability to slip past the perimeter unnoticed allowed them to gather critical intelligence before withdrawing safely.",
+    "question": "What does the word \"infiltrate\" most nearly mean?",
+    "answer": "enter secretly",
+    "definition": "To enter or pass into gradually or secretly.",
+    "options": [
+      "enter secretly",
+      "retreat quickly",
+      "announce loudly",
+      "defend openly",
+      "surrender"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "insignia",
+    "passage": "The officer's uniform was adorned with the insignia of his rank, instantly signaling his authority to everyone in the room. New recruits quickly learned to recognize each insignia so they would know how to properly address their superiors.",
+    "question": "The word \"insignia\" as used in the passage means:",
+    "answer": "badge of rank",
+    "definition": "A symbol or emblem indicating rank, membership, or achievement.",
+    "options": [
+      "badge of rank",
+      "weapon",
+      "uniform fabric",
+      "paycheck",
+      "training manual"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "intervene",
+    "passage": "When the argument between the two soldiers began to escalate, the sergeant had to intervene before it turned into a physical confrontation. By stepping in quickly, he was able to calm both men down and resolve the dispute.",
+    "question": "What does the word \"intervene\" most nearly mean?",
+    "answer": "step in",
+    "definition": "To come between so as to prevent or alter a result or course of events.",
+    "options": [
+      "step in",
+      "withdraw",
+      "ignore",
+      "celebrate",
+      "delay"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "intrinsic",
+    "passage": "Discipline is intrinsic to success in military life, just as honor is intrinsic to honorable service. These qualities cannot simply be added later; they must become a natural part of who a soldier is.",
+    "question": "\"Intrinsic\" most nearly means:",
+    "answer": "inherent",
+    "definition": "Belonging naturally to someone or something as an essential part.",
+    "options": [
+      "inherent",
+      "optional",
+      "external",
+      "temporary",
+      "artificial"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "invariably",
+    "passage": "Sergeant Durham invariably arrives at the office early, just as success invariably requires effort and discipline. His fellow soldiers set their watches by his consistent punctuality.",
+    "question": "The word \"invariably\" most nearly means:",
+    "answer": "always",
+    "definition": "In every case; always.",
+    "options": [
+      "always",
+      "rarely",
+      "sometimes",
+      "never",
+      "occasionally"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "invigorate",
+    "passage": "The morning exercise routine invigorated the troops before their long march, and the commander's rousing speech invigorated them even further. By the time they set out, the entire unit felt energized and ready for the mission.",
+    "question": "What does the word \"invigorate\" most nearly mean?",
+    "answer": "energize",
+    "definition": "To give strength, energy, or life to.",
+    "options": [
+      "energize",
+      "exhaust",
+      "weaken",
+      "confuse",
+      "discourage"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "jest",
+    "passage": "His comment was made in jest, but it was taken seriously by everyone in the room. What he intended as a harmless joke ended up causing an uncomfortable silence among his fellow soldiers.",
+    "question": "\"Jest\" refers to:",
+    "answer": "a joke",
+    "definition": "Something said or done to cause laughter; a joke.",
+    "options": [
+      "a joke",
+      "an order",
+      "a warning",
+      "an apology",
+      "a complaint"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "kink",
+    "passage": "There was a kink in the hose that kept the water from flowing through, and it took the maintenance crew several minutes to fix the problem. Small kinks like this one can delay an entire operation if left unresolved.",
+    "question": "The word \"kink\" most nearly means:",
+    "answer": "a flaw",
+    "definition": "A small problem or flaw that prevents something from working properly.",
+    "options": [
+      "a flaw",
+      "a solution",
+      "an award",
+      "a schedule",
+      "a celebration"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "laden",
+    "passage": "The supply truck arrived laden with gear for the entire company, and the soldiers unloaded box after box of equipment. Even the commander's speech seemed laden with meaning, hinting at the difficult mission ahead.",
+    "question": "What does the word \"laden\" most nearly mean?",
+    "answer": "heavily loaded",
+    "definition": "Heavily loaded or weighed down with something.",
+    "options": [
+      "heavily loaded",
+      "completely empty",
+      "lightweight",
+      "damaged",
+      "misplaced"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "lambaste",
+    "passage": "The coach lambasted the team for its poor play, and the officer likewise lambasted the unit after the failed inspection. Both harsh criticisms were meant to push their teams toward improvement, even if the words stung.",
+    "question": "\"Lambaste\" most nearly means:",
+    "answer": "criticize harshly",
+    "definition": "To criticize someone or something severely.",
+    "options": [
+      "criticize harshly",
+      "praise generously",
+      "ignore completely",
+      "reward",
+      "encourage gently"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "latent",
+    "passage": "During the leadership exercise, Private Adams showed latent leadership skills that no one had noticed before. The tension within the platoon also remained latent for weeks before it finally surfaced during the next field exercise.",
+    "question": "The word \"latent\" most nearly means:",
+    "answer": "hidden",
+    "definition": "Present but not yet visible, active, or developed.",
+    "options": [
+      "hidden",
+      "obvious",
+      "expired",
+      "official",
+      "loud"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "lewd",
+    "passage": "The soldier was reprimanded for making lewd comments during the briefing, since such vulgar and offensive language is unacceptable in the military. His conduct violated the standards expected of every service member.",
+    "question": "What does the word \"lewd\" most nearly mean?",
+    "answer": "vulgar",
+    "definition": "Offensive in a sexual way; vulgar.",
+    "options": [
+      "vulgar",
+      "respectful",
+      "formal",
+      "cheerful",
+      "quiet"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "loathe",
+    "passage": "Sergeant Reed absolutely loathes waking up before dawn, just as he loathes dishonesty in any form. To him, both are things to be avoided at all costs.",
+    "question": "\"Loathe\" refers to:",
+    "answer": "hate strongly",
+    "definition": "To dislike someone or something intensely.",
+    "options": [
+      "hate strongly",
+      "admire",
+      "tolerate",
+      "enjoy",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "luster",
+    "passage": "The diamond's luster was captivating, catching the light beautifully at every angle. Years later, though, the medal on the veteran's uniform had lost its luster, dulled by decades of wear.",
+    "question": "The word \"luster\" most nearly means:",
+    "answer": "shine",
+    "definition": "Brightness created by reflected light; shine.",
+    "options": [
+      "shine",
+      "weight",
+      "size",
+      "color",
+      "shape"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "makeshift",
+    "passage": "When their tent collapsed during the storm, the soldiers built a makeshift shelter out of branches and leaves. It was not comfortable, but the makeshift fix kept them dry until proper supplies arrived.",
+    "question": "What does the word \"makeshift\" most nearly mean?",
+    "answer": "temporary substitute",
+    "definition": "A temporary substitute or improvisation, often of poor quality.",
+    "options": [
+      "temporary substitute",
+      "permanent solution",
+      "expensive upgrade",
+      "official issue",
+      "luxury item"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "mammoth",
+    "passage": "The unit faced a mammoth task rebuilding the bridge before the deadline. It would take a mammoth effort from every soldier involved, since the project was far larger than anything they had tackled before.",
+    "question": "\"Mammoth\" most nearly means:",
+    "answer": "huge",
+    "definition": "Very large in size; enormous.",
+    "options": [
+      "huge",
+      "tiny",
+      "average",
+      "brief",
+      "simple"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "maroon",
+    "passage": "After their vehicle broke down deep in the training area, the soldiers were marooned without help until nightfall. Stranded and waiting, they used the time to review their maps and plan their next move.",
+    "question": "What does the word \"maroon\" most nearly mean as used in the passage?",
+    "answer": "strand",
+    "definition": "To leave someone stranded or isolated without resources.",
+    "options": [
+      "strand",
+      "rescue",
+      "promote",
+      "reward",
+      "transport"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "materialize",
+    "passage": "Despite all their planning, the extra supplies never materialized before the mission began. The soldiers had hoped the promised reinforcements would appear in time, but they were left to proceed without them.",
+    "question": "The word \"materialize\" most nearly means:",
+    "answer": "appear",
+    "definition": "To come into existence or become apparent.",
+    "options": [
+      "appear",
+      "disappear",
+      "disintegrate",
+      "decline",
+      "retreat"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "meticulous",
+    "passage": "She was meticulous in her work, ensuring that every detail of the equipment inspection was perfect. Her careful, methodical approach caught problems that a less thorough soldier might have missed.",
+    "question": "What does the word \"meticulous\" most nearly mean?",
+    "answer": "very careful",
+    "definition": "Showing great attention to detail; very careful and precise.",
+    "options": [
+      "very careful",
+      "careless",
+      "hurried",
+      "forgetful",
+      "reckless"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "modicum",
+    "passage": "After dealing with hours of delays at the checkpoint, he had only a modicum of patience left. Still, he showed a modicum of respect to the guards, understanding they were simply following procedure.",
+    "question": "\"Modicum\" refers to:",
+    "answer": "a small amount",
+    "definition": "A small amount of something.",
+    "options": [
+      "a small amount",
+      "a huge quantity",
+      "a complete absence",
+      "an unlimited supply",
+      "a fair share"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "mope",
+    "passage": "After losing the competition, Private Carter tended to mope around the barracks for the rest of the day. His squad leader reminded him that soldiers who mope after failure rarely learn from their mistakes as quickly as those who move forward.",
+    "question": "What does the word \"mope\" most nearly mean?",
+    "answer": "sulk gloomily",
+    "definition": "To be in a gloomy, sullen mood; to go about listlessly.",
+    "options": [
+      "sulk gloomily",
+      "celebrate loudly",
+      "work eagerly",
+      "laugh cheerfully",
+      "sleep soundly"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "moratorium",
+    "passage": "A moratorium was declared on new construction at the base until the sewer system could be extended. The temporary halt frustrated some units, but commanders agreed it was necessary until repairs were complete.",
+    "question": "The word \"moratorium\" most nearly means:",
+    "answer": "temporary halt",
+    "definition": "A temporary suspension or ban on an activity.",
+    "options": [
+      "temporary halt",
+      "permanent ban",
+      "formal celebration",
+      "financial reward",
+      "official promotion"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "nebulous",
+    "passage": "Her plans for after her enlistment ended remained nebulous, with nothing definite decided. When asked directly, her answers sounded just as vague and unclear as before.",
+    "question": "What does the word \"nebulous\" most nearly mean?",
+    "answer": "vague",
+    "definition": "Unclear, hazy, or lacking definite form.",
+    "options": [
+      "vague",
+      "precise",
+      "confident",
+      "detailed",
+      "final"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "negligent",
+    "passage": "The investigation determined that the unit had been negligent in maintaining its vehicles, resulting in a breakdown during the exercise. Such careless disregard for basic maintenance procedures put the entire convoy at risk.",
+    "question": "\"Negligent\" most nearly means:",
+    "answer": "careless",
+    "definition": "Failing to give proper care or attention, especially when this causes harm.",
+    "options": [
+      "careless",
+      "attentive",
+      "cautious",
+      "thorough",
+      "diligent"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "neophyte",
+    "passage": "As a neophyte in the world of military logistics, Corporal Diaz often sought advice from more experienced colleagues. Though he trained hard from his first day, it would take months of practice before he felt confident in his new role.",
+    "question": "What does the word \"neophyte\" most nearly mean?",
+    "answer": "beginner",
+    "definition": "A person who is new to a subject or activity.",
+    "options": [
+      "beginner",
+      "veteran",
+      "instructor",
+      "supervisor",
+      "expert"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "nepotism",
+    "passage": "The unit's morale suffered due to allegations of nepotism after several soldiers noticed that promotions seemed to favor the commander's relatives and friends. Many argued that this unfair favoritism was undermining trust in the chain of command.",
+    "question": "The word \"nepotism\" most nearly means:",
+    "answer": "favoritism toward relatives",
+    "definition": "The unfair use of power to give jobs or benefits to family or friends.",
+    "options": [
+      "favoritism toward relatives",
+      "strict discipline",
+      "equal treatment",
+      "public recognition",
+      "financial planning"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "nullify",
+    "passage": "The commanding officer decided to nullify the previous order after new intelligence came in, declaring it void and no longer in effect. The change forced the entire company to revise its plans within hours.",
+    "question": "What does the word \"nullify\" most nearly mean?",
+    "answer": "cancel",
+    "definition": "To make legally void or to cancel formally.",
+    "options": [
+      "cancel",
+      "approve",
+      "extend",
+      "publish",
+      "enforce"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "obstinate",
+    "passage": "Despite numerous attempts to convince him otherwise, the private remained obstinate in his decision to handle the repair on his own. His stubborn refusal to accept help eventually cost the squad valuable time.",
+    "question": "\"Obstinate\" most nearly means:",
+    "answer": "stubborn",
+    "definition": "Sticking firmly to an opinion or course of action despite reason or persuasion.",
+    "options": [
+      "stubborn",
+      "flexible",
+      "agreeable",
+      "uncertain",
+      "cooperative"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "obtrude",
+    "passage": "She didn't want to obtrude upon the officers' private conversation, so she quietly excused herself from the room. Unlike some who force their opinions into every discussion, she preferred not to intrude where she wasn't wanted.",
+    "question": "What does the word \"obtrude\" most nearly mean?",
+    "answer": "intrude",
+    "definition": "To impose oneself or one's opinions on others without being asked.",
+    "options": [
+      "intrude",
+      "withdraw",
+      "apologize",
+      "listen quietly",
+      "agree"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "obvious",
+    "passage": "It was obvious to everyone in the platoon how much effort the new recruit had put into his uniform inspection. His frustration with the delayed inspection was just as obvious, plain for all to see on his face.",
+    "question": "The word \"obvious\" most nearly means:",
+    "answer": "clear",
+    "definition": "Easy to see, recognize, or understand; evident.",
+    "options": [
+      "clear",
+      "hidden",
+      "confusing",
+      "uncertain",
+      "secret"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "omen",
+    "passage": "Many of the soldiers considered the sudden storm before the mission to be a bad omen, a sign that something might go wrong. Others dismissed the superstition, insisting that weather had nothing to do with the outcome of the operation.",
+    "question": "\"Omen\" refers to:",
+    "answer": "a sign of the future",
+    "definition": "A sign or happening believed to foretell a future event, good or bad.",
+    "options": [
+      "a sign of the future",
+      "a formal order",
+      "a training manual",
+      "a medical exam",
+      "a supply request"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "omission",
+    "passage": "The omission of crucial details from the after-action report led to misunderstandings among the team. Once the missing information was added back in, the confusion caused by the earlier gap in the report finally cleared up.",
+    "question": "What does the word \"omission\" most nearly mean?",
+    "answer": "something left out",
+    "definition": "Something that has been left out or excluded.",
+    "options": [
+      "something left out",
+      "an extra addition",
+      "a formal reward",
+      "a training exercise",
+      "a written apology"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "ouster",
+    "passage": "The committee's chairperson faced a possible ouster after the scandal came to light. His removal from the position shocked many who had supported him for years.",
+    "question": "The word \"ouster\" most nearly means:",
+    "answer": "removal from power",
+    "definition": "The act of removing someone from an important position.",
+    "options": [
+      "removal from power",
+      "well-earned promotion",
+      "planned retirement",
+      "joyful celebration",
+      "official appointment"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "overture",
+    "passage": "The battalion commander made an overture to the rival unit's leader, proposing a joint training exercise between the two groups. His initial offer eventually led to a productive partnership between the units.",
+    "question": "\"Overture\" most nearly means:",
+    "answer": "proposal",
+    "definition": "An introduction or proposal, often leading to further discussion or negotiation.",
+    "options": [
+      "proposal",
+      "refusal",
+      "punishment",
+      "retreat",
+      "inspection"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "perceptive",
+    "passage": "The new sergeant was remarkably perceptive, noticing small details in the training exercise that others overlooked entirely. Her perceptive comment about the squad's weak spot favorably impressed the company commander.",
+    "question": "What does the word \"perceptive\" most nearly mean?",
+    "answer": "observant",
+    "definition": "Having or showing keen insight or understanding; observant.",
+    "options": [
+      "observant",
+      "careless",
+      "forgetful",
+      "confused",
+      "indifferent"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "perforate",
+    "passage": "The stray round perforated the metal sheet, leaving a small hole clean through the target. Soldiers use specialized tools to perforate materials during certain engineering and demolition tasks.",
+    "question": "The word \"perforate\" most nearly means:",
+    "answer": "pierce",
+    "definition": "To make a hole or series of holes in something.",
+    "options": [
+      "pierce",
+      "seal",
+      "polish",
+      "paint",
+      "reinforce"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "perilous",
+    "passage": "The reconnaissance patrol found itself on a perilous mountain trail as a storm rolled in. Driving through the icy conditions became just as perilous as the climb itself, forcing the squad to seek shelter until visibility improved.",
+    "question": "The word \"perilous\" most nearly means:",
+    "answer": "full of danger",
+    "definition": "Full of danger.",
+    "options": [
+      "safe and sound",
+      "completely secure",
+      "full of danger",
+      "calm and peaceful",
+      "easy and simple"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "perjure",
+    "passage": "During the court-martial, the defendant was warned not to perjure himself on the stand. Despite the warning, he tried to perjure his testimony to protect a fellow soldier, but the judge quickly caught the inconsistency.",
+    "question": "What does the word \"perjure\" most nearly mean?",
+    "answer": "lie under oath",
+    "definition": "To tell a lie while under oath in a court of law.",
+    "options": [
+      "lie under oath",
+      "tell the truth",
+      "remain silent",
+      "take an oath",
+      "apologize"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "petrify",
+    "passage": "The sudden explosion nearby petrified the young recruit, freezing him in place. Fear can petrify even experienced soldiers when they are caught off guard, but training helps them push through the shock.",
+    "question": "\"Petrify\" refers to:",
+    "answer": "paralyze with fear",
+    "definition": "To paralyze with fear or extreme astonishment.",
+    "options": [
+      "paralyze with fear",
+      "calm someone down",
+      "make someone laugh",
+      "relax entirely",
+      "encourage boldly"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "phenomenon",
+    "passage": "The record-breaking sandstorm was a phenomenon none of the soldiers had witnessed before. Word of the unit's rapid success spread quickly, and their turnaround became something of a phenomenon within the battalion.",
+    "question": "The word \"phenomenon\" as used in the passage means:",
+    "answer": "remarkable event",
+    "definition": "A remarkable person, thing, or observable event.",
+    "options": [
+      "remarkable event",
+      "routine task",
+      "minor detail",
+      "common mistake",
+      "quiet moment"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "pliable",
+    "passage": "The engineers needed a pliable material that could bend without breaking under pressure. Similarly, during negotiations, the commander remained pliable, willing to adjust his plan as new information came in.",
+    "question": "What does the word \"pliable\" most nearly mean?",
+    "answer": "easily bent",
+    "definition": "Able to bend easily without breaking; flexible.",
+    "options": [
+      "easily bent",
+      "rigid and stiff",
+      "completely broken",
+      "extremely heavy",
+      "permanently fixed"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "plummet",
+    "passage": "As the cold front moved in, temperatures began to plummet across the training grounds. Morale can plummet just as quickly when soldiers are pushed too hard without rest.",
+    "question": "The word \"plummet\" most nearly means:",
+    "answer": "to drop suddenly",
+    "definition": "To fall quickly or abruptly.",
+    "options": [
+      "to drop suddenly",
+      "to rise steadily",
+      "to stay the same",
+      "to improve slowly",
+      "to level off"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "polarize",
+    "passage": "The debate over new grooming standards began to polarize the unit. Heated discussions during formation only served to polarize opinions further, splitting soldiers into two firmly opposed camps.",
+    "question": "The word \"polarize\" means:",
+    "answer": "divide into opposing groups",
+    "definition": "To cause to divide into opposing groups.",
+    "options": [
+      "divide into opposing groups",
+      "unite completely",
+      "confuse everyone",
+      "strengthen bonds",
+      "calm tensions"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "ponderous",
+    "passage": "The commander's ponderous speech dragged on for nearly an hour, testing everyone's patience. The old supply truck moved just as ponderously down the muddy road, weighed down by its heavy cargo.",
+    "question": "\"Ponderous\" refers to:",
+    "answer": "slow and heavy",
+    "definition": "Slow and heavy, often dull or unwieldy because of size or weight.",
+    "options": [
+      "slow and heavy",
+      "light and quick",
+      "bright and cheerful",
+      "short and simple",
+      "fast and agile"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "predisposed",
+    "passage": "Due to his upbringing in a military family, Private Reyes was predisposed to trust authority figures without question. Some recruits are predisposed to handle stress better than others, making them naturally suited for combat roles.",
+    "question": "What does the word \"predisposed\" most nearly mean?",
+    "answer": "naturally inclined",
+    "definition": "Likely to behave or think in a particular way due to nature or circumstance.",
+    "options": [
+      "naturally inclined",
+      "completely opposed",
+      "entirely unaware",
+      "strictly forbidden",
+      "randomly selected"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "prestige",
+    "passage": "Winning the regimental competition brought the unit considerable prestige among the other companies. Just as Albert Einstein's work brought him fame and prestige, the soldiers' discipline and dedication earned them lasting respect.",
+    "question": "The word \"prestige\" most nearly means:",
+    "answer": "high honor and respect",
+    "definition": "The respect and admiration gained through success, achievement, or status.",
+    "options": [
+      "high honor and respect",
+      "public disgrace",
+      "total secrecy",
+      "minor inconvenience",
+      "complete failure"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "prioritize",
+    "passage": "Before deployment, soldiers must prioritize their tasks to ensure they focus on the most important ones first. The sergeant prioritized safety above all else when planning the training exercise.",
+    "question": "What does the word \"prioritize\" most nearly mean?",
+    "answer": "arrange by importance",
+    "definition": "To arrange or deal with tasks in order of importance.",
+    "options": [
+      "arrange by importance",
+      "ignore completely",
+      "postpone indefinitely",
+      "randomize the order",
+      "complete simultaneously"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "prosaic",
+    "passage": "The daily administrative paperwork seemed prosaic compared to the excitement of field training exercises. Even the commander's report sounded prosaic, filled with routine details rather than anything noteworthy.",
+    "question": "The word \"prosaic\" most nearly means:",
+    "answer": "dull and ordinary",
+    "definition": "Lacking excitement or imagination; dull.",
+    "options": [
+      "dull and ordinary",
+      "thrilling and exciting",
+      "dangerous and risky",
+      "humorous and witty",
+      "complicated and confusing"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "proverbial",
+    "passage": "Everyone in the unit admired the sergeant's proverbial courage under fire. When yet another delay hit the supply convoy, it became the proverbial last straw for the frustrated soldiers, who had already endured weeks of setbacks.",
+    "question": "What does the word \"proverbial\" most nearly mean?",
+    "answer": "well-known; commonly referenced",
+    "definition": "Widely known and referred to, often as in a common saying.",
+    "options": [
+      "well-known; commonly referenced",
+      "completely original",
+      "secretly hidden",
+      "newly invented",
+      "rarely mentioned"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "purblind",
+    "passage": "His purblind loyalty to the company prevented him from seeing its obvious flaws. Because he was purblind to the danger ahead, the scout nearly led the patrol into an ambush.",
+    "question": "\"Purblind\" refers to:",
+    "answer": "lacking awareness",
+    "definition": "Lacking in vision, insight, or understanding; lacking awareness.",
+    "options": [
+      "lacking awareness",
+      "fully alert",
+      "clearly informed",
+      "overly cautious",
+      "perfectly focused"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "quarry",
+    "passage": "During the tracking exercise, the enemy scout became the platoon's quarry as they moved stealthily through the woods. For hours, they tracked the quarry until they finally cornered him near the river.",
+    "question": "The word \"quarry\" most nearly means:",
+    "answer": "hunted target",
+    "definition": "Something that is hunted or pursued; a target.",
+    "options": [
+      "hunted target",
+      "trusted ally",
+      "safe shelter",
+      "official report",
+      "training manual"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "quiescence",
+    "passage": "After the long battle, the camp settled into a state of quiescence, with only the occasional chirping of birds breaking the silence. The peaceful quiescence didn't last long, though, as new orders soon arrived.",
+    "question": "What does the word \"quiescence\" most nearly mean?",
+    "answer": "a state of calm",
+    "definition": "A state of temporary inactivity or calm.",
+    "options": [
+      "a state of calm",
+      "a state of chaos",
+      "a loud celebration",
+      "an urgent alarm",
+      "a sudden attack"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "rambunctious",
+    "passage": "The new recruits were particularly rambunctious after their first weekend pass, laughing and roughhousing in the barracks. Their rambunctious behavior quickly disrupted the evening's quiet routine.",
+    "question": "The word \"rambunctious\" most nearly means:",
+    "answer": "rowdy and unruly",
+    "definition": "Rough or noisy in a high-spirited, uncontrolled way.",
+    "options": [
+      "rowdy and unruly",
+      "calm and quiet",
+      "tired and sluggish",
+      "polite and reserved",
+      "serious and focused"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "rampart",
+    "passage": "The soldiers stood watch atop the rampart, scanning the horizon for signs of the enemy. The ancient fortress was surrounded by a tall rampart that had protected it from invaders for centuries.",
+    "question": "\"Rampart\" refers to:",
+    "answer": "defensive wall",
+    "definition": "A defensive wall or fortification built for protection.",
+    "options": [
+      "defensive wall",
+      "open field",
+      "supply depot",
+      "training ground",
+      "communication tower"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "rebuke",
+    "passage": "The drill sergeant issued a sharp rebuke after catching the recruit sleeping on watch. She later received a stern rebuke from her superior for repeatedly missing deadlines on her paperwork.",
+    "question": "What does the word \"rebuke\" most nearly mean?",
+    "answer": "sharp criticism",
+    "definition": "A sharp expression of disapproval; to criticize sharply.",
+    "options": [
+      "sharp criticism",
+      "warm praise",
+      "friendly advice",
+      "official promotion",
+      "quiet agreement"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "reprimand",
+    "passage": "The police officer received a severe reprimand from his superior, though he was not suspended from duty. Teachers are often advised to reprimand a child firmly when misbehavior occurs, correcting the issue before it grows worse.",
+    "question": "The word \"reprimand\" most nearly means:",
+    "answer": "formal scolding",
+    "definition": "A formal statement of disapproval; to formally scold or criticize.",
+    "options": [
+      "formal scolding",
+      "official reward",
+      "private celebration",
+      "casual compliment",
+      "promotion in rank"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "restitution",
+    "passage": "The court ordered the thief to pay full restitution to the victims of his crime. Making restitution helped restore a sense of fairness for everyone affected by the loss.",
+    "question": "What does the word \"restitution\" most nearly mean?",
+    "answer": "payment for loss",
+    "definition": "Payment or compensation made for loss or injury.",
+    "options": [
+      "payment for loss",
+      "complete forgiveness",
+      "criminal charge",
+      "formal apology only",
+      "prison sentence"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "retract",
+    "passage": "Upon realizing his error, the politician quickly moved to retract his controversial statement. Under pressure from investigators, the witness eventually retracted his earlier claim.",
+    "question": "The word \"retract\" most nearly means:",
+    "answer": "take back",
+    "definition": "To formally withdraw or take back a statement or claim.",
+    "options": [
+      "take back",
+      "confirm again",
+      "announce loudly",
+      "expand upon",
+      "ignore completely"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "sanction",
+    "passage": "The training exercise could not proceed without official sanction from the base commander. Once approval was granted, the unit's plan received full sanction to move forward as scheduled.",
+    "question": "What does the word \"sanction\" most nearly mean in this context?",
+    "answer": "official approval",
+    "definition": "Official approval or permission given by an authority.",
+    "options": [
+      "official approval",
+      "formal denial",
+      "complete secrecy",
+      "harsh punishment",
+      "public criticism"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "savor",
+    "passage": "After months of hard training, the soldier truly savored his brief leave at home. He savored every bite of his mother's cooking, enjoying each moment of the rare comfort.",
+    "question": "The word \"savor\" most nearly means:",
+    "answer": "enjoy fully",
+    "definition": "To enjoy or appreciate something fully.",
+    "options": [
+      "enjoy fully",
+      "reject quickly",
+      "ignore entirely",
+      "criticize harshly",
+      "waste carelessly"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "schism",
+    "passage": "A schism formed within the committee after months of disagreement over strategy. The ongoing conflict caused a lasting schism between the two factions, dividing loyalties throughout the organization.",
+    "question": "\"Schism\" refers to:",
+    "answer": "a division",
+    "definition": "A split or division caused by differences in opinion or belief.",
+    "options": [
+      "a division",
+      "a strong alliance",
+      "a peace treaty",
+      "a joint celebration",
+      "a shared victory"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "scornful",
+    "passage": "He gave the recruit a scornful look after hearing the excuse for being late. Her scornful tone made it clear she had no patience for further explanations.",
+    "question": "What does the word \"scornful\" most nearly mean?",
+    "answer": "showing contempt",
+    "definition": "Filled with or showing scorn or contempt.",
+    "options": [
+      "showing contempt",
+      "showing admiration",
+      "showing confusion",
+      "showing gratitude",
+      "showing indifference"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "screech",
+    "passage": "The soldier's car tires made a loud screeching noise when he suddenly slammed the brakes. Everyone at the checkpoint turned toward the piercing screech, unsure of what had caused it.",
+    "question": "The word \"screech\" most nearly means:",
+    "answer": "loud harsh cry",
+    "definition": "A loud, harsh, piercing cry or sound.",
+    "options": [
+      "loud harsh cry",
+      "soft whisper",
+      "gentle hum",
+      "quiet murmur",
+      "steady beat"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "sequester",
+    "passage": "To preserve the evidence, investigators decided to sequester the crime scene until further notice. The witnesses were sequestered in separate rooms so they could not discuss their testimony with one another.",
+    "question": "What does the word \"sequester\" most nearly mean?",
+    "answer": "isolate or set apart",
+    "definition": "To keep apart from others or to confiscate; to isolate.",
+    "options": [
+      "isolate or set apart",
+      "publicly announce",
+      "freely release",
+      "widely distribute",
+      "openly display"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "sever",
+    "passage": "The soldier cut his hand in the accident, but not far enough to sever the limb. In response to the crisis, the government severed diplomatic relations with the neighboring country.",
+    "question": "The word \"sever\" most nearly means:",
+    "answer": "to cut off completely",
+    "definition": "To break or separate completely, especially by cutting.",
+    "options": [
+      "to cut off completely",
+      "to join together",
+      "to strengthen a bond",
+      "to repair fully",
+      "to extend further"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "sham",
+    "passage": "The advertising was very convincing, but in the end the product turned out to be a complete sham. Investigators soon discovered that the soldier's claim of injury was a sham meant to avoid extra duty.",
+    "question": "What does the word \"sham\" most nearly mean?",
+    "answer": "a fake",
+    "definition": "Something that is not genuine; a fake or fraud.",
+    "options": [
+      "a fake",
+      "a genuine article",
+      "an honest confession",
+      "a verified fact",
+      "a formal award"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "shun",
+    "passage": "After his dishonorable discharge, he found himself shunned by many of his former friends. She shuns unhealthy habits, always choosing discipline over convenience.",
+    "question": "The word \"shun\" most nearly means:",
+    "answer": "to avoid deliberately",
+    "definition": "To persistently avoid or reject someone or something on purpose.",
+    "options": [
+      "to avoid deliberately",
+      "to warmly welcome",
+      "to closely follow",
+      "to publicly praise",
+      "to actively support"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "skepticism",
+    "passage": "The nutritionist's claim of finding a miracle cure was met with intense skepticism in the medical community. After years of setbacks, there was a lot of skepticism that the soldier could complete the demanding course.",
+    "question": "What does the word \"skepticism\" most nearly mean?",
+    "answer": "doubt or distrust",
+    "definition": "A general tendency to doubt or question; distrust or disbelief.",
+    "options": [
+      "doubt or distrust",
+      "complete confidence",
+      "total agreement",
+      "open admiration",
+      "blind loyalty"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "snarl",
+    "passage": "Because of the road construction, the convoy's movement became a tangled snarl of stalled vehicles. It took hours for the traffic control team to untangle the snarl and get the convoy moving again.",
+    "question": "The word \"snarl\" most nearly means:",
+    "answer": "a tangled mess",
+    "definition": "A confused or tangled situation or mass.",
+    "options": [
+      "a tangled mess",
+      "a smooth path",
+      "a quiet retreat",
+      "an organized formation",
+      "a clear signal"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "soluble",
+    "passage": "The chemistry instructor explained that sugar is more quickly soluble in warm water than in cold. Because the compound was soluble, it dissolved completely during the field test.",
+    "question": "What does the word \"soluble\" most nearly mean?",
+    "answer": "able to dissolve",
+    "definition": "Capable of being dissolved, especially in a liquid.",
+    "options": [
+      "able to dissolve",
+      "impossible to melt",
+      "extremely solid",
+      "completely dry",
+      "highly flammable"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "spawn",
+    "passage": "The author's popular crime novels spawned both movies and television shows over the years. In the same way, a single innovative idea within the unit can spawn growth and new solutions across the entire battalion.",
+    "question": "The word \"spawn\" most nearly means:",
+    "answer": "to give rise to",
+    "definition": "To produce or generate, often in large numbers.",
+    "options": [
+      "to give rise to",
+      "to completely destroy",
+      "to permanently end",
+      "to quietly ignore",
+      "to slowly forget"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "stalwart",
+    "passage": "The stalwart firefighter bravely entered the burning building to rescue the trapped family. He remained a stalwart supporter of his commanding officer, showing unwavering loyalty even during the most difficult times.",
+    "question": "\"Stalwart\" refers to:",
+    "answer": "loyal and strong",
+    "definition": "Loyal, reliable, and strong, often with great firmness and determination.",
+    "options": [
+      "loyal and strong",
+      "weak and unreliable",
+      "timid and hesitant",
+      "careless and lazy",
+      "dishonest and disloyal"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "staunch",
+    "passage": "Sergeant Alvarez was a staunch supporter of his unit's traditions, refusing to abandon them even when other units mocked the practice. Staunch soldiers never quit, no matter how difficult the mission became, and her loyalty inspired the whole platoon.",
+    "question": "What does the word \"staunch\" most nearly mean?",
+    "answer": "loyal",
+    "definition": "Firm and steadfast in one's loyalty or beliefs.",
+    "options": [
+      "loyal",
+      "hesitant",
+      "careless",
+      "disloyal",
+      "indifferent"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "suffice",
+    "passage": "Private Kim worried she hadn't packed enough gear for the field exercise, but her supply sergeant assured her that one canteen and a single ration would suffice for the two-day trip. In the end, the modest supplies were enough to keep her going until resupply arrived.",
+    "question": "The word \"suffice\" most nearly means:",
+    "answer": "be enough",
+    "definition": "To be enough or adequate for a purpose.",
+    "options": [
+      "be enough",
+      "run out",
+      "multiply",
+      "fail",
+      "overflow"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "suppress",
+    "passage": "During the riot, the military police worked quickly to suppress the unrest before it spread across the base. Soldiers are often trained to suppress their fear in combat, keeping their emotions under control so they can complete the mission.",
+    "question": "What does \"suppress\" most nearly mean?",
+    "answer": "hold back",
+    "definition": "To stop or hold back something by force or control.",
+    "options": [
+      "hold back",
+      "release",
+      "publish",
+      "encourage",
+      "expand"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "synonymous",
+    "passage": "In basic training, the word \"discipline\" quickly becomes synonymous with survival. Recruits soon learn that the terms \"duty\" and \"obligation\" are nearly synonymous, though each carries slightly different connotations depending on the situation.",
+    "question": "\"Synonymous\" refers to:",
+    "answer": "having the same meaning",
+    "definition": "Having the same or nearly the same meaning as another word.",
+    "options": [
+      "having the same meaning",
+      "having opposite meaning",
+      "being unrelated",
+      "being outdated",
+      "being confusing"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "synthesize",
+    "passage": "After weeks of research, the intelligence team had to synthesize data from dozens of separate reports into a single, coherent briefing. By combining various sources, they were able to synthesize a clear picture of enemy movements.",
+    "question": "The word \"synthesize\" as used in the passage means:",
+    "answer": "combine",
+    "definition": "To make something by combining different things.",
+    "options": [
+      "combine",
+      "destroy",
+      "separate",
+      "ignore",
+      "copy"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "tactical",
+    "passage": "The commander ordered a tactical withdrawal to avoid heavy losses, carefully planning each step to gain control of the surrounding terrain. Every tactical decision made during the operation was aimed at achieving the mission's objective with minimal risk.",
+    "question": "What does the word \"tactical\" most nearly mean?",
+    "answer": "strategically planned",
+    "definition": "Relating to actions carefully planned to achieve a specific military goal.",
+    "options": [
+      "strategically planned",
+      "random",
+      "reckless",
+      "emotional",
+      "outdated"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "tantalizing",
+    "passage": "Since he was on a strict diet during training, the recruit had to ignore the tantalizing smells coming from the mess hall. The tantalizing hope of a weekend pass kept the soldiers motivated through the toughest drills.",
+    "question": "\"Tantalizing\" most nearly means:",
+    "answer": "tempting",
+    "definition": "Arousing desire or interest that is often unavailable or out of reach.",
+    "options": [
+      "tempting",
+      "boring",
+      "disgusting",
+      "forgettable",
+      "calming"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "tawdry",
+    "passage": "The little girl admired the woman's dazzling necklaces and bracelets, but her mother thought the jewelry looked tawdry and cheap. The gaudy display at the roadside stand was clearly tawdry, more flash than quality.",
+    "question": "The word \"tawdry\" most nearly means:",
+    "answer": "cheap and showy",
+    "definition": "Falsely showy; cheap and gaudy in appearance.",
+    "options": [
+      "cheap and showy",
+      "elegant and refined",
+      "plain and modest",
+      "expensive and rare",
+      "dull and quiet"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "tawny",
+    "passage": "By late summer, the once-green field had faded to a tawny brown, and the soldiers' uniforms seemed to blend into the dry landscape. His skin had turned tawny after months of training under the desert sun.",
+    "question": "\"Tawny\" refers to:",
+    "answer": "yellowish-brown",
+    "definition": "Of a light brown color with shades of yellow or orange.",
+    "options": [
+      "yellowish-brown",
+      "deep black",
+      "pale white",
+      "bright red",
+      "dark green"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "terse",
+    "passage": "When Jessie was angry, she only gave terse responses to questions. Likewise, the secretary's report on the meeting was terse, summarizing hours of discussion in only a few short sentences.",
+    "question": "What does \"terse\" most nearly mean?",
+    "answer": "brief",
+    "definition": "Very short and to the point.",
+    "options": [
+      "brief",
+      "lengthy",
+      "confusing",
+      "emotional",
+      "repetitive"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "tumescent",
+    "passage": "After the fall, the soldier's ankle became tumescent, swelling painfully within minutes. The medic noted that the injury was tumescent and required ice to reduce the swelling before it worsened.",
+    "question": "The word \"tumescent\" most nearly means:",
+    "answer": "swollen",
+    "definition": "Enlarged or swollen, especially from internal pressure.",
+    "options": [
+      "swollen",
+      "shrunken",
+      "numb",
+      "bruised",
+      "frozen"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "universal",
+    "passage": "Across every unit and every rank, the need for food, rest, and shelter is universal. Respect for one's fellow soldiers is likewise a universal rule that applies to everyone in the service, regardless of background.",
+    "question": "\"Universal\" most nearly means:",
+    "answer": "applying to all",
+    "definition": "Relating to or characteristic of the whole world or population; applying to everyone.",
+    "options": [
+      "applying to all",
+      "limited to few",
+      "temporary",
+      "optional",
+      "local"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "unpretentious",
+    "passage": "Despite his rank and decorations, the general lived in an unpretentious house and drove an old car. His unpretentious manner made him easy to talk to, since he never acted as though he were better than his soldiers.",
+    "question": "What does \"unpretentious\" most nearly mean?",
+    "answer": "modest",
+    "definition": "Not excessively showy; simple and modest.",
+    "options": [
+      "modest",
+      "arrogant",
+      "flashy",
+      "wealthy",
+      "demanding"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "unrelenting",
+    "passage": "The unrelenting rain during the field exercise caused severe flooding across the training area, leaving many tents damaged. Despite the unrelenting pressure of the drill instructors, the recruits refused to give up.",
+    "question": "The word \"unrelenting\" most nearly means:",
+    "answer": "constant",
+    "definition": "Showing no signs of yielding; persistent and unyielding.",
+    "options": [
+      "constant",
+      "occasional",
+      "gentle",
+      "forgiving",
+      "weak"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "vacuous",
+    "passage": "Her vacuous expression suggested she didn't understand the complex tactical briefing being discussed. The recruit's vacuous comment during the debrief revealed that he had not grasped any of the mission details.",
+    "question": "\"Vacuous\" most nearly means:",
+    "answer": "empty of thought",
+    "definition": "Lacking content or thought; showing an inability to grasp ideas.",
+    "options": [
+      "empty of thought",
+      "full of insight",
+      "angry",
+      "cheerful",
+      "confident"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "valorous",
+    "passage": "The valorous soldier was awarded a medal for his heroic actions during the battle, having shown no fear despite the danger. His valorous deed of pulling a wounded comrade to safety inspired the entire platoon.",
+    "question": "What does \"valorous\" most nearly mean?",
+    "answer": "brave",
+    "definition": "Showing great courage, especially in dangerous situations.",
+    "options": [
+      "brave",
+      "cowardly",
+      "careless",
+      "weak",
+      "cautious"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "verdant",
+    "passage": "The verdant hills surrounding the base were covered with lush, green vegetation, creating a picturesque landscape for the soldiers' morning runs. Verdant fields stretched for miles beyond the perimeter fence.",
+    "question": "The word \"verdant\" most nearly means:",
+    "answer": "green and lush",
+    "definition": "Covered with thick, healthy, natural green growth.",
+    "options": [
+      "green and lush",
+      "dry and barren",
+      "rocky and steep",
+      "icy and cold",
+      "paved and flat"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "vex",
+    "passage": "The long wait for their food vexed the customers at the mess hall, and delays like this often vex soldiers who are already exhausted from training. Constant noise from construction nearby vexed the entire unit throughout the night.",
+    "question": "\"Vex\" most nearly means:",
+    "answer": "annoy",
+    "definition": "To annoy or irritate someone.",
+    "options": [
+      "annoy",
+      "please",
       "calm",
-      "safe"
+      "reward",
+      "assist"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "virulent",
+    "passage": "The soldier fell sick with a virulent strain of influenza that spread rapidly through the barracks. Because the disease was so virulent, medical staff quickly quarantined the affected recruits to prevent further infection.",
+    "question": "What does the word \"virulent\" most nearly mean?",
+    "answer": "extremely harmful",
+    "definition": "Highly dangerous, deadly, or poisonous, often spreading quickly.",
+    "options": [
+      "extremely harmful",
+      "mild and harmless",
+      "slow-moving",
+      "curable",
+      "pleasant"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "vitalize",
+    "passage": "A brisk walk in the fresh morning air can vitalize your body and mind before a long day of drills. Strong leadership can vitalize the morale of an entire unit, even after a string of difficult missions.",
+    "question": "The word \"vitalize\" most nearly means:",
+    "answer": "energize",
+    "definition": "To give life, vigor, or energy to something.",
+    "options": [
+      "energize",
+      "exhaust",
+      "weaken",
+      "confuse",
+      "ignore"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "weep",
+    "passage": "He couldn't help but weep when he heard the tragic news of his friend's passing. Even the toughest soldiers sometimes weep quietly after a hard loss, unable to hold back their grief.",
+    "question": "\"Weep\" most nearly means:",
+    "answer": "cry",
+    "definition": "To shed tears.",
+    "options": [
+      "cry",
+      "laugh",
+      "shout",
+      "sleep",
+      "celebrate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "willowy",
+    "passage": "The ballerina's willowy figure and graceful movements captivated the audience during the charity event held on base. Despite years of heavy training, the young recruit kept a willowy frame, slender and flexible.",
+    "question": "What does \"willowy\" most nearly mean?",
+    "answer": "slender and graceful",
+    "definition": "Slim and able to bend easily; graceful.",
+    "options": [
+      "slender and graceful",
+      "stiff and rigid",
+      "short and stocky",
+      "muscular and bulky",
+      "frail and sickly"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "winsome",
+    "passage": "Her winsome smile and friendly demeanor made her instantly likable to everyone she met at the recruiting office. The young officer's winsome nature helped ease the nerves of new recruits on their first day.",
+    "question": "The word \"winsome\" most nearly means:",
+    "answer": "charming",
+    "definition": "Having a pleasant, appealing disposition that wins affection.",
+    "options": [
+      "charming",
+      "hostile",
+      "boring",
+      "arrogant",
+      "timid"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "writhe",
+    "passage": "The wounded soldier writhed in pain on the ground, waiting for the medic to arrive. Under the harsh insult from his commanding officer, the young private writhed with humiliation but said nothing.",
+    "question": "\"Writhe\" most nearly means:",
+    "answer": "twist in pain",
+    "definition": "To twist or squirm, often because of pain or distress.",
+    "options": [
+      "twist in pain",
+      "stand still",
+      "smile brightly",
+      "sleep soundly",
+      "march steadily"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "bandied",
+    "passage": "Rumors about the unit's upcoming deployment were bandied about the barracks all day, with no one quite sure what was true. Names and blame were bandied back and forth after the failed inspection, though no one wanted to take responsibility.",
+    "question": "What does the word \"bandied\" most nearly mean?",
+    "answer": "passed around casually",
+    "definition": "Passed from one person to another, or discussed casually.",
+    "options": [
+      "passed around casually",
+      "kept completely secret",
+      "proven as fact",
+      "officially recorded",
+      "permanently forgotten"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "divisive",
+    "passage": "The new policy proved divisive within the unit, sparking heated debates between soldiers who supported it and those who did not. Divisive topics like this often split even the most tightly-knit teams.",
+    "question": "\"Divisive\" most nearly means:",
+    "answer": "causing disagreement",
+    "definition": "Tending to cause disagreement or hostility between people.",
+    "options": [
+      "causing disagreement",
+      "bringing people together",
+      "clearly explained",
+      "widely accepted",
+      "easily solved"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "facetious",
+    "passage": "The soldiers exchanged facetious remarks about the harsh conditions, using humor to lighten the tension during their long deployment. Some found his facetious comments funny, while others thought they were inappropriate given the seriousness of the mission.",
+    "question": "The word \"facetious\" most nearly means:",
+    "answer": "joking",
+    "definition": "Joking or jesting, not meant to be taken seriously.",
+    "options": [
+      "joking",
+      "serious",
+      "angry",
+      "sorrowful",
+      "formal"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "paltry",
+    "passage": "After months in the field, the soldiers were disappointed by the paltry rations they received, which barely met their nutritional needs. The reward for the difficult assignment turned out to be paltry compared to the effort it required.",
+    "question": "What does \"paltry\" most nearly mean?",
+    "answer": "very small",
+    "definition": "Very small in amount or value; insignificant.",
+    "options": [
+      "very small",
+      "extremely generous",
+      "perfectly adequate",
+      "surprisingly large",
+      "well-deserved"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "pulsate",
+    "passage": "As they waited for the enemy to approach, the soldiers could feel their hearts pulsate with nervous anticipation. The distant lights on the horizon seemed to pulsate rhythmically through the darkness.",
+    "question": "The word \"pulsate\" most nearly means:",
+    "answer": "throb rhythmically",
+    "definition": "To throb or move rhythmically, expanding and contracting.",
+    "options": [
+      "throb rhythmically",
+      "stay perfectly still",
+      "fade away slowly",
+      "freeze completely",
+      "shatter suddenly"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "rash",
+    "passage": "The commander warned his troops against making rash decisions in the heat of battle, since one wrong move could endanger the entire unit. Acting on rash impulse rather than careful planning has caused many missions to fail.",
+    "question": "\"Rash\" most nearly means:",
+    "answer": "careless and hasty",
+    "definition": "Marked by undue haste and a lack of caution.",
+    "options": [
+      "careless and hasty",
+      "carefully planned",
+      "slow and cautious",
+      "calm and patient",
+      "well-informed"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "ritualistic",
+    "passage": "The daily morning routine at the training base was highly ritualistic, with each step performed the same way according to long-standing tradition. Her approach to preparing for inspections was ritualistic, involving a series of specific steps she believed brought success.",
+    "question": "The word \"ritualistic\" most nearly means:",
+    "answer": "routine-based",
+    "definition": "Performed in the same way every time, characteristic of rituals.",
+    "options": [
+      "routine-based",
+      "completely random",
+      "newly invented",
+      "rarely repeated",
+      "spontaneous"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "stress",
+    "passage": "The constant threat of ambush placed incredible stress on the soldiers, testing both their mental and physical endurance. Extra stress from equipment shortages made an already difficult mission even harder to complete.",
+    "question": "What does the word \"stress\" most nearly mean?",
+    "answer": "pressure or strain",
+    "definition": "A constraining force, pressure, or strain placed on someone.",
+    "options": [
+      "pressure or strain",
+      "complete relaxation",
+      "festive celebration",
+      "well-earned reward",
+      "total silence"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "vacillate",
+    "passage": "She vacillated for weeks before deciding whether to accept the assignment overseas, unable to commit either way. Good leaders should not vacillate when quick decisions are needed in the field.",
+    "question": "The word \"vacillate\" most nearly means:",
+    "answer": "waver indecisively",
+    "definition": "To waver between different opinions or actions; to be indecisive.",
+    "options": [
+      "waver indecisively",
+      "decide quickly",
+      "act boldly",
+      "remain silent",
+      "refuse outright"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "engulf",
+    "passage": "The massive waves threatened to engulf the small boat as the storm grew stronger. Fear engulfed the young recruit the first time he heard live gunfire during training.",
+    "question": "\"Engulf\" most nearly means:",
+    "answer": "completely surround",
+    "definition": "To completely surround, cover, or overwhelm something.",
+    "options": [
+      "completely surround",
+      "slightly touch",
+      "gently support",
+      "carefully avoid",
+      "quietly ignore"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "devise",
+    "passage": "The platoon leader had to devise a new strategy to complete the mission without being detected by enemy forces. Engineers were asked to devise a plan for crossing the river safely before the bridge could be repaired.",
+    "question": "What does the word \"devise\" most nearly mean?",
+    "answer": "create a plan",
+    "definition": "To plan, invent, or think up something carefully and creatively.",
+    "options": [
+      "create a plan",
+      "destroy completely",
+      "copy exactly",
+      "ignore entirely",
+      "abandon quickly"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "capacious",
+    "passage": "She bought a capacious handbag that could easily fit all her daily essentials and more. The SUV's capacious trunk made it ideal for long road trips with plenty of luggage, and the barracks storage room was just as capacious, holding gear for the entire platoon.",
+    "question": "The word \"capacious\" most nearly means:",
+    "answer": "roomy",
+    "definition": "Having a lot of space inside; able to hold a large quantity.",
+    "options": [
+      "roomy",
+      "cramped",
+      "fragile",
+      "expensive",
+      "heavy"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "scowl",
+    "passage": "The sergeant scowled at the mistake during inspection, his frown making it clear he was displeased. She scowled at the messy barracks, clearly frustrated by the disarray she found.",
+    "question": "What does \"scowl\" most nearly mean?",
+    "answer": "frown angrily",
+    "definition": "A facial expression showing disapproval, anger, or frustration.",
+    "options": [
+      "frown angrily",
+      "smile warmly",
+      "laugh loudly",
+      "stare blankly",
+      "nod approvingly"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "fictitious",
+    "passage": "The detective quickly realized the alibi was fictitious, designed to mislead the investigation. During the interrogation, the suspect gave a fictitious story that fell apart under closer questioning.",
+    "question": "The word \"fictitious\" most nearly means:",
+    "answer": "not real",
+    "definition": "Not real; invented or created by imagination.",
+    "options": [
+      "not real",
+      "completely true",
+      "well documented",
+      "officially verified",
+      "widely known"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "scapegoat",
+    "passage": "The new soldier became the scapegoat for the unit's failed inspection, even though he had just arrived. Instead of addressing the leadership failures, the unit tried to scapegoat one service member to protect higher-ranking officials.",
+    "question": "What does the word \"scapegoat\" most nearly mean?",
+    "answer": "person unfairly blamed",
+    "definition": "A person or group unfairly blamed for problems caused by others.",
+    "options": [
+      "person unfairly blamed",
+      "celebrated hero",
+      "impartial judge",
+      "trusted advisor",
+      "official leader"
     ]
   }
 ]

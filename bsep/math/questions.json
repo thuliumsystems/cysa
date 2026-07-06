@@ -66,7 +66,7 @@
       "22°",
       "24°"
     ],
-    "definition": "\\(\\textbf{Concept: Subtraction (difference).}\\) Difference = final - initial = \\(54^{\\circ}\\text{F} - 72^{\\circ}\\text{F} = -18^{\\circ}\\text{F}\\). The temperature dropped \\(18^{\\circ}\\text{F}\\).",
+    "definition": "\\(\\textbf{Concept: Subtraction (difference).}\\) Decrease = initial \\(-\\) final = \\(72^{\\circ}\\text{F} - 54^{\\circ}\\text{F} = 18^{\\circ}\\text{F}\\).",
     "word": ""
   },
   {
@@ -701,7 +701,7 @@
   },
   {
     "source": "Non-Official Material",
-    "question": "A squad has 16 soldiers. \\( \frac{1}{2} \\) are on patrol. How many are on patrol?",
+    "question": "A squad has 16 soldiers. \\( \\dfrac{1}{2} \\) are on patrol. How many are on patrol?",
     "answer": "8",
     "options": [
       "4",
@@ -715,7 +715,7 @@
   },
   {
     "source": "Non-Official Material",
-    "question": "A platoon finished \\( \frac{2}{3} \\) of a 15-mile march. How many miles did they march?",
+    "question": "A platoon finished \\( \\dfrac{2}{3} \\) of a 15-mile march. How many miles did they march?",
     "answer": "10",
     "options": [
       "5",
@@ -729,7 +729,7 @@
   },
   {
     "source": "Non-Official Material",
-    "question": "A barracks has 24 rooms. \\( \frac{3}{8} \\) are unoccupied. How many rooms are empty?",
+    "question": "A barracks has 24 rooms. \\( \\dfrac{3}{8} \\) are unoccupied. How many rooms are empty?",
     "answer": "9",
     "options": [
       "6",
@@ -743,7 +743,7 @@
   },
   {
     "source": "Non-Official Material",
-    "question": "A fuel tank holds 200 gallons. \\( \frac{7}{10} \\) are used. How many gallons remain?",
+    "question": "A fuel tank holds 200 gallons. \\( \\dfrac{7}{10} \\) are used. How many gallons remain?",
     "answer": "60",
     "options": [
       "40",
@@ -757,7 +757,7 @@
   },
   {
     "source": "Non-Official Material",
-    "question": "A soldier ate \\( \frac{2}{5} \\) of a 20-inch sandwich. How many inches did he eat?",
+    "question": "A soldier ate \\( \\dfrac{2}{5} \\) of a 20-inch sandwich. How many inches did he eat?",
     "answer": "8",
     "options": [
       "4",

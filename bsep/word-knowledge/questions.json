@@ -41,9 +41,9 @@
     "definition": "Speaking truthfully without hiding feelings.",
     "options": [
       "honest and direct",
-      "secretive",
-      "dishonest",
-      "silent"
+      "secretive and evasive",
+      "dishonest and deceptive",
+      "quiet and reserved"
     ],
     "source": "Non-Official Material"
   },
@@ -77,9 +77,9 @@
     "definition": "Using money wisely without waste.",
     "options": [
       "careful with money",
-      "wasteful",
-      "rich",
-      "generous"
+      "wasteful with money",
+      "extremely wealthy",
+      "overly generous"
     ],
     "source": "Non-Official Material"
   },
@@ -89,9 +89,9 @@
     "definition": "Showing anger or opposition.",
     "options": [
       "unfriendly or aggressive",
-      "friendly",
-      "calm",
-      "happy"
+      "friendly and warm",
+      "calm and peaceful",
+      "cheerful and pleasant"
     ],
     "source": "Non-Official Material"
   },
@@ -101,9 +101,9 @@
     "definition": "Something that will definitely occur.",
     "options": [
       "certain to happen",
-      "impossible",
-      "optional",
-      "unlikely"
+      "impossible to happen",
+      "optional and avoidable",
+      "unlikely to happen"
     ],
     "source": "Non-Official Material"
   },
@@ -113,9 +113,9 @@
     "definition": "Easy to think or express clearly.",
     "options": [
       "clear and easy to understand",
-      "confusing",
-      "dark",
-      "complicated"
+      "confusing and unclear",
+      "dark and hidden",
+      "overly complicated"
     ],
     "source": "Non-Official Material"
   },
@@ -161,9 +161,9 @@
     "definition": "Easy to understand because it is logical.",
     "options": [
       "logical and consistent",
-      "confusing",
-      "random",
-      "silent"
+      "confusing and illogical",
+      "random and disorganized",
+      "quiet and withdrawn"
     ],
     "source": "Non-Official Material"
   },
@@ -233,9 +233,9 @@
     "definition": "Able to adjust easily.",
     "options": [
       "able to bend or change",
-      "rigid",
-      "broken",
-      "fixed"
+      "rigid and unchanging",
+      "damaged beyond repair",
+      "fixed and unmovable"
     ],
     "source": "Non-Official Material"
   },
@@ -293,9 +293,9 @@
     "definition": "Easy to notice or understand.",
     "options": [
       "clearly seen or understood",
-      "hidden",
-      "confusing",
-      "rare"
+      "hidden from view",
+      "confusing and unclear",
+      "rare and unusual"
     ],
     "source": "Non-Official Material"
   },
@@ -353,9 +353,9 @@
     "definition": "Acceptable or reasonable.",
     "options": [
       "legally or logically correct",
-      "wrong",
-      "false",
-      "useless"
+      "clearly incorrect",
+      "false and misleading",
+      "useless and pointless"
     ],
     "source": "Non-Official Material"
   },
@@ -413,9 +413,9 @@
     "definition": "Providing advantage or good effects.",
     "options": [
       "helpful or useful",
-      "harmful",
-      "useless",
-      "dangerous"
+      "harmful or damaging",
+      "useless or wasteful",
+      "dangerous and risky"
     ],
     "source": "Non-Official Material"
   },
@@ -473,9 +473,9 @@
     "definition": "Not changing over time.",
     "options": [
       "always the same",
-      "random",
-      "broken",
-      "rare"
+      "random and unpredictable",
+      "broken and unreliable",
+      "rare and occasional"
     ],
     "source": "Non-Official Material"
   },
@@ -485,9 +485,9 @@
     "definition": "To compare differences.",
     "options": [
       "difference between things",
-      "similarity",
-      "agreement",
-      "connection"
+      "similarity between things",
+      "agreement between people",
+      "connection between ideas"
     ],
     "source": "Non-Official Material"
   },
@@ -509,9 +509,9 @@
     "definition": "When something is less than needed.",
     "options": [
       "lack or shortage",
-      "excess",
-      "balance",
-      "profit"
+      "excess or surplus",
+      "balance of accounts",
+      "profit or gain"
     ],
     "source": "Non-Official Material"
   },
@@ -545,9 +545,9 @@
     "definition": "Achieving maximum productivity.",
     "options": [
       "working well without waste",
-      "slow",
-      "lazy",
-      "broken"
+      "slow and wasteful",
+      "careless and lazy",
+      "damaged and unreliable"
     ],
     "source": "Non-Official Material"
   },
@@ -641,9 +641,9 @@
     "definition": "Essential foundation or principle.",
     "options": [
       "basic and important",
-      "optional",
-      "random",
-      "temporary"
+      "optional and unnecessary",
+      "random and unrelated",
+      "temporary and short-lived"
     ],
     "source": "Non-Official Material"
   },
@@ -713,9 +713,9 @@
     "definition": "Conforming to the law or rules.",
     "options": [
       "valid or legal",
-      "fake",
-      "wrong",
-      "illegal"
+      "fake or fraudulent",
+      "wrong or incorrect",
+      "illegal and unlawful"
     ],
     "source": "Non-Official Material"
   },
@@ -737,9 +737,9 @@
     "definition": "Based on facts, not emotions.",
     "options": [
       "not influenced by feelings",
-      "emotional",
-      "biased",
-      "random"
+      "influenced by feelings",
+      "unfairly biased",
+      "randomly decided"
     ],
     "source": "Non-Official Material"
   },
@@ -845,9 +845,9 @@
     "definition": "Considerable or significant in size.",
     "options": [
       "large in amount",
-      "tiny",
-      "empty",
-      "weak"
+      "very small in amount",
+      "completely empty",
+      "weak or minor"
     ],
     "source": "Non-Official Material"
   },
@@ -1013,9 +1013,9 @@
     "definition": "Based on personal choice rather than reason.",
     "options": [
       "random or based on chance",
-      "logical",
-      "fixed",
-      "planned"
+      "logical and reasoned",
+      "fixed and unchanging",
+      "carefully planned"
     ],
     "source": "Non-Official Material"
   },
@@ -1037,9 +1037,9 @@
     "definition": "Capable of existing or working together.",
     "options": [
       "able to work together",
-      "incompatible",
-      "broken",
-      "separate"
+      "unable to work together",
+      "broken and unusable",
+      "kept completely separate"
     ],
     "source": "Non-Official Material"
   },
@@ -1109,9 +1109,9 @@
     "definition": "Rules used to evaluate something.",
     "options": [
       "standards for judgment",
-      "opinions",
-      "guesses",
-      "results"
+      "personal opinions only",
+      "random guesses",
+      "final results only"
     ],
     "source": "Non-Official Material"
   },
@@ -1181,9 +1181,9 @@
     "definition": "The time something lasts.",
     "options": [
       "length of time",
-      "speed",
-      "distance",
-      "weight"
+      "rate of speed",
+      "amount of distance",
+      "amount of weight"
     ],
     "source": "Non-Official Material"
   },
@@ -1205,9 +1205,9 @@
     "definition": "Based on experience or experiment.",
     "options": [
       "based on observation",
-      "theoretical",
-      "imaginary",
-      "random"
+      "based on theory",
+      "based on imagination",
+      "based on guesswork"
     ],
     "source": "Non-Official Material"
   },
@@ -1217,9 +1217,9 @@
     "definition": "Having the same worth or effect.",
     "options": [
       "equal in value",
-      "different",
-      "greater",
-      "lesser"
+      "different in value",
+      "greater in value",
+      "lesser in value"
     ],
     "source": "Non-Official Material"
   },
@@ -1361,9 +1361,9 @@
     "definition": "Not as good as something else.",
     "options": [
       "lower in quality",
-      "better",
-      "equal",
-      "perfect"
+      "higher in quality",
+      "equal in quality",
+      "flawless in quality"
     ],
     "source": "Non-Official Material"
   },
@@ -1469,9 +1469,9 @@
     "definition": "Something worth noticing because it stands out.",
     "options": [
       "important or worthy of attention",
-      "unimportant",
-      "hidden",
-      "random"
+      "unimportant and forgettable",
+      "hidden from attention",
+      "randomly selected"
     ],
     "source": "Non-Official Material"
   },
@@ -1481,9 +1481,9 @@
     "definition": "Not influenced by emotions or opinions.",
     "options": [
       "based on facts",
-      "emotional",
-      "biased",
-      "random"
+      "based on emotions",
+      "based on bias",
+      "based on chance"
     ],
     "source": "Non-Official Material"
   },
@@ -1697,9 +1697,9 @@
     "definition": "Having great depth or importance.",
     "options": [
       "deep or meaningful",
-      "shallow",
-      "simple",
-      "weak"
+      "shallow and meaningless",
+      "overly simple",
+      "weak in meaning"
     ],
     "source": "Non-Official Material"
   },
@@ -1721,9 +1721,9 @@
     "definition": "A comparative relationship between things.",
     "options": [
       "relation of parts",
-      "randomness",
-      "speed",
-      "weight"
+      "randomness of parts",
+      "speed of movement",
+      "weight of an object"
     ],
     "source": "Non-Official Material"
   },
@@ -1781,9 +1781,9 @@
     "definition": "Closely connected to the topic.",
     "options": [
       "related and important",
-      "unrelated",
-      "useless",
-      "random"
+      "off-topic and unimportant",
+      "pointless and useless",
+      "randomly chosen"
     ],
     "source": "Non-Official Material"
   },
@@ -1817,9 +1817,9 @@
     "definition": "Able to recover from difficulties.",
     "options": [
       "able to recover quickly",
-      "weak",
-      "fragile",
-      "broken"
+      "easily broken down",
+      "fragile and delicate",
+      "permanently damaged"
     ],
     "source": "Non-Official Material"
   },
@@ -1889,9 +1889,9 @@
     "definition": "Able to be touched or clearly real.",
     "options": [
       "physical or real",
-      "imaginary",
-      "hidden",
-      "abstract"
+      "imaginary or unreal",
+      "hidden and unclear",
+      "abstract and vague"
     ],
     "source": "Non-Official Material"
   },
@@ -1937,9 +1937,9 @@
     "definition": "The last or most significant.",
     "options": [
       "final or most important",
-      "first",
-      "random",
-      "weak"
+      "first or earliest",
+      "randomly chosen",
+      "minor or unimportant"
     ],
     "source": "Non-Official Material"
   },
@@ -1949,9 +1949,9 @@
     "definition": "Acceptable under rules or logic.",
     "options": [
       "legally or logically correct",
-      "false",
-      "invalid",
-      "wrong"
+      "false and incorrect",
+      "logically flawed",
+      "clearly mistaken"
     ],
     "source": "Non-Official Material"
   },
@@ -1985,9 +1985,9 @@
     "definition": "Not forced; done willingly.",
     "options": [
       "done by choice",
-      "forced",
-      "required",
-      "mandatory"
+      "done under force",
+      "required by law",
+      "mandatory for everyone"
     ],
     "source": "Non-Official Material"
   },
@@ -2225,9 +2225,9 @@
     "definition": "Capable of existing or functioning together.",
     "options": [
       "able to work together",
-      "incompatible",
-      "broken",
-      "separate"
+      "unable to work together",
+      "broken and unusable",
+      "kept completely separate"
     ],
     "source": "Non-Official Material"
   },
@@ -2285,9 +2285,9 @@
     "definition": "Occurring simultaneously.",
     "options": [
       "happening at the same time",
-      "separate",
-      "delayed",
-      "random"
+      "happening separately",
+      "happening much later",
+      "happening randomly"
     ],
     "source": "Non-Official Material"
   },
@@ -2549,9 +2549,9 @@
     "definition": "Capable of adapting easily.",
     "options": [
       "able to change",
-      "rigid",
-      "broken",
-      "fixed"
+      "rigid and fixed",
+      "broken and unusable",
+      "permanently fixed"
     ],
     "source": "Non-Official Material"
   },
@@ -2693,9 +2693,9 @@
     "definition": "Not as good as something else.",
     "options": [
       "lower in quality",
-      "better",
-      "equal",
-      "perfect"
+      "higher in quality",
+      "equal in quality",
+      "flawless in quality"
     ],
     "source": "Non-Official Material"
   },
@@ -2945,9 +2945,9 @@
     "definition": "A defining boundary or rule.",
     "options": [
       "limit or boundary",
-      "freedom",
-      "randomness",
-      "result"
+      "complete freedom",
+      "random variation",
+      "final result"
     ],
     "source": "Non-Official Material"
   },
@@ -3041,9 +3041,9 @@
     "definition": "A comparative relationship.",
     "options": [
       "relation of parts",
-      "randomness",
-      "speed",
-      "weight"
+      "randomness of parts",
+      "speed of movement",
+      "weight of an object"
     ],
     "source": "Non-Official Material"
   },
@@ -3238,11 +3238,11 @@
     "answer": "loud and exaggerated",
     "definition": "High-sounding but with little meaning; pompous.",
     "options": [
-      "humble",
-      "dull",
+      "quiet and humble",
+      "plain and dull",
       "loud and exaggerated",
-      "sincere",
-      "nervous"
+      "honest and sincere",
+      "anxious and nervous"
     ]
   },
   {
@@ -3290,11 +3290,11 @@
     "answer": "collection of documents",
     "definition": "A set of documents about a particular person or event.",
     "options": [
-      "map",
-      "schedule",
+      "detailed map",
+      "planned schedule",
       "collection of documents",
-      "uniform",
-      "command"
+      "military uniform",
+      "official command"
     ]
   },
   {
@@ -3381,11 +3381,11 @@
     "answer": "accidental and fortunate",
     "definition": "Happening by chance in a lucky way.",
     "options": [
-      "unlucky",
+      "unlucky and unfortunate",
       "accidental and fortunate",
-      "intentional",
-      "predictable",
-      "unnecessary"
+      "planned and intentional",
+      "expected and predictable",
+      "pointless and unnecessary"
     ]
   },
   {
@@ -3420,11 +3420,11 @@
     "answer": "contradiction between words and actions",
     "definition": "The practice of claiming to have moral standards one does not actually follow.",
     "options": [
-      "sincerity",
+      "honesty in words and actions",
       "contradiction between words and actions",
-      "bravery",
-      "leadership",
-      "loyalty"
+      "courage under pressure",
+      "skill in leading others",
+      "faithfulness to a cause"
     ]
   },
   {
@@ -3446,11 +3446,11 @@
     "answer": "sharp or insightful",
     "definition": "Intelligently analytical and clear-thinking.",
     "options": [
-      "dull",
+      "dull and unclear",
       "sharp or insightful",
-      "confused",
-      "slow",
-      "forgetful"
+      "confused and vague",
+      "slow to understand",
+      "forgetful and careless"
     ]
   },
   {
@@ -3485,11 +3485,11 @@
     "answer": "delay or suspension",
     "definition": "A temporary suspension of activity.",
     "options": [
-      "acceleration",
+      "speeding up of activity",
       "delay or suspension",
-      "creation",
-      "celebration",
-      "approval"
+      "creation of something new",
+      "celebration of an event",
+      "official approval"
     ]
   },
   {
@@ -3564,10 +3564,10 @@
     "definition": "Moving or speaking slowly with little energy.",
     "options": [
       "slow and relaxed",
-      "energetic",
-      "angry",
-      "fast",
-      "nervous"
+      "energetic and lively",
+      "angry and tense",
+      "fast and hurried",
+      "nervous and anxious"
     ]
   },
   {
@@ -3634,5 +3634,1169 @@
       "slow",
       "confused"
     ]
+  },
+  {
+    "word": "abhor",
+    "answer": "to hate something deeply",
+    "definition": "To hate something deeply; to regard with extreme repugnance or aversion; detest utterly; loathe; abominate.",
+    "options": [
+      "to hate something deeply",
+      "to admire greatly",
+      "to celebrate",
+      "to remember fondly"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "abrupt",
+    "answer": "sudden and unexpected",
+    "definition": "Sudden and unexpected; lacking smoothness; brief to the point of rudeness.",
+    "options": [
+      "sudden and unexpected",
+      "very slow",
+      "well planned",
+      "soft and gradual"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "abstemious",
+    "answer": "practicing self-restraint with food and drink",
+    "definition": "Practicing self-restraint, especially with food or drink; exercising restraint or moderation in eating and drinking; sparing or moderate in eating or drinking.",
+    "options": [
+      "practicing self-restraint with food and drink",
+      "eating and drinking excessively",
+      "being reckless",
+      "avoiding all social gatherings"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "abundant",
+    "answer": "more than enough; plentiful",
+    "definition": "More than enough; plentiful; existing in great amounts; marked by plenty.",
+    "options": [
+      "more than enough; plentiful",
+      "barely enough",
+      "completely empty",
+      "mediocre"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "acquiescence",
+    "answer": "agreement without protest",
+    "definition": "Agreement without protest; readiness or willingness to yield to the wishes of others.",
+    "options": [
+      "agreement without protest",
+      "strong disagreement",
+      "violent rebellion",
+      "active resistance"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "acquisition",
+    "answer": "the act of gaining or obtaining something",
+    "definition": "The act of gaining or obtaining something; the act of acquiring or gaining possession; something gained or added.",
+    "options": [
+      "the act of gaining or obtaining something",
+      "the act of losing or giving away",
+      "the act of forgetting",
+      "the act of refusing"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "adage",
+    "answer": "a short, well-known saying that expresses a truth",
+    "definition": "A short, well-known saying that expresses a truth; a traditional saying expressing a common experience or observation.",
+    "options": [
+      "a short, well-known saying that expresses a truth",
+      "a long, complex theory",
+      "a modern invention",
+      "a fictional story"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "adjacent",
+    "answer": "next to or near something",
+    "definition": "Next to or near something; lying near, close, or contiguous; adjoining; neighboring.",
+    "options": [
+      "next to or near something",
+      "very far away",
+      "opposite",
+      "completely separate"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "admonish",
+    "answer": "to warn or reprimand someone",
+    "definition": "Warn or reprimand someone; to warn or caution; to reprove or scold.",
+    "options": [
+      "to warn or reprimand someone",
+      "to praise highly",
+      "to ignore completely",
+      "to encourage wildly"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "adobe",
+    "answer": "sun-dried brick made of clay and straw",
+    "definition": "Sun-dried brick made of clay and straw; kind of clay in the form of sun-dried bricks used for building.",
+    "options": [
+      "sun-dried brick made of clay and straw",
+      "a type of metal",
+      "a fabric material",
+      "a rare gem"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "adore",
+    "answer": "to love deeply",
+    "definition": "To love deeply; to feel passion, devotion, or tenderness for.",
+    "options": [
+      "to love deeply",
+      "to dislike strongly",
+      "to ignore completely",
+      "to betray"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "adversary",
+    "answer": "an opponent or enemy",
+    "definition": "An opponent or enemy; one that is hostile toward another; a person, group, or thing that is against another.",
+    "options": [
+      "an opponent or enemy",
+      "a close friend",
+      "an ally",
+      "a trusted advisor"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "advocacy",
+    "answer": "public support for a cause",
+    "definition": "Public support for a cause; support for or recommendation of a particular cause.",
+    "options": [
+      "public support for a cause",
+      "opposition to change",
+      "neutral stance",
+      "passive acceptance"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "agile",
+    "answer": "able to move quickly and easily",
+    "definition": "Able to move quickly and easily; moving quickly and gracefully; quick and well coordinated.",
+    "options": [
+      "able to move quickly and easily",
+      "slow and clumsy",
+      "stiff and rigid",
+      "unable to move"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "allude",
+    "answer": "to refer to something indirectly",
+    "definition": "To refer to something indirectly; to suggest or call attention to indirectly; to mention.",
+    "options": [
+      "to refer to something indirectly",
+      "to explicitly state",
+      "to completely ignore",
+      "to deny everything"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "amalgamation",
+    "answer": "a mixture or combination of things",
+    "definition": "A mixture or combination of things; the action, process, or result of combining or uniting.",
+    "options": [
+      "a mixture or combination of things",
+      "a complete separation",
+      "a violent conflict",
+      "an individual item"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "amused",
+    "answer": "finding something funny or entertaining",
+    "definition": "Finding something funny or entertaining.",
+    "options": [
+      "finding something funny or entertaining",
+      "feeling bored",
+      "feeling angry",
+      "feeling indifferent"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "argument",
+    "answer": "a disagreement or debate",
+    "definition": "A disagreement or debate; usually heated exchange of opposite views.",
+    "options": [
+      "a disagreement or debate",
+      "a complete agreement",
+      "a silence",
+      "a peaceful discussion"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "assail",
+    "answer": "to attack verbally or physically",
+    "definition": "To attack verbally or physically; to attack vigorously or violently.",
+    "options": [
+      "to attack verbally or physically",
+      "to support fully",
+      "to protect carefully",
+      "to agree completely"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "attrition",
+    "answer": "gradual reduction or loss",
+    "definition": "Gradual reduction or loss; a reduction or decrease in number size or strength; a gradual wearing down or erosion.",
+    "options": [
+      "gradual reduction or loss",
+      "sudden increase",
+      "violent explosion",
+      "complete restoration"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "banish",
+    "answer": "to force someone to leave",
+    "definition": "To force someone to leave; to send someone away, or get rid of.",
+    "options": [
+      "to force someone to leave",
+      "to welcome warmly",
+      "to embrace tightly",
+      "to invite permanently"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "berate",
+    "answer": "to scold or criticize angrily",
+    "definition": "To scold or criticize angrily.",
+    "options": [
+      "to scold or criticize angrily",
+      "to praise highly",
+      "to compliment sincerely",
+      "to ignore politely"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "bigotry",
+    "answer": "intolerance toward different beliefs or groups",
+    "definition": "Intolerance toward different beliefs or groups; intolerant adherence to one's own opinions.",
+    "options": [
+      "intolerance toward different beliefs or groups",
+      "acceptance of all views",
+      "open-mindedness",
+      "respect for differences"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "bivouac",
+    "answer": "a temporary camp or shelter",
+    "definition": "A temporary camp or shelter without tents or covers, used especially by soldiers or outdoors enthusiasts. To camp temporarily, often without shelter.",
+    "options": [
+      "a temporary camp or shelter",
+      "a permanent residence",
+      "a luxury hotel",
+      "a fortified castle"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "boast",
+    "answer": "exaggerated or objectionable speech",
+    "definition": "Exaggerated or objectionable speech, or to speak with exaggeration and excessive pride; to brag.",
+    "options": [
+      "exaggerated or objectionable speech",
+      "modest and humble talk",
+      "silent observation",
+      "truthful statement"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "bodacious",
+    "answer": "bold and remarkable",
+    "definition": "Bold and remarkable; likely to attract attention, or without exception or restriction.",
+    "options": [
+      "bold and remarkable",
+      "timid and hidden",
+      "ordinary and plain",
+      "dull and boring"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "bombastic",
+    "answer": "overly grand or showy in speech",
+    "definition": "Overly grand or showy in speech; marked by the use of impressive-sounding but mostly meaningless words and phrases.",
+    "options": [
+      "overly grand or showy in speech",
+      "simple and modest",
+      "quiet and understated",
+      "factual and plain"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "boring",
+    "answer": "not interesting; tedious",
+    "definition": "Not interesting; tedious.",
+    "options": [
+      "not interesting; tedious",
+      "extremely exciting",
+      "fascinating and engaging",
+      "thrilling and dynamic"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "brawn",
+    "answer": "physical strength; large, solid muscles",
+    "definition": "Physical strength; large, solid muscles; muscular strength.",
+    "options": [
+      "physical strength; large, solid muscles",
+      "mental intelligence",
+      "emotional sensitivity",
+      "spiritual awareness"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "broach",
+    "answer": "to suggest or mention for the first time",
+    "definition": "To suggest or mention for the first time; to bring up a topic.",
+    "options": [
+      "to suggest or mention for the first time",
+      "to completely avoid",
+      "to aggressively attack",
+      "to firmly reject"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "canny",
+    "answer": "clever and careful",
+    "definition": "Clever and careful; difficult to fool or take advantage of; shrewd; wary; clever; careful, cautious, prudent.",
+    "options": [
+      "clever and careful",
+      "naive and reckless",
+      "foolish and careless",
+      "stubborn and rigid"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "cede",
+    "answer": "to yield, give up control or formally surrender",
+    "definition": "To yield, give up control or formally surrender to another; to cede territory.",
+    "options": [
+      "to yield, give up control or formally surrender",
+      "to acquire forcefully",
+      "to defend firmly",
+      "to protect zealously"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "chronicle",
+    "answer": "a chronological record of events",
+    "definition": "A chronological record of events; a history. To record or narrate in the form of a chronicle.",
+    "options": [
+      "a chronological record of events",
+      "a fictional story",
+      "a personal opinion",
+      "a random collection"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "circumvent",
+    "answer": "to find a way around or overcome an obstacle",
+    "definition": "To find a way around or overcome an obstacle or to avoid or get around.",
+    "options": [
+      "to find a way around or overcome an obstacle",
+      "to directly confront",
+      "to surrender immediately",
+      "to give up completely"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "clemency",
+    "answer": "mercy or lenience",
+    "definition": "Mercy or lenience.",
+    "options": [
+      "mercy or lenience",
+      "strict punishment",
+      "harsh judgment",
+      "complete revenge"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "clutter",
+    "answer": "to fill or litter with a messy collection of things",
+    "definition": "To fill or litter with a messy collection of things. A disorderly heap or assemblage; litter; a state or condition of confusion.",
+    "options": [
+      "to fill or litter with a messy collection of things",
+      "to organize neatly",
+      "to clean thoroughly",
+      "to arrange carefully"
+    ],
+    "source": "BSEP English L.1 Words 1-36 Dr. Bullock"
+  },
+  {
+    "word": "commiserate",
+    "answer": "to express sympathy or sorrow with someone",
+    "definition": "To express sympathy or sorrow with someone.",
+    "options": [
+      "to express sympathy or sorrow with someone",
+      "to celebrate joyfully",
+      "to ignore completely",
+      "to argue fiercely"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "communiqué",
+    "answer": "an official announcement or report",
+    "definition": "An official announcement or report; an official bulletin or communication, usually to the press or public.",
+    "options": [
+      "an official announcement or report",
+      "a personal letter",
+      "a fictional story",
+      "a casual conversation"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "commute",
+    "answer": "to travel regularly between places or reduce a sentence",
+    "definition": "To travel regularly between places (v); when the judge changes a prison sentence to a less severe one.",
+    "options": [
+      "to travel regularly between places or reduce a sentence",
+      "to stay in one place",
+      "to increase punishment",
+      "to ignore laws"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "concoct",
+    "answer": "to create or invent, often falsely",
+    "definition": "To create or invent, often falsely; to design or think cleverly.",
+    "options": [
+      "to create or invent, often falsely",
+      "to destroy completely",
+      "to copy exactly",
+      "to forget entirely"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "concur",
+    "answer": "to agree, to cooperate",
+    "definition": "To agree, to cooperate; to share the same opinion.",
+    "options": [
+      "to agree, to cooperate",
+      "to strongly disagree",
+      "to remain silent",
+      "to avoid commitment"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "confidante",
+    "answer": "a trusted person you share secrets with",
+    "definition": "A trusted person you share secrets with; a person who has a strong like for and trust in another.",
+    "options": [
+      "a trusted person you share secrets with",
+      "an enemy or rival",
+      "a casual acquaintance",
+      "a distant relative"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "conspiracy",
+    "answer": "a secret plan to do something harmful",
+    "definition": "A secret plan to do something harmful; a secret agreement for a dishonest purpose.",
+    "options": [
+      "a secret plan to do something harmful",
+      "a public announcement",
+      "an honest agreement",
+      "a fair competition"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "construe",
+    "answer": "to interpret or understand",
+    "definition": "To interpret or understand; to give the meaning or intention of; explain; interpret; to deduce by inference or interpretation; infer; to make plain or understandable.",
+    "options": [
+      "to interpret or understand",
+      "to confuse deliberately",
+      "to ignore completely",
+      "to change meaning"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "contemplate",
+    "answer": "to think deeply about something",
+    "definition": "To think deeply about something; to give serious and careful thought to.",
+    "options": [
+      "to think deeply about something",
+      "to act immediately",
+      "to forget about",
+      "to rush ahead"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "contentious",
+    "answer": "likely to cause disagreement; inclined to argue",
+    "definition": "Likely to cause disagreement; inclined to argue; quarrelsome; belligerent; characterized by argument or controversy.",
+    "options": [
+      "likely to cause disagreement; inclined to argue",
+      "peaceful and calm",
+      "easy to please",
+      "always cooperative"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "conversant",
+    "answer": "familiar or knowledgeable about something",
+    "definition": "Familiar or knowledgeable about something; having information as the result of study experience.",
+    "options": [
+      "familiar or knowledgeable about something",
+      "completely ignorant",
+      "unwilling to learn",
+      "deliberately confused"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "coroner",
+    "answer": "an official who investigates deaths",
+    "definition": "An official who investigates deaths; a public official who investigates by inquest any death not due to natural causes.",
+    "options": [
+      "an official who investigates deaths",
+      "a medical doctor",
+      "a police officer",
+      "a funeral director"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "crevasse",
+    "answer": "a deep crack in ice or ground",
+    "definition": "A deep crack in ice or ground; a deep, narrow opening or crack in thick ice or rock.",
+    "options": [
+      "a deep crack in ice or ground",
+      "a shallow pool",
+      "a solid bridge",
+      "a smooth surface"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "cynical",
+    "answer": "distrustful of others' motives",
+    "definition": "Distrustful of others' motives; having deep distrust of human beings and their motives.",
+    "options": [
+      "distrustful of others' motives",
+      "optimistic and trusting",
+      "naive and gullible",
+      "always positive"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "decipher",
+    "answer": "to figure out or decode",
+    "definition": "To figure out or decode; to change from a code into ordinary language; to make sense of.",
+    "options": [
+      "to figure out or decode",
+      "to encrypt further",
+      "to keep secret",
+      "to ignore completely"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "decorum",
+    "answer": "proper behavior; propriety",
+    "definition": "Proper behavior; propriety; dignified manner of behavior, speech, dress, etc.",
+    "options": [
+      "proper behavior; propriety",
+      "rude and crude behavior",
+      "wild and chaotic actions",
+      "disrespectful conduct"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "decry",
+    "answer": "to publicly criticize",
+    "definition": "To publicly criticize; to express strong disapproval of; condemn; to express scornfully one's low opinion of something.",
+    "options": [
+      "to publicly criticize",
+      "to praise highly",
+      "to ignore quietly",
+      "to agree completely"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "defer",
+    "answer": "to delay or yield to another's opinion",
+    "definition": "To delay or yield to another's opinion; to postpone or to yield to another's wishes.",
+    "options": [
+      "to delay or yield to another's opinion",
+      "to proceed immediately",
+      "to argue strongly",
+      "to enforce authority"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "demoralize",
+    "answer": "to cause loss of confidence",
+    "definition": "To cause loss of confidence; to deprive of courage, spirit, or discipline; to cause someone to lose confidence or hope, or to undermine their morale.",
+    "options": [
+      "to cause loss of confidence",
+      "to boost morale",
+      "to increase courage",
+      "to strengthen discipline"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "demurral",
+    "answer": "an objection or hesitation",
+    "definition": "An objection or hesitation; a feeling or declaration of disapproval or dissent; the act of raising an objection or expressing hesitation or doubt about something.",
+    "options": [
+      "an objection or hesitation",
+      "complete agreement",
+      "enthusiastic approval",
+      "full compliance"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "deplete",
+    "answer": "to use up; to decrease or use up the supply",
+    "definition": "To use up; to decrease or use up the supply of.",
+    "options": [
+      "to use up; to decrease or use up the supply",
+      "to increase supplies",
+      "to collect more",
+      "to preserve fully"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "depression",
+    "answer": "a state of sadness or low activity",
+    "definition": "A state of sadness or low activity; a state of low spirits.",
+    "options": [
+      "a state of sadness or low activity",
+      "extreme happiness",
+      "high energy level",
+      "extreme excitement"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "destitution",
+    "answer": "extreme poverty",
+    "definition": "Extreme poverty; utter poverty, or the extreme want of the necessities of life; lack of means of subsistence.",
+    "options": [
+      "extreme poverty",
+      "great wealth",
+      "comfortable living",
+      "abundant resources"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "diminish",
+    "answer": "to make smaller or less",
+    "definition": "To make smaller or less; to cause to appear smaller in size or importance; to make or to seem smaller or less important.",
+    "options": [
+      "to make smaller or less",
+      "to increase greatly",
+      "to enhance value",
+      "to strengthen impact"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "disclose",
+    "answer": "to reveal; to make something known publicly",
+    "definition": "To reveal; to make something known publicly, or to show something that was hidden; to make known, as information previously kept secret.",
+    "options": [
+      "to reveal; to make something known publicly",
+      "to keep secret",
+      "to hide carefully",
+      "to deny completely"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "disparity",
+    "answer": "a difference or inequality",
+    "definition": "A difference or inequality; the condition or an instance of being unlike, unequal, or of different kinds; difference; lack of equality.",
+    "options": [
+      "a difference or inequality",
+      "complete equality",
+      "perfect balance",
+      "similar treatment"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "dossier",
+    "answer": "a collection of documents; a file",
+    "definition": "A collection of documents; a file containing detailed records on.",
+    "options": [
+      "a collection of documents; a file",
+      "a single sheet of paper",
+      "an oral presentation",
+      "a random collection"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "dreadful",
+    "answer": "very bad or unpleasant",
+    "definition": "Very bad or unpleasant; causing fear, shock, or suffering; causing intense disgust, displeasure, or resentment.",
+    "options": [
+      "very bad or unpleasant",
+      "wonderful and pleasant",
+      "exciting and fun",
+      "beautiful and delightful"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "eclectic",
+    "answer": "made from various sources; diverse",
+    "definition": "Made from various sources; drawing on or influenced by various styles, disciplines, systems or the like; composed or created by selecting from various styles, disciplines, systems, or the like; consisting of many things of different sorts.",
+    "options": [
+      "made from various sources; diverse",
+      "from a single source",
+      "uniform and similar",
+      "strictly traditional"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "effulgence",
+    "answer": "bright radiance; the quality or state of having or giving off light",
+    "definition": "Bright radiance; the quality or state of having or giving off light.",
+    "options": [
+      "bright radiance; the quality or state of having or giving off light",
+      "complete darkness",
+      "dim lighting",
+      "absence of light"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "effusive",
+    "answer": "expressing feelings openly and at undue length",
+    "definition": "Expressing feelings openly and at undue length; flowing out or over; expressing welcome, approval, or pleasure in a way that shows very strong feeling; showing feelings freely.",
+    "options": [
+      "expressing feelings openly and at undue length",
+      "keeping emotions bottled up",
+      "being reserved and cold",
+      "showing no emotion"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "elicit",
+    "answer": "to draw out a response",
+    "definition": "To draw out a response; to draw or bring out; to call forth; evoke; to draw out something hidden.",
+    "options": [
+      "to draw out a response",
+      "to suppress information",
+      "to hide the truth",
+      "to confuse further"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "elusive",
+    "answer": "hard to find or understand",
+    "definition": "Hard to find or understand; hard to find, capture, or isolate.",
+    "options": [
+      "hard to find or understand",
+      "easy to locate",
+      "simple to understand",
+      "obvious to all"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "embargo",
+    "answer": "official ban on trade",
+    "definition": "Official ban on trade; a government order that restricts trade or the shipment of goods; a government order that forbids ships to move in or out of its ports; an order that something not be done or used; to prohibit.",
+    "options": [
+      "official ban on trade",
+      "free trade agreement",
+      "business expansion",
+      "commercial growth"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "eminent",
+    "answer": "famous and respected",
+    "definition": "Famous and respected; standing above others in rank, importance, or achievement.",
+    "options": [
+      "famous and respected",
+      "unknown and obscure",
+      "disrespected and ignored",
+      "ordinary and average"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "emphasize",
+    "answer": "to give importance to; stress",
+    "definition": "To give importance to; stress; to give particular attention to; to lay stress upon.",
+    "options": [
+      "to give importance to; stress",
+      "to minimize importance",
+      "to ignore completely",
+      "to downplay significance"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "encampment",
+    "answer": "a temporary camp; a place where people live in tents",
+    "definition": "A temporary camp; a place where people live in tents, usually for a short time.",
+    "options": [
+      "a temporary camp; a place where people live in tents",
+      "a permanent settlement",
+      "a luxury resort",
+      "a fortified city"
+    ],
+    "source": "BSEP English L.2 Words 37-73 Dr. Bullock"
+  },
+  {
+    "word": "incisive",
+    "answer": "clear and sharp thinking",
+    "definition": "Clear and sharp thinking; very clear and direct.",
+    "options": [
+      "clear and sharp thinking",
+      "confused and muddled",
+      "slow and deliberate",
+      "vague and unclear"
+    ],
+    "source": "BSEP English L.4 Words 111-149 Dr. Bullock"
+  },
+  {
+    "word": "inept",
+    "answer": "lacking skill",
+    "definition": "Lacking skill; lacking qualities required to do a job; incompetent.",
+    "options": [
+      "lacking skill",
+      "highly skilled",
+      "very competent",
+      "experienced and able"
+    ],
+    "source": "BSEP English L.4 Words 111-149 Dr. Bullock"
+  },
+  {
+    "word": "infer",
+    "answer": "to conclude from evidence",
+    "definition": "To conclude from evidence; to form an opinion or guess that something is true because of the information that you have.",
+    "options": [
+      "to conclude from evidence",
+      "to state explicitly",
+      "to guess randomly",
+      "to deny completely"
+    ],
+    "source": "BSEP English L.4 Words 111-149 Dr. Bullock"
+  },
+  {
+    "word": "infiltrate",
+    "answer": "to enter secretly",
+    "definition": "Enter secretly; to pass, or cause (a fluid, cell, etc.) to pass, through small gaps or openings; filter; to enter into in secret.",
+    "options": [
+      "to enter secretly",
+      "to openly announce",
+      "to formally request",
+      "to invite publicly"
+    ],
+    "source": "BSEP English L.4 Words 111-149 Dr. Bullock"
+  },
+  {
+    "word": "insignia",
+    "answer": "a symbol of rank",
+    "definition": "Symbol of rank; a sign that indicates membership in a particular group or the attainment of a particular rank.",
+    "options": [
+      "a symbol of rank",
+      "a uniform color",
+      "a weapon",
+      "a medal"
+    ],
+    "source": "BSEP English L.4 Words 111-149 Dr. Bullock"
+  },
+  {
+    "word": "intervene",
+    "answer": "to step in between opposing sides",
+    "definition": "Step in; to act as a go-between for opposing sides.",
+    "options": [
+      "to step in between opposing sides",
+      "to remain neutral",
+      "to encourage conflict",
+      "to stay uninvolved"
+    ],
+    "source": "BSEP English L.4 Words 111-149 Dr. Bullock"
+  },
+  {
+    "word": "intrinsic",
+    "answer": "essential; being part of the innermost nature",
+    "definition": "Essential; being a part of the innermost nature of a person or thing.",
+    "options": [
+      "essential; being part of the innermost nature",
+      "superficial and external",
+      "temporary and fleeting",
+      "acquired and learned"
+    ],
+    "source": "BSEP English L.4 Words 111-149 Dr. Bullock"
+  },
+  {
+    "word": "invariably",
+    "answer": "always",
+    "definition": "Always; on every relevant occasion.",
+    "options": [
+      "always",
+      "sometimes",
+      "rarely",
+      "never"
+    ],
+    "source": "BSEP English L.4 Words 111-149 Dr. Bullock"
+  },
+  {
+    "word": "perilous",
+    "answer": "full of danger",
+    "definition": "Full of danger.",
+    "options": [
+      "full of danger",
+      "completely safe",
+      "somewhat risky",
+      "moderately careful"
+    ],
+    "source": "BSEP English L.5 Words 150-185 Dr. Bullock"
+  },
+  {
+    "word": "perjure",
+    "answer": "to lie in a court of law",
+    "definition": "To tell a lie in a court of law; Lie under oath.",
+    "options": [
+      "to lie in a court of law",
+      "to tell the truth",
+      "to refuse to speak",
+      "to swear an oath"
+    ],
+    "source": "BSEP English L.5 Words 150-185 Dr. Bullock"
+  },
+  {
+    "word": "petrify",
+    "answer": "to paralyze with astonishment or fear",
+    "definition": "To paralyze with astonishment, honor, or other strong emotion; Cause extreme fear.",
+    "options": [
+      "to paralyze with astonishment or fear",
+      "to comfort greatly",
+      "to encourage boldly",
+      "to calm completely"
+    ],
+    "source": "BSEP English L.5 Words 150-185 Dr. Bullock"
+  },
+  {
+    "word": "phenomenon",
+    "answer": "a remarkable person or thing",
+    "definition": "A remarkable person, thing, or event; Observable event.",
+    "options": [
+      "a remarkable person or thing",
+      "an ordinary occurrence",
+      "a common event",
+      "a regular activity"
+    ],
+    "source": "BSEP English L.5 Words 150-185 Dr. Bullock"
+  },
+  {
+    "word": "pliable",
+    "answer": "able to bend easily without breaking",
+    "definition": "Able to bend easily without breaking; Easily bent.",
+    "options": [
+      "able to bend easily without breaking",
+      "rigid and stiff",
+      "fragile and breakable",
+      "hard and solid"
+    ],
+    "source": "BSEP English L.5 Words 150-185 Dr. Bullock"
+  },
+  {
+    "word": "plummet",
+    "answer": "to fall quickly or abruptly",
+    "definition": "To fall quickly or abruptly; an abrupt drop.",
+    "options": [
+      "to fall quickly or abruptly",
+      "to rise gradually",
+      "to stay level",
+      "to increase slowly"
+    ],
+    "source": "BSEP English L.5 Words 150-185 Dr. Bullock"
+  },
+  {
+    "word": "polarize",
+    "answer": "to divide into two opposing groups",
+    "definition": "To divide into two opposing groups; Divide into groups.",
+    "options": [
+      "to divide into two opposing groups",
+      "to unite completely",
+      "to balance equally",
+      "to remain neutral"
+    ],
+    "source": "BSEP English L.5 Words 150-185 Dr. Bullock"
+  },
+  {
+    "word": "ponderous",
+    "answer": "causing restlessness or lack of interest",
+    "definition": "Causing restlessness or lack of interest; unwieldy or clumsy because of weight or size.",
+    "options": [
+      "causing restlessness or lack of interest",
+      "light and quick",
+      "stimulating and engaging",
+      "easy and simple"
+    ],
+    "source": "BSEP English L.5 Words 150-185 Dr. Bullock"
+  },
+  {
+    "word": "staunch",
+    "answer": "firm in one's allegiance",
+    "definition": "Firm in one's allegiance (adj); to stop or restrict the flow of something, particularly liquid like blood (v); Loyal.",
+    "options": [
+      "firm in one's allegiance",
+      "uncertain and wavering",
+      "disloyal and treacherous",
+      "doubtful and hesitant"
+    ],
+    "source": "BSEP English L.6 Words 186-224 Dr. Bullock"
+  },
+  {
+    "word": "suffice",
+    "answer": "to meet or satisfy a need",
+    "definition": "To meet or satisfy a need; be sufficient; to be enough.",
+    "options": [
+      "to meet or satisfy a need",
+      "to exceed limits",
+      "to fall short",
+      "to fail completely"
+    ],
+    "source": "BSEP English L.6 Words 186-224 Dr. Bullock"
+  },
+  {
+    "word": "suppress",
+    "answer": "to stop the activities of; to keep back",
+    "definition": "To stop the activities or progress of, especially by force; to keep back, as an emotion or urge; to keep from being published or disclosed; to put down by authority or force.",
+    "options": [
+      "to stop the activities of; to keep back",
+      "to promote openly",
+      "to encourage fully",
+      "to publicize widely"
+    ],
+    "source": "BSEP English L.6 Words 186-224 Dr. Bullock"
+  },
+  {
+    "word": "synonymous",
+    "answer": "resembling another in meaning",
+    "definition": "Resembling another in meaning; Same meaning.",
+    "options": [
+      "resembling another in meaning",
+      "having opposite meaning",
+      "being completely different",
+      "having no meaning"
+    ],
+    "source": "BSEP English L.6 Words 186-224 Dr. Bullock"
+  },
+  {
+    "word": "synthesize",
+    "answer": "to make by combining different things",
+    "definition": "To make by combining different things; Combine.",
+    "options": [
+      "to make by combining different things",
+      "to separate completely",
+      "to analyze thoroughly",
+      "to break apart"
+    ],
+    "source": "BSEP English L.6 Words 186-224 Dr. Bullock"
+  },
+  {
+    "word": "tactical",
+    "answer": "relating to actions carefully planned",
+    "definition": "Relating to or constituting actions carefully planned to gain a specific military end; of or relating to tactics; showing skill in tactics; Relating to strategy.",
+    "options": [
+      "relating to actions carefully planned",
+      "random and unplanned",
+      "accidental and unintended",
+      "hasty and careless"
+    ],
+    "source": "BSEP English L.6 Words 186-224 Dr. Bullock"
+  },
+  {
+    "word": "tantalizing",
+    "answer": "having a strong power to provoke interest",
+    "definition": "Having a strong power to provoke or hold interest; mockingly or teasingly out of reach; arousing desire or interest, but usually unavailable or beyond reach.; Tempting.",
+    "options": [
+      "having a strong power to provoke interest",
+      "boring and uninteresting",
+      "repulsive and offensive",
+      "dull and monotonous"
+    ],
+    "source": "BSEP English L.6 Words 186-224 Dr. Bullock"
+  },
+  {
+    "word": "tawdry",
+    "answer": "falsely showy; cheap and gaudy",
+    "definition": "Falsely showy; cheap and gaudy; marked by low quality and unbecoming appearance; Cheap/showy.",
+    "options": [
+      "falsely showy; cheap and gaudy",
+      "elegant and refined",
+      "quality and expensive",
+      "simple and modest"
+    ],
+    "source": "BSEP English L.6 Words 186-224 Dr. Bullock"
   }
 ]
