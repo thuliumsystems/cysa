@@ -3,3 +3,4 @@
 *.jpeg
 .claude
 .gitignore
+word-knowledge/words.txt
