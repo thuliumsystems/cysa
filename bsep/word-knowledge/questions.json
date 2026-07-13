@@ -364,6 +364,25 @@
     ]
   },
   {
+    "source": "Official Material",
+    "word": "bandied",
+    "answer": "tossed about",
+    "definition": "Discussed or exchanged casually and repeatedly, often in a careless manner.",
+    "options": [
+      "tossed about",
+      "kept secret",
+      "carefully studied",
+      "formally recorded",
+      "strictly forbidden"
+    ],
+    "synonyms": [
+      "exchanged casually",
+      "circulated",
+      "traded",
+      "swapped"
+    ]
+  },
+  {
     "word": "banish",
     "answer": "to force someone to leave",
     "definition": "To force someone to leave; to send someone away, or get rid of.",
@@ -561,6 +580,25 @@
       "clever",
       "astute",
       "wily"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "capacious",
+    "answer": "spacious",
+    "definition": "Able to contain a great deal; roomy.",
+    "options": [
+      "spacious",
+      "cramped",
+      "narrow",
+      "tiny",
+      "confined"
+    ],
+    "synonyms": [
+      "roomy",
+      "expansive",
+      "voluminous",
+      "ample"
     ]
   },
   {
@@ -1071,6 +1109,25 @@
     ]
   },
   {
+    "source": "Official Material",
+    "word": "devise",
+    "answer": "invent",
+    "definition": "To form or create something in the mind through new combinations of ideas.",
+    "options": [
+      "invent",
+      "destroy",
+      "copy",
+      "abandon",
+      "ignore"
+    ],
+    "synonyms": [
+      "create",
+      "concoct",
+      "formulate",
+      "design"
+    ]
+  },
+  {
     "word": "diminish",
     "answer": "to make smaller or less",
     "definition": "To make smaller or less; to cause to appear smaller in size or importance; to make or to seem smaller or less important.",
@@ -1122,6 +1179,25 @@
       "difference",
       "discrepancy",
       "gap"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "divisive",
+    "answer": "polarizing",
+    "definition": "Causing disagreement or hostility between people.",
+    "options": [
+      "polarizing",
+      "unifying",
+      "harmonious",
+      "agreeable",
+      "cooperative"
+    ],
+    "synonyms": [
+      "controversial",
+      "contentious",
+      "disruptive",
+      "factional"
     ]
   },
   {
@@ -1329,6 +1405,44 @@
   },
   {
     "source": "Official Material",
+    "word": "enclosure",
+    "answer": "fenced area",
+    "definition": "Something that encloses, such as a fence, wall, or something inserted inside an envelope.",
+    "options": [
+      "fenced area",
+      "open field",
+      "tall building",
+      "narrow path",
+      "wooden bridge"
+    ],
+    "synonyms": [
+      "pen",
+      "compound",
+      "barrier",
+      "confinement"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "engulf",
+    "answer": "overwhelm",
+    "definition": "To flow over and completely surround or enclose something.",
+    "options": [
+      "overwhelm",
+      "release",
+      "uncover",
+      "drain",
+      "expose"
+    ],
+    "synonyms": [
+      "submerge",
+      "envelop",
+      "swallow up",
+      "inundate"
+    ]
+  },
+  {
+    "source": "Official Material",
     "word": "ensconce",
     "answer": "hide comfortably",
     "definition": "To settle or hide in a comfortable, safe place.",
@@ -1344,6 +1458,25 @@
       "install",
       "nestle",
       "establish"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "erratic",
+    "answer": "unpredictable",
+    "definition": "Deviating from what is normal, expected, or proper in course or conduct.",
+    "options": [
+      "unpredictable",
+      "consistent",
+      "punctual",
+      "deliberate",
+      "orderly"
+    ],
+    "synonyms": [
+      "inconsistent",
+      "unstable",
+      "irregular",
+      "variable"
     ]
   },
   {
@@ -1367,6 +1500,253 @@
   },
   {
     "source": "Official Material",
+    "word": "ethics",
+    "answer": "moral code",
+    "definition": "A code of good conduct or moral principles governing behavior.",
+    "options": [
+      "moral code",
+      "legal code",
+      "social rank",
+      "family line",
+      "trade skill"
+    ],
+    "synonyms": [
+      "morals",
+      "principles",
+      "values",
+      "conduct"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "excel",
+    "answer": "surpass",
+    "definition": "To be greater, better, or stronger than others.",
+    "options": [
+      "surpass",
+      "imitate",
+      "resemble",
+      "obey",
+      "assist"
+    ],
+    "synonyms": [
+      "outdo",
+      "exceed",
+      "outshine",
+      "shine"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "exploit",
+    "answer": "take advantage of",
+    "definition": "To take unfair advantage of someone or something for one's own benefit.",
+    "options": [
+      "take advantage of",
+      "offer generously",
+      "show respect for",
+      "seek approval from",
+      "grant freedom to"
+    ],
+    "synonyms": [
+      "manipulate",
+      "utilize",
+      "capitalize on",
+      "leverage"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "facetious",
+    "answer": "flippant",
+    "definition": "Treating serious matters with deliberately inappropriate humor; not serious.",
+    "options": [
+      "flippant",
+      "solemn",
+      "serious",
+      "earnest",
+      "grave"
+    ],
+    "synonyms": [
+      "jocular",
+      "playful",
+      "glib",
+      "tongue-in-cheek"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "faction",
+    "answer": "splinter group",
+    "definition": "A group of people acting together within a larger group, often in opposition to it.",
+    "options": [
+      "splinter group",
+      "entire nation",
+      "single family",
+      "ruling monarch",
+      "trade union"
+    ],
+    "synonyms": [
+      "clique",
+      "bloc",
+      "coalition",
+      "camp"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "fame",
+    "answer": "renown",
+    "definition": "The state of being known widely and favorably; popular acclaim.",
+    "options": [
+      "renown",
+      "disgrace",
+      "poverty",
+      "solitude",
+      "modesty"
+    ],
+    "synonyms": [
+      "celebrity",
+      "prominence",
+      "notoriety",
+      "acclaim"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "fate",
+    "answer": "destiny",
+    "definition": "The determining cause by which things happen, or the ultimate outcome of events.",
+    "options": [
+      "destiny",
+      "coincidence",
+      "decision",
+      "memory",
+      "opinion"
+    ],
+    "synonyms": [
+      "fortune",
+      "doom",
+      "lot",
+      "destination"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "favor",
+    "answer": "prefer",
+    "definition": "To prefer one thing over another, or to do a kind service for someone.",
+    "options": [
+      "prefer",
+      "reject",
+      "ignore",
+      "punish",
+      "delay"
+    ],
+    "synonyms": [
+      "support",
+      "endorse",
+      "champion",
+      "advocate for"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "fecund",
+    "answer": "fertile",
+    "definition": "Producing abundantly; highly fertile.",
+    "options": [
+      "fertile",
+      "barren",
+      "toxic",
+      "fragile",
+      "ancient"
+    ],
+    "synonyms": [
+      "prolific",
+      "fruitful",
+      "productive",
+      "abundant"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "feign",
+    "answer": "pretend",
+    "definition": "To give a false appearance of something.",
+    "options": [
+      "pretend",
+      "confess",
+      "reveal",
+      "prove",
+      "admit"
+    ],
+    "synonyms": [
+      "fake",
+      "simulate",
+      "affect",
+      "counterfeit"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "fervor",
+    "answer": "passion",
+    "definition": "Great intensity of feeling or expression.",
+    "options": [
+      "passion",
+      "boredom",
+      "silence",
+      "doubt",
+      "calmness"
+    ],
+    "synonyms": [
+      "zeal",
+      "ardor",
+      "intensity",
+      "enthusiasm"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "fiction",
+    "answer": "invented story",
+    "definition": "Something that is invented or imagined rather than true.",
+    "options": [
+      "invented story",
+      "true account",
+      "legal record",
+      "scientific law",
+      "personal diary"
+    ],
+    "synonyms": [
+      "fabrication",
+      "fantasy",
+      "narrative",
+      "tale"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "flagrant",
+    "answer": "blatant",
+    "definition": "Obviously inconsistent with what is right or proper; glaringly bad.",
+    "options": [
+      "blatant",
+      "subtle",
+      "minor",
+      "accidental",
+      "hidden"
+    ],
+    "synonyms": [
+      "glaring",
+      "outrageous",
+      "conspicuous",
+      "shameless"
+    ]
+  },
+  {
+    "source": "Official Material",
     "word": "fortuitous",
     "answer": "accidental and fortunate",
     "definition": "Happening by chance in a lucky way.",
@@ -1382,6 +1762,82 @@
       "fortunate",
       "serendipitous",
       "providential"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "foster",
+    "answer": "nurture",
+    "definition": "To help the growth or development of something.",
+    "options": [
+      "nurture",
+      "neglect",
+      "destroy",
+      "ignore",
+      "postpone"
+    ],
+    "synonyms": [
+      "cultivate",
+      "encourage",
+      "promote",
+      "support"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "fraction",
+    "answer": "small part",
+    "definition": "A small, incomplete part of something.",
+    "options": [
+      "small part",
+      "whole amount",
+      "entire set",
+      "final result",
+      "exact copy"
+    ],
+    "synonyms": [
+      "portion",
+      "segment",
+      "fragment",
+      "share"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "fragility",
+    "answer": "delicacy",
+    "definition": "The quality of having a delicate structure that is easily damaged.",
+    "options": [
+      "delicacy",
+      "strength",
+      "durability",
+      "flexibility",
+      "solidity"
+    ],
+    "synonyms": [
+      "frailty",
+      "brittleness",
+      "weakness",
+      "vulnerability"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "frolic",
+    "answer": "play merrily",
+    "definition": "To play and run about happily; a time of carefree fun.",
+    "options": [
+      "play merrily",
+      "work steadily",
+      "sleep deeply",
+      "argue loudly",
+      "wait patiently"
+    ],
+    "synonyms": [
+      "romp",
+      "gambol",
+      "cavort",
+      "frisk"
     ]
   },
   {
@@ -1405,6 +1861,101 @@
   },
   {
     "source": "Official Material",
+    "word": "gawk",
+    "answer": "stare dumbly",
+    "definition": "To gape or stare stupidly at something.",
+    "options": [
+      "stare dumbly",
+      "glance briefly",
+      "wink slyly",
+      "blink rapidly",
+      "look away"
+    ],
+    "synonyms": [
+      "gape",
+      "ogle",
+      "goggle",
+      "gaze foolishly"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "gaze",
+    "answer": "stare intently",
+    "definition": "To look long and steadily, often in wonder or surprise.",
+    "options": [
+      "stare intently",
+      "glance quickly",
+      "look away",
+      "blink nervously",
+      "peek briefly"
+    ],
+    "synonyms": [
+      "gape",
+      "regard",
+      "contemplate",
+      "behold"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "glean",
+    "answer": "gather slowly",
+    "definition": "To collect information or material gradually, bit by bit.",
+    "options": [
+      "gather slowly",
+      "discard quickly",
+      "destroy fully",
+      "hide completely",
+      "spend freely"
+    ],
+    "synonyms": [
+      "collect",
+      "extract",
+      "gather",
+      "harvest"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "green",
+    "answer": "inexperienced",
+    "definition": "Lacking adult experience or maturity.",
+    "options": [
+      "inexperienced",
+      "seasoned",
+      "elderly",
+      "skilled",
+      "wealthy"
+    ],
+    "synonyms": [
+      "naive",
+      "immature",
+      "unseasoned",
+      "raw"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "halt",
+    "answer": "stop",
+    "definition": "To bring to a standstill; to stop.",
+    "options": [
+      "stop",
+      "start",
+      "speed up",
+      "continue",
+      "resume"
+    ],
+    "synonyms": [
+      "cease",
+      "pause",
+      "arrest",
+      "discontinue"
+    ]
+  },
+  {
+    "source": "Official Material",
     "word": "hankering",
     "answer": "desire",
     "definition": "A strong, persistent longing or desire.",
@@ -1420,6 +1971,82 @@
       "longing",
       "yearning",
       "desire"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "hesitant",
+    "answer": "uncertain",
+    "definition": "Slow to act or proceed because of doubt.",
+    "options": [
+      "uncertain",
+      "confident",
+      "eager",
+      "decisive",
+      "bold"
+    ],
+    "synonyms": [
+      "reluctant",
+      "wavering",
+      "unsure",
+      "tentative"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "hiatus",
+    "answer": "pause",
+    "definition": "A break or gap in continuity.",
+    "options": [
+      "pause",
+      "conclusion",
+      "beginning",
+      "climax",
+      "repetition"
+    ],
+    "synonyms": [
+      "gap",
+      "interruption",
+      "interval",
+      "recess"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "hindrance",
+    "answer": "obstacle",
+    "definition": "Something that makes progress difficult.",
+    "options": [
+      "obstacle",
+      "advantage",
+      "solution",
+      "reward",
+      "shortcut"
+    ],
+    "synonyms": [
+      "impediment",
+      "obstruction",
+      "barrier",
+      "handicap"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "horrendous",
+    "answer": "dreadful",
+    "definition": "Extremely disturbing, shocking, or repellent.",
+    "options": [
+      "dreadful",
+      "pleasant",
+      "ordinary",
+      "charming",
+      "mild"
+    ],
+    "synonyms": [
+      "horrific",
+      "appalling",
+      "ghastly",
+      "atrocious"
     ]
   },
   {
@@ -1443,6 +2070,44 @@
   },
   {
     "source": "Official Material",
+    "word": "illusion",
+    "answer": "false belief",
+    "definition": "A false idea or conception; something that deceives the senses or mind.",
+    "options": [
+      "false belief",
+      "true fact",
+      "clear proof",
+      "wise choice",
+      "firm rule"
+    ],
+    "synonyms": [
+      "delusion",
+      "misconception",
+      "fantasy",
+      "mirage"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "impediment",
+    "answer": "obstruction",
+    "definition": "Something that makes movement or progress difficult.",
+    "options": [
+      "obstruction",
+      "assistance",
+      "permission",
+      "invitation",
+      "reward"
+    ],
+    "synonyms": [
+      "hindrance",
+      "barrier",
+      "obstacle",
+      "handicap"
+    ]
+  },
+  {
+    "source": "Official Material",
     "word": "impetuous",
     "answer": "rash",
     "definition": "Acting quickly without thought or care.",
@@ -1458,6 +2123,25 @@
       "rash",
       "hasty",
       "reckless"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "impromptu",
+    "answer": "unplanned",
+    "definition": "Made or done without previous thought or preparation.",
+    "options": [
+      "unplanned",
+      "rehearsed",
+      "scheduled",
+      "delayed",
+      "formal"
+    ],
+    "synonyms": [
+      "spontaneous",
+      "improvised",
+      "extemporaneous",
+      "unrehearsed"
     ]
   },
   {
@@ -1607,6 +2291,120 @@
   },
   {
     "source": "Official Material",
+    "word": "invigorate",
+    "answer": "energize",
+    "definition": "To give life, vigor, or spirit to something.",
+    "options": [
+      "energize",
+      "exhaust",
+      "weaken",
+      "sadden",
+      "bore"
+    ],
+    "synonyms": [
+      "revitalize",
+      "stimulate",
+      "refresh",
+      "animate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "jest",
+    "answer": "joke",
+    "definition": "Something said or done to cause laughter; to joke.",
+    "options": [
+      "joke",
+      "insult",
+      "warning",
+      "apology",
+      "complaint"
+    ],
+    "synonyms": [
+      "quip",
+      "wisecrack",
+      "gag",
+      "banter"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "kink",
+    "answer": "twist",
+    "definition": "A twist or bend in something.",
+    "options": [
+      "twist",
+      "straight line",
+      "flat surface",
+      "sharp edge",
+      "smooth curve"
+    ],
+    "synonyms": [
+      "bend",
+      "coil",
+      "curl",
+      "knot"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "laden",
+    "answer": "loaded",
+    "definition": "Having a heavy weight or burden placed on.",
+    "options": [
+      "loaded",
+      "empty",
+      "light",
+      "clean",
+      "open"
+    ],
+    "synonyms": [
+      "burdened",
+      "weighed down",
+      "freighted",
+      "encumbered"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "lambaste",
+    "answer": "harshly scold",
+    "definition": "To criticize someone severely or angrily.",
+    "options": [
+      "harshly scold",
+      "gently praise",
+      "quietly ignore",
+      "calmly advise",
+      "warmly thank"
+    ],
+    "synonyms": [
+      "berate",
+      "castigate",
+      "reprimand",
+      "excoriate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "latent",
+    "answer": "hidden",
+    "definition": "Present but not yet visible, developed, or active.",
+    "options": [
+      "hidden",
+      "obvious",
+      "active",
+      "expired",
+      "public"
+    ],
+    "synonyms": [
+      "dormant",
+      "concealed",
+      "potential",
+      "underlying"
+    ]
+  },
+  {
+    "source": "Official Material",
     "word": "lewd",
     "answer": "crude",
     "definition": "Crude and offensive in a sexual way.",
@@ -1622,6 +2420,120 @@
       "vulgar",
       "indecent",
       "obscene"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "loathe",
+    "answer": "detest",
+    "definition": "To dislike someone or something intensely.",
+    "options": [
+      "detest",
+      "adore",
+      "admire",
+      "trust",
+      "welcome"
+    ],
+    "synonyms": [
+      "despise",
+      "abhor",
+      "hate",
+      "abominate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "luster",
+    "answer": "shine",
+    "definition": "Brightness created by the reflection of light.",
+    "options": [
+      "shine",
+      "dullness",
+      "darkness",
+      "shadow",
+      "haze"
+    ],
+    "synonyms": [
+      "gloss",
+      "sheen",
+      "sparkle",
+      "radiance"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "makeshift",
+    "answer": "temporary",
+    "definition": "Serving as a temporary substitute.",
+    "options": [
+      "temporary",
+      "permanent",
+      "original",
+      "official",
+      "expensive"
+    ],
+    "synonyms": [
+      "improvised",
+      "stopgap",
+      "provisional",
+      "expedient"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "mammoth",
+    "answer": "huge",
+    "definition": "Unusually large in size.",
+    "options": [
+      "huge",
+      "tiny",
+      "average",
+      "narrow",
+      "shallow"
+    ],
+    "synonyms": [
+      "gigantic",
+      "immense",
+      "colossal",
+      "enormous"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "maroon",
+    "answer": "strand",
+    "definition": "To leave someone behind in an isolated place with no way to leave.",
+    "options": [
+      "strand",
+      "rescue",
+      "accompany",
+      "welcome",
+      "invite"
+    ],
+    "synonyms": [
+      "abandon",
+      "isolate",
+      "desert",
+      "cast away"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "materialize",
+    "answer": "appear",
+    "definition": "To come into existence or physical form; to appear.",
+    "options": [
+      "appear",
+      "vanish",
+      "decline",
+      "shrink",
+      "pause"
+    ],
+    "synonyms": [
+      "emerge",
+      "manifest",
+      "form",
+      "arise"
     ]
   },
   {
@@ -1645,6 +2557,44 @@
   },
   {
     "source": "Official Material",
+    "word": "modicum",
+    "answer": "small amount",
+    "definition": "The smallest possible amount or part of something.",
+    "options": [
+      "small amount",
+      "large quantity",
+      "entire supply",
+      "constant flow",
+      "fixed rate"
+    ],
+    "synonyms": [
+      "bit",
+      "trace",
+      "fraction",
+      "morsel"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "mope",
+    "answer": "sulk",
+    "definition": "To go about in a silent, gloomy, and dispirited mood.",
+    "options": [
+      "sulk",
+      "celebrate",
+      "laugh",
+      "dance",
+      "cheer"
+    ],
+    "synonyms": [
+      "brood",
+      "pout",
+      "wallow",
+      "languish"
+    ]
+  },
+  {
+    "source": "Official Material",
     "word": "moratorium",
     "answer": "delay or suspension",
     "definition": "A temporary suspension of activity.",
@@ -1660,6 +2610,291 @@
       "halt",
       "freeze",
       "postponement"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "nebulous",
+    "answer": "vague",
+    "definition": "Not clearly seen, defined, or understood; vague.",
+    "options": [
+      "vague",
+      "precise",
+      "obvious",
+      "definite",
+      "exact"
+    ],
+    "synonyms": [
+      "hazy",
+      "unclear",
+      "indistinct",
+      "murky"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "negligent",
+    "answer": "careless",
+    "definition": "Failing to give enough care or attention to something.",
+    "options": [
+      "careless",
+      "diligent",
+      "attentive",
+      "thorough",
+      "cautious"
+    ],
+    "synonyms": [
+      "neglectful",
+      "remiss",
+      "lax",
+      "inattentive"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "neophyte",
+    "answer": "beginner",
+    "definition": "A person who is just starting out in a field or activity.",
+    "options": [
+      "beginner",
+      "expert",
+      "veteran",
+      "leader",
+      "retiree"
+    ],
+    "synonyms": [
+      "novice",
+      "newcomer",
+      "rookie",
+      "trainee"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "nepotism",
+    "answer": "favoritism",
+    "definition": "The unfair use of power to give jobs or benefits to family or friends.",
+    "options": [
+      "favoritism",
+      "fairness",
+      "punishment",
+      "generosity",
+      "neutrality"
+    ],
+    "synonyms": [
+      "cronyism",
+      "bias",
+      "partiality",
+      "preferential treatment"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "nullify",
+    "answer": "cancel",
+    "definition": "To put an end to something by formal or official action.",
+    "options": [
+      "cancel",
+      "confirm",
+      "renew",
+      "extend",
+      "approve"
+    ],
+    "synonyms": [
+      "invalidate",
+      "void",
+      "annul",
+      "negate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "obstinate",
+    "answer": "stubborn",
+    "definition": "Stubbornly sticking to an opinion or course of action despite reason or persuasion.",
+    "options": [
+      "stubborn",
+      "flexible",
+      "agreeable",
+      "obedient",
+      "cooperative"
+    ],
+    "synonyms": [
+      "headstrong",
+      "inflexible",
+      "unyielding",
+      "willful"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "obtrude",
+    "answer": "intrude",
+    "definition": "To interest oneself in matters that are not one's concern; to intrude.",
+    "options": [
+      "intrude",
+      "withdraw",
+      "assist",
+      "retreat",
+      "comply"
+    ],
+    "synonyms": [
+      "interfere",
+      "meddle",
+      "impose",
+      "encroach"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "obvious",
+    "answer": "clear",
+    "definition": "Easily seen or understood; not open to misinterpretation.",
+    "options": [
+      "clear",
+      "confusing",
+      "hidden",
+      "uncertain",
+      "vague"
+    ],
+    "synonyms": [
+      "evident",
+      "apparent",
+      "plain",
+      "manifest"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "omen",
+    "answer": "sign",
+    "definition": "A thing or event believed to foretell a future happening, good or bad.",
+    "options": [
+      "sign",
+      "memory",
+      "excuse",
+      "habit",
+      "custom"
+    ],
+    "synonyms": [
+      "portent",
+      "warning",
+      "harbinger",
+      "premonition"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "omission",
+    "answer": "exclusion",
+    "definition": "Something that has been left out or excluded.",
+    "options": [
+      "exclusion",
+      "inclusion",
+      "addition",
+      "correction",
+      "repetition"
+    ],
+    "synonyms": [
+      "oversight",
+      "gap",
+      "exception",
+      "lapse"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "ouster",
+    "answer": "removal",
+    "definition": "The act of removing someone from an important position or job.",
+    "options": [
+      "removal",
+      "promotion",
+      "election",
+      "hiring",
+      "reward"
+    ],
+    "synonyms": [
+      "expulsion",
+      "dismissal",
+      "overthrow",
+      "eviction"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "overture",
+    "answer": "opening act",
+    "definition": "A performance or event that precedes and introduces a main event.",
+    "options": [
+      "opening act",
+      "final scene",
+      "main event",
+      "closing speech",
+      "grand finale"
+    ],
+    "synonyms": [
+      "prelude",
+      "introduction",
+      "preamble",
+      "lead-in"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "paltry",
+    "answer": "meager",
+    "definition": "Small or meager in amount; of little value or importance.",
+    "options": [
+      "meager",
+      "abundant",
+      "generous",
+      "substantial",
+      "plentiful"
+    ],
+    "synonyms": [
+      "trivial",
+      "insignificant",
+      "measly",
+      "scanty"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "perceptive",
+    "answer": "insightful",
+    "definition": "Able to notice and understand things that many people do not.",
+    "options": [
+      "insightful",
+      "oblivious",
+      "careless",
+      "forgetful",
+      "confused"
+    ],
+    "synonyms": [
+      "observant",
+      "discerning",
+      "astute",
+      "perspicacious"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "perforate",
+    "answer": "pierce",
+    "definition": "To make a hole or series of holes in something.",
+    "options": [
+      "pierce",
+      "seal",
+      "smooth",
+      "polish",
+      "cover"
+    ],
+    "synonyms": [
+      "puncture",
+      "penetrate",
+      "bore",
+      "drill"
     ]
   },
   {
@@ -1807,6 +3042,595 @@
     ]
   },
   {
+    "source": "Official Material",
+    "word": "predisposed",
+    "answer": "inclined",
+    "definition": "More likely to act, think, or feel in a particular way.",
+    "options": [
+      "inclined",
+      "opposed",
+      "forbidden",
+      "prevented",
+      "unwilling"
+    ],
+    "synonyms": [
+      "prone",
+      "susceptible",
+      "disposed",
+      "liable"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "prestige",
+    "answer": "high status",
+    "definition": "The power to impress or command respect because of success, rank, or wealth.",
+    "options": [
+      "high status",
+      "low rank",
+      "quiet life",
+      "poor health",
+      "small size"
+    ],
+    "synonyms": [
+      "reputation",
+      "esteem",
+      "standing",
+      "distinction"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "prioritize",
+    "answer": "rank by importance",
+    "definition": "To arrange or deal with items in order of their importance.",
+    "options": [
+      "rank by importance",
+      "ignore completely",
+      "delay indefinitely",
+      "combine randomly",
+      "repeat often"
+    ],
+    "synonyms": [
+      "rank",
+      "order",
+      "categorize",
+      "arrange"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "prosaic",
+    "answer": "ordinary",
+    "definition": "Ordinary and unremarkable; encountered in the normal course of events.",
+    "options": [
+      "ordinary",
+      "extraordinary",
+      "magical",
+      "rare",
+      "thrilling"
+    ],
+    "synonyms": [
+      "mundane",
+      "commonplace",
+      "dull",
+      "unremarkable"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "proverbial",
+    "answer": "well-known",
+    "definition": "Widely known and referred to, as in a proverb; expressing an acknowledged truth.",
+    "options": [
+      "well-known",
+      "obscure",
+      "secret",
+      "invented",
+      "forbidden"
+    ],
+    "synonyms": [
+      "famous",
+      "traditional",
+      "customary",
+      "legendary"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "pulsate",
+    "answer": "throb",
+    "definition": "To expand and contract rhythmically; to throb.",
+    "options": [
+      "throb",
+      "freeze",
+      "stiffen",
+      "vanish",
+      "flatten"
+    ],
+    "synonyms": [
+      "pulse",
+      "beat",
+      "vibrate",
+      "palpitate"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "purblind",
+    "answer": "obtuse",
+    "definition": "Lacking in vision, insight, or understanding.",
+    "options": [
+      "obtuse",
+      "sharp-eyed",
+      "perceptive",
+      "insightful",
+      "wise"
+    ],
+    "synonyms": [
+      "dim-witted",
+      "unperceptive",
+      "shortsighted",
+      "dull"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "quarry",
+    "answer": "prey",
+    "definition": "An animal or person that is being hunted or pursued.",
+    "options": [
+      "prey",
+      "predator",
+      "shelter",
+      "trap",
+      "guard"
+    ],
+    "synonyms": [
+      "game",
+      "target",
+      "victim",
+      "objective"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "quiescence",
+    "answer": "stillness",
+    "definition": "A state of temporary quiet or inactivity.",
+    "options": [
+      "stillness",
+      "chaos",
+      "motion",
+      "noise",
+      "urgency"
+    ],
+    "synonyms": [
+      "dormancy",
+      "calm",
+      "repose",
+      "inactivity"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "rambunctious",
+    "answer": "boisterous",
+    "definition": "Rough, noisy, and high-spirited in behavior.",
+    "options": [
+      "boisterous",
+      "calm",
+      "quiet",
+      "shy",
+      "gentle"
+    ],
+    "synonyms": [
+      "unruly",
+      "rowdy",
+      "exuberant",
+      "wild"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "rampart",
+    "answer": "defensive wall",
+    "definition": "A defensive wall or fortification built around a city or castle for protection.",
+    "options": [
+      "defensive wall",
+      "open gate",
+      "narrow bridge",
+      "small window",
+      "wooden fence"
+    ],
+    "synonyms": [
+      "bulwark",
+      "barricade",
+      "stronghold",
+      "fortification"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "rash",
+    "answer": "reckless",
+    "definition": "Acting or done with excessive haste and without proper consideration.",
+    "options": [
+      "reckless",
+      "cautious",
+      "careful",
+      "deliberate",
+      "prudent"
+    ],
+    "synonyms": [
+      "hasty",
+      "impulsive",
+      "impetuous",
+      "foolhardy"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "rebuke",
+    "answer": "criticize sharply",
+    "definition": "To criticize someone sharply in order to correct a fault; a formal expression of disapproval.",
+    "options": [
+      "criticize sharply",
+      "praise warmly",
+      "reward generously",
+      "invite kindly",
+      "excuse quietly"
+    ],
+    "synonyms": [
+      "reprimand",
+      "admonish",
+      "chastise",
+      "censure"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "reprimand",
+    "answer": "scold",
+    "definition": "To criticize someone severely for a fault, often in a formal or official way.",
+    "options": [
+      "scold",
+      "praise",
+      "reward",
+      "ignore",
+      "excuse"
+    ],
+    "synonyms": [
+      "rebuke",
+      "admonish",
+      "chastise",
+      "censure"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "restitution",
+    "answer": "repayment",
+    "definition": "Payment made to compensate for loss or injury.",
+    "options": [
+      "repayment",
+      "punishment",
+      "forgiveness",
+      "delay",
+      "denial"
+    ],
+    "synonyms": [
+      "compensation",
+      "reimbursement",
+      "restoration",
+      "amends"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "retract",
+    "answer": "take back",
+    "definition": "To formally withdraw or go back on a statement or offer.",
+    "options": [
+      "take back",
+      "confirm again",
+      "announce loudly",
+      "expand upon",
+      "carry out"
+    ],
+    "synonyms": [
+      "withdraw",
+      "recant",
+      "revoke",
+      "rescind"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "ritualistic",
+    "answer": "ceremonial",
+    "definition": "Performed in an invariable, formal manner characteristic of a ritual.",
+    "options": [
+      "ceremonial",
+      "spontaneous",
+      "random",
+      "casual",
+      "improvised"
+    ],
+    "synonyms": [
+      "formulaic",
+      "customary",
+      "habitual",
+      "liturgical"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "sanction",
+    "answer": "authorize",
+    "definition": "To give official approval or authorization for an action.",
+    "options": [
+      "authorize",
+      "forbid",
+      "ignore",
+      "delay",
+      "revoke"
+    ],
+    "synonyms": [
+      "approve",
+      "endorse",
+      "permit",
+      "ratify"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "savor",
+    "answer": "relish",
+    "definition": "To take great pleasure in something, especially by lingering over it.",
+    "options": [
+      "relish",
+      "reject",
+      "ignore",
+      "waste",
+      "dread"
+    ],
+    "synonyms": [
+      "enjoy",
+      "appreciate",
+      "delight in",
+      "taste"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "schism",
+    "answer": "split",
+    "definition": "A division between opposing groups caused by differences in opinion or belief.",
+    "options": [
+      "split",
+      "union",
+      "agreement",
+      "merger",
+      "alliance"
+    ],
+    "synonyms": [
+      "rift",
+      "division",
+      "breach",
+      "rupture"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "scornful",
+    "answer": "contemptuous",
+    "definition": "Filled with contempt or disdain.",
+    "options": [
+      "contemptuous",
+      "respectful",
+      "admiring",
+      "grateful",
+      "friendly"
+    ],
+    "synonyms": [
+      "disdainful",
+      "derisive",
+      "mocking",
+      "sneering"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "screech",
+    "answer": "shriek",
+    "definition": "To cry out in a loud, harsh, piercing voice.",
+    "options": [
+      "shriek",
+      "whisper",
+      "murmur",
+      "hum",
+      "sigh"
+    ],
+    "synonyms": [
+      "squeal",
+      "screak",
+      "yell",
+      "squawk"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "sequester",
+    "answer": "isolate",
+    "definition": "To keep apart from others, or to seize and hold in custody.",
+    "options": [
+      "isolate",
+      "unite",
+      "release",
+      "publicize",
+      "welcome"
+    ],
+    "synonyms": [
+      "seclude",
+      "separate",
+      "confiscate",
+      "quarantine"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "sever",
+    "answer": "cut off",
+    "definition": "To break or separate something, especially by cutting.",
+    "options": [
+      "cut off",
+      "join together",
+      "repair",
+      "strengthen",
+      "attach"
+    ],
+    "synonyms": [
+      "detach",
+      "sunder",
+      "divide",
+      "split"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "sham",
+    "answer": "fake",
+    "definition": "Something that is not genuine; a fake or fraud.",
+    "options": [
+      "fake",
+      "genuine",
+      "official",
+      "proven",
+      "authentic"
+    ],
+    "synonyms": [
+      "counterfeit",
+      "phony",
+      "hoax",
+      "fraud"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "shun",
+    "answer": "avoid",
+    "definition": "To persistently avoid, ignore, or reject someone or something.",
+    "options": [
+      "avoid",
+      "welcome",
+      "embrace",
+      "invite",
+      "greet"
+    ],
+    "synonyms": [
+      "ostracize",
+      "spurn",
+      "evade",
+      "eschew"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "skepticism",
+    "answer": "doubt",
+    "definition": "An attitude of doubt about the truth of something.",
+    "options": [
+      "doubt",
+      "certainty",
+      "trust",
+      "faith",
+      "belief"
+    ],
+    "synonyms": [
+      "distrust",
+      "incredulity",
+      "cynicism",
+      "suspicion"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "snarl",
+    "answer": "growl angrily",
+    "definition": "To speak or growl in a sharp, angry manner.",
+    "options": [
+      "growl angrily",
+      "smile warmly",
+      "laugh softly",
+      "sing sweetly",
+      "whisper kindly"
+    ],
+    "synonyms": [
+      "snap",
+      "growl",
+      "gnarl",
+      "grumble"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "soluble",
+    "answer": "dissolvable",
+    "definition": "Capable of being dissolved in a liquid, or capable of being solved.",
+    "options": [
+      "dissolvable",
+      "insoluble",
+      "solid",
+      "permanent",
+      "unbreakable"
+    ],
+    "synonyms": [
+      "solvable",
+      "resolvable",
+      "meltable",
+      "liquefiable"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "spawn",
+    "answer": "give rise to",
+    "definition": "To bring something into being; to be the cause of.",
+    "options": [
+      "give rise to",
+      "put an end to",
+      "keep hidden from",
+      "take away from",
+      "hold back from"
+    ],
+    "synonyms": [
+      "generate",
+      "produce",
+      "engender",
+      "beget"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "stalwart",
+    "answer": "sturdy",
+    "definition": "Marked by outstanding strength and vigor of body, mind, or spirit.",
+    "options": [
+      "sturdy",
+      "feeble",
+      "timid",
+      "fragile",
+      "weak"
+    ],
+    "synonyms": [
+      "robust",
+      "steadfast",
+      "resolute",
+      "staunch"
+    ]
+  },
+  {
     "word": "staunch",
     "answer": "firm in one's allegiance",
     "definition": "Firm in one's allegiance (adj); to stop or restrict the flow of something, particularly liquid like blood (v); Loyal.",
@@ -1822,6 +3646,25 @@
       "steadfast",
       "faithful",
       "devoted"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "stress",
+    "answer": "strain",
+    "definition": "A state of mental or emotional strain caused by demanding circumstances.",
+    "options": [
+      "strain",
+      "relief",
+      "comfort",
+      "relaxation",
+      "ease"
+    ],
+    "synonyms": [
+      "pressure",
+      "tension",
+      "emphasis",
+      "burden"
     ]
   },
   {
@@ -1951,3632 +3794,326 @@
     ]
   },
   {
-    "word": "abandon",
-    "answer": "to leave completely",
-    "definition": "To give up completely or desert something or someone.",
+    "source": "Official Material",
+    "word": "tawny",
+    "answer": "yellowish-brown",
+    "definition": "Of a yellowish-brown color.",
     "options": [
-      "to leave completely",
-      "to build carefully",
-      "to repair",
-      "to combine"
+      "yellowish-brown",
+      "bright blue",
+      "deep purple",
+      "pale white",
+      "jet black"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "desert",
-      "forsake",
-      "relinquish",
-      "give up"
+      "tan",
+      "amber",
+      "russet",
+      "fawn"
     ]
   },
   {
-    "word": "abolish",
-    "answer": "to officially end",
-    "definition": "To formally put an end to a system or practice.",
+    "source": "Official Material",
+    "word": "terse",
+    "answer": "concise",
+    "definition": "Brief and to the point, sometimes to the point of rudeness.",
     "options": [
-      "to officially end",
-      "to create",
-      "to support",
-      "to delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "eliminate",
-      "abrogate",
-      "repeal",
-      "revoke"
-    ]
-  },
-  {
-    "word": "accelerate",
-    "answer": "to speed up",
-    "definition": "To increase speed or rate.",
-    "options": [
-      "to speed up",
-      "to slow down",
-      "to stop",
-      "to delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "speed up",
-      "hasten",
-      "quicken",
-      "expedite"
-    ]
-  },
-  {
-    "word": "accumulate",
-    "answer": "to gather over time",
-    "definition": "To build up gradually.",
-    "options": [
-      "to gather over time",
-      "to lose",
-      "to destroy",
-      "to reduce"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "amass",
-      "gather",
-      "collect",
-      "build up"
-    ]
-  },
-  {
-    "word": "accurate",
-    "answer": "exact",
-    "definition": "Free from errors; precise.",
-    "options": [
-      "exact",
-      "wrong",
-      "unclear",
-      "approximate"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "precise",
-      "exact",
-      "correct",
-      "error-free"
-    ]
-  },
-  {
-    "word": "acknowledge",
-    "answer": "to recognize",
-    "definition": "To accept or admit the truth of something.",
-    "options": [
-      "to recognize",
-      "to ignore",
-      "to hide",
-      "to deny"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "admit",
-      "recognize",
-      "accept",
-      "concede"
-    ]
-  },
-  {
-    "word": "acquire",
-    "answer": "to obtain",
-    "definition": "To gain possession of something.",
-    "options": [
-      "to obtain",
-      "to lose",
-      "to hide",
-      "to break"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "obtain",
-      "gain",
-      "procure",
-      "secure"
-    ]
-  },
-  {
-    "word": "adapt",
-    "answer": "to adjust to new conditions",
-    "definition": "To change in order to fit new circumstances.",
-    "options": [
-      "to adjust to new conditions",
-      "to refuse change",
-      "to destroy",
-      "to hide"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "adjust",
-      "modify",
-      "tailor",
-      "acclimate"
-    ]
-  },
-  {
-    "word": "adequate",
-    "answer": "sufficient",
-    "definition": "Enough to meet a need or requirement.",
-    "options": [
-      "sufficient",
-      "insufficient",
-      "excessive",
-      "rare"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "sufficient",
-      "enough",
-      "satisfactory",
-      "ample"
-    ]
-  },
-  {
-    "word": "advocate",
-    "answer": "to support or recommend",
-    "definition": "To publicly support or argue in favor of something.",
-    "options": [
-      "to support or recommend",
-      "to oppose strongly",
-      "to ignore",
-      "to delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "support",
-      "champion",
-      "promote",
-      "endorse"
-    ]
-  },
-  {
-    "word": "allocate",
-    "answer": "to distribute for a purpose",
-    "definition": "To assign resources or tasks for a specific use.",
-    "options": [
-      "to distribute for a purpose",
-      "to take away",
-      "to destroy",
-      "to hide"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "assign",
-      "distribute",
-      "allot",
-      "apportion"
-    ]
-  },
-  {
-    "word": "alter",
-    "answer": "to change",
-    "definition": "To make something different.",
-    "options": [
-      "to change",
-      "to keep",
-      "to ignore",
-      "to break"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "change",
-      "modify",
-      "adjust",
-      "revise"
-    ]
-  },
-  {
-    "word": "alternative",
-    "answer": "another option",
-    "definition": "A different choice available.",
-    "options": [
-      "another option",
-      "no option",
-      "error",
-      "result"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "option",
-      "choice",
-      "substitute",
-      "alternate"
-    ]
-  },
-  {
-    "word": "ambiguous",
-    "answer": "unclear",
-    "definition": "Having more than one possible meaning.",
-    "options": [
-      "unclear",
-      "obvious",
-      "simple",
-      "true"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "unclear",
-      "vague",
-      "equivocal",
-      "uncertain"
-    ]
-  },
-  {
-    "word": "analyze",
-    "answer": "to examine carefully",
-    "definition": "To study something in detail.",
-    "options": [
-      "to examine carefully",
-      "to ignore",
-      "to guess",
-      "to break randomly"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "examine",
-      "study",
-      "investigate",
-      "scrutinize"
-    ]
-  },
-  {
-    "word": "anomaly",
-    "answer": "something unusual",
-    "definition": "Something that deviates from the norm.",
-    "options": [
-      "something unusual",
-      "normal thing",
-      "rule",
-      "pattern"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "irregularity",
-      "deviation",
-      "aberration",
-      "oddity"
-    ]
-  },
-  {
-    "word": "anticipate",
-    "answer": "to expect",
-    "definition": "To look forward to or predict something.",
-    "options": [
-      "to expect",
-      "to forget",
-      "to reject",
-      "to avoid"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "expect",
-      "foresee",
-      "predict",
-      "await"
-    ]
-  },
-  {
-    "word": "apparent",
-    "answer": "obvious",
-    "definition": "Clearly visible or easy to understand.",
-    "options": [
-      "obvious",
-      "hidden",
-      "false",
-      "rare"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "evident",
-      "obvious",
-      "clear",
-      "visible"
-    ]
-  },
-  {
-    "word": "approximate",
-    "answer": "not exact",
-    "definition": "Close to the actual value but not precise.",
-    "options": [
-      "not exact",
-      "exact",
-      "false",
-      "random"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "rough",
-      "estimated",
-      "close",
-      "near"
-    ]
-  },
-  {
-    "word": "arbitrary",
-    "answer": "random or based on chance",
-    "definition": "Based on personal choice rather than reason.",
-    "options": [
-      "random or based on chance",
-      "logical and reasoned",
-      "fixed and unchanging",
-      "carefully planned"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "random",
-      "capricious",
-      "subjective",
-      "unreasoned"
-    ]
-  },
-  {
-    "word": "assert",
-    "answer": "to state strongly",
-    "definition": "To declare something confidently.",
-    "options": [
-      "to state strongly",
-      "to question",
-      "to whisper",
-      "to deny"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "declare",
-      "affirm",
-      "state",
-      "claim"
-    ]
-  },
-  {
-    "word": "assess",
-    "answer": "to evaluate",
-    "definition": "To judge the value or quality of something.",
-    "options": [
-      "to evaluate",
-      "to ignore",
-      "to break",
-      "to guess"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "evaluate",
-      "appraise",
-      "judge",
-      "gauge"
-    ]
-  },
-  {
-    "word": "assume",
-    "answer": "to suppose without proof",
-    "definition": "To accept something as true without evidence.",
-    "options": [
-      "to suppose without proof",
-      "to prove",
-      "to deny",
-      "to calculate"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "presume",
-      "suppose",
-      "take for granted",
-      "guess"
-    ]
-  },
-  {
-    "word": "beneficial",
-    "answer": "helpful or useful",
-    "definition": "Providing advantage or good effects.",
-    "options": [
-      "helpful or useful",
-      "harmful or damaging",
-      "useless or wasteful",
-      "dangerous and risky"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "advantageous",
-      "helpful",
-      "favorable",
-      "useful"
-    ]
-  },
-  {
-    "word": "benevolent",
-    "answer": "kind and generous",
-    "definition": "Showing goodwill and kindness.",
-    "options": [
-      "kind and generous",
-      "cruel and harsh",
-      "careless",
-      "lazy"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "kind",
-      "generous",
-      "charitable",
-      "compassionate"
-    ]
-  },
-  {
-    "word": "bias",
-    "answer": "unfair preference",
-    "definition": "A tendency to favor one side unfairly.",
-    "options": [
-      "unfair preference",
-      "balance",
-      "truth",
-      "logic"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "prejudice",
-      "partiality",
-      "favoritism",
-      "slant"
-    ]
-  },
-  {
-    "word": "brief",
-    "answer": "short",
-    "definition": "Lasting a short time.",
-    "options": [
-      "short",
-      "long",
-      "detailed",
-      "complex"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "short",
-      "quick",
-      "fleeting",
-      "momentary"
-    ]
-  },
-  {
-    "word": "candid",
-    "answer": "honest and direct",
-    "definition": "Speaking truthfully without hiding feelings.",
-    "options": [
-      "honest and direct",
-      "secretive and evasive",
-      "dishonest and deceptive",
-      "quiet and reserved"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "honest",
-      "frank",
-      "forthright",
-      "straightforward"
-    ]
-  },
-  {
-    "word": "clarify",
-    "answer": "to make clear",
-    "definition": "To explain something more clearly.",
-    "options": [
-      "to make clear",
-      "to confuse",
-      "to hide",
-      "to shorten"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "explain",
-      "elucidate",
-      "clear up",
-      "simplify"
-    ]
-  },
-  {
-    "word": "coherent",
-    "answer": "logical and consistent",
-    "definition": "Easy to understand because it is logical.",
-    "options": [
-      "logical and consistent",
-      "confusing and illogical",
-      "random and disorganized",
-      "quiet and withdrawn"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "logical",
-      "consistent",
-      "clear",
-      "organized"
-    ]
-  },
-  {
-    "word": "coincide",
-    "answer": "to happen at the same time",
-    "definition": "To occur simultaneously.",
-    "options": [
-      "to happen at the same time",
-      "to delay",
-      "to stop",
-      "to separate"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "overlap",
-      "correspond",
-      "align",
-      "occur together"
-    ]
-  },
-  {
-    "word": "collapse",
-    "answer": "to fall down",
-    "definition": "To suddenly fall or break down.",
-    "options": [
-      "to fall down",
-      "to build",
-      "to expand",
-      "to grow"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "crumble",
-      "fall apart",
-      "break down",
-      "cave in"
-    ]
-  },
-  {
-    "word": "commence",
-    "answer": "to begin",
-    "definition": "To start something.",
-    "options": [
-      "to begin",
-      "to end",
-      "to stop",
-      "to delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "begin",
-      "start",
-      "initiate",
-      "launch"
-    ]
-  },
-  {
-    "word": "compatible",
-    "answer": "able to work together",
-    "definition": "Capable of existing or working together.",
-    "options": [
-      "able to work together",
-      "unable to work together",
-      "broken and unusable",
-      "kept completely separate"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "suitable",
-      "harmonious",
-      "congruous",
-      "well-matched"
-    ]
-  },
-  {
-    "word": "compensate",
-    "answer": "to make up for",
-    "definition": "To provide something good to balance loss.",
-    "options": [
-      "to make up for",
-      "to remove",
-      "to ignore",
-      "to reduce"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "reimburse",
-      "repay",
-      "offset",
-      "make up for"
-    ]
-  },
-  {
-    "word": "complement",
-    "answer": "to complete",
-    "definition": "To enhance or make something complete.",
-    "options": [
-      "to complete",
-      "to destroy",
-      "to reduce",
-      "to ignore"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "complete",
-      "enhance",
-      "supplement",
-      "round out"
-    ]
-  },
-  {
-    "word": "complex",
-    "answer": "complicated",
-    "definition": "Made up of many parts.",
-    "options": [
-      "complicated",
-      "simple",
-      "easy",
-      "basic"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "complicated",
-      "intricate",
-      "elaborate",
-      "convoluted"
-    ]
-  },
-  {
-    "word": "comply",
-    "answer": "to follow rules",
-    "definition": "To obey or act according to rules or requests.",
-    "options": [
-      "to follow rules",
-      "to ignore rules",
-      "to break rules",
-      "to create rules"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "obey",
-      "conform",
-      "adhere",
-      "follow"
-    ]
-  },
-  {
-    "word": "comprehend",
-    "answer": "to understand",
-    "definition": "To fully grasp or understand something.",
-    "options": [
-      "to understand",
-      "to ignore",
-      "to break",
-      "to guess"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "understand",
-      "grasp",
-      "fathom",
-      "perceive"
-    ]
-  },
-  {
-    "word": "comprehensive",
-    "answer": "complete",
-    "definition": "Covering all or nearly all elements.",
-    "options": [
-      "complete",
-      "partial",
-      "small",
-      "weak"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "thorough",
-      "extensive",
-      "complete",
-      "all-inclusive"
-    ]
-  },
-  {
-    "word": "concede",
-    "answer": "to admit reluctantly",
-    "definition": "To admit something is true after first denying it.",
-    "options": [
-      "to admit reluctantly",
-      "to deny strongly",
-      "to hide",
-      "to create"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "admit",
-      "acknowledge",
-      "grant",
-      "yield"
-    ]
-  },
-  {
-    "word": "concurrent",
-    "answer": "happening at the same time",
-    "definition": "Occurring simultaneously.",
-    "options": [
-      "happening at the same time",
-      "happening separately",
-      "happening much later",
-      "happening randomly"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "simultaneous",
-      "coinciding",
-      "parallel",
-      "synchronous"
-    ]
-  },
-  {
-    "word": "confine",
-    "answer": "to restrict",
-    "definition": "To keep within limits.",
-    "options": [
-      "to restrict",
-      "to expand",
-      "to free",
-      "to ignore"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "restrict",
-      "limit",
-      "restrain",
-      "enclose"
-    ]
-  },
-  {
-    "word": "consequence",
-    "answer": "result",
-    "definition": "Something that follows an action.",
-    "options": [
-      "result",
-      "cause",
-      "option",
-      "rule"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "result",
-      "outcome",
-      "effect",
-      "upshot"
-    ]
-  },
-  {
-    "word": "consequent",
-    "answer": "resulting",
-    "definition": "Following as a result.",
-    "options": [
-      "resulting",
-      "unrelated",
-      "random",
-      "before"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "resulting",
-      "ensuing",
-      "subsequent",
-      "following"
-    ]
-  },
-  {
-    "word": "consist",
-    "answer": "to be made of",
-    "definition": "To be composed of parts.",
-    "options": [
-      "to be made of",
-      "to destroy",
-      "to ignore",
-      "to break"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "comprise",
-      "be made up of",
-      "be composed of",
-      "contain"
-    ]
-  },
-  {
-    "word": "consistent",
-    "answer": "always the same",
-    "definition": "Not changing over time.",
-    "options": [
-      "always the same",
-      "random and unpredictable",
-      "broken and unreliable",
-      "rare and occasional"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "steady",
-      "uniform",
-      "stable",
-      "unchanging"
-    ]
-  },
-  {
-    "word": "constraint",
-    "answer": "limitation",
-    "definition": "A restriction or control.",
-    "options": [
-      "limitation",
-      "freedom",
-      "expansion",
-      "gain"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "restriction",
-      "limitation",
-      "restraint",
-      "curb"
-    ]
-  },
-  {
-    "word": "contradict",
-    "answer": "to oppose",
-    "definition": "To state the opposite.",
-    "options": [
-      "to oppose",
-      "to agree",
-      "to confirm",
-      "to support"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "deny",
-      "oppose",
-      "refute",
-      "negate"
-    ]
-  },
-  {
-    "word": "contrast",
-    "answer": "difference between things",
-    "definition": "To compare differences.",
-    "options": [
-      "difference between things",
-      "similarity between things",
-      "agreement between people",
-      "connection between ideas"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "differentiate",
-      "distinguish",
-      "juxtapose",
-      "compare"
-    ]
-  },
-  {
-    "word": "controversial",
-    "answer": "causing disagreement",
-    "definition": "Likely to cause public disagreement.",
-    "options": [
-      "causing disagreement",
-      "accepted",
-      "boring",
-      "silent"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "contentious",
-      "disputed",
-      "debatable",
-      "divisive"
-    ]
-  },
-  {
-    "word": "convert",
-    "answer": "to change form",
-    "definition": "To transform something into another form.",
-    "options": [
-      "to change form",
-      "to destroy",
-      "to ignore",
-      "to keep same"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "transform",
-      "change",
-      "turn",
-      "alter"
-    ]
-  },
-  {
-    "word": "convince",
-    "answer": "to persuade",
-    "definition": "To make someone believe something.",
-    "options": [
-      "to persuade",
-      "to confuse",
-      "to ignore",
-      "to reject"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "persuade",
-      "assure",
-      "satisfy",
-      "win over"
-    ]
-  },
-  {
-    "word": "credible",
-    "answer": "believable",
-    "definition": "Able to be trusted or believed.",
-    "options": [
-      "believable",
-      "fake",
-      "unclear",
-      "weak"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "believable",
-      "plausible",
-      "trustworthy",
-      "convincing"
-    ]
-  },
-  {
-    "word": "criteria",
-    "answer": "standards for judgment",
-    "definition": "Rules used to evaluate something.",
-    "options": [
-      "standards for judgment",
-      "personal opinions only",
-      "random guesses",
-      "final results only"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "standards",
-      "benchmarks",
-      "measures",
-      "guidelines"
-    ]
-  },
-  {
-    "word": "decline",
-    "answer": "to refuse or decrease",
-    "definition": "To go down or say no politely.",
-    "options": [
-      "to refuse or decrease",
-      "to increase",
-      "to accept",
-      "to build"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "decrease",
-      "refuse",
-      "drop",
-      "deteriorate"
-    ]
-  },
-  {
-    "word": "deduce",
-    "answer": "to conclude logically",
-    "definition": "To reach a conclusion from evidence.",
-    "options": [
-      "to conclude logically",
-      "to guess randomly",
-      "to ignore",
-      "to deny"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "infer",
-      "conclude",
-      "derive",
-      "reason"
-    ]
-  },
-  {
-    "word": "deficient",
-    "answer": "lacking",
-    "definition": "Not having enough.",
-    "options": [
-      "lacking",
-      "complete",
-      "excessive",
-      "strong"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "lacking",
-      "insufficient",
-      "inadequate",
-      "wanting"
-    ]
-  },
-  {
-    "word": "deficit",
-    "answer": "lack or shortage",
-    "definition": "When something is less than needed.",
-    "options": [
-      "lack or shortage",
-      "excess or surplus",
-      "balance of accounts",
-      "profit or gain"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "shortfall",
-      "shortage",
-      "deficiency",
-      "gap"
-    ]
-  },
-  {
-    "word": "demonstrate",
-    "answer": "to show",
-    "definition": "To make something clear by example.",
-    "options": [
-      "to show",
-      "to hide",
-      "to ignore",
-      "to confuse"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "show",
-      "illustrate",
-      "prove",
-      "exhibit"
-    ]
-  },
-  {
-    "word": "derive",
-    "answer": "to obtain from source",
-    "definition": "To get something from a specific origin.",
-    "options": [
-      "to obtain from source",
-      "to lose",
-      "to destroy",
-      "to hide"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "obtain",
-      "extract",
-      "deduce",
-      "originate"
-    ]
-  },
-  {
-    "word": "detect",
-    "answer": "to discover",
-    "definition": "To find or notice something.",
-    "options": [
-      "to discover",
-      "to hide",
-      "to ignore",
-      "to remove"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "discover",
-      "notice",
-      "spot",
-      "identify"
-    ]
-  },
-  {
-    "word": "deter",
-    "answer": "to discourage",
-    "definition": "To prevent or make someone less likely to do something.",
-    "options": [
-      "to discourage",
-      "to encourage",
-      "to ignore",
-      "to celebrate"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "discourage",
-      "dissuade",
-      "prevent",
-      "hinder"
-    ]
-  },
-  {
-    "word": "deviate",
-    "answer": "to go off course",
-    "definition": "To depart from a standard path.",
-    "options": [
-      "to go off course",
-      "to follow",
-      "to stay",
-      "to continue"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "diverge",
-      "stray",
-      "depart",
-      "digress"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "diligent",
-    "answer": "hardworking",
-    "definition": "Having or showing care in one's work or duties.",
-    "options": [
-      "hardworking",
-      "lazy",
-      "careless",
-      "slow",
-      "forgetful"
-    ],
-    "synonyms": [
-      "hardworking",
-      "industrious",
-      "conscientious",
-      "assiduous"
-    ]
-  },
-  {
-    "word": "distinct",
-    "answer": "clearly different",
-    "definition": "Easily recognized as different.",
-    "options": [
-      "clearly different",
-      "similar",
-      "hidden",
-      "unclear"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "different",
-      "separate",
-      "distinguishable",
-      "discrete"
-    ]
-  },
-  {
-    "word": "distort",
-    "answer": "to twist out of shape",
-    "definition": "To change something in a misleading way.",
-    "options": [
-      "to twist out of shape",
-      "to fix",
-      "to clarify",
-      "to build"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "twist",
-      "warp",
-      "skew",
-      "misrepresent"
-    ]
-  },
-  {
-    "word": "diverse",
-    "answer": "varied",
-    "definition": "Showing a wide range of different things.",
-    "options": [
-      "varied",
-      "same",
-      "simple",
-      "empty"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "varied",
-      "assorted",
-      "wide-ranging",
-      "heterogeneous"
-    ]
-  },
-  {
-    "word": "duration",
-    "answer": "length of time",
-    "definition": "The time something lasts.",
-    "options": [
-      "length of time",
-      "rate of speed",
-      "amount of distance",
-      "amount of weight"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "length",
-      "span",
-      "period",
-      "extent"
-    ]
-  },
-  {
-    "word": "efficient",
-    "answer": "working well without waste",
-    "definition": "Achieving maximum productivity.",
-    "options": [
-      "working well without waste",
-      "slow and wasteful",
-      "careless and lazy",
-      "damaged and unreliable"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "productive",
-      "effective",
-      "streamlined",
-      "competent"
-    ]
-  },
-  {
-    "word": "elaborate",
-    "answer": "detailed",
-    "definition": "Containing many details.",
-    "options": [
-      "detailed",
-      "simple",
-      "short",
-      "weak"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "detailed",
-      "intricate",
-      "complex",
-      "ornate"
-    ]
-  },
-  {
-    "word": "eliminate",
-    "answer": "to remove completely",
-    "definition": "To get rid of something.",
-    "options": [
-      "to remove completely",
-      "to add",
-      "to create",
-      "to mix"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "remove",
-      "eradicate",
-      "get rid of",
-      "abolish"
-    ]
-  },
-  {
-    "word": "eloquent",
-    "answer": "fluent and persuasive in speech",
-    "definition": "Able to speak clearly and effectively.",
-    "options": [
-      "fluent and persuasive in speech",
-      "unable to speak",
-      "confused",
-      "silent"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "articulate",
-      "fluent",
-      "expressive",
-      "well-spoken"
-    ]
-  },
-  {
-    "word": "emerge",
-    "answer": "to appear",
-    "definition": "To come into view or become known.",
-    "options": [
-      "to appear",
-      "to hide",
-      "to disappear",
-      "to break"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "appear",
-      "arise",
-      "surface",
-      "come out"
-    ]
-  },
-  {
-    "word": "empirical",
-    "answer": "based on observation",
-    "definition": "Based on experience or experiment.",
-    "options": [
-      "based on observation",
-      "based on theory",
-      "based on imagination",
-      "based on guesswork"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "observed",
-      "experiential",
-      "evidence-based",
-      "factual"
-    ]
-  },
-  {
-    "word": "encounter",
-    "answer": "to meet unexpectedly",
-    "definition": "To come across something or someone.",
-    "options": [
-      "to meet unexpectedly",
-      "to avoid",
-      "to build",
-      "to plan"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "meet",
-      "come across",
-      "face",
-      "confront"
-    ]
-  },
-  {
-    "word": "enhance",
-    "answer": "to improve",
-    "definition": "To make something better.",
-    "options": [
-      "to improve",
-      "to reduce",
-      "to destroy",
-      "to hide"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "improve",
-      "boost",
-      "augment",
-      "strengthen"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "ephemeral",
-    "answer": "short-lived",
-    "definition": "Lasting for a very short time.",
-    "options": [
-      "short-lived",
-      "permanent",
-      "strong",
-      "slow",
-      "heavy"
-    ],
-    "synonyms": [
-      "fleeting",
-      "transient",
-      "short-lived",
-      "momentary"
-    ]
-  },
-  {
-    "word": "equivalent",
-    "answer": "equal in value",
-    "definition": "Having the same worth or effect.",
-    "options": [
-      "equal in value",
-      "different in value",
-      "greater in value",
-      "lesser in value"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "equal",
-      "comparable",
-      "corresponding",
-      "tantamount"
-    ]
-  },
-  {
-    "word": "exceed",
-    "answer": "to go beyond",
-    "definition": "To surpass a limit.",
-    "options": [
-      "to go beyond",
-      "to stay under",
-      "to stop",
-      "to reduce"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "surpass",
-      "outdo",
-      "top",
-      "go beyond"
-    ]
-  },
-  {
-    "word": "exclude",
-    "answer": "to leave out",
-    "definition": "To not include something.",
-    "options": [
-      "to leave out",
-      "to include",
-      "to add",
-      "to expand"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "omit",
-      "leave out",
-      "bar",
-      "eliminate"
-    ]
-  },
-  {
-    "word": "expand",
-    "answer": "to increase size",
-    "definition": "To become larger or more extensive.",
-    "options": [
-      "to increase size",
-      "to shrink",
-      "to delete",
-      "to reduce"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "grow",
-      "enlarge",
-      "extend",
-      "broaden"
-    ]
-  },
-  {
-    "word": "explicit",
-    "answer": "clearly stated",
-    "definition": "Expressed clearly and directly.",
-    "options": [
-      "clearly stated",
-      "unclear",
-      "hidden",
-      "confusing"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "clear",
-      "direct",
-      "specific",
-      "unambiguous"
-    ]
-  },
-  {
-    "word": "facilitate",
-    "answer": "to make easier",
-    "definition": "To help make a process smoother.",
-    "options": [
-      "to make easier",
-      "to complicate",
-      "to stop",
-      "to delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "ease",
-      "assist",
-      "expedite",
-      "simplify"
-    ]
-  },
-  {
-    "word": "feasible",
-    "answer": "possible",
-    "definition": "Able to be done.",
-    "options": [
-      "possible",
-      "impossible",
-      "rare",
-      "dangerous"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "doable",
-      "viable",
-      "practicable",
-      "achievable"
-    ]
-  },
-  {
-    "word": "flexible",
-    "answer": "able to bend or change",
-    "definition": "Able to adjust easily.",
-    "options": [
-      "able to bend or change",
-      "rigid and unchanging",
-      "damaged beyond repair",
-      "fixed and unmovable"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "adaptable",
-      "pliable",
-      "versatile",
-      "adjustable"
-    ]
-  },
-  {
-    "word": "fluctuate",
-    "answer": "to vary",
-    "definition": "To change irregularly.",
-    "options": [
-      "to vary",
-      "to stay constant",
-      "to stop",
-      "to freeze"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "vary",
-      "waver",
-      "oscillate",
-      "shift"
-    ]
-  },
-  {
-    "word": "formulate",
-    "answer": "to create systematically",
-    "definition": "To develop or plan carefully.",
-    "options": [
-      "to create systematically",
-      "to destroy",
-      "to ignore",
-      "to guess"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "devise",
-      "develop",
-      "create",
-      "construct"
-    ]
-  },
-  {
-    "word": "frugal",
-    "answer": "careful with money",
-    "definition": "Using money wisely without waste.",
-    "options": [
-      "careful with money",
-      "wasteful with money",
-      "extremely wealthy",
-      "overly generous"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "thrifty",
-      "economical",
-      "sparing",
-      "prudent"
-    ]
-  },
-  {
-    "word": "fundamental",
-    "answer": "basic and important",
-    "definition": "Essential foundation or principle.",
-    "options": [
-      "basic and important",
-      "optional and unnecessary",
-      "random and unrelated",
-      "temporary and short-lived"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "basic",
-      "essential",
-      "core",
-      "primary"
-    ]
-  },
-  {
-    "word": "generate",
-    "answer": "to produce",
-    "definition": "To create or cause something to exist.",
-    "options": [
-      "to produce",
-      "to destroy",
-      "to hide",
-      "to reduce"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "produce",
-      "create",
-      "cause",
-      "yield"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "gullible",
-    "answer": "easily deceived",
-    "definition": "Easily persuaded to believe something false.",
-    "options": [
-      "easily deceived",
-      "skeptical",
-      "angry",
-      "wise",
-      "careful"
-    ],
-    "synonyms": [
-      "naive",
-      "credulous",
-      "trusting",
-      "easily fooled"
-    ]
-  },
-  {
-    "word": "hostile",
-    "answer": "unfriendly or aggressive",
-    "definition": "Showing anger or opposition.",
-    "options": [
-      "unfriendly or aggressive",
-      "friendly and warm",
-      "calm and peaceful",
-      "cheerful and pleasant"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "antagonistic",
-      "aggressive",
-      "unfriendly",
-      "belligerent"
-    ]
-  },
-  {
-    "word": "hypothesis",
-    "answer": "educated guess",
-    "definition": "A proposed explanation based on evidence.",
-    "options": [
-      "educated guess",
-      "fact",
-      "law",
-      "result"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "theory",
-      "assumption",
-      "premise",
-      "conjecture"
-    ]
-  },
-  {
-    "word": "illustrate",
-    "answer": "to explain with examples",
-    "definition": "To make something clear using examples.",
-    "options": [
-      "to explain with examples",
-      "to confuse",
-      "to hide",
-      "to delete"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "demonstrate",
-      "exemplify",
-      "depict",
-      "show"
-    ]
-  },
-  {
-    "word": "imminent",
-    "answer": "about to happen",
-    "definition": "Something likely to occur very soon.",
-    "options": [
-      "about to happen",
-      "far away",
-      "impossible",
-      "delayed"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "impending",
-      "forthcoming",
-      "approaching",
-      "near"
-    ]
-  },
-  {
-    "word": "impact",
-    "answer": "effect or influence",
-    "definition": "A strong effect on something.",
-    "options": [
-      "effect or influence",
-      "no change",
-      "random noise",
-      "delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "effect",
-      "influence",
-      "impression",
-      "consequence"
-    ]
-  },
-  {
-    "word": "implement",
-    "answer": "to put into action",
-    "definition": "To execute a plan or decision.",
-    "options": [
-      "to put into action",
-      "to cancel",
-      "to ignore",
-      "to delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "execute",
-      "carry out",
-      "apply",
-      "enact"
-    ]
-  },
-  {
-    "word": "implication",
-    "answer": "suggested meaning",
-    "definition": "Something implied but not directly stated.",
-    "options": [
-      "suggested meaning",
-      "clear statement",
-      "rule",
-      "fact"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "suggestion",
-      "insinuation",
-      "ramification",
-      "corollary"
-    ]
-  },
-  {
-    "word": "imply",
-    "answer": "to suggest indirectly",
-    "definition": "To indicate something without saying it directly.",
-    "options": [
-      "to suggest indirectly",
-      "to state clearly",
-      "to deny",
-      "to ignore"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "suggest",
-      "indicate",
-      "hint",
-      "insinuate"
-    ]
-  },
-  {
-    "word": "incentive",
-    "answer": "motivation",
-    "definition": "Something that encourages action.",
-    "options": [
-      "motivation",
-      "punishment",
-      "delay",
-      "result"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "motivation",
-      "inducement",
-      "stimulus",
-      "encouragement"
-    ]
-  },
-  {
-    "word": "incline",
-    "answer": "to lean or tend",
-    "definition": "To be likely or have a tendency.",
-    "options": [
-      "to lean or tend",
-      "to stop",
-      "to break",
-      "to hide"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "tend",
-      "lean",
-      "be disposed",
-      "favor"
-    ]
-  },
-  {
-    "word": "incorporate",
-    "answer": "to include",
-    "definition": "To combine or integrate parts.",
-    "options": [
-      "to include",
-      "to remove",
-      "to separate",
-      "to destroy"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "include",
-      "integrate",
-      "merge",
-      "embody"
-    ]
-  },
-  {
-    "word": "indicate",
-    "answer": "to show",
-    "definition": "To point out or demonstrate.",
-    "options": [
-      "to show",
-      "to hide",
-      "to remove",
-      "to confuse"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "show",
-      "signal",
-      "suggest",
-      "denote"
-    ]
-  },
-  {
-    "word": "inefficient",
-    "answer": "wasteful",
-    "definition": "Not using resources well.",
-    "options": [
-      "wasteful",
-      "effective",
-      "fast",
-      "strong"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "wasteful",
-      "unproductive",
-      "ineffective",
-      "sluggish"
-    ]
-  },
-  {
-    "word": "inevitable",
-    "answer": "certain to happen",
-    "definition": "Something that will definitely occur.",
-    "options": [
-      "certain to happen",
-      "impossible to happen",
-      "optional and avoidable",
-      "unlikely to happen"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "unavoidable",
-      "certain",
-      "inescapable",
-      "assured"
-    ]
-  },
-  {
-    "word": "inferior",
-    "answer": "lower in quality",
-    "definition": "Not as good as something else.",
-    "options": [
-      "lower in quality",
-      "higher in quality",
-      "equal in quality",
-      "flawless in quality"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "lesser",
-      "substandard",
-      "second-rate",
-      "lower"
-    ]
-  },
-  {
-    "word": "inhibit",
-    "answer": "to restrain",
-    "definition": "To prevent or slow something down.",
-    "options": [
-      "to restrain",
-      "to allow",
-      "to increase",
-      "to support"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "hinder",
-      "restrain",
-      "impede",
-      "suppress"
-    ]
-  },
-  {
-    "word": "initiate",
-    "answer": "to begin",
-    "definition": "To start something.",
-    "options": [
-      "to begin",
-      "to end",
-      "to stop",
-      "to delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "start",
-      "begin",
-      "launch",
-      "commence"
-    ]
-  },
-  {
-    "word": "innovate",
-    "answer": "to create something new",
-    "definition": "To introduce new ideas or methods.",
-    "options": [
-      "to create something new",
-      "to copy",
-      "to destroy",
-      "to repeat"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "invent",
-      "pioneer",
-      "modernize",
-      "create"
-    ]
-  },
-  {
-    "word": "insight",
-    "answer": "deep understanding",
-    "definition": "A clear understanding of something complex.",
-    "options": [
-      "deep understanding",
-      "confusion",
-      "ignorance",
-      "delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "understanding",
-      "perception",
-      "awareness",
-      "discernment"
-    ]
-  },
-  {
-    "word": "insignificant",
-    "answer": "not important",
-    "definition": "Having little or no importance.",
-    "options": [
-      "not important",
-      "very important",
-      "huge",
-      "critical"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "trivial",
-      "negligible",
-      "unimportant",
-      "minor"
-    ]
-  },
-  {
-    "word": "integral",
-    "answer": "essential",
-    "definition": "Necessary for completeness.",
-    "options": [
-      "essential",
-      "optional",
-      "extra",
-      "random"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "essential",
-      "fundamental",
-      "necessary",
-      "intrinsic"
-    ]
-  },
-  {
-    "word": "integrate",
-    "answer": "to combine",
-    "definition": "To bring together parts into a whole.",
-    "options": [
-      "to combine",
-      "to separate",
-      "to destroy",
-      "to reduce"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "combine",
-      "merge",
-      "unify",
-      "incorporate"
-    ]
-  },
-  {
-    "word": "interfere",
-    "answer": "to get in the way",
-    "definition": "To prevent something from working smoothly.",
-    "options": [
-      "to get in the way",
-      "to help",
-      "to support",
-      "to fix"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "meddle",
-      "intervene",
-      "obstruct",
-      "disrupt"
-    ]
-  },
-  {
-    "word": "interpret",
-    "answer": "to explain meaning",
-    "definition": "To understand or explain something.",
-    "options": [
-      "to explain meaning",
-      "to confuse",
-      "to hide",
-      "to ignore"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "explain",
-      "understand",
-      "construe",
-      "decode"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "intrepid",
-    "answer": "fearless",
-    "definition": "Fearless and adventurous.",
-    "options": [
-      "fearless",
-      "cowardly",
-      "tired",
-      "confused",
-      "gentle"
-    ],
-    "synonyms": [
-      "fearless",
-      "bold",
-      "brave",
-      "courageous"
-    ]
-  },
-  {
-    "word": "isolate",
-    "answer": "to separate",
-    "definition": "To set apart from others.",
-    "options": [
-      "to separate",
-      "to connect",
-      "to include",
-      "to combine"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "separate",
-      "seclude",
-      "segregate",
-      "quarantine"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "jubilant",
-    "answer": "extremely happy",
-    "definition": "Feeling or expressing great happiness.",
-    "options": [
-      "extremely happy",
-      "sad",
-      "angry",
-      "calm",
-      "tired"
-    ],
-    "synonyms": [
-      "joyful",
-      "elated",
-      "exultant",
-      "ecstatic"
-    ]
-  },
-  {
-    "word": "justify",
-    "answer": "to explain or prove right",
-    "definition": "To show something is reasonable.",
-    "options": [
-      "to explain or prove right",
-      "to hide",
-      "to ignore",
-      "to break"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "defend",
-      "validate",
-      "vindicate",
-      "rationalize"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "languid",
-    "answer": "slow and relaxed",
-    "definition": "Moving or speaking slowly with little energy.",
-    "options": [
-      "slow and relaxed",
-      "energetic and lively",
-      "angry and tense",
-      "fast and hurried",
-      "nervous and anxious"
-    ],
-    "synonyms": [
-      "sluggish",
-      "lethargic",
-      "listless",
-      "lazy"
-    ]
-  },
-  {
-    "word": "legitimate",
-    "answer": "valid or legal",
-    "definition": "Conforming to the law or rules.",
-    "options": [
-      "valid or legal",
-      "fake or fraudulent",
-      "wrong or incorrect",
-      "illegal and unlawful"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "lawful",
-      "valid",
-      "legal",
-      "rightful"
-    ]
-  },
-  {
-    "word": "levy",
-    "answer": "to impose (tax or fee)",
-    "definition": "To officially charge a tax or fee.",
-    "options": [
-      "to impose (tax or fee)",
-      "to remove",
-      "to ignore",
-      "to reduce"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "impose",
-      "charge",
-      "exact",
-      "tax"
-    ]
-  },
-  {
-    "word": "lucid",
-    "answer": "clear and easy to understand",
-    "definition": "Easy to think or express clearly.",
-    "options": [
-      "clear and easy to understand",
-      "confusing and unclear",
-      "dark and hidden",
-      "overly complicated"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "clear",
-      "coherent",
-      "understandable",
-      "transparent"
-    ]
-  },
-  {
-    "word": "maintain",
-    "answer": "to keep in good condition",
-    "definition": "To continue or preserve something.",
-    "options": [
-      "to keep in good condition",
-      "to destroy",
-      "to forget",
-      "to ignore"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "sustain",
-      "preserve",
-      "uphold",
-      "continue"
-    ]
-  },
-  {
-    "word": "manipulate",
-    "answer": "to control skillfully",
-    "definition": "To handle or influence something.",
-    "options": [
-      "to control skillfully",
-      "to destroy",
-      "to ignore",
-      "to lose"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "control",
-      "influence",
-      "handle",
-      "exploit"
-    ]
-  },
-  {
-    "word": "mediate",
-    "answer": "to help resolve",
-    "definition": "To act between parties to resolve conflict.",
-    "options": [
-      "to help resolve",
-      "to cause conflict",
-      "to ignore",
-      "to start"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "arbitrate",
-      "negotiate",
-      "intervene",
-      "reconcile"
-    ]
-  },
-  {
-    "word": "mitigate",
-    "answer": "to reduce severity",
-    "definition": "To make something less harmful.",
-    "options": [
-      "to reduce severity",
-      "to increase",
-      "to create",
-      "to ignore"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "alleviate",
-      "ease",
-      "lessen",
-      "reduce"
-    ]
-  },
-  {
-    "word": "modify",
-    "answer": "to change slightly",
-    "definition": "To make small changes.",
-    "options": [
-      "to change slightly",
-      "to destroy",
-      "to ignore",
-      "to create"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "alter",
-      "adjust",
-      "change",
-      "revise"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "munificent",
-    "answer": "very generous",
-    "definition": "More generous than is usual or necessary.",
-    "options": [
-      "very generous",
-      "stingy",
-      "poor",
-      "angry",
-      "selfish"
-    ],
-    "synonyms": [
-      "generous",
-      "lavish",
-      "bountiful",
-      "liberal"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "nonchalant",
-    "answer": "casually calm",
-    "definition": "Feeling or appearing casually calm and relaxed.",
-    "options": [
-      "casually calm",
-      "anxious",
-      "excited",
-      "angry",
-      "confused"
-    ],
-    "synonyms": [
-      "casual",
-      "unconcerned",
-      "indifferent",
-      "relaxed"
-    ]
-  },
-  {
-    "word": "notable",
-    "answer": "important or worthy of attention",
-    "definition": "Something worth noticing because it stands out.",
-    "options": [
-      "important or worthy of attention",
-      "unimportant and forgettable",
-      "hidden from attention",
-      "randomly selected"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "remarkable",
-      "noteworthy",
-      "significant",
-      "prominent"
-    ]
-  },
-  {
-    "word": "notion",
-    "answer": "idea",
-    "definition": "A general belief or concept.",
-    "options": [
-      "idea",
-      "fact",
-      "rule",
-      "law"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "idea",
-      "concept",
-      "belief",
-      "thought"
-    ]
-  },
-  {
-    "word": "objective",
-    "answer": "not influenced by feelings",
-    "definition": "Based on facts, not emotions.",
-    "options": [
-      "not influenced by feelings",
-      "influenced by feelings",
-      "unfairly biased",
-      "randomly decided"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "impartial",
-      "unbiased",
-      "factual",
-      "neutral"
-    ]
-  },
-  {
-    "word": "obsolete",
-    "answer": "outdated",
-    "definition": "No longer in use or useful.",
-    "options": [
-      "outdated",
-      "modern",
-      "useful",
-      "new"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "outdated",
-      "defunct",
-      "antiquated",
-      "out-of-date"
-    ]
-  },
-  {
-    "word": "obstruct",
-    "answer": "to block",
-    "definition": "To prevent movement or progress.",
-    "options": [
-      "to block",
-      "to help",
-      "to open",
-      "to build"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "block",
-      "hinder",
-      "impede",
-      "hamper"
-    ]
-  },
-  {
-    "word": "obtain",
-    "answer": "to get",
-    "definition": "To acquire or gain something.",
-    "options": [
-      "to get",
-      "to lose",
-      "to hide",
-      "to break"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "acquire",
-      "get",
-      "procure",
-      "secure"
-    ]
-  },
-  {
-    "word": "obvious",
-    "answer": "clearly seen or understood",
-    "definition": "Easy to notice or understand.",
-    "options": [
-      "clearly seen or understood",
-      "hidden from view",
-      "confusing and unclear",
-      "rare and unusual"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "clear",
-      "evident",
-      "apparent",
-      "plain"
-    ]
-  },
-  {
-    "word": "offset",
-    "answer": "to counterbalance",
-    "definition": "To compensate for something.",
-    "options": [
-      "to counterbalance",
-      "to increase",
-      "to ignore",
-      "to start"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "counterbalance",
-      "compensate",
-      "counteract",
-      "neutralize"
-    ]
-  },
-  {
-    "word": "omit",
-    "answer": "to leave out",
-    "definition": "To not include something.",
-    "options": [
-      "to leave out",
-      "to add",
-      "to create",
-      "to expand"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "exclude",
-      "leave out",
-      "skip",
-      "drop"
-    ]
-  },
-  {
-    "word": "ongoing",
-    "answer": "continuing",
-    "definition": "Still in progress.",
-    "options": [
-      "continuing",
-      "finished",
-      "stopped",
-      "delayed"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "continuing",
-      "current",
-      "in progress",
-      "continual"
-    ]
-  },
-  {
-    "word": "oppress",
-    "answer": "to treat unfairly",
-    "definition": "To control people in a cruel way.",
-    "options": [
-      "to treat unfairly",
-      "to protect",
-      "to help",
-      "to free"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "subjugate",
-      "tyrannize",
-      "persecute",
-      "crush"
-    ]
-  },
-  {
-    "word": "optimize",
-    "answer": "to make the best use of",
-    "definition": "To improve efficiency or effectiveness.",
-    "options": [
-      "to make the best use of",
-      "to waste",
-      "to reduce",
-      "to ignore"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "improve",
-      "maximize",
-      "enhance",
-      "refine"
-    ]
-  },
-  {
-    "word": "optional",
-    "answer": "not required",
-    "definition": "Something that can be chosen or not.",
-    "options": [
-      "not required",
-      "mandatory",
-      "necessary",
-      "forced"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "voluntary",
-      "elective",
-      "discretionary",
-      "non-mandatory"
-    ]
-  },
-  {
-    "word": "outcome",
-    "answer": "result",
-    "definition": "The final result of an action.",
-    "options": [
-      "result",
-      "cause",
-      "rule",
-      "option"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "result",
-      "consequence",
-      "effect",
-      "upshot"
-    ]
-  },
-  {
-    "word": "outsource",
-    "answer": "to contract outside",
-    "definition": "To assign work to external groups.",
-    "options": [
-      "to contract outside",
-      "to keep inside",
-      "to destroy",
-      "to cancel"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "contract out",
-      "subcontract",
-      "delegate",
-      "farm out"
-    ]
-  },
-  {
-    "word": "overcome",
-    "answer": "to defeat",
-    "definition": "To successfully deal with a problem.",
-    "options": [
-      "to defeat",
-      "to fail",
-      "to ignore",
-      "to avoid"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "conquer",
-      "surmount",
-      "defeat",
-      "triumph over"
-    ]
-  },
-  {
-    "word": "overlap",
-    "answer": "to cover partly",
-    "definition": "To extend over and cover part of something else.",
-    "options": [
-      "to cover partly",
-      "to separate",
-      "to remove",
-      "to break"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "coincide",
-      "intersect",
-      "converge",
-      "overlie"
-    ]
-  },
-  {
-    "word": "paradox",
-    "answer": "contradiction",
-    "definition": "A situation that seems impossible or contradictory.",
-    "options": [
-      "contradiction",
-      "fact",
-      "rule",
-      "law"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "contradiction",
-      "inconsistency",
-      "puzzle",
-      "anomaly"
-    ]
-  },
-  {
-    "word": "parameter",
-    "answer": "limit or boundary",
-    "definition": "A defining boundary or rule.",
-    "options": [
-      "limit or boundary",
-      "complete freedom",
-      "random variation",
-      "final result"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "boundary",
-      "limit",
-      "guideline",
-      "factor"
-    ]
-  },
-  {
-    "word": "perceive",
-    "answer": "to understand or notice",
-    "definition": "To become aware of something.",
-    "options": [
-      "to understand or notice",
-      "to ignore",
-      "to break",
-      "to create"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "notice",
-      "discern",
-      "observe",
-      "sense"
-    ]
-  },
-  {
-    "word": "periodic",
-    "answer": "occurring regularly",
-    "definition": "Happening at regular intervals.",
-    "options": [
-      "occurring regularly",
-      "random",
-      "rare",
-      "once only"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "recurrent",
-      "regular",
-      "cyclical",
-      "intermittent"
-    ]
-  },
-  {
-    "word": "persistent",
-    "answer": "continuing firmly",
-    "definition": "Not giving up easily.",
-    "options": [
-      "continuing firmly",
-      "giving up",
-      "lazy",
-      "random"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "persevering",
-      "tenacious",
-      "relentless",
-      "determined"
-    ]
-  },
-  {
-    "word": "persuade",
-    "answer": "to convince",
-    "definition": "To make someone believe or do something.",
-    "options": [
-      "to convince",
-      "to confuse",
-      "to ignore",
-      "to reject"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "convince",
-      "induce",
-      "sway",
-      "influence"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "pragmatic",
-    "answer": "practical",
-    "definition": "Dealing with things in a practical way.",
-    "options": [
-      "practical",
-      "idealistic",
-      "careless",
-      "slow",
-      "confused"
-    ],
-    "synonyms": [
-      "practical",
-      "realistic",
-      "sensible",
-      "down-to-earth"
-    ]
-  },
-  {
-    "word": "precede",
-    "answer": "to come before",
-    "definition": "To happen earlier than something else.",
-    "options": [
-      "to come before",
-      "to come after",
-      "to stop",
-      "to delay"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "come before",
-      "antecede",
-      "lead",
-      "forerun"
-    ]
-  },
-  {
-    "word": "precise",
-    "answer": "exact",
-    "definition": "Very accurate and detailed.",
-    "options": [
-      "exact",
-      "vague",
-      "random",
-      "unclear"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "exact",
-      "accurate",
-      "specific",
-      "definite"
-    ]
-  },
-  {
-    "word": "predict",
-    "answer": "to say in advance",
-    "definition": "To forecast what will happen.",
-    "options": [
-      "to say in advance",
-      "to hide",
-      "to ignore",
-      "to confuse"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "forecast",
-      "foretell",
-      "anticipate",
-      "prophesy"
-    ]
-  },
-  {
-    "word": "predominant",
-    "answer": "most common",
-    "definition": "The most important or frequent.",
-    "options": [
-      "most common",
-      "rare",
-      "hidden",
-      "weak"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "dominant",
-      "prevailing",
-      "chief",
-      "primary"
-    ]
-  },
-  {
-    "word": "preliminary",
-    "answer": "initial",
-    "definition": "Happening before the main event.",
-    "options": [
-      "initial",
-      "final",
-      "optional",
-      "random"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "introductory",
-      "initial",
-      "preparatory",
-      "opening"
-    ]
-  },
-  {
-    "word": "presume",
-    "answer": "to assume",
-    "definition": "To believe something is true without proof.",
-    "options": [
-      "to assume",
-      "to prove",
-      "to deny",
-      "to measure"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "assume",
-      "suppose",
-      "take for granted",
-      "surmise"
-    ]
-  },
-  {
-    "word": "profound",
-    "answer": "deep or meaningful",
-    "definition": "Having great depth or importance.",
-    "options": [
-      "deep or meaningful",
-      "shallow and meaningless",
-      "overly simple",
-      "weak in meaning"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "deep",
-      "intense",
-      "significant",
-      "weighty"
-    ]
-  },
-  {
-    "word": "prohibit",
-    "answer": "to forbid",
-    "definition": "To officially stop something.",
-    "options": [
-      "to forbid",
-      "to allow",
-      "to encourage",
-      "to create"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "forbid",
-      "ban",
-      "outlaw",
-      "disallow"
-    ]
-  },
-  {
-    "word": "promote",
-    "answer": "to support or advance",
-    "definition": "To help something grow or increase.",
-    "options": [
-      "to support or advance",
-      "to stop",
-      "to reduce",
-      "to hide"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "encourage",
-      "foster",
-      "advance",
-      "support"
-    ]
-  },
-  {
-    "word": "proportion",
-    "answer": "relation of parts",
-    "definition": "A comparative relationship between things.",
-    "options": [
-      "relation of parts",
-      "randomness of parts",
-      "speed of movement",
-      "weight of an object"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "ratio",
-      "balance",
-      "distribution",
-      "relation"
-    ]
-  },
-  {
-    "word": "qualify",
-    "answer": "to meet requirements",
-    "definition": "To be eligible for something.",
-    "options": [
-      "to meet requirements",
-      "to fail",
-      "to ignore",
-      "to reject"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "be eligible",
-      "meet requirements",
-      "be entitled",
-      "be suited"
-    ]
-  },
-  {
-    "word": "random",
-    "answer": "without pattern",
-    "definition": "Happening without specific order.",
-    "options": [
-      "without pattern",
-      "organized",
-      "planned",
-      "fixed"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "arbitrary",
-      "haphazard",
-      "unsystematic",
-      "chance"
-    ]
-  },
-  {
-    "word": "reconcile",
-    "answer": "to restore harmony",
-    "definition": "To bring into agreement.",
-    "options": [
-      "to restore harmony",
-      "to separate",
-      "to fight",
-      "to ignore"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "resolve",
-      "harmonize",
-      "settle",
-      "reunite"
-    ]
-  },
-  {
-    "word": "refine",
-    "answer": "to improve",
-    "definition": "To make something better or purer.",
-    "options": [
-      "to improve",
-      "to destroy",
-      "to ignore",
-      "to reduce"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "improve",
-      "polish",
-      "perfect",
-      "purify"
-    ]
-  },
-  {
-    "word": "reinforce",
-    "answer": "to strengthen",
-    "definition": "To make something stronger.",
-    "options": [
-      "to strengthen",
-      "to weaken",
-      "to remove",
-      "to hide"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "strengthen",
-      "bolster",
-      "support",
-      "fortify"
-    ]
-  },
-  {
-    "word": "reject",
-    "answer": "to refuse",
-    "definition": "To not accept something.",
-    "options": [
-      "to refuse",
-      "to accept",
-      "to create",
-      "to approve"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "refuse",
-      "decline",
-      "dismiss",
-      "turn down"
-    ]
-  },
-  {
-    "word": "relevant",
-    "answer": "related and important",
-    "definition": "Closely connected to the topic.",
-    "options": [
-      "related and important",
-      "off-topic and unimportant",
-      "pointless and useless",
-      "randomly chosen"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "pertinent",
-      "applicable",
-      "related",
-      "apt"
-    ]
-  },
-  {
-    "word": "reluctant",
-    "answer": "unwilling",
-    "definition": "Not wanting to do something.",
-    "options": [
-      "unwilling",
-      "eager",
-      "excited",
-      "happy"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "unwilling",
-      "hesitant",
-      "disinclined",
-      "loath"
-    ]
-  },
-  {
-    "word": "remove",
-    "answer": "to take away",
-    "definition": "To eliminate something.",
-    "options": [
-      "to take away",
-      "to add",
-      "to build",
-      "to create"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "eliminate",
-      "take away",
-      "extract",
-      "delete"
-    ]
-  },
-  {
-    "word": "require",
-    "answer": "to need",
-    "definition": "To make something necessary.",
-    "options": [
-      "to need",
-      "to ignore",
-      "to remove",
-      "to cancel"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "need",
-      "demand",
-      "necessitate",
-      "call for"
-    ]
-  },
-  {
-    "word": "resemble",
-    "answer": "to look like",
-    "definition": "To be similar in appearance.",
-    "options": [
-      "to look like",
-      "to differ",
-      "to hide",
-      "to change"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "look like",
-      "mirror",
-      "take after",
-      "be similar to"
-    ]
-  },
-  {
-    "word": "resilient",
-    "answer": "able to recover quickly",
-    "definition": "Able to recover from difficulties.",
-    "options": [
-      "able to recover quickly",
-      "easily broken down",
-      "fragile and delicate",
-      "permanently damaged"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "tough",
-      "adaptable",
-      "hardy",
-      "durable"
-    ]
-  },
-  {
-    "word": "resist",
-    "answer": "to oppose",
-    "definition": "To fight against something.",
-    "options": [
-      "to oppose",
-      "to accept",
-      "to support",
-      "to allow"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "withstand",
-      "oppose",
-      "defy",
-      "fight"
-    ]
-  },
-  {
-    "word": "restrict",
-    "answer": "to limit",
-    "definition": "To control or reduce access.",
-    "options": [
-      "to limit",
-      "to expand",
-      "to ignore",
-      "to allow"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "limit",
-      "confine",
-      "curb",
-      "constrain"
-    ]
-  },
-  {
-    "word": "retain",
-    "answer": "to keep",
-    "definition": "To continue to have something.",
-    "options": [
-      "to keep",
-      "to lose",
-      "to forget",
-      "to remove"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "keep",
-      "preserve",
-      "maintain",
-      "hold onto"
-    ]
-  },
-  {
-    "word": "reveal",
-    "answer": "to show",
-    "definition": "To make something known.",
-    "options": [
-      "to show",
-      "to hide",
-      "to delete",
-      "to confuse"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "disclose",
-      "expose",
-      "uncover",
-      "unveil"
-    ]
-  },
-  {
-    "word": "scrutinize",
-    "answer": "to examine closely",
-    "definition": "To inspect in detail.",
-    "options": [
-      "to examine closely",
-      "to ignore",
-      "to guess",
-      "to skip"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "examine",
-      "inspect",
-      "analyze",
-      "study closely"
-    ]
-  },
-  {
-    "word": "select",
-    "answer": "to choose",
-    "definition": "To pick from a group.",
-    "options": [
-      "to choose",
-      "to reject everything",
-      "to destroy",
-      "to ignore"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "choose",
-      "pick",
-      "opt for",
-      "elect"
-    ]
-  },
-  {
-    "word": "significant",
-    "answer": "important",
-    "definition": "Having great meaning or importance.",
-    "options": [
-      "important",
-      "small",
-      "random",
-      "weak"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "important",
-      "notable",
-      "considerable",
-      "meaningful"
-    ]
-  },
-  {
-    "word": "substantial",
-    "answer": "large in amount",
-    "definition": "Considerable or significant in size.",
-    "options": [
-      "large in amount",
-      "very small in amount",
-      "completely empty",
-      "weak or minor"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "considerable",
-      "sizable",
-      "ample",
-      "significant"
-    ]
-  },
-  {
-    "word": "substitute",
-    "answer": "replacement",
-    "definition": "Something used instead of another.",
-    "options": [
-      "replacement",
-      "original",
-      "cause",
-      "result"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "replacement",
-      "alternative",
-      "stand-in",
-      "proxy"
-    ]
-  },
-  {
-    "word": "subtle",
-    "answer": "not obvious",
-    "definition": "Difficult to notice or detect.",
-    "options": [
-      "not obvious",
-      "very clear",
-      "loud",
-      "simple"
-    ],
-    "source": "Non-Official Material",
-    "synonyms": [
-      "understated",
-      "nuanced",
-      "faint",
-      "delicate"
-    ]
-  },
-  {
-    "source": "Non-Official Material",
-    "word": "succinct",
-    "answer": "brief and clear",
-    "definition": "Expressed in a few clear words.",
-    "options": [
-      "brief and clear",
-      "long and confusing",
-      "vague",
-      "angry",
-      "slow"
-    ],
-    "synonyms": [
       "concise",
+      "wordy",
+      "vague",
+      "rambling",
+      "lengthy"
+    ],
+    "synonyms": [
       "brief",
-      "terse",
-      "to the point"
+      "curt",
+      "succinct",
+      "abrupt"
     ]
   },
   {
-    "word": "sustain",
-    "answer": "to maintain",
-    "definition": "To keep something going.",
+    "source": "Official Material",
+    "word": "tumescent",
+    "answer": "swollen",
+    "definition": "Swollen or enlarged beyond normal due to internal pressure.",
     "options": [
-      "to maintain",
-      "to stop",
-      "to break",
-      "to reduce"
+      "swollen",
+      "shrunken",
+      "flat",
+      "deflated",
+      "smooth"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "maintain",
-      "support",
-      "prolong",
-      "uphold"
+      "distended",
+      "bloated",
+      "puffed up",
+      "inflamed"
     ]
   },
   {
-    "word": "tangible",
-    "answer": "physical or real",
-    "definition": "Able to be touched or clearly real.",
+    "source": "Official Material",
+    "word": "universal",
+    "answer": "all-encompassing",
+    "definition": "Relating to or covering the whole of something, without exception.",
     "options": [
-      "physical or real",
-      "imaginary or unreal",
-      "hidden and unclear",
-      "abstract and vague"
+      "all-encompassing",
+      "narrowly limited",
+      "rarely applicable",
+      "locally confined",
+      "partially valid"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "concrete",
-      "palpable",
-      "real",
-      "touchable"
+      "global",
+      "widespread",
+      "general",
+      "worldwide"
     ]
   },
   {
-    "source": "Non-Official Material",
-    "word": "tenacious",
-    "answer": "holding firmly",
-    "definition": "Tending to keep a firm hold of something.",
+    "source": "Official Material",
+    "word": "unpretentious",
+    "answer": "modest",
+    "definition": "Not showy, elaborate, or self-important; modest.",
     "options": [
-      "holding firmly",
-      "weak",
-      "careless",
-      "slow",
-      "confused"
+      "modest",
+      "flashy",
+      "arrogant",
+      "boastful",
+      "showy"
+    ],
+    "synonyms": [
+      "humble",
+      "unassuming",
+      "simple",
+      "understated"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "unrelenting",
+    "answer": "relentless",
+    "definition": "Not yielding in strength, intensity, or determination, despite pressure to do so.",
+    "options": [
+      "relentless",
+      "flexible",
+      "yielding",
+      "compliant",
+      "agreeable"
     ],
     "synonyms": [
       "persistent",
-      "determined",
-      "steadfast",
-      "unyielding"
+      "unyielding",
+      "stubborn",
+      "inexorable"
     ]
   },
   {
-    "word": "terminate",
-    "answer": "to end",
-    "definition": "To bring something to an end.",
+    "source": "Official Material",
+    "word": "vacillate",
+    "answer": "waver",
+    "definition": "To waver between different opinions or actions; to hesitate.",
     "options": [
-      "to end",
-      "to start",
-      "to continue",
-      "to expand"
+      "waver",
+      "commit firmly",
+      "decide instantly",
+      "remain steady",
+      "stand firm"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "end",
-      "conclude",
-      "finish",
-      "stop"
+      "hesitate",
+      "fluctuate",
+      "oscillate",
+      "dither"
     ]
   },
   {
-    "word": "transform",
-    "answer": "to change completely",
-    "definition": "To change form or appearance.",
+    "source": "Official Material",
+    "word": "vacuous",
+    "answer": "empty-headed",
+    "definition": "Lacking substance or intelligence; empty of meaningful content.",
     "options": [
-      "to change completely",
-      "to keep same",
-      "to hide",
-      "to destroy"
+      "empty-headed",
+      "sharp-minded",
+      "quick-witted",
+      "well-informed",
+      "deep-thinking"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "change",
-      "convert",
-      "alter",
-      "transmute"
+      "vacant",
+      "unintelligent",
+      "inane",
+      "mindless"
     ]
   },
   {
-    "word": "transition",
-    "answer": "change from one state to another",
-    "definition": "The process of change.",
+    "source": "Official Material",
+    "word": "valorous",
+    "answer": "brave",
+    "definition": "Showing or feeling great courage; fearless.",
     "options": [
-      "change from one state to another",
-      "stability",
-      "end",
-      "start only"
+      "brave",
+      "cowardly",
+      "timid",
+      "fearful",
+      "hesitant"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "change",
-      "shift",
-      "changeover",
-      "conversion"
+      "courageous",
+      "heroic",
+      "gallant",
+      "valiant"
     ]
   },
   {
-    "word": "transmit",
-    "answer": "to send",
-    "definition": "To pass something from one place to another.",
+    "source": "Official Material",
+    "word": "verdant",
+    "answer": "lush",
+    "definition": "Covered with thick, healthy green vegetation.",
     "options": [
-      "to send",
-      "to stop",
-      "to hide",
-      "to break"
+      "lush",
+      "barren",
+      "dry",
+      "rocky",
+      "withered"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "send",
-      "convey",
-      "transfer",
-      "relay"
+      "green",
+      "leafy",
+      "flourishing",
+      "verdurous"
     ]
   },
   {
-    "word": "ultimate",
-    "answer": "final or most important",
-    "definition": "The last or most significant.",
+    "source": "Official Material",
+    "word": "vex",
+    "answer": "annoy",
+    "definition": "To disturb, annoy, or worry someone.",
     "options": [
-      "final or most important",
-      "first or earliest",
-      "randomly chosen",
-      "minor or unimportant"
+      "annoy",
+      "soothe",
+      "please",
+      "comfort",
+      "calm"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "final",
-      "last",
-      "supreme",
-      "definitive"
+      "irritate",
+      "bother",
+      "irk",
+      "provoke"
     ]
   },
   {
-    "word": "vague",
-    "answer": "unclear",
-    "definition": "Not clearly expressed.",
+    "source": "Official Material",
+    "word": "virulent",
+    "answer": "toxic",
+    "definition": "Extremely dangerous, harmful, or deadly.",
     "options": [
-      "unclear",
-      "very detailed",
-      "very bright",
-      "very loud"
+      "toxic",
+      "harmless",
+      "mild",
+      "beneficial",
+      "gentle"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "unclear",
-      "hazy",
-      "ambiguous",
-      "imprecise"
+      "poisonous",
+      "lethal",
+      "malignant",
+      "noxious"
     ]
   },
   {
-    "word": "valid",
-    "answer": "legally or logically correct",
-    "definition": "Acceptable or reasonable.",
+    "source": "Official Material",
+    "word": "vitalize",
+    "answer": "revitalize",
+    "definition": "To give life, vigor, or spirit to something.",
     "options": [
-      "legally or logically correct",
-      "clearly incorrect",
-      "false and misleading",
-      "useless and pointless"
+      "revitalize",
+      "exhaust",
+      "weaken",
+      "deplete",
+      "tire"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "legitimate",
-      "sound",
-      "acceptable",
-      "reasonable"
+      "energize",
+      "invigorate",
+      "animate",
+      "stimulate"
     ]
   },
   {
-    "word": "verify",
-    "answer": "to confirm",
-    "definition": "To check accuracy or truth.",
+    "source": "Official Material",
+    "word": "weep",
+    "answer": "cry",
+    "definition": "To shed tears, typically as an expression of emotion.",
     "options": [
-      "to confirm",
-      "to guess",
-      "to ignore",
-      "to hide"
+      "cry",
+      "laugh",
+      "sleep",
+      "shout",
+      "smile"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "confirm",
-      "check",
-      "validate",
-      "corroborate"
+      "sob",
+      "wail",
+      "whimper",
+      "blubber"
     ]
   },
   {
-    "word": "viable",
-    "answer": "possible",
-    "definition": "Capable of working successfully.",
+    "source": "Official Material",
+    "word": "willowy",
+    "answer": "supple",
+    "definition": "Gracefully slender and flexible; able to bend without breaking.",
     "options": [
-      "possible",
-      "impossible",
-      "useless",
-      "random"
+      "supple",
+      "rigid",
+      "stiff",
+      "brittle",
+      "inflexible"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "workable",
-      "feasible",
-      "practicable",
-      "sustainable"
+      "pliant",
+      "lithe",
+      "flexible",
+      "graceful"
     ]
   },
   {
-    "word": "voluntary",
-    "answer": "done by choice",
-    "definition": "Not forced; done willingly.",
+    "source": "Official Material",
+    "word": "winsome",
+    "answer": "charming",
+    "definition": "Having a charming or attractive quality that wins affection.",
     "options": [
-      "done by choice",
-      "done under force",
-      "required by law",
-      "mandatory for everyone"
+      "charming",
+      "repulsive",
+      "grumpy",
+      "hostile",
+      "dull"
     ],
-    "source": "Non-Official Material",
     "synonyms": [
-      "willing",
-      "unforced",
-      "discretionary",
-      "elective"
+      "engaging",
+      "endearing",
+      "appealing",
+      "delightful"
+    ]
+  },
+  {
+    "source": "Official Material",
+    "word": "writhe",
+    "answer": "squirm",
+    "definition": "To make continual twisting or squirming movements, often from pain.",
+    "options": [
+      "squirm",
+      "stand still",
+      "sit calmly",
+      "sleep soundly",
+      "walk steadily"
+    ],
+    "synonyms": [
+      "wriggle",
+      "contort",
+      "twist",
+      "thrash"
     ]
   }
 ]

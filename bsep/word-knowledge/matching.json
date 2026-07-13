@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Page 1 Words — Synonym Matching",
+    "pairs": [
+      { "word": "Abhor", "synonym": "Hate deeply" },
+      { "word": "Abrupt", "synonym": "Sudden" },
+      { "word": "Abstemious", "synonym": "Self-controlled" },
+      { "word": "Abundant", "synonym": "Plenty" },
+      { "word": "Acquiescence", "synonym": "Agree without protest" },
+      { "word": "Admonish", "synonym": "Warn or scold" },
+      { "word": "Adversary", "synonym": "Opponent" },
+      { "word": "Agile", "synonym": "Move quickly" },
+      { "word": "Allude", "synonym": "Suggest indirectly" },
+      { "word": "Amalgamation", "synonym": "Blend or mixture" },
+      { "word": "Assail", "synonym": "Attack" },
+      { "word": "Attrition", "synonym": "Gradual loss" },
+      { "word": "Banish", "synonym": "Remove or send away" },
+      { "word": "Berate", "synonym": "Criticize harshly" },
+      { "word": "Bigotry", "synonym": "Prejudice" },
+      { "word": "Boast", "synonym": "Brag" },
+      { "word": "Bombastic", "synonym": "Excessively showy speech" },
+      { "word": "Brawn", "synonym": "Physical strength" },
+      { "word": "Canny", "synonym": "Clever and shrewd" },
+      { "word": "Circumvent", "synonym": "Avoid cleverly" }
+    ]
+  },
+  {
+    "title": "Page 2 Words — Synonym Matching",
+    "pairs": [
+      { "word": "Commiserate", "synonym": "Express sympathy" },
+      { "word": "Communiqué", "synonym": "Official report" },
+      { "word": "Concoct", "synonym": "Invent" },
+      { "word": "Concur", "synonym": "Agree" },
+      { "word": "Construe", "synonym": "Interpret" },
+      { "word": "Contemplate", "synonym": "Think deeply" },
+      { "word": "Contentious", "synonym": "Argumentative" },
+      { "word": "Conversant", "synonym": "Knowledgeable" },
+      { "word": "Cynical", "synonym": "Distrustful" },
+      { "word": "Decipher", "synonym": "Decode" },
+      { "word": "Decorum", "synonym": "Proper behavior" },
+      { "word": "Decry", "synonym": "Criticize publicly" },
+      { "word": "Defer", "synonym": "Delay or yield" },
+      { "word": "Demoralize", "synonym": "Discourage" },
+      { "word": "Deplete", "synonym": "Use up" },
+      { "word": "Diminish", "synonym": "Reduce" },
+      { "word": "Disclose", "synonym": "Reveal" },
+      { "word": "Disparity", "synonym": "Difference" },
+      { "word": "Dossier", "synonym": "File of documents" },
+      { "word": "Elusive", "synonym": "Hard to find" }
+    ]
+  },
+  {
+    "title": "Page 3 Words — Drill A: Basic Matching",
+    "pairs": [
+      { "word": "Erratic", "synonym": "Unpredictable" },
+      { "word": "Fervor", "synonym": "Passion" },
+      { "word": "Impediment", "synonym": "Obstacle" },
+      { "word": "Gaudy", "synonym": "Flashy" },
+      { "word": "Glean", "synonym": "Gather" },
+      { "word": "Impetuous", "synonym": "Rash" },
+      { "word": "Hiatus", "synonym": "Break" },
+      { "word": "Hindrance", "synonym": "Barrier" },
+      { "word": "Foster", "synonym": "Encourage" },
+      { "word": "Hypocrisy", "synonym": "Insincerity" }
+    ]
+  },
+  {
+    "title": "Page 3 Words — Drill B: AFCT Challenge Matching",
+    "pairs": [
+      { "word": "Flagrant", "synonym": "Obvious" },
+      { "word": "Fortuitous", "synonym": "Chance" },
+      { "word": "Feign", "synonym": "Pretend" },
+      { "word": "Fecund", "synonym": "Fertile" },
+      { "word": "Faction", "synonym": "Group" },
+      { "word": "Hankering", "synonym": "Desire" },
+      { "word": "Hesitant", "synonym": "Unsure" },
+      { "word": "Horrendous", "synonym": "Terrible" },
+      { "word": "Illusion", "synonym": "Misconception" },
+      { "word": "Impromptu", "synonym": "Unplanned" }
+    ]
+  },
+  {
+    "title": "Page 4 Words — Synonym Matching",
+    "pairs": [
+      { "word": "Inept", "synonym": "Unskilled" },
+      { "word": "Meticulous", "synonym": "Careful" },
+      { "word": "Neophyte", "synonym": "Beginner" },
+      { "word": "Nebulous", "synonym": "Vague" },
+      { "word": "Nullify", "synonym": "Cancel" },
+      { "word": "Obstinate", "synonym": "Stubborn" },
+      { "word": "Invigorate", "synonym": "Energize" },
+      { "word": "Lambaste", "synonym": "Criticize" },
+      { "word": "Loathe", "synonym": "Hate" },
+      { "word": "Perforate", "synonym": "Pierce" }
+    ]
+  },
+  {
+    "title": "Page 5 Words — Drill A: Core Matching",
+    "pairs": [
+      { "word": "Perilous", "synonym": "Dangerous" },
+      { "word": "Petrify", "synonym": "Frighten" },
+      { "word": "Pliable", "synonym": "Flexible" },
+      { "word": "Plummet", "synonym": "Fall" },
+      { "word": "Polarize", "synonym": "Divide" },
+      { "word": "Rebuke", "synonym": "Criticize" },
+      { "word": "Sequester", "synonym": "Isolate" },
+      { "word": "Sever", "synonym": "Cut" },
+      { "word": "Sham", "synonym": "Fake" },
+      { "word": "Stalwart", "synonym": "Loyal" }
+    ]
+  },
+  {
+    "title": "Page 5 Words — Drill B: Advanced Matching",
+    "pairs": [
+      { "word": "Ponderous", "synonym": "Slow" },
+      { "word": "Predisposed", "synonym": "Inclined" },
+      { "word": "Prosaic", "synonym": "Dull" },
+      { "word": "Purblind", "synonym": "Unaware" },
+      { "word": "Quiescence", "synonym": "Calm" },
+      { "word": "Schism", "synonym": "Division" },
+      { "word": "Scornful", "synonym": "Disrespectful" },
+      { "word": "Skepticism", "synonym": "Doubt" },
+      { "word": "Soluble", "synonym": "Solvable" },
+      { "word": "Obvious", "synonym": "Clear" }
+    ]
+  }
+]
