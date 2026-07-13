@@ -408,7 +408,7 @@
         <div class="match-board" id="matchBoard"></div>
         <div class="match-bank" id="matchBank"></div>
         <div class="match-actions">
-          <button class="btn-check" id="matchCheckBtn" onclick="checkMatchBlock()">Check Answers</button>
+          <button class="btn-check" id="matchCheckBtn" onclick="checkMatchPage()">Check Answers</button>
         </div>
         <div style="text-align:center;">
           <button class="btn-reset" onclick="resetMatching()">Reset Matching Drills</button>
@@ -676,10 +676,11 @@
         localStorage.removeItem(STORAGE_PREFIX + 'elapsed');
         localStorage.removeItem(STORAGE_PREFIX + 'started');
         localStorage.removeItem(MATCH_PREFIX + 'blockIndex');
+        localStorage.removeItem(MATCH_PREFIX + 'pageIndex');
         localStorage.removeItem(MATCH_PREFIX + 'score');
-        localStorage.removeItem(MATCH_PREFIX + 'completed');
+        localStorage.removeItem(MATCH_PREFIX + 'completedPages');
         currentPage = 0; score = 0; done = new Set(); correctAnswers = new Set(); elapsedSeconds = 0; quizStarted = false;
-        matchBlockIndex = 0; matchScore = 0; matchCompletedBlocks = new Set(); matchBlockScored = false;
+        matchBlockIndex = 0; matchPageIndex = 0; matchScore = 0; matchCompletedPages = new Set(); matchPageScored = false;
         document.getElementById('startScreen').style.display = 'flex';
         document.getElementById('quizContent').style.display = 'none';
         document.getElementById('matchSection').style.display = 'none';
@@ -687,28 +688,32 @@
       }
 
       /* ── Matching Drills ── */
+      var MATCH_CHUNK_SIZE = 5;
       var matchBlocks = [];
       var matchBlockIndex = 0;
+      var matchPageIndex = 0;
       var matchScore = 0;
-      var matchCompletedBlocks = new Set();
-      var matchBlockScored = false;
+      var matchCompletedPages = new Set(); // "blockIdx-pageIdx" of chunks already scored/completed
+      var matchPageScored = false;
       var slotContents = {};       // word -> synonym currently placed in that word's slot
-      var matchSlotEls = {};       // word -> slot element (current block)
-      var matchChipEls = {};       // synonym -> chip element (current block)
+      var matchSlotEls = {};       // word -> slot element (current chunk)
+      var matchChipEls = {};       // synonym -> chip element (current chunk)
       var chipPlacement = new WeakMap(); // chip element -> word it's currently placed on
       var MATCH_PREFIX = STORAGE_PREFIX + 'match_';
 
       function saveMatchProgress() {
         localStorage.setItem(MATCH_PREFIX + 'blockIndex', matchBlockIndex);
+        localStorage.setItem(MATCH_PREFIX + 'pageIndex', matchPageIndex);
         localStorage.setItem(MATCH_PREFIX + 'score', matchScore);
-        localStorage.setItem(MATCH_PREFIX + 'completed', JSON.stringify(Array.from(matchCompletedBlocks)));
+        localStorage.setItem(MATCH_PREFIX + 'completedPages', JSON.stringify(Array.from(matchCompletedPages)));
       }
 
       function loadMatchProgress() {
         matchBlockIndex = parseInt(localStorage.getItem(MATCH_PREFIX + 'blockIndex')) || 0;
+        matchPageIndex = parseInt(localStorage.getItem(MATCH_PREFIX + 'pageIndex')) || 0;
         matchScore = parseInt(localStorage.getItem(MATCH_PREFIX + 'score')) || 0;
-        var savedCompleted = localStorage.getItem(MATCH_PREFIX + 'completed');
-        if (savedCompleted) matchCompletedBlocks = new Set(JSON.parse(savedCompleted));
+        var savedCompleted = localStorage.getItem(MATCH_PREFIX + 'completedPages');
+        if (savedCompleted) matchCompletedPages = new Set(JSON.parse(savedCompleted));
       }
 
       fetch('matching.json')
@@ -719,8 +724,8 @@
           loadMatchProgress();
           if (document.getElementById('matchSection').style.display === 'flex') {
             document.getElementById('matchCheckBtn').style.display = '';
-            if (matchBlockIndex >= matchBlocks.length) matchBlockIndex = 0;
-            renderMatchBlock(matchBlockIndex);
+            if (matchBlockIndex >= matchBlocks.length) { matchBlockIndex = 0; matchPageIndex = 0; }
+            renderMatchPage(matchBlockIndex, matchPageIndex);
           }
         })
         .catch(function() { matchBlocks = []; });
@@ -729,13 +734,23 @@
         return matchBlocks.reduce(function(sum, b) { return sum + b.pairs.length; }, 0);
       }
 
+      function totalPagesInBlock(block) {
+        return Math.ceil(block.pairs.length / MATCH_CHUNK_SIZE);
+      }
+
+      function currentChunk() {
+        var block = matchBlocks[matchBlockIndex];
+        var start = matchPageIndex * MATCH_CHUNK_SIZE;
+        return block.pairs.slice(start, start + MATCH_CHUNK_SIZE);
+      }
+
       function startMatching() {
         document.getElementById('startScreen').style.display = 'none';
         document.getElementById('quizContent').style.display = 'none';
         document.getElementById('matchSection').style.display = 'flex';
         if (matchBlocks.length > 0) {
-          if (matchBlockIndex >= matchBlocks.length) matchBlockIndex = 0;
-          renderMatchBlock(matchBlockIndex);
+          if (matchBlockIndex >= matchBlocks.length) { matchBlockIndex = 0; matchPageIndex = 0; }
+          renderMatchPage(matchBlockIndex, matchPageIndex);
         } else {
           document.getElementById('matchTitle').textContent = 'Loading…';
           document.getElementById('matchSubtitle').textContent = '';
@@ -753,10 +768,12 @@
         document.getElementById('startScreen').style.display = 'flex';
       }
 
-      function renderMatchBlock(idx) {
-        matchBlockIndex = idx;
-        matchBlockScored = false;
-        var block = matchBlocks[idx];
+      function renderMatchPage(blockIdx, pageIdx) {
+        matchBlockIndex = blockIdx;
+        matchPageIndex = pageIdx;
+        matchPageScored = false;
+        var block = matchBlocks[blockIdx];
+        var chunk = currentChunk();
         slotContents = {};
         matchSlotEls = {};
         matchChipEls = {};
@@ -764,11 +781,14 @@
 
         document.getElementById('matchTitle').textContent = block.title;
         document.getElementById('matchSubtitle').textContent = 'Drag each definition to the word it matches.';
-        document.getElementById('matchProgress').textContent = 'Drill ' + (idx + 1) + ' of ' + matchBlocks.length + ' | Score: ' + matchScore + ' / ' + totalMatchPairs();
+        document.getElementById('matchProgress').textContent =
+          'Drill ' + (blockIdx + 1) + ' of ' + matchBlocks.length +
+          ' — Page ' + (pageIdx + 1) + ' of ' + totalPagesInBlock(block) +
+          ' | Score: ' + matchScore + ' / ' + totalMatchPairs();
 
         var board = document.getElementById('matchBoard');
         board.innerHTML = '';
-        block.pairs.forEach(function(pair) {
+        chunk.forEach(function(pair) {
           var row = document.createElement('div');
           row.className = 'match-row';
           var wordDiv = document.createElement('div');
@@ -786,8 +806,8 @@
 
         var bank = document.getElementById('matchBank');
         bank.innerHTML = '';
-        var shuffledPairs = block.pairs.slice().sort(function() { return Math.random() - 0.5; });
-        shuffledPairs.forEach(function(pair) {
+        var shuffledChunk = chunk.slice().sort(function() { return Math.random() - 0.5; });
+        shuffledChunk.forEach(function(pair) {
           var chip = document.createElement('div');
           chip.className = 'match-chip';
           chip.textContent = pair.synonym;
@@ -800,7 +820,7 @@
         btn.style.display = '';
         btn.disabled = true;
         btn.textContent = 'Check Answers';
-        btn.onclick = checkMatchBlock;
+        btn.onclick = checkMatchPage;
 
         saveMatchProgress();
       }
@@ -892,18 +912,20 @@
       }
 
       function updateCheckButtonState() {
-        var block = matchBlocks[matchBlockIndex];
-        var allFilled = block.pairs.every(function(p) { return !!slotContents[p.word]; });
+        var chunk = currentChunk();
+        var allFilled = chunk.every(function(p) { return !!slotContents[p.word]; });
         document.getElementById('matchCheckBtn').disabled = !allFilled;
       }
 
-      function checkMatchBlock() {
+      function checkMatchPage() {
         var block = matchBlocks[matchBlockIndex];
+        var chunk = currentChunk();
+        var pageKey = matchBlockIndex + '-' + matchPageIndex;
         var allCorrect = true;
-        var firstAttempt = !matchBlockScored && !matchCompletedBlocks.has(matchBlockIndex);
+        var firstAttempt = !matchPageScored && !matchCompletedPages.has(pageKey);
         var correctCountThisCheck = 0;
 
-        block.pairs.forEach(function(pair) {
+        chunk.forEach(function(pair) {
           var slot = matchSlotEls[pair.word];
           var placed = slotContents[pair.word];
           var isCorrect = placed === pair.synonym;
@@ -928,20 +950,29 @@
 
         if (firstAttempt) {
           matchScore += correctCountThisCheck;
-          matchBlockScored = true;
+          matchPageScored = true;
           saveMatchProgress();
         }
 
-        document.getElementById('matchProgress').textContent = 'Drill ' + (matchBlockIndex + 1) + ' of ' + matchBlocks.length + ' | Score: ' + matchScore + ' / ' + totalMatchPairs();
+        document.getElementById('matchProgress').textContent =
+          'Drill ' + (matchBlockIndex + 1) + ' of ' + matchBlocks.length +
+          ' — Page ' + (matchPageIndex + 1) + ' of ' + totalPagesInBlock(block) +
+          ' | Score: ' + matchScore + ' / ' + totalMatchPairs();
 
         var btn = document.getElementById('matchCheckBtn');
         if (allCorrect) {
-          matchCompletedBlocks.add(matchBlockIndex);
+          matchCompletedPages.add(pageKey);
           saveMatchProgress();
-          if (matchBlockIndex < matchBlocks.length - 1) {
+          var isLastPageOfBlock = matchPageIndex >= totalPagesInBlock(block) - 1;
+          var isLastBlock = matchBlockIndex >= matchBlocks.length - 1;
+          if (!isLastPageOfBlock) {
+            btn.textContent = 'Next 5 →';
+            btn.disabled = false;
+            btn.onclick = function() { renderMatchPage(matchBlockIndex, matchPageIndex + 1); };
+          } else if (!isLastBlock) {
             btn.textContent = 'Next Drill →';
             btn.disabled = false;
-            btn.onclick = function() { renderMatchBlock(matchBlockIndex + 1); };
+            btn.onclick = function() { renderMatchPage(matchBlockIndex + 1, 0); };
           } else {
             finishMatching();
           }
@@ -964,13 +995,15 @@
 
       function resetMatching() {
         matchBlockIndex = 0;
+        matchPageIndex = 0;
         matchScore = 0;
-        matchCompletedBlocks = new Set();
-        matchBlockScored = false;
+        matchCompletedPages = new Set();
+        matchPageScored = false;
         localStorage.removeItem(MATCH_PREFIX + 'blockIndex');
+        localStorage.removeItem(MATCH_PREFIX + 'pageIndex');
         localStorage.removeItem(MATCH_PREFIX + 'score');
-        localStorage.removeItem(MATCH_PREFIX + 'completed');
-        if (matchBlocks.length > 0) renderMatchBlock(0);
+        localStorage.removeItem(MATCH_PREFIX + 'completedPages');
+        if (matchBlocks.length > 0) renderMatchPage(0, 0);
       }
     </script>
   </body>
