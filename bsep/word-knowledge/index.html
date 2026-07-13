@@ -104,6 +104,31 @@
       }
       .btn-start:active { transform: scale(0.97); }
 
+      .mode-grid {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        max-width: 560px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .mode-card {
+        flex: 1 1 220px;
+        background: #0f172a;
+        border: 1px solid #1e293b;
+        border-radius: 16px;
+        padding: 28px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+      }
+      .mode-icon { font-size: 36px; }
+      .mode-card h3 { font-size: 16px; font-weight: 700; color: #f1f5f9; }
+      .mode-card p { font-size: 13px; color: #94a3b8; line-height: 1.5; margin-bottom: 4px; }
+      .mode-card .btn-start { padding: 12px 28px; font-size: 14px; }
+
       .quiz-content { display: none; flex-direction: column; }
 
       .question-card {
@@ -337,9 +362,22 @@
 
       <div class="start-screen" id="startScreen">
         <div class="icon">📖</div>
-        <h2>Ready?</h2>
-        <p>You will be presented with <strong id="totalQuestions">0</strong> vocabulary questions. Choose the answer closest in meaning to each word.</p>
-        <button class="btn-start" id="startBtn" onclick="startQuiz()">Start</button>
+        <h2>Choose an exercise</h2>
+        <p>Two ways to practice Word Knowledge vocabulary.</p>
+        <div class="mode-grid">
+          <div class="mode-card">
+            <div class="mode-icon">📝</div>
+            <h3>Multiple Choice</h3>
+            <p><strong id="totalQuestions">0</strong> vocabulary questions. Choose the answer closest in meaning to each word.</p>
+            <button class="btn-start" id="startBtn" onclick="startQuiz()">Start Quiz</button>
+          </div>
+          <div class="mode-card">
+            <div class="mode-icon">🔗</div>
+            <h3>Matching Drills</h3>
+            <p><strong id="totalMatchPairsLabel">0</strong> word/synonym pairs across 7 drills. Drag each definition to its word.</p>
+            <button class="btn-start" id="startMatchBtn" onclick="startMatching()">Start Matching</button>
+          </div>
+        </div>
       </div>
 
       <div class="quiz-content" id="quizContent">
@@ -361,7 +399,7 @@
       </div>
 
       <div class="match-section" id="matchSection">
-        <a class="match-back" href="#" onclick="backToResults(); return false;">← Back to results</a>
+        <a class="match-back" href="#" onclick="backToMenu(); return false;">← Back to menu</a>
         <div class="match-header">
           <h2 id="matchTitle">Matching Drill</h2>
           <p id="matchSubtitle">Drag each definition to the word it matches.</p>
@@ -677,6 +715,7 @@
         .then(function(r) { return r.json(); })
         .then(function(data) {
           matchBlocks = data;
+          document.getElementById('totalMatchPairsLabel').textContent = totalMatchPairs();
           loadMatchProgress();
           if (document.getElementById('matchSection').style.display === 'flex') {
             document.getElementById('matchCheckBtn').style.display = '';
@@ -691,6 +730,7 @@
       }
 
       function startMatching() {
+        document.getElementById('startScreen').style.display = 'none';
         document.getElementById('quizContent').style.display = 'none';
         document.getElementById('matchSection').style.display = 'flex';
         if (matchBlocks.length > 0) {
@@ -707,9 +747,10 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }
 
-      function backToResults() {
+      function backToMenu() {
         document.getElementById('matchSection').style.display = 'none';
-        document.getElementById('quizContent').style.display = 'flex';
+        document.getElementById('quizContent').style.display = 'none';
+        document.getElementById('startScreen').style.display = 'flex';
       }
 
       function renderMatchBlock(idx) {
