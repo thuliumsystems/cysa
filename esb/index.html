@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expert Soldier Badge — US Army 2026</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0d0f0e;
+    --card-bg: rgba(255,255,255,.04);
+    --accent: #4a7c2e;
+    --accent-glow: #5c9a38;
+    --gold: #c4a44a;
+    --gold-glow: #dbb84d;
+    --text: #d4d9d4;
+    --text-dim: #7a807a;
+    --border: rgba(255,255,255,.08);
+    --red: #c0392b;
+    --red-glow: #e74c3c;
+  }
+
+  html, body { width: 100%; height: 100%; overflow: hidden; font-family: 'Titillium Web', sans-serif; background: var(--bg); color: var(--text); }
+
+  .slideshow { width: 100%; height: 100%; position: relative; }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .5s ease, transform .5s ease;
+    transform: translateX(60px);
+    overflow-y: auto;
+    padding: 3rem 1rem 6rem;
+  }
+
+  .slide.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+
+  .slide.prev { transform: translateX(-60px); }
+
+  .slide-content {
+    width: 90vw;
+    max-width: 1000px;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .slide-number {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: .8rem;
+    color: var(--accent-glow);
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+  }
+
+  .slide-badge {
+    display: inline-block;
+    background: rgba(74,124,46,.15);
+    border: 1px solid rgba(74,124,46,.3);
+    color: var(--accent-glow);
+    font-size: .65rem;
+    padding: .15em .75em;
+    border-radius: 99px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .slide-icon {
+    font-size: 4rem;
+    margin-bottom: .5rem;
+    filter: drop-shadow(0 0 20px rgba(74,124,46,.35));
+  }
+
+  .slide h1 {
+    font-size: clamp(1.6rem, 3.5vw, 2.5rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--gold);
+    text-shadow: 0 0 40px rgba(196,164,74,.3);
+    margin-bottom: .25rem;
+  }
+
+  .slide h2 {
+    font-size: .9rem;
+    font-weight: 300;
+    color: var(--text-dim);
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    margin-bottom: 1.75rem;
+  }
+
+  .slide h3 {
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: var(--gold);
+    margin-bottom: .5rem;
+  }
+
+  /* Cards grid */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: .85rem;
+    margin: 1rem 0;
+  }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem .9rem;
+    text-align: left;
+    transition: border-color .3s;
+  }
+
+  .card:hover { border-color: var(--accent); }
+
+  .card h4 {
+    font-size: .7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: var(--accent-glow);
+    margin-bottom: .4rem;
+  }
+
+  .card p {
+    font-size: .82rem;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+
+  /* Highlights row */
+  .highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.25rem;
+  }
+
+  .highlight {
+    text-align: center;
+  }
+
+  .highlight-val {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gold);
+  }
+
+  .highlight-label {
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--text-dim);
+  }
+
+  /* Step list - for weapons check / procedures */
+  .steps {
+    list-style: none;
+    text-align: left;
+    max-width: 650px;
+    margin: 1rem auto;
+    counter-reset: step;
+  }
+
+  .steps li {
+    counter-increment: step;
+    position: relative;
+    padding: .6rem .6rem .6rem 3.2rem;
+    border-left: 2px solid var(--border);
+    margin-left: 1rem;
+    font-size: .85rem;
+    line-height: 1.6;
+    color: var(--text-dim);
+    transition: border-color .3s, color .3s;
+  }
+
+  .steps li:hover {
+    border-left-color: var(--accent);
+    color: var(--text);
+  }
+
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: -1rem;
+    top: .5rem;
+    width: 1.65rem; height: 1.65rem;
+    border-radius: 50%;
+    background: rgba(74,124,46,.15);
+    border: 1px solid rgba(74,124,46,.3);
+    color: var(--accent-glow);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+
+  .steps li strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .steps li .note {
+    display: block;
+    font-size: .7rem;
+    color: var(--red);
+    letter-spacing: .05em;
+    margin-top: .15rem;
+  }
+
+  /* 9-line table */
+  .niner {
+    width: 100%;
+    max-width: 800px;
+    margin: 1.25rem auto;
+    border-collapse: collapse;
+    font-size: .8rem;
+    text-align: left;
+  }
+
+  .niner th, .niner td {
+    padding: .3rem .5rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.35;
+  }
+
+  .niner th {
+    width: 65px;
+    color: var(--gold);
+    font-weight: 600;
+    font-size: .62rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    white-space: nowrap;
+  }
+
+  .niner td {
+    color: var(--text-dim);
+    font-size: .68rem;
+  }
+
+  .niner td strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .niner tr:last-child td, .niner tr:last-child th { border-bottom: none; }
+
+  .niner .example-line th {
+    color: var(--accent-glow);
+  }
+
+  .niner .example-line td {
+    color: var(--accent-glow);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: .78rem;
+  }
+
+  .niner-sep {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: .7rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    padding: .75rem 0;
+  }
+
+  .niner-sep span {
+    display: inline-block;
+    border-top: 1px solid var(--border);
+    padding: 0 2rem;
+    margin-top: .5rem;
+    padding-top: .5rem;
+  }
+
+  /* Two columns */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    text-align: left;
+    margin: 1rem 0;
+  }
+
+  @media (max-width: 700px) {
+    .two-col { grid-template-columns: 1fr; }
+  }
+
+  .col-box {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+
+  .col-box h4 {
+    font-size: .7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: var(--accent-glow);
+    margin-bottom: .75rem;
+  }
+
+  .col-box p, .col-box li {
+    font-size: .82rem;
+    color: var(--text-dim);
+    line-height: 1.7;
+  }
+
+  .col-box ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .col-box ul li::before {
+    content: '\25B8';
+    color: var(--accent);
+    margin-right: .5rem;
+  }
+
+  /* Tag */
+  .tag {
+    display: inline-block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: .6rem;
+    padding: .15em .55em;
+    border-radius: 4px;
+    margin-right: .3rem;
+    letter-spacing: .1em;
+  }
+  .tag-green { background: rgba(74,124,46,.2); color: var(--accent-glow); }
+  .tag-red { background: rgba(192,57,43,.2); color: var(--red-glow); }
+  .tag-gold { background: rgba(196,164,74,.15); color: var(--gold); }
+
+  /* Precedence badges */
+  .prec {
+    display: inline-flex;
+    gap: .6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: .75rem 0;
+  }
+
+  .prec-item {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: .7rem;
+    padding: .3rem .75rem;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+  }
+  .prec-item.urgent { border-color: var(--red); color: var(--red-glow); background: rgba(192,57,43,.1); }
+  .prec-item.priority { border-color: #e67e22; color: #e67e22; background: rgba(230,126,34,.1); }
+  .prec-item.routine { border-color: var(--accent); color: var(--accent-glow); background: rgba(74,124,46,.1); }
+  .prec-item.convenience { border-color: var(--border); color: var(--text-dim); }
+
+  /* Controls */
+  .controls {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(transparent, rgba(0,0,0,.7));
+    pointer-events: none;
+  }
+
+  .controls > * { pointer-events: auto; }
+
+  .nav-btn {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,.04);
+    color: var(--text);
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .25s;
+    backdrop-filter: blur(8px);
+  }
+
+  .nav-btn:hover {
+    background: rgba(255,255,255,.1);
+    border-color: var(--accent);
+    color: var(--gold);
+  }
+
+  .nav-btn:active { transform: scale(.92); }
+
+  .fullscreen-btn {
+    width: 36px; height: 36px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,.04);
+    color: var(--text);
+    font-size: .9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .25s;
+    backdrop-filter: blur(8px);
+  }
+
+  .fullscreen-btn:hover {
+    background: rgba(255,255,255,.1);
+    border-color: var(--accent);
+    color: var(--gold);
+  }
+
+  /* Progress */
+  .progress-bar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: rgba(255,255,255,.05);
+    z-index: 100;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--accent-glow);
+    transition: width .5s ease;
+    box-shadow: 0 0 8px var(--accent-glow);
+  }
+
+  .dots {
+    display: flex;
+    gap: .35rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.12);
+    transition: all .3s;
+  }
+
+  .dot.active { background: var(--accent-glow); box-shadow: 0 0 6px var(--accent-glow); transform: scale(1.4); }
+
+  .kbd-hint {
+    position: fixed;
+    top: .75rem; right: 1rem;
+    font-size: .6rem;
+    color: var(--text-dim);
+    letter-spacing: .1em;
+    z-index: 101;
+    opacity: .5;
+  }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .cards { grid-template-columns: 1fr; }
+    .slide-content { width: 96vw; }
+    .controls { padding: .75rem; }
+    .kbd-hint { display: none; }
+    .slide { padding: 2rem .5rem 5rem; }
+    .slide h1 { font-size: 1.3rem; }
+    .slide-icon { font-size: 2.5rem; }
+    .niner { font-size: .68rem; }
+    .niner th { width: 90px; font-size: .6rem; }
+  }
+
+  /* Title slide */
+  .title-slide { align-items: center; }
+  .title-slide .slide-icon { font-size: 5rem; }
+  .title-slide h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+  .title-slide .subtitle {
+    font-size: 1rem;
+    color: var(--text-dim);
+    margin-top: 0;
+    letter-spacing: .4em;
+    font-weight: 300;
+  }
+</style>
+</head>
+<body>
+
+<div class="slideshow" id="slideshow">
+
+  <!-- 0: Title -->
+  <div class="slide title-slide active" data-index="0">
+    <div class="slide-content">
+      <div class="slide-icon">&#11088;</div>
+      <h1>Expert Soldier Badge</h1>
+      <p class="subtitle">US ARMY 2026</p>
+      <div style="margin-top:2.5rem">
+        <div class="highlights">
+          <div class="highlight"><div class="highlight-val">16</div><div class="highlight-label">Slides</div></div>
+          <div class="highlight"><div class="highlight-val">8</div><div class="highlight-label">Fases</div></div>
+          <div class="highlight"><div class="highlight-val">100%</div><div class="highlight-label">Prontidao</div></div>
+        </div>
+      </div>
+      <p style="margin-top:2rem;font-size:.7rem;color:var(--text-dim);letter-spacing:.15em">
+        &#8592; &nbsp; SETAS &nbsp; &middot; &nbsp; CLIQUE &nbsp; &middot; &nbsp; SWIPE &nbsp; &middot; &nbsp; F = FULLSCREEN &nbsp; &#8594;
+      </p>
+    </div>
+  </div>
+
+   <!-- 1: AFT -->
+  <div class="slide" data-index="1">
+    <div class="slide-content">
+      <div class="slide-number">FASE 01 &bull; AFT</div>
+      <div class="slide-icon">&#x1F4AA;</div>
+      <h1>Army Fitness Test</h1>
+      <h2>Pre-requisito Obrigatorio &bull; Minimo: 80 pts por Evento &bull; Max: 500 pts &bull; 70 min</h2>
+      <div class="cards">
+        <div class="card"><h4>1. 3-Rep Max Deadlift (MDL)</h4><p>Hex bar 60 lbs. 3 repeticoes continuas. Max 2 tentativas. Forca total: posterior, gluteos, core.</p></div>
+        <div class="card"><h4>2. Hand-Release Push-Up (HRP)</h4><p>Flexao com T-release (bracos abertos). Max reps em 2 min. Corpo alinhado — peito, quadril e coxas no chao.</p></div>
+        <div class="card"><h4>3. Sprint-Drag-Carry (SDC)</h4><p>5 legs x 50m = 250m total. Sprint &rarr; Drag sled 90 lbs &rarr; Lateral &rarr; Carry 2x40 lbs kettlebells &rarr; Sprint final.</p></div>
+        <div class="card"><h4>4. Plank (PLK)</h4><p>Prancha isometrica (antebracos + ponta dos pes). Tempo maximo ate falha. 1 advertencia verbal antes de terminar.</p></div>
+        <div class="card"><h4>5. 2-Mile Run (2MR)</h4><p>Corrida de 3.2 km em pista ou pavimento. Walking permitido. Ultimo evento — pacing e estrategia criticos.</p></div>
+      </div>
+      <div class="highlights">
+        <div class="highlight"><div class="highlight-val">80</div><div class="highlight-label">Min. por Evento</div></div>
+        <div class="highlight"><div class="highlight-val">500</div><div class="highlight-label">Score Maximo</div></div>
+        <div class="highlight"><div class="highlight-val">5</div><div class="highlight-label">Eventos</div></div>
+        <div class="highlight"><div class="highlight-val">70 min</div><div class="highlight-label">Tempo Total</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2: Land Nav -->
+  <div class="slide" data-index="2">
+    <div class="slide-content">
+      <div class="slide-number">FASE 02</div>
+      <div class="slide-icon">&#x1F9ED;</div>
+      <h1>Land Navigation</h1>
+      <h2>Orientacao Terrestre &bull; 1:25,000 &bull; Curso Diurno</h2>
+
+      <div style="display:grid;grid-template-columns:1fr 185px;gap:.75rem;margin:1rem 0;align-items:start;">
+        <!-- Map -->
+        <div style="background:#1e221a;border:1px solid rgba(255,255,255,.1);border-radius:6px;overflow:hidden;">
+          <svg viewBox="0 0 680 440" style="width:100%;height:auto;display:block;" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <clipPath id="mclip2"><rect x="45" y="45" width="590" height="350"/></clipPath>
+            </defs>
+
+            <!-- Map area background -->
+            <rect x="45" y="45" width="590" height="350" fill="#252a20"/>
+
+            <g clip-path="url(#mclip2)">
+              <!-- Grid lines horizontal -->
+              <g stroke="rgba(255,255,255,.08)" stroke-width=".4">
+                <line x1="45" y1="80" x2="635" y2="80"/><line x1="45" y1="115" x2="635" y2="115"/>
+                <line x1="45" y1="150" x2="635" y2="150"/><line x1="45" y1="185" x2="635" y2="185"/>
+                <line x1="45" y1="220" x2="635" y2="220"/><line x1="45" y1="255" x2="635" y2="255"/>
+                <line x1="45" y1="290" x2="635" y2="290"/><line x1="45" y1="325" x2="635" y2="325"/>
+                <line x1="45" y1="360" x2="635" y2="360"/>
+              </g>
+              <!-- Grid lines vertical -->
+              <g stroke="rgba(255,255,255,.08)" stroke-width=".4">
+                <line x1="80" y1="45" x2="80" y2="395"/><line x1="115" y1="45" x2="115" y2="395"/>
+                <line x1="150" y1="45" x2="150" y2="395"/><line x1="185" y1="45" x2="185" y2="395"/>
+                <line x1="220" y1="45" x2="220" y2="395"/><line x1="255" y1="45" x2="255" y2="395"/>
+                <line x1="290" y1="45" x2="290" y2="395"/><line x1="325" y1="45" x2="325" y2="395"/>
+                <line x1="360" y1="45" x2="360" y2="395"/><line x1="395" y1="45" x2="395" y2="395"/>
+                <line x1="430" y1="45" x2="430" y2="395"/><line x1="465" y1="45" x2="465" y2="395"/>
+                <line x1="500" y1="45" x2="500" y2="395"/><line x1="535" y1="45" x2="535" y2="395"/>
+                <line x1="570" y1="45" x2="570" y2="395"/><line x1="605" y1="45" x2="605" y2="395"/>
+              </g>
+
+              <!-- Rivers / streams -->
+              <path d="M635 170 Q570 165 530 155 Q480 140 440 160 Q390 185 340 175 Q280 160 220 180 Q170 195 120 185 Q80 175 45 185"
+                    fill="none" stroke="#4a80a0" stroke-width="2.5" stroke-linecap="round"/>
+              <!-- Tributary -->
+              <path d="M340 175 Q320 220 290 260 Q260 300 250 340 Q245 370 250 395"
+                    fill="none" stroke="#3a6880" stroke-width="1.5" stroke-linecap="round"/>
+
+              <!-- Roads (black) -->
+              <path d="M45 110 L120 110 Q160 110 200 150 Q250 200 280 180 Q320 155 370 140 Q420 125 480 100 Q540 80 605 60"
+                    fill="none" stroke="#8a8a80" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- Secondary road -->
+              <path d="M280 180 Q300 250 320 310 Q330 350 310 395"
+                    fill="none" stroke="#6a6a60" stroke-width="1.5" stroke-dasharray="8,3" stroke-linecap="round"/>
+
+              <!-- Contour lines (brown) - Main hill -->
+              <g fill="none" stroke="rgba(180,140,80,.5)" stroke-width=".6">
+                <ellipse cx="460" cy="260" rx="12" ry="9"/>
+                <ellipse cx="460" cy="260" rx="24" ry="20"/>
+                <ellipse cx="460" cy="260" rx="38" ry="32"/>
+                <ellipse cx="460" cy="260" rx="54" ry="44"/>
+                <ellipse cx="460" cy="260" rx="72" ry="58"/>
+                <ellipse cx="460" cy="260" rx="90" ry="74"/>
+                <ellipse cx="460" cy="260" rx="110" ry="90"/>
+                <ellipse cx="460" cy="260" rx="130" ry="108"/>
+              </g>
+              <!-- Index contours (every 5th, thicker) -->
+              <ellipse cx="460" cy="260" rx="54" ry="44" fill="none" stroke="rgba(200,160,90,.7)" stroke-width="1.2"/>
+              <ellipse cx="460" cy="260" rx="110" ry="90" fill="none" stroke="rgba(200,160,90,.7)" stroke-width="1.2"/>
+              <text x="460" y="233" text-anchor="middle" fill="rgba(200,160,90,.8)" font-size="9" font-weight="700" font-family="Titillium Web">490</text>
+
+              <!-- Small hill -->
+              <g fill="none" stroke="rgba(180,140,80,.4)" stroke-width=".5">
+                <ellipse cx="160" cy="300" rx="8" ry="6"/>
+                <ellipse cx="160" cy="300" rx="18" ry="14"/>
+                <ellipse cx="160" cy="300" rx="30" ry="24"/>
+                <ellipse cx="160" cy="300" rx="44" ry="36"/>
+              </g>
+              <ellipse cx="160" cy="300" rx="18" ry="14" fill="none" stroke="rgba(200,160,90,.6)" stroke-width="1.1"/>
+              <text x="160" y="278" text-anchor="middle" fill="rgba(200,160,90,.7)" font-size="8" font-weight="700" font-family="Titillium Web">310</text>
+
+              <!-- Depression -->
+              <g fill="none" stroke="rgba(180,140,80,.4)" stroke-width=".5">
+                <ellipse cx="300" cy="100" rx="25" ry="18"/>
+                <ellipse cx="300" cy="100" rx="16" ry="11"/>
+                <ellipse cx="300" cy="100" rx="8" ry="6"/>
+              </g>
+              <!-- Depression tick marks -->
+              <g stroke="rgba(180,140,80,.45)" stroke-width=".5">
+                <line x1="285" y1="92" x2="281" y2="89"/><line x1="295" y1="88" x2="293" y2="84"/>
+                <line x1="308" y1="90" x2="311" y2="86"/><line x1="316" y1="97" x2="320" y2="94"/>
+                <line x1="312" y1="106" x2="316" y2="109"/><line x1="297" y1="109" x2="300" y2="113"/>
+                <line x1="287" y1="103" x2="284" y2="107"/>
+              </g>
+
+              <!-- Ridge line -->
+              <path d="M460 260 Q370 280 300 290 Q240 298 160 300" fill="none" stroke="rgba(180,140,80,.2)" stroke-width=".7" stroke-dasharray="10,4"/>
+
+              <!-- Forest -->
+              <g fill="rgba(80,140,90,.15)" stroke="rgba(80,130,80,.25)" stroke-width=".6">
+                <ellipse cx="530" cy="120" rx="55" ry="40"/>
+                <ellipse cx="560" cy="160" rx="40" ry="35"/>
+                <ellipse cx="510" cy="340" rx="65" ry="50"/>
+                <ellipse cx="560" cy="360" rx="35" ry="30"/>
+              </g>
+              <!-- Tree symbols in forest -->
+              <g fill="rgba(80,130,80,.12)">
+                <circle cx="520" cy="105" r="8"/><circle cx="540" cy="115" r="7"/><circle cx="550" cy="100" r="9"/>
+                <circle cx="545" cy="150" r="7"/><circle cx="570" cy="155" r="8"/>
+                <circle cx="500" cy="330" r="9"/><circle cx="520" cy="350" r="8"/><circle cx="540" cy="340" r="7"/>
+                <circle cx="555" cy="355" r="8"/><circle cx="510" cy="310" r="6"/><circle cx="530" cy="325" r="7"/>
+              </g>
+
+              <!-- ===== COURSE POINTS ===== -->
+              <!-- Alpha (start) -->
+              <circle cx="185" cy="220" r="14" fill="rgba(60,140,60,.2)" stroke="#3c8c3c" stroke-width="2.5"/>
+              <circle cx="185" cy="220" r="4" fill="#3c8c3c"/>
+              <text x="185" y="205" text-anchor="middle" fill="#2d6e2d" font-size="11" font-weight="900" font-family="Share Tech Mono">A</text>
+
+              <!-- Bravo -->
+              <circle cx="340" cy="160" r="13" fill="none" stroke="#c41e3a" stroke-width="2.5"/>
+              <circle cx="340" cy="160" r="7" fill="none" stroke="#c41e3a" stroke-width="1"/>
+              <circle cx="340" cy="160" r="3" fill="#c41e3a"/>
+              <text x="340" y="145" text-anchor="middle" fill="#a01830" font-size="11" font-weight="900" font-family="Share Tech Mono">B</text>
+
+              <!-- Charlie -->
+              <circle cx="460" cy="252" r="13" fill="none" stroke="#c41e3a" stroke-width="2.5"/>
+              <circle cx="460" cy="252" r="7" fill="none" stroke="#c41e3a" stroke-width="1"/>
+              <circle cx="460" cy="252" r="3" fill="#c41e3a"/>
+              <text x="460" y="275" text-anchor="middle" fill="#a01830" font-size="11" font-weight="900" font-family="Share Tech Mono">C</text>
+
+              <!-- Delta -->
+              <circle cx="530" cy="125" r="13" fill="none" stroke="#c41e3a" stroke-width="2.5"/>
+              <circle cx="530" cy="125" r="7" fill="none" stroke="#c41e3a" stroke-width="1"/>
+              <circle cx="530" cy="125" r="3" fill="#c41e3a"/>
+              <text x="530" y="110" text-anchor="middle" fill="#a01830" font-size="11" font-weight="900" font-family="Share Tech Mono">D</text>
+
+              <!-- Echo (no-find) -->
+              <circle cx="100" cy="320" r="13" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="4,2"/>
+              <circle cx="100" cy="320" r="3" fill="#999"/>
+              <text x="88" y="308" fill="#888" font-size="11" font-weight="900" font-family="Share Tech Mono">E</text>
+
+              <!-- Route lines with arrows -->
+              <!-- A -> B -->
+              <line x1="185" y1="220" x2="340" y2="160" stroke="#c41e3a" stroke-width="1.5" stroke-dasharray="6,3" opacity=".6"/>
+              <polygon points="340,160 328,157 332,168" fill="#c41e3a" opacity=".7"/>
+              <text x="250" y="183" fill="#a01830" font-size="8" font-weight="700" font-family="Share Tech Mono">AZ 68&#176;</text>
+              <text x="250" y="193" fill="#666" font-size="7" font-family="Titillium Web">980m &bull; 640p</text>
+
+              <!-- B -> C -->
+              <line x1="340" y1="160" x2="460" y2="252" stroke="#c41e3a" stroke-width="1.5" stroke-dasharray="6,3" opacity=".6"/>
+              <polygon points="460,252 448,246 453,258" fill="#c41e3a" opacity=".7"/>
+              <text x="385" y="210" fill="#a01830" font-size="8" font-weight="700" font-family="Share Tech Mono">AZ 128&#176;</text>
+              <text x="385" y="220" fill="#666" font-size="7" font-family="Titillium Web">780m &bull; 620p</text>
+
+              <!-- C -> D -->
+              <line x1="460" y1="252" x2="530" y2="125" stroke="#c41e3a" stroke-width="1.5" stroke-dasharray="6,3" opacity=".6"/>
+              <polygon points="530,125 518,128 524,137" fill="#c41e3a" opacity=".7"/>
+              <text x="475" y="183" fill="#a01830" font-size="8" font-weight="700" font-family="Share Tech Mono">AZ 30&#176;</text>
+              <text x="475" y="193" fill="#666" font-size="7" font-family="Titillium Web">840m &bull; 550p</text>
+
+              <!-- D -> E (no-find) -->
+              <line x1="530" y1="125" x2="100" y2="320" stroke="#999" stroke-width="1.3" stroke-dasharray="5,3" opacity=".4"/>
+              <polygon points="100,320 112,318 108,330" fill="#999" opacity=".5"/>
+              <text x="330" y="240" fill="#777" font-size="8" font-weight="700" font-family="Share Tech Mono">AZ 247&#176;</text>
+              <text x="330" y="250" fill="#999" font-size="7" font-family="Titillium Web">2520m &bull; 2000p</text>
+            </g>
+
+            <!-- Map border -->
+            <rect x="45" y="45" width="590" height="350" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="2"/>
+
+            <!-- Grid labels top -->
+            <g font-family="Share Tech Mono" font-size="7.5" fill="rgba(255,255,255,.25)">
+              <text x="80" y="40" text-anchor="middle">01</text><text x="115" y="40" text-anchor="middle">02</text>
+              <text x="150" y="40" text-anchor="middle">03</text><text x="185" y="40" text-anchor="middle">04</text>
+              <text x="220" y="40" text-anchor="middle">05</text><text x="255" y="40" text-anchor="middle">06</text>
+              <text x="290" y="40" text-anchor="middle">07</text><text x="325" y="40" text-anchor="middle">08</text>
+              <text x="360" y="40" text-anchor="middle">09</text><text x="395" y="40" text-anchor="middle">10</text>
+              <text x="430" y="40" text-anchor="middle">11</text><text x="465" y="40" text-anchor="middle">12</text>
+              <text x="500" y="40" text-anchor="middle">13</text><text x="535" y="40" text-anchor="middle">14</text>
+              <text x="570" y="40" text-anchor="middle">15</text><text x="605" y="40" text-anchor="middle">16</text>
+            </g>
+            <!-- Grid labels bottom -->
+            <g font-family="Share Tech Mono" font-size="7.5" fill="rgba(255,255,255,.25)">
+              <text x="80" y="412" text-anchor="middle">01</text><text x="115" y="412" text-anchor="middle">02</text>
+              <text x="150" y="412" text-anchor="middle">03</text><text x="185" y="412" text-anchor="middle">04</text>
+              <text x="220" y="412" text-anchor="middle">05</text><text x="255" y="412" text-anchor="middle">06</text>
+              <text x="290" y="412" text-anchor="middle">07</text><text x="325" y="412" text-anchor="middle">08</text>
+              <text x="360" y="412" text-anchor="middle">09</text><text x="395" y="412" text-anchor="middle">10</text>
+              <text x="430" y="412" text-anchor="middle">11</text><text x="465" y="412" text-anchor="middle">12</text>
+              <text x="500" y="412" text-anchor="middle">13</text><text x="535" y="412" text-anchor="middle">14</text>
+              <text x="570" y="412" text-anchor="middle">15</text><text x="605" y="412" text-anchor="middle">16</text>
+            </g>
+            <!-- Grid labels left -->
+            <g font-family="Share Tech Mono" font-size="7.5" fill="rgba(255,255,255,.25)">
+              <text x="38" y="84" text-anchor="end">20</text><text x="38" y="119" text-anchor="end">19</text>
+              <text x="38" y="154" text-anchor="end">18</text><text x="38" y="189" text-anchor="end">17</text>
+              <text x="38" y="224" text-anchor="end">16</text><text x="38" y="259" text-anchor="end">15</text>
+              <text x="38" y="294" text-anchor="end">14</text><text x="38" y="329" text-anchor="end">13</text>
+              <text x="38" y="364" text-anchor="end">12</text>
+            </g>
+            <!-- Grid labels right -->
+            <g font-family="Share Tech Mono" font-size="7.5" fill="rgba(255,255,255,.25)">
+              <text x="643" y="84" text-anchor="start">20</text><text x="643" y="119" text-anchor="start">19</text>
+              <text x="643" y="154" text-anchor="start">18</text><text x="643" y="189" text-anchor="start">17</text>
+              <text x="643" y="224" text-anchor="start">16</text><text x="643" y="259" text-anchor="start">15</text>
+              <text x="643" y="294" text-anchor="start">14</text><text x="643" y="329" text-anchor="start">13</text>
+              <text x="643" y="364" text-anchor="start">12</text>
+            </g>
+
+            <!-- North Arrow -->
+            <g transform="translate(630,55)">
+              <polygon points="0,-20 6,14 -6,14" fill="#c41e3a"/>
+              <polygon points="0,-20 0,14 -6,14" fill="#901a30"/>
+              <text x="0" y="-26" text-anchor="middle" fill="rgba(255,255,255,.6)" font-size="11" font-weight="900" font-family="Titillium Web">N</text>
+              <line x1="0" y1="14" x2="14" y2="4" stroke="rgba(255,255,255,.2)" stroke-width=".8"/>
+              <text x="16" y="6" fill="rgba(255,255,255,.3)" font-size="7" font-family="Titillium Web">MN</text>
+              <text x="0" y="24" text-anchor="middle" fill="rgba(255,255,255,.25)" font-size="6" font-family="Titillium Web">GN 0&deg;</text>
+            </g>
+
+            <!-- Scale bar -->
+            <g transform="translate(48,405)">
+              <rect x="0" y="0" width="100" height="3" fill="rgba(255,255,255,.4)"/>
+              <rect x="0" y="0" width="50" height="3" fill="#252a20"/>
+              <rect x="50" y="0" width="50" height="3" fill="rgba(255,255,255,.4)"/>
+              <line x1="0" y1="-1" x2="0" y2="5" stroke="rgba(255,255,255,.4)" stroke-width=".8"/>
+              <line x1="50" y1="-1" x2="50" y2="5" stroke="rgba(255,255,255,.4)" stroke-width=".8"/>
+              <line x1="100" y1="-1" x2="100" y2="5" stroke="rgba(255,255,255,.4)" stroke-width=".8"/>
+              <text x="0" y="13" fill="rgba(255,255,255,.5)" font-size="7" font-family="Share Tech Mono">0</text>
+              <text x="50" y="13" text-anchor="middle" fill="rgba(255,255,255,.5)" font-size="7" font-family="Share Tech Mono">500</text>
+              <text x="100" y="13" text-anchor="end" fill="rgba(255,255,255,.5)" font-size="7" font-family="Share Tech Mono">1 km</text>
+              <text x="130" y="7" fill="rgba(255,255,255,.3)" font-size="7" font-family="Titillium Web">SCALE 1:25,000</text>
+            </g>
+
+            <!-- Sheet info top left -->
+            <text x="48" y="28" font-family="Titillium Web" font-size="9" font-weight="700" fill="rgba(255,255,255,.5)">NORTH CAROLINA &mdash; TRAINING AREA</text>
+            <text x="632" y="28" text-anchor="end" font-family="Share Tech Mono" font-size="8" fill="rgba(255,255,255,.3)">SERIES V741</text>
+
+            <!-- Sheet info bottom -->
+            <text x="340" y="435" text-anchor="middle" font-family="Titillium Web" font-size="7" fill="rgba(255,255,255,.2)" font-style="italic">CONTOUR INTERVAL 10 FEET &bull; DATUM NAD83 &bull; G-M ANGLE 6&deg; W (2026)</text>
+          </svg>
+        </div>
+
+        <!-- Side panel -->
+        <div style="display:flex;flex-direction:column;gap:.5rem;font-size:.68rem;">
+          <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:6px;padding:.6rem .7rem;">
+            <div style="font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.3rem;">Sheet</div>
+            <div style="color:var(--text-dim);">Training Area<br>ENCAMPMENT<br>1:25,000 &bull; NAD83</div>
+          </div>
+          <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:6px;padding:.6rem .7rem;">
+            <div style="font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.3rem;">Points (6-digit MGRS)</div>
+            <div style="color:var(--text-dim);font-family:Share Tech Mono;font-size:.62rem;line-height:1.7;">
+              <span style="color:#3c8c3c;">A</span> 045 166<br>
+              <span style="color:#c41e3a;">B</span> 083 183<br>
+              <span style="color:#c41e3a;">C</span> 130 153<br>
+              <span style="color:#c41e3a;">D</span> 160 187<br>
+              <span style="color:#888;">E</span> 026 137
+            </div>
+          </div>
+          <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:6px;padding:.6rem .7rem;">
+            <div style="font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.3rem;">Declination</div>
+            <div style="color:var(--text-dim);line-height:1.7;">
+              GN 0&deg; TN<br>
+              MN 6&deg; W GN<br>
+              <strong style="color:var(--gold);">G-M Angle: 6&deg;</strong>
+            </div>
+          </div>
+          <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:6px;padding:.6rem .7rem;">
+            <div style="font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.3rem;">Course</div>
+            <div style="color:var(--text-dim);line-height:1.7;font-size:.62rem;">
+              A&rarr;B: 980m<br>B&rarr;C: 780m<br>C&rarr;D: 840m<br>D&rarr;E: 2520m<br>
+              <strong style="color:var(--gold);">Total: 5.1 km</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Protrator illustration -->
+      <div style="display:flex;gap:1rem;align-items:start;justify-content:center;flex-wrap:wrap;margin-top:.5rem;">
+        <div style="display:flex;align-items:center;gap:.5rem;background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.5rem .8rem;">
+          <svg width="60" height="50" viewBox="0 0 60 50">
+            <!-- Mini protractor -->
+            <path d="M2,45 L30,5 L58,45 Z" fill="rgba(200,210,220,.25)" stroke="#559" stroke-width="1.5"/>
+            <rect x="2" y="42" width="56" height="4" fill="rgba(200,210,220,.15)" stroke="#559" stroke-width=".8"/>
+            <circle cx="30" cy="20" r="2" fill="#559"/>
+            <text x="30" y="35" text-anchor="middle" fill="#335" font-size="7" font-family="Share Tech Mono">1:25k</text>
+          </svg>
+          <div style="font-size:.65rem;color:var(--text-dim);line-height:1.6;">
+            <strong style="color:var(--text);">Protrator GTA 5-2-12</strong><br>
+            Alinhar na linha de grid. Ler coordenada<br>
+            na escala correta (1:25,000).
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:.5rem;background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.5rem .8rem;">
+          <svg width="50" height="50" viewBox="0 0 50 50">
+            <circle cx="25" cy="25" r="22" fill="none" stroke="#c41e3a" stroke-width="1.5"/>
+            <line x1="25" y1="25" x2="25" y2="3" stroke="#c41e3a" stroke-width="1.2"/>
+            <line x1="25" y1="25" x2="40" y2="18" stroke="#c41e3a" stroke-width="1"/>
+            <polygon points="25,3 22,10 28,10" fill="#c41e3a"/>
+            <path d="M25,14 A11,11 0 0 1 35,22" fill="none" stroke="#c41e3a" stroke-width=".8"/>
+            <text x="38" y="20" fill="#a01830" font-size="7" font-family="Share Tech Mono">68&deg;</text>
+          </svg>
+          <div style="font-size:.65rem;color:var(--text-dim);line-height:1.6;">
+            <strong style="color:var(--text);">Bussola Lensatica M2</strong><br>
+            Azimute no mapa: +6&deg; = azimute magnetico.<br>
+            Ex: AZ mapa 68&deg; &rarr; AZ mag 74&deg;
+          </div>
+        </div>
+
+        <div class="card" style="max-width:240px;"><h4>Pace Count</h4><p style="font-size:.7rem;">65p/100m (plano) &bull; 80p/100m (mato) &bull; 90p/100m (subida) &bull; Verificar azimute a cada 100-200m.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2b: Lensatic Compass -->
+  <div class="slide" data-index="2b">
+    <div class="slide-content">
+      <div class="slide-number">FASE 02 &bull; EQUIPAMENTO</div>
+      <div class="slide-badge">&#x1F9ED; LAND NAV</div>
+      <h1>Bussola Lensatica</h1>
+      <h2>Compass M2 &bull; Componentes e Uso</h2>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1rem 0;align-items:start;">
+
+        <!-- Compass illustration -->
+        <div style="background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:8px;padding:1rem;display:flex;align-items:center;justify-content:center;">
+          <svg viewBox="0 0 360 360" style="width:100%;max-width:300px;height:auto;" xmlns="http://www.w3.org/2000/svg">
+            <!-- Compass body - base -->
+            <rect x="50" y="180" width="260" height="140" rx="10" fill="#4a6741" stroke="#2d4a25" stroke-width="2"/>
+            <!-- Compass body highlight -->
+            <rect x="50" y="180" width="260" height="140" rx="10" fill="url(#cgrad)" opacity=".3"/>
+            <defs>
+              <linearGradient id="cgrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#fff"/>
+                <stop offset="100%" stop-color="#000"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Bezel ring (outer) -->
+            <circle cx="180" cy="195" r="58" fill="#2a2a28" stroke="#555" stroke-width="2.5"/>
+            <circle cx="180" cy="195" r="52" fill="#1a1a18" stroke="#444" stroke-width="1.5"/>
+
+            <!-- Bezel markings (ticks) -->
+            <g stroke="#aaa" stroke-width=".6">
+              <line x1="180" y1="143" x2="180" y2="148"/><line x1="180" y1="242" x2="180" y2="247"/>
+              <line x1="128" y1="195" x2="133" y2="195"/><line x1="227" y1="195" x2="232" y2="195"/>
+              <line x1="143" y1="158" x2="147" y2="162"/><line x1="217" y1="228" x2="213" y2="232"/>
+              <line x1="143" y1="232" x2="147" y2="228"/><line x1="217" y1="158" x2="213" y2="162"/>
+            </g>
+            <!-- Bezel click mechanism (ratchet) -->
+            <circle cx="180" cy="195" r="50" fill="none" stroke="rgba(255,255,255,.08)" stroke-width=".8" stroke-dasharray="2,2.6"/>
+
+            <!-- Floating dial -->
+            <circle cx="180" cy="195" r="44" fill="#faf8f0" stroke="#999" stroke-width="1"/>
+            <circle cx="180" cy="195" r="42" fill="none" stroke="rgba(0,0,0,.05)" stroke-width=".8"/>
+            <!-- Cardinal letters -->
+            <text x="180" y="160" text-anchor="middle" fill="#333" font-size="12" font-weight="900" font-family="Titillium Web">N</text>
+            <text x="180" y="235" text-anchor="middle" fill="#333" font-size="12" font-weight="900" font-family="Titillium Web">S</text>
+            <text x="145" y="198" text-anchor="middle" fill="#333" font-size="12" font-weight="900" font-family="Titillium Web">W</text>
+            <text x="215" y="198" text-anchor="middle" fill="#333" font-size="12" font-weight="900" font-family="Titillium Web">E</text>
+            <!-- Degree markings -->
+            <g stroke="#555" stroke-width=".4" opacity=".5">
+              <line x1="180" y1="154" x2="180" y2="156"/><line x1="180" y1="236" x2="180" y2="234"/>
+              <line x1="141" y1="195" x2="143" y2="195"/><line x1="219" y1="195" x2="217" y2="195"/>
+            </g>
+            <!-- North arrow on dial -->
+            <polygon points="180,153 177,162 183,162" fill="#c41e3a"/>
+            <!-- South arrow -->
+            <polygon points="180,237 177,228 183,228" fill="#333"/>
+            <!-- Cross lines -->
+            <line x1="180" y1="153" x2="180" y2="237" stroke="#333" stroke-width=".5"/>
+            <line x1="137" y1="195" x2="223" y2="195" stroke="#333" stroke-width=".5"/>
+
+            <!-- Center pin -->
+            <circle cx="180" cy="195" r="2.5" fill="#333"/>
+
+            <!-- Bottom edge scale (cm / inches) -->
+            <rect x="65" y="310" width="230" height="3" fill="#ddd" stroke="#999" stroke-width=".5"/>
+            <g stroke="#555" stroke-width=".5">
+              <line x1="65" y1="310" x2="65" y2="316"/><line x1="105" y1="310" x2="105" y2="316"/>
+              <line x1="145" y1="310" x2="145" y2="316"/><line x1="185" y1="310" x2="185" y2="316"/>
+              <line x1="225" y1="310" x2="225" y2="316"/><line x1="265" y1="310" x2="265" y2="316"/>
+              <line x1="295" y1="310" x2="295" y2="314"/>
+            </g>
+            <text x="65" y="303" fill="#555" font-size="7" font-family="Share Tech Mono">0</text>
+            <text x="185" y="303" text-anchor="middle" fill="#555" font-size="7" font-family="Share Tech Mono">5 cm</text>
+            <text x="295" y="303" text-anchor="end" fill="#555" font-size="7" font-family="Share Tech Mono">10</text>
+
+            <!-- Cover (hinged, shown open to left) -->
+            <rect x="25" y="190" width="35" height="50" rx="4" fill="#3a5532" stroke="#2d4a25" stroke-width="1.5"/>
+            <!-- Sighting wire on cover -->
+            <line x1="42" y1="193" x2="42" y2="237" stroke="#ccc" stroke-width="1.5"/>
+            <circle cx="42" cy="215" r="2" fill="#fff"/>
+
+            <!-- Lens (rear sight, hinged open to right) -->
+            <rect x="302" y="190" width="35" height="50" rx="4" fill="#3a5532" stroke="#2d4a25" stroke-width="1.5"/>
+            <!-- Lens opening -->
+            <rect x="310" y="200" width="18" height="20" rx="3" fill="rgba(180,210,255,.3)" stroke="#557" stroke-width=".8"/>
+            <!-- Sighting slot on lens holder -->
+            <line x1="328" y1="193" x2="328" y2="237" stroke="#223" stroke-width=".8"/>
+
+            <!-- Thumb loop (bottom) -->
+            <path d="M155 320 Q155 348 180 348 Q205 348 205 320" fill="none" stroke="#ccc" stroke-width="2.5"/>
+            <text x="180" y="343" text-anchor="middle" fill="#555" font-size="7" font-family="Titillium Web">THUMB LOOP</text>
+
+            <!-- Labels -->
+            <text x="180" y="143" text-anchor="middle" fill="#ccc" font-size="7" font-family="Titillium Web">BEZEL</text>
+            <text x="180" y="260" text-anchor="middle" fill="#ccc" font-size="7" font-family="Titillium Web">FLOATING DIAL</text>
+
+            <!-- Pointer line (luminous index line) -->
+            <line x1="180" y1="180" x2="180" y2="210" stroke="#0f0" stroke-width="1.2" opacity=".6"/>
+          </svg>
+        </div>
+
+        <!-- Right: explanation -->
+        <div style="display:flex;flex-direction:column;gap:.65rem;">
+          <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">Componentes</h4>
+            <ol class="steps" style="margin:0;font-size:.72rem;">
+              <li><strong>Cover (tampa)</strong> — contem o sighting wire para alinhamento</li>
+              <li><strong>Bezel (anel giratorio)</strong> — cliques de 3&deg;, marcacao luminosa</li>
+              <li><strong>Floating Dial</strong> — gira livremente, aponta o Norte magnetico</li>
+              <li><strong>Lens (lente traseira)</strong> — amplia a leitura, sighting slot</li>
+              <li><strong>Thumb Loop</strong> — fixacao no polegar para estabilidade</li>
+              <li><strong>Straightedge</strong> — escala em cm/pol na borda inferior</li>
+            </ol>
+          </div>
+
+          <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">Procedimento: Shoot an Azimuth</h4>
+            <ol class="steps" style="margin:0;font-size:.72rem;">
+              <li><strong>Abrir a bussola</strong> — cover 90&deg;, lens holder ~45&deg;. Posicionar thumb loop no polegar.</li>
+              <li><strong>Girar o bezel</strong> — alinhar o azimute desejado com a linha de indice (index line) preta no corpo.</li>
+              <li><strong>Mirar no alvo</strong> — sighting wire do cover alinhado com o sighting slot da lens.</li>
+              <li><strong>Ler o azimute</strong> — pela lente, ler o valor no floating dial alinhado com o marcador.</li>
+            </ol>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;">
+            <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.6rem .8rem;">
+              <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);margin-bottom:.3rem;">Day Navigation</h4>
+              <p style="font-size:.7rem;color:var(--text-dim);line-height:1.5;">Sighting wire + slot. Precisao de ~1&deg;. Olho dominante na lens.</p>
+            </div>
+            <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.6rem .8rem;">
+              <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);margin-bottom:.3rem;">Night Navigation</h4>
+              <p style="font-size:.7rem;color:var(--text-dim);line-height:1.5;">Marcadores de tritio no bezel e floating dial. Alinhar pontos luminosos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2c: Azimuth & Protractor -->
+  <div class="slide" data-index="2c">
+    <div class="slide-content">
+      <div class="slide-number">FASE 02 &bull; METODO</div>
+      <div class="slide-badge">&#x1F9ED; LAND NAV</div>
+      <h1>Azimute e Protrator</h1>
+      <h2>Plotagem de Coordenadas &bull; Conversao Grid-Magnetico</h2>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1rem 0;align-items:start;">
+
+        <!-- Plotting illustration -->
+        <div style="background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:8px;padding:1rem;">
+          <svg viewBox="0 0 300 320" style="width:100%;max-width:300px;height:auto;" xmlns="http://www.w3.org/2000/svg">
+            <!-- Grid symbol -->
+            <rect x="40" y="40" width="220" height="240" fill="#252a20" stroke="rgba(255,255,255,.12)" stroke-width="1.5"/>
+            <!-- Grid lines -->
+            <line x1="95" y1="40" x2="95" y2="280" stroke="rgba(255,255,255,.07)" stroke-width=".4"/>
+            <line x1="150" y1="40" x2="150" y2="280" stroke="rgba(255,255,255,.12)" stroke-width=".8"/>
+            <line x1="205" y1="40" x2="205" y2="280" stroke="rgba(255,255,255,.07)" stroke-width=".4"/>
+            <line x1="40" y1="100" x2="260" y2="100" stroke="rgba(255,255,255,.07)" stroke-width=".4"/>
+            <line x1="40" y1="160" x2="260" y2="160" stroke="rgba(255,255,255,.12)" stroke-width=".8"/>
+            <line x1="40" y1="220" x2="260" y2="220" stroke="rgba(255,255,255,.07)" stroke-width=".4"/>
+
+            <!-- Grid labels -->
+            <text x="95" y="34" text-anchor="middle" fill="rgba(255,255,255,.3)" font-size="8" font-family="Share Tech Mono">04</text>
+            <text x="150" y="34" text-anchor="middle" fill="rgba(255,255,255,.4)" font-size="9" font-family="Share Tech Mono">05</text>
+            <text x="205" y="34" text-anchor="middle" fill="rgba(255,255,255,.3)" font-size="8" font-family="Share Tech Mono">06</text>
+            <text x="32" y="104" text-anchor="end" fill="rgba(255,255,255,.3)" font-size="8" font-family="Share Tech Mono">17</text>
+            <text x="32" y="164" text-anchor="end" fill="rgba(255,255,255,.4)" font-size="9" font-family="Share Tech Mono">16</text>
+            <text x="32" y="224" text-anchor="end" fill="rgba(255,255,255,.3)" font-size="8" font-family="Share Tech Mono">15</text>
+
+            <!-- Right angle for "Right and Up" -->
+            <line x1="150" y1="160" x2="200" y2="160" stroke="#c41e3a" stroke-width="1"/>
+            <line x1="200" y1="160" x2="200" y2="120" stroke="#c41e3a" stroke-width="1"/>
+            <polygon points="200,120 193,128 207,128" fill="#c41e3a"/>
+            <text x="210" y="125" fill="#e05050" font-size="8" font-weight="700" font-family="Titillium Web">RIGHT</text>
+            <text x="210" y="138" fill="#e05050" font-size="8" font-weight="700" font-family="Titillium Web">AND UP</text>
+
+            <!-- Protractor symbol (simplified) -->
+            <g transform="translate(150,160)" opacity=".8">
+              <rect x="-2" y="0" width="12" height="8" fill="rgba(200,210,240,.15)" stroke="rgba(255,255,255,.3)" stroke-width="1"/>
+              <rect x="0" y="-50" width="8" height="50" fill="rgba(200,210,240,.1)" stroke="rgba(255,255,255,.2)" stroke-width=".8"/>
+              <text x="10" y="-25" fill="rgba(255,255,255,.4)" font-size="8" font-family="Share Tech Mono">3</text>
+              <text x="10" y="-15" fill="rgba(255,255,255,.4)" font-size="8" font-family="Share Tech Mono">2</text>
+              <text x="10" y="-5" fill="rgba(255,255,255,.4)" font-size="8" font-family="Share Tech Mono">1</text>
+              <text x="10" y="6" fill="rgba(255,255,255,.4)" font-size="8" font-family="Share Tech Mono">0</text>
+            </g>
+
+            <!-- Point marker -->
+            <circle cx="200" cy="140" r="5" fill="none" stroke="#c41e3a" stroke-width="2"/>
+            <text x="200" y="132" text-anchor="middle" fill="#e05050" font-size="9" font-weight="900" font-family="Share Tech Mono">B</text>
+
+            <!-- Coordinate label -->
+            <text x="260" y="158" fill="#e05050" font-size="7" font-family="Share Tech Mono">0453 1663</text>
+          </svg>
+        </div>
+
+        <!-- Right panel -->
+        <div style="display:flex;flex-direction:column;gap:.65rem;">
+          <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">1. Plotar Coordenada (6-digit)</h4>
+            <p style="font-size:.72rem;color:var(--text-dim);line-height:1.7;">
+              <strong style="color:var(--text);">0453 1663</strong> = grid 04 <strong>5</strong>3 &bull; 16 <strong>6</strong>3<br><br>
+              Protrator na linha 04. Medir <strong>530m</strong> para direita na escala 1:25k.<br>
+              Protrator na linha 16. Medir <strong>630m</strong> para cima. Marcar o ponto.<br><br>
+              <span style="color:var(--gold);font-style:italic;">Remember: RIGHT AND UP.</span>
+            </p>
+          </div>
+
+          <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">2. Medir Azimute no Mapa (Grid)</h4>
+            <p style="font-size:.72rem;color:var(--text-dim);line-height:1.7;">
+              Conectar ponto A e B com uma reta. Alinhar o centro do protrator em A. Alinhar a linha de base do protrator com a linha de grid vertical mais proxima. Ler o angulo na escala.<br><br>
+              <strong style="color:var(--gold);">Azimute de Grid</strong> &mdash; angulo medido no mapa usando as linhas de grid (GN).
+            </p>
+          </div>
+
+          <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">3. Converter para Azimute Magnetico</h4>
+            <p style="font-size:.72rem;color:var(--text-dim);line-height:1.7;">
+              <strong style="color:var(--gold);">Regra LARS:</strong><br>
+              <span style="background:rgba(196,164,74,.15);padding:.15em .5em;border-radius:4px;font-weight:700;">L</span>eft <strong>Add</strong> &mdash; se MN esta a esquerda de GN, soma o G-M Angle<br>
+              <span style="background:rgba(196,164,74,.15);padding:.15em .5em;border-radius:4px;font-weight:700;">R</span>ight <strong>Subtract</strong> &mdash; se MN esta a direita de GN, subtrai<br><br>
+              <strong>Exemplo:</strong> MN 6&deg; Oeste (W) de GN. MN esta a ESQUERDA. <strong>Soma!</strong><br>
+              Grid AZ 68&deg; + 6&deg; = <strong style="color:var(--gold);">Magnetic AZ 74&deg;</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom row -->
+      <div class="cards">
+        <div class="card"><h4>Plotagem</h4><p>Identificar o quadrado de 1000m pelos 2 primeiros digitos. Medir os 3 ultimos digitos em metros na escala correta do protrator. Sempre da esquerda para direita e de baixo para cima.</p></div>
+        <div class="card"><h4>8-Digit Grid</h4><p>Para precisao de 10m. Ex: 045<strong>3</strong> 166<strong>3</strong>. Os 2 digitos extras dividem o quadrado em 100 partes. Leitura identica mas com escala mais fina.</p></div>
+        <div class="card"><h4>Erro Comum</h4><p>Esquecer de converter Grid AZ para Magnetic AZ — erro de varios graus que pode custar o checkpoint. Sempre verificar o G-M Angle na margem do mapa.</p></div>
+        <div class="card"><h4>Back Azimuth</h4><p>Azimute de retorno. Se AZ &lt; 180&deg;: soma 180. Se AZ &gt; 180&deg;: subtrai 180. Ex: AZ 74&deg; &rarr; back AZ 254&deg;. Usado para confirmar posicao.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3: Weapons Lane Overview -->
+  <div class="slide" data-index="3">
+    <div class="slide-content">
+      <div class="slide-number">FASE 03</div>
+      <div class="slide-icon">&#x1F52B;</div>
+      <h1>Weapons Lane</h1>
+      <h2>Armamento e Emprego &bull; Visao Geral</h2>
+      <div class="cards">
+        <div class="card"><h4>M4 Carbine / M16A4</h4><p>5.56mm. Desmontagem, montagem, functions check, stoppage drills, engajamento ate 300m.</p></div>
+        <div class="card"><h4>M17 / M18 Pistol</h4><p>9mm. Desmontagem, montagem, functions check, transicao de rifle, engajamento 7-25m.</p></div>
+        <div class="card"><h4>M240B (7.62) / M249 (5.56)</h4><p>Metralhadoras: barrel change, headspace &amp; timing (M2 .50), load/reload, belt feed.</p></div>
+        <div class="card"><h4>M320 Grenade Launcher</h4><p>40mm. Standalone e under-barrel. Ajuste de mira leaf/drop. HE e practice rounds.</p></div>
+        <div class="card"><h4>M2 .50 Caliber</h4><p>12.7mm. Headspace &amp; timing gauge. Single shot e automatico. Immediate/remedial action.</p></div>
+        <div class="card"><h4>AT4 / M67 / M18A1</h4><p>AT4 (84mm): backblast area. M67: 5m kill radius. Claymore: aiming stakes + M57 clacker.</p></div>
+      </div>
+      <p style="margin-top:1rem;font-size:.7rem;color:var(--text-dim);letter-spacing:.1em;">
+        PROXIMOS 2 SLIDES: STRIP + FUNCTIONS CHECK &nbsp;&#8594;
+      </p>
+    </div>
+  </div>
+
+  <!-- 4: M4 Strip, Reassembly & Functions Check -->
+  <div class="slide" data-index="4">
+    <div class="slide-content">
+      <div class="slide-number">FASE 03 &bull; DETALHE</div>
+      <div class="slide-badge">&#x1F52B; WEAPONS</div>
+      <h1>M4 Carbine / M16A4</h1>
+      <h2>Field Strip e Functions Check</h2>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;text-align:left;">
+
+        <!-- Left: Strip + Reassembly -->
+        <div style="display:flex;flex-direction:column;gap:.75rem;">
+          <div class="col-box">
+            <h4>&#x1F4E6; Desmontagem (Field Strip)</h4>
+            <ul style="font-size:.75rem;">
+              <li>Clear the weapon — magazine out, bolt to rear, inspect chamber</li>
+              <li>Push takedown pin (front) — right to left</li>
+              <li>Pivot upper receiver open</li>
+              <li>Pull charging handle + bolt carrier group (BCG) to rear</li>
+              <li>Remove charging handle from BCG</li>
+              <li>Remove firing pin retaining pin, firing pin, bolt cam pin, bolt</li>
+              <li>Push pivot pin (rear) — separate upper/lower</li>
+              <li>Remove buffer + buffer spring</li>
+            </ul>
+          </div>
+          <div class="col-box">
+            <h4>&#x1F527; Montagem (Reassembly)</h4>
+            <ul style="font-size:.75rem;">
+              <li>Reverse da desmontagem</li>
+              <li>Bolt cam pin instalado na orientacao correta</li>
+              <li>Firing pin retaining pin fully seated</li>
+              <li>Charging handle encaixado corretamente no BCG</li>
+              <li>BCG desliza livre no upper receiver</li>
+              <li>Takedown e pivot pins fully seated</li>
+              <li>Buffer e spring corretamente instalados</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: Functions Check -->
+        <div>
+          <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);margin-bottom:.75rem;text-align:center;">&#x2705; Functions Check (8 Passos)</h4>
+          <ol class="steps" style="font-size:.72rem;">
+            <li><strong>Clear the weapon.</strong> Sem magazine. Confirmar camara vazia visualmente e tatilmente.</li>
+            <li><strong>SAFE.</strong> Seletor em SAFE. Puxar gatilho. <strong>Hammer NAO deve cair.</strong> <span class="note">FAIL = safety seletor com defeito</span></li>
+            <li><strong>SEMI.</strong> Seletor em SEMI. Puxar gatilho e manter pressionado. <strong>Hammer cai.</strong></li>
+            <li><strong>SEMI reset.</strong> Manter gatilho pressionado. Puxar charging handle. Soltar gatilho. <strong>Ouvir click.</strong> Puxar gatilho. <strong>Hammer cai.</strong> <span class="note">FAIL = disconnector com defeito</span></li>
+            <li><strong>BURST/AUTO.</strong> Seletor em BURST/AUTO. Puxar charging handle. Puxar gatilho e manter. <strong>Hammer cai.</strong></li>
+            <li><strong>Cycling.</strong> Manter gatilho. Puxar charging handle 3x (BURST) ou 1x (AUTO) e soltar. Soltar gatilho. Puxar. <strong>Hammer cai.</strong></li>
+            <li><strong>SEMI.</strong> Confirmar funcao semi-automatica novamente.</li>
+            <li><strong>SAFE.</strong> Seletor em SAFE. Arma segura. <span class="tag tag-green">COMPLETE</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5: M17 Strip, Reassembly & Functions Check -->
+  <div class="slide" data-index="5">
+    <div class="slide-content">
+      <div class="slide-number">FASE 03 &bull; DETALHE</div>
+      <div class="slide-badge">&#x1F52B; WEAPONS</div>
+      <h1>M17 / M18 Pistol</h1>
+      <h2>Field Strip e Functions Check</h2>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;text-align:left;">
+
+        <!-- Left: Strip + Reassembly -->
+        <div style="display:flex;flex-direction:column;gap:.75rem;">
+          <div class="col-box">
+            <h4>&#x1F4E6; Desmontagem (Field Strip)</h4>
+            <ul style="font-size:.75rem;">
+              <li>Clear the weapon — magazine out, slide to rear, inspect chamber (visual + tactile)</li>
+              <li>Rotate takedown lever (lado esquerdo) 90&deg; para baixo</li>
+              <li>Slide para frente, remover do frame</li>
+              <li>Remover recoil spring assembly</li>
+              <li>Remover barrel do slide</li>
+              <li>Nao ha necessidade de desmontagem adicional do fire control group</li>
+            </ul>
+          </div>
+          <div class="col-box">
+            <h4>&#x1F527; Montagem (Reassembly)</h4>
+            <ul style="font-size:.75rem;">
+              <li>Inserir barrel no slide</li>
+              <li>Inserir recoil spring assembly (extremidade da mola menor para o barrel)</li>
+              <li>Slide + barrel + spring no frame, alinhar rails</li>
+              <li>Slide completamente para tras, rotacionar takedown lever 90&deg; para cima</li>
+              <li>Functions check obrigatorio</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: Functions Check -->
+        <div>
+          <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);margin-bottom:.75rem;text-align:center;">&#x2705; Functions Check (4 Passos)</h4>
+          <ol class="steps" style="font-size:.72rem;">
+            <li><strong>Clear the weapon.</strong> Magazine out. Ejetar round da camara. Travar slide a retaguarda. Inspecionar visualmente + tactile check. <span class="tag tag-red">ALWAYS CLEAR</span></li>
+            <li><strong>Slide Lock.</strong> Pressionar slide catch. <strong>Slide avanca com forca.</strong> Hammer permanece cocked. <span class="note">FAIL = recoil spring fraco</span></li>
+            <li><strong>Trigger Function.</strong> Puxar gatilho. <strong>Striker dispara.</strong> Manter gatilho, puxar slide, soltar gatilho. <strong>Reset click.</strong> Puxar novamente. <strong>Striker dispara.</strong> <span class="note">FAIL = trigger bar/sear</span></li>
+            <li><strong>Safety Function.</strong> Safety em SAFE. Puxar gatilho. <strong>NAO dispara.</strong> Safety em FIRE. Puxar. <strong>Dispara.</strong> <span class="tag tag-green">COMPLETE</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6: M240/M249/M2 -->
+  <div class="slide" data-index="6">
+    <div class="slide-content">
+      <div class="slide-number">FASE 03 &bull; DETALHE</div>
+      <div class="slide-badge">&#x1F52B; WEAPONS</div>
+      <h1>M240B &bull; M249 &bull; M2 .50 Cal</h1>
+      <h2>Procedimentos de Checagem</h2>
+      <div class="cards">
+        <div class="card">
+          <h4>M240B (7.62mm)</h4>
+          <p><strong>Headspace &amp; Timing:</strong> Ja feito de fabrica — barrel fixo, nao requer ajuste de campo. Apenas verificar se o barrel esta totalmente travado (locking lever).</p>
+          <p style="margin-top:.5rem"><strong>Functions Check:</strong> Bolt para tras, gatilho — bolt avanca. Segurar gatilho, bolt fica para frente. Soltar, bolt permanece. Carregar belt, charging handle para tras 2x, gatilho — dispara. Segurar = fogo continuo. Soltar = cessa.</p>
+        </div>
+        <div class="card">
+          <h4>M249 SAW (5.56mm)</h4>
+          <p><strong>Field Strip:</strong> Remove barrel, handguard, operating rod + spring, bolt assembly, trigger housing.</p>
+          <p style="margin-top:.5rem"><strong>Functions Check:</strong> Bolt fechado. Carregar belt/drum. Puxar charging handle para tras e soltar. Gatilho — bolt avanca, dispara. AUTO e SEMI positions testadas. Feed pawls engajam corretamente.</p>
+        </div>
+        <div class="card">
+          <h4>M2 .50 Cal (12.7mm)</h4>
+          <p><strong>Headspace:</strong> Usar headspace &amp; timing gauge (GO/NO-GO). Barrel totalmente rosqueado, destravar 2 clicks. Gauge GO = entra entre bolt face e barrel. Gauge NO-GO = NAO entra.</p>
+          <p style="margin-top:.5rem"><strong>Timing:</strong> Ajustar timing nut ate que o tiro ocorra no ponto correto do ciclo. FIRE gauge = gap de .020" entre bolt face e barrel. Verificar disparo manual com charging handle.</p>
+        </div>
+        <div class="card">
+          <h4>AT4 / M67 / Claymore</h4>
+          <p><strong>AT4 (84mm):</strong> Confirmar backblast area 90m (cone 60&deg;). Remover safeties. Extender tube. Armar firing mechanism. Mira pop-up. Disparo: apertar trigger forward.</p>
+          <p style="margin-top:.5rem"><strong>M67:</strong> Remover safety clip + pin. Empunhadura firme. Lanzar em arco. <strong>5m</strong> kill radius / <strong>15m</strong> casualty radius. Abrigar-se apos lancamento.</p>
+          <p style="margin-top:.5rem"><strong>M18A1 Claymore:</strong> Aiming stakes. M57 clacker — 3 squeezes (test, arm, fire). Backblast safe area: 16m lateral, 100m frontal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7: Medical Lane -->
+  <div class="slide" data-index="7">
+    <div class="slide-content">
+      <div class="slide-number">FASE 04</div>
+      <div class="slide-icon">&#x1FA7A;</div>
+      <h1>Medical Lane</h1>
+      <h2>Tactical Combat Casualty Care &bull; Protocolo MARCH</h2>
+      <div class="cards">
+        <div class="card"><h4>M &mdash; Massive Hemorrhage</h4><p>Tourniquet de combate (CAT) aplicado alto e apertado. 2 torniquetes se necessario. Junctional TQ para virilha/axila. Hemostatic gauze (Celox/QuikClot) com pressao direta por 3 min.</p></div>
+        <div class="card"><h4>A &mdash; Airway</h4><p>Nasopharyngeal Airway (NPA) 28F. Medir: ponta do nariz ao lobo da orelha. Lubrificar. Inserir com bisel voltado para o septo. Cricotirotomia de emergencia se necessario. Recovery position.</p></div>
+        <div class="card"><h4>R &mdash; Respiration</h4><p>Verificar elevacao simetrica do torax. Chest seal (Bolin/Hyfin) em feridas abertas no torso. Needle Decompression (NDC) 14G, 3.25" — 2&ordm; espaco intercostal, linha mid-clavicular. Angulo de 90&deg;.</p></div>
+        <div class="card"><h4>C &mdash; Circulation</h4><p>Avaliar pulso radial (presente = PAS &ge; 80 mmHg). IV/IO access se necessario. Fluid resuscitation: Hextend ou LR. Prevenir hipotermia: mantas, blizzard blanket, aquecimento passivo.</p></div>
+        <div class="card"><h4>H &mdash; Hypothermia / Head Injury</h4><p>Prevenir perda de calor. Manta termica (blizzard). Aquecedores quimicos em axilas e virilha. Avaliar pupilas, Glasgow Coma Scale. Anotar alteracoes de consciencia.</p></div>
+        <div class="card"><h4>Evacuation / CASEVAC</h4><p>Drags: Ranger roll, collar, two-man. Carries: fireman, pack strap. Litter carries: 4-man. Preparar DD 1380. Comunicar prioridade ao comando.</p></div>
+      </div>
+      <div class="highlights">
+        <div class="highlight"><div class="highlight-val">MARCH</div><div class="highlight-label">Algoritmo</div></div>
+        <div class="highlight"><div class="highlight-val">CUF</div><div class="highlight-label">Care Under Fire</div></div>
+        <div class="highlight"><div class="highlight-val">TFC</div><div class="highlight-label">Tactical Field Care</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8: Patrol Lane -->
+  <div class="slide" data-index="8">
+    <div class="slide-content">
+      <div class="slide-number">FASE 05</div>
+      <div class="slide-icon">&#x1F6E1;&#xFE0F;</div>
+      <h1>Patrol Lane</h1>
+      <h2>Operacoes de Patrulha e Combate</h2>
+      <div class="cards">
+        <div class="card"><h4>React to Contact</h4><p>Contato direto: "CONTACT FRONT/LEFT/RIGHT/REAR". Buscar cobertura imediata. Retornar fogo na direcao do inimigo. Lider de esquadra manobra elemento de flanco. Supressao + assalto.</p></div>
+        <div class="card"><h4>React to IED</h4><p><strong>5 C's:</strong> Confirm (e um IED?), Clear (area de civis), Cordon (perimetro 300m), Check (inspecao visual), Control (reportar via radio para EOD). Nunca tocar ou mover o dispositivo.</p></div>
+        <div class="card"><h4>React to Ambush</h4><p><strong>Near ambush</strong> (dentro do kill zone): ataque agressivo imediato na direcao da emboscada. <strong>Far ambush</strong> (fora do kill zone): retornar fogo + buscar cobertura + manobrar contra.</p></div>
+        <div class="card"><h4>Hand &amp; Arm Signals</h4><p>Sinais padronizados: Rally Point, Halt, Enemy Spotted, Wedge Formation, Increase Speed, Head Count. Comunicacao visual silenciosa. Confirmacao: apontar + sinal + executar.</p></div>
+        <div class="card"><h4>Movement Techniques</h4><p><strong>Traveling:</strong> baixa ameaca, max velocidade. <strong>Traveling Overwatch:</strong> ameaca moderada, overwatch a frente. <strong>Bounding Overwatch:</strong> alta ameaca, alterna cobertura/movimento. Formacoes: wedge, file, line.</p></div>
+        <div class="card"><h4>Call for Fire / Reportar</h4><p>Grid/Polar/Shift from known point. 6 elementos: observer ID, warning order, target location, target description, method of engagement, method of fire &amp; control. Spot Report: quem, onde, o que.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9: Communications Lane Overview -->
+  <div class="slide" data-index="9">
+    <div class="slide-content">
+      <div class="slide-number">FASE 06</div>
+      <div class="slide-icon">&#x1F4FB;</div>
+      <h1>Communications Lane</h1>
+      <h2>Comunicacoes Taticas &bull; Visao Geral</h2>
+      <div class="cards">
+        <div class="card"><h4>SINCGARS Radio (RT-1523)</h4><p>Operacao basica: power on, load single channel freq (SC), FH mode sync, fill COMSEC (KY-57/100). Time sync via GPS (PLGR/DAGR). Troubleshooting: check battery, antenna, cable conexao, fill.</p></div>
+        <div class="card"><h4>9-Line MEDEVAC</h4><p>Pedido de evacuacao medica — formato padronizado NATO. 9 linhas de informacao critica. <strong>Ver proximo slide para detalhes completos e exemplo real.</strong></p></div>
+        <div class="card"><h4>Call for Fire</h4><p>Pedido de apoio de fogo indireto: artilharia, morteiros, naval gunfire. Metodo grid (mais comum), polar, shift from a known point. Ajuste de fogo: OT direction, correction em metros.</p></div>
+        <div class="card"><h4>SALUTE Report</h4><p>Inteligencia: <strong>S</strong>ize, <strong>A</strong>ctivity, <strong>L</strong>ocation (grid), <strong>U</strong>nit (uniform/insignia), <strong>T</strong>ime (DTG), <strong>E</strong>quipment. Reporte imediato de atividade inimiga observada.</p></div>
+        <div class="card"><h4>LACE Report</h4><p>Status logistico: <strong>L</strong>iquid (agua), <strong>A</strong>mmo (municao), <strong>C</strong>asualties (baixas), <strong>E</strong>quipment (status). Usado para SITREP de combate.</p></div>
+        <div class="card"><h4>Radio Discipline</h4><p>Pro-words: OVER, OUT, ROGER, WILCO, BREAK, I SAY AGAIN, AUTHENTICATE. Phonetic alphabet. Numero: "niner", "tree", "fife". Jammed: mudar para FH ou frequencia alternativa.</p></div>
+      </div>
+      <p style="margin-top:1rem;font-size:.7rem;color:var(--text-dim);letter-spacing:.1em;">
+        PROXIMO SLIDE: 9-LINE MEDEVAC DETALHADO &nbsp;&#8594;
+      </p>
+    </div>
+  </div>
+
+  <!-- 10: 9-Line MEDEVAC Detailed -->
+  <div class="slide" data-index="10">
+    <div class="slide-content">
+      <div class="slide-number">FASE 06 &bull; DETALHE</div>
+      <div class="slide-badge">&#x1F4FB; 9-LINE MEDEVAC</div>
+      <h1>9-Line MEDEVAC</h1>
+      <h2>Medical Evacuation Request &bull; Explicacao e Exemplo</h2>
+
+      <div style="display:grid;grid-template-columns:1.3fr 1fr;gap:1rem;margin:1rem 0;text-align:left;">
+
+        <!-- Left: Explanation -->
+        <div>
+          <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;text-align:center;">Significado</h4>
+          <table class="niner">
+            <tbody>
+              <tr><th>Line 1</th><td><strong>Pickup Location (Grid)</strong> — Coordenada MGRS de 6 ou 8 digitos do ponto de pouso.</td></tr>
+              <tr><th>Line 2</th><td><strong>Radio Freq, Call Sign, Suffix</strong> — Frequencia e identificacao no ar.</td></tr>
+              <tr><th>Line 3</th><td><strong>Patients by Precedence</strong> — <span class="tag tag-red">A-URGENT</span> <span class="tag tag-gold">B-PRIORITY</span> <span class="tag tag-green">C-ROUTINE</span> <span class="tag tag-gold">D-CONV.</span></td></tr>
+              <tr><th>Line 4</th><td><strong>Special Equipment</strong> — A=None, B=Hoist, C=Extraction, D=Ventilator.</td></tr>
+              <tr><th>Line 5</th><td><strong>Patients by Type</strong> — L=Litter (maca) + A=Ambulatory (caminha). Ex: L+2, A+0.</td></tr>
+              <tr><th>Line 6</th><td><strong>Security at Pickup Site</strong> — N=None, P=Possible, E=Enemy, X=Escort.</td></tr>
+              <tr><th>Line 7</th><td><strong>Marking Method</strong> — A=Panels, B=Pyro, C=Smoke, D=None, E=IR Strobe.</td></tr>
+              <tr><th>Line 8</th><td><strong>Patient Nationality</strong> — A=US Mil, B=US Civ, C=Non-US, D=Non-US Civ, E=EPW.</td></tr>
+              <tr><th>Line 9</th><td><strong>NBC Contamination</strong> — N=Nuclear, B=Biological, C=Chemical. Paz: NONE.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Right: Example -->
+        <div>
+          <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);margin-bottom:.5rem;text-align:center;">Exemplo Real de Transmissao</h4>
+          <table class="niner">
+            <tbody>
+              <tr class="example-line"><th>Line 1</th><td>18S UJ 48210763</td></tr>
+              <tr class="example-line"><th>Line 2</th><td>FM 38.950 &mdash; DUSTOFF 11 &mdash; ALPHA</td></tr>
+              <tr class="example-line"><th>Line 3</th><td>A+1, B+0, C+0, D+0</td></tr>
+              <tr class="example-line"><th>Line 4</th><td>B &mdash; HOIST</td></tr>
+              <tr class="example-line"><th>Line 5</th><td>L+1, A+0</td></tr>
+              <tr class="example-line"><th>Line 6</th><td>P</td></tr>
+              <tr class="example-line"><th>Line 7</th><td>C &mdash; VIOLET SMOKE</td></tr>
+              <tr class="example-line"><th>Line 8</th><td>A &mdash; US MILITARY</td></tr>
+              <tr class="example-line"><th>Line 9</th><td>NONE</td></tr>
+            </tbody>
+          </table>
+
+          <div style="margin-top:.75rem;font-size:.65rem;color:var(--text-dim);line-height:1.7;background:var(--card-bg);border:1px solid var(--border);border-radius:6px;padding:.5rem .7rem;">
+            <strong style="color:var(--gold);font-size:.65rem;">Script de Transmissao:</strong><br>
+            "DUSTOFF 11, this is TANGO 2-6, MEDEVAC, over."<br>
+            Aguardar resposta. Ler linha por linha.<br>
+            Confirmar com "I SAY AGAIN" se necessario.<br>
+            Finalizar: "OVER" para resposta da aeronave.
+          </div>
+
+          <div style="margin-top:.4rem;display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;">
+            <span class="prec-item urgent">A: &lt;2h</span>
+            <span class="prec-item priority">B: &lt;4h</span>
+            <span class="prec-item routine">C: &lt;24h</span>
+            <span class="prec-item convenience">D: Convenience</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 11: CBRN Lane -->
+  <div class="slide" data-index="11">
+    <div class="slide-content">
+      <div class="slide-number">FASE 07</div>
+      <div class="slide-icon">&#x2622;&#xFE0F;</div>
+      <h1>CBRN Lane</h1>
+      <h2>Defesa Quimica, Biologica, Radiologica e Nuclear</h2>
+      <div class="cards">
+        <div class="card"><h4>MOPP Levels</h4><p><strong>MOPP 0:</strong> Only mask carried. <strong>MOPP 1:</strong> JSLIST worn. <strong>MOPP 2:</strong> + Overboots. <strong>MOPP 3:</strong> + Mask &amp; hood. <strong>MOPP 4:</strong> + Gloves (all sealed).</p></div>
+        <div class="card"><h4>M50 Mask Don/Doff</h4><p>DON (&lt;9s): Prender respiracao, remover cobertura, puxar mask sobre o rosto, apertar straps (bottom-top-front), exalar forte para selar. DOFF: sem contaminacao, procedure inverso.</p></div>
+        <div class="card"><h4>MOPP Gear Exchange</h4><p>Troca de JSLIST contaminado em ambiente CBRN. Buddy team. Corte ou remocao sem contaminar a pele. M291 SDK para limpeza de pele. M295 wipes para equipamento.</p></div>
+        <div class="card"><h4>Detection Kits</h4><p><strong>M8 Paper:</strong> Detecta G (Nerve) — amarelo, V (Nerve) — verde, H (Blister/mustard) — vermelho. <strong>M9 Paper:</strong> Detecta agentes liquidos (fica rosa/vermelho). <strong>M256A1:</strong> Detector quimico portatil com ampoules.</p></div>
+      </div>
+      <div class="highlights">
+        <div class="highlight"><div class="highlight-val">0-4</div><div class="highlight-label">MOPP Levels</div></div>
+        <div class="highlight"><div class="highlight-val">&lt;9s</div><div class="highlight-label">M50 Don Time</div></div>
+        <div class="highlight"><div class="highlight-val">6h</div><div class="highlight-label">JSLIST Durability</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 12: Ruck March -->
+  <div class="slide" data-index="12">
+    <div class="slide-content">
+      <div class="slide-number">FASE 08</div>
+      <div class="slide-icon">&#x1F3C3;</div>
+      <h1>12-Mile Ruck March</h1>
+      <h2>Marcha de 12 Milhas &bull; Prova Final</h2>
+      <div class="highlights">
+        <div class="highlight"><div class="highlight-val">19.3 km</div><div class="highlight-label">12 Milhas</div></div>
+        <div class="highlight"><div class="highlight-val">3:00:00</div><div class="highlight-label">Tempo Maximo</div></div>
+        <div class="highlight"><div class="highlight-val">35 lbs</div><div class="highlight-label">Peso Minimo</div></div>
+      </div>
+      <p style="margin-top:2rem;font-size:.95rem;color:var(--text-dim);max-width:620px;margin-inline:auto;line-height:1.8;">
+        Marcha forcada de 19,3 km com mochila (rucksack) de no minimo <strong>35 libras (~16 kg)</strong>
+        em ate <strong>3 horas</strong>. Ritmo minimo: <strong>15 minutos por milha</strong> (9:20/km).
+        Botas de combate (AR 670-1) obrigatorias. Sem assistencia externa. Hidratacao em checkpoints.
+        Peso seco da mochila (sem agua, sem MRE consumido, sem M4). Finaliza toda a testagem ESB.
+      </p>
+      <div class="cards" style="margin-top:1.5rem;">
+        <div class="card"><h4>Preparacao</h4><p>Hidratar bem 48h antes. Carboidratos complexos na noite anterior. Anti-atrito (Body Glide, fita Leukoplast). Testar mochila e ajuste de straps.</p></div>
+        <div class="card"><h4>Estrategia</h4><p>Ritmo constante: ~14:30/mi no primeiro terco, manter nos 10 km do meio, acelerar nos ultimos 3 km. Passadas curtas e regulares. Nao parar nos checkpoints.</p></div>
+        <div class="card"><h4>Pesagem</h4><p>Mochila pesada ANTES e APOS a marcha. Peso seco minimo: 35 lbs. Itens padrao: camelback cheio, uniforme extra, MRE, poncho, cold weather gear. Sem pesos "falsos" (anvil, dumbbell).</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 13: Award / Conclusion -->
+  <div class="slide" data-index="13">
+    <div class="slide-content">
+      <div class="slide-number">CONCLUSAO</div>
+      <div class="slide-icon">&#x1F396;&#xFE0F;</div>
+      <h1>Expert Soldier Badge</h1>
+      <h2>Awarded for Excellence &bull; 2019 &ndash; Presente</h2>
+      <p style="font-size:.95rem;max-width:650px;margin-inline:auto;margin-top:1.25rem;line-height:1.9;color:var(--text-dim);">
+        O ESB reconhece soldados que demonstram dominio em <strong style="color:var(--gold);">30 Warrior Tasks (SL1)</strong>
+        e <strong style="color:var(--gold);">5 Mission Essential Tasks</strong> escolhidas pelo comandante.
+        Exclusivo para MOS fora de Infantaria (11-series), Special Forces (18-series) e Combat Medic (68W).
+        Equivalente ao Expert Infantryman Badge (EIB) e Expert Field Medical Badge (EFMB).
+      </p>
+      <div class="highlights" style="margin-top:1.5rem;">
+        <div class="highlight"><div class="highlight-val">2019</div><div class="highlight-label">Estabelecido</div></div>
+        <div class="highlight"><div class="highlight-val">30+5</div><div class="highlight-label">Tasks</div></div>
+        <div class="highlight"><div class="highlight-val">MCAB</div><div class="highlight-label">Master Combat</div></div>
+      </div>
+      <p style="margin-top:2.5rem;font-size:.75rem;color:var(--gold);letter-spacing:.25em;text-transform:uppercase;line-height:2;">
+        This We'll Defend
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<!-- Progress Bar -->
+<div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+
+<!-- Controls -->
+<div class="controls">
+  <button class="nav-btn" id="prevBtn" title="Anterior (Seta Esquerda)">&#8592;</button>
+  <div class="dots" id="dots"></div>
+  <div style="display:flex;gap:.6rem;align-items:center;">
+    <button class="fullscreen-btn" id="fsBtn" title="Fullscreen (F)">&#x26F6;</button>
+    <button class="nav-btn" id="nextBtn" title="Proximo (Seta Direita)">&#8594;</button>
+  </div>
+</div>
+
+<div class="kbd-hint">ESC para sair &bull; HOME / END</div>
+
+<script>
+(function() {
+  var slides = document.querySelectorAll('.slide');
+  var total = slides.length;
+  var current = 0;
+  var progressFill = document.getElementById('progressFill');
+  var dotsContainer = document.getElementById('dots');
+  var prevBtn = document.getElementById('prevBtn');
+  var nextBtn = document.getElementById('nextBtn');
+  var fsBtn = document.getElementById('fsBtn');
+  var touchStartX = 0;
+  var touchEndX = 0;
+
+  // Build dots
+  for (var i = 0; i < total; i++) {
+    var dot = document.createElement('span');
+    dot.className = 'dot' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', (function(idx) { return function() { goTo(idx); }; })(i));
+    dotsContainer.appendChild(dot);
+  }
+
+  function update() {
+    slides.forEach(function(s, i) {
+      s.classList.remove('active', 'prev');
+      if (i === current) s.classList.add('active');
+      else if (i < current) s.classList.add('prev');
+    });
+
+    var dots = dotsContainer.children;
+    for (var d = 0; d < dots.length; d++) {
+      dots[d].classList.toggle('active', d === current);
+    }
+
+    progressFill.style.width = ((current / (total - 1)) * 100) + '%';
+
+    prevBtn.style.visibility = current === 0 ? 'hidden' : 'visible';
+    nextBtn.style.visibility = current === total - 1 ? 'hidden' : 'visible';
+
+    // Scroll active slide to top
+    var activeSlide = slides[current];
+    if (activeSlide) activeSlide.scrollTop = 0;
+  }
+
+  function goTo(index) {
+    if (index < 0 || index >= total) return;
+    current = index;
+    update();
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  function toggleFS() {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(function(){});
+    } else {
+      document.exitFullscreen();
+    }
+  }
+
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+  fsBtn.addEventListener('click', toggleFS);
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); next(); }
+    else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); prev(); }
+    else if (e.key === 'Home') { e.preventDefault(); goTo(0); }
+    else if (e.key === 'End') { e.preventDefault(); goTo(total - 1); }
+    else if (e.key === 'f' || e.key === 'F') toggleFS();
+  });
+
+  document.addEventListener('touchstart', function(e) {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
+
+  document.addEventListener('touchend', function(e) {
+    touchEndX = e.changedTouches[0].screenX;
+    var diff = touchStartX - touchEndX;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) next();
+      else prev();
+    }
+  });
+
+  document.getElementById('slideshow').addEventListener('click', function(e) {
+    var rect = this.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    if (x < rect.width * 0.12) prev();
+    else if (x > rect.width * 0.88) next();
+  });
+
+  document.addEventListener('fullscreenchange', function() {
+    fsBtn.textContent = document.fullscreenElement ? '\u2715' : '\u26F6';
+  });
+
+  update();
+})();
+</script>
+
+</body>
+</html>

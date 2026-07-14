@@ -7,3 +7,7 @@ Pre-Assessment Test de inglês com questões de vocabulário (Word Knowledge) e 
 ## [CySA+ CS0-003 — Guia de Estudo](cysa/index.html)
 
 Guia interativo em português para a certificação CompTIA CySA+ (CS0-003), com questões de múltipla escolha, explicações detalhadas e análise de erros.
+
+## [ESB US Army 2026 — Slideshow](esb/index.html)
+
+Slideshow full-screen (16 slides) cobrindo as etapas do Expert Soldier Badge (ESB): AFT, Land Nav, Weapons Lane, Medical Lane, Patrol Lane, Communications, CBRN e Ruck March.
