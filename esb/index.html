@@ -479,6 +479,20 @@
     opacity: .5;
   }
 
+  .menu-link {
+    position: fixed;
+    top: .75rem; left: 1rem;
+    font-size: .65rem;
+    letter-spacing: .1em;
+    color: var(--text-dim);
+    text-decoration: none;
+    z-index: 101;
+    opacity: .6;
+    transition: opacity .2s, color .2s;
+  }
+
+  .menu-link:hover { opacity: 1; color: var(--gold); }
+
   /* Responsive */
   @media (max-width: 640px) {
     .cards { grid-template-columns: 1fr; }
@@ -518,12 +532,12 @@
       <div style="margin-top:2.5rem">
         <div class="highlights">
           <div class="highlight"><div class="highlight-val">16</div><div class="highlight-label">Slides</div></div>
-          <div class="highlight"><div class="highlight-val">8</div><div class="highlight-label">Fases</div></div>
-          <div class="highlight"><div class="highlight-val">100%</div><div class="highlight-label">Prontidao</div></div>
+          <div class="highlight"><div class="highlight-val">8</div><div class="highlight-label">Phases</div></div>
+          <div class="highlight"><div class="highlight-val">100%</div><div class="highlight-label">Readiness</div></div>
         </div>
       </div>
       <p style="margin-top:2rem;font-size:.7rem;color:var(--text-dim);letter-spacing:.15em">
-        &#8592; &nbsp; SETAS &nbsp; &middot; &nbsp; CLIQUE &nbsp; &middot; &nbsp; SWIPE &nbsp; &middot; &nbsp; F = FULLSCREEN &nbsp; &#8594;
+        &#8592; &nbsp; ARROWS &nbsp; &middot; &nbsp; CLICK &nbsp; &middot; &nbsp; SWIPE &nbsp; &middot; &nbsp; F = FULLSCREEN &nbsp; &#8594;
       </p>
     </div>
   </div>
@@ -531,33 +545,37 @@
    <!-- 1: AFT -->
   <div class="slide" data-index="1">
     <div class="slide-content">
-      <div class="slide-number">FASE 01 &bull; AFT</div>
+      <div class="slide-number">PHASE 01 &bull; AFT</div>
       <div class="slide-icon">&#x1F4AA;</div>
       <h1>Army Fitness Test</h1>
-      <h2>Pre-requisito Obrigatorio &bull; Minimo: 80 pts por Evento &bull; Max: 500 pts &bull; 70 min</h2>
+      <h2>Mandatory Prerequisite &bull; Min: 80 pts per Event &bull; Max: 500 pts &bull; 70 min</h2>
       <div class="cards">
-        <div class="card"><h4>1. 3-Rep Max Deadlift (MDL)</h4><p>Hex bar 60 lbs. 3 repeticoes continuas. Max 2 tentativas. Forca total: posterior, gluteos, core.</p></div>
-        <div class="card"><h4>2. Hand-Release Push-Up (HRP)</h4><p>Flexao com T-release (bracos abertos). Max reps em 2 min. Corpo alinhado — peito, quadril e coxas no chao.</p></div>
-        <div class="card"><h4>3. Sprint-Drag-Carry (SDC)</h4><p>5 legs x 50m = 250m total. Sprint &rarr; Drag sled 90 lbs &rarr; Lateral &rarr; Carry 2x40 lbs kettlebells &rarr; Sprint final.</p></div>
-        <div class="card"><h4>4. Plank (PLK)</h4><p>Prancha isometrica (antebracos + ponta dos pes). Tempo maximo ate falha. 1 advertencia verbal antes de terminar.</p></div>
-        <div class="card"><h4>5. 2-Mile Run (2MR)</h4><p>Corrida de 3.2 km em pista ou pavimento. Walking permitido. Ultimo evento — pacing e estrategia criticos.</p></div>
+        <div class="card"><h4>1. 3-Rep Max Deadlift (MDL)</h4><p>Hex bar 60 lbs. 3 continuous repetitions. Max 2 attempts. Total-body strength: posterior chain, glutes, core.</p></div>
+        <div class="card"><h4>2. Hand-Release Push-Up (HRP)</h4><p>Push-up with T-release (arms extended out). Max reps in 2 min. Body aligned — chest, hips, and thighs touch the ground.</p></div>
+        <div class="card"><h4>3. Sprint-Drag-Carry (SDC)</h4><p>5 legs x 50m = 250m total. Sprint &rarr; Drag sled 90 lbs &rarr; Lateral shuffle &rarr; Carry 2x40 lbs kettlebells &rarr; Final sprint.</p></div>
+        <div class="card"><h4>4. Plank (PLK)</h4><p>Isometric plank (forearms + toes). Max time until failure. 1 verbal warning before the event ends.</p></div>
+        <div class="card"><h4>5. 2-Mile Run (2MR)</h4><p>3.2 km run on a track or paved surface. Walking allowed. Final event — pacing and strategy are critical.</p></div>
       </div>
       <div class="highlights">
-        <div class="highlight"><div class="highlight-val">80</div><div class="highlight-label">Min. por Evento</div></div>
-        <div class="highlight"><div class="highlight-val">500</div><div class="highlight-label">Score Maximo</div></div>
-        <div class="highlight"><div class="highlight-val">5</div><div class="highlight-label">Eventos</div></div>
-        <div class="highlight"><div class="highlight-val">70 min</div><div class="highlight-label">Tempo Total</div></div>
+        <div class="highlight"><div class="highlight-val">80</div><div class="highlight-label">Min. per Event</div></div>
+        <div class="highlight"><div class="highlight-val">500</div><div class="highlight-label">Max Score</div></div>
+        <div class="highlight"><div class="highlight-val">5</div><div class="highlight-label">Events</div></div>
+        <div class="highlight"><div class="highlight-val">70 min</div><div class="highlight-label">Total Time</div></div>
       </div>
+      <p style="margin-top:1.25rem;font-size:.72rem;color:var(--text-dim);max-width:600px;margin-inline:auto;line-height:1.7;">
+        <strong style="color:var(--gold);">Prerequisite, not a test-day event</strong> — full AFT (all 5 events) must be passed within the 6 months before ESB testing.
+        On test day itself the PFA gate is only <strong>HRP + SDC + 2MR</strong> — fail any one event and you are eliminated immediately.
+      </p>
     </div>
   </div>
 
   <!-- 2: Land Nav -->
   <div class="slide" data-index="2">
     <div class="slide-content">
-      <div class="slide-number">FASE 02</div>
+      <div class="slide-number">PHASE 02</div>
       <div class="slide-icon">&#x1F9ED;</div>
       <h1>Land Navigation</h1>
-      <h2>Orientacao Terrestre &bull; 1:25,000 &bull; Curso Diurno</h2>
+      <h2>Terrain Orientation &bull; 1:25,000 &bull; Day &amp; Night Courses</h2>
 
       <div style="display:grid;grid-template-columns:1fr 185px;gap:.75rem;margin:1rem 0;align-items:start;">
         <!-- Map -->
@@ -838,9 +856,9 @@
             <text x="30" y="35" text-anchor="middle" fill="#335" font-size="7" font-family="Share Tech Mono">1:25k</text>
           </svg>
           <div style="font-size:.65rem;color:var(--text-dim);line-height:1.6;">
-            <strong style="color:var(--text);">Protrator GTA 5-2-12</strong><br>
-            Alinhar na linha de grid. Ler coordenada<br>
-            na escala correta (1:25,000).
+            <strong style="color:var(--text);">Protractor GTA 5-2-12</strong><br>
+            Align on the grid line. Read the coordinate<br>
+            on the correct scale (1:25,000).
           </div>
         </div>
 
@@ -854,13 +872,13 @@
             <text x="38" y="20" fill="#a01830" font-size="7" font-family="Share Tech Mono">68&deg;</text>
           </svg>
           <div style="font-size:.65rem;color:var(--text-dim);line-height:1.6;">
-            <strong style="color:var(--text);">Bussola Lensatica M2</strong><br>
-            Azimute no mapa: +6&deg; = azimute magnetico.<br>
-            Ex: AZ mapa 68&deg; &rarr; AZ mag 74&deg;
+            <strong style="color:var(--text);">M2 Lensatic Compass</strong><br>
+            Map azimuth: +6&deg; = magnetic azimuth.<br>
+            Ex: Map AZ 68&deg; &rarr; Mag AZ 74&deg;
           </div>
         </div>
 
-        <div class="card" style="max-width:240px;"><h4>Pace Count</h4><p style="font-size:.7rem;">65p/100m (plano) &bull; 80p/100m (mato) &bull; 90p/100m (subida) &bull; Verificar azimute a cada 100-200m.</p></div>
+        <div class="card" style="max-width:240px;"><h4>Pace Count</h4><p style="font-size:.7rem;">65p/100m (flat) &bull; 80p/100m (brush) &bull; 90p/100m (uphill) &bull; Check azimuth every 100-200m.</p></div>
       </div>
     </div>
   </div>
@@ -868,10 +886,10 @@
   <!-- 2b: Lensatic Compass -->
   <div class="slide" data-index="2b">
     <div class="slide-content">
-      <div class="slide-number">FASE 02 &bull; EQUIPAMENTO</div>
+      <div class="slide-number">PHASE 02 &bull; EQUIPMENT</div>
       <div class="slide-badge">&#x1F9ED; LAND NAV</div>
-      <h1>Bussola Lensatica</h1>
-      <h2>Compass M2 &bull; Componentes e Uso</h2>
+      <h1>Lensatic Compass</h1>
+      <h2>Compass M2 &bull; Components and Use</h2>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1rem 0;align-items:start;">
 
@@ -968,35 +986,35 @@
         <!-- Right: explanation -->
         <div style="display:flex;flex-direction:column;gap:.65rem;">
           <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
-            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">Componentes</h4>
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">Components</h4>
             <ol class="steps" style="margin:0;font-size:.72rem;">
-              <li><strong>Cover (tampa)</strong> — contem o sighting wire para alinhamento</li>
-              <li><strong>Bezel (anel giratorio)</strong> — cliques de 3&deg;, marcacao luminosa</li>
-              <li><strong>Floating Dial</strong> — gira livremente, aponta o Norte magnetico</li>
-              <li><strong>Lens (lente traseira)</strong> — amplia a leitura, sighting slot</li>
-              <li><strong>Thumb Loop</strong> — fixacao no polegar para estabilidade</li>
-              <li><strong>Straightedge</strong> — escala em cm/pol na borda inferior</li>
+              <li><strong>Cover</strong> — holds the sighting wire for alignment</li>
+              <li><strong>Bezel (rotating ring)</strong> — 3&deg; clicks, luminous markings</li>
+              <li><strong>Floating Dial</strong> — floats freely, points to magnetic North</li>
+              <li><strong>Lens (rear sight)</strong> — magnifies the reading, sighting slot</li>
+              <li><strong>Thumb Loop</strong> — secures on the thumb for stability</li>
+              <li><strong>Straightedge</strong> — cm/inch scale on the bottom edge</li>
             </ol>
           </div>
 
           <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
-            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">Procedimento: Shoot an Azimuth</h4>
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">Procedure: Shoot an Azimuth</h4>
             <ol class="steps" style="margin:0;font-size:.72rem;">
-              <li><strong>Abrir a bussola</strong> — cover 90&deg;, lens holder ~45&deg;. Posicionar thumb loop no polegar.</li>
-              <li><strong>Girar o bezel</strong> — alinhar o azimute desejado com a linha de indice (index line) preta no corpo.</li>
-              <li><strong>Mirar no alvo</strong> — sighting wire do cover alinhado com o sighting slot da lens.</li>
-              <li><strong>Ler o azimute</strong> — pela lente, ler o valor no floating dial alinhado com o marcador.</li>
+              <li><strong>Open the compass</strong> — cover 90&deg;, lens holder ~45&deg;. Position the thumb loop on your thumb.</li>
+              <li><strong>Rotate the bezel</strong> — align the desired azimuth with the black index line on the body.</li>
+              <li><strong>Aim at the target</strong> — cover's sighting wire aligned with the lens's sighting slot.</li>
+              <li><strong>Read the azimuth</strong> — through the lens, read the value on the floating dial aligned with the index line.</li>
             </ol>
           </div>
 
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;">
             <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.6rem .8rem;">
               <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);margin-bottom:.3rem;">Day Navigation</h4>
-              <p style="font-size:.7rem;color:var(--text-dim);line-height:1.5;">Sighting wire + slot. Precisao de ~1&deg;. Olho dominante na lens.</p>
+              <p style="font-size:.7rem;color:var(--text-dim);line-height:1.5;">Sighting wire + slot. Precision of ~1&deg;. Dominant eye on the lens.</p>
             </div>
             <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.6rem .8rem;">
               <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);margin-bottom:.3rem;">Night Navigation</h4>
-              <p style="font-size:.7rem;color:var(--text-dim);line-height:1.5;">Marcadores de tritio no bezel e floating dial. Alinhar pontos luminosos.</p>
+              <p style="font-size:.7rem;color:var(--text-dim);line-height:1.5;">Tritium markers on the bezel and floating dial. Align the luminous points.</p>
             </div>
           </div>
         </div>
@@ -1007,10 +1025,10 @@
   <!-- 2c: Azimuth & Protractor -->
   <div class="slide" data-index="2c">
     <div class="slide-content">
-      <div class="slide-number">FASE 02 &bull; METODO</div>
+      <div class="slide-number">PHASE 02 &bull; METHOD</div>
       <div class="slide-badge">&#x1F9ED; LAND NAV</div>
-      <h1>Azimute e Protrator</h1>
-      <h2>Plotagem de Coordenadas &bull; Conversao Grid-Magnetico</h2>
+      <h1>Azimuth and Protractor</h1>
+      <h2>Coordinate Plotting &bull; Grid-Magnetic Conversion</h2>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1rem 0;align-items:start;">
 
@@ -1064,30 +1082,30 @@
         <!-- Right panel -->
         <div style="display:flex;flex-direction:column;gap:.65rem;">
           <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
-            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">1. Plotar Coordenada (6-digit)</h4>
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">1. Plot a Coordinate (6-digit)</h4>
             <p style="font-size:.72rem;color:var(--text-dim);line-height:1.7;">
               <strong style="color:var(--text);">0453 1663</strong> = grid 04 <strong>5</strong>3 &bull; 16 <strong>6</strong>3<br><br>
-              Protrator na linha 04. Medir <strong>530m</strong> para direita na escala 1:25k.<br>
-              Protrator na linha 16. Medir <strong>630m</strong> para cima. Marcar o ponto.<br><br>
+              Protractor on line 04. Measure <strong>530m</strong> to the right on the 1:25k scale.<br>
+              Protractor on line 16. Measure <strong>630m</strong> up. Mark the point.<br><br>
               <span style="color:var(--gold);font-style:italic;">Remember: RIGHT AND UP.</span>
             </p>
           </div>
 
           <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
-            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">2. Medir Azimute no Mapa (Grid)</h4>
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">2. Measure Azimuth on the Map (Grid)</h4>
             <p style="font-size:.72rem;color:var(--text-dim);line-height:1.7;">
-              Conectar ponto A e B com uma reta. Alinhar o centro do protrator em A. Alinhar a linha de base do protrator com a linha de grid vertical mais proxima. Ler o angulo na escala.<br><br>
-              <strong style="color:var(--gold);">Azimute de Grid</strong> &mdash; angulo medido no mapa usando as linhas de grid (GN).
+              Connect points A and B with a straight line. Align the protractor's center on A. Align the protractor's base line with the nearest vertical grid line. Read the angle on the scale.<br><br>
+              <strong style="color:var(--gold);">Grid Azimuth</strong> &mdash; angle measured on the map using the grid lines (GN).
             </p>
           </div>
 
           <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;">
-            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">3. Converter para Azimute Magnetico</h4>
+            <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;">3. Convert to Magnetic Azimuth</h4>
             <p style="font-size:.72rem;color:var(--text-dim);line-height:1.7;">
-              <strong style="color:var(--gold);">Regra LARS:</strong><br>
-              <span style="background:rgba(196,164,74,.15);padding:.15em .5em;border-radius:4px;font-weight:700;">L</span>eft <strong>Add</strong> &mdash; se MN esta a esquerda de GN, soma o G-M Angle<br>
-              <span style="background:rgba(196,164,74,.15);padding:.15em .5em;border-radius:4px;font-weight:700;">R</span>ight <strong>Subtract</strong> &mdash; se MN esta a direita de GN, subtrai<br><br>
-              <strong>Exemplo:</strong> MN 6&deg; Oeste (W) de GN. MN esta a ESQUERDA. <strong>Soma!</strong><br>
+              <strong style="color:var(--gold);">LARS Rule:</strong><br>
+              <span style="background:rgba(196,164,74,.15);padding:.15em .5em;border-radius:4px;font-weight:700;">L</span>eft <strong>Add</strong> &mdash; if MN is to the left of GN, add the G-M Angle<br>
+              <span style="background:rgba(196,164,74,.15);padding:.15em .5em;border-radius:4px;font-weight:700;">R</span>ight <strong>Subtract</strong> &mdash; if MN is to the right of GN, subtract<br><br>
+              <strong>Example:</strong> MN 6&deg; West (W) of GN. MN is to the LEFT. <strong>Add!</strong><br>
               Grid AZ 68&deg; + 6&deg; = <strong style="color:var(--gold);">Magnetic AZ 74&deg;</strong>
             </p>
           </div>
@@ -1096,10 +1114,10 @@
 
       <!-- Bottom row -->
       <div class="cards">
-        <div class="card"><h4>Plotagem</h4><p>Identificar o quadrado de 1000m pelos 2 primeiros digitos. Medir os 3 ultimos digitos em metros na escala correta do protrator. Sempre da esquerda para direita e de baixo para cima.</p></div>
-        <div class="card"><h4>8-Digit Grid</h4><p>Para precisao de 10m. Ex: 045<strong>3</strong> 166<strong>3</strong>. Os 2 digitos extras dividem o quadrado em 100 partes. Leitura identica mas com escala mais fina.</p></div>
-        <div class="card"><h4>Erro Comum</h4><p>Esquecer de converter Grid AZ para Magnetic AZ — erro de varios graus que pode custar o checkpoint. Sempre verificar o G-M Angle na margem do mapa.</p></div>
-        <div class="card"><h4>Back Azimuth</h4><p>Azimute de retorno. Se AZ &lt; 180&deg;: soma 180. Se AZ &gt; 180&deg;: subtrai 180. Ex: AZ 74&deg; &rarr; back AZ 254&deg;. Usado para confirmar posicao.</p></div>
+        <div class="card"><h4>Plotting</h4><p>Identify the 1000m square by the first 2 digits. Measure the last 3 digits in meters on the correct protractor scale. Always left to right, then bottom to top.</p></div>
+        <div class="card"><h4>8-Digit Grid</h4><p>For 10m precision. Ex: 045<strong>3</strong> 166<strong>3</strong>. The 2 extra digits divide the square into 100 parts. Identical reading but with a finer scale.</p></div>
+        <div class="card"><h4>Common Error</h4><p>Forgetting to convert Grid AZ to Magnetic AZ — an error of several degrees that can cost the checkpoint. Always check the G-M Angle in the map margin.</p></div>
+        <div class="card"><h4>Back Azimuth</h4><p>Return azimuth. If AZ &lt; 180&deg;: add 180. If AZ &gt; 180&deg;: subtract 180. Ex: AZ 74&deg; &rarr; back AZ 254&deg;. Used to confirm position.</p></div>
       </div>
     </div>
   </div>
@@ -1107,20 +1125,20 @@
   <!-- 3: Weapons Lane Overview -->
   <div class="slide" data-index="3">
     <div class="slide-content">
-      <div class="slide-number">FASE 03</div>
+      <div class="slide-number">PHASE 03</div>
       <div class="slide-icon">&#x1F52B;</div>
       <h1>Weapons Lane</h1>
-      <h2>Armamento e Emprego &bull; Visao Geral</h2>
+      <h2>Weapons and Employment &bull; Overview</h2>
       <div class="cards">
-        <div class="card"><h4>M4 Carbine / M16A4</h4><p>5.56mm. Desmontagem, montagem, functions check, stoppage drills, engajamento ate 300m.</p></div>
-        <div class="card"><h4>M17 / M18 Pistol</h4><p>9mm. Desmontagem, montagem, functions check, transicao de rifle, engajamento 7-25m.</p></div>
-        <div class="card"><h4>M240B (7.62) / M249 (5.56)</h4><p>Metralhadoras: barrel change, headspace &amp; timing (M2 .50), load/reload, belt feed.</p></div>
-        <div class="card"><h4>M320 Grenade Launcher</h4><p>40mm. Standalone e under-barrel. Ajuste de mira leaf/drop. HE e practice rounds.</p></div>
-        <div class="card"><h4>M2 .50 Caliber</h4><p>12.7mm. Headspace &amp; timing gauge. Single shot e automatico. Immediate/remedial action.</p></div>
+        <div class="card"><h4>M4 Carbine / M16A4</h4><p>5.56mm. Disassembly, reassembly, functions check, stoppage drills, engagement up to 300m.</p></div>
+        <div class="card"><h4>M17 / M18 Pistol</h4><p>9mm. Disassembly, reassembly, functions check, transition from rifle, engagement 7-25m.</p></div>
+        <div class="card"><h4>M240B (7.62) / M249 (5.56)</h4><p>Machine guns: barrel change, headspace &amp; timing (M2 .50), load/reload, belt feed.</p></div>
+        <div class="card"><h4>M320 Grenade Launcher</h4><p>40mm. Standalone and under-barrel. Leaf/drop sight adjustment. HE and practice rounds.</p></div>
+        <div class="card"><h4>M2 .50 Caliber</h4><p>12.7mm. Headspace &amp; timing gauge. Single shot and automatic. Immediate/remedial action.</p></div>
         <div class="card"><h4>AT4 / M67 / M18A1</h4><p>AT4 (84mm): backblast area. M67: 5m kill radius. Claymore: aiming stakes + M57 clacker.</p></div>
       </div>
       <p style="margin-top:1rem;font-size:.7rem;color:var(--text-dim);letter-spacing:.1em;">
-        PROXIMOS 2 SLIDES: STRIP + FUNCTIONS CHECK &nbsp;&#8594;
+        NEXT 2 SLIDES: STRIP + FUNCTIONS CHECK &nbsp;&#8594;
       </p>
     </div>
   </div>
@@ -1128,17 +1146,17 @@
   <!-- 4: M4 Strip, Reassembly & Functions Check -->
   <div class="slide" data-index="4">
     <div class="slide-content">
-      <div class="slide-number">FASE 03 &bull; DETALHE</div>
+      <div class="slide-number">PHASE 03 &bull; DETAIL</div>
       <div class="slide-badge">&#x1F52B; WEAPONS</div>
       <h1>M4 Carbine / M16A4</h1>
-      <h2>Field Strip e Functions Check</h2>
+      <h2>Field Strip and Functions Check</h2>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;text-align:left;">
 
         <!-- Left: Strip + Reassembly -->
         <div style="display:flex;flex-direction:column;gap:.75rem;">
           <div class="col-box">
-            <h4>&#x1F4E6; Desmontagem (Field Strip)</h4>
+            <h4>&#x1F4E6; Disassembly (Field Strip)</h4>
             <ul style="font-size:.75rem;">
               <li>Clear the weapon — magazine out, bolt to rear, inspect chamber</li>
               <li>Push takedown pin (front) — right to left</li>
@@ -1151,31 +1169,31 @@
             </ul>
           </div>
           <div class="col-box">
-            <h4>&#x1F527; Montagem (Reassembly)</h4>
+            <h4>&#x1F527; Reassembly</h4>
             <ul style="font-size:.75rem;">
-              <li>Reverse da desmontagem</li>
-              <li>Bolt cam pin instalado na orientacao correta</li>
+              <li>Reverse of disassembly</li>
+              <li>Bolt cam pin installed in the correct orientation</li>
               <li>Firing pin retaining pin fully seated</li>
-              <li>Charging handle encaixado corretamente no BCG</li>
-              <li>BCG desliza livre no upper receiver</li>
-              <li>Takedown e pivot pins fully seated</li>
-              <li>Buffer e spring corretamente instalados</li>
+              <li>Charging handle properly seated in the BCG</li>
+              <li>BCG slides freely in the upper receiver</li>
+              <li>Takedown and pivot pins fully seated</li>
+              <li>Buffer and spring correctly installed</li>
             </ul>
           </div>
         </div>
 
         <!-- Right: Functions Check -->
         <div>
-          <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);margin-bottom:.75rem;text-align:center;">&#x2705; Functions Check (8 Passos)</h4>
+          <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);margin-bottom:.75rem;text-align:center;">&#x2705; Functions Check (8 Steps)</h4>
           <ol class="steps" style="font-size:.72rem;">
-            <li><strong>Clear the weapon.</strong> Sem magazine. Confirmar camara vazia visualmente e tatilmente.</li>
-            <li><strong>SAFE.</strong> Seletor em SAFE. Puxar gatilho. <strong>Hammer NAO deve cair.</strong> <span class="note">FAIL = safety seletor com defeito</span></li>
-            <li><strong>SEMI.</strong> Seletor em SEMI. Puxar gatilho e manter pressionado. <strong>Hammer cai.</strong></li>
-            <li><strong>SEMI reset.</strong> Manter gatilho pressionado. Puxar charging handle. Soltar gatilho. <strong>Ouvir click.</strong> Puxar gatilho. <strong>Hammer cai.</strong> <span class="note">FAIL = disconnector com defeito</span></li>
-            <li><strong>BURST/AUTO.</strong> Seletor em BURST/AUTO. Puxar charging handle. Puxar gatilho e manter. <strong>Hammer cai.</strong></li>
-            <li><strong>Cycling.</strong> Manter gatilho. Puxar charging handle 3x (BURST) ou 1x (AUTO) e soltar. Soltar gatilho. Puxar. <strong>Hammer cai.</strong></li>
-            <li><strong>SEMI.</strong> Confirmar funcao semi-automatica novamente.</li>
-            <li><strong>SAFE.</strong> Seletor em SAFE. Arma segura. <span class="tag tag-green">COMPLETE</span></li>
+            <li><strong>Clear the weapon.</strong> No magazine. Confirm empty chamber visually and by touch.</li>
+            <li><strong>SAFE.</strong> Selector on SAFE. Pull the trigger. <strong>Hammer must NOT fall.</strong> <span class="note">FAIL = defective safety selector</span></li>
+            <li><strong>SEMI.</strong> Selector on SEMI. Pull the trigger and hold it back. <strong>Hammer falls.</strong></li>
+            <li><strong>SEMI reset.</strong> Hold the trigger back. Pull the charging handle. Release the trigger. <strong>Hear a click.</strong> Pull the trigger. <strong>Hammer falls.</strong> <span class="note">FAIL = defective disconnector</span></li>
+            <li><strong>BURST/AUTO.</strong> Selector on BURST/AUTO. Pull the charging handle. Pull the trigger and hold. <strong>Hammer falls.</strong></li>
+            <li><strong>Cycling.</strong> Hold the trigger. Pull the charging handle 3x (BURST) or 1x (AUTO) and release. Release the trigger. Pull. <strong>Hammer falls.</strong></li>
+            <li><strong>SEMI.</strong> Confirm semi-automatic function again.</li>
+            <li><strong>SAFE.</strong> Selector on SAFE. Weapon safe. <span class="tag tag-green">COMPLETE</span></li>
           </ol>
         </div>
       </div>
@@ -1185,46 +1203,46 @@
   <!-- 5: M17 Strip, Reassembly & Functions Check -->
   <div class="slide" data-index="5">
     <div class="slide-content">
-      <div class="slide-number">FASE 03 &bull; DETALHE</div>
+      <div class="slide-number">PHASE 03 &bull; DETAIL</div>
       <div class="slide-badge">&#x1F52B; WEAPONS</div>
       <h1>M17 / M18 Pistol</h1>
-      <h2>Field Strip e Functions Check</h2>
+      <h2>Field Strip and Functions Check</h2>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0;text-align:left;">
 
         <!-- Left: Strip + Reassembly -->
         <div style="display:flex;flex-direction:column;gap:.75rem;">
           <div class="col-box">
-            <h4>&#x1F4E6; Desmontagem (Field Strip)</h4>
+            <h4>&#x1F4E6; Disassembly (Field Strip)</h4>
             <ul style="font-size:.75rem;">
               <li>Clear the weapon — magazine out, slide to rear, inspect chamber (visual + tactile)</li>
-              <li>Rotate takedown lever (lado esquerdo) 90&deg; para baixo</li>
-              <li>Slide para frente, remover do frame</li>
-              <li>Remover recoil spring assembly</li>
-              <li>Remover barrel do slide</li>
-              <li>Nao ha necessidade de desmontagem adicional do fire control group</li>
+              <li>Rotate takedown lever (left side) 90&deg; downward</li>
+              <li>Slide forward, remove from the frame</li>
+              <li>Remove the recoil spring assembly</li>
+              <li>Remove the barrel from the slide</li>
+              <li>No further disassembly of the fire control group is needed</li>
             </ul>
           </div>
           <div class="col-box">
-            <h4>&#x1F527; Montagem (Reassembly)</h4>
+            <h4>&#x1F527; Reassembly</h4>
             <ul style="font-size:.75rem;">
-              <li>Inserir barrel no slide</li>
-              <li>Inserir recoil spring assembly (extremidade da mola menor para o barrel)</li>
-              <li>Slide + barrel + spring no frame, alinhar rails</li>
-              <li>Slide completamente para tras, rotacionar takedown lever 90&deg; para cima</li>
-              <li>Functions check obrigatorio</li>
+              <li>Insert the barrel into the slide</li>
+              <li>Insert the recoil spring assembly (smaller spring end toward the barrel)</li>
+              <li>Slide + barrel + spring onto the frame, align the rails</li>
+              <li>Slide fully to the rear, rotate the takedown lever 90&deg; upward</li>
+              <li>Functions check mandatory</li>
             </ul>
           </div>
         </div>
 
         <!-- Right: Functions Check -->
         <div>
-          <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);margin-bottom:.75rem;text-align:center;">&#x2705; Functions Check (4 Passos)</h4>
+          <h4 style="font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);margin-bottom:.75rem;text-align:center;">&#x2705; Functions Check (4 Steps)</h4>
           <ol class="steps" style="font-size:.72rem;">
-            <li><strong>Clear the weapon.</strong> Magazine out. Ejetar round da camara. Travar slide a retaguarda. Inspecionar visualmente + tactile check. <span class="tag tag-red">ALWAYS CLEAR</span></li>
-            <li><strong>Slide Lock.</strong> Pressionar slide catch. <strong>Slide avanca com forca.</strong> Hammer permanece cocked. <span class="note">FAIL = recoil spring fraco</span></li>
-            <li><strong>Trigger Function.</strong> Puxar gatilho. <strong>Striker dispara.</strong> Manter gatilho, puxar slide, soltar gatilho. <strong>Reset click.</strong> Puxar novamente. <strong>Striker dispara.</strong> <span class="note">FAIL = trigger bar/sear</span></li>
-            <li><strong>Safety Function.</strong> Safety em SAFE. Puxar gatilho. <strong>NAO dispara.</strong> Safety em FIRE. Puxar. <strong>Dispara.</strong> <span class="tag tag-green">COMPLETE</span></li>
+            <li><strong>Clear the weapon.</strong> Magazine out. Eject the round from the chamber. Lock the slide to the rear. Inspect visually + tactile check. <span class="tag tag-red">ALWAYS CLEAR</span></li>
+            <li><strong>Slide Lock.</strong> Press the slide catch. <strong>Slide moves forward with force.</strong> Hammer remains cocked. <span class="note">FAIL = weak recoil spring</span></li>
+            <li><strong>Trigger Function.</strong> Pull the trigger. <strong>Striker fires.</strong> Hold the trigger, pull the slide, release the trigger. <strong>Reset click.</strong> Pull again. <strong>Striker fires.</strong> <span class="note">FAIL = trigger bar/sear</span></li>
+            <li><strong>Safety Function.</strong> Safety on SAFE. Pull the trigger. <strong>Does NOT fire.</strong> Safety on FIRE. Pull. <strong>Fires.</strong> <span class="tag tag-green">COMPLETE</span></li>
           </ol>
         </div>
       </div>
@@ -1234,30 +1252,30 @@
   <!-- 6: M240/M249/M2 -->
   <div class="slide" data-index="6">
     <div class="slide-content">
-      <div class="slide-number">FASE 03 &bull; DETALHE</div>
+      <div class="slide-number">PHASE 03 &bull; DETAIL</div>
       <div class="slide-badge">&#x1F52B; WEAPONS</div>
       <h1>M240B &bull; M249 &bull; M2 .50 Cal</h1>
-      <h2>Procedimentos de Checagem</h2>
+      <h2>Checking Procedures</h2>
       <div class="cards">
         <div class="card">
           <h4>M240B (7.62mm)</h4>
-          <p><strong>Headspace &amp; Timing:</strong> Ja feito de fabrica — barrel fixo, nao requer ajuste de campo. Apenas verificar se o barrel esta totalmente travado (locking lever).</p>
-          <p style="margin-top:.5rem"><strong>Functions Check:</strong> Bolt para tras, gatilho — bolt avanca. Segurar gatilho, bolt fica para frente. Soltar, bolt permanece. Carregar belt, charging handle para tras 2x, gatilho — dispara. Segurar = fogo continuo. Soltar = cessa.</p>
+          <p><strong>Headspace &amp; Timing:</strong> Set at the factory — fixed barrel, no field adjustment required. Just verify the barrel is fully locked (locking lever).</p>
+          <p style="margin-top:.5rem"><strong>Functions Check:</strong> Bolt to the rear, trigger — bolt moves forward. Hold the trigger, bolt stays forward. Release, bolt remains. Load the belt, charging handle to the rear 2x, trigger — fires. Hold = continuous fire. Release = ceases.</p>
         </div>
         <div class="card">
           <h4>M249 SAW (5.56mm)</h4>
           <p><strong>Field Strip:</strong> Remove barrel, handguard, operating rod + spring, bolt assembly, trigger housing.</p>
-          <p style="margin-top:.5rem"><strong>Functions Check:</strong> Bolt fechado. Carregar belt/drum. Puxar charging handle para tras e soltar. Gatilho — bolt avanca, dispara. AUTO e SEMI positions testadas. Feed pawls engajam corretamente.</p>
+          <p style="margin-top:.5rem"><strong>Functions Check:</strong> Bolt closed. Load belt/drum. Pull the charging handle to the rear and release. Trigger — bolt moves forward, fires. AUTO and SEMI positions tested. Feed pawls engage correctly.</p>
         </div>
         <div class="card">
           <h4>M2 .50 Cal (12.7mm)</h4>
-          <p><strong>Headspace:</strong> Usar headspace &amp; timing gauge (GO/NO-GO). Barrel totalmente rosqueado, destravar 2 clicks. Gauge GO = entra entre bolt face e barrel. Gauge NO-GO = NAO entra.</p>
-          <p style="margin-top:.5rem"><strong>Timing:</strong> Ajustar timing nut ate que o tiro ocorra no ponto correto do ciclo. FIRE gauge = gap de .020" entre bolt face e barrel. Verificar disparo manual com charging handle.</p>
+          <p><strong>Headspace:</strong> Use the headspace &amp; timing gauge (GO/NO-GO). Barrel fully threaded, back off 2 clicks. GO gauge = fits between bolt face and barrel. NO-GO gauge = does NOT fit.</p>
+          <p style="margin-top:.5rem"><strong>Timing:</strong> Adjust the timing nut until the shot fires at the correct point in the cycle. FIRE gauge = .020" gap between bolt face and barrel. Verify manual firing with the charging handle.</p>
         </div>
         <div class="card">
           <h4>AT4 / M67 / Claymore</h4>
-          <p><strong>AT4 (84mm):</strong> Confirmar backblast area 90m (cone 60&deg;). Remover safeties. Extender tube. Armar firing mechanism. Mira pop-up. Disparo: apertar trigger forward.</p>
-          <p style="margin-top:.5rem"><strong>M67:</strong> Remover safety clip + pin. Empunhadura firme. Lanzar em arco. <strong>5m</strong> kill radius / <strong>15m</strong> casualty radius. Abrigar-se apos lancamento.</p>
+          <p><strong>AT4 (84mm):</strong> Confirm 90m backblast area (60&deg; cone). Remove safeties. Extend the tube. Arm the firing mechanism. Pop-up sight. Fire: squeeze the forward trigger.</p>
+          <p style="margin-top:.5rem"><strong>M67:</strong> Remove the safety clip + pin. Firm grip. Throw in an arc. <strong>5m</strong> kill radius / <strong>15m</strong> casualty radius. Seek cover after the throw.</p>
           <p style="margin-top:.5rem"><strong>M18A1 Claymore:</strong> Aiming stakes. M57 clacker — 3 squeezes (test, arm, fire). Backblast safe area: 16m lateral, 100m frontal.</p>
         </div>
       </div>
@@ -1267,20 +1285,20 @@
   <!-- 7: Medical Lane -->
   <div class="slide" data-index="7">
     <div class="slide-content">
-      <div class="slide-number">FASE 04</div>
+      <div class="slide-number">PHASE 04</div>
       <div class="slide-icon">&#x1FA7A;</div>
       <h1>Medical Lane</h1>
-      <h2>Tactical Combat Casualty Care &bull; Protocolo MARCH</h2>
+      <h2>Tactical Combat Casualty Care &bull; MARCH Protocol</h2>
       <div class="cards">
-        <div class="card"><h4>M &mdash; Massive Hemorrhage</h4><p>Tourniquet de combate (CAT) aplicado alto e apertado. 2 torniquetes se necessario. Junctional TQ para virilha/axila. Hemostatic gauze (Celox/QuikClot) com pressao direta por 3 min.</p></div>
-        <div class="card"><h4>A &mdash; Airway</h4><p>Nasopharyngeal Airway (NPA) 28F. Medir: ponta do nariz ao lobo da orelha. Lubrificar. Inserir com bisel voltado para o septo. Cricotirotomia de emergencia se necessario. Recovery position.</p></div>
-        <div class="card"><h4>R &mdash; Respiration</h4><p>Verificar elevacao simetrica do torax. Chest seal (Bolin/Hyfin) em feridas abertas no torso. Needle Decompression (NDC) 14G, 3.25" — 2&ordm; espaco intercostal, linha mid-clavicular. Angulo de 90&deg;.</p></div>
-        <div class="card"><h4>C &mdash; Circulation</h4><p>Avaliar pulso radial (presente = PAS &ge; 80 mmHg). IV/IO access se necessario. Fluid resuscitation: Hextend ou LR. Prevenir hipotermia: mantas, blizzard blanket, aquecimento passivo.</p></div>
-        <div class="card"><h4>H &mdash; Hypothermia / Head Injury</h4><p>Prevenir perda de calor. Manta termica (blizzard). Aquecedores quimicos em axilas e virilha. Avaliar pupilas, Glasgow Coma Scale. Anotar alteracoes de consciencia.</p></div>
-        <div class="card"><h4>Evacuation / CASEVAC</h4><p>Drags: Ranger roll, collar, two-man. Carries: fireman, pack strap. Litter carries: 4-man. Preparar DD 1380. Comunicar prioridade ao comando.</p></div>
+        <div class="card"><h4>M &mdash; Massive Hemorrhage</h4><p>Combat Application Tourniquet (CAT) applied high and tight. 2 tourniquets if needed. Junctional TQ for groin/axilla. Hemostatic gauze (Celox/QuikClot) with direct pressure for 3 min.</p></div>
+        <div class="card"><h4>A &mdash; Airway</h4><p>Nasopharyngeal Airway (NPA) 28F. Measure: tip of the nose to the earlobe. Lubricate. Insert with the bevel facing the septum. Emergency cricothyrotomy if needed. Recovery position.</p></div>
+        <div class="card"><h4>R &mdash; Respiration</h4><p>Check for symmetric chest rise. Chest seal (Bolin/Hyfin) on open torso wounds. Needle Decompression (NDC) 14G, 3.25" — 2nd intercostal space, mid-clavicular line. 90&deg; angle.</p></div>
+        <div class="card"><h4>C &mdash; Circulation</h4><p>Assess radial pulse (present = SBP &ge; 80 mmHg). IV/IO access if needed. Fluid resuscitation: Hextend or LR. Prevent hypothermia: blankets, blizzard blanket, passive rewarming.</p></div>
+        <div class="card"><h4>H &mdash; Hypothermia / Head Injury</h4><p>Prevent heat loss. Thermal blanket (blizzard). Chemical heat packs at the axilla and groin. Assess pupils, Glasgow Coma Scale. Note changes in consciousness.</p></div>
+        <div class="card"><h4>Evacuation / CASEVAC</h4><p>Drags: Ranger roll, collar, two-man. Carries: fireman, pack strap. Litter carries: 4-man. Prepare DD 1380. Communicate priority to command.</p></div>
       </div>
       <div class="highlights">
-        <div class="highlight"><div class="highlight-val">MARCH</div><div class="highlight-label">Algoritmo</div></div>
+        <div class="highlight"><div class="highlight-val">MARCH</div><div class="highlight-label">Algorithm</div></div>
         <div class="highlight"><div class="highlight-val">CUF</div><div class="highlight-label">Care Under Fire</div></div>
         <div class="highlight"><div class="highlight-val">TFC</div><div class="highlight-label">Tactical Field Care</div></div>
       </div>
@@ -1290,17 +1308,17 @@
   <!-- 8: Patrol Lane -->
   <div class="slide" data-index="8">
     <div class="slide-content">
-      <div class="slide-number">FASE 05</div>
+      <div class="slide-number">PHASE 05</div>
       <div class="slide-icon">&#x1F6E1;&#xFE0F;</div>
       <h1>Patrol Lane</h1>
-      <h2>Operacoes de Patrulha e Combate</h2>
+      <h2>Patrol and Combat Operations</h2>
       <div class="cards">
-        <div class="card"><h4>React to Contact</h4><p>Contato direto: "CONTACT FRONT/LEFT/RIGHT/REAR". Buscar cobertura imediata. Retornar fogo na direcao do inimigo. Lider de esquadra manobra elemento de flanco. Supressao + assalto.</p></div>
-        <div class="card"><h4>React to IED</h4><p><strong>5 C's:</strong> Confirm (e um IED?), Clear (area de civis), Cordon (perimetro 300m), Check (inspecao visual), Control (reportar via radio para EOD). Nunca tocar ou mover o dispositivo.</p></div>
-        <div class="card"><h4>React to Ambush</h4><p><strong>Near ambush</strong> (dentro do kill zone): ataque agressivo imediato na direcao da emboscada. <strong>Far ambush</strong> (fora do kill zone): retornar fogo + buscar cobertura + manobrar contra.</p></div>
-        <div class="card"><h4>Hand &amp; Arm Signals</h4><p>Sinais padronizados: Rally Point, Halt, Enemy Spotted, Wedge Formation, Increase Speed, Head Count. Comunicacao visual silenciosa. Confirmacao: apontar + sinal + executar.</p></div>
-        <div class="card"><h4>Movement Techniques</h4><p><strong>Traveling:</strong> baixa ameaca, max velocidade. <strong>Traveling Overwatch:</strong> ameaca moderada, overwatch a frente. <strong>Bounding Overwatch:</strong> alta ameaca, alterna cobertura/movimento. Formacoes: wedge, file, line.</p></div>
-        <div class="card"><h4>Call for Fire / Reportar</h4><p>Grid/Polar/Shift from known point. 6 elementos: observer ID, warning order, target location, target description, method of engagement, method of fire &amp; control. Spot Report: quem, onde, o que.</p></div>
+        <div class="card"><h4>React to Contact</h4><p>Direct contact: "CONTACT FRONT/LEFT/RIGHT/REAR". Seek immediate cover. Return fire toward the enemy. Squad leader maneuvers the flanking element. Suppress + assault.</p></div>
+        <div class="card"><h4>React to IED</h4><p><strong>5 C's:</strong> Confirm (is it an IED?), Clear (the area of civilians), Cordon (300m perimeter), Check (visual inspection), Control (report via radio to EOD). Never touch or move the device.</p></div>
+        <div class="card"><h4>React to Ambush</h4><p><strong>Near ambush</strong> (inside the kill zone): immediate aggressive assault toward the ambush. <strong>Far ambush</strong> (outside the kill zone): return fire + seek cover + maneuver against it.</p></div>
+        <div class="card"><h4>Hand &amp; Arm Signals</h4><p>Standardized signals: Rally Point, Halt, Enemy Spotted, Wedge Formation, Increase Speed, Head Count. Silent visual communication. Confirmation: point + signal + execute.</p></div>
+        <div class="card"><h4>Movement Techniques</h4><p><strong>Traveling:</strong> low threat, max speed. <strong>Traveling Overwatch:</strong> moderate threat, overwatch to the front. <strong>Bounding Overwatch:</strong> high threat, alternates cover/movement. Formations: wedge, file, line.</p></div>
+        <div class="card"><h4>Call for Fire / Reporting</h4><p>Grid/Polar/Shift from known point. 6 elements: observer ID, warning order, target location, target description, method of engagement, method of fire &amp; control. Spot Report: who, where, what.</p></div>
       </div>
     </div>
   </div>
@@ -1308,20 +1326,20 @@
   <!-- 9: Communications Lane Overview -->
   <div class="slide" data-index="9">
     <div class="slide-content">
-      <div class="slide-number">FASE 06</div>
+      <div class="slide-number">PHASE 06</div>
       <div class="slide-icon">&#x1F4FB;</div>
       <h1>Communications Lane</h1>
-      <h2>Comunicacoes Taticas &bull; Visao Geral</h2>
+      <h2>Tactical Communications &bull; Overview</h2>
       <div class="cards">
-        <div class="card"><h4>SINCGARS Radio (RT-1523)</h4><p>Operacao basica: power on, load single channel freq (SC), FH mode sync, fill COMSEC (KY-57/100). Time sync via GPS (PLGR/DAGR). Troubleshooting: check battery, antenna, cable conexao, fill.</p></div>
-        <div class="card"><h4>9-Line MEDEVAC</h4><p>Pedido de evacuacao medica — formato padronizado NATO. 9 linhas de informacao critica. <strong>Ver proximo slide para detalhes completos e exemplo real.</strong></p></div>
-        <div class="card"><h4>Call for Fire</h4><p>Pedido de apoio de fogo indireto: artilharia, morteiros, naval gunfire. Metodo grid (mais comum), polar, shift from a known point. Ajuste de fogo: OT direction, correction em metros.</p></div>
-        <div class="card"><h4>SALUTE Report</h4><p>Inteligencia: <strong>S</strong>ize, <strong>A</strong>ctivity, <strong>L</strong>ocation (grid), <strong>U</strong>nit (uniform/insignia), <strong>T</strong>ime (DTG), <strong>E</strong>quipment. Reporte imediato de atividade inimiga observada.</p></div>
-        <div class="card"><h4>LACE Report</h4><p>Status logistico: <strong>L</strong>iquid (agua), <strong>A</strong>mmo (municao), <strong>C</strong>asualties (baixas), <strong>E</strong>quipment (status). Usado para SITREP de combate.</p></div>
-        <div class="card"><h4>Radio Discipline</h4><p>Pro-words: OVER, OUT, ROGER, WILCO, BREAK, I SAY AGAIN, AUTHENTICATE. Phonetic alphabet. Numero: "niner", "tree", "fife". Jammed: mudar para FH ou frequencia alternativa.</p></div>
+        <div class="card"><h4>SINCGARS Radio (RT-1523)</h4><p>Basic operation: power on, load single channel freq (SC), FH mode sync, fill COMSEC (KY-57/100). Time sync via GPS (PLGR/DAGR). Troubleshooting: check battery, antenna, cable connection, fill.</p></div>
+        <div class="card"><h4>9-Line MEDEVAC</h4><p>Medical evacuation request — standardized NATO format. 9 lines of critical information. <strong>See the next slide for full details and a real example.</strong></p></div>
+        <div class="card"><h4>Call for Fire</h4><p>Request for indirect fire support: artillery, mortars, naval gunfire. Grid method (most common), polar, shift from a known point. Fire adjustment: OT direction, correction in meters.</p></div>
+        <div class="card"><h4>SALUTE Report</h4><p>Intelligence: <strong>S</strong>ize, <strong>A</strong>ctivity, <strong>L</strong>ocation (grid), <strong>U</strong>nit (uniform/insignia), <strong>T</strong>ime (DTG), <strong>E</strong>quipment. Immediate report of observed enemy activity.</p></div>
+        <div class="card"><h4>LACE Report</h4><p>Logistics status: <strong>L</strong>iquid (water), <strong>A</strong>mmo, <strong>C</strong>asualties, <strong>E</strong>quipment (status). Used for combat SITREPs.</p></div>
+        <div class="card"><h4>Radio Discipline</h4><p>Pro-words: OVER, OUT, ROGER, WILCO, BREAK, I SAY AGAIN, AUTHENTICATE. Phonetic alphabet. Numbers: "niner", "tree", "fife". Jammed: switch to FH or an alternate frequency.</p></div>
       </div>
       <p style="margin-top:1rem;font-size:.7rem;color:var(--text-dim);letter-spacing:.1em;">
-        PROXIMO SLIDE: 9-LINE MEDEVAC DETALHADO &nbsp;&#8594;
+        NEXT SLIDE: 9-LINE MEDEVAC IN DETAIL &nbsp;&#8594;
       </p>
     </div>
   </div>
@@ -1329,34 +1347,34 @@
   <!-- 10: 9-Line MEDEVAC Detailed -->
   <div class="slide" data-index="10">
     <div class="slide-content">
-      <div class="slide-number">FASE 06 &bull; DETALHE</div>
+      <div class="slide-number">PHASE 06 &bull; DETAIL</div>
       <div class="slide-badge">&#x1F4FB; 9-LINE MEDEVAC</div>
       <h1>9-Line MEDEVAC</h1>
-      <h2>Medical Evacuation Request &bull; Explicacao e Exemplo</h2>
+      <h2>Medical Evacuation Request &bull; Explanation and Example</h2>
 
       <div style="display:grid;grid-template-columns:1.3fr 1fr;gap:1rem;margin:1rem 0;text-align:left;">
 
         <!-- Left: Explanation -->
         <div>
-          <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;text-align:center;">Significado</h4>
+          <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--accent-glow);margin-bottom:.5rem;text-align:center;">Meaning</h4>
           <table class="niner">
             <tbody>
-              <tr><th>Line 1</th><td><strong>Pickup Location (Grid)</strong> — Coordenada MGRS de 6 ou 8 digitos do ponto de pouso.</td></tr>
-              <tr><th>Line 2</th><td><strong>Radio Freq, Call Sign, Suffix</strong> — Frequencia e identificacao no ar.</td></tr>
+              <tr><th>Line 1</th><td><strong>Pickup Location (Grid)</strong> — 6- or 8-digit MGRS coordinate of the landing point.</td></tr>
+              <tr><th>Line 2</th><td><strong>Radio Freq, Call Sign, Suffix</strong> — Frequency and identification over the air.</td></tr>
               <tr><th>Line 3</th><td><strong>Patients by Precedence</strong> — <span class="tag tag-red">A-URGENT</span> <span class="tag tag-gold">B-PRIORITY</span> <span class="tag tag-green">C-ROUTINE</span> <span class="tag tag-gold">D-CONV.</span></td></tr>
               <tr><th>Line 4</th><td><strong>Special Equipment</strong> — A=None, B=Hoist, C=Extraction, D=Ventilator.</td></tr>
-              <tr><th>Line 5</th><td><strong>Patients by Type</strong> — L=Litter (maca) + A=Ambulatory (caminha). Ex: L+2, A+0.</td></tr>
+              <tr><th>Line 5</th><td><strong>Patients by Type</strong> — L=Litter + A=Ambulatory. Ex: L+2, A+0.</td></tr>
               <tr><th>Line 6</th><td><strong>Security at Pickup Site</strong> — N=None, P=Possible, E=Enemy, X=Escort.</td></tr>
               <tr><th>Line 7</th><td><strong>Marking Method</strong> — A=Panels, B=Pyro, C=Smoke, D=None, E=IR Strobe.</td></tr>
               <tr><th>Line 8</th><td><strong>Patient Nationality</strong> — A=US Mil, B=US Civ, C=Non-US, D=Non-US Civ, E=EPW.</td></tr>
-              <tr><th>Line 9</th><td><strong>NBC Contamination</strong> — N=Nuclear, B=Biological, C=Chemical. Paz: NONE.</td></tr>
+              <tr><th>Line 9</th><td><strong>NBC Contamination</strong> — N=Nuclear, B=Biological, C=Chemical. Peacetime: NONE.</td></tr>
             </tbody>
           </table>
         </div>
 
         <!-- Right: Example -->
         <div>
-          <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);margin-bottom:.5rem;text-align:center;">Exemplo Real de Transmissao</h4>
+          <h4 style="font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);margin-bottom:.5rem;text-align:center;">Real Transmission Example</h4>
           <table class="niner">
             <tbody>
               <tr class="example-line"><th>Line 1</th><td>18S UJ 48210763</td></tr>
@@ -1372,11 +1390,11 @@
           </table>
 
           <div style="margin-top:.75rem;font-size:.65rem;color:var(--text-dim);line-height:1.7;background:var(--card-bg);border:1px solid var(--border);border-radius:6px;padding:.5rem .7rem;">
-            <strong style="color:var(--gold);font-size:.65rem;">Script de Transmissao:</strong><br>
+            <strong style="color:var(--gold);font-size:.65rem;">Transmission Script:</strong><br>
             "DUSTOFF 11, this is TANGO 2-6, MEDEVAC, over."<br>
-            Aguardar resposta. Ler linha por linha.<br>
-            Confirmar com "I SAY AGAIN" se necessario.<br>
-            Finalizar: "OVER" para resposta da aeronave.
+            Wait for response. Read line by line.<br>
+            Confirm with "I SAY AGAIN" if needed.<br>
+            End with: "OVER" for the aircraft's response.
           </div>
 
           <div style="margin-top:.4rem;display:flex;gap:.35rem;flex-wrap:wrap;justify-content:center;">
@@ -1393,15 +1411,15 @@
   <!-- 11: CBRN Lane -->
   <div class="slide" data-index="11">
     <div class="slide-content">
-      <div class="slide-number">FASE 07</div>
+      <div class="slide-number">PHASE 07</div>
       <div class="slide-icon">&#x2622;&#xFE0F;</div>
       <h1>CBRN Lane</h1>
-      <h2>Defesa Quimica, Biologica, Radiologica e Nuclear</h2>
+      <h2>Chemical, Biological, Radiological, and Nuclear Defense</h2>
       <div class="cards">
         <div class="card"><h4>MOPP Levels</h4><p><strong>MOPP 0:</strong> Only mask carried. <strong>MOPP 1:</strong> JSLIST worn. <strong>MOPP 2:</strong> + Overboots. <strong>MOPP 3:</strong> + Mask &amp; hood. <strong>MOPP 4:</strong> + Gloves (all sealed).</p></div>
-        <div class="card"><h4>M50 Mask Don/Doff</h4><p>DON (&lt;9s): Prender respiracao, remover cobertura, puxar mask sobre o rosto, apertar straps (bottom-top-front), exalar forte para selar. DOFF: sem contaminacao, procedure inverso.</p></div>
-        <div class="card"><h4>MOPP Gear Exchange</h4><p>Troca de JSLIST contaminado em ambiente CBRN. Buddy team. Corte ou remocao sem contaminar a pele. M291 SDK para limpeza de pele. M295 wipes para equipamento.</p></div>
-        <div class="card"><h4>Detection Kits</h4><p><strong>M8 Paper:</strong> Detecta G (Nerve) — amarelo, V (Nerve) — verde, H (Blister/mustard) — vermelho. <strong>M9 Paper:</strong> Detecta agentes liquidos (fica rosa/vermelho). <strong>M256A1:</strong> Detector quimico portatil com ampoules.</p></div>
+        <div class="card"><h4>M50 Mask Don/Doff</h4><p>DON (&lt;9s): Hold your breath, remove headgear, pull the mask over your face, tighten straps (bottom-top-front), exhale hard to seal. DOFF: no contamination, reverse procedure.</p></div>
+        <div class="card"><h4>MOPP Gear Exchange</h4><p>Exchanging contaminated JSLIST in a CBRN environment. Buddy team. Cut or remove without contaminating the skin. M291 SDK for skin decon. M295 wipes for equipment.</p></div>
+        <div class="card"><h4>Detection Kits</h4><p><strong>M8 Paper:</strong> Detects G (Nerve) — yellow, V (Nerve) — green, H (Blister/mustard) — red. <strong>M9 Paper:</strong> Detects liquid agents (turns pink/red). <strong>M256A1:</strong> Portable chemical detector kit with ampoules.</p></div>
       </div>
       <div class="highlights">
         <div class="highlight"><div class="highlight-val">0-4</div><div class="highlight-label">MOPP Levels</div></div>
@@ -1414,25 +1432,25 @@
   <!-- 12: Ruck March -->
   <div class="slide" data-index="12">
     <div class="slide-content">
-      <div class="slide-number">FASE 08</div>
+      <div class="slide-number">PHASE 08</div>
       <div class="slide-icon">&#x1F3C3;</div>
       <h1>12-Mile Ruck March</h1>
-      <h2>Marcha de 12 Milhas &bull; Prova Final</h2>
+      <h2>12-Mile March &bull; Final Event</h2>
       <div class="highlights">
-        <div class="highlight"><div class="highlight-val">19.3 km</div><div class="highlight-label">12 Milhas</div></div>
-        <div class="highlight"><div class="highlight-val">3:00:00</div><div class="highlight-label">Tempo Maximo</div></div>
-        <div class="highlight"><div class="highlight-val">35 lbs</div><div class="highlight-label">Peso Minimo</div></div>
+        <div class="highlight"><div class="highlight-val">19.3 km</div><div class="highlight-label">12 Miles</div></div>
+        <div class="highlight"><div class="highlight-val">3:00:00</div><div class="highlight-label">Max Time</div></div>
+        <div class="highlight"><div class="highlight-val">35 lbs</div><div class="highlight-label">Min Weight</div></div>
       </div>
       <p style="margin-top:2rem;font-size:.95rem;color:var(--text-dim);max-width:620px;margin-inline:auto;line-height:1.8;">
-        Marcha forcada de 19,3 km com mochila (rucksack) de no minimo <strong>35 libras (~16 kg)</strong>
-        em ate <strong>3 horas</strong>. Ritmo minimo: <strong>15 minutos por milha</strong> (9:20/km).
-        Botas de combate (AR 670-1) obrigatorias. Sem assistencia externa. Hidratacao em checkpoints.
-        Peso seco da mochila (sem agua, sem MRE consumido, sem M4). Finaliza toda a testagem ESB.
+        Forced march of 19.3 km with a rucksack weighing at least <strong>35 pounds (~16 kg)</strong>
+        in up to <strong>3 hours</strong>. Minimum pace: <strong>15 minutes per mile</strong> (9:20/km).
+        Combat boots (AR 670-1) mandatory. No outside assistance. Hydration at checkpoints.
+        Dry rucksack weight (no water, no consumed MREs, no M4). Concludes all ESB testing.
       </p>
       <div class="cards" style="margin-top:1.5rem;">
-        <div class="card"><h4>Preparacao</h4><p>Hidratar bem 48h antes. Carboidratos complexos na noite anterior. Anti-atrito (Body Glide, fita Leukoplast). Testar mochila e ajuste de straps.</p></div>
-        <div class="card"><h4>Estrategia</h4><p>Ritmo constante: ~14:30/mi no primeiro terco, manter nos 10 km do meio, acelerar nos ultimos 3 km. Passadas curtas e regulares. Nao parar nos checkpoints.</p></div>
-        <div class="card"><h4>Pesagem</h4><p>Mochila pesada ANTES e APOS a marcha. Peso seco minimo: 35 lbs. Itens padrao: camelback cheio, uniforme extra, MRE, poncho, cold weather gear. Sem pesos "falsos" (anvil, dumbbell).</p></div>
+        <div class="card"><h4>Preparation</h4><p>Hydrate well 48h before. Complex carbohydrates the night before. Anti-chafing (Body Glide, Leukotape). Test the rucksack and adjust straps.</p></div>
+        <div class="card"><h4>Strategy</h4><p>Steady pace: ~14:30/mi in the first third, hold it through the middle 10 km, push the last 3 km. Short, regular strides. Don't stop at checkpoints.</p></div>
+        <div class="card"><h4>Weigh-In</h4><p>Rucksack weighed BEFORE and AFTER the march. Minimum dry weight: 35 lbs. Standard items: full camelback, extra uniform, MRE, poncho, cold weather gear. No "fake" weights (anvils, dumbbells).</p></div>
       </div>
     </div>
   </div>
@@ -1440,18 +1458,18 @@
   <!-- 13: Award / Conclusion -->
   <div class="slide" data-index="13">
     <div class="slide-content">
-      <div class="slide-number">CONCLUSAO</div>
+      <div class="slide-number">CONCLUSION</div>
       <div class="slide-icon">&#x1F396;&#xFE0F;</div>
       <h1>Expert Soldier Badge</h1>
-      <h2>Awarded for Excellence &bull; 2019 &ndash; Presente</h2>
+      <h2>Awarded for Excellence &bull; 2019 &ndash; Present</h2>
       <p style="font-size:.95rem;max-width:650px;margin-inline:auto;margin-top:1.25rem;line-height:1.9;color:var(--text-dim);">
-        O ESB reconhece soldados que demonstram dominio em <strong style="color:var(--gold);">30 Warrior Tasks (SL1)</strong>
-        e <strong style="color:var(--gold);">5 Mission Essential Tasks</strong> escolhidas pelo comandante.
-        Exclusivo para MOS fora de Infantaria (11-series), Special Forces (18-series) e Combat Medic (68W).
-        Equivalente ao Expert Infantryman Badge (EIB) e Expert Field Medical Badge (EFMB).
+        The ESB recognizes soldiers who demonstrate mastery of <strong style="color:var(--gold);">30 Warrior Tasks (SL1)</strong>
+        and <strong style="color:var(--gold);">5 Mission Essential Tasks</strong> chosen by the commander.
+        Exclusive to MOS outside Infantry (11-series), Special Forces (18-series), and Combat Medic (68W).
+        Equivalent to the Expert Infantryman Badge (EIB) and Expert Field Medical Badge (EFMB).
       </p>
       <div class="highlights" style="margin-top:1.5rem;">
-        <div class="highlight"><div class="highlight-val">2019</div><div class="highlight-label">Estabelecido</div></div>
+        <div class="highlight"><div class="highlight-val">2019</div><div class="highlight-label">Established</div></div>
         <div class="highlight"><div class="highlight-val">30+5</div><div class="highlight-label">Tasks</div></div>
         <div class="highlight"><div class="highlight-val">MCAB</div><div class="highlight-label">Master Combat</div></div>
       </div>
@@ -1468,15 +1486,16 @@
 
 <!-- Controls -->
 <div class="controls">
-  <button class="nav-btn" id="prevBtn" title="Anterior (Seta Esquerda)">&#8592;</button>
+  <button class="nav-btn" id="prevBtn" title="Previous (Left Arrow)">&#8592;</button>
   <div class="dots" id="dots"></div>
   <div style="display:flex;gap:.6rem;align-items:center;">
     <button class="fullscreen-btn" id="fsBtn" title="Fullscreen (F)">&#x26F6;</button>
-    <button class="nav-btn" id="nextBtn" title="Proximo (Seta Direita)">&#8594;</button>
+    <button class="nav-btn" id="nextBtn" title="Next (Right Arrow)">&#8594;</button>
   </div>
 </div>
 
-<div class="kbd-hint">ESC para sair &bull; HOME / END</div>
+<a class="menu-link" href="../index.html">&#8592; MENU</a>
+<div class="kbd-hint">ESC to exit &bull; HOME / END</div>
 
 <script>
 (function() {
