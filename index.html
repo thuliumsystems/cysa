@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BSEP &amp; CySA+ Study Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        font-family: 'Inter', system-ui, sans-serif;
+        background: linear-gradient(135deg, #070b17 0%, #111827 50%, #0a1628 100%);
+        color: #e2e8f0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 960px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 48px;
+      }
+
+      .emblem {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 72px;
+        height: 72px;
+        border: 2px solid #38bdf8;
+        border-radius: 50%;
+        margin-bottom: 16px;
+        background: rgba(56, 189, 248, 0.08);
+        box-shadow: 0 0 40px rgba(56, 189, 248, 0.15);
+      }
+
+      .emblem svg {
+        width: 36px;
+        height: 36px;
+      }
+
+      .header h1 {
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        background: linear-gradient(135deg, #38bdf8, #818cf8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .header .subtitle {
+        font-size: 16px;
+        color: #94a3b8;
+        margin-top: 6px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+
+      @media (max-width: 720px) {
+        .grid { grid-template-columns: 1fr; }
+        .header h1 { font-size: 28px; }
+      }
+
+      .card {
+        background: linear-gradient(145deg, #1a2332, #0f172a);
+        border: 1px solid #1e293b;
+        border-radius: 20px;
+        padding: 36px 24px;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.3s ease;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .card:hover {
+        transform: translateY(-4px);
+        border-color: #334155;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+      }
+
+      .card:active {
+        transform: translateY(-2px);
+      }
+
+      .card .icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        transition: transform 0.3s ease;
+      }
+
+      .card:hover .icon {
+        transform: scale(1.1);
+      }
+
+      .icon-bsep { background: rgba(56, 189, 248, 0.12); color: #38bdf8; }
+      .icon-cysa { background: rgba(129, 140, 248, 0.12); color: #818cf8; }
+      .icon-esb { background: rgba(74, 124, 46, 0.18); color: #7ec850; }
+
+      .card h2 {
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      .card p {
+        font-size: 13px;
+        color: #94a3b8;
+        line-height: 1.5;
+      }
+
+      .card .enter-btn {
+        margin-top: 8px;
+        padding: 10px 32px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        color: #fff;
+      }
+
+      .enter-btn-bsep { background: #2563eb; }
+      .enter-btn-cysa { background: #7c3aed; }
+      .enter-btn-esb { background: #4a7c2e; }
+
+      .card:hover .enter-btn-bsep { filter: brightness(1.2); box-shadow: 0 4px 20px rgba(37, 99, 235, 0.35); }
+      .card:hover .enter-btn-cysa { filter: brightness(1.2); box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35); }
+      .card:hover .enter-btn-esb { filter: brightness(1.2); box-shadow: 0 4px 20px rgba(74, 124, 46, 0.35); }
+
+      .footer {
+        text-align: center;
+        margin-top: 48px;
+        font-size: 12px;
+        color: #475569;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="emblem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <h1>Study Hub</h1>
+        <div class="subtitle">BSEP &amp; CySA+</div>
+      </div>
+
+      <div class="grid">
+        <a class="card" href="bsep/index.html">
+          <div class="icon icon-bsep">📖</div>
+          <h2>BSEP</h2>
+          <p>Basic Skill Education Program &mdash; Pre-Assessment Test de inglês (Word Knowledge, Paragraph Comprehension) e matemática.</p>
+          <div class="enter-btn enter-btn-bsep">Start</div>
+        </a>
+
+        <a class="card" href="cysa/index.html">
+          <div class="icon icon-cysa">🛡️</div>
+          <h2>CySA+</h2>
+          <p>Guia interativo em português para a certificação CompTIA CySA+ (CS0-003), com questões e análise de erros.</p>
+          <div class="enter-btn enter-btn-cysa">Start</div>
+        </a>
+
+        <a class="card" href="esb/index.html">
+          <div class="icon icon-esb">🎖️</div>
+          <h2>ESB</h2>
+          <p>Expert Soldier Badge</p>
+          <div class="enter-btn enter-btn-esb">Start</div>
+        </a>
+      </div>
+
+      <div class="footer">
+        Study Hub &copy; 2026
+      </div>
+    </div>
+  </body>
+</html>
